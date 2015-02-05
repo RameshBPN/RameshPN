@@ -8,5 +8,10 @@ public with sharing class TestJenkins
 {
 /*
 committed in AMDEV-1
+
+Public void display()
+{
+ system.debug('say hello');
+}
 */
 }
