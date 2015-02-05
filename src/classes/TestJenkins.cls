@@ -7,6 +7,6 @@
 public with sharing class TestJenkins
 {
 /*
-committed in AMDEV
+committed in AMDEV-1
 */
 }
