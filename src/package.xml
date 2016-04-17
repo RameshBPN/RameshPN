@@ -190,7 +190,6 @@
         <members>AccountPlanning/AccountPlanDashboard</members>
         <members>CS_Adoption_Dashboard</members>
         <members>CS_Adoption_Dashboard/Kundelinjen_Power_dashboard</members>
-        <members>CS_Adoption_Dashboard/User_Adoption_CS</members>
         <members>CS_DK_Dashboards</members>
         <members>CS_DK_Dashboards/CS_DK_Dynamic_Dashboard</members>
         <members>CS_SE_Dashboards</members>
@@ -199,7 +198,6 @@
         <members>Chatter_Usage_Dashboards/Chatter_Usage_Dashboard</members>
         <members>Contract_Renewals</members>
         <members>Customer_Service_Dashboards</members>
-        <members>Customer_Service_Dashboards/Case_Lifecycle_Dashboard</members>
         <members>Customer_Service_Dashboards/Customer_Service_Overview</members>
         <members>Dashboard_upcoming</members>
         <members>Requirements_with_Estimation</members>
@@ -1388,7 +1386,6 @@
         <members>CS_KUL/FRM_Kunder_med_IT_nulstilling_af_login</members>
         <members>CS_KUL/General_Question1</members>
         <members>CS_KUL/Goodwill1</members>
-        <members>CS_KUL/J_rgen</members>
         <members>CS_KUL/Jonas_Tavlem_de_PRO</members>
         <members>CS_KUL/Kamilla</members>
         <members>CS_KUL/Kamilla1</members>
