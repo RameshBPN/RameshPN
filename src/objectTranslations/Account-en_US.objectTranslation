@@ -12202,30 +12202,6 @@
             <section>Org Structure</section>
         </sections>
     </layouts>
-    <layouts>
-        <layout>Private Person Layout</layout>
-        <layoutType>PersonAccount</layoutType>
-        <sections>
-            <label><!-- Classification --></label>
-            <section>Classification</section>
-        </sections>
-        <sections>
-            <label><!-- Customer Numbers in Other Systems --></label>
-            <section>Customer Numbers in Other Systems</section>
-        </sections>
-        <sections>
-            <label><!-- Marketing Attributes - Additional Private Person Attributes --></label>
-            <section>Marketing Attributes - Additional Private Person Attributes</section>
-        </sections>
-        <sections>
-            <label><!-- Marketing Attributes - Subscriptions --></label>
-            <section>Marketing Attributes - Subscriptions</section>
-        </sections>
-        <sections>
-            <label><!-- Permission Information --></label>
-            <section>Permission Information</section>
-        </sections>
-    </layouts>
     <quickActions>
         <label><!-- Log an Account Call --></label>
         <name>Log_an_Account_Call</name>
