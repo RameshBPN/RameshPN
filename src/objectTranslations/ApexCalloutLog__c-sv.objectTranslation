@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- Apex Callout Log --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value><!-- Apex Callout Log --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- Apex Callout Log --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- Apex Callout Log --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value><!-- Apex Callout Log --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- Apex Callout Log --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- External Service Provider Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Number of callouts made before success or failure --></help>
+        <label><!-- Attempts --></label>
+        <name>Attempts__c</name>
+    </fields>
+    <fields>
+        <help><!-- The result of a callout request --></help>
+        <label><!-- Callout Status --></label>
+        <name>Callout_Status__c</name>
+        <picklistValues>
+            <masterLabel>FAILED</masterLabel>
+            <translation>Fel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOT_SENT</masterLabel>
+            <translation>Ike skickade</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO_DATA</masterLabel>
+            <translation>Ingen data</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO_RESPONSE</masterLabel>
+            <translation>Svar saknas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation>Okej</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SENT</masterLabel>
+            <translation>Skickade</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CaseProduct --></label>
+        <name>CaseProduct__c</name>
+        <relationshipLabel><!-- Apex Callout Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Apex Callout Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Service Product --></label>
+        <name>Customer_Service_Product__c</name>
+        <relationshipLabel><!-- Apex Callout Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Clear text error code. Codes are defined by each service on the format service_errorcode e.g. CH_MULTIPLEROWS for Companies House search service where more than one company is found in a search. --></help>
+        <label><!-- Error Code --></label>
+        <name>Error_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Description --></label>
+        <name>Error_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- The type of error, if any. --></help>
+        <label><!-- Error Type --></label>
+        <name>Error_Type__c</name>
+        <picklistValues>
+            <masterLabel>BUSINESS</masterLabel>
+            <translation>Affairsreleterade</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GENERIC</masterLabel>
+            <translation>Generiskt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TECHNICAL</masterLabel>
+            <translation>Tekniskt</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Request Initiated --></label>
+        <name>Request_Initiated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Message --></label>
+        <name>Request_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response: Final Response --></label>
+        <name>Response_Final__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response: Initial Response --></label>
+        <name>Response_Initial_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Message --></label>
+        <name>Response_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>Source__c</name>
+    </fields>
+    <fields>
+        <help><!-- These are technical error types that may be translated via the translation workbench to allow user friendly results to be displayed --></help>
+        <label><!-- System Error Code --></label>
+        <name>System_Error_Code__c</name>
+        <picklistValues>
+            <masterLabel>CALLOUT_FAILURE</masterLabel>
+            <translation><!-- CALLOUT_FAILURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAPPING_ERROR</masterLabel>
+            <translation><!-- MAPPING_ERROR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MISSING_ENDPOINT</masterLabel>
+            <translation><!-- MISSING_ENDPOINT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MISSING_HOST</masterLabel>
+            <translation><!-- MISSING_HOST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MISSING_PARAMETERS</masterLabel>
+            <translation><!-- MISSING_PARAMETERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MISSING_PROVIDER</masterLabel>
+            <translation><!-- MISSING_PROVIDER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MISSING_SERVICENAME</masterLabel>
+            <translation><!-- MISSING_SERVICENAME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO_CREDENTIALS</masterLabel>
+            <translation><!-- NO_CREDENTIALS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PERMANENT_CALLOUT_FAILURE</masterLabel>
+            <translation><!-- PERMANENT_CALLOUT_FAILURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PERMANENT_TIMEOUT</masterLabel>
+            <translation><!-- PERMANENT_TIMEOUT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICE_DISABLED</masterLabel>
+            <translation><!-- SERVICE_DISABLED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICE_TYPE_NOT_SUPPORTED</masterLabel>
+            <translation><!-- SERVICE_TYPE_NOT_SUPPORTED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TIMEOUT</masterLabel>
+            <translation><!-- TIMEOUT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UNKNOWN_ERROR</masterLabel>
+            <translation><!-- UNKNOWN_ERROR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Callout Time in sec --></label>
+        <name>Total_Callout_Time_in_sec__c</name>
+    </fields>
+    <fields>
+        <help><!-- Related Record Id --></help>
+        <label><!-- What --></label>
+        <name>WhatId__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Apex Callout Log Layout</layout>
+        <sections>
+            <label><!-- Callout Detail --></label>
+            <section>Callout Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Error Information --></label>
+            <section>Error Information</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Related Object --></label>
+            <section>Related Object</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Apex Callout Log ID --></nameFieldLabel>
+</CustomObjectTranslation>

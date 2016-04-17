@@ -1,0 +1,2119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Access_Level_is_higher_than_Org_Wide_setting</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Access Level is higher than Org Wide setting</shortDescription>
+        <value>Access Level is higher than Org Wide setting</value>
+    </labels>
+    <labels>
+        <fullName>Access_Level_is_lower_than_Org_Wide_setting</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Access Level is lower than Org Wide setting</shortDescription>
+        <value>Access Level is lower than Org Wide setting</value>
+    </labels>
+    <labels>
+        <fullName>Account_Details_heading</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Details header</shortDescription>
+        <value>Account Details</value>
+    </labels>
+    <labels>
+        <fullName>Account_Has_No_AccountTeamMember</fullName>
+        <categories>Trigger Error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Has No AccountTeamMember</shortDescription>
+        <value>Account does not have any AccountTeamMembers, which is needed to proceed</value>
+    </labels>
+    <labels>
+        <fullName>Account_Name</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Name</shortDescription>
+        <value>Account Name</value>
+    </labels>
+    <labels>
+        <fullName>Account_PopularName</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account_PopularName</shortDescription>
+        <value>Work Site Name</value>
+    </labels>
+    <labels>
+        <fullName>Account_Team_Access_warning</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account team members access warning</shortDescription>
+        <value>Account team members may have greater access than defined by their account team membership.</value>
+    </labels>
+    <labels>
+        <fullName>Account_Type_Whitespace_error</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error when whitespacing launched from a parent or orphaned account</shortDescription>
+        <value>Product whitespacing is only useful to run on worksites with a parent and sibling worksites</value>
+    </labels>
+    <labels>
+        <fullName>Account_already_has_a_parent</fullName>
+        <categories>Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account already has a parent</shortDescription>
+        <value>This account already has a parent</value>
+    </labels>
+    <labels>
+        <fullName>Account_does_not_exist</fullName>
+        <categories>Visualforce</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account does not exist</shortDescription>
+        <value>The account to enrich must exist and be a Legal Entity or Worksite</value>
+    </labels>
+    <labels>
+        <fullName>Account_has_active_relationships_and_can_not_be_marked_for_deletion</fullName>
+        <categories>Apex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account has active relationships and can not be marked for deletion</shortDescription>
+        <value>Since this customer has relationship with other customers - Customer can&apos;t be marked for deletion.</value>
+    </labels>
+    <labels>
+        <fullName>Account_has_been_marked_for_deletion</fullName>
+        <categories>Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account has been marked for deletion</shortDescription>
+        <value>This account has been marked for deletion</value>
+    </labels>
+    <labels>
+        <fullName>Action</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Action</shortDescription>
+        <value>Action</value>
+    </labels>
+    <labels>
+        <fullName>Add_Default_Team_btn</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add Default Team button</shortDescription>
+        <value>Add Default Team</value>
+    </labels>
+    <labels>
+        <fullName>Add_Team_Member_btn</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add Team Member button text</shortDescription>
+        <value>Add Team Member</value>
+    </labels>
+    <labels>
+        <fullName>Address</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address</shortDescription>
+        <value>Address</value>
+    </labels>
+    <labels>
+        <fullName>Admin_Case_Type_Both</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Admin Case Type Both</shortDescription>
+        <value>Both</value>
+    </labels>
+    <labels>
+        <fullName>Admin_Case_Type_Operations</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Admin Case Type Operations</shortDescription>
+        <value>Operations</value>
+    </labels>
+    <labels>
+        <fullName>Admin_Case_Type_Opportunity_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Admin_Case_Type_Opportunity_Approval</shortDescription>
+        <value>Opportunity Approval</value>
+    </labels>
+    <labels>
+        <fullName>Admin_Case_Type_Price_group</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Admin Case Type Price group</shortDescription>
+        <value>Price group</value>
+    </labels>
+    <labels>
+        <fullName>All_Fields_Must_Have_A_Value_warning</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>All fields must have a value (warning)</shortDescription>
+        <value>All fields must have a value</value>
+    </labels>
+    <labels>
+        <fullName>All_selected_accounts_must_be_categorized</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>All selected accounts must be categorized</shortDescription>
+        <value>- All selected accounts must be categorized,</value>
+    </labels>
+    <labels>
+        <fullName>Apply_Filter</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Apply Filter</shortDescription>
+        <value>Apply Filter</value>
+    </labels>
+    <labels>
+        <fullName>Are_you_sure_Confirm</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Are you sure Confirmation dialogue</shortDescription>
+        <value>Are you sure?</value>
+    </labels>
+    <labels>
+        <fullName>At_least_2_characters_are_required_for_FirstName_field</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>At least 2 characters are required for FirstName field</shortDescription>
+        <value>- At least 2 characters are required for First Name field,</value>
+    </labels>
+    <labels>
+        <fullName>At_least_3_characters_are_required_for_LastName_field</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>At least 3 characters are required for LastName field,</shortDescription>
+        <value>- At least 3 characters are required for Last Name field,</value>
+    </labels>
+    <labels>
+        <fullName>At_least_3_characters_are_required_for_Postal_Address_Street_field</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>At least 3 characters are required for Postal Address Street field,</shortDescription>
+        <value>- At least 3 characters are required for Postal Address Street field,</value>
+    </labels>
+    <labels>
+        <fullName>Atleast_2_accounts_must_be_selected_for_Merge</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Atleast 2 accounts must be selected for Merge</shortDescription>
+        <value>- Atleast 2 accounts must be selected for Merge,</value>
+    </labels>
+    <labels>
+        <fullName>Atleast_One_Field_Should_Be_Specified</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Atleast One Field Should Be Specified</shortDescription>
+        <value>- At least First Name, Last Name, Street or Postal Code should be specified,</value>
+    </labels>
+    <labels>
+        <fullName>Back</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>CC_Duplicates_Not_Allowed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC Duplicates Not Allowed</shortDescription>
+        <value>Duplicates not allowed. Please enter a unique user!</value>
+    </labels>
+    <labels>
+        <fullName>Cancel_Search</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel_Search</shortDescription>
+        <value>Cancel Search</value>
+    </labels>
+    <labels>
+        <fullName>Case_DK_Admin_RecordType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case DK Admin RecordType</shortDescription>
+        <value>DK_Admin_case</value>
+    </labels>
+    <labels>
+        <fullName>Case_Dequeued</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Dequeued</shortDescription>
+        <value>Dequeued</value>
+    </labels>
+    <labels>
+        <fullName>Case_Enqueued</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Enqueued</shortDescription>
+        <value>Enqueued</value>
+    </labels>
+    <labels>
+        <fullName>Case_Status_Assigned_to_Queue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Status Assigned to Queue</shortDescription>
+        <value>Assigned to queue</value>
+    </labels>
+    <labels>
+        <fullName>Case_Status_Cancelled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Status Cancelled</shortDescription>
+        <value>Cancelled</value>
+    </labels>
+    <labels>
+        <fullName>Case_Status_In_Progress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Status In Progress</shortDescription>
+        <value>In progress</value>
+    </labels>
+    <labels>
+        <fullName>Case_Status_Waiting_for_Info</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Status Waiting for Info</shortDescription>
+        <value>Waiting for info</value>
+    </labels>
+    <labels>
+        <fullName>Checked_Radiobutton_URL</fullName>
+        <categories>email templates customer service URL</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Checked Radiobutton URL</shortDescription>
+        <value>http://postnord.force.com/imgrsc/resource/1386770216000/Radiobutton_Checked</value>
+    </labels>
+    <labels>
+        <fullName>Clear_Filters</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clear Filters</shortDescription>
+        <value>Clear Filters</value>
+    </labels>
+    <labels>
+        <fullName>Complaint_Case_Record</fullName>
+        <categories>Record types</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Complaint Case Record</shortDescription>
+        <value>Complaint</value>
+    </labels>
+    <labels>
+        <fullName>Contact_Create_Description</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Create Description</shortDescription>
+        <value>Please enter criteria to search for Contacts. If the account you choose has been PAR verified the search will be in PAR and Salesforce, and if unverified the search will be only in Salesforce across the Corporate Registration Number of the account.</value>
+    </labels>
+    <labels>
+        <fullName>Contact_Create_No_Results</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Create No Results</shortDescription>
+        <value>There are no results matching your search criteria. You can modify your search or Create Unverified contact.</value>
+    </labels>
+    <labels>
+        <fullName>Contact_Results</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Results</shortDescription>
+        <value>Contact Results</value>
+    </labels>
+    <labels>
+        <fullName>Corporate_Registration_Number</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Corporate_Registration_Number</shortDescription>
+        <value>Corporate Registration Number</value>
+    </labels>
+    <labels>
+        <fullName>Could_not_Enrich_Account</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Could not Enrich Account</shortDescription>
+        <value>Could not Enrich Account</value>
+    </labels>
+    <labels>
+        <fullName>Could_not_Enrich_Legal_Entity</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Could not Enrich Legal Entity</shortDescription>
+        <value>Could not Enrich Legal Entity</value>
+    </labels>
+    <labels>
+        <fullName>Could_not_Enrich_Worksite_HQ</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Could not Enrich Worksite HQ</shortDescription>
+        <value>Could not Enrich Worksite HQ</value>
+    </labels>
+    <labels>
+        <fullName>Could_not_create_accounts</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Could not create accounts</shortDescription>
+        <value>One or more error(s) where encountered creating these accounts.</value>
+    </labels>
+    <labels>
+        <fullName>Could_not_create_contacts</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Could not create contacts</shortDescription>
+        <value>Could not create contacts</value>
+    </labels>
+    <labels>
+        <fullName>Create_Contacts</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create Contacts</shortDescription>
+        <value>Create Contacts</value>
+    </labels>
+    <labels>
+        <fullName>Create_New_MOD_Result_Button</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create New MOD Result Button</shortDescription>
+        <value>Create Using MOD Result</value>
+    </labels>
+    <labels>
+        <fullName>Create_Selected</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create_Selected</shortDescription>
+        <value>Create Selected</value>
+    </labels>
+    <labels>
+        <fullName>Create_Unverified</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create_Unverified</shortDescription>
+        <value>Create Unverified</value>
+    </labels>
+    <labels>
+        <fullName>CustomConvert_AccessError</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomConvert_AccessError</shortDescription>
+        <value>Insufficient Privileges&lt;br/&gt;
+You do not have the level of access required to perform the operation you requested. Please contact the owner of the record or your administrator if access is necessary.&lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>CustomConvert_AccountName</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomConvert_AccountName</shortDescription>
+        <value>Account Name</value>
+    </labels>
+    <labels>
+        <fullName>CustomConvert_CancelButton</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomConvert_CancelButton</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>CustomConvert_ContactName</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomConvert_ContactName</shortDescription>
+        <value>Contact Name</value>
+    </labels>
+    <labels>
+        <fullName>CustomConvert_ConvertButton</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomConvert_ConvertButton</shortDescription>
+        <value>Convert</value>
+    </labels>
+    <labels>
+        <fullName>CustomConvert_Converted_Status</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomConvert Converted Status</shortDescription>
+        <value>Converted Status</value>
+    </labels>
+    <labels>
+        <fullName>CustomConvert_Description</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomConvert_Description</shortDescription>
+        <value>Leads where Company is blank convert to person accounts. Leads where Company has a value convert to business accounts. If you do not have access to Company, contact your administrator.&lt;br/&gt;
+You should only convert a lead once you have identified it as qualified.&lt;br/&gt;
+After this lead has been converted, it can no longer be viewed or edited as a lead, but can be viewed in lead reports.</value>
+    </labels>
+    <labels>
+        <fullName>CustomConvert_LeadConvertFailed</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomConvert_LeadConvertFailed</shortDescription>
+        <value>Lead Convert Failed.</value>
+    </labels>
+    <labels>
+        <fullName>CustomConvert_Lead_Section_Header</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomConvert Lead Section Header</shortDescription>
+        <value>Lead</value>
+    </labels>
+    <labels>
+        <fullName>CustomConvert_OpportunityName</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomConvert_OpportunityName</shortDescription>
+        <value>Opportunity Name</value>
+    </labels>
+    <labels>
+        <fullName>CustomConvert_RecordOwner</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomConvert_RecordOwner</shortDescription>
+        <value>Opportunity Record Owner</value>
+    </labels>
+    <labels>
+        <fullName>CustomConvert_Title</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomConvert_Title</shortDescription>
+        <value>Convert Lead</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Settings_not_defned</fullName>
+        <categories>Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Settings not defned</shortDescription>
+        <value>One or more needed custom settings are not filled out correctly, contact your System Administrator</value>
+    </labels>
+    <labels>
+        <fullName>Customer</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Generic text for Customer</shortDescription>
+        <value>Customer</value>
+    </labels>
+    <labels>
+        <fullName>Customer_By_Partner</fullName>
+        <categories>Apex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer By Partner</shortDescription>
+        <value>Customer By Partner</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Created_Hierarchy_Title</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Created Hierarchy Title</shortDescription>
+        <value>Customer Hierarchy Created</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Search</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Search</shortDescription>
+        <value>Customer Search</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Search_Create</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer_Search_ Create</shortDescription>
+        <value>Customer Search / Create</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Type_External</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Type External</shortDescription>
+        <value>External</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Type_Internal</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Type Internal</shortDescription>
+        <value>Internal</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Type_PN_DK</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Type PN DK</shortDescription>
+        <value>InternalDK</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Type_PN_SE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Type PN SE</shortDescription>
+        <value>InternalSE</value>
+    </labels>
+    <labels>
+        <fullName>Customer_responsible_already_exists</fullName>
+        <categories>Visualforce</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer responsible already exists</shortDescription>
+        <value>A customer responsible role already exists</value>
+    </labels>
+    <labels>
+        <fullName>Customers_WorkSite_Heading</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customers_WorkSite_Heading</shortDescription>
+        <value>Customers - WS</value>
+    </labels>
+    <labels>
+        <fullName>Default_Team_Access_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default Team Access Error</shortDescription>
+        <value>One or more Default Team members have access level higher than Org Wide setting</value>
+    </labels>
+    <labels>
+        <fullName>Delete_All_btn</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete All button</shortDescription>
+        <value>Delete All</value>
+    </labels>
+    <labels>
+        <fullName>Delete_btn</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete button</shortDescription>
+        <value>Del</value>
+    </labels>
+    <labels>
+        <fullName>Display_Access_btn</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Display Access button</shortDescription>
+        <value>Display Access</value>
+    </labels>
+    <labels>
+        <fullName>Edit_Account_Team_Member_heading</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit Account Team Member heading text</shortDescription>
+        <value>Edit Account Team Member</value>
+    </labels>
+    <labels>
+        <fullName>Edit_btn</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit button</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>Empty_product_list_error</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Empty product filter list error for product whitespacing</shortDescription>
+        <value>No data in the Product Filter List object. Please add some products first.</value>
+    </labels>
+    <labels>
+        <fullName>Enrich</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enrich</shortDescription>
+        <value>Enrich</value>
+    </labels>
+    <labels>
+        <fullName>Enter_Details</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enter Details</shortDescription>
+        <value>Enter Details</value>
+    </labels>
+    <labels>
+        <fullName>Error_Field_Missing</fullName>
+        <categories>Integration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Field Missing</shortDescription>
+        <value>Required field not set:</value>
+    </labels>
+    <labels>
+        <fullName>Error_Insufficient_Access</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Insufficient Access</shortDescription>
+        <value>Insufficient access to perform this operation.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_City_Postcode</fullName>
+        <categories>MOD</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message City Postcode</shortDescription>
+        <value>It is mandatory to fill out either Address City or Address Postal Code</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Customer_Service_Product</fullName>
+        <categories>SAP_PriceCalculation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message Customer Service Product</shortDescription>
+        <value>Please select a product/article before requesting a price.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_FirstName_LastName</fullName>
+        <categories>MOD</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message FirstName LastName</shortDescription>
+        <value>Firstname and lastname is mandatory to fill out for private persons</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_ItemId</fullName>
+        <categories>NTT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_Message_ItemId</shortDescription>
+        <value>ItemId is mandatory to fill out</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Item_Element</fullName>
+        <categories>NTT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message Item Element</shortDescription>
+        <value>The response did not contain a item with the id provided.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Name</fullName>
+        <categories>MOD</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message Name</shortDescription>
+        <value>Name is mandatory to fill out</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_No_Sender</fullName>
+        <categories>SAP_PriceCalculation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_Message_No_Sender</shortDescription>
+        <value>Please enter the sender information on case.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Postal_Code</fullName>
+        <categories>MOD</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message Postal Code</shortDescription>
+        <value>Address Postal Code is mandatory to fill out</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Postal_Street</fullName>
+        <categories>MOD</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message Postal Street</shortDescription>
+        <value>Address Postal Street is mandatory to fill out</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Potential_Pricebook</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_Message_Potential_Pricebook</shortDescription>
+        <value>No Pricebook found for the chosen Sales Area.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Potential_PricebookEntry</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_Message_Potential_PricebookEntry</shortDescription>
+        <value>Not all products were found in the product book</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Sales_Area_Sweden</fullName>
+        <categories>SAP_PriceCalculation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message Sales Area Sweden</shortDescription>
+        <value>When Sales Area belongs to Sweden, Item ID has to be filled out.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Shipment_Element</fullName>
+        <categories>NTT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message Shipment Element</shortDescription>
+        <value>The response did not contain a shipment with the id provided.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_for_1405</fullName>
+        <categories>VAP</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message for 1405</shortDescription>
+        <value>No data found</value>
+    </labels>
+    <labels>
+        <fullName>Error_from_Callout</fullName>
+        <categories>Integration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error from Callout</shortDescription>
+        <value>The callout failed:</value>
+    </labels>
+    <labels>
+        <fullName>Error_from_External_Service</fullName>
+        <categories>Integration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error from External Service</shortDescription>
+        <value>The external service sent back an error:</value>
+    </labels>
+    <labels>
+        <fullName>Error_from_Salesforce</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error from Salesforce</shortDescription>
+        <value>Something went wrong. Please contact your system administrator.</value>
+    </labels>
+    <labels>
+        <fullName>Errors_have_been_occurred_during_the_reparenting_of_the_related_information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Errors have been occurred during the reparenting of the related information</shortDescription>
+        <value>Errors have been occurred during the reparenting of the related information, which will not affect the Customer merge</value>
+    </labels>
+    <labels>
+        <fullName>Exactly_4_characters_are_required_for_PostalCode_field</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Exactly 4 characters are required for PostalCode field</shortDescription>
+        <value>- Exactly 4 characters are required for PostalCode field,</value>
+    </labels>
+    <labels>
+        <fullName>Ext_Contact_Request_Failed</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ext Contact Request Failed</shortDescription>
+        <value>Problems where encountered requesting information about contacts:</value>
+    </labels>
+    <labels>
+        <fullName>Ext_Could_Not_Create_Child_Account</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ext Could Not Create Child Account:</shortDescription>
+        <value>Could not create child account:</value>
+    </labels>
+    <labels>
+        <fullName>Ext_Could_Not_Create_Contacts</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ext Could Not Create Contacts</shortDescription>
+        <value>Could not create customer contacts:</value>
+    </labels>
+    <labels>
+        <fullName>Ext_External_Provider_Validation</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ext External Provider Validation (PAR)</shortDescription>
+        <value>External Provider Validation (PAR)</value>
+    </labels>
+    <labels>
+        <fullName>Ext_No_Results_Found</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ext No Results Found</shortDescription>
+        <value>No results returned</value>
+    </labels>
+    <labels>
+        <fullName>Ext_No_Selected_Worksite</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ext No Selected Worksite</shortDescription>
+        <value>Please select at least one worksite.</value>
+    </labels>
+    <labels>
+        <fullName>Ext_No_valid_Head_Office</fullName>
+        <categories>Visualforce</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ext No valid Head Office</shortDescription>
+        <value>Could not create an HQ for this worksite as PAR did not return a valid Head Office</value>
+    </labels>
+    <labels>
+        <fullName>Ext_Please_provide_at_least_one_search_term</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ext Please provide at least one search term</shortDescription>
+        <value>Please provide at least one search term</value>
+    </labels>
+    <labels>
+        <fullName>Ext_Request_Failed</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ext Request Failed</shortDescription>
+        <value>The request to the external service failed.</value>
+    </labels>
+    <labels>
+        <fullName>Ext_Tech_LE_Has_No_ID</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ext Tech LE Has No ID</shortDescription>
+        <value>A technical problem has ocurred. Please contact your administrator. The selected Legal Entity has no External Provider Party ID defined, or could not be located.</value>
+    </labels>
+    <labels>
+        <fullName>Extension_Type_of_Primary_Account_Message</fullName>
+        <categories>Validation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Extension Type of Primary Account Message</shortDescription>
+        <value>If Primary Account is Extension, then Extension Type should be Customer By Partner</value>
+    </labels>
+    <labels>
+        <fullName>Extension_requires_customer</fullName>
+        <categories>Validation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Extension requires customer</shortDescription>
+        <value>Extensions can only be made from Work Sites of Customers</value>
+    </labels>
+    <labels>
+        <fullName>External_Search_Results</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>External Search Results</shortDescription>
+        <value>External Search Results</value>
+    </labels>
+    <labels>
+        <fullName>External_Status</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>External_Status</shortDescription>
+        <value>External Status</value>
+    </labels>
+    <labels>
+        <fullName>Filtered_By</fullName>
+        <categories>Apex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Filtered By</shortDescription>
+        <value>Filtered By:</value>
+    </labels>
+    <labels>
+        <fullName>First</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>First</shortDescription>
+        <value>First</value>
+    </labels>
+    <labels>
+        <fullName>Fwd_to_Duplicate_Account</fullName>
+        <categories>Apex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fwd to Duplicate Account</shortDescription>
+        <value>Account has been enriched but could not be verified as an existing verified record exists. You will be forwarded to the duplicate account.</value>
+    </labels>
+    <labels>
+        <fullName>Go</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Go</shortDescription>
+        <value>Go</value>
+    </labels>
+    <labels>
+        <fullName>Go_Back</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Go Back</shortDescription>
+        <value>Go Back</value>
+    </labels>
+    <labels>
+        <fullName>Hide_Filters</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Hide Filters</shortDescription>
+        <value>Hide Filters</value>
+    </labels>
+    <labels>
+        <fullName>Insufficient_Access_to_delete_the_Attachemnts_on_Cases</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Insufficient Access to delete the Attachemnts on Cases</shortDescription>
+        <value>Insufficient Access to delete the Attachments on Cases</value>
+    </labels>
+    <labels>
+        <fullName>Invoice_recipient_has_relationships_and_can_not_be_updated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invoice recipient has relationships and can not be updated</shortDescription>
+        <value>Since this IR has been related to multiple customers - IR can not be updated.
+Only Sales Admin can update in this case.</value>
+    </labels>
+    <labels>
+        <fullName>Involved_Party_ID</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Involved Party ID</shortDescription>
+        <value>Involved Party ID</value>
+    </labels>
+    <labels>
+        <fullName>Last</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Last</shortDescription>
+        <value>Last</value>
+    </labels>
+    <labels>
+        <fullName>Loading</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loading</shortDescription>
+        <value>Loading...</value>
+    </labels>
+    <labels>
+        <fullName>Locked_Down_Category</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Locked Down Category</shortDescription>
+        <value>Locked-Down</value>
+    </labels>
+    <labels>
+        <fullName>MODNoModtagerNumberAndNoInteressantNumber</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MODNoModtagerNumberAndNoInteressantNumber</shortDescription>
+        <value>Since no Modtager Number OR MOD Interessant Number is found, you can either a New Customer OR Modify/Cancel the search.</value>
+    </labels>
+    <labels>
+        <fullName>MODPostalCountryNotSelected</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MODPostalCountryNotSelected</shortDescription>
+        <value>Please select the Postal Address Country as DK to get MOD Results.</value>
+    </labels>
+    <labels>
+        <fullName>MOD_Has_Existing_Accounts</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MOD Has Existing Accounts</shortDescription>
+        <value>Accounts matching this MOD Intressent / Modtager number where found. Are you sure you wish to create a new account?</value>
+    </labels>
+    <labels>
+        <fullName>MOD_List_of_Possible_Duplicates</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MOD List of Possible Duplicates</shortDescription>
+        <value>Possible Duplicates: Existing Customers with matching Modtager / Intressent Numbers</value>
+    </labels>
+    <labels>
+        <fullName>MOD_Matching_Existing_Customers</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MOD Matching Existing Customers</shortDescription>
+        <value>Matching Existing Customers</value>
+    </labels>
+    <labels>
+        <fullName>MOD_No_Results</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MOD No Results</shortDescription>
+        <value>No MOD results found. Try refining your search criteria.</value>
+    </labels>
+    <labels>
+        <fullName>MOD_No_SFDC_Results</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MOD No SFDC Results</shortDescription>
+        <value>No existing customers found matching the search criteria.</value>
+    </labels>
+    <labels>
+        <fullName>MOD_Possible_Duplicates_Found</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MOD Possible Duplicates Found</shortDescription>
+        <value>Found Possible Duplicates for the Modtager / Intressent Number</value>
+    </labels>
+    <labels>
+        <fullName>MOD_Result</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MOD Result</shortDescription>
+        <value>MOD Result Details</value>
+    </labels>
+    <labels>
+        <fullName>MOD_Search_Problem</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MOD Search Problem</shortDescription>
+        <value>Could not search MOD:</value>
+    </labels>
+    <labels>
+        <fullName>MOD_Search_Results</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MOD Search Results</shortDescription>
+        <value>MOD Search Results</value>
+    </labels>
+    <labels>
+        <fullName>MOD_Validate</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MOD Validate</shortDescription>
+        <value>MOD Validate</value>
+    </labels>
+    <labels>
+        <fullName>MOD_Validate_Country_Must_be_DK</fullName>
+        <categories>Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MOD Validate Country Must be DK</shortDescription>
+        <value>The postal country must be of type DK.</value>
+    </labels>
+    <labels>
+        <fullName>Master_Category</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Master Category</shortDescription>
+        <value>Master</value>
+    </labels>
+    <labels>
+        <fullName>Master_cant_be_Flagged_for_Review</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Master cant be Flagged for Review</shortDescription>
+        <value>- Master cant be Flagged for Review,</value>
+    </labels>
+    <labels>
+        <fullName>Missing_Record_Type_Extension</fullName>
+        <categories>Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Missing Record Type: Extension</shortDescription>
+        <value>Could not find the Extension record type</value>
+    </labels>
+    <labels>
+        <fullName>New_Account_Team_Members_heading</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Account Team Members heading</shortDescription>
+        <value>New Account Team Members</value>
+    </labels>
+    <labels>
+        <fullName>New_Case</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Case</shortDescription>
+        <value>New Case</value>
+    </labels>
+    <labels>
+        <fullName>New_Relation_Sales_Area_doesn_t_match_Detail_Accounts</fullName>
+        <categories>Trigger Error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Relation Sales Area doesn&apos;t match Detail Accounts</shortDescription>
+        <value>Related Account must have this Sales Area and be a Customer in the Sales Area</value>
+    </labels>
+    <labels>
+        <fullName>New_Relation_Sales_Area_doesn_t_match_Master_Accounts</fullName>
+        <categories>Trigger Error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Relation Sales Area doesn&apos;t match Master Accounts</shortDescription>
+        <value>Primary Account must have this Sales Area and be a Customer in the Sales Area</value>
+    </labels>
+    <labels>
+        <fullName>Next</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>No_RT_for_Legal_Entity</fullName>
+        <categories>Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No RT for Legal Entity</shortDescription>
+        <value>Could not find the Legal Entity record type</value>
+    </labels>
+    <labels>
+        <fullName>No_Results_Found</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Results Found</shortDescription>
+        <value>No Results Found</value>
+    </labels>
+    <labels>
+        <fullName>No_contacts_found</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No contacts found</shortDescription>
+        <value>No contacts found</value>
+    </labels>
+    <labels>
+        <fullName>Only_One_Customer_Responsible_warning</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Only one customer responsible role is allowed on an account team</shortDescription>
+        <value>Only one customer responsible role is allowed on an account team. Team members with duplicate customer responsible roles have been removed.</value>
+    </labels>
+    <labels>
+        <fullName>Only_One_Invoice_Recipient_Per_Sales_Area</fullName>
+        <categories>Validation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Only One Invoice Recipient Per Sales Area</shortDescription>
+        <value>Only one Invoice Recipient per {!SalesArea} on the primary account is allowed.</value>
+    </labels>
+    <labels>
+        <fullName>Only_One_Payer_Per_Sales_Area</fullName>
+        <categories>Validation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Only One Payer Per Sales Area</shortDescription>
+        <value>Only one payer per sales area on the primary account is allowed.</value>
+    </labels>
+    <labels>
+        <fullName>Open_24_7</fullName>
+        <categories>NTT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Open 24/7</shortDescription>
+        <value>Open 24/7</value>
+    </labels>
+    <labels>
+        <fullName>Operation_Case_Insert_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Operation Case Insert Error</shortDescription>
+        <value>New Operation case cannot be inserted</value>
+    </labels>
+    <labels>
+        <fullName>Opp_Approval_Status_Approved</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opp Approval Status Approved</shortDescription>
+        <value>Approved</value>
+    </labels>
+    <labels>
+        <fullName>Opp_Approval_Status_Created</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opp Approval Status Created</shortDescription>
+        <value>Created</value>
+    </labels>
+    <labels>
+        <fullName>Opp_Approval_Status_In_Progress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opp Approval Status In Progress</shortDescription>
+        <value>In progress</value>
+    </labels>
+    <labels>
+        <fullName>Opp_Approval_Status_Not_Started</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opp Approval Status Not Started</shortDescription>
+        <value>Not started</value>
+    </labels>
+    <labels>
+        <fullName>Opp_Approval_Status_Not_Started_Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opp Approval Status Not Started Date</shortDescription>
+        <value>Not started</value>
+    </labels>
+    <labels>
+        <fullName>Opp_Approval_Status_Operation_inquiry</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opp Approval Status Operation inquiry</shortDescription>
+        <value>Operation Inquiry</value>
+    </labels>
+    <labels>
+        <fullName>Opp_Approval_Status_Pending_Operations</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opp Approval Status Pending Operations</shortDescription>
+        <value>Pending operations</value>
+    </labels>
+    <labels>
+        <fullName>Opp_Approval_Status_Pending_Price</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opp Approval Status Pending Price</shortDescription>
+        <value>Pending price committee</value>
+    </labels>
+    <labels>
+        <fullName>Opp_Approval_Status_Pending_Sales</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opp Approval Status Pending Sales</shortDescription>
+        <value>Pending Sales</value>
+    </labels>
+    <labels>
+        <fullName>Opp_Approval_Status_Rejected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opp Approval Status Rejected</shortDescription>
+        <value>Rejected</value>
+    </labels>
+    <labels>
+        <fullName>Opp_Status_Update_Error</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opp Status Update Error</shortDescription>
+        <value>Cannot update opportunity from case. Note that user must be the opportunity owner or on the opportunity team.</value>
+    </labels>
+    <labels>
+        <fullName>Opportunity_Approval_RecordType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity Approval RecordType</shortDescription>
+        <value>Approval_Admin_Activity</value>
+    </labels>
+    <labels>
+        <fullName>Opportunity_Stage_Not_Started</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity_Stage_Not_Started</shortDescription>
+        <value>Not Started</value>
+    </labels>
+    <labels>
+        <fullName>Oppty_Lost_Created_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Oppty_Lost_Created_Error</shortDescription>
+        <value>Created in error</value>
+    </labels>
+    <labels>
+        <fullName>Oppty_Lost_Duplicate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Oppty_Lost_Duplicate</shortDescription>
+        <value>Duplicate</value>
+    </labels>
+    <labels>
+        <fullName>Orphaned_contact</fullName>
+        <categories>Apex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Orphaned contact</shortDescription>
+        <value>A contact could not be matched with a parent account</value>
+    </labels>
+    <labels>
+        <fullName>PAR</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PAR</shortDescription>
+        <value>PAR</value>
+    </labels>
+    <labels>
+        <fullName>PAR_Enrich_Dup_Record_Create_Issue</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PAR Enrich Dup Record Create Issue</shortDescription>
+        <value>There was a problem trying to generate a Possible Duplicate record:</value>
+    </labels>
+    <labels>
+        <fullName>PAR_Multiple_LE_Error</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PAR_Multiple_LE_Error</shortDescription>
+        <value>Sorry, only worksites from one LE may be selected to be created from the external source.</value>
+    </labels>
+    <labels>
+        <fullName>PAR_No_Result</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PAR_No_Result</shortDescription>
+        <value>There are no results matching your Search criteria. Please click Create Unverified to create Unverified Customer.</value>
+    </labels>
+    <labels>
+        <fullName>PAR_Result</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PAR Result</shortDescription>
+        <value>PAR Result</value>
+    </labels>
+    <labels>
+        <fullName>PAR_The_Customer_is_already_verified</fullName>
+        <categories>Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PAR The Customer is already verified</shortDescription>
+        <value>The Customer is already verified</value>
+    </labels>
+    <labels>
+        <fullName>PAR_Verify</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PAR Verify</shortDescription>
+        <value>PAR Verify</value>
+    </labels>
+    <labels>
+        <fullName>Page</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Page</shortDescription>
+        <value>Page</value>
+    </labels>
+    <labels>
+        <fullName>Page_of</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Page of</shortDescription>
+        <value>of</value>
+    </labels>
+    <labels>
+        <fullName>Parent_WS_does_not_have_corresponding_SAI</fullName>
+        <categories>Validation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Parent WS does not have corresponding SAI</shortDescription>
+        <value>The new Sales Area Information on the Extension does not have a corresponding Customer Sales Area Information on the parent Work Site</value>
+    </labels>
+    <labels>
+        <fullName>Previous</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Previous</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Account</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Primary Account</shortDescription>
+        <value>Primary Account</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Account_Is_Not_Customer</fullName>
+        <categories>Validation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Primary Account Is Not Customer</shortDescription>
+        <value>Primary Account is not customer.</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Account_With_No_Sales_Area_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Primary Account With No Sales Area Message</shortDescription>
+        <value>Primary Account does not have {!SalesArea} in Sales Area Information.</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Account_with_Deletion_Flag_Message</fullName>
+        <categories>Validation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Primary Account with Deletion Flag Message</shortDescription>
+        <value>For Service Agent, Primary Account with Deletion Flag checked; cannot be selected.</value>
+    </labels>
+    <labels>
+        <fullName>Product_Whitespace_heading</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Whitespace title</shortDescription>
+        <value>Product Whitespace</value>
+    </labels>
+    <labels>
+        <fullName>RecordType_Account_Ext</fullName>
+        <categories>Apex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecordType Account Ext</shortDescription>
+        <value>Extension</value>
+    </labels>
+    <labels>
+        <fullName>RecordType_Account_LE</fullName>
+        <categories>Apex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecordType Account LE</shortDescription>
+        <value>Legal Entity</value>
+    </labels>
+    <labels>
+        <fullName>RecordType_Account_WS</fullName>
+        <categories>Apex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RecordType Account WS</shortDescription>
+        <value>Work Site</value>
+    </labels>
+    <labels>
+        <fullName>Record_Name</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Record Name</shortDescription>
+        <value>Record Name</value>
+    </labels>
+    <labels>
+        <fullName>Refire_1000_records_can_be_processed_at_a_time</fullName>
+        <categories>visual force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refire 1000 records can be processed at a time</shortDescription>
+        <value>Record limit  is 1000 ...Repeat the operation if needed.</value>
+    </labels>
+    <labels>
+        <fullName>Refire_BLOB_is_not_valid</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refire BLOB is not valid</shortDescription>
+        <value>BLOB is not a valid UTF-8 string.</value>
+    </labels>
+    <labels>
+        <fullName>Refire_Customer_Number_Header_In_CSV_File</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refire Customer Number Header In CSV File</shortDescription>
+        <value>Customer Number</value>
+    </labels>
+    <labels>
+        <fullName>Refire_Customer_Number_Not_Found</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refire Customer Number Not Found</shortDescription>
+        <value>Column header &quot;Customer Number &quot; is missing in CSV File.</value>
+    </labels>
+    <labels>
+        <fullName>Refire_File_Help_Text</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refire File Help Text</shortDescription>
+        <value>Only  CSV file can be used.&lt;br/&gt; &lt;br/&gt;Note : Please maintain &quot;CUSTOMER NUMBER&quot;  as heading for Involved or Customer ID\&apos;s.</value>
+    </labels>
+    <labels>
+        <fullName>Refire_File_Operation_Help_Text</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refire File Operation Help Text</shortDescription>
+        <value>After Selection CSV file,  Select the Operation to perform</value>
+    </labels>
+    <labels>
+        <fullName>Refire_Operation_Completed</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refire Operation Completed</shortDescription>
+        <value>Operation Completed.</value>
+    </labels>
+    <labels>
+        <fullName>Refire_Operation_Help_Text</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refire Operation Help Text</shortDescription>
+        <value>&lt;b&gt;INSERT:&lt;/b&gt;Operation is used when the customer is not existing in SAP.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;UPDATE:&lt;/b&gt;Operation is used when the customer existing both in SF and SAP but the changes are there only in SF.</value>
+    </labels>
+    <labels>
+        <fullName>Refire_Please_enter_a_valid_Involved_Party_Id</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refire Please enter a valid Involved Party Id</shortDescription>
+        <value>Please enter a valid Involved Party Id.</value>
+    </labels>
+    <labels>
+        <fullName>Refire_Please_enter_an_Involved_Party_Id</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refire Please enter an Involved Party Id</shortDescription>
+        <value>Please enter an Involved Party Id.</value>
+    </labels>
+    <labels>
+        <fullName>Refire_Please_select_a_file</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refire Please select a file</shortDescription>
+        <value>Please select a file.</value>
+    </labels>
+    <labels>
+        <fullName>Refire_Please_select_a_valid_file</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refire Please select a valid file</shortDescription>
+        <value>Please select a valid file.</value>
+    </labels>
+    <labels>
+        <fullName>Refire_Please_select_an_operation</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refire Please select an operation</shortDescription>
+        <value>Please select an operation.</value>
+    </labels>
+    <labels>
+        <fullName>Related_Account_should_be_Work_Site</fullName>
+        <categories>Validation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related Account should be Work Site</shortDescription>
+        <value>Related Account should be Work Site</value>
+    </labels>
+    <labels>
+        <fullName>Result_for_Customer_Search_Title</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Result for Customer Search Title</shortDescription>
+        <value>Results - SFDC + PAR</value>
+    </labels>
+    <labels>
+        <fullName>Results_PAR</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Results PAR</shortDescription>
+        <value>Results - PAR</value>
+    </labels>
+    <labels>
+        <fullName>SFDC</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SFDC</shortDescription>
+        <value>SFDC</value>
+    </labels>
+    <labels>
+        <fullName>SFDC_Results</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SFDC Results</shortDescription>
+        <value>SFDC Results</value>
+    </labels>
+    <labels>
+        <fullName>Same_CRN_On_Primary_And_Related_Account_If_Payer_AND_MESE_OR_LOSE_IS_Selected</fullName>
+        <categories>Apex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Same_CRN_On_Primary_And_Related_Account_If_Payer_AND_MESE_OR_LOSE_IS_Selected</shortDescription>
+        <value>Payer and {!salesarea} should have same CVR(Corporate Registration Number) on Primary and Related Account.</value>
+    </labels>
+    <labels>
+        <fullName>Save_To_Old_Case</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save To Old Case</shortDescription>
+        <value>Save To Old Case</value>
+    </labels>
+    <labels>
+        <fullName>Search</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>Search_ContactWS_No_search_criteria</fullName>
+        <categories>Apex</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No search criteria for contact search</shortDescription>
+        <value>No search criteria provided for contact search</value>
+    </labels>
+    <labels>
+        <fullName>Search_Contacts</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Contacts</shortDescription>
+        <value>Search Contacts</value>
+    </labels>
+    <labels>
+        <fullName>Search_Criteria_heading</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Criteria sub heading on product whitespacing</shortDescription>
+        <value>Search Criteria</value>
+    </labels>
+    <labels>
+        <fullName>Search_MOD</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search MOD</shortDescription>
+        <value>Search MOD</value>
+    </labels>
+    <labels>
+        <fullName>Searching_External_Provider</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Searching External Provider</shortDescription>
+        <value>Waiting for external system to respond...</value>
+    </labels>
+    <labels>
+        <fullName>Searching_External_Provider_Contacts</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Searching External Provider Contacts</shortDescription>
+        <value>Querying external service (PAR) for contact persons</value>
+    </labels>
+    <labels>
+        <fullName>Select_Date_Range_to_Search_heading</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Date Range to Search</shortDescription>
+        <value>Select Date Range to Search</value>
+    </labels>
+    <labels>
+        <fullName>Select_Products_to_Search_heading</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Products to Search</shortDescription>
+        <value>Select Products to Search</value>
+    </labels>
+    <labels>
+        <fullName>Select_for_Whitespace_heading</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select for Whitespace</shortDescription>
+        <value>Select for Whitespace</value>
+    </labels>
+    <labels>
+        <fullName>Selected_Sales_Area_is_not_present_on_either_account</fullName>
+        <categories>Trigger Error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Selected Sales Area is not present on either account</shortDescription>
+        <value>Both Accounts must have this Sales Area and be a Customer in the Sales Area</value>
+    </labels>
+    <labels>
+        <fullName>Selected_account_already_Flagged_for_Review</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Selected account already Flagged for Review</shortDescription>
+        <value>- Selected account already Flagged for Review,</value>
+    </labels>
+    <labels>
+        <fullName>Show_Filters</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Show Filters</shortDescription>
+        <value>Show Filters</value>
+    </labels>
+    <labels>
+        <fullName>Survivor_Category</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Survivor Category</shortDescription>
+        <value>Survivor</value>
+    </labels>
+    <labels>
+        <fullName>There_must_be_exactly_one_Master_for_selected_Accounts</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>There must be exactly one Master for selected Accounts</shortDescription>
+        <value>- There must be exactly one Master for selected Accounts,</value>
+    </labels>
+    <labels>
+        <fullName>Unchecked_Radiobutton_URL</fullName>
+        <categories>email templates customer service URL</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unchecked Radiobutton URL</shortDescription>
+        <value>http://postnord.force.com/imgrsc/resource/1386770216000/Radiobutton_Unchecked</value>
+    </labels>
+    <labels>
+        <fullName>Unknown_Sales_area_on_case</fullName>
+        <categories>Trigger Error</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unknown Sales area on case</shortDescription>
+        <value>You do not have a Sales Area</value>
+    </labels>
+    <labels>
+        <fullName>Use_MOD_Result</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Use MOD Result</shortDescription>
+        <value>Use MOD Result</value>
+    </labels>
+    <labels>
+        <fullName>VAP_Request_MOD_Validated</fullName>
+        <categories>Button</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VAP Request MOD Validated</shortDescription>
+        <value>VAP Request can only be done on Cases with a MOD Validated Receiver.</value>
+    </labels>
+    <labels>
+        <fullName>VAT_Number</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VAT Number</shortDescription>
+        <value>VAT Number</value>
+    </labels>
+    <labels>
+        <fullName>Verified</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Verified</shortDescription>
+        <value>Verified</value>
+    </labels>
+    <labels>
+        <fullName>Visiting_Address</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visiting Address</shortDescription>
+        <value>Visiting Address</value>
+    </labels>
+    <labels>
+        <fullName>White_Space_Product_Map_heading</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>White Space Product Map heading</shortDescription>
+        <value>White Space Product Map</value>
+    </labels>
+    <labels>
+        <fullName>Work_Site_Popular_Name</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Work Site Popular Name</shortDescription>
+        <value>Work Site Popular Name</value>
+    </labels>
+    <labels>
+        <fullName>Work_Site_Registration_Number</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Work_Site_Registration_Number</shortDescription>
+        <value>Work Site Registration Number</value>
+    </labels>
+    <labels>
+        <fullName>Work_Site_Type</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Work Site Type</shortDescription>
+        <value>Work Site Type</value>
+    </labels>
+    <labels>
+        <fullName>Work_Site_Type_Head_Office</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Work Site Type: Head Office</shortDescription>
+        <value>Head Office</value>
+    </labels>
+    <labels>
+        <fullName>Work_Site_Type_TY10</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Work Site Type TY10</shortDescription>
+        <value>Head Office</value>
+    </labels>
+    <labels>
+        <fullName>Work_Site_Type_TY20</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Work Site Type TY20</shortDescription>
+        <value>Branch office</value>
+    </labels>
+    <labels>
+        <fullName>Work_Site_Type_TY99</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Work Site Type TY99</shortDescription>
+        <value>Unknown</value>
+    </labels>
+    <labels>
+        <fullName>You_must_enter_a_value_for_Postal_Address_City</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>You must enter a value for Postal Address City</shortDescription>
+        <value>- You must enter a value for Postal Address City.</value>
+    </labels>
+    <labels>
+        <fullName>You_must_select_at_least_one_customer_to_flag_for_review</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>You must select at least one customer to flag for review</shortDescription>
+        <value>- You must select at least one customer to flag for review,</value>
+    </labels>
+    <labels>
+        <fullName>You_must_select_at_least_one_customer_to_merge</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>You must select at least one customer to merge</shortDescription>
+        <value>- You must select at least one customer to merge,</value>
+    </labels>
+    <labels>
+        <fullName>alt_Postal_Address_City</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Postal_Address_City</shortDescription>
+        <value>Address City</value>
+    </labels>
+    <labels>
+        <fullName>alt_Postal_Address_Country</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Postal_Address_Country</shortDescription>
+        <value>Address Country</value>
+    </labels>
+    <labels>
+        <fullName>alt_Postal_Address_House_Letter</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Postal_Address_House_Letter</shortDescription>
+        <value>Address House Letter</value>
+    </labels>
+    <labels>
+        <fullName>alt_Postal_Address_House_Number</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Postal_Address_House_Number</shortDescription>
+        <value>Address House Number</value>
+    </labels>
+    <labels>
+        <fullName>alt_Postal_Address_House_Number_Supplement</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Postal_Address_House_Number_Supplement</shortDescription>
+        <value>Address Floor</value>
+    </labels>
+    <labels>
+        <fullName>alt_Postal_Address_PO_Box</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Postal_Address_PO_Box</shortDescription>
+        <value>Address PO Box</value>
+    </labels>
+    <labels>
+        <fullName>alt_Postal_Address_Postal_Code</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Postal_Address_Postal_Code</shortDescription>
+        <value>Address Postal Code</value>
+    </labels>
+    <labels>
+        <fullName>alt_Postal_Address_Room_Number</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Postal_Address_Room_Number</shortDescription>
+        <value>Room Number</value>
+    </labels>
+    <labels>
+        <fullName>alt_Postal_Address_Street</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Postal_Address_Street</shortDescription>
+        <value>Address Street</value>
+    </labels>
+    <labels>
+        <fullName>alt_Postal_Address_Suburb</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Postal_Address_Suburb</shortDescription>
+        <value>Address Suburb</value>
+    </labels>
+    <labels>
+        <fullName>alt_Visiting_Address_City</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Visiting_Address_City</shortDescription>
+        <value>Address City</value>
+    </labels>
+    <labels>
+        <fullName>alt_Visiting_Address_Country</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Visiting_Address_Country</shortDescription>
+        <value>Address Country</value>
+    </labels>
+    <labels>
+        <fullName>alt_Visiting_Address_House_Number</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Visiting_Address_House_Number</shortDescription>
+        <value>Address House Number</value>
+    </labels>
+    <labels>
+        <fullName>alt_Visiting_Address_House_Number_Supplement</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Visiting_Address_House_Number_Supplement</shortDescription>
+        <value>Address Floor</value>
+    </labels>
+    <labels>
+        <fullName>alt_Visiting_Address_PO_Box</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Visiting_Address_PO_Box</shortDescription>
+        <value>Address PO Box</value>
+    </labels>
+    <labels>
+        <fullName>alt_Visiting_Address_Postal_Code</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Visiting_Address_Postal_Code</shortDescription>
+        <value>Address Postal Code</value>
+    </labels>
+    <labels>
+        <fullName>alt_Visiting_Address_Street</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Visiting_Address_Street</shortDescription>
+        <value>Address Street</value>
+    </labels>
+    <labels>
+        <fullName>alt_Visiting_Address_Suburb</fullName>
+        <categories>Visual Force</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>alt_Visiting_Address_Suburb</shortDescription>
+        <value>Address Suburb</value>
+    </labels>
+</CustomLabels>

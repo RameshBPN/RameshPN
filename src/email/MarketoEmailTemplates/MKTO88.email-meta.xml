@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Frimærker.07 Juli Frimærker</name>
+    <style>none</style>
+    <subject>Hold da helt ferie</subject>
+    <textOnly>&lt;http://www.postdanmark.dk&gt;
+Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+&lt;http://www.postdanmark.dk&gt;
+Kære {{lead.First Name}}
+HOLD DA HELT FERIE
+Sommeren er over os. Nu er det tid til at nyde det gode vejr herhjemme eller under fremmede himmelstrøg. Roen sænker sig over land og by, der er god plads på veje og i offentlige transportmidler i myldretiden, og både ben og fødder kan endelig luftes og få lidt sol. Sommeren byder ikke på nye frimærkeudgivelser, så vi bruger dette nyhedsbrev til at fortælle lidt om, hvad der findes af frimærkerelaterede ting og sager rundt om i verden… med andre ord har ”agurketiden” også ramt vores lille redaktion.
+
+
+
+Rigtig god sommer!
+
+
+
+Bo Høifeldt
+
+Salgs- og marketingchef, PostNord Frimærker
+&lt;http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx&gt;
+Aktiviteter over hele landet
+Nu er det på tide at lægge takmåleren og luppen væk. Vi har samlet en smuk buket til dig af alle de ting, du kan opleve i løbet af sommeren. Det foregår over hele landet, og der er arrangementer for enhver smag.
+Læs mere &lt;http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx&gt;
+&lt;http://www.postdanmark.dk/da/Privat/koeb-bestil-online/postkortet/Sider/postkortet.aspx&gt;
+Send et postkort fra mobilen
+Skal du på sommerferie, så husk, at du let kan sende et fysisk postkort fra din mobil. Med vores service ”Postkortet” kan du tage et foto med din mobiltelefon, skrive en tekst og få printet og sendt et postkort uden at røre en finger. Uanset om du er på ferie i Lemvig eller i Rio de Janeiro, koster det kun 19 kr. at sende et postkort i A5-format.
+Læs mere &lt;http://www.postdanmark.dk/da/Privat/koeb-bestil-online/postkortet/Sider/postkortet.aspx&gt;
+&lt;http://www.posteurop.org/europa2015&gt;
+Stem på årets europa-frimærke
+Hvilket EUROPA-frimærke fortjener at blive hædret for det flotteste design? Det kan du nu være med til at afgøre ved at stemme på det frimærke, du synes bedst om. Temaet for alle årets 56 EUROPA-frimærker, der dyster om titlen, er legetøj. Du kan stemme indtil 31. august 2015.
+Stem her &lt;http://www.posteurop.org/europa2015&gt;
+Vi har sendt denne e-mail til {{lead.Email Address}} &lt;mailto:{{lead.Email Address}}&gt;.
+
+Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;http://pages.postnord.com/Min-side.html&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

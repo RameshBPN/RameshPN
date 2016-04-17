@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Activate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Terminate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ActivatedById</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ActivatedDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>BillingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CompanySignedDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CompanySignedId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Contracts</relationshipLabel>
+        <relationshipName>Contracts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContractTerm</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CustomerSignedDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CustomerSignedId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CustomerSignedTitle</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Expiration_notice__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of days before contract expiration when notice for renew will be created.</inlineHelpText>
+        <label>Expiration notice</label>
+        <picklist>
+            <picklistValues>
+                <fullName>30 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>60 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>90 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerExpirationNotice</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Part_of_Nordic_Agreement_Name__c</fullName>
+        <description>Part of Nordic Agreement Name</description>
+        <externalId>false</externalId>
+        <label>Part of Nordic Agreement Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Products__c</fullName>
+        <externalId>false</externalId>
+        <label>Short Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Reason_for_cancellation__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason for cancellation</label>
+        <picklist>
+            <controllingField>Status</controllingField>
+            <picklistValues>
+                <fullName>Customer terminated</fullName>
+                <controllingFieldValues>Cancelled</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Postnord terminated</fullName>
+                <controllingFieldValues>Cancelled</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Area__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Area</label>
+        <picklist>
+            <picklistValues>
+                <fullName>1000</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>4000</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FO91</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FO92</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3670</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>0630</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>0540</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ShippingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>SpecialTerms</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Renewedx</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Closedx</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Terms_of_payment__c</fullName>
+        <externalId>false</externalId>
+        <label>Terms of payment</label>
+        <picklist>
+            <picklistValues>
+                <fullName>7 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>8 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>10 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>14 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>14 days from the accounting date</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>15 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>20 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>21 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>24 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>28 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>30 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>35 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>45 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>60 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cash Payment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month + 5 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month + 8 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month + 12 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month + 14 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month + 15 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month + 20 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month + 25 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month + 30 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month + 45 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month + 60 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month + 90 days</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month extended with 2 days with fee</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month extended with 2 days without fee</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month extended with 7 days with fee</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month extended with 7 days without fee</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month extended with 12 days with fee</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month extended with 12 days without fee</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month extended with 17 days with fee</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month extended with 22 days with fee</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month extended with 27 days with fee</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit current month extended with 27 days without fee</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Franking Machines 8 following month</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Terms_of_payment_text__c</fullName>
+        <externalId>false</externalId>
+        <label>Terms of payment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <description>Type of contract</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Customer Contract</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nordic Framework Agreement</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <listViews>
+        <fullName>AllActivatedContracts</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>A</value>
+        </filters>
+        <label>All Activated Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>AllContracts</fullName>
+        <columns>Products__c</columns>
+        <columns>CONTRACT.CONTRACT_NUMBER</columns>
+        <columns>SALES.ACCOUNT.NAME</columns>
+        <columns>CONTRACT.START_DATE</columns>
+        <columns>CONTRACT.END_DATE</columns>
+        <columns>CONTRACT.STATUS</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Products__c</field>
+            <operation>notContain</operation>
+            <value>DPD</value>
+        </filters>
+        <label>All Contracts</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>AllDraftContracts</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>D</value>
+        </filters>
+        <label>All Draft Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>AllInApprovalContracts</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>P</value>
+        </filters>
+        <label>All In Approval Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>MyActivatedContracts</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>A</value>
+        </filters>
+        <label>My Activated Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>MyDraftContracts</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>D</value>
+        </filters>
+        <label>My Draft Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>MyInApprovalContracts</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>P</value>
+        </filters>
+        <label>My In Approval Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>PN_DK_Contracts</fullName>
+        <columns>CONTRACT.CONTRACT_NUMBER</columns>
+        <columns>SALES.ACCOUNT.NAME</columns>
+        <columns>Products__c</columns>
+        <columns>CONTRACT.START_DATE</columns>
+        <columns>CONTRACT.END_DATE</columns>
+        <columns>CONTRACT.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Area__c</field>
+            <operation>equals</operation>
+            <value>1000,4000,0540,LO DK</value>
+        </filters>
+        <filters>
+            <field>CONTRACT.STATUS</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </filters>
+        <label>PN DK Aktive Contracts</label>
+        <language>en_US</language>
+    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Postnord</fullName>
+        <active>true</active>
+        <label>Postnord</label>
+        <picklistValues>
+            <picklist>Expiration_notice__c</picklist>
+            <values>
+                <fullName>30 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>60 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>90 days</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_cancellation__c</picklist>
+            <values>
+                <fullName>Customer terminated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Postnord terminated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sales_Area__c</picklist>
+            <values>
+                <fullName>0630</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3670</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO91</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO92</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LO NO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Terms_of_payment__c</picklist>
+            <values>
+                <fullName>10 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>14 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>14 days from the accounting date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>21 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>24 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>28 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>30 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>35 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>45 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>60 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month %2B 12 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month %2B 14 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month %2B 15 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month %2B 20 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month %2B 25 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month %2B 30 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month %2B 45 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month %2B 5 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month %2B 60 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month %2B 8 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month %2B 90 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month extended with 12 days with fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month extended with 12 days without fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month extended with 17 days with fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month extended with 2 days with fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month extended with 2 days without fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month extended with 22 days with fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month extended with 27 days with fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month extended with 27 days without fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month extended with 7 days with fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit current month extended with 7 days without fee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Franking Machines 8 following month</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Customer Contract</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Nordic Framework Agreement</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>CONTRACT.CONTRACT_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTRACT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SALES.ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTRACT.STATUS</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTRACT.CONTRACT_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTRACT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTRACT.CONTRACT_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTRACT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>Type__c</searchFilterFields>
+        <searchFilterFields>CONTRACT.START_DATE</searchFilterFields>
+        <searchFilterFields>CONTRACT.END_DATE</searchFilterFields>
+        <searchFilterFields>CONTRACT.STATUS</searchFilterFields>
+        <searchFilterFields>CORE.USERS.FIRST_NAME</searchFilterFields>
+        <searchFilterFields>CORE.USERS.LAST_NAME</searchFilterFields>
+        <searchFilterFields>Sales_Area__c</searchFilterFields>
+        <searchResultsAdditionalFields>CONTRACT.CONTRACT_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Products__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SALES.ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.START_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.END_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.FIRST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.LAST_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Sales_Area__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Contract_end_date</fullName>
+        <active>true</active>
+        <errorConditionFormula>ispickval(Status, &apos;active&apos;)   &amp;&amp;  ISBLANK(EndDate) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorDisplayField>EndDate</errorDisplayField>
+        <errorMessage>Contract end date needs to be set for active contracts</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Reason_is_mandatory_for_cancelled</fullName>
+        <active>true</active>
+        <description>Reason for cancellation is mandatory for contract in status cancelled</description>
+        <errorConditionFormula>ISPICKVAL(Status, &apos;Cancelled&apos;)  &amp;&amp; ISPICKVAL(Reason_for_cancellation__c, &apos;&apos;)</errorConditionFormula>
+        <errorDisplayField>Reason_for_cancellation__c</errorDisplayField>
+        <errorMessage>Reason for cancellation needs to be set when status = Cancelled</errorMessage>
+    </validationRules>
+</CustomObject>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_22061480</developerName>
+        <masterLabel>Produktgruppe</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>FK_$Customer_Service_Product__c.Assortment__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Breve Indland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Breve Udland</sourceValue>
+            </sourceValues>
+            <value>Breve</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Pakker Indland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pakker Udland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakker</sourceValue>
+            </sourceValues>
+            <value>Pakker</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <columns>
+        <field>OPEN</field>
+    </columns>
+    <columns>
+        <field>CLOSED</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Rapport til Marianne Nissen i PH</description>
+    <filter>
+        <criteriaItems>
+            <column>Case.Reason__c</column>
+            <operator>equals</operator>
+            <value>Beskadiget,Manglende indhold</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>BucketField_22061480</column>
+            <operator>equals</operator>
+            <value>Breve,Pakker</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.Reason__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Year</dateGranularity>
+        <field>CREATED_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_22061480</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Beskadigelser til PH</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList@Case.Product_Article__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

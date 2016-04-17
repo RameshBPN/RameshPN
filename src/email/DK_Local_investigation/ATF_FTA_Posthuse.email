@@ -1,0 +1,208 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" align="center" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); text-align: center;"><span style="font-family: Verdana;">Til
+undersøgelse i Filial</span><span style="font-family: Arial;"><o:p></o:p></span></p>
+
+<p align="center" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin: 0cm 0cm 0.0001pt; text-align: center;"><span style="font-family: Verdana;">Dato og
+tidspunkt: {!NOW()}</span><span style="font-family: Arial;"><o:p></o:p></span></p>
+
+<p align="center" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin: 0cm 0cm 0.0001pt; text-align: center;"><span style="font-family: Verdana;">Svarfrist:
+{!Case.Due_Date__c}</span><span style="font-family: Arial;"><o:p></o:p></span></p><p align="center" style="font-size: 12pt; font-family: arial; text-align: left; color: rgb(0, 0, 0); margin: 0cm 0cm 0.0001pt;"><span style="font-family: Verdana;"><br></span></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; margin: 5pt 0cm;"><font face="Verdana, Helvetica, sans-serif" size="1"><b>Svar fra Filial:</b><o:p></o:p></font></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; margin: 5pt 0cm;"><font face="Verdana, Helvetica, sans-serif" size="1"><b><br></b></font></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; margin: 5pt 0cm;"><font face="Verdana, Helvetica, sans-serif" size="1"><b>Sæt X</b></font></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Verdana, Helvetica, sans-serif" size="1">&nbsp;</font></p><table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="font-size: 12pt; font-family: arial; border-collapse: collapse; border: none;">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:47.6pt">
+  <td width="73" valign="top" style="width:54.5pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:47.6pt">
+  <p class="MsoNormal"><o:p><font face="Verdana, Helvetica, sans-serif" size="1">&nbsp;</font></o:p></p>
+  </td>
+  <td width="440" valign="top" style="width:329.65pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:47.6pt">
+  <p class="MsoNormal"><font face="Verdana, Helvetica, sans-serif" size="1">&nbsp;</font></p>
+  <p class="MsoNormal"><b><font face="Verdana, Helvetica, sans-serif" size="1">Forsendelsen fundet. <o:p></o:p></font></b></p>
+  <p class="MsoNormal"><font face="Verdana, Helvetica, sans-serif" size="1">Modtager
+  er kontaktet. <o:p></o:p></font></p>
+  <p class="MsoNormal"><font face="Verdana, Helvetica, sans-serif" size="1">&nbsp;</font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;height:59.0pt">
+  <td width="73" valign="top" style="width:54.5pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:59.0pt">
+  <p class="MsoNormal"><o:p><font face="Verdana, Helvetica, sans-serif" size="1">&nbsp;</font></o:p></p>
+  </td>
+  <td width="440" valign="top" style="width:329.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:59.0pt">
+  <p class="MsoNormal" style="margin-right:-138.95pt"><font face="Verdana, Helvetica, sans-serif" size="1">&nbsp;</font></p>
+  <p class="MsoNormal" style="margin-right:-138.95pt"><b><font face="Verdana, Helvetica, sans-serif" size="1">Forsendelsen er
+  ikke fundet. <o:p></o:p></font></b></p>
+  <p class="MsoNormal" style="margin-right:-138.95pt"><font face="Verdana, Helvetica, sans-serif" size="1">Modtager er kontaktet.&nbsp; <o:p></o:p></font></p>
+  <p class="MsoNormal" style="margin-right:-138.95pt"><font face="Verdana, Helvetica, sans-serif" size="1">Modtager henvist til at kontakte afsender. <o:p></o:p></font></p>
+  <p class="MsoNormal" style="margin-right:-138.95pt"><font face="Verdana, Helvetica, sans-serif" size="1">&nbsp;</font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2;mso-yfti-lastrow:yes;height:76.75pt">
+  <td width="73" valign="top" style="width:54.5pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:76.75pt">
+  <p class="MsoNormal"><o:p><font face="Verdana, Helvetica, sans-serif" size="1">&nbsp;</font></o:p></p>
+  </td>
+  <td width="440" valign="top" style="width:329.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:76.75pt">
+  <p class="MsoNormal"><font face="Verdana, Helvetica, sans-serif" size="1">&nbsp;</font></p>
+  <p class="MsoNormal"><b><font face="Verdana, Helvetica, sans-serif" size="1">Andet:<o:p></o:p></font></b></p>
+  <p class="MsoNormal"><font face="Verdana, Helvetica, sans-serif" size="1">&nbsp;</font></p>
+  <p class="MsoNormal"><font face="Verdana, Helvetica, sans-serif" size="1">&nbsp;</font></p>
+  </td>
+ </tr>
+</tbody></table><p class="MsoNormal" style="font-size: 12pt; font-family: arial;">
+
+</p><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><o:p><font face="Verdana, Helvetica, sans-serif" size="1">&nbsp;</font></o:p></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Verdana, Helvetica, sans-serif" size="1">&nbsp;&nbsp;</font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size:10.0pt;font-family:Verdana">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size:8.0pt;font-family:Verdana">Hej<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size:10.0pt;font-family:Verdana">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">Kunden har forgæves været på posthuset/postbutikken efter
+denne forsendelse.&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">Forsendelsen er scannet "APF".</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><b><span style="font-size: 8pt; font-family: Verdana;">Sagsnr og lokalundersøgelses nr:&nbsp;
+<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">{!Case.Parent} / {!Case.CaseNumber}<b><o:p></o:p></b></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 10pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><br></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><b><span style="font-size: 8pt; font-family: Verdana;">Afsender:&nbsp; <o:p></o:p></span></b></p>
+
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin: 0cm 0cm 0.0001pt;"><span style="font-size: 8pt; font-family: Verdana;">{!Case.Sender__c}&nbsp;<o:p></o:p></span></p>
+
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin: 0cm 0cm 0.0001pt;"><span style="font-size: 8pt; font-family: Verdana;">{!Case.Sender_Postal_Address_Street__c}
+{!Case.Sender_Postal_Address_House_Number__c}
+{!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}<o:p></o:p></span></p>
+
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin: 0cm 0cm 0.0001pt;"><span style="font-size: 8pt; font-family: Verdana;">{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")}{!Case.Sender_Postal_Address_PO_Box__c}<o:p></o:p></span></p>
+
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin: 0cm 0cm 0.0001pt;"><span style="font-size: 8pt; font-family: Verdana;">{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")}{!Case.Sender_Postal_Address_Suburb__c}<o:p></o:p></span></p>
+
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin: 0cm 0cm 0.0001pt;"><span style="font-size: 8pt; font-family: Verdana;">{!Case.Sender_Postal_Address_Postal_Code__c}
+{!Case.Sender_Postal_Address_City__c}&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">{!Case.Sender_Postal_Address_Country__c}<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">Telefon nr:&nbsp;{!Case.Sender_Contact_Telephone__c} / Mobil
+nr:&nbsp;{!Case.Sender_Contact_Mobile__c}<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">{!Case.Sender_Contact_email__c}<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><b><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><b><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></b></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0);"><b><font face="Verdana, Helvetica, sans-serif" size="1">Modtager:<o:p></o:p></font></b></p>
+
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0.0001pt;"><font face="Verdana, Helvetica, sans-serif" size="1">{!Case.Receiver__c}<br>
+{!Case.Receiver_Postal_Address_Street__c}
+{!Case.Receiver_Postal_Address_House_Number__c}</font></p><div dir="ltr" align="left"><font face="Verdana, Helvetica, sans-serif" size="1">{!Case.Receiver_Postal_Address_House_Letter__c}</font></div><p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0.0001pt;"><font face="Verdana, Helvetica, sans-serif" size="1">{!Case.Receiver_Postal_Address_House_Number_S__c}
+{!Case.Receiver_Postal_Address_Room_Number__c}<span class="apple-converted-space">&nbsp;</span><o:p></o:p></font></p>
+
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0.0001pt;"><font face="Verdana, Helvetica, sans-serif" size="1">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")}{!Case.Receiver_Postal_Address_PO_Box__c}<o:p></o:p></font></p>
+
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0.0001pt;"><font face="Verdana, Helvetica, sans-serif" size="1">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")}{!Case.Receiver_Postal_Address_Suburb__c}<br>
+{!Case.Receiver_Postal_Address_Postal_Code__c}
+{!Case.Receiver_Postal_Address_City__c}<br>
+{!Case.Receiver_Postal_Address_Country__c}&nbsp;<o:p></o:p></font></p>
+
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0.0001pt; background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><font face="Verdana, Helvetica, sans-serif" size="1">Telefon nr.:{!Case.Receiver_Contact_Telephone__c}&nbsp;/ Mobil
+nr.:{!Case.Receiver_Contact_Mobile__c}<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><font face="Verdana, Helvetica, sans-serif" size="1">{!Case.Receiver_contact_email__c}</font><font face="Verdana" style="font-size: 8pt;"><o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><b><span style="font-size: 10pt; font-family: Verdana;">&nbsp;</span></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><b><span style="font-size: 10pt; font-family: Verdana;">&nbsp;</span></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><b><span style="font-size: 10pt; font-family: Verdana;">Årsag:<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">{!Case.Reason__c} / {!Case.Detailed_Reason__c}<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><b><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><b><span style="font-size: 8pt; font-family: Verdana;">Dato for fejl:<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">{!Case.Date_of_mistake__c}<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><b><span style="font-size: 8pt; font-family: Verdana;">Pakken er anmeldt til:<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">{!Case.Responsible_for_mistake__c}<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><b><span style="font-size: 8pt; font-family: Verdana;">Stregkode nr.:<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">{!Case.Item_Id__c}<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><b style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size: 8pt; font-family: Verdana;">Po-beløb</span></b><font face="Verdana" size="1">:&nbsp;</font><font face="Verdana"><span style="font-size: 11px;">{!Case.COD_Amount__c}</span></font><font face="Verdana" size="1">&nbsp;&nbsp;</font><b style="color: rgb(0, 0, 0); font-family: Verdana; font-size: 8pt;">Po-beløb
+konto</b><font face="Verdana" size="1">: {!Case.Account_Number__c}<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><b><span style="font-size: 8pt; font-family: Verdana;">Undersøg venligst følgende</span></b><span style="font-size: 8pt; font-family: Verdana;">: {!Case.Description}<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><b><font size="2"><font face="Arial, sans-serif">OBS - husk
+at du altid skal sende svaret på din undersøgelse tilbage til Kundelinjen. Det
+gør du ved, at klikke på "besvar" og ændre&nbsp;mailadressen
+til&nbsp;<a href="mailto:kundeservicesfdk@post.dk"><span style="color:windowtext">kundeservicesfdk@post.dk</span></a>.&nbsp;</font><span style="font-family: Arial;"><o:p></o:p></span></font></b></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><font size="2"><b><span style="font-family: Verdana;">(Du må
+ikke bruge videresend knappen og du må ikke ændre i emnelinien)</span></b><b><span style="font-family:Arial"><o:p></o:p></span></b></font></p>
+
+<p class="MsoNormal" align="center" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); text-align: center;"><span style="font-family: Arial;"><font size="2">&nbsp;</font></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin: 5pt 0cm;"><span style="font-size: 10pt; font-family: Verdana;">Med venlig hilsen<span class="apple-converted-space">&nbsp;</span><br>
+{!Case.OwnerFullName}</span><span style="font-family: Arial;"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin: 5pt 0cm;"><span style="font-family: Verdana;">&nbsp;</span><span style="font-family: Arial;"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin: 5pt 0cm;"><br></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 10pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><b><span style="font-size: 8pt; font-family: Verdana;">&nbsp;</span></b></p>]]></td>
+</tr>
+</table>

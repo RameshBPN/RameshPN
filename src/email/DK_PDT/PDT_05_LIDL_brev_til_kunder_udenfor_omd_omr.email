@@ -1,0 +1,48 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT size=2>{!Case.Account}</FONT></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT size=2>{!Case.Postal_Address_Street__c} {!Case.Postal_Address_House_Number__c} {!Case.Postal_Address_House_Number_Supplement__c} {!Case.Postal_Address_Room_Number__c}</FONT></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT size=2>{!IF(Case.Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Postal_Address_PO_Box__c}</FONT></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT size=2>{!IF(!Case.Postal_Address_Suburd__c="Suburb","")} {!Case.Postal_Address_Suburd__c}</FONT></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT size=2>{!Case.Postal_Address_Postal_Code__c} {!Case.Postal_Address_City__c}</FONT></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT size=2>{!Case.Postal_Address_Country__c}</FONT></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><FONT size=2>&nbsp;</FONT></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><FONT face=Arial,Sans-Serif></FONT></SPAN><FONT size=2>&nbsp;</FONT></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><FONT face=Arial,Sans-Serif></FONT></SPAN><FONT size=2>&nbsp;</FONT></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><FONT face=Arial,Sans-Serif></FONT></SPAN><FONT size=2>&nbsp;</FONT></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><FONT face=Arial,Sans-Serif><STRONG>Kære LIDL kunde<?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></STRONG></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><o:p><FONT face=Arial,Sans-Serif>&nbsp;</FONT></o:p></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><FONT face=Arial,Sans-Serif>Tak for din henvendelse til LIDL. <o:p></o:p></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><o:p><FONT face=Arial,Sans-Serif>&nbsp;</FONT></o:p></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><FONT face=Arial,Sans-Serif>Det er Post Danmark, der omdeler LIDL’s tilbudsavis hver fredag el. lørdag året rundt, </FONT></SPAN><SPAN style="FONT-SIZE: 10pt"><FONT face=Arial,Sans-Serif>og derfor har LIDL bedt os om at svare dig. <o:p></o:p></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><o:p><FONT face=Arial,Sans-Serif>&nbsp;</FONT></o:p></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><FONT face=Arial,Sans-Serif>I øjeblikket bliver LIDL’s tilbudsavis ikke omdelt i dit område, men vi har registreret dit ønske om at modtage tilbudsavisen og giver det videre til den ansvarlige hos LIDL. <o:p></o:p></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><o:p><FONT face=Arial,Sans-Serif>&nbsp;</FONT></o:p></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><FONT face=Arial,Sans-Serif>Der er desværre ikke andre muligheder for at modtage reklamen i øjeblikket, men LIDL gør opmærksom på, at du kan finde tilbudsavisen i butikken eller på LIDL’s hjemmeside <A href="http://www.lidl.dk">www.lidl.dk</A>.<o:p></o:p></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><o:p><FONT face=Arial,Sans-Serif></FONT></o:p></SPAN><FONT size=2>&nbsp;</FONT></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><o:p>&nbsp;</o:p></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><FONT face=Arial,Sans-Serif>Med venlig hilsen<o:p></o:p></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><o:p><FONT face=Arial,Sans-Serif></FONT></o:p></SPAN><FONT size=2>&nbsp;</FONT></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><o:p>&nbsp;</o:p></SPAN></P>
+<P><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 9pt"><FONT face=Arial,Sans-Serif><FONT size=2>{!Case.OwnerFirstName} {!Case.OwnerLastName}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><FONT face=Arial,Sans-Serif>Post Danmark <o:p></o:p></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-SIZE: 10pt"><o:p><FONT face=Arial,Sans-Serif>&nbsp;</FONT></o:p></SPAN></P>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" aEditID="c2r1" rowspan="3" >
+<![CDATA[<P><FONT size=1>{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>TLF {!User.Department_Phone__c}<BR>FAX {!User.Fax}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}<BR></FONT></P>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>08_PDK modtaget en beskadiget forsendelse 31_2</name>
+    <style>promotionRight</style>
+    <subject>Vi har modtaget en beskadiget forsendelse - Case: {!Case.Main_Case_Number__c}</subject>
+    <textOnly>{!Case.Sender__c}
+{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}
+{!IF(Case.Sender_Postal_Address_PO_Box__c=&quot;&quot;,&quot;&quot;,&quot;Postboks:&quot;)}{!Case.Sender_Postal_Address_PO_Box__c}
+{!Case.Sender_Postal_Address_Suburb__c}
+{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}
+{!IF(Case.Sender_Postal_Address_Country__c=&quot;DK&quot;,&quot;&quot;,Case.Sender_Postal_Address_Country__c)}
+
+
+
+
+Vi har modtaget en beskadiget forsendelse
+Vi har modtaget en beskadiget forsendelse med stregkodenummer {!Case.Item_Id__c} sendt {!Case.Submission_date__c} til:
+{!Case.Receiver__c}
+{!Case.Receiver_Contact_Name__c}
+{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_S__c} {!Case.Receiver_Postal_Address_Room_Number__c}
+{!IF(Case.Receiver_Postal_Address_PO_Box__c=&quot;&quot;,&quot;&quot;,&quot;Postboks:&quot;)}{!Case.Receiver_Postal_Address_PO_Box__c}
+{!Case.Receiver_Postal_Address_Suburb__c}
+{!Case.Receiver_Postal_Address_City__c}
+{!IF(Case.Receiver_Postal_Address_Country__c=&quot;DK&quot;,&quot;&quot;,Case.Receiver_Postal_Address_Country__c)}
+
+Vi kan ikke afgøre, om indholdet er helt eller delvist beskadiget. Vi har derfor sendt forsendelsen til dig, og vi vil bede dig om at undersøge indholdet. Hvis indholdet kan repareres, beder vi dig kontakte os på enten telefon {!User.Department_Phone__c} eller mail {!User.Team_Email__c} og oplyse prisen på reparationen. Efterfølgende kan du sende regningen til os og forsendelsen til modtageren.
+Hvis det koster mere end 4.800 kr. at reparere indholdet, eller hvis indholdet ikke kan repareres, vil vi gerne have forsendelsen retur. Derudover beder vi dig beskrive beskadigelsens omfang på side to.
+Vi erstatter indholdets værdi på skadestidspunktet og portoen. Derimod erstatter vi ikke moms og tabt fortjeneste.
+På forhånd tak for hjælpen.
+Med venlig hilsen
+{!User.FirstName} {!User.LastName}
+
+Oplysninger til sagsnummer {!Case.Main_Case_Number__c}:
+Forsendelsens stregkodenummer {!Case.Item_Id__c}.
+Forsendelsen er sendt {!Case.Submission_date__c}.
+Forsendelsens afsender:
+{!Case.Sender__c}
+{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c}
+{!IF(Case.Sender_Postal_Address_PO_Box__c=&quot;&quot;,&quot;&quot;,&quot;Postboks:&quot;)}{!Case.Sender_Postal_Address_PO_Box__c}
+{!Case.Sender_Postal_Address_Suburb__c}
+{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}
+{!Case.Sender_Postal_Address_Country__c}
+
+Forsendelsens indhold: {!Case.Content__c}
+Beskriv det beskadigede indhold så nøjagtigt som muligt:
+______________________________________________
+______________________________________________
+______________________________________________
+______________________________________________
+______________________________________________
+
+Du kan sende oplysningerne ind til os i vedlagte svarkonvolut. Portoen er betalt.
+{!User.CompanyName}
+{!User.Department}
+{!User.Division}
+{!User.Street}
+{!User.PostalCode} {!User.City}
+CVR nr. 26663903
+{!User.Company_Webb_Address__c}
+TLF {!User.Department_Phone__c}
+FAX {!User.Fax}
+{!User.Team_Email__c}
+Dato {!Today}
+Journal nr. {!Case.Main_Case_Number__c}
+Sagsbeh {!User.Alias} /</textOnly>
+    <type>html</type>
+</EmailTemplate>

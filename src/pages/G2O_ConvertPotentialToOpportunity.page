@@ -1,0 +1,6 @@
+<apex:page standardController="Potential__c"
+	extensions="G2O_ConvertPotentialToOpportunity_VFCx"
+	action="{!convertToOpportunity}">
+	<apex:messages />
+
+</apex:page>

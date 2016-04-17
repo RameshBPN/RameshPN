@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>@-Kampagne.Email ehandlens bedste ven</name>
+    <style>none</style>
+    <subject>Julehilsen på vej til dine kunder</subject>
+    <textOnly>Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+Kære {{lead.First Name}}
+
+
+
+Post Danmark er e-handelens bedste ven. Det budskab arbejder vi løbende på at give videre til e-handelen – og i år bruger vi vores klassiske julehilsen til at sætte trumf på over for 5000 mindre netbutikker. De modtager et brev, der minder dem om, at vi hos Post Danmark med lørdagsomdeling, modtagerflex og pakkebokse konstant arbejder på at skabe bedre vilkår for og vækst i e-handelen. Og så fortæller vi naturligvis, at vi er på vej med en stor kampagne for den ny og forbedrede version af Ønskeskyen, der skal fordoble antallet af brugere i Ønskeskyen.
+Se kampagnen her &lt;http://pages.postnord.com/rs/184-XFT-949/images/Kampagne_Samlet_FINAL.pdf&gt;
+Årets julegave er den nye version af Ønskeskyen
+De kan gratis at hente det plug-in til Ønskeskyen, der gør deres netbutik til en del af vores ønskeseddel-univers på nettet. Med Ønskesky-ikonet bliver det nemt for forbrugerne at sætte varer fra dine kunders netbutik på ønskesedlen og at dele dem med familie og venner. Skynder de sig at hente og installere deres plug-in, kan de nå at få glæde af Ønskeskyen allerede i julehandlen.
+Timing
+•
+Kampagneperiode for reklamefilm: 2. november – 23. december 2015
+
+
+•
+Udsendelse af brev: Medio november 2015
+
+
+•
+Landingpage: ønskeskyen.dk/erhverv - klar medio november 2015
+
+
+•
+Udsendelse af reminder-postkort: Ultimo november
+Målgruppe
+Ejere/kontaktpersoner til ca. 5000 netbutikker overvejende mindre virksomheder, der i gang med at etablere sig eller har forholdsvis få ressourcer til markedsføring. Ønskeskyen og vores øvrige ydelser hjælper dem med at udvikle deres forretning og yde god service til deres kunder. Vi håber, at du vil bruge kampagnen som et afsæt for at få sagt god jul til dine kunder samt informere dem om vores tilbud til julehandlen.
+Målsætningen
+5% af målgruppen – altså cirka X00 virksomheder – skal gerne hente et plug-in til Ønskeskyen. Helst inden jul, så de kan tilbyde deres kunder denne service i julehandlen.
+
+
+
+Aktiviteten er en del af den forbrugerrettede kampagne for Ønskeskyen, hvor målet at få 150.000 brugere i år. Overordnet er målet at etablere Post Danmark som ”nethandlens bedste ven”.</textOnly>
+    <type>custom</type>
+</EmailTemplate>

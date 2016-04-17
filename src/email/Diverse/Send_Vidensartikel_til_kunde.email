@@ -1,0 +1,12 @@
+Hej {!Contact.FirstName}, 
+
+Tak for din henvendelse. 
+
+{!Knowledge_Article_DK__kav.Mail__c}
+
+Du kan læse mere på www.postdanmark.dk. 
+
+Med venlig hilsen 
+
+{!Case.CreatedBy} 
+{!Organization.Name}

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Plan - Contact</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Plan - Contacts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account operation area --></label>
+        <name>Account_operation_area__c</name>
+        <picklistValues>
+            <masterLabel>Operational</masterLabel>
+            <translation><!-- Operational --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic</masterLabel>
+            <translation><!-- Strategic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tactical</masterLabel>
+            <translation><!-- Tactical --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Acct Plan --></label>
+        <name>Acct_Plan__c</name>
+        <relationshipLabel><!-- Account Plan - Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Attitude --></label>
+        <name>Attitude__c</name>
+        <picklistValues>
+            <masterLabel>Negative</masterLabel>
+            <translation><!-- Negative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neutral</masterLabel>
+            <translation><!-- Neutral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive</masterLabel>
+            <translation><!-- Positive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Business area --></label>
+        <name>Business_area__c</name>
+        <picklistValues>
+            <masterLabel>Financial</masterLabel>
+            <translation><!-- Financial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR</masterLabel>
+            <translation><!-- HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logistics</masterLabel>
+            <translation><!-- Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Procurement</masterLabel>
+            <translation><!-- Procurement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Account Plan - Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Interest --></label>
+        <name>Interest__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Person knowledge --></label>
+        <name>Person_knowledge__c</name>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small</masterLabel>
+            <translation><!-- Small --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Role in decision process --></label>
+        <name>Role_in_decision_process__c</name>
+        <picklistValues>
+            <masterLabel>Buyer</masterLabel>
+            <translation><!-- Buyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision maker</masterLabel>
+            <translation><!-- Decision maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gatekeeper</masterLabel>
+            <translation><!-- Gatekeeper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initiative taker</masterLabel>
+            <translation><!-- Initiative taker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialist</masterLabel>
+            <translation><!-- Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation><!-- User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Typology --></label>
+        <name>Typology__c</name>
+        <picklistValues>
+            <masterLabel>Analyst</masterLabel>
+            <translation><!-- Analyst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diplomat</masterLabel>
+            <translation><!-- Diplomat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enthusiast</masterLabel>
+            <translation><!-- Enthusiast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Practitioner</masterLabel>
+            <translation><!-- Practitioner --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>PDK BE</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Resource Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

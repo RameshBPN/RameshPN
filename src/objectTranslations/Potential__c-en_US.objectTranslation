@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Potential</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Potential</value>
+    </caseValues>
+    <fields>
+        <label><!-- Corporate Registration Number --></label>
+        <name>Corporate_Registration_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>Customer__c</name>
+        <relationshipLabel><!-- Potential --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Distribution Channel --></label>
+        <name>Distribution_Channel__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Division --></label>
+        <name>Division__c</name>
+        <picklistValues>
+            <masterLabel>00</masterLabel>
+            <translation><!-- 00 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Involved Party ID --></label>
+        <name>Involved_Party_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Type --></label>
+        <name>Potential_Type__c</name>
+        <picklistValues>
+            <masterLabel>Calculated</masterLabel>
+            <translation><!-- Calculated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media Investment</masterLabel>
+            <translation><!-- Media Investment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Area --></label>
+        <name>Sales_Area__c</name>
+        <picklistValues>
+            <masterLabel>0540</masterLabel>
+            <translation>LO DK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0630</masterLabel>
+            <translation>LO FI DPD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation>PDK BE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3670</masterLabel>
+            <translation>LO FI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4000</masterLabel>
+            <translation>PDK LO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO91</masterLabel>
+            <translation>ME SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO92</masterLabel>
+            <translation>LO SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation><!-- LO NO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Representative --></label>
+        <name>Sales_Representative__c</name>
+        <relationshipLabel><!-- Potential --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Converted to Opportunity</masterLabel>
+            <translation><!-- Converted to Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Calculated Potential --></label>
+        <name>Total_Calculated_Potential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Potential --></label>
+        <name>Total_Potential__c</name>
+    </fields>
+    <layouts>
+        <layout>ME &amp; LO Potential Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PDK BE Converted Potential Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PDK BE Potential Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- BE Converted Potential --></label>
+        <name>BE_Converted_Potential</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Breve Potential --></label>
+        <name>Breve_Potential</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ME &amp; LO Potential --></label>
+        <name>ME_LO_Potential</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You cannot load a potential without an account --></errorMessage>
+        <name>Account_Mandatory_on_Potential</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Potential for ME SE or Logistik must be attached to a Legal Entity. The account you have tried to associate this Potential with is not a Legal Entity. --></errorMessage>
+        <name>Account_must_be_Legal_Ent_for_ME_and_LO</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Potential for PDK BE or PDK LO must be attached to a Work SIte. The account you have tried to associate this Potential with is not a Work Site. --></errorMessage>
+        <name>Account_must_be_Work_Site_for_PDK_BE_LO</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot reject or convert a potential belonging to ME or LO --></errorMessage>
+        <name>Cannot_Reject_or_Convert_ME_LO_Potential</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Sales Area --></errorMessage>
+        <name>Invalid_Sales_Area</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Convert_to_Opportunity --></label>
+        <name>Convert_to_Opportunity</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer Service Product Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CustomerServiceProductMapping</value>
+    </caseValues>
+    <fields>
+        <label><!-- Product2Field --></label>
+        <name>Product2Field__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>07-Opstarts brev_2</name>
+    <style>promotionRight</style>
+    <subject>Har du modtaget denne forsendelse? - Case: {!Case.Main_Case_Number__c}</subject>
+    <textOnly>{!Case.Sender__c}
+{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c}
+{!IF(Case.Sender_Postal_Address_PO_Box__c=&quot;&quot;,&quot;&quot;,&quot;Postboks:&quot;)}{!Case.Sender_Postal_Address_PO_Box__c}
+{!Case.Sender_Postal_Address_Suburb__c}
+{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}
+{!Case.Sender_Postal_Address_Country__c}
+
+Din efterlysning er under behandling
+Vi har modtaget din efterlysning af forsendelsen med stregkodenummer {!Case.Item_Id__c} sendt {!Case.Submission_date__c} til:
+{!Case.Receiver__c}
+{!Case.Receiver_Contact_Name__c}
+{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c}
+{!IF(Case.Receiver_Postal_Address_PO_Box__c=&quot;&quot;,&quot;&quot;,&quot;Postboks:&quot;)}{!Case.Receiver_Postal_Address_PO_Box__c}
+{!Case.Receiver_Postal_Address_Suburb__c}
+{!Case.Receiver_Postal_Address_City__c}
+{!Case.Receiver_Postal_Address_Country__c}
+
+Vi er ved at undersøge sagen. Vær opmærksom på, at der kan gå op til to uger, før vi kan give dig et svar.
+Hvis forsendelsen kommer frem til modtager eller retur til dig, beder vi dig give os besked på telefon {!User.Department_Phone__c} eller mail {!User.Team_Email__c}.
+Oplys venligst sagsnummer {!Case.Main_Case_Number__c}.
+Du kan læse mere om vores produkter i forretningsbetingelserne på vores hjemmeside www.postdanmark.dk
+Med venlig hilsen
+{!User.FirstName} {!User.LastName}
+
+{!User.CompanyName}
+{!User.Department}
+{!User.Division}
+{!User.Street}
+{!User.PostalCode} {!User.City}
+TLF {!User.Department_Phone__c}
+FAX {!User.Fax}
+{!User.Team_Email__c}
+{!User.Company_Webb_Address__c}
+Dato {!Today}
+Journal nr. {!Case.Main_Case_Number__c}
+Sagsbeh {!User.Alias} /</textOnly>
+    <type>html</type>
+</EmailTemplate>

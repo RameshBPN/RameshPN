@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Ønskeskyen.Velkomst mail 1</name>
+    <style>none</style>
+    <subject>Velkommen til Ønskeskyen {{lead.First Name}}</subject>
+    <textOnly>Tillykke med din ønskesky
+
+- nu får du flere af de gaver, du gerne vil have
+Hej {{lead.First Name}}
+
+
+
+Ønskeskyen er din egen digitale ønskeseddel til alt det, du drømmer om. Brug den til at gemme den fede lampe, de flotte sko eller den søde hund, du godt kunne tænke dig. Du lægger løbende dine ønsker i skyen – fx med et billede fra mobilen eller et link fra nettet. Og har altid gode ønsker lige ved hånden til fødselsdag, fest eller jul.
+
+
+
+Se filmen &lt;https://www.youtube.com/watch?v=I7ROgOjk3Gk&gt; om, hvordan du gemmer dine ønsker.
+
+
+
+
+ &lt;https://www.youtube.com/watch?v=I7ROgOjk3Gk&gt;
+
+
+
+
+God vind!
+Få Ønskeskyen som app til din mobil og tablet
+
+På ønskesky-app’en gemmer du ønsker fra nettet ved at klikke på Ønskeskyen i delefunktionen eller ved at tage billeder af ting på din vej og lægge dem i skyen.
+&lt;https://itunes.apple.com/dk/app/nskeskyen/id973421404&gt;
+&lt;https://play.google.com/store/apps/details?id=com.ovdal.onskeskyen&gt;
+Tilføj ønskeknappen til din browser
+
+Når du har Ønskeknappen synlig i din browser på din desktop, risikerer du ikke at glemme alle de fede ting, du falder over på nettet. Med et klik på Ønskeknappen er ønsket i skyen.
+HENT ØNSKESKYEN  HENT ØNSKESKYEN &lt;https://xn--nskeskyen-k8a.dk/#!/text/tips&gt;
+Det er nemt at blive fristet
+
+– og lige så nemt at oprette ønsker
+
+
+
+Din ønskesky følger dig overalt. Og du kan gemme dine ønsker på flere måder. Uanset om du opretter dine ønsker i app’en eller i din browser, kommer de ind i din personlige ønskesky.
+
+
+
+Se filmen, og kom godt i gang.
+&lt;https://www.youtube.com/watch?v=I7ROgOjk3Gk&gt;
+&lt;https://www.facebook.com/oenskeskyen&gt;
+Følg Ønskeskyen på Facebook. &lt;https://www.facebook.com/oenskeskyen&gt;
+Vi har sendt denne e-mail til {{lead.Email Address}}. Hvis du ikke
+
+længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;http://pages.postnord.com/mypage_mypage.html&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <acrossGroupingContext>HSTATUS</acrossGroupingContext>
+        <calculatedFormula>DURATION:SUM/PARENTGROUPVAL(DURATION:SUM, RECORDTYPE, COLUMN_GRAND_SUMMARY)</calculatedFormula>
+        <datatype>percent</datatype>
+        <developerName>FORMULA1</developerName>
+        <downGroupingContext>RECORDTYPE</downGroupingContext>
+        <isActive>false</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>% of duration per stage</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_65391505</developerName>
+        <masterLabel>Handling Time</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>HSTATUS</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed</sourceValue>
+            </sourceValues>
+            <value>Not Handling Time</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Approval Approved</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Approved</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Control Case</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Created</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>For Approval</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>In progress</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>On-going</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Re-open</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Request for Information</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Survey Answered</sourceValue>
+            </sourceValues>
+            <value>Handling Time</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <aggregate>Average</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>DURATION</column>
+        </chartSummaries>
+        <chartType>VerticalColumnStacked</chartType>
+        <enableHoverLabels>true</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>RECORDTYPE</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_TOP</location>
+        <secondaryGroupingColumn>HSTATUS</secondaryGroupingColumn>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Small</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <colorRanges>
+        <aggregate>Average</aggregate>
+        <columnName>DURATION</columnName>
+        <highBreakpoint>400.0</highBreakpoint>
+        <highColor>#C25454</highColor>
+        <lowBreakpoint>200.0</lowBreakpoint>
+        <lowColor>#54C254</lowColor>
+        <midColor>#C2C254</midColor>
+    </colorRanges>
+    <columns>
+        <aggregateTypes>Average</aggregateTypes>
+        <field>DURATION</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <columns>
+        <field>OPEN</field>
+    </columns>
+    <columns>
+        <field>CLOSED</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <currency>SEK</currency>
+    <description>What is the average case duration of cases owned by users in my team or users below me in the role hierarchy?</description>
+    <filter>
+        <criteriaItems>
+            <column>Case.Is_Main_Case__c</column>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>HSTATUS</column>
+            <operator>notEqual</operator>
+            <value>closed</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>HSTATUS</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.Sales_Area_Owner__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>RECORDTYPE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>SE3_Average Case Duration</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>CaseHistory</reportType>
+    <scope>team</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>HLAST_UPDATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

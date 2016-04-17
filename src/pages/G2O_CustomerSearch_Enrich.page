@@ -1,0 +1,169 @@
+<apex:page standardController="Account"
+	extensions="G2O_CustomerSearch_Enrich_VFCx" tabstyle="Account">
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+		type="text/javascript"></script>
+	<script>
+		function showLoadingSpinner(wrapperClassName)
+		{
+			$('.'+wrapperClassName+' .paginationControls').hide();
+			$('.'+wrapperClassName+' .loadingSpinner').show();
+		}
+		
+		function hideLoadingSpinner(wrapperClassName)
+		{
+			$('.'+wrapperClassName+' .paginationControls').show();
+			$('.'+wrapperClassName+' .loadingSpinner').hide();
+		}
+	</script>
+	<style type="text/css">
+.paginationControls,.loadingSpinner {
+	margin-top: 4px;
+}
+
+.loadingSpinner {
+	line-height: 24px;
+	padding-left: 24px;
+	display: block;
+	background: url(/img/loading24.gif) no-repeat;
+}
+</style>
+
+	<apex:form id="theForm">
+		<apex:sectionheader id="sectionHeaderValue"
+			title="{!$Label.PAR_Verify}" subtitle="{!theAccount.Name}" />
+		<apex:pageMessages id="errors" />
+
+		<apex:actionFunction name="navigateAway" action="{!navigateAway}"
+			status="loadingSpinner" />
+		<apex:actionFunction name="doSearch"
+			action="{!searchExternalProvider}" />
+
+		<!-- START: Loading Start -->
+		<apex:outputPanel rendered="{!!searched}" id="initialLoadingPanel">
+			<div class="waitingHolder">
+				<img class="waitingImage" src="/img/loading32.gif" title="*" /> <span
+					class="waitingDescription">{!$Label.Searching_External_Provider}</span>
+			</div>
+			<script>
+				$(document).ready(function(){doSearch();});
+			</script>
+		</apex:outputPanel>
+		<!-- END: Loading Start -->
+
+		<!-- START: Display Results -->
+		<apex:outputPanel rendered="{!searched}" id="searchResultsPanel">
+
+			<apex:pageBlock title="{!$Label.Results_PAR}">
+				<apex:pageBlockButtons >
+					<apex:commandButton value="{!$Label.Go_Back}" action="{!cancel}" />
+				</apex:pageBlockButtons>
+
+				<!--  START: Results table -->
+				<apex:outputPanel styleClass="resultsTable" id="resultsTable"
+					rendered="{!searchResults.size > 0}">
+					<!-- \Paginated table -->
+					<apex:pageBlockTable value="{!searchResults}" var="searchResult"
+						title="{!$Label.External_Search_Results}">
+						<apex:column >
+							<apex:commandLink value="{!$Label.Enrich}"
+								action="{!enrichCustomerRecord}"
+								rerender="errors, searchResultsPanel, loadingSpinner"
+								status="loadingSpinner">
+								<apex:param name="selectedExternalId"
+									value="{!searchResult.theAccount.External_Provider_Party_ID__c}"
+									assignTo="{!selectedExternalId}" />
+							</apex:commandLink>
+						</apex:column>
+						<apex:repeat var="a"
+							value="{!$ObjectType.Account.FieldSets.CustomerSearch_Enrich_ResultsTable}">
+							<apex:column headerValue="{!a.Label}">
+								<apex:outputField value="{!searchResult.theAccount[a.fieldPath]}" />
+							</apex:column>
+						</apex:repeat>
+						<apex:column headerValue="{!$Label.Visiting_Address}">
+							<apex:outputLabel value="{!searchResult.address}" />
+						</apex:column>
+					</apex:pageBlockTable>
+					<!-- /Paginated table -->
+
+					<!-- \Pagination controls -->
+					<apex:outputPanel styleClass="paginationControls">
+						<apex:commandButton action="{!searchResultsPagination.first}"
+							disabled="{!!searchResultsPagination.showPreviousButton}"
+							rerender="resultsTable" status="resultsTable_loadingSpinner"
+							value="|<<" />
+						<apex:commandButton action="{!searchResultsPagination.previous}"
+							disabled="{!!searchResultsPagination.showPreviousButton}"
+							rerender="resultsTable" status="resultsTable_loadingSpinner"
+							value="<<" />
+						<span style="padding: 0 1em;">{!$Label.Page}
+							{!searchResultsPagination.pageNumber} -
+							{!searchResultsPagination.numberOfPages}</span>
+						<apex:commandButton action="{!searchResultsPagination.next}"
+							disabled="{!!searchResultsPagination.showNextButton}"
+							rerender="resultsTable" status="resultsTable_loadingSpinner"
+							value=">>" />
+						<apex:commandButton action="{!searchResultsPagination.last}"
+							disabled="{!!searchResultsPagination.showNextButton}"
+							rerender="resultsTable" status="resultsTable_loadingSpinner"
+							value=">>|" />
+					</apex:outputPanel>
+					<!-- /Pagination controls -->
+
+					<!-- \Pagination Loading Spinner -->
+					<div class="loadingSpinner" style="display: none;">
+						<span class="waitingDescription">{!$Label.Loading}</span>
+					</div>
+					<!-- /Pagination Loading Spinner -->
+				</apex:outputPanel>
+				<apex:actionstatus id="resultsTable_loadingSpinner"
+					onstart="showLoadingSpinner('resultsTable');"
+					onstop="hideLoadingSpinner('resultsTable');" />
+				<!--  END: Results table -->
+
+				<!-- START: Advice message: Failure to retrieve results -->
+				<apex:outputPanel rendered="{!searchResults.size <= 0}">
+					<apex:panelGrid columns="2">
+						<apex:image value="/img/msg_icons/error32.png" width="32"
+							height="32"></apex:image>
+						<apex:outputLabel value="{!$Label.Ext_No_Results_Found}"
+							style="line-height:32px; font-weight: bold"
+							rendered="{!searchResults.size <= 0}" />
+					</apex:panelGrid>
+				</apex:outputPanel>
+				<!-- END: Advice message: Failure to retrieve results -->
+
+				<script>
+					var enriched = '{!enrichPerformed}';
+					if (enriched == 'true' ) 
+					{
+						var msg = "{!resultMsg}";
+						if(msg!='') {
+							// Convey any side issues like duplications found during enrichment. Not necessarily blocking errors.
+							alert(msg);
+						}
+						var noErrorsFound = "{!noErrors}";
+						if (noErrorsFound == "true") navigateAway();
+					}
+				</script>
+			</apex:pageBlock>
+
+		</apex:outputPanel>
+		<!-- END: Display Results -->
+
+		<!-- START : General loading spinner that covers the whole page -->
+		<apex:actionstatus id="loadingSpinner">
+			<apex:facet name="start">
+				<div class="waitingSearchDiv" id="el_loading"
+					style="background: url({!$Resource.TransparentBackground_FFFFFF_75pc}) transparent; height: 100%; width: 100%;">
+					<div class="waitingHolder">
+						<img class="waitingImage" src="/img/loading32.gif" title="*" /> <span
+							class="waitingDescription">{!$Label.Searching_External_Provider_Contacts}</span>
+					</div>
+				</div>
+			</apex:facet>
+		</apex:actionstatus>
+		<!-- END : General loading spinner -->
+	</apex:form>
+</apex:page>

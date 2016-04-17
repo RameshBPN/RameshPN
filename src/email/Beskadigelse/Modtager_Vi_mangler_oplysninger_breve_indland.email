@@ -1,0 +1,69 @@
+<table border="0" cellpadding="0" width="650" cellspacing="0" height="400" >
+<tr valign="top" >
+<td width="460" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="460" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<span lang="EN-GB"><font face="Arial, sans-serif" size="2">
+<p dir="ltr" align="left"></p><p dir="ltr" align="left">{!Case.Receiver__c}</p><p dir="ltr" align="left">{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c}</p><p dir="ltr" align="left">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c}</p><p dir="ltr" align="left">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c}</p><p dir="ltr" align="left">{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c}</p><p dir="ltr" align="left">{!Case.Receiver_Postal_Address_Country__c}</p><p></p>
+<p align="left">&nbsp;</p>
+<p align="left"><span style="color: black;" lang="EN-GB"></span><strong></strong>&nbsp;</p>
+<p align="left"><strong></strong>&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left"><strong></strong>&nbsp;</p>
+<p align="left"><strong></strong>&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left"><strong>VI HAR BRUG FOR FLERE OPLYSNINGER&nbsp;</strong></p>
+<p align="left">&nbsp;</p>
+<p align="left"><span style="color: black;" lang="EN-GB">Vi har modtaget din reklamation af den beskadigede&nbsp;forsendelse med stregkodenummer {!Case.Item_Id__c} sendt {!Case.Submission_date__c} af:</span></p>
+<p align="left"><span style="color: black;" lang="EN-GB"></span>&nbsp;</p><span lang="EN-GB">
+<p dir="ltr" align="left"></p><p dir="ltr" align="left">{!Case.Receiver__c}</p><p dir="ltr" align="left">{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c}</p><p dir="ltr" align="left">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c}</p><p dir="ltr" align="left">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c}</p><p dir="ltr" align="left">{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c}</p><p dir="ltr" align="left">{!Case.Receiver_Postal_Address_Country__c}</p><p></p>
+<p align="left">&nbsp;</p>
+<p align="left"><span style="color: black;" lang="EN-GB">For at kunne undersøge din reklamation har vi brug for flere oplysninger. </span></p>
+<p align="left"><span style="color: black;" lang="EN-GB"></span>&nbsp;</p>
+<p align="left"><span style="color: black;" lang="EN-GB">Hvad er&nbsp;forsendelsens stregkodenummer?</span></p>
+<p align="left"><span style="color: black;" lang="EN-GB"></span>&nbsp;</p>
+<p align="left"><span style="color: black;" lang="EN-GB">Beskriv skadens omfang så nøjagtigt som muligt.</span></p>
+<p align="left"><span style="color: black;" lang="EN-GB"></span>&nbsp;&nbsp;</p>
+<p align="left"><span style="color: black;" lang="EN-GB">Hvad er din indkøbspris (eksklusiv moms) på&nbsp;forsendelsen indhold - eventuel reparationspris? Vi skal bruge oplysningen for at kunne udbetale eventuel erstatning. Vi beder dig sende en kopi af din indkøbsfaktura, kvittering eller lignende. Hvis du sender en salgsfaktura, skal du trække moms og avance fra.</span></p>
+<p align="left"><span style="color: black;" lang="EN-GB"></span>&nbsp;</p>
+<p align="left"><span style="color: black;" lang="EN-GB">Hvad er prisen på&nbsp;forsendelsens indhold - eventuel reparationspris? Vi skal bruge oplysningen for at kunne udbetale eventuel erstatning. Vi beder dig sende kopi af faktura, kvittering eller lignende.</span></p>
+<p align="left"><span style="color: black;" lang="EN-GB"></span>&nbsp;</p><span style="color: black;" lang="EN-GB">
+<p align="left">Vi beder dig sende emballagen og indholdet ind til Post Danmark, Kundelinjen,&nbsp; {!User.Street} {!User.City} med sagsnummer {!Case.Main_Case_Number__c}. Vi vil gerne undersøge, hvordan&nbsp;forsendelsen har været emballeret.<br></p></span>
+<p align="left">&nbsp;</p>
+<p align="left"><span style="color: black;" lang="EN-GB">Skal vi udbetale eventuel erstatning til dig eller afsenderen?</span></p><span style="color: black;" lang="EN-GB">
+<p align="left"><br>Hvad er dit reg.nr. og kontonr., som vi kan sætte eventuel erstatning ind på?</p>
+<p align="left">&nbsp;</p>
+<p align="left"><span style="color: black;" lang="EN-GB">Hvornår er&nbsp;forsendelsen sendt?</span></p>
+<p align="left"><span style="color: black;" lang="EN-GB"></span>&nbsp;</p>
+<p align="left"><span style="color: black;" lang="EN-GB">Hvornår er&nbsp;forsendelsen modtaget?</span></p>
+<p align="left"><span style="color: black;" lang="EN-GB"></span>&nbsp;</p>
+<p align="left"><span style="color: black;" lang="EN-GB">Vi beder dig sende oplysningerne ind til os i vedlagte svarkonvolut. Portoen er betalt. </span><span style="color: black;" lang="EN-GB">Du kan også sende oplysningerne til {!User.Team_Email__c}. Oplys venligst sagsnummer {!Case.Main_Case_Number__c}</span></p><span style="color: black;" lang="EN-GB">
+<p align="left"><br>Du vil høre fra os, når din reklamation er behandlet.</p>
+<p align="left">&nbsp;</p>
+<p align="left"><font face="Arial,Sans-Serif" style="font-size: 13.6000003814697px; background-color: rgb(255, 255, 255);">Du kan finde mere information om vores forretningsbetingelser på hjemmeside&nbsp;</font><a href="http://www.postdanmark.dk/" style="font-family: Arial; font-size: 13.6000003814697px; background-color: rgb(255, 255, 255);"><font face="Arial,Sans-Serif">www.postdanmark.dk</font></a></p>
+<p align="left"><!--?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /--><o:p></o:p>&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left"><o:p>Med venlig hilsen</o:p></p>
+<p align="left"><o:p></o:p>&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left"><o:p>{!Case.OwnerFirstName} {!Case.OwnerLastName}</o:p></p>
+<p align="left"><o:p>{!Case.OwnerTitle}</o:p></p></span></span></span></font></span>]]></td>
+</tr>
+</table>
+</td>
+<td width="10" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<![CDATA[]]></td>
+<td width="180" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="180" cellspacing="5" height="400" >
+<tr valign="top" height="100" >
+<td rowspan="3" width="180" tEditID="c2r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c2r1" locked="0" >
+<![CDATA[<p align="left"><font size="1" face="Arial,Sans-Serif">{!User.CompanyName} <br>{!User.Division}<br>{!User.Department}<br>{!User.Street}<br>{!User.PostalCode} {!User.City}<br>CVR nr.: 26663903<br>{!User.Company_Webb_Address__c}<br>&nbsp;<br>Tlf {!User.Department_Phone__c}<br>{!User.Team_Email__c}<br>&nbsp;<br>Dato {!Today}<br>Sagsnr. {!Case.Main_Case_Number__c} <br>Sagsbeh {!User.Alias}<br></font></p>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

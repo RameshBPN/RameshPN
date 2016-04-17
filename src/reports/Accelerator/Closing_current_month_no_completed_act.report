@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Opportunity$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Activities$Subject</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Closing current month no completed activities last 7 days and no planned before close</description>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity$LastActivityDate</column>
+            <operator>lessThan</operator>
+            <value>LAST_N_DAYS:7</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Activities$ActivityDate</column>
+            <operator>greaterThan</operator>
+            <value>YESTERDAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Activities$ActivityDate</column>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity$Owner</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Closing current month no completed act</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_w_out_Activities__c</reportType>
+    <scope>team</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$CloseDate</dateColumn>
+        <interval>INTERVAL_THISMONTH</interval>
+    </timeFrameFilter>
+</Report>

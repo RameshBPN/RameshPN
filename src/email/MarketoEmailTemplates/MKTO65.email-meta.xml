@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>@-Kampagne.@-Status_5_uden_maal</name>
+    <style>none</style>
+    <subject>Slutspurt</subject>
+    <textOnly>Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+Indsamlede permissions
+Medarbejderne i det team, der samler flest e-mailpermissions pr. mand, vinder en tur i biografen for to personer inklusive popcorn.
+{{lead.PN DK Realized PM:default=0}}
+ud af 333
+@ Slutspurt @
+Kære {{lead.First Name}}
+ 
+ Nu sætter slutspurten ind. Og den skal være effektiv, hvis vi skal nå fra 323 til 3.000 e-mailpermissions. Så giv den en på @’en de sidste dage.
+ 
+ Hurtige e-mailpermissions
+ Vi forventer ikke, at du bruger lang tid på at indhente e-mailpermissions. Det er nok at spørge dine kunder, når I alligevel taler sammen, om de er interesseret i at modtage relevant information fra os.
+ 
+ Tag fat i din nærmeste leder, hvis du har brug for ny inspiration til at slutte af med et @.
+ 
+ Venlig hilsen
+ Anders Mittag
+Husk at spørge - sådan kan du gøre
+&quot;Er du interesseret i at modtage relevant information fra os, for så vil jeg sende dig en e-mail, som du kan bekræfte&quot;
+
+
+
+@=$
+
+Din @-indsats er afgørende for, at vi kan holde relationen varm og dialogen åben. Vi har investeret i et CRM-system, der kan understøtte vores salgsarbejde. Men vi er afhængige af kundernes e-mailpermissions for at få udbytte af det.</textOnly>
+    <type>custom</type>
+</EmailTemplate>

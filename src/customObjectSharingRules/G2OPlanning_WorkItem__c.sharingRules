@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <ownerRules>
+        <fullName>Share_all</fullName>
+        <sharedTo>
+            <group>CRM_Master_Project_Team</group>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+        <accessLevel>Edit</accessLevel>
+        <name>Share all</name>
+    </ownerRules>
+    <ownerRules>
+        <fullName>Share_all_2</fullName>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <group>CRM_Master_Project_Team</group>
+        </sharedFrom>
+        <accessLevel>Edit</accessLevel>
+        <name>Share all 2</name>
+    </ownerRules>
+</CustomObjectSharingRules>

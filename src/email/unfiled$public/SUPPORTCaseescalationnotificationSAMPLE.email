@@ -1,0 +1,1 @@
+*** VARNING OM KUNDCASEOMFLYTTNING *** Följande kundcase har flyttats om:   Företag:  {!Account.Name} Kundcase:  {!Case.CaseNumber}: {!Case.Subject} Ägare:  {!CaseOwner.FullName} Klicka på länken om du vill öppna kundcaset:  {!Case.Link}

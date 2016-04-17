@@ -1,0 +1,9 @@
+Hej {!Opportunity.Lead_Identifier__c}
+
+På baggrund af det gode lead du tidligere har sendt til os vedrørende virksomheden {!Opportunity.Account}
+er der nu indgået en aftale med kunden. 
+
+Godt gået!
+
+Med venlig hilsen
+PostNord Danmark Salg

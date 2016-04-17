@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_36708256</developerName>
+        <masterLabel>Actual Handling Time</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>HSTATUS</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Created</sourceValue>
+            </sourceValues>
+            <value>Not in Progress</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Request for Information</sourceValue>
+            </sourceValues>
+            <value>Internal Waiting</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Approval Approved</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Approved</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>For Approval</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>On-going</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Re-open</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Survey Answered</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>In progress</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Control Case</sourceValue>
+            </sourceValues>
+            <value>Handling Time</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <aggregate>Average</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>DURATION</column>
+        </chartSummaries>
+        <chartType>Pie</chartType>
+        <enableHoverLabels>true</enableHoverLabels>
+        <expandOthers>false</expandOthers>
+        <groupingColumn>BucketField_36708256</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_TOP</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>true</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>true</showValues>
+        <size>Small</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <aggregateTypes>Average</aggregateTypes>
+        <field>DURATION</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <columns>
+        <field>OPEN</field>
+    </columns>
+    <columns>
+        <field>CLOSED</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <currency>SEK</currency>
+    <description>average duration per case handling time</description>
+    <filter>
+        <criteriaItems>
+            <column>HSTATUS</column>
+            <operator>notEqual</operator>
+            <value>closed</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_36708256</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>RECORDTYPE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>8_Processing time</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>CaseHistory</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>HLAST_UPDATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

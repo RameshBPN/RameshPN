@@ -1,0 +1,22 @@
+<!--
+    About
+    -----
+    Description: NTT Update Request
+    Created for: Postnord Get2OneCRM Master template/DK
+    Create date: April 2013
+    
+    Details
+    -------
+    This Visualforce page provides the functionality to send an NTT Update Request from caseproduct detail page .
+    
+    Update History
+    --------------
+    Created April 2013 - A.B.
+    
+    Issues / TODOs
+    --------------
+-->
+<apex:page standardController="CaseProduct__c"
+	extensions="G2O_NTTSearch_Button_VFCx" action="{!nttUpdate}">
+	<apex:pageMessages />
+</apex:page>

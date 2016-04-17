@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_69502430</developerName>
+        <masterLabel>Produkt</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Case.Product_Article__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Privatpakke Postopkrævning fly</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke Postopkrævning, Norden</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke uden omdeling, Norden</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Private Priority</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke Norden, fly</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke fly</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke skib/fly</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Private BulkSplit</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Private Bulk Postopkrævning</sourceValue>
+            </sourceValues>
+            <value>BtC</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Business Bulksplit</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Business Bulksplit Return</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Business Priority</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>DPD Classic Udland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>DPD Guarantee Udland</sourceValue>
+            </sourceValues>
+            <value>BtB</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Pallet Udland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Letgods</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Business Pallet</sourceValue>
+            </sourceValues>
+            <value>Pallet</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CASE_NUMBER</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Logistik - bucket field er forkert</description>
+    <filter>
+        <criteriaItems>
+            <column>Case.Receiver_Postal_Address_Country__c</column>
+            <operator>equals</operator>
+            <value>FI,Finland,NO,Norge,SE,Sverige</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <operator>equals</operator>
+            <value>Case.Complaint</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>CLOSED_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.Receiver_Postal_Address_Country__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Test af produkt</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSED_DATEONLY</dateColumn>
+        <interval>INTERVAL_PREVFY</interval>
+    </timeFrameFilter>
+</Report>

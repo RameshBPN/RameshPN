@@ -1,0 +1,68 @@
+<table border="0" cellpadding="0" width="650" cellspacing="0" height="400" >
+<tr valign="top" >
+<td width="460" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="460" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Sender__c}<!--?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /--><o:p></o:p></font></font></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}<o:p></o:p></font></font></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}<o:p></o:p></font></font></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")} {!Case.Sender_Postal_Address_Suburb__c} <o:p></o:p></font></font></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}<o:p></o:p></font></font></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Sender_Postal_Address_Country__c}<o:p></o:p></font></font></span></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font face="Arial, sans-serif" size="2"><span style="color: black;"><strong></strong></span>&nbsp;</font></p>
+<p align="left"><font face="Arial, sans-serif" size="2"><span style="color: black;"><strong></strong></span>&nbsp;</font></p>
+<p align="left"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p align="left"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p align="left"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p align="left"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p align="left"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><span style="color: black;"><strong><font face="Arial,Sans-Serif" size="2">DU FÅR PORTOEN TILBAGEBETALT</font></strong></span></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><span style="color: black;"><font face="Arial,Sans-Serif" size="2">Vi har undersøgt din reklamation på den forsinkede forsendelse med stregkodenummer <span style="color: black;">{!Case.Item_Id__c}&nbsp;</span>sendt <span style="color: black;">{!Case.Submission_date__c}&nbsp;</span>til:</font></span></p>
+<p align="left"><font face="Arial, sans-serif" size="2"><span style="color: black;"></span>&nbsp;</font></p><span style="color: black;"><font face="Arial, sans-serif" size="2">
+</font><p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Receiver__c}<o:p></o:p></font></font></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif"><o:p></o:p></font></font></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c} <o:p></o:p></font></font></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c} <o:p></o:p></font></font></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c} <o:p></o:p></font></font></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c} <o:p></o:p></font></font></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Receiver_Postal_Address_Country__c}<o:p></o:p></font></font></span></p>
+<p align="left"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<p align="left"><span style="color: black;"><font face="Arial,Sans-Serif" size="2">Brevet blev sendt som Post Exprès. Da det blev leveret til modtageren efter kl. 10, vil du få tilbagebetalt portoen <span style="color: black;">{!Case.Approved_amount_of_compensation__c}</span>, samt tillægget på [<strong>tillæg</strong>] kr.</font></span></p>
+<p align="left"><font face="Arial, sans-serif" size="2"><span style="color: black;"></span>&nbsp;</font></p>
+<p align="left"><span style="color: black;"><font face="Arial,Sans-Serif" size="2">Brevet blev sendt som Post Exprès. Da det blev leveret til modtageren efter kl. 15, vil du få tilbagebetalt portoen på <span style="color: black;">{!Case.Approved_amount_of_compensation__c}, </span>samt tillægget på [<strong>tillæg</strong>] kr. Derudover får du også 500 kr. i godtgørelse.</font></span></p><p align="left"><span style="color: black;"><font face="Arial,Sans-Serif"><font size="2"><br></font></font></span></p><p align="left"><font face="Arial, sans-serif" size="2">Inden for fire hverdage sætter vi beløbet ind på din konto&nbsp;{!Bank_Key__c.Name} {!Case.Bank_Account__c}.</font></p>
+<p align="left"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<p align="left"><font face="Arial,Sans-Serif" size="2">Du vil få tilbagetalt portoen på [<b> XX kr.</b><span style="font-weight: bold; color: black;">&nbsp;</span>eksklusiv eventuelt tillæg], da forsendelsen blev leveret for sent til modtageren.</font></p>
+<p align="left"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p align="left"><font face="Arial,Sans-Serif" size="2">Du kan trække beløbet fra på den næste faktura, som du modtager fra os.</font></p>
+<p align="left"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<p align="left"><font size="2"><font face="Arial,Sans-Serif">Du kan finde flere informationer i forretningsbetingelserne på hjemmesiden </font><a href="http://www.postdanmark.dk"><font face="Arial,Sans-Serif">www.postdanmark.dk</font></a></font></p>
+<p align="left"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<div><span class="909551612-13012016"></span><font face="Arial"><font size="2">H<span class="909551612-13012016">vis du mener, at den trufne afgørelse ikke er i 
+overensstemmelse med vores forretningsbetingelser, kan du&nbsp;indbringe&nbsp;den&nbsp;til 
+PostNord Danmarks Ankefunktion, Carsten Niebuhrs Gade 4, 2.&nbsp; 1577 København V 
+eller sende en mail til&nbsp;<u><a href="mailto:ankesager@post.dk">ankesager@post.dk</a>.</u><font color="#000000"></font></span></font><font color="#0000ff"><font size="2"><span class="909551612-13012016"></span></font></font></font></div><p align="left"><font face="Arial, sans-serif" size="2">&nbsp;<br>Vi undskylder ulejligheden, du har haft på grund af forsinkelsen.</font></p>
+<p align="left"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<p align="left"><font face="Arial,Sans-Serif" size="2">Med venlig hilsen</font></p>
+<p align="left"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<p align="left"><span style="color: black;"><font size="2"><font face="Arial,Sans-Serif">{!Case.OwnerFirstName} {!Case.OwnerLastName}<o:p></o:p></font></font></span></p>
+<p align="left"><font face="Arial, sans-serif" size="2"><br></font><font face="Arial,Sans-Serif"><font size="2">&nbsp;&nbsp;<br></font><br></font></p><font face="Arial" style="font-size: 10pt;"><o:p></o:p></font></span>]]></td>
+</tr>
+</table>
+</td>
+<td width="10" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<![CDATA[]]></td>
+<td width="180" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="180" cellspacing="5" height="400" >
+<tr valign="top" height="100" >
+<td rowspan="3" width="180" tEditID="c2r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c2r1" locked="0" >
+<![CDATA[<P align=left><FONT size=1>{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>Tlf {!User.Department_Phone__c}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}<BR></P></FONT>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

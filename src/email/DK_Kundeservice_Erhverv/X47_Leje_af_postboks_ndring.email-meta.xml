@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Leje af postboks – ændring</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>47 - Leje af postboks – ændring</name>
+    <style>freeForm</style>
+    <subject>Leje af postboks – ændring</subject>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Success Criteria - SWOT</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Success Criteria - SWOTs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Acct Plan --></label>
+        <name>Acct_Plan__c</name>
+        <relationshipLabel><!-- Success Criteria - SWOTs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal and external conditions --></label>
+        <name>Internal_and_external__c</name>
+        <picklistValues>
+            <masterLabel>Opportunities (O)</masterLabel>
+            <translation><!-- Opportunities (O) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic actions (SO)</masterLabel>
+            <translation><!-- Strategic actions (SO) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic actions (ST)</masterLabel>
+            <translation><!-- Strategic actions (ST) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic actions (WO)</masterLabel>
+            <translation><!-- Strategic actions (WO) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic actions (WT)</masterLabel>
+            <translation><!-- Strategic actions (WT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strength (S)</masterLabel>
+            <translation><!-- Strength (S) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Threats(T)</masterLabel>
+            <translation><!-- Threats(T) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weakness (W)</masterLabel>
+            <translation><!-- Weakness (W) --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>SWOT Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

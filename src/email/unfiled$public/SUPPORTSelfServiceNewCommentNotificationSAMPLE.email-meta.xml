@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Mallexempel för e-post som kan skickas till självbetjäningskunder för att meddela dem att en allmän kommentar har lagts till deras kundcase.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>SUPPORT:  Meddelande om ny kommentar för självbetjäning (EXEMPEL)</name>
+    <style>none</style>
+    <subject>Ditt kundcase {!Case.CaseNumber} har uppdaterats</subject>
+    <type>text</type>
+</EmailTemplate>

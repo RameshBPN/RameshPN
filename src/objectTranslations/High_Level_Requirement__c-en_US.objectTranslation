@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>High Level Requirement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>High Level Requirements</value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Functional Area --></label>
+        <name>Functional_Area__c</name>
+        <picklistValues>
+            <masterLabel>Collaboration</masterLabel>
+            <translation><!-- Collaboration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Service</masterLabel>
+            <translation><!-- Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration</masterLabel>
+            <translation><!-- Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- High Level Requirement ID --></label>
+        <name>High_Level_Requirement_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Objective --></label>
+        <name>Project_Objective__c</name>
+        <picklistValues>
+            <masterLabel>Avoid Strategic Project Costs</masterLabel>
+            <translation><!-- Avoid Strategic Project Costs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improve Customer Interactions &amp; Insight</masterLabel>
+            <translation><!-- Improve Customer Interactions &amp; Insight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improve New Customer Acquisition</masterLabel>
+            <translation><!-- Improve New Customer Acquisition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improve Sales Effectiveness</masterLabel>
+            <translation><!-- Improve Sales Effectiveness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improve User Interaction</masterLabel>
+            <translation><!-- Improve User Interaction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase Retention of Existing Customers</masterLabel>
+            <translation><!-- Increase Retention of Existing Customers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase Sales to Existing Customers</masterLabel>
+            <translation><!-- Increase Sales to Existing Customers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduce Business Operation Costs</masterLabel>
+            <translation><!-- Reduce Business Operation Costs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduce Risk from Regulatory Compliance</masterLabel>
+            <translation><!-- Reduce Risk from Regulatory Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove Risk of Legacy Platform Use</masterLabel>
+            <translation><!-- Remove Risk of Legacy Platform Use --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>High Level Requirement Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information (Hidden) --></label>
+            <section>Information (Hidden)</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

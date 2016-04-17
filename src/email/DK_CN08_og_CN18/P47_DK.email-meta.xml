@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>P47 DK</name>
+    <style>freeForm</style>
+    <subject>Afregning af erstatning med udlandet - Journalnr: {!Case.Main_Case_Number__c}</subject>
+    <textOnly>Journalnr.: {!Case.Main_Case_Number__c}
+
+{!User.CompanyName}
+{!User.Division}
+{!User.Department}
+{!User.Street}
+{!User.PostalCode} {!User.City}
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+Afregningslandet
+
+Landets navn:
+Reference nummer:
+Reference dato:
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+Forsendelsen
+
+Forsendelsens art:
+Registernummer:
+Alfsendelsesposthuset:
+Bestemmelsesposthuset:
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+Afregning
+
+Erstatningsbeløb i SDR / DTS:
+Til optagelse i afregning:
+Til kontrol med afregning:
+Beløbet afsendes i check:
+Beløbet modtages i check:
+Antal bilag:
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+Underskrift
+Posthusets stempel
+
+Dato
+Underskrift</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LiveChatTranscript$Name</field>
+    </columns>
+    <currency>SEK</currency>
+    <description>Viser antallet af chats, der er modtaget og mistet fordelt pr. måned. Denne er til Stig og Myssen hver den 1  i måneden</description>
+    <filter>
+        <criteriaItems>
+            <column>LiveChatTranscript$Status</column>
+            <operator>equals</operator>
+            <value>1,0</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>LiveChatTranscript$Status</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>LiveChatTranscript$CreatedDate</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>MR_CCE_Antal chats pr. måned</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Live_Agent__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>LiveChatTranscript$CreatedDate</dateColumn>
+        <endDate>2015-09-30</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2015-01-01</startDate>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>Holds the mapping between Account Team Members and Account based on the members TeamRole.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Account_Team_Member_Role__c</fullName>
+        <description>the Role of the Account team member</description>
+        <externalId>false</externalId>
+        <label>Account Team Member Role</label>
+        <length>80</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DestinationField__c</fullName>
+        <description>Contains the Field that the data should be copied too, must be a valid field on the Account object.</description>
+        <externalId>false</externalId>
+        <label>DestinationField</label>
+        <length>80</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SourceField__c</fullName>
+        <description>The Field on AccountTeamMember where the data should be copied from, use default . notation to access relationships</description>
+        <externalId>false</externalId>
+        <label>SourceField</label>
+        <length>80</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>AccountTeamMemberToAccountMapping</label>
+</CustomObject>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>LO FI CS Key Account</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>LO FI CS Key Account</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>LO_FI_CS_Key_Account_Air_Ocean_Team_Lead</parentRole>
+</Role>

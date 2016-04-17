@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Ønskeskyen.Mail5-BytteBytte</name>
+    <style>none</style>
+    <subject>Bytte bytte julemand bytte ikke om igen..</subject>
+    <textOnly>Kære {{lead.First Name}}
+
+
+
+Slut med at være skuffet juleaften
+
+Havde du svært ved at finde en grimasse, der kunne passe juleaften, da du åbnede din julegave, så brug ønskeskyen til næste jul. Så får du nemlig, hvad du ønsker dig - og ikke, hvad andre ønsker at give dig.
+
+
+
+Du skal bare sende dine ønsker op i skyen og dele dem med venner og familier. Det kan du også gøre til din fødselsdag og alle andre dage, hvor du gerne vil begaves...
+Hvordan er det nu liiiige, Ønskeskyen virker?
+&lt;https://www.youtube.com/watch?v=I7ROgOjk3Gk&gt;
+&lt;https://www.youtube.com/watch?v=I7ROgOjk3Gk&gt;
+&lt;https://www.facebook.com/oenskeskyen&gt;
+Følg Ønskeskyen på Facebook. &lt;https://www.facebook.com/oenskeskyen&gt;
+Vi har sendt denne e-mail til {{lead.Email Address}}. Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;http://pages.postnord.com/Min-side.html&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

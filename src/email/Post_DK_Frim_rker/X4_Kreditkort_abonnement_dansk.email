@@ -1,0 +1,65 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">{!Case.Account}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">{!Case.Postal_Address_Street__c}
+{!Case.Postal_Address_House_Number__c}
+{!Case.Postal_Address_House_Number_Supplement__c}
+{!Case.Postal_Address_Room_Number__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">{!IF(Case.Postal_Address_PO_Box__c="","","Postboks:")}
+{!Case.Postal_Address_PO_Box__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">{!IF(!Case.Postal_Address_Suburd__c="Suburb","")}
+{!Case.Postal_Address_Suburd__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">{!Case.Postal_Address_Postal_Code__c}
+{!Case.Postal_Address_City__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2"><span lang="EN-GB">{!NullValue(IF(!Case.Postal_Address_Country__c="DK</span><span lang="EN-GB" style="color: windowtext;">", "\"\")")}
+{!Case.Postal_Address_Country__c}<o:p></o:p></span></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="color: windowtext;"><font face="Arial, sans-serif" size="2"><br></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="color: windowtext;"><font face="Arial, sans-serif" size="2"><br></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="color: windowtext;"><font face="Arial, sans-serif" size="2"><br></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="color: windowtext;"><font face="Arial, sans-serif" size="2"><br></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="color: windowtext;"><b><font face="Arial, sans-serif" size="2">KREDITKORT</font></b></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="color: windowtext;"><b><font face="Arial, sans-serif" size="2"><br></font></b></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="color: windowtext;"><b><font face="Arial, sans-serif" size="2"><br></font></b></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2">Kære&nbsp;{!Case.Account}</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2">Dit kreditkort er desværre blevet afvist.</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2">Vi beder dig derfor venligst kontakte banken, hvis du stadig ønsker at betale dit abonnement med dit kreditkort.</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2">Vi vedlægger en ny fuldmagt, som du kan benytte, hvis du har fået nye kortoplysninger.</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2">Beløbet er i alt XX,XX kr.</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2">Du har også mulighed for at indbetale ovenstående beløb senest den XX.XX.2015 til kontonr. 86916819 kortart 73 med oplysning om faktura XXXXXXXX.</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2">&nbsp;</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2">Hvis vi ikke hører fra dig - eller ovennævnte beløb ikke bliver betalt – inden for fristen, vil vi lukke dit abonnement. Endvidere vil vi sætte almindelig rykkerproces i gang, hvilket bl.a. medfører opkrævning af rykkergebyr på 100 kr. for hver rykkerskrivelse, vi udsender.&nbsp;</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">Med venlig hilsen</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2">{!Case.OwnerFirstName} {!Case.OwnerLastName}</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="Arial, sans-serif" size="2"><br></font></p>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" rowspan="3" aEditID="c2r1" >
+<![CDATA[<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.CompanyName}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Division}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Department}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Street}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.PostalCode} {!User.City}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">CVR nr.: 26663903<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Company_Webb_Address__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">&nbsp;</font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">Tlf {!User.Department_Phone__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Team_Email__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">&nbsp;</font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">Dato {!Today}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">Sagsnr. {!Case.Main_Case_Number__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">Sagsbeh {!User.Alias}</font><font face="Arial" style="font-size: 8pt;"><o:p></o:p></font></span></p>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

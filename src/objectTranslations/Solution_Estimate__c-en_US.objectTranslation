@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Solution Estimate</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Solution Estimates</value>
+    </caseValues>
+    <fields>
+        <label><!-- Best Case LOE (Hours) --></label>
+        <name>Best_Case_LOE_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solution Type --></label>
+        <name>Solution_Type__c</name>
+        <picklistValues>
+            <masterLabel>API Development</masterLabel>
+            <translation><!-- API Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analytics</masterLabel>
+            <translation><!-- Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apex Code Development</masterLabel>
+            <translation><!-- Apex Code Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approval Process</masterLabel>
+            <translation><!-- Approval Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Configuration</masterLabel>
+            <translation><!-- Configuration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Migration</masterLabel>
+            <translation><!-- Data Migration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Validation</masterLabel>
+            <translation><!-- Data Validation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Assignment Rules</masterLabel>
+            <translation><!-- Lead Assignment Rules --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security Model</masterLabel>
+            <translation><!-- Security Model --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisualForce Development</masterLabel>
+            <translation><!-- VisualForce Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workflow Rules</masterLabel>
+            <translation><!-- Workflow Rules --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Targeted Release --></label>
+        <name>Targeted_Release__c</name>
+        <picklistValues>
+            <masterLabel>Release 1</masterLabel>
+            <translation><!-- Release 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release 2</masterLabel>
+            <translation><!-- Release 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release TBD</masterLabel>
+            <translation><!-- Release TBD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Technical Considerations --></label>
+        <name>Technical_Considerations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Worst Case LOE (Hours) --></label>
+        <name>Worst_Case_LOE_Hours__c</name>
+    </fields>
+    <layouts>
+        <layout>Solution Estimate Layout</layout>
+        <sections>
+            <label><!-- Information (Hidden) --></label>
+            <section>Information (Hidden)</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,231 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2><BR></FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2><BR></FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2><BR></FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2><BR></FONT></DIV><FONT size=2 face="Times New Roman, Times, serif">
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><BR></DIV></FONT><FONT size=2 face="Times New Roman, Times, serif">
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><BR></DIV></FONT><FONT size=2 face="Times New Roman, Times, serif">
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><BR></DIV></FONT><FONT size=2 face="Times New Roman, Times, serif">
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><BR></DIV></FONT><FONT size=2 face="Times New Roman, Times, serif">
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><BR></DIV></FONT><FONT size=2 face="Times New Roman, Times, serif">
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><BR></DIV></FONT><FONT size=2 face="Times New Roman, Times, serif">
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><BR></DIV></FONT><FONT size=2 face="Times New Roman, Times, serif">
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><BR></DIV></FONT>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2><BR></FONT></DIV>
+<DIV align=left><FONT size=2 face="Arial, sans-serif"><B>Anmeldelse til Kostercentralen</B></FONT></DIV>
+<DIV align=left><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></DIV>
+<DIV align=left><FONT size=2 face=Arial,Sans-Serif>Vi vil gerne have vedlagte anmeldelse optaget i Kostercentralen.</FONT></DIV>
+<DIV align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></DIV>
+<DIV align=left><FONT size=2 face=Arial,Sans-Serif>Indholdet er forsvundet fra en forsendelse med stregkodenummer {!Case.Item_Id__c}, som blev sendt med Post Danmark. Hvis I har flere spørgsmål til denne anmeldelse, skal I oplyse sagsnummer {!Case.Main_Case_Number__c}.</FONT></DIV>
+<DIV align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></DIV>
+<DIV align=left><FONT size=2 face=Arial,Sans-Serif>På forhånd tak for hjælpen.</FONT></DIV>
+<DIV align=left><FONT size=2><BR></FONT></DIV><FONT face=Arial,Sans-Serif></FONT>
+<DIV align=left><FONT size=2 face=Arial,Sans-Serif>Med venlig hilsen</FONT></DIV>
+<DIV align=left><FONT size=2 face=Arial,Sans-Serif>{!User.FirstName} {!User.LastName}</FONT></DIV><FONT size=2 face="Times New Roman, Times, serif">
+<DIV align=left><BR></DIV></FONT><FONT size=2 face="Arial, sans-serif"><B>
+<DIV align=left><BR></DIV></B></FONT>
+<DIV align=left><FONT size=2 face="Arial, sans-serif"><B>Anmeldelse til Kostercentralen</B></FONT></DIV><FONT size=2 face="Arial, sans-serif"><B>
+<DIV align=left><BR></DIV></B></FONT>
+<DIV align=left>
+<TABLE border=0 cellSpacing=5 cellPadding=5 width=550 height=400>
+<TBODY>
+<TR height=400 vAlign=top>
+<TD style="BACKGROUND-COLOR: rgb(255,255,255); FONT-SIZE: 12pt" locked="0" teditid="c1r1" aeditid="c1r1">
+<P class=OverskriftFed9><SPAN lang=DA><FONT size=2></FONT></SPAN></P>
+<TABLE style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-COLLAPSE: collapse; BORDER-TOP: medium none; BORDER-RIGHT: medium none" class=MsoNormalTable border=1 cellSpacing=0 cellPadding=0 width=647>
+<TBODY>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 237.4pt; PADDING-RIGHT: 3.5pt; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=317 colSpan=3>
+<P class=GruppeOverskrift><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><B><FONT size=2>Afsender af forsendelsen<?xml:namespace prefix = o /><o:p></o:p></FONT></B></FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 248.05pt; PADDING-RIGHT: 3.5pt; BORDER-LEFT-STYLE: none; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=331 colSpan=2>
+<P class=GruppeOverskrift><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2><B>Anmelder og forudrettede</B><o:p></o:p></FONT></FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 237.4pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=317 colSpan=3>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Firmanavn:<o:p></o:p></FONT></FONT></SPAN></P>
+<P class=NormalTabel><FONT size=2 face="Times New Roman, Times, serif">{!Case.Sender__c}</FONT></P>
+<P class=NormalTabel><FONT size=2><BR></FONT></P>
+<P class=NormalTabel><FONT size=2><BR></FONT></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 248.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=331 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Navn:<o:p></o:p></FONT></FONT></SPAN></P>
+<P class=AfsenderLet><FONT size=2 face="Times New Roman, Times, serif">{!User.Department}</FONT></P>
+<P class=AfsenderLet><FONT size=2 face="Times New Roman, Times, serif">{!User.Division}</FONT></P>
+<P class=AfsenderLet><FONT size=2 face="Times New Roman, Times, serif">{!User.CompanyName}</FONT></P>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 237.4pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=317 colSpan=3>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">Adresse:</FONT></SPAN></P>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}<BR>{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}<BR>{!IF(Case.Sender_Postal_Address_Suburb__c="Suburb","",Case.Sender_Postal_Address_Suburb__c)}<o:p></o:p></FONT></FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 248.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=331 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Adresse:<o:p></o:p></FONT></FONT></SPAN></P>
+<P class=NormalTabel><FONT size=2 face="Times New Roman, Times, serif">{!User.Street}</FONT></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 237.4pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=317 colSpan=3>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Postnr./by:<o:p></o:p></FONT></FONT></SPAN></P>
+<P class=NormalTabel><FONT size=2 face="Times New Roman, Times, serif">{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}</FONT></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 248.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=331 colSpan=2>
+<P class=AfsenderLet><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Postnr./by:<o:p></o:p></FONT></FONT></SPAN></P>
+<P class=NormalTabel><FONT size=2 face="Times New Roman, Times, serif">{!User.City}</FONT></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 237.4pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=317 colSpan=3>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Se-nr:<o:p></o:p></FONT></FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 248.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=331 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>CVR.nr.:<o:p></o:p></FONT></FONT></SPAN></P>
+<P class=NormalTabel><FONT size=2><BR></FONT></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 237.4pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=317 colSpan=3>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Tlf.nr.:<o:p></o:p></FONT></FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 248.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=331 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Tlf.nr.:<o:p></o:p></FONT></FONT></SPAN></P>
+<P class=NormalTabel><FONT size=2 face="Times New Roman, Times, serif">{!User.Department_Phone__c}</FONT></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 237.4pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=317 colSpan=3>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Forsikringsselskab:<o:p></o:p></FONT></FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 248.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=331 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 237.4pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=317 colSpan=3>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Policenr.:<o:p></o:p></FONT></FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 248.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=331 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 485.45pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=647 colSpan=5>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Hvad er sket?<o:p></o:p></FONT></FONT></SPAN></P>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 485.45pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=647 colSpan=5>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Tidspunkt/Tidsrum (dato og klokkeslet)?<o:p></o:p></FONT></FONT></SPAN></P>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 485.45pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=647 colSpan=5>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Hvor er det sket (navn på stedet, adresse, mv.)?<o:p></o:p></FONT></FONT></SPAN></P>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 485.45pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=647 colSpan=5>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Hvordan er det sket?<o:p></o:p></FONT></FONT></SPAN></P>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 485.45pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=647 colSpan=5>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Hvad er stjålet/skadet? List herunder:<o:p></o:p></FONT></FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 59.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=79>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Genstand:<o:p></o:p></FONT></FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 101.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=135>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Mærkning/serienr./imeinr.:<o:p></o:p></FONT></FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 120.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=160 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Beskrivelse/mærke/model:<o:p></o:p></FONT></FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 205.1pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=273>
+<P class=NormalTabel><SPAN lang=DA><FONT face="Times New Roman, Times, serif"><FONT size=2>Værdi i dkr.:<o:p></o:p></FONT></FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 59.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=79>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 101.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=135>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 120.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=160 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 205.1pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=273>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 59.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=79>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 101.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=135>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 120.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=160 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 205.1pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=273>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 59.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=79>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 101.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=135>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 120.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=160 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 205.1pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=273>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 59.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=79>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 101.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=135>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 120.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=160 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 205.1pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=273>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 59.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=79>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 101.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=135>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 120.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=160 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 205.1pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=273>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 59.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=79>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 101.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=135>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 120.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=160 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 205.1pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=273>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 59.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=79>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 101.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=135>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 120.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=160 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 205.1pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=273>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 59.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=79>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 101.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=135>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 120.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=160 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 205.1pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=273>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 59.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=79>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 101.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=135>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 120.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=160 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 205.1pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=273>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR>
+<TR>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 59.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=79>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 101.05pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=135>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 120.15pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=160 colSpan=2>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD>
+<TD style="BORDER-BOTTOM: windowtext 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 205.1pt; PADDING-RIGHT: 3.5pt; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm" vAlign=top width=273>
+<P class=NormalTabel><SPAN lang=DA><FONT size=2 face="Times New Roman, Times, serif">&nbsp;</FONT></SPAN></P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" rowspan="3" aEditID="c2r1" >
+<![CDATA[<P><FONT size=1 face=Arial,Sans-Serif>{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>TLF {!User.Department_Phone__c}<BR>FAX {!User.Fax}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}</FONT></P>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

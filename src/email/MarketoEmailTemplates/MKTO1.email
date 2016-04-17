@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="content-language" content="en-us">
+<title>PostNord</title>
+</head>
+<body ><table style="width:100%; background-color:#ffffff; " border="0" cellpadding="0" cellspacing="0" ><tr ><td style="vertical-align:top; padding:10px; " align="center" valign="top" ><table style="width:660px; text-align:left; " border="0" cellpadding="0" cellspacing="0" ><tr ><td rowspan="2">
+<table style="width: 41px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td style="background-color:#0096BB; vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td><img height="21" width="9" src="https://app.marketo.com/images/public-site/email/cornerNW-white.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:right; color:#FFFFFF; font-family:Tahoma,Helvetica; font-size:10px; line-height:18px; width:100%; " ><div class="mktEditable" id="volume_title" >&nbsp; &nbsp;</div>
+</td>
+<td><img height="21" width="9" src="https://app.marketo.com/images/public-site/email/cornerNE-white.png" alt=""><br></td>
+</tr>
+</table>
+</td>
+<td rowspan="2">
+<table style="width: 40px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table border="0" cellpadding="0" cellspacing="0" width="100%" ><tr ><td style="background-color:#f0f0f0; color:#45555f; font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><img src="http://eu-lon02.marketo.com/rs/postenab/images/logo-postnord00.png" align="right" border="0" height="32" width="175" alt="Company Name"><div style="color:#45555f; font-size:14px; font-weight:bold; line-height:21px; " ><div class="mktEditable" id="intro_title" >Roadshow January 2013</div>
+</div>
+<div style="color:#0096BB; font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" >Don't Miss Out</div>
+</div>
+<br>
+<div class="mktEditable" id="main_text" ><p><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 14px;">Hello {{lead.First Name:default=Sir/Maddam}},</span><br /> <br /><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 14px;"> We know that the winter is cold but come sign up for our <a href="http://eu-lon02.marketo.com/lp/postenab/PostNordRoadshowJan2013_Registration.html">roadshow coming </a></span><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 14px;"><a href="http://eu-lon02.marketo.com/lp/postenab/PostNordRoadshowJan2013_Registration.html">to&nbsp;{{my.Location:default=edit me}}</a> this {{my.Date:default=}}.&nbsp; Learn the last from the experts on how to get your packages delivered.&nbsp;</span></p>
+<p><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 14px;">You will hear the expert talk about:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+<p><a href="http://eu-lon02.marketo.com/lp/postenab/PostNordRoadshowJan2013_Registration.html"><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 14px;"><img src="http://eu-lon02.marketo.com/rs/postenab/images/register_today_home_button.png" alt="" width="123" height="123" align="right" /></span></a></p>
+<ul>
+<li><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 14px;">The latest in Direct Mail</span></li>
+<li><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 14px;">Logistics Services</span></li>
+<li><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 14px;">Distribution Services</span></li>
+</ul>
+<p><br /><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 14px;">Learn more on what <a href="http://www.postnord.com">PostNord</a> has to offer today!</span></p>
+<p><br /><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 14px;">Hope to see you there.</span></p>
+<p><span style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 14px;">The PostNord Team</span></p></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" colspan="3">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td style="color: #45555f; font-family: Tahoma,Helvetica; font-size: 11px; line-height: 16px; vertical-align: top; text-align: center"><img height="99" width="660" src="https://app.marketo.com/images/public-site/email/bottomShadow.png" alt=""><br>
+<b>PostNord AB</b> 105 00 Stockholm Sverige <a href="mailto:info@postnord.com">info@postnord.com</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

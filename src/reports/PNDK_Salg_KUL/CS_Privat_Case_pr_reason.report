@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_3340381</developerName>
+        <masterLabel>Detail Årsag - DB</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Case.Detailed_Reason__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Ej ringet på</sourceValue>
+            </sourceValues>
+            <value>Ej ringet på</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Post til døren, §9</sourceValue>
+            </sourceValues>
+            <value>Post til døren</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_34026928</developerName>
+        <masterLabel>Årsager - DB</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Case.Reason__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Forsinket</sourceValue>
+            </sourceValues>
+            <value>Forsinkelse</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Udlevering/Omdeling/udkørsel</sourceValue>
+            </sourceValues>
+            <value>Omdeling</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Pakkeboksen</sourceValue>
+            </sourceValues>
+            <value>Pakkeboksen</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>E-posthuset</sourceValue>
+            </sourceValues>
+            <value>e-Posthuset</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <columns>
+        <field>OPEN</field>
+    </columns>
+    <columns>
+        <field>CLOSED</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <currency>SEK</currency>
+    <description>Cases fordelt på årsager oprettet af privatsporet</description>
+    <filter>
+        <criteriaItems>
+            <column>Case.Team__c</column>
+            <operator>equals</operator>
+            <value>PN DK KUL Team Frontline,PN DK KUL Team Customs and Claims,PN DK KUL Team Social Media and Mails,PN DK KUL Team Stamps and Hotline</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Is_Main_Case__c</column>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_34026928</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_3340381</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.Team__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>CS-Privat Case pr. reason</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_THISMONTH</interval>
+    </timeFrameFilter>
+</Report>

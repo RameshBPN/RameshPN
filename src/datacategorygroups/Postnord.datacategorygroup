@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Logistics</label>
+                <name>Logistics</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Business</label>
+                <name>Business</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Private</label>
+                <name>Private</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Manuals</label>
+                <name>Manuals</name>
+            </dataCategory>
+            <label>Denmark</label>
+            <name>Denmark</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <description>Knowledge Management</description>
+    <label>Postnord</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

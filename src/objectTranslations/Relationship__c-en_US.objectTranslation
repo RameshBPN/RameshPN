@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Relationship</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Relationships</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Corporate Registration Number --></label>
+        <name>Account_Corporate_Registration_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Involved Party ID --></label>
+        <name>Account_Involved_Party_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Search for IDs --></label>
+        <name>Account_Search_for_IDs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Relationships (Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Distribution Channel --></label>
+        <name>Distribution_Channel__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation>Posten Distr.channel</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Division --></label>
+        <name>Division__c</name>
+        <picklistValues>
+            <masterLabel>00</masterLabel>
+            <translation>Posten Division</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last PN Synchronized Date --></label>
+        <name>Last_PN_Synchronized_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN_Mark_As_Synced --></label>
+        <name>PN_Mark_As_Synced__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronization ErrorReasonCode --></label>
+        <name>PN_Synchronization_ErrorReasonCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronization Error --></label>
+        <name>PN_Synchronization_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronized --></label>
+        <name>PN_Synchronized__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rel Acc Corporate Registration Number --></label>
+        <name>Rel_Acc_Corporate_Registration_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rel Acc Search for IDs --></label>
+        <name>Rel_Acc_Search_for_IDs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rel Account Involved Party ID --></label>
+        <name>Rel_Account_Involved_Party_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Account Name --></label>
+        <name>Related_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Account --></label>
+        <name>Related_Account__c</name>
+        <relationshipLabel><!-- Relationships (Related Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relationship Compound SFID --></label>
+        <name>Relationship_Compound_SFID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship Type --></label>
+        <name>Relationship_Type__c</name>
+        <picklistValues>
+            <masterLabel>Customer by Partner</masterLabel>
+            <translation><!-- Customer by Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customers Customer</masterLabel>
+            <translation><!-- Customers Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Sales Partner</masterLabel>
+            <translation><!-- External Sales Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RE</masterLabel>
+            <translation>Invoice Recipient</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RG</masterLabel>
+            <translation>Payer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YP</masterLabel>
+            <translation>Order on behalf</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZF</masterLabel>
+            <translation>Service Agent</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Area --></label>
+        <name>Sales_Area__c</name>
+        <picklistValues>
+            <masterLabel>0540</masterLabel>
+            <translation>LO DK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0630</masterLabel>
+            <translation>LO FI DPD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation>PDK BE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3670</masterLabel>
+            <translation>LO FI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO91</masterLabel>
+            <translation>ME SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO92</masterLabel>
+            <translation>LO SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation><!-- LO NO --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Involved Party Relationship Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- An account cannot be a Payer to itself --></errorMessage>
+        <name>Account_cannot_be_Payer_to_itself</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account must be a Customer that is a Work Site or Legal Entity --></errorMessage>
+        <name>Customer_By_Partner_Check_1_Account_Cust</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Customer by Partner relationship must contain a Prospect/Customer/External Partner LE/WS as the related account --></errorMessage>
+        <name>Customer_by_Partner_Check_2_Rel_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account must be a Customer that is a Work Site or Legal Entity --></errorMessage>
+        <name>Customers_Customer_Check_1_Account_Cust</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Customers customers relationship must contain LE, Work Site, External Partner or Competitor. --></errorMessage>
+        <name>Customers_Customer_Check_2_Rel_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account must be a Customer that is a Work Site or Extension --></errorMessage>
+        <name>Invoice_Recipient_Check_1_Account_Cust</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Related Account must be either a Customer or an Invoice Recipient --></errorMessage>
+        <name>Invoice_Recipient_Check_2_Rel_Acc_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Primary Account cannot be an Invoice recipient when relationship type is Invoice Recipient --></errorMessage>
+        <name>Invoice_Recipient_Check_3_Prim_Acc_IR</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- At least one of the accounts in this relationship has been marked for delete. You cannot relate a deleted account. --></errorMessage>
+        <name>Mark_For_Deletion_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account may not be updated. If you need to update Account please create a new Relationship record --></errorMessage>
+        <name>No_edit_of_Account_field_after_create</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Related Account may not be updated. If you need to update Related Account please create a new Relationship record --></errorMessage>
+        <name>No_edit_of_Rel_Acc_field_after_create</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Relationship Type may not be updated. If you need to update Relationship Type please create a new Relationship record --></errorMessage>
+        <name>No_edit_of_Rel_Type_field_after_create</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sales Area may not be updated. If you need to update Sales Area please create a new Relationship record --></errorMessage>
+        <name>No_edit_of_Sales_Area_field_after_create</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Primary Account is not a Customer --></errorMessage>
+        <name>Order_on_Behalf_Check_1_Account_Cust</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Primary Account is not a Work Site or Extension --></errorMessage>
+        <name>Order_on_Behalf_Check_2_Account_RT</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Both accounts must be customers to have a Payer relationship. --></errorMessage>
+        <name>Payer_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Primary Account is LE. LE can not be part of Invoice recipient, Order on Behalf or Payer relationships --></errorMessage>
+        <name>Primary_Account_LE_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Relationship Type is mandatory --></errorMessage>
+        <name>Relationship_Type_is_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sales Area cannot be changed --></errorMessage>
+        <name>Sales_Area_Cannot_be_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account must be an Extension of type &apos;Customer by Partner&apos; --></errorMessage>
+        <name>Service_Agent_Check_1_Acc_Ext</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Related Account must be a Customer --></errorMessage>
+        <name>Service_Agent_Check_2_Rel_Acc_Cust</name>
+    </validationRules>
+</CustomObjectTranslation>

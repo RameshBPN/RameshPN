@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>ClearInteract Call Center Agent Interface object.
+Used for push topic and streaming api in service cloud console component.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Bot_Data__c</fullName>
+        <description>Bot data, semicolon separated</description>
+        <externalId>false</externalId>
+        <label>Bot Data</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Call_Id__c</fullName>
+        <description>External call id in ClearInteract</description>
+        <externalId>false</externalId>
+        <label>Call Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_Agent_Id__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>External id of the agent in the ClearInteract Call Center solution</description>
+        <externalId>true</externalId>
+        <inlineHelpText>ClearInteract agent id</inlineHelpText>
+        <label>External Agent Id</label>
+        <length>16</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>From__c</fullName>
+        <description>Phone number (A-number, blank, #, unknown, withheld) or email sender.</description>
+        <externalId>false</externalId>
+        <label>From</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Item_Id__c</fullName>
+        <description>External item id from ClearInteract</description>
+        <externalId>false</externalId>
+        <label>Item Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Original_Call_Id__c</fullName>
+        <description>Original call id. Each item sent will have the same call id if same inbound call (same customer call).</description>
+        <externalId>false</externalId>
+        <label>Original Call Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Queue_Id__c</fullName>
+        <description>Queue Id (Task id)</description>
+        <externalId>false</externalId>
+        <label>Queue Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Show_Chat_Button__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Controls which Agent can see and select the Request Chat Agent Button</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Controls which Agent can see and select the Request Chat Agent Button</inlineHelpText>
+        <label>Show Chat Button</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>To__c</fullName>
+        <description>Phone number (B-number) or email receiver.</description>
+        <externalId>false</externalId>
+        <label>To</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The Salesforce user</description>
+        <externalId>false</externalId>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>CC_Agent_Interfaces</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>CC Agent Interface</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>User__c</columns>
+        <columns>External_Agent_Id__c</columns>
+        <columns>Bot_Data__c</columns>
+        <columns>Call_Id__c</columns>
+        <columns>From__c</columns>
+        <columns>To__c</columns>
+        <columns>Item_Id__c</columns>
+        <columns>Queue_Id__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>CC Agent Interface Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>CC Agent Interfaces</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

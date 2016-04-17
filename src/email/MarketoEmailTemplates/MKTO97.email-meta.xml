@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Frimærker.09 September Frimærker</name>
+    <style>none</style>
+    <subject>Efteråret blomstrer</subject>
+    <textOnly>&lt;http://www.postdanmark.dk&gt;
+Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+Kære {{lead.First Name}}
+EFTERÅRET BLOMSTRER
+Mens træer og buske taber bladene, blomstrer frimærkemesserne og –udstillingerne mere end nogensinde. Allerede 26.-27. september kan du opleve den nationale udstilling SILFI i Kjellerup ved Silkeborg, hvor vi har premiere på tre nye frankeringsmærker.
+ 
+Holstebro Filatelistklub inviterer til byttedag 11. oktober kl. 9.30-15.00. Auktionsfirmaet Skanfil Danmark A/S vil vurdere frimærker, så du kan roligt tage bedstefars samling med under armen og finde ud af, hvad den er værd. Kom og få en god dag sammen med mange andre, der også er på jagt efter nye og gamle frimærker. PostNord er repræsenteret ved Det Gamle Postkontor, og det hele foregår i Mejrup Kultur og Fritidscenter, Elkjærvej 26, Mejrup Kirkeby, 7500 Holstebro.
+ 
+Med venlig hilsen
+ 
+Bo Høifeldt
+Salgs- og marketingchef, PostNord Frimærker
+&lt;http://www.billetto.dk/frimaerker011015&gt;
+SE DE NYE FRIMÆRKER HOS DANMARKS FILATELIST FORBUND
+Hvor mange frimærker udgiver PostNord i 2016? Og hvilke motiver er der på dem? Få svaret, når PostNords designchef Martin Pingel præsenterer frimærkeprogrammet for 2016. Det finder sted 1. oktober kl. 16.30-18.00 hos Danmarks Filatelist Forbund, Priorparken 860, 2605 Brøndby. Benyt chancen til at se, hvordan Danmarks Filatelist Forbund bor. Undervejs vil der blive serveret et let traktement.
+ 
+Da vi har et begrænset antal pladser, foregår tilmelding via www.billetto.dk &lt;http://www.billetto.dk/&gt; – søg arrangementet på datoen og benyt koden ”2016”. Sidste frist er 27. september kl. 16.
+BOOK BILLETTER HER &lt;http://www.billetto.dk/frimaerker011015&gt;
+GRATIS FOREDRAG
+Københavns Tømrerlaug fylder 500 år i år. I den anledning inviterer vi dig med til et spændende foredrag, hvor journalist, cand.mag. Jonas Møller fortæller om lavsvæsenets historie, ligesom han trækker de store linjer i tømrerfaget og Københavns udvikling gennem de 500 år. Vi byder på kaffe eller te under foredraget. Der er kun få pladser tilbage, som du kan booke efter først-til-mølle-princippet. Vælg mellem billetter til enten 21. eller 22. september – book dem på www.billetto.dk &lt;http://www.billetto.dk/&gt;. Sidste frist er 15. september kl. 16.
+BOOK BILLETTER HER &lt;https://billetto.dk/da/search?text=k%C3%B8benhavns%20t%C3%B8mrerlaug&gt;
+&lt;https://billetto.dk/da/search?text=k%C3%B8benhavns%20t%C3%B8mrerlaug&gt;
+&lt;http://www.postnord.se/sv/e-butiken/frimarken/Sidor/utrikes.aspx&gt;
+TRE OSCARS. TO FRIMÆRKER. ÉN STJERNE.
+I den internationale filmverden var Ingrid Bergman en af de stjerner, der lyste allerstærkest. Tre Oscarstatuetter vandt hun – foruden publikums hjerter. Hvem husker ikke hendes rolle i filmen Casablanca, hvor hun spillede sammen med Humphrey Bogart? I 100-året for Ingrid Bergmans fødsel har PostNord sammen med US Postal Service udgivet to frimærker, der viser filmstjernens ansigt, tolket af en tegner og en fotograf.
+KØB FRIMÆRKERNE HER &lt;http://www.postnord.se/sv/e-butiken/frimarken/Sidor/utrikes.aspx&gt;
+Vi har sendt denne e-mail til {{lead.Email Address}} &lt;mailto:{{lead.Email Address}}&gt;.
+
+Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;http://pages.postnord.com/Min-side.html&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

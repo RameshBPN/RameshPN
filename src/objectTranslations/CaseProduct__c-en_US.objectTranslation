@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CaseProduct</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CaseProducts</value>
+    </caseValues>
+    <fields>
+        <label><!-- COD Account Number --></label>
+        <name>Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Type --></label>
+        <name>Account_Type__c</name>
+        <picklistValues>
+            <masterLabel>BANKACCOUNT</masterLabel>
+            <translation><!-- BANKACCOUNT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANKGIRO</masterLabel>
+            <translation><!-- BANKGIRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBAN</masterLabel>
+            <translation><!-- IBAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLUSGIRO</masterLabel>
+            <translation><!-- PLUSGIRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UNDEF</masterLabel>
+            <translation><!-- UNDEF --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Additional Services – ex registered --></help>
+        <label><!-- Additional Service 1 --></label>
+        <name>Additional_Service1__c</name>
+        <relationshipLabel><!-- CaseProducts (Additional Service1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Additional Services – ex registered --></help>
+        <label><!-- Additional Service 2 --></label>
+        <name>Additional_Service2__c</name>
+        <relationshipLabel><!-- CaseProducts (Additional Service2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- VAT on Additional Services --></help>
+        <label><!-- Additional Service 3 --></label>
+        <name>Additional_Service3__c</name>
+        <relationshipLabel><!-- CaseProducts (Additional Service3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- VAT on Additional Services --></help>
+        <label><!-- Additional Service 4 --></label>
+        <name>Additional_Service4__c</name>
+        <relationshipLabel><!-- CaseProducts (Additional Service) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Service Name1 --></label>
+        <name>Additional_Service_Name1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Service Name2 --></label>
+        <name>Additional_Service_Name2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Service Name3 --></label>
+        <name>Additional_Service_Name3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Service Name4 --></label>
+        <name>Additional_Service_Name4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Service code1 --></label>
+        <name>Additional_Service_code1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Service code2 --></label>
+        <name>Additional_Service_code2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Service code3 --></label>
+        <name>Additional_Service_code3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Service code4 --></label>
+        <name>Additional_Service_code4__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tillægsydelser med moms --></help>
+        <label><!-- VAT on Additional Service 1 --></label>
+        <name>Additional_service_1_VAT__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tillægsydelser med moms --></help>
+        <label><!-- VAT on Additional Service 2 --></label>
+        <name>Additional_service_2_VAT__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tillægsydelser med moms --></help>
+        <label><!-- VAT on Additional Service 3 --></label>
+        <name>Additional_service_3_VAT__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tillægsydelser med moms --></help>
+        <label><!-- VAT on Additional Service 4 --></label>
+        <name>Additional_service_4_VAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate Item Id --></label>
+        <name>Alternate_Item_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assortment Name --></label>
+        <name>Assortment_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Area --></label>
+        <name>Business_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- COD Amount --></label>
+        <name>COD_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Number (text) --></label>
+        <name>Case_Number_text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- CaseProducts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Compensation Amount --></label>
+        <name>Compensation_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Claims --></label>
+        <name>Customer_Claims__c</name>
+    </fields>
+    <fields>
+        <help><!-- Search for products or articles --></help>
+        <label><!-- Products/Articles --></label>
+        <name>Customer_Service_Product__c</name>
+        <relationshipLabel><!-- CaseProducts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Address1 --></label>
+        <name>DeliverPoint_address1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address2 --></label>
+        <name>DeliverPoint_address2__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>DeliverPoint_city__c</name>
+    </fields>
+    <fields>
+        <label><!-- Postal Code --></label>
+        <name>DeliverPoint_postalcode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile --></label>
+        <name>DeliveryPoint_ContactMobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conctact Person --></label>
+        <name>DeliveryPoint_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- email --></label>
+        <name>DeliveryPoint_Contactemail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Telephone --></label>
+        <name>DeliveryPoint_Contactphone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>DeliveryPoint_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery date --></label>
+        <name>Delivery_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Deliverypoint_country__c</name>
+    </fields>
+    <fields>
+        <help><!-- Kundens rabat --></help>
+        <label><!-- Postage discount --></label>
+        <name>Discount_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution Channel --></label>
+        <name>Distribution_Channel__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Division --></label>
+        <name>Division__c</name>
+        <picklistValues>
+            <masterLabel>00</masterLabel>
+            <translation><!-- 00 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Drop off date --></label>
+        <name>Drop_off_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Time of Arrival --></label>
+        <name>Estimated_Time_of_Arrival__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fault Code1 --></label>
+        <name>Fault_Code1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fault Code2 --></label>
+        <name>Fault_Code2__c</name>
+    </fields>
+    <fields>
+        <label><!-- FreightPayerAddress1 --></label>
+        <name>FreightPayerAddress1__c</name>
+    </fields>
+    <fields>
+        <label><!-- FreightPayerAddress2 --></label>
+        <name>FreightPayerAddress2__c</name>
+    </fields>
+    <fields>
+        <label><!-- FreightPayerCity --></label>
+        <name>FreightPayerCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- FreightPayerCountry --></label>
+        <name>FreightPayerCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- FreightPayerName --></label>
+        <name>FreightPayerName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FreightPayerPostalCode --></label>
+        <name>FreightPayerPostalCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- Porto med moms --></help>
+        <label><!-- Postage with VAT --></label>
+        <name>GrossValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height Unit --></label>
+        <name>Height_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height Value --></label>
+        <name>Height_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height --></label>
+        <name>Height__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the prices to be included in the total amount. All fields included here will be summed up as the total amount along with compensation amount --></help>
+        <label><!-- Include Prices --></label>
+        <name>Include_Prices__c</name>
+        <picklistValues>
+            <masterLabel>Customs/fuel surcharges before VAT</masterLabel>
+            <translation><!-- Customs/fuel surcharges before VAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postage before VAT</masterLabel>
+            <translation><!-- Postage before VAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postage discount</masterLabel>
+            <translation><!-- Postage discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postage with VAT</masterLabel>
+            <translation><!-- Postage with VAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price on Add. Service 1 before VAT</masterLabel>
+            <translation><!-- Price on Add. Service 1 before VAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price on Add. Service 2 before VAT</masterLabel>
+            <translation><!-- Price on Add. Service 2 before VAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price on Add. Service 3 before VAT</masterLabel>
+            <translation><!-- Price on Add. Service 3 before VAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price on Add. Service 4 before VAT</masterLabel>
+            <translation><!-- Price on Add. Service 4 before VAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total postage amount</masterLabel>
+            <translation><!-- Total postage amount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total postage amount before VAT</masterLabel>
+            <translation><!-- Total postage amount before VAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VAT on Additional Service 1</masterLabel>
+            <translation><!-- VAT on Additional Service 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VAT on Additional Service 2</masterLabel>
+            <translation><!-- VAT on Additional Service 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VAT on Additional Service 3</masterLabel>
+            <translation><!-- VAT on Additional Service 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VAT on Additional Service 4</masterLabel>
+            <translation><!-- VAT on Additional Service 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VAT on total postage amount</masterLabel>
+            <translation><!-- VAT on total postage amount --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IsPrimary --></label>
+        <name>IsPrimary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Id --></label>
+        <name>Item_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Length Unit --></label>
+        <name>Length_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Length Value --></label>
+        <name>Length_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Length --></label>
+        <name>Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- NTT Information --></label>
+        <name>NTT_Information2__c</name>
+    </fields>
+    <fields>
+        <label><!-- NTT Information --></label>
+        <name>NTT_Information__c</name>
+    </fields>
+    <fields>
+        <help><!-- Porto uden moms --></help>
+        <label><!-- Postage before VAT --></label>
+        <name>Net_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone No. --></label>
+        <name>Notification_Phone_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- email --></label>
+        <name>Notification_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- OpenTo2 --></label>
+        <name>OpenTo2__c</name>
+    </fields>
+    <fields>
+        <label><!-- OpenTo --></label>
+        <name>OpenTo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open From2 --></label>
+        <name>Open_From2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open From --></label>
+        <name>Open_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opening Hours --></label>
+        <name>Opening_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pick up party address1 --></label>
+        <name>Pick_up_party_address1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pick up party address2 --></label>
+        <name>Pick_up_party_address2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pick up party city --></label>
+        <name>Pick_up_party_city__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pick up party country --></label>
+        <name>Pick_up_party_country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pick up party postalcode --></label>
+        <name>Pick_up_party_postalcode__c</name>
+    </fields>
+    <fields>
+        <help><!-- Porto ialt ( incl. tillægsydelser, gebyrer samt minus evt. rabat) --></help>
+        <label><!-- Total postage amount --></label>
+        <name>Portobel__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tillægsydelse uden moms --></help>
+        <label><!-- Price on Add. Service 1 before VAT --></label>
+        <name>Price_on_Add_Service_1_before_VAT__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tillægsydelse uden moms --></help>
+        <label><!-- Price on Add. Service 2 before VAT --></label>
+        <name>Price_on_Add_Service_2_before_VAT__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tillægsydelse uden moms --></help>
+        <label><!-- Price on Add. Service 3 before VAT --></label>
+        <name>Price_on_Add_Service_3_before_VAT__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tillægsydelse uden moms --></help>
+        <label><!-- Price on Add. Service 4 before VAT --></label>
+        <name>Price_on_Add_Service_4_before_VAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Group --></label>
+        <name>Product_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product ID --></label>
+        <name>Product_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Net Value --></label>
+        <name>Product_Net_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>Product_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receiver Name --></label>
+        <name>Receiver_Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile --></label>
+        <name>Receiver_Contact_Mobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact person --></label>
+        <name>Receiver_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Telephone --></label>
+        <name>Receiver_Contact_Telephone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receiver Customer Number --></label>
+        <name>Receiver_Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- C/O --></label>
+        <name>Receiver_Postal_Address_C_O__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>Receiver_Postal_Address_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Receiver_Postal_Address_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Postal Code --></label>
+        <name>Receiver_Postal_Address_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street --></label>
+        <name>Receiver_Postal_Address_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- email --></label>
+        <name>Receiver_contact_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Name1 --></label>
+        <name>Reference_Name1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Name2 --></label>
+        <name>Reference_Name2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Name3 --></label>
+        <name>Reference_Name3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Type1 --></label>
+        <name>Reference_Type1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Type2 --></label>
+        <name>Reference_Type2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Type3 --></label>
+        <name>Reference_Type3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Value1 --></label>
+        <name>Reference_Value1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Value2 --></label>
+        <name>Reference_Value2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Value3 --></label>
+        <name>Reference_Value3__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMS --></label>
+        <name>SMS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Samtax ID --></label>
+        <name>Samtax_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Name --></label>
+        <name>Sender_Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile --></label>
+        <name>Sender_Contact_Mobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact person --></label>
+        <name>Sender_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Telephone --></label>
+        <name>Sender_Contact_Telephone__c</name>
+    </fields>
+    <fields>
+        <label><!-- email --></label>
+        <name>Sender_Contact_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Name --></label>
+        <name>Sender_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- C/O --></label>
+        <name>Sender_Postal_Address_C_O__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>Sender_Postal_Address_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Sender_Postal_Address_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Postal Code --></label>
+        <name>Sender_Postal_Address_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street --></label>
+        <name>Sender_Postal_Address_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Code --></label>
+        <name>Service_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Name --></label>
+        <name>Service_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature Name --></label>
+        <name>Signature_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solution --></label>
+        <name>Solution__c</name>
+        <picklistValues>
+            <masterLabel>Compensation</masterLabel>
+            <translation><!-- Compensation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Compensation</masterLabel>
+            <translation><!-- Non Compensation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status description --></label>
+        <name>Status_description__c</name>
+    </fields>
+    <fields>
+        <help><!-- This price will be the sum of all prices included in the &quot;Include Prices&quot; field. --></help>
+        <label><!-- Sum of Freight --></label>
+        <name>Sum_of_Freight__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brændstofstillæg uden moms --></help>
+        <label><!-- Customs/fuel surcharges before VAT --></label>
+        <name>Surcharges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxering --></label>
+        <name>Taxering__c</name>
+    </fields>
+    <fields>
+        <help><!-- Compensation amount + Sum of Freight --></help>
+        <label><!-- Total Amount --></label>
+        <name>Total_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Porto ialt uden moms (incl. tillægsydelser samt gebyr) --></help>
+        <label><!-- Total postage amount before VAT --></label>
+        <name>Total_postage_amount_without_VAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Franking --></label>
+        <name>Type_of_franking__c</name>
+        <picklistValues>
+            <masterLabel>FLK</masterLabel>
+            <translation><!-- FLK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I01</masterLabel>
+            <translation>DPD outside Denmark</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RPK</masterLabel>
+            <translation><!-- RPK --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Porto ialt med moms (incl. moms på tillægsydelser og gebyrer) --></help>
+        <label><!-- VAT on total postage amount --></label>
+        <name>VAT_on_Sales_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value Amount --></label>
+        <name>Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume Unit --></label>
+        <name>Volume_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume Value --></label>
+        <name>Volume_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume --></label>
+        <name>Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warning --></label>
+        <name>Warning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weekday --></label>
+        <name>Weekday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight Unit --></label>
+        <name>Weight_Unit__c</name>
+        <picklistValues>
+            <masterLabel>g</masterLabel>
+            <translation><!-- g --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kg</masterLabel>
+            <translation><!-- kg --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Weight Value --></label>
+        <name>Weight_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight --></label>
+        <name>Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Width Unit --></label>
+        <name>Width_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Width Value --></label>
+        <name>Width_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Width --></label>
+        <name>Width__c</name>
+    </fields>
+    <fields>
+        <label><!-- externalCustomerNumber --></label>
+        <name>externalCustomerNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- isDirty --></label>
+        <name>isDirty__c</name>
+    </fields>
+    <fields>
+        <label><!-- productionCustomerNumber --></label>
+        <name>productionCustomerNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- sapCustomerNumber --></label>
+        <name>sapCustomerNumber__c</name>
+    </fields>
+    <layouts>
+        <layout>NTT Search Results Layout</layout>
+        <sections>
+            <label><!-- Additional Services --></label>
+            <section>Additional Services</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Include Prices --></label>
+            <section>Include Prices</section>
+        </sections>
+        <sections>
+            <label><!-- NTT Information --></label>
+            <section>NTT Information</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Get_Prices_from_ERP --></label>
+        <name>Get_Prices_from_ERP</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Item_Search --></label>
+        <name>Item_Search</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NTT_Update_Request --></label>
+        <name>NTT_Update_Request</name>
+    </webLinks>
+</CustomObjectTranslation>

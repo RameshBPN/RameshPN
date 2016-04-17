@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Credit Information</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Credit Information</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Credit Information --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Credit Block --></label>
+        <name>Credit_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Control Area --></label>
+        <name>Credit_Control_Area__c</name>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation>Post Denmark Credit Control Area</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KR01</masterLabel>
+            <translation>Posten Credit Control Area</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KR02</masterLabel>
+            <translation>Posten Credit Control Area, EUR</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Credit Information Compound SFID --></label>
+        <name>Credit_Information_Compound_SFID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit --></label>
+        <name>Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Rating --></label>
+        <name>Credit_Rating__c</name>
+        <picklistValues>
+            <masterLabel>-</masterLabel>
+            <translation>Rating not set</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Risk class 1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Risk class 2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Risk class 3</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>Risk class 4</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>Risk class 5</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation>Creditworthy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AA</masterLabel>
+            <translation>Good creditworthiness</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA</masterLabel>
+            <translation>Highest creditworthiness</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation>Credit against security</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation>Credit not advised</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFR</masterLabel>
+            <translation>Risk class EFR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation>Merger</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I</masterLabel>
+            <translation>Company considered inactive</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K</masterLabel>
+            <translation>Bankrupt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation>Liquidation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation>Numbered company</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYT</masterLabel>
+            <translation>Newly started company</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O</masterLabel>
+            <translation>Company insolvent</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U</masterLabel>
+            <translation>Business transferred</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z01</masterLabel>
+            <translation>Risk cl.-Cust. over cr. limit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ö</masterLabel>
+            <translation>Distraint</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Deletion Flag --></label>
+        <name>Deletion_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Payment Index --></label>
+        <name>External_Payment_Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last PN Synchronized Date --></label>
+        <name>Last_PN_Synchronized_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN_Mark_As_Synced --></label>
+        <name>PN_Mark_As_Synced__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronization ErrorReasonCode --></label>
+        <name>PN_Synchronization_ErrorReasonCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronization Error --></label>
+        <name>PN_Synchronization_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronized --></label>
+        <name>PN_Synchronized__c</name>
+    </fields>
+    <layouts>
+        <layout>Credit Information Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Account may not be updated. If you need to update Account please create a new Credit Information record --></errorMessage>
+        <name>No_edit_of_Account_field_after_create</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Credit Control Area may not be updated. If you need to update Credit Control Area please create a new Credit Information record --></errorMessage>
+        <name>No_edit_of_CCA_field_after_create</name>
+    </validationRules>
+</CustomObjectTranslation>

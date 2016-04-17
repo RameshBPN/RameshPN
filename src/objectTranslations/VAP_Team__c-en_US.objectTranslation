@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>VAP Team</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>VAP Teams</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- VAP Teams --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MOD Validated --></label>
+        <name>MOD_Validated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcel/Letter --></label>
+        <name>Parcel_Letter__c</name>
+        <picklistValues>
+            <masterLabel>Letter Distribution Center</masterLabel>
+            <translation><!-- Letter Distribution Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter Pick-up Place</masterLabel>
+            <translation><!-- Letter Pick-up Place --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter Team</masterLabel>
+            <translation><!-- Letter Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parcel Distribution Center</masterLabel>
+            <translation><!-- Parcel Distribution Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parcel Pick-up Place</masterLabel>
+            <translation><!-- Parcel Pick-up Place --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parcel Team</masterLabel>
+            <translation><!-- Parcel Team --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Route Description --></label>
+        <name>Route_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Route no --></label>
+        <name>Route_no__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAP Unit --></label>
+        <name>VAP_Unit__c</name>
+        <relationshipLabel><!-- VAP Teams --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>VAP Team Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

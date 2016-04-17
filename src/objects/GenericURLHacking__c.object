@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>This is used to store Field Id&apos;s &amp; Labels for transferring values to the URL for standard New/Edit page.
+
+The URL Field Id is differnet for standard and custom fields. For standard fields it is a fixed code (eg &quot;con4_lkid for&quot; for Account ID on Contact). For custom fields it is the fields id (standard salesforce id). You find this id by navigating to the fields setting page and looking in the url for the id.</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Default_Value__c</fullName>
+        <description>This is an optional field,this stores the default value that&apos;s need to be set.</description>
+        <externalId>false</externalId>
+        <label>Default Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Feature_Name__c</fullName>
+        <description>This is the functionality name for which URL Field Ids are used.Each Field Id must be mapped to the functionality.
+
+Note:This should not be changed.</description>
+        <externalId>false</externalId>
+        <label>Feature Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>URL_Field_Id__c</fullName>
+        <description>This field is used to store Ids for transferring the values to the standard New/Edit page</description>
+        <externalId>false</externalId>
+        <label>URL Field Id</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>GenericURLHackingIdsAndLabels</label>
+</CustomObject>

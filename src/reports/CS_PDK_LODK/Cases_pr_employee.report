@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_15399350</developerName>
+        <masterLabel>Fordeling på åbne og lukkede</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>STATUS</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed</sourceValue>
+            </sourceValues>
+            <value>Lukket</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>On-going</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>For Approval</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Created</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Re-open</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Approved</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Approval Declined</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Request for Information</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Response Received</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Checks Completed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Control Case</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Decision</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>In progress</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Waiting for info</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cancelled</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Assigned to queue</sourceValue>
+            </sourceValues>
+            <value>Åbne</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <columns>
+        <field>CLOSED</field>
+    </columns>
+    <currency>SEK</currency>
+    <description>Split on cases Open and closed pr. employee</description>
+    <filter>
+        <criteriaItems>
+            <column>Case.Team__c</column>
+            <operator>equals</operator>
+            <value>LO DK Customer Service Team</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>RECORDTYPE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_15399350</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.Team__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>OWNER</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Cases pr. employee</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList@Case.Product_Article__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

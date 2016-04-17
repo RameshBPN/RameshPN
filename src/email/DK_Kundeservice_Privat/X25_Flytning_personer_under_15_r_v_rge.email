@@ -1,0 +1,66 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<div style="font-size: 12pt; font-family: arial;"><br></div><div style="font-size: 12pt; font-family: arial;"><br></div><div style="font-size: 12pt; font-family: arial;"><br></div><div><font face="Arial, sans-serif" size="2">Kære Kunde</font></div><div><font face="Arial, sans-serif" size="2"><br></font></div><div><font face="Arial, sans-serif" size="2"><br></font></div><div><font face="Arial, sans-serif" size="2"><br></font></div><div><font face="Arial, sans-serif" size="2"><br></font></div><div><b><font face="Arial, sans-serif" size="2">ADRESSEFLYTNING - PERSONER UNDER 15 ÅR / VÆRGE</font></b></div><div><b><font face="Arial, sans-serif" size="2"><br></font></b></div><div><p class="MsoNormal"><font face="Arial, sans-serif" size="2">Forældre kan godt flytte deres barns post med eget NemID via
+ePosthuset, <a href="http://www.eposthuset.dk/">www.eposthuset.dk</a> hvis
+barnet er under 15 år.</font></p>
+
+<p class="MsoNormal"><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2"><b>Har du ikke NemID</b>
+skal du udfylde vedhæftede flytteblanket.</font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal"><b style="text-indent: -18pt;"><font face="Arial, sans-serif" size="2">Husk CPR-nummer
+på den, som skal flytte, samt din egen underskrift.</font></b></p>
+
+<p class="MsoNormal"><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">For at vi kan registrere din flytning, skal vi bruge en kopi af:</font></p><p class="MsoNormal"><span style="text-indent: -18pt;"><font face="Arial, sans-serif" size="2">&nbsp; &nbsp; &nbsp;</font></span></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><b style="text-indent: -18pt;">Værgebeskikkelse
+fra Statsforvaltningen.</b></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><b style="text-indent: -18pt;">Gyldig
+billedlegitimation for underskriveren f.eks. pas eller kørekort.</b></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2"><o:p>&nbsp;</o:p>&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Du kan sende bilagene til adressen
+nederst på blanketten. Husk frimærke.<b><u><span style="color:blue"><o:p></o:p></span></u></b></font></p>
+
+<p class="MsoNormal"><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Din flytning træder i kraft, 5 dage efter vi har modtaget
+dine oplysninger.</font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2">Med venlig hilsen</font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2">Kundeservice</font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2">Tlf. 70 10 00 54</font></p>
+
+<p class="MsoNormal"><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></p></div>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" aEditID="c2r1" rowspan="3" >
+<![CDATA[<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.CompanyName}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Division}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Department}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Street}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.PostalCode} {!User.City}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">CVR nr.: 26663903<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Company_Webb_Address__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="1"><br></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="1">Dato {!Today}</font></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">Sagsnr. {!Case.Main_Case_Number__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">Sagsbeh {!User.Alias}</font><font face="Arial" style="font-size: 8pt;"><o:p></o:p></font></span></p>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

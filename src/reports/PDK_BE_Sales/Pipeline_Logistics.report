@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>OpportunityLineItem.Opportunity_Value__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>OpportunityLineItem.Opportunity_Volume__c</field>
+    </columns>
+    <columns>
+        <field>OpportunityLineItem.From_Country__c</field>
+    </columns>
+    <columns>
+        <field>OpportunityLineItem.To_Country__c</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Products and stages</description>
+    <filter>
+        <criteriaItems>
+            <column>Product2.Assortment__c</column>
+            <operator>contains</operator>
+            <value>Pakker Indland,Pakker Udland,Privatpakker,Groupage,Pallet,Stykgods,Thirt Party Logistic,Express &amp; Courrier</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.FO_Sales_group__c</column>
+            <operator>equals</operator>
+            <value>1100 Strategic Markets,1400 Developing Markets,1500 Industrial market and e-commerce,1200 SMA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <operator>notEqual</operator>
+            <value>Not Started,Closed Won,Closed Lost</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Involved_Party_ID__c</column>
+            <operator>notEqual</operator>
+            <value>80087877</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.no_of_products__c</column>
+            <operator>greaterOrEqual</operator>
+            <value>1</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Product2.Assortment__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>PRODUCT_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Pipeline - Logistics</name>
+    <params>
+        <name>open</name>
+        <value>open</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityProduct</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <endDate>2016-11-30</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2015-11-01</startDate>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,101 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<font size="2" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB" lang="EN-GB"></span></font><span lang="SV"><font face="Arial, sans-serif" size="2">
+<p align="left">{!Case.Sender__c}</p>
+<p align="left" style="color: rgb(0, 0, 0);">{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}</p>
+<p align="left" style="color: rgb(0, 0, 0);">{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}</p>
+<p align="left" style="color: rgb(0, 0, 0);">{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")} {!Case.Sender_Postal_Address_Suburb__c} </p>
+<p align="left" style="color: rgb(0, 0, 0);">{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}</p>
+<p align="left" style="color: rgb(0, 0, 0);">{!Case.Sender_Postal_Address_Country__c}</p>
+<p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;" lang="EN-GB"></span>&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;" lang="EN-GB"><strong></strong></span>&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;" lang="EN-GB"><strong></strong></span>&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;" lang="EN-GB"><strong></strong></span>&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;" lang="EN-GB"><strong></strong></span>&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;" lang="EN-GB"><strong></strong></span>&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;" lang="EN-GB"><strong>VI HAR BRUG FOR FLERE OPLYSNINGER</strong></span></p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;" lang="EN-GB"><strong></strong></span>&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;" lang="EN-GB">Vi har modtaget din efterlysning af&nbsp;forsendelsen med stregkodenummer {!Case.Item_Id__c}&nbsp;sendt den&nbsp;{!Case.Submission_date__c}&nbsp;til:</span></p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;" lang="EN-GB"></span>&nbsp;</p><span lang="SV" style="color: rgb(0, 0, 0);">
+<p align="left">{!Case.Receiver__c}</p>
+<p align="left">{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c} </p>
+<p align="left">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c} </p>
+<p align="left">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c} </p>
+<p align="left">{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c} </p>
+<p align="left">{!Case.Receiver_Postal_Address_Country__c}</p>
+<p align="left">&nbsp;</p>
+<p align="left"></p>
+<p align="left"><span style="color: black;" lang="EN-GB">For at kunne undersøge din efterlysning har vi brug for flere oplysninger:</span></p>
+<p align="left">&nbsp;</p>
+<p align="left">Hvad er forsendelsens stregkodenummer?</p>
+<p align="left">&nbsp;</p>
+<p align="left">Hvad indeholder forsendelsen (størrelse, farve, kendetegn og lignende)? Vi skal bruge oplysningen for at kunne lede efter indholdet.</p>
+<p align="left">&nbsp;</p>
+<p align="left">Hvordan ser forsendelsen ud (farve, størrelse, kendetegn og lignende)? Vi skal bruge oplysningen for at kunne lede efter forsendelsen.</p>
+<p align="left">&nbsp;</p>
+<p align="left">Hvad er din indkøbspris (eksklusiv moms) på indholdet? Vi skal bruge oplysningen for at kunne udbetale eventuel erstatning. Vi beder dig sende en kopi af din faktura, kvittering eller lignende. Hvis du sender en salgsfaktura, skal du trække moms og avance fra.</p>
+<p align="left">&nbsp;</p>
+<p align="left">Hvad er prisen på forsendelsen indhold? Vi skal bruge oplysningen for at kunne udbetale eventuel erstatning. Vi beder dig sende en kopi af din faktura, kvittering eller lignende.</p>
+<p align="left">&nbsp;</p>
+<p align="left">Hvor bor modtager, hvis&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Receiver__c}<!--?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /--><o:p></o:p></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Receiver_Contact_Name__c} <o:p></o:p></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c} <o:p></o:p></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c} <o:p></o:p></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c} <o:p></o:p></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c} <o:p></o:p></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Receiver_Postal_Address_Country__c}</span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><o:p></o:p></span>&nbsp;</p>
+<p align="left">er forkert?</p>
+<p align="left">&nbsp;</p>
+<p align="left">Hvad er dit reg.nr. og kontonr., som vi kan sætte eventuel erstatning ind på?</p>
+<p align="left">&nbsp;</p>
+<p align="left">Hvilken dato er forsendelsen sendt?</p>
+<p align="left">&nbsp;</p>
+<p align="left">Hvad vejer forsendelsen? Vi bruger vægten for at kunne udbetale eventuel erstatning.</p>
+<p align="left">&nbsp;</p>
+<p align="left">Hvad er værdibeløbet?</p>
+<p align="left">&nbsp;</p>
+<p align="left">Hvis vi finder forsendelsen, skal vi sende den retur til dig eller til modtager?</p>
+<p align="left">&nbsp;</p>
+<p align="left">Vi beder dig sende en kopi af din kvittering på, at forsendelsen er sendt med Post Danmark.</p>
+<p align="left">&nbsp;</p>
+<p align="left">Du kan sende oplysningerne til os i vedlagte svarkonvolut. Portoen er betalt. Du kan også maile oplysningerne.&nbsp;&nbsp;Oplys&nbsp;venligst sagsnummer {!Case.Main_Case_Number__c}.</p>
+<p align="left">&nbsp;</p>
+<p align="left">Når vi har modtaget oplysningerne, undersøger vi sagen.&nbsp;Ved forsendelser, der er sendt til en dansk adresse, kan der&nbsp;gå op til tre uger, før vi kan give dig et svar.&nbsp; Ved forsendelser sendt&nbsp;til udlandet, kan der gå seks til otte uger.&nbsp;&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left">Hvis forsendelsen kommer frem til modtager eller retur til dig, beder vi dig give os besked på telefon {!User.Department_Phone__c}&nbsp; eller mail {!User.Team_Email__c}. Oplys venligst sagsnummer {!Case.Main_Case_Number__c}.</p>
+<p align="left">&nbsp;</p>
+<p align="left">Du kan finde flere oplysninger i forretningsbetingelserne på hjemmesiden <a href="http://www.postdanmark.dk">www.postdanmark.dk</a> </p>
+<p align="left">&nbsp;</p>
+<p align="left">Med venlig hilsen</p>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left">{!Case.OwnerFirstName} {!Case.OwnerLastName}<br>{!Case.OwnerTitle}</p>
+<p align="left"><o:p></o:p>&nbsp;</p></span></font></span>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" aEditID="c2r1" rowspan="3" >
+<![CDATA[<p align="left"><font size="1" face="Arial, sans-serif">{!User.CompanyName} <br>{!User.Division}<br>{!User.Department}<br>{!User.Street}<br>{!User.PostalCode} {!User.City}<br>CVR nr.: 26663903<br>{!User.Company_Webb_Address__c}<br>&nbsp;<br>Tlf {!User.Department_Phone__c}<br>{!User.Team_Email__c}<br>&nbsp;<br>Dato {!Today}<br>Sagsnr. {!Case.Main_Case_Number__c} <br>Sagsbeh {!User.Alias}</font></p>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

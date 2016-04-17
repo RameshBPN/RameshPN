@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <customSettingsVisibility>Protected</customSettingsVisibility>
+    <description>Contains settings uniq for CINT SAOP integration</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CINT_Custom_Error_Code__c</fullName>
+        <defaultValue>&quot;MsgCode&quot;</defaultValue>
+        <description>Holds the xml tag name</description>
+        <externalId>false</externalId>
+        <label>CINT Custom Error Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CINT_Custom_Error_Description__c</fullName>
+        <defaultValue>&quot;Message&quot;</defaultValue>
+        <description>Holds the xml tag name</description>
+        <externalId>false</externalId>
+        <label>CINT Custom Error Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SOAP_Error_Code__c</fullName>
+        <defaultValue>&quot;faultcode&quot;</defaultValue>
+        <description>Holds the xml tag name</description>
+        <externalId>false</externalId>
+        <label>SOAP Error Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SOAP_Error_Description__c</fullName>
+        <defaultValue>&quot;faultstring&quot;</defaultValue>
+        <description>Holds the xml tag name</description>
+        <externalId>false</externalId>
+        <label>SOAP Error Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CINT SOAP Integration Settings</label>
+</CustomObject>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_89155772</developerName>
+        <masterLabel>Assortment name</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>CaseProduct__c.Assortment_Name__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Pakker Indland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pakker Udland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakker</sourceValue>
+            </sourceValues>
+            <value>Pakker</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Letgods</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pallet</sourceValue>
+            </sourceValues>
+            <value>Pallet</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_21262374</developerName>
+        <masterLabel>Product group</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>CaseProduct__c.Product_Group__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>DPD Classic indland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>DPD Classic udland</sourceValue>
+            </sourceValues>
+            <value>DPD</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Business Pallet</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Letgods Øvrige</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Paller</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pallet</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pallet (Halvpalle)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pallet (Kvartpalle)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>1/4 paller</sourceValue>
+            </sourceValues>
+            <value>Pallet</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Privatpakker Norden</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke uden omdeling, Norden</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke uden omdeling, Danmark</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke uden omdeling</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke med omdeling</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke Postopkrævning</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Postpakker</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Erhvervspakker</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer Return, Danmark</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer Return</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Business</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pakker</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Private</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Særlige postpakkeprodukter</sourceValue>
+            </sourceValues>
+            <value>Pakker</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_21714666</developerName>
+        <masterLabel>Årsager</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Case.Reason__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Manglende indhold</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Bortkomst</sourceValue>
+            </sourceValues>
+            <value>Bortkomst / Mgl. indhold</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Beskadiget</sourceValue>
+            </sourceValues>
+            <value>Beskadigelser</value>
+        </values>
+    </buckets>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Case.Approved_Goodwill_Amount__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Case.Approved_Appeal_Amount__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Case.Approved_amount_of_compensation__c</field>
+    </columns>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <columns>
+        <field>OPEN</field>
+    </columns>
+    <columns>
+        <field>CLOSED</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Udbetalte erstatninger i DK</description>
+    <filter>
+        <booleanFilter>1 AND (2 OR 3 OR 4) AND 5</booleanFilter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <operator>equals</operator>
+            <value>Case.Complaint,Case.Item_Search,Case.Goodwill</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Approved_amount_of_compensation__c</column>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Approved_Appeal_Amount__c</column>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Approved_Goodwill_Amount__c</column>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER</column>
+            <operator>notEqual</operator>
+            <value>Eva Rasmussen</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>CLOSED_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CaseProduct__c.Assortment_Name__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Rapportforslag til Rune</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseCustomEntity$CaseProduct__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSED_DATEONLY</dateColumn>
+        <interval>INTERVAL_PREVY</interval>
+    </timeFrameFilter>
+</Report>

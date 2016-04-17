@@ -1,0 +1,8 @@
+Hej {!Lead.Lead_Identifier__c}
+
+Tak for det lead du har sendt til os vedrørende virksomheden {!Lead.Company}.
+
+Leadet bliver nu behandlet i Salg, hvor en sælger vil tage kontakt til kunden.
+
+Med venlig hilsen 
+PostNord Danmark Salg

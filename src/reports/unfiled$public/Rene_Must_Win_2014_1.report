@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>OpportunityLineItem.Opportunity_Value__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>OpportunityLineItem.Value_Change__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>OpportunityLineItem.Opportunity_Volume__c</field>
+    </columns>
+    <columns>
+        <field>PRODUCT_NAME</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>PROBABILITY</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Start_Date__c</field>
+    </columns>
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Status på kunder i Must Win Kampagne</description>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND (4 OR 5)</booleanFilter>
+        <criteriaItems>
+            <column>CAMPAIGN_SOURCE</column>
+            <operator>equals</operator>
+            <value>2014 PDK LO_KAM_Must Win</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Sales_Area__c</column>
+            <operator>equals</operator>
+            <value>4000,PDK LO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Reason_Lost__c</column>
+            <operator>notEqual</operator>
+            <value>Created in error</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OpportunityLineItem.Type__c</column>
+            <operator>equals</operator>
+            <value>New Business</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Total_Existing_Value_Lost_Products__c</column>
+            <operator>greaterThan</operator>
+            <value>DKK 0</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <name>Rene - PDK LO - Must Win 2014</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityProduct</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>STAGE_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

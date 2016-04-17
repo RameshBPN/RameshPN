@@ -1,0 +1,40 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<div style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><br></div><div style="color: rgb(0, 0, 0);"><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><font face="Arial, sans-serif" size="2"><b>Afhentning af tom emballage -
+Servicelogistik</b><o:p></o:p></font></p></div><div style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br></font></div><div style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br></font></div><div><p class="MsoNormal" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><span lang="EN-GB" style="color: windowtext;">{!Case.Sender__c}&nbsp;<o:p></o:p></span><span style="line-height: 115%;">klaget over, at buddet ikke
+har medtaget tom emballage den <b>indsæt dato</b>&nbsp;</span><span style="line-height: 115%;">i forbindelse med omdeling
+af forsendelse til:<br></span><span style="line-height: 115%;">&nbsp;</span></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><span lang="EN-GB" style="color: windowtext;"><font face="Arial, sans-serif" size="2">{!Case.Receiver__c}<o:p></o:p></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><span lang="EN-GB" style="color: windowtext;"><font face="Arial, sans-serif" size="2">{!Case.Receiver_Postal_Address_Street__c}
+{!Case.Receiver_Postal_Address_House_Number__c}
+{!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c}
+<o:p></o:p></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><span lang="EN-GB" style="color: windowtext;"><font face="Arial, sans-serif" size="2">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")}
+{!Case.Receiver_Postal_Address_PO_Box__c} <o:p></o:p></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><span lang="EN-GB" style="color: windowtext;"><font face="Arial, sans-serif" size="2">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")}
+{!Case.Receiver_Postal_Address_Suburb__c} <o:p></o:p></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><span lang="EN-GB" style="color: windowtext;"><font face="Arial, sans-serif" size="2">{!Case.Receiver_Postal_Address_Postal_Code__c}
+{!Case.Receiver_Postal_Address_City__c} <o:p></o:p></font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0);">
+
+
+
+
+
+
+
+
+
+</p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0.0001pt;"><font face="Arial, sans-serif" size="2">Almindelig afhentning af tom emballage kunne være
+sket i forbindelse med omdeling af servicelogistikforsendelse med
+stregkodenummer&nbsp;<o:p></o:p>{!Case.Item_Id__c}.</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0.0001pt;"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0.0001pt;"><font face="Arial, sans-serif" size="2">Distributionscentret kan ved at indtaste
+stregkodenummeret i GTT undersøge, hvilken medarbejder der har omdelt
+forsendelsen.<o:p></o:p></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0.0001pt;"><font face="Arial, sans-serif" size="2">&nbsp;</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0.0001pt;">
+
+
+
+<span style="line-height: 115%;"><font face="Arial, sans-serif" size="2">Emballagen
+kan hentes ved:</font></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0.0001pt;"><span style="line-height: 115%;"><font face="Arial, sans-serif" size="2"><br></font></span></p><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><font size="2" face="Arial, sans-serif"><span style="line-height: 15.3333320617676px;">{!Case.Description}</span></font></p><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><font size="2" face="Arial, sans-serif"><span style="line-height: 15.3333320617676px;"><br></span></font></p><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><font size="2" face="Arial, sans-serif"><span style="line-height: 15.3333320617676px;"><br></span></font></p><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><font face="Arial, sans-serif" size="2">Distributionscentret bedes sikre, at den tomme
+emballage hentes og returneres så hurtigt som muligt.<o:p></o:p></font></p><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><font face="Arial, sans-serif" size="2">&nbsp;</font></p><p class="MsoNormal" style="margin-bottom: 0.0001pt;">
+
+
+
+</p><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><font face="Arial, sans-serif" size="2">Med venlig hilsen<o:p></o:p></font></p><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">{!Case.OwnerFirstName}
+{!Case.OwnerLastName}</font></span></p><p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span style="font-size: 10pt; font-family: Arial;"><o:p></o:p></span></p></div>]]></td>
+</tr>
+</table>

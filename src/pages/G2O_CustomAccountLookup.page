@@ -1,0 +1,100 @@
+<apex:page controller="G2O_CustomAccountLookup_VFC" tabstyle="Account"
+	title="Search" showHeader="false" sideBar="false">
+
+	<apex:form >
+		<apex:outputPanel id="page" layout="block"
+			style="margin:5px;padding:10px;padding-top:2px;">
+
+			<apex:actionRegion >
+
+				<!-- START: Search for Account -->
+				<apex:outputPanel id="top" layout="block"
+					style="margin:5px;padding:10px;padding-top:2px;">
+					<apex:outputLabel value="{!$Label.Search}"
+						style="font-weight:Bold;padding-right:10px;" for="txtSearch" />
+					<apex:inputText id="txtSearch" value="{!searchString}" />
+					<span style="padding-left: 5px"> <apex:commandButton id="btnGo" value="{!$Label.Go}" action="{!Search}"
+							rerender="searchResults" status="status"></apex:commandButton> <apex:commandButton value="{!$Label.Show_Filters}" action="{!displayFilters}"
+							rendered="{!showSearchFilterButton}"
+							rerender="searchResults, page" status="status" /> <apex:commandButton value="{!$Label.Hide_Filters}" action="{!hideFilters}"
+							rendered="{!showHideFilterButton}" rerender="searchResults, page"
+							status="status" />
+					</span>
+				</apex:outputPanel>
+				<!-- END: Search for Account -->
+
+				<apex:outputPanel id="pnlSearchResults" layout="block">
+					<apex:pageBlock tabStyle="Account" title="Account"
+						id="searchResults">
+
+						<!-- START: Show Filter Screen when Show Filter button is applied -->
+						<apex:outputPanel id="pnlShowFilters"
+							rendered="{!showSearchFilter}">
+							<apex:pageBlock >
+								<apex:pageBlockSection columns="2">
+									<apex:repeat var="f"
+										value="{!$ObjectType.Account.FieldSets.AccountLookupFilters}">
+										<apex:inputField value="{!account[f]}" />
+									</apex:repeat>
+								</apex:pageBlockSection>
+								<br />
+								<apex:commandButton value="{!$Label.Apply_Filter}"
+									action="{!Search}" rerender="searchResults" status="status" />
+							</apex:pageBlock>
+						</apex:outputPanel>
+						<!-- END: Show Filter Screen when Show Filter button is applied -->
+
+						<!-- START: Filtered Description when apply filter is pressed -->
+						<apex:outputPanel rendered="{!IF(AND(checkAccountValuesInFieldSet == false,showSearchFilter == true, clearSearchFilter == false), true, false)}">
+							<apex:outputLabel value="{!filteredByInformation}" /> |
+							<apex:outputPanel rendered="{!IF(AND(checkAccountValuesInFieldSet == false, showSearchFilter == true, clearSearchFilter == false), true, false)}">
+								<span style="padding-left: 5px"> <apex:commandLink id="btnClearFilters" value="{!$Label.Clear_Filters}"
+										action="{!clearSearchFilters}"
+										rendered="{!IF(AND(checkAccountValuesInFieldSet == false, showSearchFilter == true, clearSearchFilter == false), true, false)}"
+										rerender="searchResults" status="status"></apex:commandLink>
+								</span>
+							</apex:outputPanel>
+						</apex:outputPanel>
+						<!-- END: Filtered Description when apply filter is pressed -->
+
+						<!-- START: Show Account Results based on Name OR Filters -->
+						<apex:pageBlockTable value="{!accountResults}" var="a"
+							id="tblResults" width="100%">
+							<apex:column >
+								<apex:facet name="header">
+									<apex:outputPanel >{!$Label.Account_Name}</apex:outputPanel>
+								</apex:facet>
+								<apex:outputLink value="javascript:top.window.opener.lookupPick2('{!FormTag}','{!TextBox}_lkid','{!TextBox}','{!a.Id}','{!a.Name}', false)"
+									rendered="{!NOT(ISNULL(a.Id))}">{!a.Name}</apex:outputLink>
+							</apex:column>
+							<apex:repeat var="f"
+								value="{!$ObjectType.Account.FieldSets.AccountLookUpFields}">
+								<apex:column headerValue="{!f.label}" width="20%">
+									<apex:outputField value="{!a[f]}" />
+								</apex:column>
+							</apex:repeat>
+						</apex:pageBlockTable>
+						<!-- END: Show Account Results based on Name OR Filters -->
+
+					</apex:pageBlock>
+				</apex:outputPanel>
+
+			</apex:actionRegion>
+		</apex:outputPanel>
+
+		<apex:outputpanel id="opStatus">
+			<apex:actionstatus id="status">
+				<apex:facet name="start">
+					<div class="waitingSearchDiv" id="el_loading"
+						style="background: url({!$Resource.TransparentBackground_FFFFFF_50pc}) transparent; height: 100%; width: 100%;">
+						<div class="waitingHolder">
+							<img class="waitingImage" src="/img/loading32.gif" title="*" />
+							<span class="waitingDescription">{!$Label.Loading}</span>
+						</div>
+					</div>
+				</apex:facet>
+			</apex:actionstatus>
+		</apex:outputpanel>
+	</apex:form>
+
+</apex:page>

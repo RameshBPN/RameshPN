@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ScheduledJobParameters</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>scheduledJobParameters</value>
+    </caseValues>
+    <fields>
+        <help><!-- Maximum number of rows to be processed by the account processing batch. Should be set to a value that can allow the batch to execute quickly to avoid performance degradation. Default 7000 --></help>
+        <label><!-- AccountBatchDmlRowsLimit --></label>
+        <name>AccountBatchDmlRowsLimit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maximum memory usage in bytes before the batch should re-schedule itself to avoid performance degradation. The batch will stop when it hits this limit, deal with the processed records and reschedule itself for another run on the remaining unprocessed reco --></help>
+        <label><!-- AccountBatchHeapLimit --></label>
+        <name>AccountBatchHeapLimit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Minutes to pass between consecutive jobs (ex. multi-pass duplication checking jobcs) --></help>
+        <label><!-- AccountBatchJobInterval --></label>
+        <name>AccountBatchJobInterval__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of records to process in each batch. Default 200. Adjusting this to a higher number can speed up the batch but may produce errors as this requires more memory for the batch to run. --></help>
+        <label><!-- AccountBatchJobSize --></label>
+        <name>AccountBatchJobSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- Frequency for the Account Team member batch (in hours) --></help>
+        <label><!-- AccountTeamMemberFrequency --></label>
+        <name>AccountTeamMemberFrequency__c</name>
+    </fields>
+    <fields>
+        <help><!-- DO NOT EDIT MANUALLY. JobID of the currently running Account Team Member batch. DO NOT EDIT MANUALLY --></help>
+        <label><!-- AccountTeamMemberSyncJobId --></label>
+        <name>AccountTeamMemberSyncJobId__c</name>
+    </fields>
+    <fields>
+        <help><!-- DO NOT EDIT MANUALLY. Timestamp of the last successful run of the Account Team Member batch. DO NOT EDIT MANUALLY --></help>
+        <label><!-- AccountTeamMemberSyncSuccessTime --></label>
+        <name>AccountTeamMemberSyncSuccessTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- InboundMessageLogDeletionActive --></label>
+        <name>InboundMessageLogDeletionActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- InboundMessageLogGraceperiod --></label>
+        <name>InboundMessageLogGraceperiod__c</name>
+    </fields>
+    <fields>
+        <help><!-- Delete the outbound notifications object records --></help>
+        <label><!-- OutboundNotificationDeletionActive --></label>
+        <name>OutboundNotificationDeletionActive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Period outbound notifications object records should live for (if deletion process is active). Default is one week (168hrs). --></help>
+        <label><!-- OutboundNotificationGraceperiod --></label>
+        <name>OutboundNotificationGraceperiod__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checkbox indicating if ApexCalloutLog objects should be deleted after their grace period has passed --></help>
+        <label><!-- apexCalloutLogDeletionActive --></label>
+        <name>apexCalloutLogDeletionActive__c</name>
+    </fields>
+    <fields>
+        <help><!-- The period (in hours) the ApexCalloutLog objects should be kept around for before they are deleted. --></help>
+        <label><!-- apexCalloutLogGraceperiod --></label>
+        <name>apexCalloutLogGraceperiod__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checkbox indicating if ApexErrorLog objects should be deleted after their graceperiod has passed --></help>
+        <label><!-- apexErrorLogDeletionActive --></label>
+        <name>apexErrorLogDeletionActive__c</name>
+    </fields>
+    <fields>
+        <help><!-- The period ApexErrorLog objects should be kept around for before they are deleted, defined in hours --></help>
+        <label><!-- apexErrorLogGraceperiod --></label>
+        <name>apexErrorLogGraceperiod__c</name>
+    </fields>
+    <fields>
+        <help><!-- DO NOT EDIT MANUALLY. The id of the deletion job if running. DO NOT EDIT MANUALLY. --></help>
+        <label><!-- deletionJobId --></label>
+        <name>deletionJobId__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

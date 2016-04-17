@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <customSettingsVisibility>Protected</customSettingsVisibility>
+    <description>A dedicated custom setting that can disable automation like Triggers,Workflows,BatchJobs etc.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Disable_All_Non_OBM_Workflows__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If set to true, will disable all Workflows for some objects, except the one that are firing OBMs. There is a separate custom setting for that. See documentation for which objects.</description>
+        <externalId>false</externalId>
+        <label>Disable All Non-OBM Workflows</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_All_OBM_Workflows__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If set to true,will disable all OBM Workflows.</description>
+        <externalId>false</externalId>
+        <label>Disable All OBM Workflows</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_All_Triggers__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If set to true,will disable all triggers from executing.</description>
+        <externalId>false</externalId>
+        <label>Disable All Triggers</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_All_Validation_Rules__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If set to true, all validation rules will be bypassed.</description>
+        <externalId>false</externalId>
+        <label>Disable All Validation Rules</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Suppress_AccountTeamMemberSync_Job__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If set to true,will disable the batch job.</description>
+        <externalId>false</externalId>
+        <label>Suppress AccountTeamMemberSync Job</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Suppress_Deletion_Job__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If set to true,will disable the batch job.</description>
+        <externalId>false</externalId>
+        <label>Suppress Deletion Job</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>DisableAutomation</label>
+</CustomObject>

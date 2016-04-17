@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Lunch Event at Posten.Invitation to Lunch</name>
+    <style>none</style>
+    <subject>Lunch</subject>
+    <textOnly>   
+Intro title:
+Lunch at Tuesday the 22
+Hello {{lead.First Name:default=Sir/Maddam}},
+
+we have a great lunch conference about Postens new CRM system. Therefore I would like to invite you and your colleaques to join us for this lunch at the cantine in Posten 
+Please click here to registrate your participation 
+
+
+
+Best regards and hoe to see you</textOnly>
+    <type>custom</type>
+</EmailTemplate>

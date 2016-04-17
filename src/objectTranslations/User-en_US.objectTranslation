@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Used in the email templates to populate header with company/department specific information. --></help>
+        <label><!-- Company Webb Address --></label>
+        <name>Company_Webb_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Region --></label>
+        <name>DB_Region__c</name>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation><!-- APAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used in the email templates to populate header with company/department specific information. --></help>
+        <label><!-- Department Phone --></label>
+        <name>Department_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- FO / Sales group --></label>
+        <name>FO_Sales_group__c</name>
+        <picklistValues>
+            <masterLabel>1100 Strategic Markets</masterLabel>
+            <translation><!-- 1100 Strategic Markets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1200 SMA</masterLabel>
+            <translation><!-- 1200 SMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1400 Developing Markets</masterLabel>
+            <translation><!-- 1400 Developing Markets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1500 Industrial market and e-commerce</masterLabel>
+            <translation><!-- 1500 Industrial market and e-commerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1700 Internationell Post</masterLabel>
+            <translation><!-- 1700 Internationell Post --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1900 SME</masterLabel>
+            <translation><!-- 1900 SME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2010 PDK Frimärken</masterLabel>
+            <translation><!-- 2010 PDK Frimärken --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4100 SMV</masterLabel>
+            <translation><!-- 4100 SMV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4200 KAM</masterLabel>
+            <translation><!-- 4200 KAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4300 Logistik Breve DK</masterLabel>
+            <translation><!-- 4300 Logistik Breve DK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4400 LO -DK Koncernförhåll</masterLabel>
+            <translation><!-- 4400 LO -DK Koncernförhåll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4500 Nysalg</masterLabel>
+            <translation><!-- 4500 Nysalg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4700 E-kommunikation</masterLabel>
+            <translation><!-- 4700 E-kommunikation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Service</masterLabel>
+            <translation><!-- Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK Sales Administration</masterLabel>
+            <translation><!-- DK Sales Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK Specialists</masterLabel>
+            <translation><!-- DK Specialists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK23 Storkunder M</masterLabel>
+            <translation><!-- FK23 Storkunder M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK25 Int. Direct Link M</masterLabel>
+            <translation><!-- FK25 Int. Direct Link M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK26 Bolag/Övrigt M</masterLabel>
+            <translation><!-- FK26 Bolag/Övrigt M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK27 Retail M</masterLabel>
+            <translation><!-- FK27 Retail M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK28 KAM M</masterLabel>
+            <translation><!-- FK28 KAM M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK30 SME M</masterLabel>
+            <translation><!-- FK30 SME M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK44 SE STHLM S</masterLabel>
+            <translation><!-- FK44 SE STHLM S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK45 KAM</masterLabel>
+            <translation><!-- FK45 KAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK47 FC/OMBUD</masterLabel>
+            <translation><!-- FK47 FC/OMBUD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK48</masterLabel>
+            <translation><!-- FK48 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK49 Övrigt L</masterLabel>
+            <translation><!-- FK49 Övrigt L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK50 SE ÖST L</masterLabel>
+            <translation><!-- FK50 SE ÖST L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK51 SE MITT/NORD L</masterLabel>
+            <translation><!-- FK51 SE MITT/NORD L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK52 SE SYD L</masterLabel>
+            <translation><!-- FK52 SE SYD L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK53 SE VÄST L</masterLabel>
+            <translation><!-- FK53 SE VÄST L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK54 SE STHLM N</masterLabel>
+            <translation><!-- FK54 SE STHLM N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK55</masterLabel>
+            <translation><!-- FK55 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- HR ID --></label>
+        <name>HR_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org unit ID --></label>
+        <name>Org_unit_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org unit name --></label>
+        <name>Org_unit_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN AD User ID --></label>
+        <name>PN_AD_User_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Area 1 --></label>
+        <name>Sales_Area1__c</name>
+        <picklistValues>
+            <masterLabel>0540</masterLabel>
+            <translation>LO DK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0630</masterLabel>
+            <translation>LO FI DPD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation>PDK BE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3670</masterLabel>
+            <translation>LO FI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO91</masterLabel>
+            <translation>ME SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO92</masterLabel>
+            <translation>LO SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation>LO NO</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Area 1 Text --></label>
+        <name>Sales_Area_1_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Area 2 --></label>
+        <name>Sales_Area_2__c</name>
+        <picklistValues>
+            <masterLabel>0630</masterLabel>
+            <translation>LO FI DPD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation>PDK BE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3670</masterLabel>
+            <translation>LO FI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO91</masterLabel>
+            <translation>ME SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO92</masterLabel>
+            <translation>LO SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO DK</masterLabel>
+            <translation>LO DK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation>LO NO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ST SE</masterLabel>
+            <translation>ST SE</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SurveyReminder --></label>
+        <name>TIMBASURVEYS__SurveyReminder__c</name>
+    </fields>
+    <fields>
+        <label><!-- reminderStringSize --></label>
+        <name>TIMBASURVEYS__reminderStringSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in the email templates to populate header with company/department specific information. --></help>
+        <label><!-- Team Email --></label>
+        <name>Team_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>Team__c</name>
+        <picklistValues>
+            <masterLabel>046 Sales Office KBH</masterLabel>
+            <translation><!-- 046 Sales Office KBH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>051 Wholesales &amp; Manu</masterLabel>
+            <translation><!-- 051 Wholesales &amp; Manu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>052 Cons &amp; Lifestyle</masterLabel>
+            <translation><!-- 052 Cons &amp; Lifestyle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>053 E-commerce</masterLabel>
+            <translation><!-- 053 E-commerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>071 ekommunikation</masterLabel>
+            <translation><!-- 071 ekommunikation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>072 IP IA</masterLabel>
+            <translation><!-- 072 IP IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>073 INC</masterLabel>
+            <translation><!-- 073 INC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>093 Private Kunder</masterLabel>
+            <translation><!-- 093 Private Kunder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>094 EK Frimaerker</masterLabel>
+            <translation><!-- 094 EK Frimaerker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>097 Messing</masterLabel>
+            <translation><!-- 097 Messing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>101 Finance</masterLabel>
+            <translation><!-- 101 Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>102 Influencer</masterLabel>
+            <translation><!-- 102 Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>103 Utilities &amp; Unions</masterLabel>
+            <translation><!-- 103 Utilities &amp; Unions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>104 Public &amp; Pharma</masterLabel>
+            <translation><!-- 104 Public &amp; Pharma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>201 Sales MidMarket</masterLabel>
+            <translation><!-- 201 Sales MidMarket --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>202 Sales Team 1 AAH</masterLabel>
+            <translation><!-- 202 Sales Team 1 AAH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>203 Sales West</masterLabel>
+            <translation><!-- 203 Sales West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>204 Sales East</masterLabel>
+            <translation><!-- 204 Sales East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>401 Service Solutions</masterLabel>
+            <translation><!-- 401 Service Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>403 Media</masterLabel>
+            <translation><!-- 403 Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>404 Retail</masterLabel>
+            <translation><!-- 404 Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>405 Public</masterLabel>
+            <translation><!-- 405 Public --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>504</masterLabel>
+            <translation><!-- 504 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>505</masterLabel>
+            <translation><!-- 505 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>506</masterLabel>
+            <translation><!-- 506 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>507</masterLabel>
+            <translation><!-- 507 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>508</masterLabel>
+            <translation><!-- 508 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>509</masterLabel>
+            <translation><!-- 509 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>510</masterLabel>
+            <translation><!-- 510 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>511</masterLabel>
+            <translation><!-- 511 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>512</masterLabel>
+            <translation><!-- 512 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>513</masterLabel>
+            <translation><!-- 513 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>515</masterLabel>
+            <translation><!-- 515 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>516</masterLabel>
+            <translation><!-- 516 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>517</masterLabel>
+            <translation><!-- 517 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>518</masterLabel>
+            <translation><!-- 518 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>519</masterLabel>
+            <translation><!-- 519 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>520</masterLabel>
+            <translation><!-- 520 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>521</masterLabel>
+            <translation><!-- 521 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>522</masterLabel>
+            <translation><!-- 522 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>523</masterLabel>
+            <translation><!-- 523 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>524</masterLabel>
+            <translation><!-- 524 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>525</masterLabel>
+            <translation><!-- 525 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>526</masterLabel>
+            <translation><!-- 526 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>527</masterLabel>
+            <translation><!-- 527 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>528</masterLabel>
+            <translation><!-- 528 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>529</masterLabel>
+            <translation><!-- 529 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>530</masterLabel>
+            <translation><!-- 530 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>531</masterLabel>
+            <translation><!-- 531 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>532</masterLabel>
+            <translation><!-- 532 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>533</masterLabel>
+            <translation><!-- 533 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>534</masterLabel>
+            <translation><!-- 534 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>535</masterLabel>
+            <translation><!-- 535 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>536</masterLabel>
+            <translation><!-- 536 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>537</masterLabel>
+            <translation><!-- 537 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>538</masterLabel>
+            <translation><!-- 538 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>539</masterLabel>
+            <translation><!-- 539 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>540</masterLabel>
+            <translation><!-- 540 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>541</masterLabel>
+            <translation><!-- 541 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>542</masterLabel>
+            <translation><!-- 542 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>543</masterLabel>
+            <translation><!-- 543 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>544</masterLabel>
+            <translation><!-- 544 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>545</masterLabel>
+            <translation><!-- 545 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>546</masterLabel>
+            <translation><!-- 546 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>606</masterLabel>
+            <translation><!-- 606 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>607</masterLabel>
+            <translation><!-- 607 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>608</masterLabel>
+            <translation><!-- 608 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>609</masterLabel>
+            <translation><!-- 609 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>610</masterLabel>
+            <translation><!-- 610 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>611</masterLabel>
+            <translation><!-- 611 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>612</masterLabel>
+            <translation><!-- 612 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>613</masterLabel>
+            <translation><!-- 613 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>614</masterLabel>
+            <translation><!-- 614 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>615</masterLabel>
+            <translation><!-- 615 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>616</masterLabel>
+            <translation><!-- 616 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>617</masterLabel>
+            <translation><!-- 617 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>618</masterLabel>
+            <translation><!-- 618 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>619</masterLabel>
+            <translation><!-- 619 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>620</masterLabel>
+            <translation><!-- 620 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>621</masterLabel>
+            <translation><!-- 621 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>622</masterLabel>
+            <translation><!-- 622 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>623</masterLabel>
+            <translation><!-- 623 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>624</masterLabel>
+            <translation><!-- 624 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>625</masterLabel>
+            <translation><!-- 625 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>626</masterLabel>
+            <translation><!-- 626 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>627</masterLabel>
+            <translation><!-- 627 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>628</masterLabel>
+            <translation><!-- 628 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>629</masterLabel>
+            <translation><!-- 629 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>630</masterLabel>
+            <translation><!-- 630 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>631</masterLabel>
+            <translation><!-- 631 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>632</masterLabel>
+            <translation><!-- 632 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>633</masterLabel>
+            <translation><!-- 633 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>634</masterLabel>
+            <translation><!-- 634 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>635</masterLabel>
+            <translation><!-- 635 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>636</masterLabel>
+            <translation><!-- 636 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>637</masterLabel>
+            <translation><!-- 637 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>638</masterLabel>
+            <translation><!-- 638 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>639</masterLabel>
+            <translation><!-- 639 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>640</masterLabel>
+            <translation><!-- 640 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>641</masterLabel>
+            <translation><!-- 641 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>642</masterLabel>
+            <translation><!-- 642 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>643</masterLabel>
+            <translation><!-- 643 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>644</masterLabel>
+            <translation><!-- 644 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>645</masterLabel>
+            <translation><!-- 645 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>646</masterLabel>
+            <translation><!-- 646 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>647</masterLabel>
+            <translation><!-- 647 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>648</masterLabel>
+            <translation><!-- 648 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>649</masterLabel>
+            <translation><!-- 649 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>650</masterLabel>
+            <translation><!-- 650 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>651</masterLabel>
+            <translation><!-- 651 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>67 ekommunikation</masterLabel>
+            <translation><!-- 67 ekommunikation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>704</masterLabel>
+            <translation><!-- 704 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>705</masterLabel>
+            <translation><!-- 705 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>706</masterLabel>
+            <translation><!-- 706 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>707</masterLabel>
+            <translation><!-- 707 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>708</masterLabel>
+            <translation><!-- 708 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>709</masterLabel>
+            <translation><!-- 709 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>710</masterLabel>
+            <translation><!-- 710 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>711</masterLabel>
+            <translation><!-- 711 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>712</masterLabel>
+            <translation><!-- 712 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>713</masterLabel>
+            <translation><!-- 713 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>714</masterLabel>
+            <translation><!-- 714 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>715</masterLabel>
+            <translation><!-- 715 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>716</masterLabel>
+            <translation><!-- 716 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>717</masterLabel>
+            <translation><!-- 717 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>718</masterLabel>
+            <translation><!-- 718 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>719</masterLabel>
+            <translation><!-- 719 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>720</masterLabel>
+            <translation><!-- 720 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>721</masterLabel>
+            <translation><!-- 721 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>722</masterLabel>
+            <translation><!-- 722 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>723</masterLabel>
+            <translation><!-- 723 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>724</masterLabel>
+            <translation><!-- 724 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>725</masterLabel>
+            <translation><!-- 725 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>726</masterLabel>
+            <translation><!-- 726 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>727</masterLabel>
+            <translation><!-- 727 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>728</masterLabel>
+            <translation><!-- 728 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>729</masterLabel>
+            <translation><!-- 729 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>730</masterLabel>
+            <translation><!-- 730 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>731</masterLabel>
+            <translation><!-- 731 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>732</masterLabel>
+            <translation><!-- 732 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>733</masterLabel>
+            <translation><!-- 733 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>734</masterLabel>
+            <translation><!-- 734 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>735</masterLabel>
+            <translation><!-- 735 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>736</masterLabel>
+            <translation><!-- 736 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>737</masterLabel>
+            <translation><!-- 737 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>738</masterLabel>
+            <translation><!-- 738 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>739</masterLabel>
+            <translation><!-- 739 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>740</masterLabel>
+            <translation><!-- 740 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>741</masterLabel>
+            <translation><!-- 741 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>742</masterLabel>
+            <translation><!-- 742 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>743</masterLabel>
+            <translation><!-- 743 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>744</masterLabel>
+            <translation><!-- 744 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>745</masterLabel>
+            <translation><!-- 745 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>746</masterLabel>
+            <translation><!-- 746 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>747</masterLabel>
+            <translation><!-- 747 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>748</masterLabel>
+            <translation><!-- 748 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>749</masterLabel>
+            <translation><!-- 749 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>750</masterLabel>
+            <translation><!-- 750 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>893 Innesälj</masterLabel>
+            <translation><!-- 893 Innesälj --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>894 Telesales</masterLabel>
+            <translation><!-- 894 Telesales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>895 Bredd Syd M</masterLabel>
+            <translation><!-- 895 Bredd Syd M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>896 Bredd Väst M</masterLabel>
+            <translation><!-- 896 Bredd Väst M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>901 CPH</masterLabel>
+            <translation><!-- 901 CPH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>902 AAH</masterLabel>
+            <translation><!-- 902 AAH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>905 Telesales west</masterLabel>
+            <translation><!-- 905 Telesales west --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>906 Telesales east</masterLabel>
+            <translation><!-- 906 Telesales east --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>907 Sthl Affärskom</masterLabel>
+            <translation><!-- 907 Sthl Affärskom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>908 Mälardalen</masterLabel>
+            <translation><!-- 908 Mälardalen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>913 Int Direct Link Swe</masterLabel>
+            <translation><!-- 913 Int Direct Link Swe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>914 Bolag M</masterLabel>
+            <translation><!-- 914 Bolag M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>915 Övrigt M</masterLabel>
+            <translation><!-- 915 Övrigt M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>916 Lokalt FO Syd M</masterLabel>
+            <translation><!-- 916 Lokalt FO Syd M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>917 Retailomr Syd/Väst</masterLabel>
+            <translation><!-- 917 Retailomr Syd/Väst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>918 Retailomr Sthlm</masterLabel>
+            <translation><!-- 918 Retailomr Sthlm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>919 Retailomr Mitt/Norr</masterLabel>
+            <translation><!-- 919 Retailomr Mitt/Norr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>920 Utland M</masterLabel>
+            <translation><!-- 920 Utland M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>921 Intern M</masterLabel>
+            <translation><!-- 921 Intern M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>923 Axel Johnson M</masterLabel>
+            <translation><!-- 923 Axel Johnson M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>926 KAM Offentlig</masterLabel>
+            <translation><!-- 926 KAM Offentlig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>928 KAM Bank &amp; Finans</masterLabel>
+            <translation><!-- 928 KAM Bank &amp; Finans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>930 KAM Media</masterLabel>
+            <translation><!-- 930 KAM Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>931 KAM Handel &amp; Industri</masterLabel>
+            <translation><!-- 931 KAM Handel &amp; Industri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>935 Länsförsäkringar M</masterLabel>
+            <translation><!-- 935 Länsförsäkringar M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>936 Nordea M</masterLabel>
+            <translation><!-- 936 Nordea M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>938 SEB M</masterLabel>
+            <translation><!-- 938 SEB M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>942 TeliaSonera M</masterLabel>
+            <translation><!-- 942 TeliaSonera M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>943</masterLabel>
+            <translation><!-- 943 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>945 Sthl Reklam &amp; Media</masterLabel>
+            <translation><!-- 945 Sthl Reklam &amp; Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>951</masterLabel>
+            <translation><!-- 951 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>952</masterLabel>
+            <translation><!-- 952 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>953</masterLabel>
+            <translation><!-- 953 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>954</masterLabel>
+            <translation><!-- 954 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>955</masterLabel>
+            <translation><!-- 955 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>956</masterLabel>
+            <translation><!-- 956 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>957</masterLabel>
+            <translation><!-- 957 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>958</masterLabel>
+            <translation><!-- 958 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>959</masterLabel>
+            <translation><!-- 959 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>960</masterLabel>
+            <translation><!-- 960 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>961</masterLabel>
+            <translation><!-- 961 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>962</masterLabel>
+            <translation><!-- 962 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>963</masterLabel>
+            <translation><!-- 963 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>964</masterLabel>
+            <translation><!-- 964 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>965</masterLabel>
+            <translation><!-- 965 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>966</masterLabel>
+            <translation><!-- 966 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>967</masterLabel>
+            <translation><!-- 967 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>968</masterLabel>
+            <translation><!-- 968 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>969</masterLabel>
+            <translation><!-- 969 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>970</masterLabel>
+            <translation><!-- 970 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>971</masterLabel>
+            <translation><!-- 971 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>972</masterLabel>
+            <translation><!-- 972 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>973 Företagscenter</masterLabel>
+            <translation><!-- 973 Företagscenter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>974 Direct Link</masterLabel>
+            <translation><!-- 974 Direct Link --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>975 Upphörda Bolag M</masterLabel>
+            <translation><!-- 975 Upphörda Bolag M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>976 Syd</masterLabel>
+            <translation><!-- 976 Syd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>977 Väst</masterLabel>
+            <translation><!-- 977 Väst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>978 Norr/OfentligSektor</masterLabel>
+            <translation><!-- 978 Norr/OfentligSektor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>980 Bredd</masterLabel>
+            <translation><!-- 980 Bredd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>989 Direktköp</masterLabel>
+            <translation><!-- 989 Direktköp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>990 Avkanaliserade</masterLabel>
+            <translation><!-- 990 Avkanaliserade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cognizant PN DK Team 1</masterLabel>
+            <translation><!-- Cognizant PN DK Team 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cognizant PN DK Team 2</masterLabel>
+            <translation><!-- Cognizant PN DK Team 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK Sales support 1</masterLabel>
+            <translation><!-- DK Sales support 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK Sales support 2</masterLabel>
+            <translation><!-- DK Sales support 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK Sales support 3</masterLabel>
+            <translation><!-- DK Sales support 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK Specialists</masterLabel>
+            <translation><!-- DK Specialists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO DK Customer Service Team</masterLabel>
+            <translation><!-- LO DK Customer Service Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK Frimaerker</masterLabel>
+            <translation><!-- PDK Frimaerker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Digital Team</masterLabel>
+            <translation><!-- PN DK Digital Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Drift Team</masterLabel>
+            <translation><!-- PN DK Drift Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Driftssupport Team</masterLabel>
+            <translation><!-- PN DK Driftssupport Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Driftsudvikling Team</masterLabel>
+            <translation><!-- PN DK Driftsudvikling Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK FRM Team Distribution Kista</masterLabel>
+            <translation><!-- PN DK FRM Team Distribution Kista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK FRM Team Produkt og Design</masterLabel>
+            <translation><!-- PN DK FRM Team Produkt og Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK FRM Team Salg</masterLabel>
+            <translation><!-- PN DK FRM Team Salg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK KUL Særlige Kundehenvendelser</masterLabel>
+            <translation><!-- PN DK KUL Særlige Kundehenvendelser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK KUL Team Business Solutions</masterLabel>
+            <translation><!-- PN DK KUL Team Business Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK KUL Team CS Erhverv</masterLabel>
+            <translation><!-- PN DK KUL Team CS Erhverv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK KUL Team Communication Product Support</masterLabel>
+            <translation><!-- PN DK KUL Team Communication Product Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK KUL Team Corporate Major Account</masterLabel>
+            <translation><!-- PN DK KUL Team Corporate Major Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK KUL Team Customs and Claims</masterLabel>
+            <translation><!-- PN DK KUL Team Customs and Claims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK KUL Team Frontline</masterLabel>
+            <translation><!-- PN DK KUL Team Frontline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK KUL Team Major Account</masterLabel>
+            <translation><!-- PN DK KUL Team Major Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK KUL Team Salgsadministration</masterLabel>
+            <translation><!-- PN DK KUL Team Salgsadministration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK KUL Team Social Media and Mails</masterLabel>
+            <translation><!-- PN DK KUL Team Social Media and Mails --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK KUL Team Stamps and Hotline</masterLabel>
+            <translation><!-- PN DK KUL Team Stamps and Hotline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK KUL Team Traffic Management</masterLabel>
+            <translation><!-- PN DK KUL Team Traffic Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Kundeløsninger Team</masterLabel>
+            <translation><!-- PN DK Kundeløsninger Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK MOD/Skrivpost Team</masterLabel>
+            <translation><!-- PN DK MOD/Skrivpost Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Porto</masterLabel>
+            <translation><!-- PN DK Porto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Procesoptimering Team</masterLabel>
+            <translation><!-- PN DK Procesoptimering Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK QA Consultant</masterLabel>
+            <translation><!-- PN DK QA Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Reklamationer Erhvervspost Team</masterLabel>
+            <translation><!-- PN DK Reklamationer Erhvervspost Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Reklamationer Privat Team</masterLabel>
+            <translation><!-- PN DK Reklamationer Privat Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Salgsadministration Team</masterLabel>
+            <translation><!-- PN DK Salgsadministration Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Team Adresseloese</masterLabel>
+            <translation><!-- PN DK Team Adresseloese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Team Dubiøse Debitorer</masterLabel>
+            <translation><!-- PN DK Team Dubiøse Debitorer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Team Fakturering 1</masterLabel>
+            <translation><!-- PN DK Team Fakturering 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Team Fakturering 2</masterLabel>
+            <translation><!-- PN DK Team Fakturering 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Team Fakturering 3</masterLabel>
+            <translation><!-- PN DK Team Fakturering 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Team Posthuse</masterLabel>
+            <translation><!-- PN DK Team Posthuse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Team Told</masterLabel>
+            <translation><!-- PN DK Team Told --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Team Vest</masterLabel>
+            <translation><!-- PN DK Team Vest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Team Øst</masterLabel>
+            <translation><!-- PN DK Team Øst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK Top 50 Team</masterLabel>
+            <translation><!-- PN DK Top 50 Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telesales Logistics</masterLabel>
+            <translation><!-- Telesales Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U20 PDK Frimaerker</masterLabel>
+            <translation><!-- U20 PDK Frimaerker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V01 SMV</masterLabel>
+            <translation><!-- V01 SMV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V02 Team 2 - EKSTRA</masterLabel>
+            <translation><!-- V02 Team 2 - EKSTRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V03 Team 1 - EKSTRA</masterLabel>
+            <translation><!-- V03 Team 1 - EKSTRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V04 KAM</masterLabel>
+            <translation><!-- V04 KAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V05 SCK Ost</masterLabel>
+            <translation><!-- V05 SCK Ost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V06 SCK Vest</masterLabel>
+            <translation><!-- V06 SCK Vest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V07 SCK Indesalg</masterLabel>
+            <translation><!-- V07 SCK Indesalg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V08 LO-DK Koncernforhold</masterLabel>
+            <translation><!-- V08 LO-DK Koncernforhold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V09 Nysalg</masterLabel>
+            <translation><!-- V09 Nysalg --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User Autonumber --></label>
+        <name>User_Autonumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outbound Phone --></label>
+        <name>actimizerdialer__OutboundPhone__c</name>
+    </fields>
+    <layouts>
+        <layout>Användarlayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Sales Area must be provided for User --></errorMessage>
+        <name>Sales_Area_1_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- User can only be in Sales Area PDK BE or PDK LO --></errorMessage>
+        <name>Sales_Area_1_must_be_PDK_BE_PDK_LO</name>
+    </validationRules>
+</CustomObjectTranslation>

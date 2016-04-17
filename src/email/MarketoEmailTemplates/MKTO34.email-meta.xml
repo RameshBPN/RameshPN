@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>@-Kampagne.@-Kickoff-KUL-med-maal</name>
+    <style>none</style>
+    <subject>Hvad @ er meningen?</subject>
+    <textOnly>Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+TEAM MÅL
+Det team, der samler flest e-mailpermissions ind pr. mand, vinder medarbejderne i teamet en tur i biografen for to personer inklusive popcorn.
+{{lead.PN DK Realized PM:default=0}}
+
+3241
+Vi har brug for din opbakning
+Kære {{lead.First Name}}
+
+Vi lancerer snart et e-mailforløb, der skal være med til at målrette og optimere vores service og salg. Til det formål har vi brug for e-mailpermissions – altså kundens samtykke til at modtage markedsføring fra os via e-mail. Derfor kickstarter vi i dag kampagnen: Slut altid af med et snabel-a. 
+
+ Kunder er mere tilfredse, mere loyale og køber mere, når linjen er åben og relationen er varm. Husk derfor at tilbyde vores e-mails med relevant indhold, hver gang du afslutter en god telefonsamtale. Og registrer e-mailadressen i Salesforce, når du får et ”ja tak”.
+Cool præmier
+Hvis vi når i mål med 3.000 e-mailpermissions 26. februar, fejrer vi succesen med @-kage til alle. Desuden vinder medarbejderne i det team, der samler flest e-mailpermissions pr. mand, en tur i biografen for to personer inklusive popcorn.
+Tag endelig fat i mig, hvis du har spørgsmål – og hav en rigtig @ uge.
+
+
+
+Karsten Wirnfeldt
+
+XX XX XX XX
+Hvad er en e-mailpermission?
+En e-mailpermission er et personligt samtykke til, at Post Nord må sende e-mails og anden elektronisk kommunikation, som indeholder salgs- og markedsføringsbudskaber til kunden. Vi samler alle e-mailpermissions i Salesforce.
+@-tips på dit bord
+For at gøre det enkelt og meningsfuldt at samle på snabel-a’er har vi samlet effektive tips og nyttig viden til dig. Brug blyantsholderen til at huske at slutte af med et @, når du er i dialog med kunderne – og læs mere om værdien af en e-mailpermission i folderen.</textOnly>
+    <type>custom</type>
+</EmailTemplate>

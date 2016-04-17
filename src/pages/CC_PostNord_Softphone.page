@@ -1,0 +1,520 @@
+<apex:page showHeader="false" controller="CC_PostNord_SoftPhone_VFC"> 
+<apex:includeScript value="/support/console/33.0/integration.js"/>
+<apex:includeScript value="/support/api/33.0/interaction.js"/>
+<apex:includeScript value="/soap/ajax/33.0/apex.js"/>
+<apex:includeScript value="/soap/ajax/33.0/connection.js"/>
+
+<!-- Scripts (cometd) for push topic -->  
+<apex:includeScript value="{!URLFOR($Resource.cometd, 'common/target/org/cometd.js')}"/>
+<apex:includeScript value="{!URLFOR($Resource.cometd, 'jquery/src/main/webapp/jquery/jquery-1.5.1.js')}"/>
+<apex:includeScript value="{!URLFOR($Resource.cometd, 'jquery/src/main/webapp/jquery/json2.js')}"/>
+<apex:includeScript value="{!URLFOR($Resource.cometd, 'jquery/src/main/webapp/jquery/jquery.cometd.js')}"/>
+
+<apex:stylesheet value="{!URLFOR($Resource.bootstrap, 'css/bootstrap.min.css')}" />
+
+<style>
+    .spacer {
+        padding: 5px;
+    }
+
+    .green-phone {
+        color: green;
+        margin-left: -3px;
+        padding-right: 5px;
+    }
+
+    .arrow-right {
+        padding-left: 5px;
+    }
+
+    .blue-comment {
+        color: #2a94d6; /* Salesforce blue */
+        padding-left: 5px;
+    }
+
+    .green-user {
+        color: green;
+        padding-right: 5px;
+    }
+
+    .supervisor {
+        background-color: #2a94d6; /* #ff6130; */
+    }
+</style>
+
+<div id="supervisor" style="display:none" class="supervisor spacer">
+    <button class="btn btn-default" type="button" onclick='requestChatAgent();'>Request Chat Agent</button>
+</div>
+
+<div id="incomingCallNotFound" style="display:none" class="spacer">
+    <div class="alert alert-warning" role="alert">No contacts or accounts found</div>
+    <span class="glyphicon glyphicon-arrow-right arrow-right"></span>
+    <span class="glyphicon glyphicon-earphone green-phone"></span>
+    <strong id="icnf">Incoming call: </strong>
+    <span id="incomingNumber"></span>
+    <br/>
+    <p/>
+    <button class="btn btn-default" type="button" onclick='createAccount();'>Create Account</button>
+    <button class="btn btn-default" type="button" onclick='createCase();' style="margin-left:20px;">Create Case</button>
+    <button class="btn btn-default" type="button" onclick="cleanWin();closeWin();" style="margin-left:20px;">Close</button>
+</div>
+
+<div id="incomingCallMulti" style="display:none" class="spacer">
+    <div class="alert alert-info" role="alert">Please select one account below</div>
+    <span class="glyphicon glyphicon-arrow-right arrow-right"></span>
+    <span class="glyphicon glyphicon-earphone green-phone"></span>
+    <strong id="icm">Incoming call: </strong>
+    <span id="incomingNumberMulti"></span>
+    <p/>
+    <div id="theList"></div>
+</div>
+
+<div id="incomingChatRequest" style="display:none" class="spacer"> <!--  -->
+    <div class="alert alert-info" role="alert">Please open Live Agent</div>
+    <span class="glyphicon glyphicon-arrow-right arrow-right"></span>
+    <span class="glyphicon glyphicon-comment blue-comment"></span>
+    <span class="glyphicon glyphicon-user green-user"></span>
+    <strong id="icr">Incoming chat request: </strong>
+    <span id="incomingChatId"></span>
+    <p/>
+</div>
+
+<script type="text/javascript">
+    // Initialize javascript database connection library with
+    // the current session oauth credentials (session key)
+    sforce.connection.sessionId = "{!$Api.Session_ID}";
+
+    var user = sforce.connection.getUserInfo();
+    var topic = 'ClearInteract';
+    var incoming_a_number = '';
+    var timer = null;
+    var SECONDS_TO_CLOSE_WIN = 10;
+    var isClickToDialEnabled = false; // Variable that keeps track of click-to-dial state.
+    var INCOMING_CALL     = 'INC',
+        CALLBACK          = 'CBK',
+        INCOMING_BO_TASK  = 'IBT';
+    var item_id_to_type = {
+        'INC' : 'Incoming call',  // Phone call
+        'CBK' : 'Callback',       // Phone call
+        'IBT' : 'Incoming task'   // Email or chat request
+    };
+
+    var queueName = 'Live Agent Chat';
+    var result2 = sforce.connection.query(
+        "SELECT id, name, ClearIT_Queue_Id__c, ClearIT_Queue_Name__c " +
+        "FROM   CC_ClearIT_Queues__c " +
+        "WHERE  Name = '" + queueName + "'");
+    var chatQueueId = null;
+    if (result2.records != null && result2.records.ClearIT_Queue_Id__c != null && result2.records.ClearIT_Queue_Id__c != '') {
+        chatQueueId = result2.records.ClearIT_Queue_Id__c;
+    }
+    
+    var result3 = sforce.connection.query(
+        "SELECT id, user__c, show_chat_button__c " +
+        "FROM   CC_Agent_Interface__c " +
+        "WHERE  user__c = '" + user.userId + "'");
+    var showChatButton = false;
+    if (result3.records != null) {
+        showChatButton = result3.records.getBoolean("Show_Chat_Button__c");
+    }
+
+    // Helper function to create an account from the screen pop window
+    var createAccount = function () {
+        sforce.interaction.screenPop('/setup/ui/recordtypeselect.jsp?ent=Account&retURL=%2F001%2Fo&save_new_url=%2F001%2Fe%3FretURL%3D%252F001%252Fo', true, null);
+        closeWin();
+    };
+
+    // Helper function to create a case from the screen pop window
+    var createCase = function () {
+        var v_number = $("#incomingNumber").text();
+        v_number = v_number.replace("+", "%2B");
+        sforce.interaction.screenPop('/setup/ui/recordtypeselect.jsp?ent=Case&retURL=%2F500%2Fo&save_new_url=%2F500%2Fe%3FretURL%3D%252F500%252Fo&cas15=' + v_number, true, null);
+        closeWin();
+    };
+    
+    var closeWin = function (callback) {
+        sforce.console.setCustomConsoleComponentVisible(false, function () {
+            sforce.console.setCustomConsoleComponentButtonText('Phone', function () {
+                if (callback != null) {
+                    callback();
+                }
+            });
+        });
+    };
+
+    var cleanWin = function () {
+        if (showChatButton) {
+            $("#supervisor").show();
+        }
+        else {
+            $("#supervisor").hide();
+        }
+        $("#incomingCallNotFound").hide();
+        $("#incomingCallMulti").hide();
+        $("#incomingChatRequest").hide();
+    };
+
+    var showIncomingCallNotFound = function (number) {
+        cleanWin();
+        $("#incomingNumber").text(number);
+        $("#incomingCallNotFound").show();
+        sforce.console.setCustomConsoleComponentButtonText('Incoming Call');
+        sforce.console.setCustomConsoleComponentVisible(true);
+        clearTimeout(timer);
+        timer = setTimeout(function() { closeWin() }, SECONDS_TO_CLOSE_WIN * 1000);
+    };
+
+    var showIncomingCallMulti = function (number, json_resp) {
+        cleanWin();
+        $("#incomingNumberMulti").text(number);
+        $("#incomingCallMulti").show();
+        sforce.console.setCustomConsoleComponentButtonText('Incoming Call');
+        sforce.console.setCustomConsoleComponentVisible(true);
+
+        acc_ids = []; // Capture account ids
+        for (var v_id in json_resp) {
+            if (json_resp[v_id].object == 'Account') {
+                acc_ids.push(v_id);
+            }
+        }
+
+        ct_ids = []; // Capture contact ids
+        for (var v_id in json_resp) {
+            if (json_resp[v_id].object == 'Contact') {
+                // Check that this account id does not already exist in the account ids array
+                if($.inArray(v_id, acc_ids) != -1) ct_ids.push(v_id);
+            }
+        }
+        
+        // Output first the matching records from the Account object
+        var result = getAccountDetails(acc_ids); // get the matching account details
+       
+        var v_html = ''; // prepare the needed html to render the data
+        v_html += "<table width='100%'>";
+        v_html += "<tr><td><strong>Name</strong></td><td><strong>Street</strong></td><td><strong>Postal Code</strong></td>";
+        v_html += "<td><strong>City</strong></td><td><strong>Account #</strong></td><td><strong>Status</strong></td><td><strong>Record Type</strong></td></tr>";
+        for (var v_id in result) {
+            if (v_id == 'remove') continue;
+            v_html += "<tr>";
+            v_html += "<td><a href='javascript:window.screenPop(&#39;" + result[v_id].Id + "&#39;);'>"+ result[v_id].Name + "</a></td>";
+            v_html += "<td>" + result[v_id].Postal_Address_Street__c + "</td>";
+            v_html += "<td>" + result[v_id].Postal_Address_Postal_Code__c + "</td>";
+            v_html += "<td>" + result[v_id].Postal_Address_City__c + "</td>";
+            v_html += "<td>" + result[v_id].Customer_ID__c + "</td>";
+            v_html += "<td>" + result[v_id].Internal_Lifecycle_Status__c + "</td>";
+            v_html += "<td>" + result[v_id].RecordType.Name + "</td>";
+            v_html += "</tr>";
+        }
+
+        // Now output the matching account records from the Contact object
+        result = getContactDetails(ct_ids); // get the matching account details
+        for (var v_id in result) {
+            if (typeof result[v_id].Account == 'undefined') continue;
+            v_html += "<tr>";
+            v_html += "<td><a href='javascript:window.screenPop(&#39;" + result[v_id].AccountId + "&#39;);'>"+ result[v_id].Account.Name + "</a></td>";
+            v_html += "<td>" + result[v_id].Account.Postal_Address_Street__c + "</td>";
+            v_html += "<td>" + result[v_id].Account.Postal_Address_Postal_Code__c + "</td>";
+            v_html += "<td>" + result[v_id].Account.Postal_Address_City__c + "</td>";
+            v_html += "<td>" + result[v_id].Account.Customer_ID__c + "</td>";
+            v_html += "<td>" + result[v_id].Account.Internal_Lifecycle_Status__c + "</td>";
+            v_html += "<td>" + result[v_id].Account.RecordType.Name + "</td>";
+            v_html += "</tr>";
+        }
+
+        v_html += "</table>";
+        $("#theList").html(v_html);
+    };
+
+    var showIncomingEmail = function(item_number) {
+        var result = sforce.connection.query(
+            'SELECT Id, OwnerId, CC_Item_Id__c, CC_Queue_Name__c ' + 
+            'FROM   Case ' +
+            'WHERE  CC_Item_Id__c = \'' + item_number + '\'');
+        
+        var records = result.getArray("records");
+        if (records.length > 0) {
+            changeCaseOwner(records[0]); // change the case ownership
+            screenPop(records[0].Id); // popup the case record as a tab
+        }
+        else {
+            alert("Case with item number " + item_number + " not found");
+        }
+    }
+
+    var doSetAgentState = function (state) {
+        sforce.console.chat.setAgentState(state, function(result) {
+            if (result.success) {
+                console.log('Agent State Set to Online');
+            } else {
+                console.log('setAgentState has failed');
+            }
+        });
+    }
+
+    var showIncomingChatRequest = function (number) {
+        cleanWin();
+        // Set live agent state to "online"
+        doSetAgentState('Online');
+        $("#incomingChatId").text(number);
+        $("#incomingChatRequest").show();
+        sforce.console.setCustomConsoleComponentButtonText('Incoming Chat Request');
+        sforce.console.setCustomConsoleComponentVisible(true);
+        clearTimeout(timer);
+        timer = setTimeout(function() { closeWin() }, SECONDS_TO_CLOSE_WIN * 1000);
+    };
+
+    var requestChatAgent = function () {
+        Visualforce.remoting.Manager.invokeAction(
+            '{!$RemoteAction.CC_PostNord_SoftPhone_VFC.RequestChat}',
+            function (result, event) {
+                if (event.status) {
+                    // alert(JSON.stringify(event)); // just show the result for now
+                }
+            },
+            {escape: false}
+        );
+    }
+
+    // Callback for onClickToDial CTI method.
+    var onClickListener = function (response) {
+        if (response.result) {
+            var json_resp = JSON.parse(response.result);
+            Visualforce.remoting.Manager.invokeAction(
+                '{!$RemoteAction.CC_PostNord_SoftPhone_VFC.CallPhoneNumber}',
+                json_resp.object,
+                json_resp.objectId,
+                json_resp.number,
+                user.userId,
+                function (result, event) {
+                    if (event.status) {
+                        // alert(JSON.stringify(event)); // just show the result for now
+                    }
+                },
+                {escape: false}
+            );
+        }
+    };
+
+    // Get account details from the account object
+    var getAccountDetails = function (acc_ids) {       
+        acc_ids_query = "('" + acc_ids.join("','") + "')";
+        var result = sforce.connection.query(
+            'SELECT Id, Name, Customer_ID__c, Postal_Address_Postal_Code__c, Postal_Address_Street__c, Postal_Address_City__c,' +
+            '       Recordtype.Name, Internal_Lifecycle_Status__c ' +
+            'FROM   Account ' +
+            'WHERE  Id IN ' + acc_ids_query);
+        
+        var records = result.getArray("records");
+        console.log('Account query result = ' + records);
+        return records;
+    }
+
+    // Get account details from the contact object
+    var getContactDetails = function (ct_ids) {       
+        ct_ids_query = "('" + ct_ids.join("','") + "')";
+        var result = sforce.connection.query(
+            'SELECT AccountId, Account.Name, Account.Customer_ID__c, Account.Postal_Address_Postal_Code__c, ' +
+            '       Account.Postal_Address_Street__c, Account.Postal_Address_City__c,' +
+            '       Account.Recordtype.Name, Account.Internal_Lifecycle_Status__c ' +
+            'FROM   Contact ' +
+            'WHERE  Id IN ' + ct_ids_query);
+
+        var records = result.getArray("records");
+        console.log('Contact query result = ' + records);
+        return records;
+    }
+    
+    // Push topic initialization
+    var initPushTopicServer = function () {
+        // Create new Streaming API push topic
+        var result = sforce.connection.query(
+            "SELECT  id, name, query, apiversion, notifyforoperations, notifyforfields " +
+            "FROM    PushTopic " +
+            "WHERE   name = '" + topic + "'");
+        var pushTopic = result.records;
+
+        console.log('push topic result=' + result)
+        if (pushTopic == null) {
+            pushTopic = new sforce.SObject("PushTopic");
+            pushTopic.Name = topic;
+            pushTopic.Query =
+                "SELECT id, user__c, external_agent_id__c, item_id__c, call_id__c, " +
+                "       bot_data__c, original_call_id__c, from__c, to__c, queue_id__c, " +
+                "       show_chat_button__c " +
+                "FROM   CC_Agent_Interface__c ";
+            pushTopic.ApiVersion = 33.0;
+            pushTopic.NotifyForFields = "Referenced";
+            var result4 = sforce.connection.upsert("Id", [pushTopic]);
+            console.log('initialized push server = ' + pushTopic);
+            console.log('Upsert result4 = ' + result4);
+        }
+    }
+  
+    // Remove the case from the ClearIT queue
+    function dequeueCase(caseid, clearit_itemid) {
+        Visualforce.remoting.Manager.invokeAction(
+            '{!$RemoteAction.CC_PostNord_SoftPhone_VFC.DeQueueCase}',
+            caseid,
+            clearit_itemid,
+            function (result, event) {
+            },
+            {escape: false}
+        );
+    }
+    
+    // Change the case owner to the current logged in user
+    function changeCaseOwner(v_record) {
+        v_record.OwnerId = user.userId;
+        var result = sforce.connection.update([v_record]);
+        console.log('Change Owner: ' + result);
+
+        dequeueCase(v_record.Id, v_record.CC_Item_Id__c); // remove the case from the ClearIT queue
+    }
+
+    // Helper function called from the popup window to open a record as a tab in service console
+    function screenPop(v_url) {
+        sforce.interaction.screenPop('/' + v_url, true, null); // open as a tab in service console
+        closeWin();
+    }
+        
+    // Callback for the call to searchAndScreenPop() CTI function
+    var searchAndScreenPopCallback = function (response) {
+        if(response.result) {
+            // Do the screen pop only in Service Console
+            if(!sforce.console.isInConsole()) return;
+          
+            // Parse the JSON response and get the matched records
+            console.log('JSON Response: ' + response.result);
+            var json_resp = JSON.parse(response.result);
+
+            acc_ids = []; // Capture account ids
+            ct_ids = []; // Capture contact ids
+            v_count = 0; // total records
+            for (var v_id in json_resp) {
+                if (json_resp[v_id].object == 'Account') {
+                    acc_ids.push(v_id);
+                    v_count++;
+                }
+                else if (json_resp[v_id].object == 'Contact') {
+                    ct_ids.push(v_id);
+                    v_count++;
+                }
+            }
+
+            if(v_count <= 1) {
+                if (v_count == 0) {
+                    showIncomingCallNotFound(incoming_a_number);
+                }
+                // OK there is only one record
+                if(acc_ids.length > 0) { // the record is an account - just show it
+                    screenPop(acc_ids[0]);
+                }
+                else if(ct_ids.length > 0) { // the record is a contact
+                    var result = getContactDetails(ct_ids); // get the matching account details
+                    for(var v_id in result) {
+                        if (typeof result[v_id].Account == 'undefined') continue;
+                        screenPop(result[v_id].AccountId); // show the matched account
+                    }
+                }                            
+            }
+            else {// There are multiple records - do the screen pop
+                showIncomingCallMulti(incoming_a_number, json_resp);
+            }
+        } else {
+            alert(response.error);
+        }
+    };
+
+    var handleCometdCallback = function(message) {
+        // Uncomment the line below to show when the push
+        // notifications are received
+        var txt = 'Channel: ' + JSON.stringify(message.channel) + '\n' +
+                  'Record session: ' + JSON.stringify(message.data.sobject) + '\n' + 
+                  'ID: ' + JSON.stringify(message.data.sobject.Id) + '\n' +
+                  'Event type: ' + JSON.stringify(message.data.event.type)+'\n' +
+                  'Created: ' + JSON.stringify(message.data.event.createdDate);
+
+        // Check if correct user
+        if(message.data.sobject.User__c == user.userId) {
+
+            console.log('Received push topic = ' + txt);
+
+            // Perform a search based on the phone number and do a screenpop
+            // If there is one exact match, screen pop of the record occurs automatically
+            // Otherwise we show a record selection window in the callback function 
+            var json_resp = JSON.parse(JSON.stringify(message.data.sobject));
+
+            // Get type of event, three first letters are type of item:
+            // Incoming call, callback, email or chat request
+            parseEvent(json_resp);
+        }
+        else {
+            console.log('Skipped push topic');
+        }
+    }
+
+    var parseEvent = function(json_resp) {
+        var item_prefix = json_resp.Item_Id__c.substring(0,3);
+        var item_number = json_resp.Item_Id__c.substring(3,99);
+
+        // manage chat button visibility
+        showChatButton = json_resp.Show_Chat_Button__c;
+
+        // From__c can be either phone number or email
+        if (item_prefix == INCOMING_CALL || item_prefix == CALLBACK) {
+            incoming_a_number = json_resp.From__c;
+            sforce.interaction.searchAndScreenPop(json_resp.From__c, 'Key1=value1&Key2=value2', 'inbound', searchAndScreenPopCallback);
+        }
+        else if (item_prefix == INCOMING_BO_TASK) {
+            if (json_resp.Queue_Id__c == chatQueueId) {
+                showIncomingChatRequest(item_number);
+                dequeueCase(null, item_number); // remove the task from the ClearIT queue
+            }
+            else {
+                showIncomingEmail(item_number);
+            }
+        }
+    }
+
+    // Cometd initialization
+    var initCometd = function () {
+        console.log('Establishing cometd...');
+
+        // Connect to the CometD endpoint in Salesforce
+        $.cometd.init({
+            url: window.location.protocol+'//'+window.location.hostname+'/cometd/33.0/',
+            requestHeaders: { Authorization: 'OAuth {!$Api.Session_ID}'},
+            appendMessageTypeToURL : false
+        });
+
+        console.log('Cometd initialized...');
+
+        // Subscribe to the topic. JSON-encoded update will be returned
+        // in the callback. 
+        var com2 = $.cometd.subscribe('/topic/' + topic, handleCometdCallback);
+
+        console.log('Cometd subscription started...');
+    }
+
+    // --------------------------------
+    // Javascript main code starts here
+    // --------------------------------
+
+    cleanWin();
+    closeWin();
+
+    // Enable click to dial
+    sforce.interaction.cti.enableClickToDial();
+
+    // Registers a callback function that will execute when a user clicks on a phone link.
+    sforce.interaction.cti.onClickToDial(onClickListener);
+
+    // Will setup the topic server side to receive push notifications from
+    initPushTopicServer();
+
+    // Initialize cometd streaming api
+    initCometd();
+
+</script>
+   
+</apex:page>

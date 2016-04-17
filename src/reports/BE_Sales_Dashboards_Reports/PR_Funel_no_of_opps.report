@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>PROBABILITY</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>AMOUNT</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <aggregateTypes>Average</aggregateTypes>
+        <field>Opportunity.Total_New_Money__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>EXP_AMOUNT</field>
+    </columns>
+    <currency>DKK</currency>
+    <filter>
+        <criteriaItems>
+            <column>AMOUNT</column>
+            <operator>greaterThan</operator>
+            <value>DKK 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Total_Renegotiation_Value__c</column>
+            <operator>equals</operator>
+            <value>DKK 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Total_Existing_Value__c</column>
+            <operator>equals</operator>
+            <value>DKK 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Total_Existing_Value_Lost_Products__c</column>
+            <operator>equals</operator>
+            <value>DKK 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FULL_NAME</column>
+            <operator>notEqual</operator>
+            <value>Almir Sarvan,Tom Hauervig,Anita Majgaard Sønderholm</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Involved_Party_ID__c</column>
+            <operator>notEqual</operator>
+            <value>80087877</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_NAME</column>
+            <operator>notEqual</operator>
+            <value>FIG TESTKUNDE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.no_of_products__c</column>
+            <operator>greaterThan</operator>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OPPORTUNITY_NAME</column>
+            <operator>notEqual</operator>
+            <value>Kontaktfornyelse 2016 – fejloprettet,Kontaktfornyelse 2016 – Opsagt 2014</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <operator>equals</operator>
+            <value>Closed Won,Identify &amp; Analyze Customer Need,Create Solution,Create &amp; Present Offer,Negotiate &amp; Close Deal</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>PR: Funel - no. of opps</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>team</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CURY</interval>
+    </timeFrameFilter>
+</Report>

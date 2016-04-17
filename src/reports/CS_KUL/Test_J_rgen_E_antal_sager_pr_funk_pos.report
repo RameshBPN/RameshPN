@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_88797101</developerName>
+        <masterLabel>Status</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Case$Status</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Approved</sourceValue>
+            </sourceValues>
+            <value>Afsluttet</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>On-going</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>For Approval</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Created</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Re-open</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Approval Declined</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Request for Information</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Response Received</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Checks Completed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Control Case</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Decision</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>In progress</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Waiting for info</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cancelled</sourceValue>
+            </sourceValues>
+            <value>Underbehandling</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Case$Status</field>
+    </columns>
+    <currency>SEK</currency>
+    <description>Test til Jørgen over antal sager, der er oprettet via emails</description>
+    <filter>
+        <criteriaItems>
+            <column>Case$Functional_inbox__c</column>
+            <operator>equals</operator>
+            <value>claim@dpd.dk,eposthuset@post.dk,fktinc23@post.dk,fktinc25@post.dk,fktinc27@post.dk,fktsck174@post.dk,fktsck178@post.dk,fktsck181@post.dk,fktsck182@post.dk,fktsck183@post.dk,fktsck185@post.dk,fktsck206@post.dk,fktsck217@post.dk,fktsck47@post.dk,kundeservice.erhverv@post.dk,kundesupport.erhverv@post.dk,paragraf9@post.dk,post.levering.til.doren@post.dk,skrivpost@post.dk,stamps@post.dk,tidlig.post@post.dk</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$RecordType</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$Functional_inbox__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Test Jørgen E - antal sager pr. funk.pos</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_Enhanced_Report_Type__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Case$CreatedDate</dateColumn>
+        <interval>INTERVAL_LASTMONTH</interval>
+    </timeFrameFilter>
+</Report>

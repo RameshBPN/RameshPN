@@ -1,0 +1,50 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT size=2 face=Arial,Sans-Serif>{!Case.Sender__c}<BR>{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}<BR>{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}<BR>{!IF(Case.Sender_Postal_Address_Suburb__c="Suburb","",Case.Sender_Postal_Address_Suburb__c)}<BR>{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}<BR>{!Case.Sender_Postal_Address_Country__c}<BR><BR></FONT></DIV></FONT><FONT style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" size=2 face=Arial,Sans-Serif>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><BR></DIV></FONT><FONT style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" size=2 face=Arial,Sans-Serif>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><BR></DIV></FONT><FONT style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" size=2 face=Arial,Sans-Serif>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><BR></DIV></FONT><FONT style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" size=2 face=Arial,Sans-Serif>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><BR></DIV></FONT>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><BR><FONT size=2 face=Arial,Sans-Serif></FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><B><FONT size=2 face=Arial,Sans-Serif>Forsendelsen er ikke registreret</FONT></B></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>Vi har modtaget din efterlysning af forsendelsen med stregkodenummer {!Case.Item_Id__c}. Du oplyser, at forsendelsen er sendt {!Case.Submission_date__c} til:</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Receiver__c}</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Receiver_Contact_Name__c}</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_S__c} {!Case.Receiver_Postal_Address_Room_Number__c}</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c}</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>{!IF(Case.Receiver_Postal_Address_Suburb__c="","","Suburb:")} {!Case.Receiver_Postal_Address_Suburb__c}</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c}</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Receiver_Postal_Address_Country__c}</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><BR><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>Vi har desværre ingen registreringer af forsendelsen i vores sporingssystem Track &amp; Trace.</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>Hvis vi skal undersøge sagen nærmere, beder vi dig sende en kopi af kvitteringen for, at forsendelsen er sendt med Post Danmark. Derudover beder vi dig oplyse forsendelsens indhold. Du kan sende oplysningerne til os pr. brev eller til mail {!User.Team_Email__c}. Oplys venligst sagsnummer {!Case.Main_Case_Number__c}.</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>Når vi har modtaget oplysningerne, undersøger vi sagen. Vær opmærksom på, at der kan gå op til tre uger, før vi kan give dig et svar.</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>Du kan læse mere om vores produkter i forretningsbetingelserne på hjemmesiden www.postdanmark.dk</FONT></DIV><FONT style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" size=2 face=Arial,Sans-Serif>
+<DIV align=left><BR></DIV></FONT>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>Med venlig hilsen</FONT></DIV>
+<DIV style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align=left><FONT size=2 face=Arial,Sans-Serif>{!User.FirstName} {!User.LastName}</FONT></DIV>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" aEditID="c2r1" rowspan="3" >
+<![CDATA[<P><FONT size=1 face=Arial,Sans-Serif>{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>TLF {!User.Department_Phone__c}<BR>FAX {!User.Fax}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}</FONT></P>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

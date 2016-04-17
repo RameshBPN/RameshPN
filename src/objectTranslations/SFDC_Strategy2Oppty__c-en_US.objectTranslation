@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sales Project Opportunity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sales Project Opportunity</value>
+    </caseValues>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity_Name__c</name>
+        <relationshipLabel><!-- Sales Project Opportunity --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Project --></label>
+        <name>SFDC_Strategy__c</name>
+        <relationshipLabel><!-- Sales Project Opportunity --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

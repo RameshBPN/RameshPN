@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Opkrævning til Postbutikker under 250 kr</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>11 - Opkrævning til postbutikker</name>
+    <style>promotionRight</style>
+    <subject>Opkrævning til postbutikker under 250 kr</subject>
+    <type>html</type>
+</EmailTemplate>

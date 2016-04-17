@@ -1,0 +1,325 @@
+<apex:page standardController="Contact"
+	extensions="G2O_CustomerCreateContact_VFCx">
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+		type="text/javascript"></script>
+
+	<script type="text/javascript">
+		// Submit the form when hitting enter
+		function replaceEnter(e){
+				e = e || window.event;
+				if (e.keyCode == 13)
+				{
+					 var allElements = document.getElementsByTagName('input');
+					 for (var i = 0; i < allElements.length; i++){
+						if (allElements[i].id.indexOf("SearchContactsButton") !=-1){
+							 allElements[i].click();
+						}
+					 }
+					 return false;
+				}else{
+					 return true;
+				}
+		}
+		document.onkeypress = replaceEnter;
+		
+		// Show/hide loading spinners for pagination
+		function showLoadingSpinner(wrapperClassName)
+		{
+			$('.'+wrapperClassName+' .paginationControls').hide();
+			$('.'+wrapperClassName+' .loadingSpinner').show();
+		}
+		function hideLoadingSpinner(wrapperClassName)
+		{
+			$('.'+wrapperClassName+' .paginationControls').show();
+			$('.'+wrapperClassName+' .loadingSpinner').hide();
+		}
+		
+		// Open the custom account lookup page ( N.B. the page controller is coded to select worksites only )
+		function openLookup(baseURL, width, modified, searchParam) 
+		{
+			var originalbaseURL = baseURL;
+			var originalwidth = width;
+			var originalmodified = modified;
+			var originalsearchParam = searchParam;
+ 
+			var lookupType = baseURL.substr(baseURL.length-3, 3);
+			if (modified == '1') baseURL = baseURL + searchParam;
+ 
+			var isCustomLookup = false;
+ 
+			// Following "001" is the lookup type for Account object so change this as per your standard or custom object
+			if(lookupType == "001") {
+			
+				var urlArr = baseURL.split("&");
+				var txtId = '';
+				if(urlArr.length > 2) {
+					urlArr = urlArr[1].split('=');
+					txtId = urlArr[1];
+				}
+ 
+				// Following is the url of Custom Lookup page. You need to change that accordingly
+				baseURL = "/apex/G2O_CustomAccountLookup?txt=" + txtId;
+		 	
+				// Following is the id of apex:form control "myForm". You need to change that accordingly
+					baseURL = baseURL + "&frm=" + escapeUTF("{!$Component.formId}");
+				if (modified == '1') {
+					baseURL = baseURL + "&lksearch=" + searchParam;
+				}
+ 
+				// Following is the ID of inputField that is the lookup to be customized as custom lookup
+				if(txtId.indexOf('Account') > -1 ){
+					isCustomLookup = true;
+				}
+			}
+ 
+			if(isCustomLookup == true){
+				openPopup(baseURL, "lookup", 400, 480, "width="+width+",height=480,toolbar=no,status=no,directories=no,menubar=no,resizable=yes,scrollable=no", true);
+			}
+			else {
+				if (modified == '1') originalbaseURL = originalbaseURL + originalsearchParam;
+				openPopup(originalbaseURL, "lookup", 400, 480, "width="+originalwidth+",height=480,toolbar=no,status=no,directories=no,menubar=no,resizable=yes,scrollable=no", true);
+			} 
+		}
+	</script>
+
+	<style>
+.loadingSpinner {
+	line-height: 24px;
+	padding-left: 24px;
+	display: block;
+	background: url(/img/loading24.gif) no-repeat;
+}
+</style>
+
+	<apex:form id="formId">
+		<apex:outputPanel id="MainWrapper">
+			<apex:sectionheader id="sectionTitle"
+				title="{!$Label.Create_Contacts}"
+				subtitle="{!$Label.Search_Contacts}" />
+			<apex:pageMessages id="errors" />
+
+			<!-- START: Search Section for Contact Creation-->
+			<apex:outputPanel id="opContactSearch">
+
+				<apex:pageBlock >
+					<apex:outputPanel >
+						<apex:panelGrid columns="2">
+							<apex:image value="{!$Resource.WarningImage}" width="25"
+								height="25"></apex:image>
+							<apex:outputLabel value="{!$Label.Contact_Create_Description}"
+								style="line-height:25px; font-weight: bold" />
+						</apex:panelGrid>
+					</apex:outputPanel>
+					<br />
+				</apex:pageBlock>
+
+				<apex:pageBlock title="{!$Label.Enter_Details}" id="thePageBlock">
+
+					<apex:pageBlockButtons >
+						<apex:commandButton id="SearchContactsButton"
+							value="{!$Label.Search}" rerender="MainWrapper"
+							action="{!findContacts}" status="loadingSpinnerExternal" />
+						<apex:commandButton value="{!$Label.Cancel_Search}"
+							action="{!cancel}" immediate="true" status="loadingSpinner" />
+						<apex:commandButton value="{!$Label.Create_Unverified}"
+							action="{!createUnverified}" status="loadingSpinner"
+							rendered="{!searched}" />
+					</apex:pageBlockButtons>
+
+					<apex:pageBlockSection columns="1">
+
+						<apex:pageBlockSectionItem >
+							<apex:outputLabel value="{!$Label.Corporate_Registration_Number}" />
+							<apex:outputPanel >
+								<apex:inputText id="corporateNumber"
+									value="{!theAccount.Corporate_Registration_Number__c}"
+									rendered="{!!hasAccountAssigned}" disabled="true" />
+								<apex:outputField value="{!theAccount.Corporate_Registration_Number__c}"
+									rendered="{!hasAccountAssigned}" />
+							</apex:outputPanel>
+						</apex:pageBlockSectionItem>
+
+						<apex:pageBlockSectionItem >
+							<apex:outputLabel value="{!$Label.Account_Name}" />
+							<apex:outputPanel >
+								<apex:outputLink value="/{!theContact.AccountId}"
+									target="_blank" rendered="{!hasAccountAssigned}">
+									<apex:outputLabel value="{!theAccount.Name}" />
+								</apex:outputLink>
+								<apex:inputField id="Account" value="{!theContact.AccountId}"
+									required="true" rendered="{!!hasAccountAssigned}" />
+							</apex:outputPanel>
+						</apex:pageBlockSectionItem>
+
+						<apex:repeat value="{!$ObjectType.Contact.FieldSets.CreateContact}" var="f">
+							<apex:inputField value="{!theContact[f]}"
+								rendered="{!(f.fieldPath != 'Account.Corporate_Registration_Number__c' && f.fieldPath != 'Account.Name')}"
+								required="false"></apex:inputField>
+						</apex:repeat>
+
+					</apex:pageBlockSection>
+
+				</apex:pageBlock>
+
+			</apex:outputPanel>
+			<!-- END: Search Section for Contact Creation -->
+
+			<!-- START: Display Contacts called from the web service -->
+			<apex:pageBlock title="{!$Label.Contact_Results}"
+				rendered="{!searched}">
+				<apex:pageBlockButtons >
+					<apex:commandButton value="{!$Label.Create_Selected}"
+						action="{!createContacts}" status="loadingSpinner"
+						rendered="{!!noResults}" />
+					<apex:commandButton value="{!$Label.Create_Unverified}"
+						action="{!createUnverified}" status="loadingSpinner" />
+				</apex:pageBlockButtons>
+
+
+				<!-- START: Advice message on no results -->
+				<apex:outputPanel rendered="{!noResults}">
+					<apex:panelGrid columns="2">
+						<apex:image value="/img/msg_icons/warning32.png" width="32"
+							height="32"></apex:image>
+						<apex:outputLabel value="{!$Label.No_contacts_found}"
+							style="line-height:32px; font-weight: bold" />
+					</apex:panelGrid>
+				</apex:outputPanel>
+				<!-- END: Advice message on no results -->
+
+				<!--  START: Results table : Uses field set: CreateContact_Columns to define the columns to show on the contact -->
+				<apex:outputPanel styleClass="searchResultsTable"
+					id="searchResultsTable" rendered="{!!noResults}">
+
+					<!-- \Paginated table -->
+					<apex:pageBlockTable value="{!searchResults}" var="contactResult">
+						<apex:column >
+							<!-- Select all (updates viewstate, so no javascript) -->
+							<apex:facet name="header">
+								<apex:commandLink action="{!checkAll}" status="loadingSpinner"
+									rerender="searchResultsTable"
+									style="text-decoration:underline;">
+									Check all
+								</apex:commandLink>
+							</apex:facet>
+							<apex:inputCheckbox value="{!contactResult.selected}"
+								id="checkAllCheckbox" rendered="{!contactResult.selectable}" />
+						</apex:column>
+						<apex:column headerValue="Source">
+							<!--
+								A contact might exist on another account.
+								These should be select-able. But only generate an ACR record.
+								If the existing record has been verified show source as PAR.
+							-->
+							<apex:outputLabel value="{!IF(contactResult.exists && contactResult.theContact.External_Provider_Party_ID__c==null, $Label.SFDC, $Label.PAR)}"></apex:outputLabel>
+						</apex:column>
+						<apex:column headerValue="Name">
+							<apex:outputPanel rendered="{!!contactResult.exists}">
+								<apex:outputLabel value="{!contactResult.theContact.FirstName} {!contactResult.theContact.LastName}"></apex:outputLabel>
+							</apex:outputPanel>
+							<apex:outputPanel rendered="{!contactResult.exists}">
+								<apex:outputLink value="/{!contactResult.theContact.Id}"
+									target="_self">{!contactResult.theContact.FirstName} {!contactResult.theContact.LastName}</apex:outputLink>
+							</apex:outputPanel>
+						</apex:column>
+						<!-- 
+							The controller will need to look up the account details for each contact's account
+							defined as: the accountId on the contact replaced by search first, or the Worksite being searched from 
+							(which is a major criteria in the search, so no contact should be returned that doesn't belong to the Worksite)
+						-->
+						<apex:column headerValue="{!$Label.Primary_Account}">
+							<apex:outputLink value="/{!contactResult.primaryAccount.Id}"
+								target="_self">{!contactResult.primaryAccount.Name}</apex:outputLink>
+						</apex:column>
+						<apex:column headerValue="{!$Label.Involved_Party_ID}">
+							<apex:outputField value="{!contactResult.primaryAccount.Involved_Party_ID__c}" />
+						</apex:column>
+						<apex:repeat var="f"
+							value="{!$ObjectType.Contact.FieldSets.CreateContact_Columns}">
+							<apex:column headerValue="{!f.label}">
+								<apex:outputField value="{!contactResult.theContact[f]}" />
+							</apex:column>
+						</apex:repeat>
+					</apex:pageBlockTable>
+					<!-- /Paginated table -->
+
+					<!-- \Pagination controls -->
+					<apex:outputPanel styleClass="paginationControls">
+						<apex:commandButton action="{!searchResultsPagination.first}"
+							disabled="{!!searchResultsPagination.showPreviousButton}"
+							rerender="searchResultsTable" status="search_loadingSpinner"
+							value="|<<" />
+						<apex:commandButton action="{!searchResultsPagination.previous}"
+							disabled="{!!searchResultsPagination.showPreviousButton}"
+							rerender="searchResultsTable" status="search_loadingSpinner"
+							value="<<" />
+						<span style="padding: 0 1em;">{!$Label.Page}
+							{!searchResultsPagination.pageNumber} -
+							{!searchResultsPagination.numberOfPages}</span>
+						<apex:commandButton action="{!searchResultsPagination.next}"
+							disabled="{!!searchResultsPagination.showNextButton}"
+							rerender="searchResultsTable" status="search_loadingSpinner"
+							value=">>" />
+						<apex:commandButton action="{!searchResultsPagination.last}"
+							disabled="{!!searchResultsPagination.showNextButton}"
+							rerender="searchResultsTable" status="search_loadingSpinner"
+							value=">>|" />
+					</apex:outputPanel>
+					<!-- /Pagination controls -->
+
+					<!-- \Pagination Loading Spinner -->
+					<div class="loadingSpinner" style="display: none;">
+						<span class="waitingDescription">{!$Label.Loading}</span>
+					</div>
+					<!-- /Pagination Loading Spinner -->
+				</apex:outputPanel>
+				<apex:actionstatus id="search_loadingSpinner"
+					onstart="showLoadingSpinner('searchResultsTable');"
+					onstop="hideLoadingSpinner('searchResultsTable');" />
+				<!--  END: Results table -->
+
+			</apex:pageBlock>
+			<!-- END: Display Contacts called from the web service -->
+
+
+		</apex:outputPanel>
+
+		<!-- START : General loading spinner that covers the whole page -->
+		<apex:actionstatus id="loadingSpinner">
+			<apex:facet name="start">
+				<div class="waitingSearchDiv" id="el_loading"
+					style="background: url({!$Resource.TransparentBackground_FFFFFF_50pc}) transparent; height: 100%; width: 100%;">
+					<div class="waitingHolder">
+						<img class="waitingImage" src="/img/loading32.gif" title="*" /> <span
+							class="waitingDescription">{!$Label.Loading}</span>
+					</div>
+				</div>
+			</apex:facet>
+		</apex:actionstatus>
+
+		<apex:actionstatus id="loadingSpinnerExternal">
+			<apex:facet name="start">
+				<div class="waitingSearchDiv" id="el_loading"
+					style="background: url({!$Resource.TransparentBackground_FFFFFF_50pc}) transparent; height: 100%; width: 100%;">
+					<div class="waitingHolder">
+						<img class="waitingImage" src="/img/loading32.gif" title="*" /> <span
+							class="waitingDescription">{!$Label.Searching_External_Provider}</span>
+					</div>
+				</div>
+			</apex:facet>
+		</apex:actionstatus>
+		<!-- END : General loading spinner that covers the whole page -->
+
+		<!-- START : rendering of error message alert box -->
+		<apex:outputPanel id="errorContainer">
+			<script>
+				var alertMessage = "{!alertMessage}";
+				if(alertMessage!=""){
+					alert(alertMessage); // label for create no results: Label.Contact_Create_No_Results
+				}
+			</script>
+		</apex:outputPanel>
+		<!-- END : rendering of error message-->
+	</apex:form>
+</apex:page>

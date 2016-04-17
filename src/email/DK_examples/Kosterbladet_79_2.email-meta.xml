@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>05-Kosterbladet 79_2</name>
+    <style>promotionRight</style>
+    <subject>Anmeldelse til Kostercentralen - Case: {!Case.Main_Case_Number__c}</subject>
+    <textOnly>Anmeldelse til Kostercentralen
+Vi vil gerne have vedlagte anmeldelse optaget i Kostercentralen.
+Indholdet er forsvundet fra en forsendelse med stregkodenummer {!Case.Item_Id__c}, som blev sendt med Post Danmark. Hvis I har flere spørgsmål til denne anmeldelse, skal I oplyse sagsnummer {!Case.Main_Case_Number__c}.
+På forhånd tak for hjælpen.
+Med venlig hilsen
+{!User.FirstName} {!User.LastName}
+
+Anmeldelse til Kostercentralen
+
+Afsender af forsendelsen&lt;?xml:namespace prefix = o /&gt;
+Anmelder og forudrettede
+Firmanavn:
+{!Case.Sender__c}
+
+
+Navn:
+{!User.Department}
+{!User.Division}
+{!User.CompanyName}
+
+Adresse:
+{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c}
+{!Case.Sender_Postal_Address_Suburb__c}
+Adresse:
+{!User.Street}
+Postnr./by:
+{!Case.Sender_Postal_Address_City__c}
+Postnr./by:
+{!User.City}
+Se-nr:
+CVR.nr.:
+
+Tlf.nr.:
+Tlf.nr.:
+{!User.Department_Phone__c}
+Forsikringsselskab:
+
+Policenr.:
+
+Hvad er sket?
+
+Tidspunkt/Tidsrum (dato og klokkeslet)?
+
+Hvor er det sket (navn på stedet, adresse, mv.)?
+
+Hvordan er det sket?
+
+Hvad er stjålet/skadet? List herunder:
+Genstand:
+Mærkning/serienr./imeinr.:
+Beskrivelse/mærke/model:
+Værdi i dkr.:
+{!User.CompanyName}
+{!User.Department}
+{!User.Division}
+{!User.Street}
+{!User.PostalCode} {!User.City}
+CVR nr. 26663903
+{!User.Company_Webb_Address__c}
+TLF {!User.Department_Phone__c}
+FAX {!User.Fax}
+{!User.Team_Email__c}
+Dato {!Today}
+Journal nr. {!Case.Main_Case_Number__c}
+Sagsbeh {!User.Alias} /</textOnly>
+    <type>html</type>
+</EmailTemplate>

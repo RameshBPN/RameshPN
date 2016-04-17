@@ -1,0 +1,10 @@
+Hei,
+
+Kiitos myyntivinkistäsi, jonka lähetit koskien yritystä {!Lead.Company}. Olemme kiitollisia jokaisesta vinkistä.
+
+Valitettavasti tällä kertaa vinkki ei poikinut kauppaa, koska {!Lead.Reason_For_Status__c}. 
+
+Muistathan pitää silmät ja korvat avoinna, ja lähettää vinkkejä myös jatkossa!
+
+Ystävällisin terveisin,
+Myynti

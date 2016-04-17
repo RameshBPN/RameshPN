@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Case$Approved_amount_of_compensation__c</field>
+    </columns>
+    <columns>
+        <field>Case$Item_Id__c</field>
+    </columns>
+    <columns>
+        <field>Case$Product_Article__c</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>antal privatpakker med omdeling,</description>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND ( 4 OR  5)</booleanFilter>
+        <criteriaItems>
+            <column>Case.NTT_Search_Results__r.NTT_History_del__r$IsLatest__c</column>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.NTT_Search_Results__r.NTT_History_del__r$Local_Event_Code__c</column>
+            <operator>equals</operator>
+            <value>OMP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$RecordType</column>
+            <operator>equals</operator>
+            <value>Case.Complaint,Case.Item_Search</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.NTT_Search_Results__r$Product_Group__c</column>
+            <operator>equals</operator>
+            <value>Privatpakke med omdeling</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.NTT_Search_Results__r$Product_Group__c</column>
+            <operator>equals</operator>
+            <value>Privatpakke uden omdeling,Danmark</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$RecordType</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.NTT_Search_Results__r$Product_Group__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>OMP - Liv</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_with_revised_tracking_Event__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Case$ClosedDate</dateColumn>
+        <endDate>2015-05-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2014-12-01</startDate>
+    </timeFrameFilter>
+</Report>

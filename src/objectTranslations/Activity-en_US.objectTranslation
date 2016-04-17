@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- System generated ID for activities --></help>
+        <label><!-- Activity ID --></label>
+        <name>Activity_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose --></label>
+        <name>Activity_Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1-1-1</masterLabel>
+            <translation><!-- 1-1-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Address information</masterLabel>
+            <translation><!-- Address information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analyse Customer Need</masterLabel>
+            <translation><!-- Analyse Customer Need --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual meeting</masterLabel>
+            <translation><!-- Annual meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attachments</masterLabel>
+            <translation><!-- Attachments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Book Appointment</masterLabel>
+            <translation><!-- Book Appointment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booked meeting</masterLabel>
+            <translation><!-- Booked meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bookings</masterLabel>
+            <translation><!-- Bookings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change</masterLabel>
+            <translation><!-- Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Changes</masterLabel>
+            <translation><!-- Changes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Close Deal</masterLabel>
+            <translation><!-- Close Deal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closing business</masterLabel>
+            <translation><!-- Closing business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact was not present</masterLabel>
+            <translation><!-- Contact was not present --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Group</masterLabel>
+            <translation><!-- Contract Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Renewal</masterLabel>
+            <translation><!-- Contract Renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer relation</masterLabel>
+            <translation><!-- Customer relation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery problems</masterLabel>
+            <translation><!-- Delivery problems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Channels</masterLabel>
+            <translation><!-- Digital Channels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation><!-- Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event / Seminar</masterLabel>
+            <translation><!-- Event / Seminar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow Up Agreement</masterLabel>
+            <translation><!-- Follow Up Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow up operation start</masterLabel>
+            <translation><!-- Follow up operation start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal meeting</masterLabel>
+            <translation><!-- Internal meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Left message</masterLabel>
+            <translation><!-- Left message --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More sale</masterLabel>
+            <translation><!-- More sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Must call back</masterLabel>
+            <translation><!-- Must call back --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negotiation</masterLabel>
+            <translation><!-- Negotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New sale</masterLabel>
+            <translation><!-- New sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No contact / called x times</masterLabel>
+            <translation><!-- No contact / called x times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No interest</masterLabel>
+            <translation><!-- No interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operating Meeting</masterLabel>
+            <translation><!-- Operating Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operative</masterLabel>
+            <translation><!-- Operative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other issue</masterLabel>
+            <translation><!-- Other issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packing</masterLabel>
+            <translation><!-- Packing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone was not taken</masterLabel>
+            <translation><!-- Phone was not taken --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price change</masterLabel>
+            <translation><!-- Price change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Codes/ EDI</masterLabel>
+            <translation><!-- Product Codes/ EDI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Launching</masterLabel>
+            <translation><!-- Product Launching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality Assurance</masterLabel>
+            <translation><!-- Quality Assurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Presentation</masterLabel>
+            <translation><!-- Quote Presentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renegotiation</masterLabel>
+            <translation><!-- Renegotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report release</masterLabel>
+            <translation><!-- Report release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsor event</masterLabel>
+            <translation><!-- Sponsor event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsor meeting</masterLabel>
+            <translation><!-- Sponsor meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategically</masterLabel>
+            <translation><!-- Strategically --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tactically</masterLabel>
+            <translation><!-- Tactically --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telephone meeting</masterLabel>
+            <translation><!-- Telephone meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination</masterLabel>
+            <translation><!-- Termination --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Activity Task --></label>
+        <name>Activity_Task__c</name>
+        <picklistValues>
+            <masterLabel>Call Cycle</masterLabel>
+            <translation><!-- Call Cycle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Contact</masterLabel>
+            <translation><!-- Customer Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow up 1-1-1</masterLabel>
+            <translation><!-- Follow up 1-1-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mass Creations</masterLabel>
+            <translation><!-- Mass Creations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operational Admin</masterLabel>
+            <translation><!-- Operational Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Admin</masterLabel>
+            <translation><!-- Sales Admin --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Activity_Type_std__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit check</masterLabel>
+            <translation><!-- Credit check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Issues</masterLabel>
+            <translation><!-- Customer Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Specifics</masterLabel>
+            <translation><!-- Customer Specifics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer arrangement</masterLabel>
+            <translation><!-- Customer arrangement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer update</masterLabel>
+            <translation><!-- Customer update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E-invoice</masterLabel>
+            <translation><!-- E-invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow up 1-1-1</masterLabel>
+            <translation><!-- Follow up 1-1-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow up 2</masterLabel>
+            <translation><!-- Follow up 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow up 3</masterLabel>
+            <translation><!-- Follow up 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Franko</masterLabel>
+            <translation><!-- Franko --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Meeting</masterLabel>
+            <translation><!-- Internal Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice issues</masterLabel>
+            <translation><!-- Invoice issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME KL Backoffice</masterLabel>
+            <translation><!-- ME KL Backoffice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintain Contract</masterLabel>
+            <translation><!-- Maintain Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintain Customer Master Data</masterLabel>
+            <translation><!-- Maintain Customer Master Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintain Postbox Contract</masterLabel>
+            <translation><!-- Maintain Postbox Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merger &amp; reorganisation</masterLabel>
+            <translation><!-- Merger &amp; reorganisation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Must call back</masterLabel>
+            <translation><!-- Must call back --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not reached</masterLabel>
+            <translation><!-- Not reached --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operation event</masterLabel>
+            <translation><!-- Operation event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operation start</masterLabel>
+            <translation><!-- Operation start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical Meeting</masterLabel>
+            <translation><!-- Physical Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pickup &amp; Delivery</masterLabel>
+            <translation><!-- Pickup &amp; Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postbox</masterLabel>
+            <translation><!-- Postbox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postponed</masterLabel>
+            <translation><!-- Postponed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepare Offer</masterLabel>
+            <translation><!-- Prepare Offer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Procurement</masterLabel>
+            <translation><!-- Procurement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product deviation</masterLabel>
+            <translation><!-- Product deviation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renegotiation</masterLabel>
+            <translation><!-- Renegotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales rep left a message</masterLabel>
+            <translation><!-- Sales rep left a message --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription services</masterLabel>
+            <translation><!-- Subscription services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telephone Contact</masterLabel>
+            <translation><!-- Telephone Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telephone meeting</masterLabel>
+            <translation><!-- Telephone meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Do</masterLabel>
+            <translation><!-- To Do --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Activity team --></label>
+        <name>Activity_team__c</name>
+        <picklistValues>
+            <masterLabel>Team 1</masterLabel>
+            <translation><!-- Team 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team 2</masterLabel>
+            <translation><!-- Team 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team 3</masterLabel>
+            <translation><!-- Team 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Caller Disposition --></label>
+        <name>Caller_Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Angry</masterLabel>
+            <translation><!-- Angry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neutral</masterLabel>
+            <translation><!-- Neutral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Satisfied</masterLabel>
+            <translation><!-- Satisfied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Administration</masterLabel>
+            <translation><!-- Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campaign call</masterLabel>
+            <translation><!-- Campaign call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer contact</masterLabel>
+            <translation><!-- Customer contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation><!-- Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task</masterLabel>
+            <translation><!-- Task --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telesales event</masterLabel>
+            <translation><!-- Telesales event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telesales task</masterLabel>
+            <translation><!-- Telesales task --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Created By Role --></label>
+        <name>Created_By_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer meeting survey block --></label>
+        <name>Customer_meeting_survey_block__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Activity Type --></label>
+        <name>DB_Activity_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of decision of investigation --></label>
+        <name>Date_of_decision_of_investigation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of incoming item --></label>
+        <name>Date_of_incoming_item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deletion Flag --></label>
+        <name>Deletion_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Drop off date --></label>
+        <name>Drop_off_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- FO / Sales group --></label>
+        <name>FO_Sales_group__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field will not be included in the meeting invitation. --></help>
+        <label><!-- Internal info --></label>
+        <name>Internal_info__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Investigation --></label>
+        <name>New_Investigation__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New call list date --></label>
+        <name>New_call_list_date__c</name>
+    </fields>
+    <fields>
+        <name>Priority</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation><!-- Normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SAP Activity ID --></label>
+        <name>SAP_Activity_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales area --></label>
+        <name>Sales_area__c</name>
+        <picklistValues>
+            <masterLabel>0540</masterLabel>
+            <translation>LO DK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0630</masterLabel>
+            <translation>LO FI DPD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation>PDK BE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3670</masterLabel>
+            <translation>LO FI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4000</masterLabel>
+            <translation>PDK LO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO91</masterLabel>
+            <translation>ME SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO92</masterLabel>
+            <translation>LO SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation>LO NO</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Assigned</masterLabel>
+            <translation><!-- Assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for info</masterLabel>
+            <translation><!-- Waiting for info --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Telesales flag trigger --></label>
+        <name>Telesales_flag_trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transport Damage --></label>
+        <name>Transport_Damage__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Assessment</masterLabel>
+            <translation><!-- No Assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Call Duration --></label>
+        <name>actimizerdialer__ActimizerCallDuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Call ID --></label>
+        <name>actimizerdialer__ActimizerCallGuid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Call Time --></label>
+        <name>actimizerdialer__ActimizerCallTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Redial Phone --></label>
+        <name>actimizerdialer__ActimizerRedialPhoneNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Redial Time --></label>
+        <name>actimizerdialer__ActimizerRedialTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Call Record --></label>
+        <name>actimizerdialer__Actimizer_Call_Record__c</name>
+    </fields>
+</CustomObjectTranslation>

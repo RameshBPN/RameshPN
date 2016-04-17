@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer Service Product</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer Service Products</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assortment ID --></label>
+        <name>Assortment_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assortment --></label>
+        <name>Assortment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Area ID --></label>
+        <name>Business_Area_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Area Name --></label>
+        <name>Business_Area_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of Origin --></label>
+        <name>Country_of_Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dummy Three ID --></label>
+        <name>Dummy_Three_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dummy Three Name --></label>
+        <name>Dummy_Three_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Global ID --></label>
+        <name>Global_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lifecycle --></label>
+        <name>Lifecycle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logistics Product Category --></label>
+        <name>Logistics_Product_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logistics Service Area --></label>
+        <name>Logistics_Service_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marked for Deletion --></label>
+        <name>Marked_for_Deletion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nordic Product --></label>
+        <name>Nordic_Product__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product/Article ID --></label>
+        <name>Product_Article_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Group ID --></label>
+        <name>Product_Group_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Group --></label>
+        <name>Product_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product (Level 4) ID --></label>
+        <name>Product_Level_4_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product (Level 4) Name --></label>
+        <name>Product_Level_4_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>Product_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Area --></label>
+        <name>Sales_Area__c</name>
+        <picklistValues>
+            <masterLabel>0540</masterLabel>
+            <translation>LO DK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0630</masterLabel>
+            <translation>LO FI DPD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation>PDK BE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3670</masterLabel>
+            <translation>LO FI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4000</masterLabel>
+            <translation>PDK LO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO91</masterLabel>
+            <translation>ME SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO92</masterLabel>
+            <translation>LO SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation>LO NO</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source Hierarchy Parent --></label>
+        <name>Source_Hierarchy_Parent__c</name>
+    </fields>
+    <layouts>
+        <layout>Customer Service Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Product Attributes --></label>
+            <section>Product Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Product Hierarchy --></label>
+            <section>Product Hierarchy</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

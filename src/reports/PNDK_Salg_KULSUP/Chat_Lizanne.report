@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LiveChatTranscript$IpAddress</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$Browser</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$Platform</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$Status</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$BrowserLanguage</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$EndedBy</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$Abandoned</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$RequestTime</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$StartTime</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$EndTime</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Rapport til Lizanne over Chat fordelt på browser eller IP</description>
+    <format>Tabular</format>
+    <name>Chat - Lizanne</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Live_Agent__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>LiveChatTranscript$IpAddress</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>LiveChatTranscript$CreatedDate</dateColumn>
+        <endDate>2014-11-10</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2014-11-10</startDate>
+    </timeFrameFilter>
+</Report>

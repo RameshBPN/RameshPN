@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_88797101</developerName>
+        <masterLabel>Status</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Case$Status</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Approved</sourceValue>
+            </sourceValues>
+            <value>Afsluttet</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>On-going</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>For Approval</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Created</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Re-open</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Approval Declined</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Request for Information</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Response Received</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Checks Completed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Control Case</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Decision</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>In progress</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Waiting for info</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cancelled</sourceValue>
+            </sourceValues>
+            <value>Underbehandling</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Case$Status</field>
+    </columns>
+    <currency>SEK</currency>
+    <filter>
+        <criteriaItems>
+            <column>Case$Owner</column>
+            <operator>equals</operator>
+            <value>PNDK_KUL_CS Privat</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Subject</column>
+            <operator>contains</operator>
+            <value>Find forsendelsen</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Status</column>
+            <operator>equals</operator>
+            <value>Assigned to queue</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$RecordType</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$CreatedDate</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$CaseNumber</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Assigned to queue Find forsendelsen</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_Enhanced_Report_Type__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Case$CreatedDate</dateColumn>
+        <interval>INTERVAL_THISMONTH</interval>
+    </timeFrameFilter>
+</Report>

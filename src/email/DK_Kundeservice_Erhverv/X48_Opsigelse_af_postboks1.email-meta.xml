@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Opsigelse af postboks</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>48 - Opsigelse af postboks</name>
+    <style>freeForm</style>
+    <subject>Opsigelse af postboks</subject>
+    <type>html</type>
+</EmailTemplate>

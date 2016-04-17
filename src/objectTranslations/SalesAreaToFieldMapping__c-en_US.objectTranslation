@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SalesAreaToFieldMapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SalesAreaToFieldMapping</value>
+    </caseValues>
+    <fields>
+        <label><!-- Custom Call Interval Value --></label>
+        <name>Custom_Call_Interval_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Call Interval --></label>
+        <name>Custom_Call_Interval__c</name>
+    </fields>
+    <fields>
+        <label><!-- MaxNumber --></label>
+        <name>MaxNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Call List Date --></label>
+        <name>Next_Call_List_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Reached Counter --></label>
+        <name>Not_Reached_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- SubSegment --></label>
+        <name>SubSegment__c</name>
+    </fields>
+    <fields>
+        <label><!-- TopSegment --></label>
+        <name>TopSegment__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

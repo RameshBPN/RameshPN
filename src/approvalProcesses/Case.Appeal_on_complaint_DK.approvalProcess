@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <submitter>PN_DK_Customer_Service</submitter>
+        <type>roleSubordinates</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>CaseNumber</field>
+        <field>Owner</field>
+        <field>Reason__c</field>
+        <field>Appeal_Amount__c</field>
+        <field>Compensation_Receiver__c</field>
+        <field>Bank_Account__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PNDK_KUL_Erhvervspakke_Support_st_Appro</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>When the case team is Major Account the approval queue is PNDK_KUL_CS Erhverv Approval</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK KUL Team Major Account</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Send approval to CS Erhverv</label>
+        <name>Send_approval_to_st</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PNDK_KUL_Erhvervspakke_Support_Vest_Appr</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>When the case team CS Erhverv the approval queue is PNDK_KUL_CS Erhverv Major Account Approval</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK KUL Team CS Erhverv</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Send approval to Major Account</label>
+        <name>Send_approval_to_ost</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PNDK_KUL_Erhvervspost_Support_Approval</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>When the case team Drift or Salgsadministration the approval queue is PNDK_KUL_Salgs &amp; Driftsadministration Approval</description>
+        <entryCriteria>
+            <formula>false</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Send approval to  PNDK_KUL_Salgs &amp; Driftsadministration Approval</label>
+        <name>Send_approval_to_PNDK_KUL_Salgs_Driftsadministration_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PNDK_KUL_Privat_Support_Approval</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>When the case team is Told, Modtagerydelser  or Digital the approval queue is PNDK_KUL_CS Privat Approval</description>
+        <entryCriteria>
+            <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK KUL Team Stamps and Hotline</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK KUL Team Social Media and Mails</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK KUL Team Customs and Claims</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK KUL Team Frontline</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Send approval  to PNDK_KUL_CS Privat Approval</label>
+        <name>Send_approval_to_PNDK_KUL_CS_Privat_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PNDK_KUL_CCE_Approval</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>When the case team is Driftssupport, Driftsudvikling or Procesoptimering</description>
+        <entryCriteria>
+            <formula>false</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Send to PNDK_KUL_CCE_Approval</label>
+        <name>Send_to_PNDK_KUL_CCE_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PNDK_KUL_Major_Account_Support_Approval</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>When the case team is Salgsløsninger or Coporate Major Account the approval queue is PNDK_KUL_CMA &amp; Salgsløsninger Approval</description>
+        <entryCriteria>
+            <booleanFilter>1 OR 2 OR 3</booleanFilter>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK KUL Team Corporate Major Account</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK KUL Team Business Solutions</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK KUL Team Communication Product Support</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Send approvals to PNDK_KUL_CMA &amp; Salgsløsninger Approval</label>
+        <name>Send_approvals_to_PNDK_KUL_CMA_Salgsl_sninger_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PDK_LODK_Approval</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Approval is sent to LODK queue</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>LO DK Customer Service Team</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Send approval to PDK LODK</label>
+        <name>Send_to_LODK</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PNDK_FRM_Approval</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>When the case team is PN DK FRM Team Kunde or PN DK FRM Team Order Administration or PN DK FRM Team Produkt og Design or PN DK FRM Team Salg send approval to the above queue</description>
+        <entryCriteria>
+            <booleanFilter>1 OR 2 OR 3</booleanFilter>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK FRM Team Order Administration</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK FRM Team Produkt og Design</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK FRM Team Salg</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Send to PNDK FRM Approval</label>
+        <name>Send_to_PNDK_FRM_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PNDK_DS_Approval</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>When the case team is PN DK KUL Særlige Kundehenvendelser send approval to PNDK_KUL_CS Online &amp; Opti App</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK KUL Særlige Kundehenvendelser</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Send to PNDK_KUL_CS Online &amp; Opti App</label>
+        <name>Send_to_PNDK_DS_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PNDK_PRO_Approval</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>When the case team PN DK Team PRO or PN DK Team Adresseloese send approval to the above queue</description>
+        <entryCriteria>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK Team Adresseloese</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK QA Consultant</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Send to PNDK_PRO_Approval</label>
+        <name>Send_to_PNDK_PRO_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>PNDK_SSF_Approval</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Place holder</description>
+        <entryCriteria>
+            <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK Team Fakturering 1</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK Team Fakturering 2</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK Team Fakturering 3</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK Team Dubiøse Debitorer</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Appeal_Agent_Unit__c</field>
+                <operation>equals</operation>
+                <value>PN DK Porto</value>
+            </criteriaItems>
+        </entryCriteria>
+        <label>Send to PNDK_SSF_Approval</label>
+        <name>Send_to_PNDK_SSF_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>This is the approval process for appeal payout for DK</description>
+    <emailTemplate>unfiled$public/Payment_Approval</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Case.RecordType</field>
+            <operation>equals</operation>
+            <value>Complaint</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Appeal__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Appeal_Amount__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>SEK 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Approved_Appeal_Amount__c</field>
+            <operation>notEqual</operation>
+            <value>SEK 0</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Approved_Amount_for_Appeal</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Update_case_status_as_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Update_case_status_as_rejectedl</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Update_case_status_as_sent_for_approval</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>Appeal on complaint - DK</label>
+    <recallActions>
+        <action>
+            <name>Update_case_status_as_On_going</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

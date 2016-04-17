@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Close</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewTask</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <fields>
+        <fullName>ActivityDate</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>CallDisposition</fullName>
+    </fields>
+    <fields>
+        <fullName>CallDurationInSeconds</fullName>
+    </fields>
+    <fields>
+        <fullName>CallObject</fullName>
+    </fields>
+    <fields>
+        <fullName>CallType</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Normal</fullName>
+                <default>true</default>
+                <highPriority>false</highPriority>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Low</fullName>
+                <default>false</default>
+                <highPriority>false</highPriority>
+            </picklistValues>
+            <picklistValues>
+                <fullName>High</fullName>
+                <default>false</default>
+                <highPriority>true</highPriority>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>RecurrenceInterval</fullName>
+    </fields>
+    <fields>
+        <fullName>RecurrenceRegeneratedType</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Created</fullName>
+                <closed>false</closed>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>In progress</fullName>
+                <closed>false</closed>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Completed</fullName>
+                <closed>true</closed>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cancelled</fullName>
+                <closed>true</closed>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Waiting for info</fullName>
+                <closed>false</closed>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Assigned</fullName>
+                <closed>false</closed>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Follow up 1-1-1 (1)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TaskSubtype</fullName>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>WhatId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WhoId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>Standard_task</fullName>
+        <active>true</active>
+        <description>This record can be used to create a standard task</description>
+        <label>Sales task</label>
+        <picklistValues>
+            <picklist>Activity_Sub_Type__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1-1-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Address information</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Analyse Customer Need</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Annual meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attachments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Appointment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Booked meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bookings</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Changes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close Deal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closing business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contact was not present</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Group</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer relation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivery problems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital Channels</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event %2F Seminar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Follow Up Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Follow up operation start</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>More sale</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Must call back</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Negotiation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New sale</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No contact %2F called x times</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No interest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operating Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operative</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Packing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone was not taken</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Codes%2F EDI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Launching</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality Assurance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote Presentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renegotiation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report release</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sponsor event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sponsor meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strategically</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tactically</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telephone meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Activity_Task__c</picklist>
+            <values>
+                <fullName>Call Cycle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Contact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Follow up 1-1-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mass Creations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operational Admin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Admin</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Activity_Type_std__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit check</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Specifics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer arrangement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E-invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Follow up 1-1-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Follow up 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Follow up 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Franko</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invoice issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ME KL Backoffice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintain Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintain Customer Master Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintain Postbox Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merger %26 reorganisation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Must call back</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not reached</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operation event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operation start</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Physical Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pickup %26 Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Postbox</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Postponed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prepare Offer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Procurement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product deviation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renegotiation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales rep left a message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subscription services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telephone Contact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telephone meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Do</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Activity_team__c</picklist>
+            <values>
+                <fullName>Team 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Team 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Team 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Caller_Disposition__c</picklist>
+            <values>
+                <fullName>Angry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Neutral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Satisfied</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Category__c</picklist>
+            <values>
+                <fullName>Campaign call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Task</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Telesales task</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>New_Investigation__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sales_area__c</picklist>
+            <values>
+                <fullName>0630</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3670</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO91</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In progress</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scheduled</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Transport_Damage__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Assessment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Follow_up_1_1_1_cannot_be_removed</fullName>
+        <active>true</active>
+        <errorConditionFormula>CONTAINS(PRIORVALUE(Subject) , &quot;Follow up 1-1-1 (1)&quot;)  &amp;&amp; NOT(contains(Subject,&quot;Follow up 1-1-1 (1)&quot;)) || CONTAINS(PRIORVALUE(Subject) , &quot;Follow up 1-1-1 (2)&quot;)  &amp;&amp; NOT(contains(Subject,&quot;Follow up 1-1-1 (2)&quot;)) || CONTAINS(PRIORVALUE(Subject) , &quot;Follow up 1-1-1 (3)&quot;)  &amp;&amp; NOT(contains(Subject,&quot;Follow up 1-1-1 (3)&quot;)) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorDisplayField>Subject</errorDisplayField>
+        <errorMessage>Follow up 1-1-1 (X) cannot be removed, please only add extra info after current text. Press cancel to start over.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Create_Opportunity</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Create Campaign Opportunity</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/006/e?lookupcmpgn=1&amp;campid={!Task.What}&amp;conid={!Task.Who}&amp;opp6=Webform</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Create_follow_up_event</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Create Event - Internal info</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/00U/e?retURL=%2F{!Task.Id}&amp;who_id={!Contact.Id}{!Lead.Id}&amp;what_id={!Task.What}&amp;evt5={!Task.Subject}&amp;00Nb0000006in64={!Task.Description}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Mark_Task_Complete</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Mark Complete</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>/* This code allows the javascript to access the API and push data into the Org.*/
+{!requireScript(&quot;/soap/ajax/10.0/connection.js&quot;)};
+sforce.connection.session = &quot;{!$Api.Session_ID}&quot;;
+
+function updateTask( )
+{
+	try
+    {
+		var task = new sforce.SObject(&quot;Task&quot;);
+		task.Id = &quot;{!Task.Id}&quot;;
+	   	task.Status = &quot;Completed&quot;;
+	   	var result = sforce.connection.update([task]);
+	   	if (result[0].getBoolean(&quot;success&quot;) == false ) {
+			alert(result[0].errors.message);
+			return;
+		} 			
+		window.top.location.href=window.top.location.href;
+	} 
+	catch (e) {
+		alert(e);
+	}	
+}
+
+updateTask();</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Print_Save_Email</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Print &amp; Save Email</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/apex/G2O_PrintSaveEmail?id={!Case.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Speech_script2</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Speech script</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://cs17.salesforce.com/flow/Telesales_intor/301g00000004DvmAAE</url>
+    </webLinks>
+    <webLinks>
+        <fullName>activities__Mass_Update</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Mass Update Tasks</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/20.0/connection.js&quot;)}
+var records =  {!GETRECORDIDS( $ObjectType.Task)};
+var returnURL = window.location.href;
+if(records != null &amp;&amp; records != &apos;&apos;){
+     mywin = window.open(&apos;/apex/activities__UpdateTasks?Ids=&apos;+records+&apos;&amp;retURL=&apos;+returnURL , &apos;_top&apos;,
+                                             &apos;height=400,width=600,status=yes,toolbar=no,menubar=no,location=no,center=yes,resizable=no&apos;);
+     mywin.focus();
+}else{
+    alert(&apos;Please select atleast one task.&apos;);
+}</url>
+    </webLinks>
+</CustomObject>

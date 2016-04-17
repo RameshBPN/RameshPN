@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>mypage.test url</name>
+    <style>none</style>
+    <subject>permission link</subject>
+    <textOnly>   
+Sub title:
+Title of Email
+Hello {{lead.First Name:default=Sir/Maddam}},
+ 
+ LINK &lt;http://pages.postnord.com/mypage_mypage.html&gt;
+
+ 
+
+permission: {{lead.Permission (C):default=edit me}}</textOnly>
+    <type>custom</type>
+</EmailTemplate>

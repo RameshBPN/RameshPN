@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Case$Date_of_mistake__c</field>
+    </columns>
+    <columns>
+        <field>Case$Responsible_for_mistake__c</field>
+    </columns>
+    <columns>
+        <field>Case$Sender__c</field>
+    </columns>
+    <columns>
+        <field>Case$Receiver__c</field>
+    </columns>
+    <columns>
+        <field>Case$Receiver_Postal_Address_Postal_Code__c</field>
+    </columns>
+    <columns>
+        <field>Case$Account</field>
+    </columns>
+    <columns>
+        <field>Case$Product_Article__c</field>
+    </columns>
+    <columns>
+        <field>Case$Total_payment_of_compensation__c</field>
+    </columns>
+    <columns>
+        <field>Case$CreatedDate</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Rapport, der kan vise antal af sager filtreret på sidste skan</description>
+    <filter>
+        <criteriaItems>
+            <column>Case.NTT_Search_Results__r.NTT_History_del__r$IsLatest__c</column>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Sidste skan</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_with_revised_tracking_Event__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Case.NTT_Search_Results__r$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

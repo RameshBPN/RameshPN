@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Julehilsen 2015.Ekstern Julehilsen 2015</name>
+    <style>none</style>
+    <subject>{{lead.First Name}}, få en lille gave fra os til dig</subject>
+    <textOnly>Læs mere om hvad den indeholder og se kampagnen
+Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+Glædelig jul til dig og {{company.Company Name}}
+Kære {{lead.First Name}} {{lead.Last Name}}
+
+
+
+Julehandlen er godt i gang, og vi håber, at din forretning oplever ekstra travlhed. Det er også højsæson for julehilsner til samarbejdspartnere, venner og familie, hvor vi siger tak for året, der lige straks er gået. Det er en dejlig tradition, som luner her i den kolde vintertid.
+
+Send en julehilsen med POSTKORTET
+
+Her er en kode – fra os til dig – så du kan sende en gratis julehilsen med vores app POSTKORTET. Den gør det nemt at sende en hilsen med posten fra din mobil.
+Din kode er: 739
+Sådan gør du:
+Hent POSTKORT app’en her:
+Få gratis plug-in til Ønskeskyen
+Over 100.000 danskere har allerede lavet en Ønskesky – den digitale ønskeseddel. Hent et gratis plug-in, der placerer et Ønskesky-ikon på siderne i din netbutik. Så gør du det let for kunderne at sætte lige netop dine varer på deres ønskeliste.
+Hent dit gratis plug-in her &lt;https://ønskeskyen.dk/erhverv&gt;
+Lynhurtig levering med Lørdagsomdeling
+Dine varer kommer nu også frem til kunder alle lørdage. I år introducerede vi nemlig lørdagsomdeling til private. Så du kan trygt sende ordrer fra din netbutik om fredagen og give dine kunder lynhurtig modtagelse allerede dagen efter.
+Modtagerflex gør det bare nemmere
+Med Modtagerflex bestemmer kunderne selv, hvor varerne skal stilles, hvis de ikke er hjemme. Det sparer dem for en ekstra tur ud i vintervejret. I år har vi også introduceret modtagerflex til etageejendomme og til erhverv.
+Vi har sendt denne e-mail til {{lead.Email Address}} &lt;mailto:{{lead.Email Address}}&gt;.
+
+Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;http://pages.postnord.com/Min-side.html&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

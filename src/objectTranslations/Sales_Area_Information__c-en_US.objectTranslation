@@ -1,0 +1,2880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sales Area Information</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sales Area Information</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Assignment Group --></label>
+        <name>Account_Assignment_Group__c</name>
+        <picklistValues>
+            <masterLabel>01</masterLabel>
+            <translation>Domestic Revenues</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02</masterLabel>
+            <translation>Foreign Revenues</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03</masterLabel>
+            <translation>Affiliat Comp Revenues</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation>Stamps Retailer/Wholesaler</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation>Postal Shop</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation>Stamps Agent</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Sales Area Information --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Active for this Sales Area --></label>
+        <name>Active_for_this_Sales_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Advisory Business --></label>
+        <name>Advisory_Business__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Customer Segment --></label>
+        <name>Business_Customer_Segment__c</name>
+        <picklistValues>
+            <masterLabel>BtB</masterLabel>
+            <translation><!-- BtB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BtBtC</masterLabel>
+            <translation><!-- BtBtC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BtC</masterLabel>
+            <translation><!-- BtC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BtG</masterLabel>
+            <translation><!-- BtG --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Change Sub Segment/Sales Mode --></label>
+        <name>Change_Sub_Segment_Sales_Mode__c</name>
+        <picklistValues>
+            <masterLabel>1A+Get</masterLabel>
+            <translation><!-- 1A+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1A+Grow</masterLabel>
+            <translation><!-- 1A+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1A+Keep</masterLabel>
+            <translation><!-- 1A+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1A+React (Evaluate)</masterLabel>
+            <translation><!-- 1A+React (Evaluate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1B+Get</masterLabel>
+            <translation><!-- 1B+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1B+Grow</masterLabel>
+            <translation><!-- 1B+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1B+Keep</masterLabel>
+            <translation><!-- 1B+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1B+React (Evaluate)</masterLabel>
+            <translation><!-- 1B+React (Evaluate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1C+Get</masterLabel>
+            <translation><!-- 1C+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1C+Grow</masterLabel>
+            <translation><!-- 1C+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1C+Keep</masterLabel>
+            <translation><!-- 1C+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1C+React (Evaluate)</masterLabel>
+            <translation><!-- 1C+React (Evaluate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1D+Get</masterLabel>
+            <translation><!-- 1D+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1D+Grow</masterLabel>
+            <translation><!-- 1D+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1D+Keep</masterLabel>
+            <translation><!-- 1D+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1D+React (Evaluate)</masterLabel>
+            <translation><!-- 1D+React (Evaluate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2A+Get</masterLabel>
+            <translation><!-- 2A+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2A+Grow</masterLabel>
+            <translation><!-- 2A+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2A+Keep</masterLabel>
+            <translation><!-- 2A+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2A+React (Evaluate)</masterLabel>
+            <translation><!-- 2A+React (Evaluate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2B+Get</masterLabel>
+            <translation><!-- 2B+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2B+Grow</masterLabel>
+            <translation><!-- 2B+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2B+Keep</masterLabel>
+            <translation><!-- 2B+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2B+React (Evaluate)</masterLabel>
+            <translation><!-- 2B+React (Evaluate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2C+Get</masterLabel>
+            <translation><!-- 2C+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2C+Grow</masterLabel>
+            <translation><!-- 2C+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2C+Keep</masterLabel>
+            <translation><!-- 2C+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2C+React (Evaluate)</masterLabel>
+            <translation><!-- 2C+React (Evaluate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2D+Get</masterLabel>
+            <translation><!-- 2D+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2D+Grow</masterLabel>
+            <translation><!-- 2D+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2D+Keep</masterLabel>
+            <translation><!-- 2D+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2D+React (Evaluate)</masterLabel>
+            <translation><!-- 2D+React (Evaluate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3A+Get</masterLabel>
+            <translation><!-- 3A+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3A+Grow</masterLabel>
+            <translation><!-- 3A+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3A+Keep</masterLabel>
+            <translation><!-- 3A+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3A+React (Evaluate)</masterLabel>
+            <translation><!-- 3A+React (Evaluate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3B+Get</masterLabel>
+            <translation><!-- 3B+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3B+Grow</masterLabel>
+            <translation><!-- 3B+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3B+Keep</masterLabel>
+            <translation><!-- 3B+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3B+React (Evaluate)</masterLabel>
+            <translation><!-- 3B+React (Evaluate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3C+Get</masterLabel>
+            <translation><!-- 3C+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3C+Grow</masterLabel>
+            <translation><!-- 3C+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3C+Keep</masterLabel>
+            <translation><!-- 3C+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3C+React (Evaluate)</masterLabel>
+            <translation><!-- 3C+React (Evaluate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3D+Get</masterLabel>
+            <translation><!-- 3D+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3D+Grow</masterLabel>
+            <translation><!-- 3D+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3D+Keep</masterLabel>
+            <translation><!-- 3D+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3D+React (Evaluate)</masterLabel>
+            <translation><!-- 3D+React (Evaluate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4A+Get</masterLabel>
+            <translation><!-- 4A+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4A+Grow</masterLabel>
+            <translation><!-- 4A+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4A+Keep</masterLabel>
+            <translation><!-- 4A+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4A+React (Evaluate)</masterLabel>
+            <translation><!-- 4A+React (Evaluate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4B+Get</masterLabel>
+            <translation><!-- 4B+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4B+Grow</masterLabel>
+            <translation><!-- 4B+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4B+Keep</masterLabel>
+            <translation><!-- 4B+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4B+React (Evaluate)</masterLabel>
+            <translation><!-- 4B+React (Evaluate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4C+Get</masterLabel>
+            <translation><!-- 4C+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4C+Grow</masterLabel>
+            <translation><!-- 4C+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4C+Keep</masterLabel>
+            <translation><!-- 4C+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4C+React (Evaluate)</masterLabel>
+            <translation><!-- 4C+React (Evaluate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4D+Get</masterLabel>
+            <translation><!-- 4D+Get --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4D+Grow</masterLabel>
+            <translation><!-- 4D+Grow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4D+Keep</masterLabel>
+            <translation><!-- 4D+Keep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4D+React (Evaluate)</masterLabel>
+            <translation><!-- 4D+React (Evaluate) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Change Top Segment --></label>
+        <name>Change_Top_Segment__c</name>
+        <picklistValues>
+            <masterLabel>KA</masterLabel>
+            <translation><!-- KA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMA</masterLabel>
+            <translation><!-- SMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSA</masterLabel>
+            <translation><!-- SSA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Competitor --></label>
+        <name>Competitor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Block --></label>
+        <name>Contact_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporate Registration Number --></label>
+        <name>Corporate_Registration_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Group --></label>
+        <name>Customer_Group__c</name>
+        <picklistValues>
+            <masterLabel>03</masterLabel>
+            <translation>A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04</masterLabel>
+            <translation>B</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05</masterLabel>
+            <translation>C</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>06</masterLabel>
+            <translation>D</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>07</masterLabel>
+            <translation>E</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>08</masterLabel>
+            <translation>F</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>09</masterLabel>
+            <translation>G</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation>H</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Service Segment --></label>
+        <name>Customer_Service_Segment__c</name>
+        <picklistValues>
+            <masterLabel>VIP</masterLabel>
+            <translation><!-- VIP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer is using transport system --></label>
+        <name>Customer_is_using_transport_system__c</name>
+        <picklistValues>
+            <masterLabel>Delis Print Netværk</masterLabel>
+            <translation><!-- Delis Print Netværk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDI</masterLabel>
+            <translation><!-- EDI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integrated solution (own system)</masterLabel>
+            <translation><!-- Integrated solution (own system) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>My Delis Print</masterLabel>
+            <translation><!-- My Delis Print --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PacSoft</masterLabel>
+            <translation><!-- PacSoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web-pack</masterLabel>
+            <translation><!-- Web-pack --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Postboks --></label>
+        <name>DK_Postbox_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pakkeboksen --></label>
+        <name>D_gnposten__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datascan --></label>
+        <name>Datascan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Priority --></label>
+        <name>Delivery_Priority__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>High</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation>DK Private Customer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation>DK Business Customer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation>DK Stamps Retailer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation>DK Stamps Agent</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation>DK Stamps Wholesaler</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation>DK Postal Shop</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation>DK Tlf</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation>DK Kg. Goods</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation>DK Daily</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation>DK New</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Normal item</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation>DK Subscr.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation>DK Dek</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation>DK Bl</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation>DK Abo-dk</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation>DK Abo Int.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation>DK Gift dk</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation>DK Gift Int.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>DK Campaign</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31</masterLabel>
+            <translation>DK Campaign 1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32</masterLabel>
+            <translation>DK Campaign 2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>33</masterLabel>
+            <translation>DK Campaign 3</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>34</masterLabel>
+            <translation>DK Campaign 4</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35</masterLabel>
+            <translation>DK Campaign 5</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>36</masterLabel>
+            <translation>DK Campaign 6</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>37</masterLabel>
+            <translation>DK Campaign 7</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>38</masterLabel>
+            <translation>DK Campaign 8</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>39</masterLabel>
+            <translation>DK Campaign 9</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation>DK Campaign 10</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Distribution Channel --></label>
+        <name>Distribution_Channel__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation>Posten Distr. Channel</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Division --></label>
+        <name>Division__c</name>
+        <picklistValues>
+            <masterLabel>00</masterLabel>
+            <translation>Posten Division</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email Block --></label>
+        <name>Email_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Partner Type --></label>
+        <name>External_Partner_Type__c</name>
+        <picklistValues>
+            <masterLabel>Consolidator</masterLabel>
+            <translation><!-- Consolidator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DM Agency</masterLabel>
+            <translation><!-- DM Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facility Management</masterLabel>
+            <translation><!-- Facility Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign Post Office</masterLabel>
+            <translation><!-- Foreign Post Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media Bureau</masterLabel>
+            <translation><!-- Media Bureau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provider</masterLabel>
+            <translation><!-- Service Provider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party Logistics</masterLabel>
+            <translation><!-- Third Party Logistics --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Partner --></label>
+        <name>External_Partner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hemmelig adresse/flytning --></label>
+        <name>Hemmelig_adresse_flytning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Format --></label>
+        <name>Invoice_Format__c</name>
+        <picklistValues>
+            <masterLabel>Z01</masterLabel>
+            <translation>JointInv.(incl spec)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z02</masterLabel>
+            <translation>Joint Inv.(w/o spec)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z1</masterLabel>
+            <translation>DK Detailed Invoice</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z10</masterLabel>
+            <translation>Indv invoice(EDI)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z11</masterLabel>
+            <translation>Joint inv. kg/st</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z2</masterLabel>
+            <translation>DK Collective Invoice</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z4</masterLabel>
+            <translation>DK OIO Invoice</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z5</masterLabel>
+            <translation>DK ^Amazon Detail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z6</masterLabel>
+            <translation>DK ^Amazon Collective</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z7</masterLabel>
+            <translation>DK Internal Inv. ED</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Invoice Frequence --></label>
+        <name>Invoice_Frequence__c</name>
+        <picklistValues>
+            <masterLabel>AM</masterLabel>
+            <translation>Monthly settlement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D1</masterLabel>
+            <translation>Denmark Work Calendar (all days are working days)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D2</masterLabel>
+            <translation>Denmark ENG Free on Public Holidays, work Sat/Sun</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D3</masterLabel>
+            <translation>Denmark ENG All days are working days + partly public holidays</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D4</masterLabel>
+            <translation>Denmark ENG All days are working days + all public holidays</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z0</masterLabel>
+            <translation>Immediate invoicing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z1</masterLabel>
+            <translation>Daily workdays</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z2</masterLabel>
+            <translation>3 times per week</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z3</masterLabel>
+            <translation>Weekly - fridays</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z4</masterLabel>
+            <translation>2 times per month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z5</masterLabel>
+            <translation>1 time per month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z6</masterLabel>
+            <translation>Holiday second to last work day each month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z7</masterLabel>
+            <translation>Whole month invoicing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z8</masterLabel>
+            <translation>No holidays, except last two work days each month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZB</masterLabel>
+            <translation>Invoice last day preceding month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZD</masterLabel>
+            <translation>Invoicing twice per month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZE</masterLabel>
+            <translation>Weekly - Sundays</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZF</masterLabel>
+            <translation>Fin Reg. Inv.  (Fridays + MidMonth - EndMonth - WholeMonth)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZH</masterLabel>
+            <translation>Bank holidays</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZK</masterLabel>
+            <translation>Calendar for monthly invoicing, no hollidays exept x-mas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZL</masterLabel>
+            <translation>Contract creation: Default 1 Jan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZP</masterLabel>
+            <translation>Post Danmark work calendar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZR</masterLabel>
+            <translation>10-day payment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZU</masterLabel>
+            <translation>Last day each quarter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZV</masterLabel>
+            <translation>Calendar for unaddressed and local papers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZZ</masterLabel>
+            <translation>DA Calendar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Invoice List Schedule --></label>
+        <name>Invoice_List_Schedule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Reference --></label>
+        <name>Invoice_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Specification Format --></label>
+        <name>Invoice_Specification_Format__c</name>
+        <picklistValues>
+            <masterLabel>Z01</masterLabel>
+            <translation>Physical inv. spec A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z03</masterLabel>
+            <translation>Physical inv. spec C</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z04</masterLabel>
+            <translation>Physical inv. spec D</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z10</masterLabel>
+            <translation>EDI-specification</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z20</masterLabel>
+            <translation>eSpec.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z21</masterLabel>
+            <translation>Phys.inv.sp.A+eSpec.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z23</masterLabel>
+            <translation>Phys.inv.sp.C+eSpec.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z24</masterLabel>
+            <translation>EDI-spec+eSpec.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z25</masterLabel>
+            <translation>Phy.inv.sp D+eSpec.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z31</masterLabel>
+            <translation>eSpec.+PDF A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z33</masterLabel>
+            <translation>eSpec.+PDF C</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z34</masterLabel>
+            <translation>eSpec.+PDF D</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z40</masterLabel>
+            <translation>eSpec. Internal Cust</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Invoice Specification Frequency --></label>
+        <name>Invoice_Specification_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>AM</masterLabel>
+            <translation>Monthly settlement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D1</masterLabel>
+            <translation>Denmark Work Calendar (all days are working days)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D2</masterLabel>
+            <translation>Denmark ENG Free on Public Holidays, work Sat/Sun</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D3</masterLabel>
+            <translation>Denmark ENG All days are working days + partly public holidays</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D4</masterLabel>
+            <translation>Danmark ENG All days are working days + all public holidays</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PD</masterLabel>
+            <translation>Post Danmark</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z0</masterLabel>
+            <translation>Immediate invoicing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z1</masterLabel>
+            <translation>Daily workdays</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z2</masterLabel>
+            <translation>3 times per week</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z3</masterLabel>
+            <translation>Weekly - fridays</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z4</masterLabel>
+            <translation>2 times per month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z5</masterLabel>
+            <translation>1 time per month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z6</masterLabel>
+            <translation>Holiday second to last work day each month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z7</masterLabel>
+            <translation>Whole month invoicing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z8</masterLabel>
+            <translation>No holidays, except last two work days each month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZB</masterLabel>
+            <translation>Invoice last day preceding month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZD</masterLabel>
+            <translation>Invoicing twice per month (15th and last day)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZE</masterLabel>
+            <translation>Weekly - Sundays</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZF</masterLabel>
+            <translation>Fin Reg. Inv. (Fridays + MidMonth - EndMonth - WholeMonth)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZH</masterLabel>
+            <translation>Bank Calendar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZK</masterLabel>
+            <translation>Calendar for monthly invoicing, no hollidays exept x-mas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZL</masterLabel>
+            <translation>Contract creation: Default 1 Jan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZP</masterLabel>
+            <translation>Post Danmark work calendar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZR</masterLabel>
+            <translation>10-day payment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZU</masterLabel>
+            <translation>Last day each quarter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZV</masterLabel>
+            <translation>Calendar for unaddressed and local papers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZZ</masterLabel>
+            <translation>DA Calendar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Invoicing Fee Applicable --></label>
+        <name>Invoicing_Fee_Applicable__c</name>
+        <picklistValues>
+            <masterLabel>Z01</masterLabel>
+            <translation>Invoice Fee</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z02</masterLabel>
+            <translation>No Invoice Fee</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Involved Party ID --></label>
+        <name>Involved_Party_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is First SAI --></label>
+        <name>Is_First_SAI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kl. 10 levering --></label>
+        <name>Kl_10_levering__c</name>
+    </fields>
+    <fields>
+        <label><!-- Largest User --></label>
+        <name>Largest_User__c</name>
+        <picklistValues>
+            <masterLabel>ERS</masterLabel>
+            <translation><!-- ERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FRM</masterLabel>
+            <translation><!-- FRM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KUL</masterLabel>
+            <translation><!-- KUL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOG</masterLabel>
+            <translation><!-- LOG --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last PN Synchronized Date --></label>
+        <name>Last_PN_Synchronized_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logistic Customer --></label>
+        <name>Logistic_Customer__c</name>
+        <picklistValues>
+            <masterLabel>Is DPD Customer</masterLabel>
+            <translation><!-- Is DPD Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Is LOG DK Customer</masterLabel>
+            <translation><!-- Is LOG DK Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Is both LOG DK and DPD Customer</masterLabel>
+            <translation><!-- Is both LOG DK and DPD Customer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mail Block --></label>
+        <name>Mail_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Attributes --></label>
+        <name>Marketing_Attributes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Midlertidige flytninger --></label>
+        <name>Midlertidige_flytninger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modtagerflex --></label>
+        <name>Modtagerflex__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nej tak til reklamer --></label>
+        <name>Nej_tak_til_reklamer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nej tak til reklamer og gratisaviser --></label>
+        <name>Nej_tak_til_reklamer_og_gratisaviser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opbevaring af post --></label>
+        <name>Opbevaring_af_post__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN_Mark_As_Synced --></label>
+        <name>PN_Mark_As_Synced__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronization ErrorReasonCode --></label>
+        <name>PN_Synchronization_ErrorReasonCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronization Error --></label>
+        <name>PN_Synchronization_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronized --></label>
+        <name>PN_Synchronized__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>DK+1</masterLabel>
+            <translation>FIK indbetalingskort PDK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+3</masterLabel>
+            <translation>Overfoersel via PBS (OS)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+5</masterLabel>
+            <translation>PBS Nettolønsoverførsel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+A</masterLabel>
+            <translation>PBS Capture - Abonnement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+C</masterLabel>
+            <translation>Check</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+D</masterLabel>
+            <translation>DIBS Capture</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+E</masterLabel>
+            <translation>DIBS Refund</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+H</masterLabel>
+            <translation>SEPA payment (EUR)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+I</masterLabel>
+            <translation>SEK Payment Bankgirot</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+K</masterLabel>
+            <translation>PBS Capture</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+L</masterLabel>
+            <translation>PBS LevService per faktura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+M</masterLabel>
+            <translation>PBS LevService Portobetaling</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+N</masterLabel>
+            <translation>Netting group internal payment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+O</masterLabel>
+            <translation>Non-SEPA payment (EUR)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+P</masterLabel>
+            <translation>SEK Payment PostGirot</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+R</masterLabel>
+            <translation>PBS Capture Credit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+S</masterLabel>
+            <translation>PBS Betalingsservice</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK+X</masterLabel>
+            <translation>Local &amp; Foreign pymnts Non-EUR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI+A</masterLabel>
+            <translation>Autogiro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI+C</masterLabel>
+            <translation>Check</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI+D</masterLabel>
+            <translation>Domestic Payment LM02-Format</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI+H</masterLabel>
+            <translation>SEPA payment (EUR)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI+I</masterLabel>
+            <translation>Sweden Domestic Bankgirot</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI+L</masterLabel>
+            <translation>Non-SEPA payment (EUR)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI+M</masterLabel>
+            <translation>Manual payment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI+N</masterLabel>
+            <translation>Netting Intra Group payments</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI+P</masterLabel>
+            <translation>Sweden Domestic Plusgirot</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI+U</masterLabel>
+            <translation>Foreign payments ULMP/LUM2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI+X</masterLabel>
+            <translation>Local &amp; Foreign pymnts Non-EUR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+A</masterLabel>
+            <translation>Bankgiro Autogiro (företag)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+B</masterLabel>
+            <translation>Bankgiro Autogiro (privat)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+C</masterLabel>
+            <translation>Check</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+D</masterLabel>
+            <translation>Bankgiro Autogiro Partnerbet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+E</masterLabel>
+            <translation>BGC Autogiro Partner</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+G</masterLabel>
+            <translation>PF Utbetalning till PG</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+H</masterLabel>
+            <translation>SEPA betalning (EUR)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+I</masterLabel>
+            <translation>Domestic Payment Bankgirot</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+J</masterLabel>
+            <translation>AG BGC/Nordea Franko</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+K</masterLabel>
+            <translation>PF Utbetalning till BG</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+L</masterLabel>
+            <translation>Icke-SEPA betalning (EUR)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+M</masterLabel>
+            <translation>Manuell betalning</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+N</masterLabel>
+            <translation>Netting koncerninterna bet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+P</masterLabel>
+            <translation>Domestic Payment PostGirot</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+Q</masterLabel>
+            <translation>Bankgiro Autogiro Franko</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+S</masterLabel>
+            <translation>Foreign payments (S-E-Bank)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+T</masterLabel>
+            <translation>Betalning via utb kort PG</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+U</masterLabel>
+            <translation>Betalning via utb kort BG</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+X</masterLabel>
+            <translation>Local &amp; Foreign pymnts Non-EUR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+Y</masterLabel>
+            <translation>Cross border pymnts Non-EUR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE+Z</masterLabel>
+            <translation>AG BGC/Nordea</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>Payment_Terms__c</name>
+        <picklistValues>
+            <masterLabel>0001</masterLabel>
+            <translation>Immediate cash payment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0002</masterLabel>
+            <translation>14 days 2%, 30 net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0003</masterLabel>
+            <translation>14 days 3%, 20/2%, 30 net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0004</masterLabel>
+            <translation>From end of month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0005</masterLabel>
+            <translation>From 10th of next month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0006</masterLabel>
+            <translation>Month end 4%, mid month 2%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0007</masterLabel>
+            <translation>15/31 next month 2%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0008</masterLabel>
+            <translation>14 days 2%, 30/1,5%, 45 net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0009</masterLabel>
+            <translation>Can be paid in 3 installments</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z001</masterLabel>
+            <translation>Cash</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z002</masterLabel>
+            <translation>Payment by card/Cash</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z003</masterLabel>
+            <translation>14 days net from posting date</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z005</masterLabel>
+            <translation>Cash</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z006</masterLabel>
+            <translation>Credit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z008</masterLabel>
+            <translation>8 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z010</masterLabel>
+            <translation>10 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z014</masterLabel>
+            <translation>14 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z015</masterLabel>
+            <translation>15 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z018</masterLabel>
+            <translation>PBS Collection</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z020</masterLabel>
+            <translation>20 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z025</masterLabel>
+            <translation>25 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z030</masterLabel>
+            <translation>30 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z035</masterLabel>
+            <translation>35 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z040</masterLabel>
+            <translation>40 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z045</masterLabel>
+            <translation>45 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z055</masterLabel>
+            <translation>Credit current month + 4 days without charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z058</masterLabel>
+            <translation>Credit current month</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z059</masterLabel>
+            <translation>Credit current month + 4 days with charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z060</masterLabel>
+            <translation>60 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z061</masterLabel>
+            <translation>Credit Current month + 2 days with charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z063</masterLabel>
+            <translation>Credit current month + 6 days with charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z066</masterLabel>
+            <translation>Credit Current month + 7 days with charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z067</masterLabel>
+            <translation>Credit current month + 11 days with charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z070</masterLabel>
+            <translation>70 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z071</masterLabel>
+            <translation>Credit Current month + 12 days with charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z072</masterLabel>
+            <translation>Credit current month + 16 days with charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z080</masterLabel>
+            <translation>Credit Current month + 17 days with charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z081</masterLabel>
+            <translation>Credit Current month + 22 days with charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z082</masterLabel>
+            <translation>Credit Current month + 27 days with charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z083</masterLabel>
+            <translation>Credit Current month + 27 days without charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z084</masterLabel>
+            <translation>Credit current month + 21 days with charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z085</masterLabel>
+            <translation>Credit current month + 26 days with charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z086</masterLabel>
+            <translation>Credit current month + 31 days with charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z087</masterLabel>
+            <translation>Credit current month + 31 days without charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z090</masterLabel>
+            <translation>90 days net</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z095</masterLabel>
+            <translation>Credit current month + 6 days without charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z100</masterLabel>
+            <translation>Credit current month + 11 days without charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z105</masterLabel>
+            <translation>Credit current month + 16 days without charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z106</masterLabel>
+            <translation>Stamping Machine, 8th next month</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Phone Block --></label>
+        <name>Phone_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- PostNord Company --></label>
+        <name>PostNord_Company_Name__c</name>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation>Post Danmark A/S</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4000</masterLabel>
+            <translation>Post Danmark Logistik A/S</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F054</masterLabel>
+            <translation>PostNord Logistics A/S</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F063</masterLabel>
+            <translation>DPD Finland OY</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F074</masterLabel>
+            <translation>Tollpost Globe AS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F091</masterLabel>
+            <translation>Posten Meddelande AB</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F092</masterLabel>
+            <translation>Posten Logistik AB</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F367</masterLabel>
+            <translation>Posten Logistik SCM Oy</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Price Group --></label>
+        <name>Price_Group_Name__c</name>
+        <picklistValues>
+            <masterLabel>Z1</masterLabel>
+            <translation>DK Private Customer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z2</masterLabel>
+            <translation>DK Subscriber</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z3</masterLabel>
+            <translation>DK Business Customer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z4</masterLabel>
+            <translation>DK Stamps Retailer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z5</masterLabel>
+            <translation>DK Stamps Wholesaler</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z6</masterLabel>
+            <translation>DK Stamps Agent</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z7</masterLabel>
+            <translation>DK Postal Shop</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z8</masterLabel>
+            <translation>DK Postshop</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pricing Hierarchy --></label>
+        <name>Pricing_Hierarchy__c</name>
+        <picklistValues>
+            <masterLabel>Daughter</masterLabel>
+            <translation><!-- Daughter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mother</masterLabel>
+            <translation><!-- Mother --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason for Segment Change --></label>
+        <name>Reason_for_Segment_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMS Block --></label>
+        <name>SMS_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Area Information Compound SFID --></label>
+        <name>Sales_Area_Information_Compound_SFID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Area --></label>
+        <name>Sales_Area__c</name>
+        <picklistValues>
+            <masterLabel>0540</masterLabel>
+            <translation>LO DK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0630</masterLabel>
+            <translation>LO FI DPD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation>PDK BE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3670</masterLabel>
+            <translation>LO FI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO91</masterLabel>
+            <translation>ME SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO92</masterLabel>
+            <translation>LO SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation>LO NO</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Group --></label>
+        <name>Sales_Group_Name__c</name>
+        <picklistValues>
+            <masterLabel>011</masterLabel>
+            <translation>Finance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>012</masterLabel>
+            <translation>Influencers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>013</masterLabel>
+            <translation>Public &amp; Pharma</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>014</masterLabel>
+            <translation>Utilities &amp; Unions</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>021</masterLabel>
+            <translation>Sales MidMarket</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>022</masterLabel>
+            <translation>Sales Team 1 AAH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>023</masterLabel>
+            <translation>Sales West</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>024</masterLabel>
+            <translation>Sales East</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>025</masterLabel>
+            <translation>Unattended</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>041</masterLabel>
+            <translation>Service Solutions</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>043</masterLabel>
+            <translation>Media</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>044</masterLabel>
+            <translation>Retail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>045</masterLabel>
+            <translation>Public</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>046</masterLabel>
+            <translation>Sales Office KBH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>051</masterLabel>
+            <translation>Wholesale &amp; Manu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>052</masterLabel>
+            <translation>Cons &amp; Lifestyle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>053</masterLabel>
+            <translation>E-Commerce</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>067</masterLabel>
+            <translation>ekommunikation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>071</masterLabel>
+            <translation>eKommunikation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>072</masterLabel>
+            <translation>IP IA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>073</masterLabel>
+            <translation>INC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>091</masterLabel>
+            <translation>SME Accounts Aarhus</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>092</masterLabel>
+            <translation>SME Accounts Aarhus</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>093</masterLabel>
+            <translation>Private Kunder</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>094</masterLabel>
+            <translation>EK Frimærker</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>095</masterLabel>
+            <translation>Erhvervskun Indesalg</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>096</masterLabel>
+            <translation>SME Accounts KBH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>097</masterLabel>
+            <translation>Messing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>504</masterLabel>
+            <translation>Kam Electrolux L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>505</masterLabel>
+            <translation>KAM Ingram Micro L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>506</masterLabel>
+            <translation>Kam Haléns L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>507</masterLabel>
+            <translation>Kam Husqvarna L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>508</masterLabel>
+            <translation>Kam IKEA L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>509</masterLabel>
+            <translation>KAM KG Knutsson L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>510</masterLabel>
+            <translation>KAM CDON L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>511</masterLabel>
+            <translation>Kam New Wave Group L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>512</masterLabel>
+            <translation>Kam Redcats L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>514</masterLabel>
+            <translation>SÄLJ ÖST L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>516</masterLabel>
+            <translation>SÄLJ MITT/NORD L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>518</masterLabel>
+            <translation>SÄLJ SYD L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>520</masterLabel>
+            <translation>Kam B&amp;B Tools L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>521</masterLabel>
+            <translation>Kam H&amp;M L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>522</masterLabel>
+            <translation>Kam Klingel L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>523</masterLabel>
+            <translation>SÄLJ VÄST L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>524</masterLabel>
+            <translation>KAM Siba L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>525</masterLabel>
+            <translation>KAM Lindex L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>526</masterLabel>
+            <translation>KAM Apoteket L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>527</masterLabel>
+            <translation>KAM Mercedes Benz L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>528</masterLabel>
+            <translation>Kam Axel Johnson L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>529</masterLabel>
+            <translation>Kam Bonnier L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>530</masterLabel>
+            <translation>Kam Elfa L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>531</masterLabel>
+            <translation>Kam Elgiganten L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>532</masterLabel>
+            <translation>Kam Expert L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>535</masterLabel>
+            <translation>KAM OneMed L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>536</masterLabel>
+            <translation>Kam Lantmännen L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>538</masterLabel>
+            <translation>Kam Systembolaget L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>539</masterLabel>
+            <translation>Kam TeliaSonera L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>540</masterLabel>
+            <translation>SÄLJ STOCKHOLM NORD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>541</masterLabel>
+            <translation>KAM Staples L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>542</masterLabel>
+            <translation>INNESÄLJ ÖST L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>543</masterLabel>
+            <translation>INNESÄLJ MITT/NORD L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>544</masterLabel>
+            <translation>INNESÄLJ SYD L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>545</masterLabel>
+            <translation>INNESÄLJ VÄST L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>546</masterLabel>
+            <translation>INNESÄLJ STOCKHOLM N</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>607</masterLabel>
+            <translation>KAM Zelda L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>608</masterLabel>
+            <translation>KAM TD Tech Data L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>609</masterLabel>
+            <translation>KAM Tidsam L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>610</masterLabel>
+            <translation>KAM Tingstad Papr L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>611</masterLabel>
+            <translation>KAM Volkswagen L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>612</masterLabel>
+            <translation>KAM Volvo Parts L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>613</masterLabel>
+            <translation>KAM GEELY L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>615</masterLabel>
+            <translation>KAM Cycleon L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>616</masterLabel>
+            <translation>KAM Procter&amp;Gamble L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>621</masterLabel>
+            <translation>KAM Bonver L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>622</masterLabel>
+            <translation>KAM CRAMO L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>623</masterLabel>
+            <translation>KAM Varner-Gruppen L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>625</masterLabel>
+            <translation>KAM Fassetten L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>626</masterLabel>
+            <translation>KAM Gina Trico L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>628</masterLabel>
+            <translation>KAM Honda L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>630</masterLabel>
+            <translation>KAM ICA L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>631</masterLabel>
+            <translation>KAM Interpress L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>632</masterLabel>
+            <translation>KAM Jysk L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>633</masterLabel>
+            <translation>KAM KF Coop L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>635</masterLabel>
+            <translation>KAM Kwintet L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>637</masterLabel>
+            <translation>KAM Övrigt L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>638</masterLabel>
+            <translation>KAM MQ L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>639</masterLabel>
+            <translation>KAM Nilsson Group L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>640</masterLabel>
+            <translation>KAM Papyrus L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>643</masterLabel>
+            <translation>KAM Prospekt L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>645</masterLabel>
+            <translation>KAM Siemens L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>646</masterLabel>
+            <translation>KAM SONY L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>648</masterLabel>
+            <translation>KAM Team Sportia L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>650</masterLabel>
+            <translation>KAM Witre L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>651</masterLabel>
+            <translation>KAM Media Markt L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>704</masterLabel>
+            <translation>KAM Alfa Laval L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>705</masterLabel>
+            <translation>KAM Atea L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>706</masterLabel>
+            <translation>KAM GylleneSnittet L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>707</masterLabel>
+            <translation>KAM Blåkläder L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>708</masterLabel>
+            <translation>KAM Bonaparte L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>709</masterLabel>
+            <translation>KAM BYGGmax L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>710</masterLabel>
+            <translation>KAM ComHem L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>711</masterLabel>
+            <translation>KAM Electra L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>712</masterLabel>
+            <translation>KAM Granngården L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>714</masterLabel>
+            <translation>KAM J.A. Lindblads L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>716</masterLabel>
+            <translation>KAM Kapp Ahl L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>717</masterLabel>
+            <translation>KAM Kontorab L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>719</masterLabel>
+            <translation>KAM Lyreco L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>720</masterLabel>
+            <translation>KAM Office Depot L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>721</masterLabel>
+            <translation>KAM Oriola L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>722</masterLabel>
+            <translation>KAM Plantagen L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>724</masterLabel>
+            <translation>KAM Runsven Ö&amp;B L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>725</masterLabel>
+            <translation>KAM Santa Maria L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>726</masterLabel>
+            <translation>KAM SCA L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>727</masterLabel>
+            <translation>KAM SKF Sverige L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>728</masterLabel>
+            <translation>KAM Stadium L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>729</masterLabel>
+            <translation>KAM Sv Elkedjan L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>730</masterLabel>
+            <translation>KAM Telenor L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>731</masterLabel>
+            <translation>KAM Tetra Pak L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>732</masterLabel>
+            <translation>KAM TL Trading L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>734</masterLabel>
+            <translation>KAM WURTH L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>735</masterLabel>
+            <translation>KAM Yves Rocher L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>736</masterLabel>
+            <translation>KAM Focus Nordic L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>738</masterLabel>
+            <translation>KAM CANAL DIGITAL L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>740</masterLabel>
+            <translation>KAM NESPRESSO L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>741</masterLabel>
+            <translation>KAM OTTO GROUP L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>742</masterLabel>
+            <translation>KAM PÅGEN L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>743</masterLabel>
+            <translation>KAM ROOSGRUPPEN L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>744</masterLabel>
+            <translation>KAM SCORETT L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>746</masterLabel>
+            <translation>KAM VAGABOND L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>747</masterLabel>
+            <translation>KAM Assa Abloy L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>748</masterLabel>
+            <translation>KAM LAGAGRUPPEN L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>749</masterLabel>
+            <translation>KAM Bildelsbasen L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>750</masterLabel>
+            <translation>KAM Lomond L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>907</masterLabel>
+            <translation>Sthl. Affärskom.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>908</masterLabel>
+            <translation>Mälardalen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>909</masterLabel>
+            <translation>Team FC Sthlm M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>910</masterLabel>
+            <translation>Team Örebro M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>911</masterLabel>
+            <translation>Team Umeå M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>912</masterLabel>
+            <translation>Team FC Mid./North M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>913</masterLabel>
+            <translation>Int. Direct Link Swe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>914</masterLabel>
+            <translation>Bolag M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>915</masterLabel>
+            <translation>Övrigt M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>917</masterLabel>
+            <translation>Retailomr Syd/Väst</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>918</masterLabel>
+            <translation>Retailomr Sthlm</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>919</masterLabel>
+            <translation>Retailomr Mitt/Norr</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>920</masterLabel>
+            <translation>Utland M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>921</masterLabel>
+            <translation>Intern M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>926</masterLabel>
+            <translation>KAM Offentlig</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>928</masterLabel>
+            <translation>KAM Bank &amp; Finans</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>930</masterLabel>
+            <translation>KAM Media</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>931</masterLabel>
+            <translation>KAM Handel&amp; Industri</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>943</masterLabel>
+            <translation>Använd ej</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>945</masterLabel>
+            <translation>Sthl. Reklam &amp; Media</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>951</masterLabel>
+            <translation>KAM 20:20 Mobile L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>954</masterLabel>
+            <translation>KAM ANOVO L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>955</masterLabel>
+            <translation>KAM B Braun L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>956</masterLabel>
+            <translation>SÄLJ STOCKHOLM SYD L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>958</masterLabel>
+            <translation>KAM bonprix L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>959</masterLabel>
+            <translation>KAM Brightpoint L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>960</masterLabel>
+            <translation>INNESÄLJ STOCKHOLM S</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>962</masterLabel>
+            <translation>FÖRETAGSCENTER L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>963</masterLabel>
+            <translation>OMBUD L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>964</masterLabel>
+            <translation>KAM Ford L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>966</masterLabel>
+            <translation>ÖVRIGA BOLAG L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>967</masterLabel>
+            <translation>POSTINTERNT L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>968</masterLabel>
+            <translation>LOGISTIKINTERNT L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>969</masterLabel>
+            <translation>SVERIGEINTERNT L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>971</masterLabel>
+            <translation>KAM Dustin L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>972</masterLabel>
+            <translation>KAM Empire L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>973</masterLabel>
+            <translation>Företagscenter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>974</masterLabel>
+            <translation>Direct Link</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>975</masterLabel>
+            <translation>Upphörda bolag M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>976</masterLabel>
+            <translation>Syd</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>977</masterLabel>
+            <translation>Väst</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>978</masterLabel>
+            <translation>Norr/OffentligSektor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>979</masterLabel>
+            <translation>Direktköp</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>980</masterLabel>
+            <translation>Bredd</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U20</masterLabel>
+            <translation>PDK Frimærker</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V01</masterLabel>
+            <translation>Last Mile</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V02</masterLabel>
+            <translation>Retail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V03</masterLabel>
+            <translation>Finance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V04</masterLabel>
+            <translation>NGO Import</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V05</masterLabel>
+            <translation>Sales Team 1 AAH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V06</masterLabel>
+            <translation>Sales Team 2 KOL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V07</masterLabel>
+            <translation>Sales Team 3 CPH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V08</masterLabel>
+            <translation>LO-DK Koncernforhold</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V09</masterLabel>
+            <translation>Industry</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V10</masterLabel>
+            <translation>Utilities Telecom</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V11</masterLabel>
+            <translation>Media</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V12</masterLabel>
+            <translation>Public</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V13</masterLabel>
+            <translation>Export</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V14</masterLabel>
+            <translation>E-Business</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V15</masterLabel>
+            <translation>Salesteam 4 CPH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V16</masterLabel>
+            <translation>Unattended</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Mode --></label>
+        <name>Sales_Mode__c</name>
+        <picklistValues>
+            <masterLabel>Z01</masterLabel>
+            <translation>Get</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z02</masterLabel>
+            <translation>Grow</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z03</masterLabel>
+            <translation>Keep</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z04</masterLabel>
+            <translation>React (Evaluate)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Office --></label>
+        <name>Sales_Office_Name__c</name>
+        <picklistValues>
+            <masterLabel>1100</masterLabel>
+            <translation>Strategic Markets</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1200</masterLabel>
+            <translation>Small and medium accounts</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1400</masterLabel>
+            <translation>Developing Markets</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1500</masterLabel>
+            <translation>Industrial market and e-commerce</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1700</masterLabel>
+            <translation>Internationell Post</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1900</masterLabel>
+            <translation>Client Service</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2010</masterLabel>
+            <translation>PDK Frimærker</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4100</masterLabel>
+            <translation>Developing Markets</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4200</masterLabel>
+            <translation>Strategic Markets</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4300</masterLabel>
+            <translation>Small And Medium Accounts</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4400</masterLabel>
+            <translation>LO-DK Koncernforhold</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4500</masterLabel>
+            <translation>Industrial Markets and e-Commerce</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4700</masterLabel>
+            <translation>E-kommunikation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK23</masterLabel>
+            <translation>Storkunder M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK25</masterLabel>
+            <translation>Int. Direct Link M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK26</masterLabel>
+            <translation>Bolag/Övrigt M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK27</masterLabel>
+            <translation>Retail M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK28</masterLabel>
+            <translation>KAM M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK30</masterLabel>
+            <translation>SME M</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK44</masterLabel>
+            <translation>SE STOCKHOLM SYD L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK45</masterLabel>
+            <translation>KAM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK47</masterLabel>
+            <translation>FC/OMBUD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK48</masterLabel>
+            <translation>Andvänds Ej</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK49</masterLabel>
+            <translation>ÖVRIGT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK50</masterLabel>
+            <translation>SE ÖST L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK51</masterLabel>
+            <translation>SE MITT/NORD L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK52</masterLabel>
+            <translation>SE SYD L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK53</masterLabel>
+            <translation>SE VÄST L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK54</masterLabel>
+            <translation>SE STOCKHOLM NORD L</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FK55</masterLabel>
+            <translation>Andvänds Ej</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Search for IDs --></label>
+        <name>Search_for_IDs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stamps Customer Type --></label>
+        <name>Stamps_Customer_Type__c</name>
+        <picklistValues>
+            <masterLabel>Agent</masterLabel>
+            <translation><!-- Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post Office</masterLabel>
+            <translation><!-- Post Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post Shop</masterLabel>
+            <translation><!-- Post Shop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stamp Dealer</masterLabel>
+            <translation><!-- Stamp Dealer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesaler</masterLabel>
+            <translation><!-- Wholesaler --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub Segment --></label>
+        <name>Sub_Segment__c</name>
+        <picklistValues>
+            <masterLabel>Z1A</masterLabel>
+            <translation>1A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z1B</masterLabel>
+            <translation>1B</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z1C</masterLabel>
+            <translation>1C</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z1D</masterLabel>
+            <translation>1D</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z2A</masterLabel>
+            <translation>2A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z2B</masterLabel>
+            <translation>2B</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z2C</masterLabel>
+            <translation>2C</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z2D</masterLabel>
+            <translation>2D</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z3A</masterLabel>
+            <translation>3A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z3B</masterLabel>
+            <translation>3B</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z3C</masterLabel>
+            <translation>3C</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z3D</masterLabel>
+            <translation>3D</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z4A</masterLabel>
+            <translation>4A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z4B</masterLabel>
+            <translation>4B</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z4C</masterLabel>
+            <translation>4C</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z4D</masterLabel>
+            <translation>4D</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Targeting areas --></label>
+        <name>Targeting_areas__c</name>
+        <picklistValues>
+            <masterLabel>Foreign</masterLabel>
+            <translation><!-- Foreign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Market</masterLabel>
+            <translation><!-- Local Market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M.fl.</masterLabel>
+            <translation><!-- M.fl. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nationwide market</masterLabel>
+            <translation><!-- Nationwide market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Sector</masterLabel>
+            <translation><!-- Public Sector --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eCommerce</masterLabel>
+            <translation><!-- eCommerce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tax Category --></label>
+        <name>Tax_Category__c</name>
+        <picklistValues>
+            <masterLabel>MWST</masterLabel>
+            <translation><!-- MWST --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Top Segment --></label>
+        <name>Top_Segment__c</name>
+        <picklistValues>
+            <masterLabel>Z01</masterLabel>
+            <translation>KA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z02</masterLabel>
+            <translation>LA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z03</masterLabel>
+            <translation>SMA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z04</masterLabel>
+            <translation>SSA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Competitor</masterLabel>
+            <translation><!-- Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Partner</masterLabel>
+            <translation><!-- External Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect</masterLabel>
+            <translation><!-- Prospect --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- VAT Classification --></label>
+        <name>VAT_Classification__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation>Non EC customer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Liable Tax. domestic</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>EC VAT no</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Do not use</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>Internal customer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>Period publ. cust.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation>Non Taxable Org.</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- VAT Country --></label>
+        <name>VAT_Country__c</name>
+        <picklistValues>
+            <masterLabel>DK</masterLabel>
+            <translation><!-- DK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE</masterLabel>
+            <translation><!-- SE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vedvarende flytninger --></label>
+        <name>Vedvarende_flytninger__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Record --></label>
+        <name>View_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Site Newsletter --></label>
+        <name>Work_Site_Newsletter__c</name>
+        <picklistValues>
+            <masterLabel>Info Danish</masterLabel>
+            <translation><!-- Info Danish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info English</masterLabel>
+            <translation><!-- Info English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info German</masterLabel>
+            <translation><!-- Info German --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newsletter Danish</masterLabel>
+            <translation><!-- Newsletter Danish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newsletter English</masterLabel>
+            <translation><!-- Newsletter English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newsletter German</masterLabel>
+            <translation><!-- Newsletter German --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- §9 levering til dør --></label>
+        <name>X9_levering_til_d_r__c</name>
+    </fields>
+    <fields>
+        <label><!-- eBoks --></label>
+        <name>eBoks__c</name>
+    </fields>
+    <fields>
+        <label><!-- eBusiness Customer --></label>
+        <name>eBusiness_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- eCommerce Business --></label>
+        <name>eCommerce_Business__c</name>
+    </fields>
+    <layouts>
+        <layout>Sales Information Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Breve-Specific Information (incl Marketing Attributes) --></label>
+            <section>Breve-Specific Information (incl Marketing Attributes)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Segments --></label>
+            <section>Customer Segments</section>
+        </sections>
+        <sections>
+            <label><!-- Invoice Information --></label>
+            <section>Invoice Information</section>
+        </sections>
+        <sections>
+            <label><!-- LO DK - Specific Information (incl Marketing Attributes) --></label>
+            <section>LO DK - Specific Information (incl Marketing Attributes)</section>
+        </sections>
+        <sections>
+            <label><!-- Meddelande-Specific Information (incl Marketing Attributes) --></label>
+            <section>Meddelande-Specific Information (incl Marketing Attributes)</section>
+        </sections>
+        <sections>
+            <label><!-- Sales &amp; Pricing --></label>
+            <section>Sales &amp; Pricing</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Area --></label>
+            <section>Sales Area</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You are a Customer Service user. Customer Service users cannot convert a Prospect to a Customer --></errorMessage>
+        <name>CS_Profiles_cannot_convert_to_Customer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot change a Customer to a Prospect --></errorMessage>
+        <name>Cannot_change_customer_to_prospect</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot convert this Work Site to a customer as it does not have a Legal Entity. --></errorMessage>
+        <name>Convert_to_Customer_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Account may not be updated. If you need to update Account please create a new Sales Area Information record --></errorMessage>
+        <name>No_edit_of_Account_field_after_create</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sales Area cannot be changed --></errorMessage>
+        <name>Sales_Area_Cannot_be_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sales Area must be PDK BE or LO DK --></errorMessage>
+        <name>Sales_Area_must_be_PDK_BE_PDK_LO_LO_DK</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Type is mandatory --></errorMessage>
+        <name>Type_is_mandatory</name>
+    </validationRules>
+</CustomObjectTranslation>

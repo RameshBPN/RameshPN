@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>VerticalColumnStacked</chartType>
+        <enableHoverLabels>true</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>FROM_OPPORTUNITY_STAGE_NAME</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_TOP</location>
+        <secondaryGroupingColumn>STAGE_NAME</secondaryGroupingColumn>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Large</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>OPPORTUNITY.NAME</field>
+    </columns>
+    <columns>
+        <field>OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>AMOUNT</field>
+    </columns>
+    <columns>
+        <field>EXP_AMOUNT</field>
+    </columns>
+    <columns>
+        <field>PROBABILITY</field>
+    </columns>
+    <columns>
+        <field>LAST_UPDATE</field>
+    </columns>
+    <columns>
+        <field>LAST_UPDATE_NAME</field>
+    </columns>
+    <columns>
+        <field>TO_CATEGORY</field>
+    </columns>
+    <currency>DKK</currency>
+    <filter>
+        <booleanFilter>((((((1 AND 2 AND 3 AND not(4 AND 5) AND not (6 AND 7) AND not(8 AND 9) AND not( 10 AND 11)) AND 12) AND 13) AND 14) AND 15) AND 16) AND 17</booleanFilter>
+        <criteriaItems>
+            <column>FROM_OPPORTUNITY_STAGE_NAME</column>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FROM_OPPORTUNITY_STAGE_NAME</column>
+            <operator>notEqual</operator>
+            <value>Not Started,Identify &amp; Analyse Customer Need,Identify and Analyse Customer Need,Closed Won,Closed Lost</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <operator>notEqual</operator>
+            <value>Not Started,Identify &amp; Analyse Customer Need,Identify and Analyse Customer Need</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FROM_OPPORTUNITY_STAGE_NAME</column>
+            <operator>equals</operator>
+            <value>Identify &amp; Analyze Customer Need</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <operator>equals</operator>
+            <value>Identify &amp; Analyze Customer Need</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FROM_OPPORTUNITY_STAGE_NAME</column>
+            <operator>equals</operator>
+            <value>Create Solution</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <operator>equals</operator>
+            <value>Create Solution</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FROM_OPPORTUNITY_STAGE_NAME</column>
+            <operator>equals</operator>
+            <value>Create &amp; Present Offer</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <operator>equals</operator>
+            <value>Create &amp; Present Offer</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FROM_OPPORTUNITY_STAGE_NAME</column>
+            <operator>equals</operator>
+            <value>Negotiate &amp; Close Deal</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <operator>equals</operator>
+            <value>Negotiate &amp; Close Deal</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Total_Existing_Value__c</column>
+            <operator>equals</operator>
+            <value>DKK 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>AMOUNT</column>
+            <operator>greaterThan</operator>
+            <value>DKK 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Total_Existing_Value_Lost_Products__c</column>
+            <operator>equals</operator>
+            <value>DKK 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <operator>notEqual</operator>
+            <value>FIG TESTKUNDE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Customer_Involved_Party_ID__c</column>
+            <operator>notEqual</operator>
+            <value>80087877</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER_NAME</column>
+            <operator>notEqual</operator>
+            <value>Almir Sarvan,Tom Hauervig,Anita Majgaard Sønderholm</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>MonthInYear</dateGranularity>
+        <field>CLOSE_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FROM_OPPORTUNITY_STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>PR: Pipline Value change</name>
+    <params>
+        <name>include</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityHistory</reportType>
+    <scope>team</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>OPP_CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_PREVY</interval>
+    </timeFrameFilter>
+</Report>

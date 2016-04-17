@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>number</bucketType>
+        <developerName>BucketField_10872641</developerName>
+        <masterLabel>Beløbsgrænse</masterLabel>
+        <nullTreatment>z</nullTreatment>
+        <sourceColumnName>Case.Approved_amount_of_compensation__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <to>0.01</to>
+            </sourceValues>
+            <value>Ingen erstatning</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>0.01</from>
+                <to>100</to>
+            </sourceValues>
+            <value>Op til 1000,00 kr</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>100</from>
+                <to>3,000</to>
+            </sourceValues>
+            <value>Op til 3000,00 kr</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>3,000</from>
+            </sourceValues>
+            <value>Over 3000,00 kr</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_82269690</developerName>
+        <masterLabel>Teams</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Case.Team__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>PN DK Digital Team</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK Team Told</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK Reklamationer Privat Team</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK MOD/Skrivpost Team</sourceValue>
+            </sourceValues>
+            <value>Privat Support</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>PN DK Salgsadministration Team</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK Drift Team</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK Reklamationer Erhvervspost Team</sourceValue>
+            </sourceValues>
+            <value>Erhvervspost Support</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>PN DK Team Øst</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK Team Vest</sourceValue>
+            </sourceValues>
+            <value>Erhvervspakke Support</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CaseProduct__c.Customer_Claims__c</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Test til Henrik</description>
+    <filter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <operator>equals</operator>
+            <value>Case.Complaint</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_10872641</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_82269690</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.Detailed_Solution__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Anita</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseCustomEntity$CaseProduct__c@CaseProduct__c.Customer_Service_Product__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSED_DATEONLY</dateColumn>
+        <interval>INTERVAL_LASTMONTH</interval>
+    </timeFrameFilter>
+</Report>

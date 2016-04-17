@@ -1,0 +1,47 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<FONT face=Arial,Sans-Serif></FONT>
+<P><FONT size=2 face=Arial,Sans-Serif>{!Case.Account}</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>{!Case.Postal_Address_Street__c} {!Case.Postal_Address_House_Number__c} {!Case.Postal_Address_House_Number_Supplement__c} {!Case.Postal_Address_Room_Number__c}</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>{!IF(Case.Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Postal_Address_PO_Box__c}</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>{!IF(!Case.Postal_Address_Suburd__c="Suburb","")} {!Case.Postal_Address_Suburd__c}</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>{!Case.Postal_Address_Postal_Code__c} {!Case.Postal_Address_City__c}</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>{!Case.Postal_Address_Country__c}</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif></FONT>&nbsp;</P>
+<P><FONT size=2>&nbsp;</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2>&nbsp;</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif><STRONG>Kære LIDL kunde</STRONG></FONT></P>
+<P><STRONG></STRONG><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>Tak for din henvendelse vedrørende manglende omdeling af LIDL. Du er ved en fejl røget ud af deres omdeling.<BR>&nbsp;<BR>Vi har nu fundet fejlen, men der går desværre op til 3-4 uger, før du igen modtager LIDL avisen automatisk.</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>LIDL gør opmærksom på, at du kan finde tilbudsavisen i butikken eller på deres hjemmeside </FONT><A href="http://www.lidl.dk"><FONT size=2 face=Arial,Sans-Serif>www.lidl.dk</FONT></A><BR><FONT face=Arial,Sans-Serif></FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>&nbsp;<BR></FONT></P>
+<P><FONT face=Arial,Sans-Serif><FONT size=2>Med venlig hilsen<BR></FONT></P></FONT>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>{!Case.OwnerFirstName} {!Case.OwnerLastName}<BR>Post Danmark</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2>&nbsp;</FONT></P>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" aEditID="c2r1" rowspan="3" >
+<![CDATA[<FONT size=1 face=Arial,Sans-Serif>!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.City}<BR>&nbsp;<BR>TLF {!User.Department_Phone__c}<BR>FAX {!User.Fax}<BR>{!User.Team_Email__c}<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}<BR></FONT>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

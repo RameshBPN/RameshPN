@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>Stores the connection parameters for each web service called by the app using apex callouts based on the http integration virtual class</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ClientCertName__c</fullName>
+        <description>Name of the client certificate to be sent with the outgoing SOAP message</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the client certificate to be sent with the outgoing SOAP message</inlineHelpText>
+        <label>Client Certificate Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContentType__c</fullName>
+        <defaultValue>&quot;text/xml&quot;</defaultValue>
+        <description>Message content type (default text/xml)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Message content type (default text/xml)</inlineHelpText>
+        <label>Content Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Enabled__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Allows admin to turn the integration on or off at any point</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Allows admin to turn the integration on or off at any point</inlineHelpText>
+        <label>Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Endpoint__c</fullName>
+        <description>End point URI of the request</description>
+        <externalId>false</externalId>
+        <inlineHelpText>End point URI of the request</inlineHelpText>
+        <label>Endpoint</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Error_Code_Path__c</fullName>
+        <description>If a standard error node is always provided this should indicate the node name for automatic logging of errors. Format should be the node name followed by @attribute name if required. Ex. ErrorNode@Code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If a standard error node is always provided this should indicate the node name for automatic logging of errors. Format should be the node name followed by @attribute name if required. Ex. ErrorNode@Code</inlineHelpText>
+        <label>Error Code XML Path</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Error_Descripion_Path__c</fullName>
+        <description>If a standard error node is always provided this should indicate the node name for automatic logging of errors. Format should be the node name followed by @attribute name if required. Ex. ErrorDescription@Info</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If a standard error node is always provided this should indicate the node name for automatic logging of errors. Format should be the node name followed by @attribute name if required. Ex. ErrorDescription@Info</inlineHelpText>
+        <label>Error Descripion XML Path</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Host__c</fullName>
+        <description>The Host request-header field specifies the Internet host and port number of the resource being requested. The Host field value MUST represent the naming authority of the origin server or gateway given by the original URL.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Host request-header field specifies the Internet host and port number of the resource being requested. The Host field value MUST represent the naming authority of the origin server or gateway given by the original URL.</inlineHelpText>
+        <label>Host</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_Records__c</fullName>
+        <defaultValue>&quot;100&quot;</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Holds the max number of records to return</inlineHelpText>
+        <label>Max Records</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_Retries__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Number of attempts the callout should try again if timeouts occur. Note this should be used with care. A default of 0 is standard. This should only be used when systems timeout very quickly.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of attempts the callout should try again if timeouts occur. Note this should be used with care. A default of 0 is standard. This should only be used when systems timeout very quickly.</inlineHelpText>
+        <label>Max Retries</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Password__c</fullName>
+        <description>Password to use for authentication. Only used if no Certificate is defined.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Password to use for authentication. Only used if no Certificate is defined.</inlineHelpText>
+        <label>Password</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider__c</fullName>
+        <description>Name of the service provider</description>
+        <externalId>false</externalId>
+        <label>Provider</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RequestKeepAlive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If the connected session shold be kept open or closed if the request gets stopped</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If the connected session shold be kept open or closed if the request gets stopped</inlineHelpText>
+        <label>Request Keep Alive</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>RequestMethod__c</fullName>
+        <defaultValue>&quot;POST&quot;</defaultValue>
+        <description>(Optional) How the request will be sent, GET, POST etc.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>(Optional) How the request will be sent, GET, POST etc.</inlineHelpText>
+        <label>Request Method</label>
+        <length>15</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SOAPAction__c</fullName>
+        <defaultValue>&apos;&quot;Process&quot;&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>SOAPAction</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Name__c</fullName>
+        <description>(Optional) Name of the service called on the provider</description>
+        <externalId>false</externalId>
+        <inlineHelpText>(Optional) Name of the service called on the provider</inlineHelpText>
+        <label>Service Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SystemID__c</fullName>
+        <description>(Optional) Stores the System ID to send to the external service provider</description>
+        <externalId>false</externalId>
+        <inlineHelpText>(Optional) Stores the System ID to send to the external service provider</inlineHelpText>
+        <label>SystemID</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Timeout__c</fullName>
+        <description>(Optional) Set the timeout for the service. This will use the default timeout from Integration Callout Settings if not provided.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>(Optional) Set the timeout for the service. This will use the default timeout from Integration Callout Settings if not provided.</inlineHelpText>
+        <label>Timeout</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UserName__c</fullName>
+        <description>Username to use for authentication. Only used if no Certificate is defined.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Username to use for authentication. Only used if no Certificate is defined.</inlineHelpText>
+        <label>UserName</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Version__c</fullName>
+        <description>Number of the current working version of the service.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of the current working version of the service. Optional but advised. Allows parsing code and services to use alternative parsing methods. The version number should reflect the version of the service ON THE ESB, and not in salesforce. The request to</inlineHelpText>
+        <label>Version</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>HTTP Integration Services</label>
+</CustomObject>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Header/>
+	<SOAP-ENV:Body>
+		<ns1:ItemLocation xmlns:ns1="http://new.webservice.namespace">
+			<ns1:Note>Note</ns1:Note>
+			<ns1:UserArea>
+				<ns2:VapDistributionDetailsResponse xmlns:ns2="urn:Namespaces.PostNord.Com:Private:Customer:VapDistributionDetailsResponse:v0001">
+					<ns2:Letter_1478>
+						<callResponse xmlns="http://www.postdanmark.dk/WSTuxWrapper/WSTuxWrapper/">
+							<parameters>
+								<callResponse xmlns="http://www.postdanmark.dk/WSTuxWrapper/WSTuxWrapper/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+									<ns1:tuxresults xmlns:ns1="java:dk.post.tuxwswrapper.model">
+										<ns1:TuxResult>
+											<ns1:recordcount>0</ns1:recordcount>
+											<ns1:servicename>vapFruteOpl</ns1:servicename>
+											<ns1:fields xsi:nil="true"/>
+											<ns1:resultincomplete>false</ns1:resultincomplete>
+											<ns1:error>
+												<ns1:rowcount>0</ns1:rowcount>
+												<ns1:category>ORA</ns1:category>
+												<ns1:fieldName/>
+												<ns1:sourceline>462</ns1:sourceline>
+												<ns1:sourcefile>/global/udvl/home/pdi/u-krh/vap/source/proc/vapFruteOplPC.pc</ns1:sourcefile>
+												<ns1:function/>
+												<ns1:explanation>ORA-01405: fetched column value is NULL</ns1:explanation>
+												<ns1:id>-1405</ns1:id>
+											</ns1:error>
+											<ns1:recordcontext xsi:nil="true"/>
+										</ns1:TuxResult>
+									</ns1:tuxresults>
+								</callResponse>
+							</parameters>
+						</callResponse>
+					</ns2:Letter_1478>
+					<ns2:Parcel_25>
+						<callResponse xmlns="http://www.postdanmark.dk/WSTuxWrapper/WSTuxWrapper/">
+							<parameters>
+								<callResponse xmlns="http://www.postdanmark.dk/WSTuxWrapper/WSTuxWrapper/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+									<ns1:tuxresults xmlns:ns1="java:dk.post.tuxwswrapper.model">
+										<ns1:TuxResult>
+											<ns1:recordcount>0</ns1:recordcount>
+											<ns1:servicename>vapFruteOpl</ns1:servicename>
+											<ns1:fields xsi:nil="true"/>
+											<ns1:resultincomplete>false</ns1:resultincomplete>
+											<ns1:error>
+												<ns1:rowcount>0</ns1:rowcount>
+												<ns1:category>ORA</ns1:category>
+												<ns1:fieldName/>
+												<ns1:sourceline>462</ns1:sourceline>
+												<ns1:sourcefile>/global/udvl/home/pdi/u-krh/vap/source/proc/vapFruteOplPC.pc</ns1:sourcefile>
+												<ns1:function/>
+												<ns1:explanation>ORA-01405: fetched column value is NULL</ns1:explanation>
+												<ns1:id>-1405</ns1:id>
+											</ns1:error>
+											<ns1:recordcontext xsi:nil="true"/>
+										</ns1:TuxResult>
+									</ns1:tuxresults>
+								</callResponse>
+							</parameters>
+						</callResponse>
+					</ns2:Parcel_25>
+				</ns2:VapDistributionDetailsResponse>
+			</ns1:UserArea>
+		</ns1:ItemLocation>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

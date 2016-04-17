@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Apex Development Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Apex Development Settings</value>
+    </caseValues>
+    <fields>
+        <help><!-- CSV list of recipients who should receive emails triggered by key points / errors  in custom code --></help>
+        <label><!-- Error_Alert_Recipients__c --></label>
+        <name>Error_Alert_Recipients__c</name>
+    </fields>
+    <fields>
+        <help><!-- Log any custom code errors in the Apex Error log when set to TRUE --></help>
+        <label><!-- Log Errors --></label>
+        <name>Log_Errors__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email one or more addresses when a handled error occurs in custom code --></help>
+        <label><!-- Send_Error_Alerts --></label>
+        <name>Send_Error_Alerts__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

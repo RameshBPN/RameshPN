@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>number</bucketType>
+        <developerName>BucketField_68919746</developerName>
+        <masterLabel>Response Performance</masterLabel>
+        <nullTreatment>z</nullTreatment>
+        <sourceColumnName>Case$Response_Time__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <to>0</to>
+            </sourceValues>
+            <value>No response</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>0</from>
+                <to>24</to>
+            </sourceValues>
+            <value>Fast Response</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>24</from>
+            </sourceValues>
+            <value>Slow Response</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Case$Respondent_Org_ID__c</field>
+    </columns>
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Case$Parent</field>
+    </columns>
+    <columns>
+        <field>Case$Receiver_Name__c</field>
+    </columns>
+    <columns>
+        <field>Case$Product_Article__c</field>
+    </columns>
+    <columns>
+        <field>Case$Reason__c</field>
+    </columns>
+    <columns>
+        <field>Case$Detailed_Reason__c</field>
+    </columns>
+    <columns>
+        <field>Case$Item_Id__c</field>
+    </columns>
+    <columns>
+        <field>Case$Response_Time__c</field>
+    </columns>
+    <columns>
+        <field>Case$Solution__c</field>
+    </columns>
+    <columns>
+        <field>Case$Owner</field>
+    </columns>
+    <currency>SEK</currency>
+    <description>Rapporte over behandlingstiden på LU sendt fra CMA</description>
+    <filter>
+        <booleanFilter>(1 AND 2 AND 3) AND 4</booleanFilter>
+        <criteriaItems>
+            <column>Case$RecordType</column>
+            <operator>equals</operator>
+            <value>Case.Activity</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Respondent_Org_ID__c.Name_5__c</column>
+            <operator>equals</operator>
+            <value>Produktion</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Status</column>
+            <operator>equals</operator>
+            <value>Response Received,Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Team__c</column>
+            <operator>equals</operator>
+            <value>PN DK KUL Team Corporate Major Account</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_68919746</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$Respondent_Org_ID__c.Name_6__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$Respondent_Org_ID__c.Org_ID__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>CS-CMA &amp; Salgsløs - Lukket aktiviteter</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_Enhanced_Report_Type__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Case$ClosedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

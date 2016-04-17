@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>Default settings for the http Integration apex generic class. Controls use of caching and defaults such as timeouts etc.</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Default_Timeout__c</fullName>
+        <defaultValue>30</defaultValue>
+        <description>Default timeout in minutes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default timeout in minutes</inlineHelpText>
+        <label>Default Timeout</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SystemID__c</fullName>
+        <defaultValue>&quot;SFDC&quot;</defaultValue>
+        <description>Default system ID used by external systems to recognise sfdc</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default system ID used by external systems to recognise sfdc</inlineHelpText>
+        <label>SystemID</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>HTTP Integration Settings</label>
+</CustomObject>

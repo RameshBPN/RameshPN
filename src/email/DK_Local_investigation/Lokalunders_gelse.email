@@ -1,0 +1,83 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font size="1" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="DA"><p dir="ltr" align="center"><font>Lokalundersøgelse </font></p>
+<p dir="ltr" align="center">Dato og tidspunkt: {!NOW()} </p>
+<p dir="ltr" align="center">Svarfrist: {!Case.Due_Date__c} </p>
+<p dir="ltr" align="left">Hej</p><p dir="ltr" align="left"><br></p>
+<p dir="ltr" align="left">Kundelinjen har modtaget en {!Case.RecordType}, som vi vil have jer til at undersøge:</p>
+<p dir="ltr" align="left">&nbsp;</p><font>
+<p dir="ltr" align="center"></p></font></span>
+</font><table dir="ltr" border="1" cellspacing="1" cellpadding="4" width="656" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+<tbody>
+<tr>
+<td valign="top" width="32%"><font size="1"><span lang="DA"></span>
+</font><p dir="ltr" align="left"><font size="1">Sags nr og lokalundersøgelses nr </font></p></td>
+<td valign="top" width="68%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left">{!Case.Parent} / {!Case.CaseNumber} </p></font></span></td></tr>
+<tr>
+<td valign="top" width="32%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left">Afsender: </p>
+<p dir="ltr" align="center"></p></font></span></td>
+<td valign="top" width="68%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left"></p>
+<p dir="ltr" align="left"></p>
+<p dir="ltr" align="left"></p>
+<p dir="ltr" align="left"></p>
+<p dir="ltr" align="left"></p>
+<p dir="ltr" align="left">{!Case.Sender__c}&nbsp;</p>
+<p dir="ltr" align="left">{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c}</p><p dir="ltr" align="left">{!Case.Sender_Postal_Address_House_Letter__c}</p><p dir="ltr" align="left">{!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}</p>
+<p dir="ltr" align="left">{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")}{!Case.Sender_Postal_Address_PO_Box__c}</p>
+<p dir="ltr" align="left">{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")}{!Case.Sender_Postal_Address_Suburb__c}</p>
+<p dir="ltr" align="left">{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}&nbsp;</p>
+<p dir="ltr" align="left">{!Case.Sender_Postal_Address_Country__c}</p><p dir="ltr" align="left">Telefon nr: {!Case.Sender_Contact_Telephone__c} / Mobil nr: {!Case.Sender_Contact_Mobile__c}</p><p dir="ltr" align="left">{!Case.Sender_Contact_email__c}</p>
+<p></p></font></span></td></tr>
+<tr>
+<td valign="top" width="32%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left">Modtager: </p></font></span></td>
+<td valign="top" width="68%"><span lang="DA"><font size="1">
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p>{!Case.Receiver__c}</p><p>{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_S__c}&nbsp;</p><p>{!Case.Receiver_Postal_Address_House_Letter__c}</p><p>{!Case.Receiver_Postal_Address_Room_Number__c}&nbsp;</p><p>{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")}{!Case.Receiver_Postal_Address_PO_Box__c}</p><p>{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")}{!Case.Receiver_Postal_Address_Suburb__c}</p><p>{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c}</p><p>{!Case.Receiver_Postal_Address_Country__c}</p><p>Telefon nr.:{!Case.Receiver_Contact_Telephone__c} / Mobil nr.:{!Case.Receiver_Contact_Mobile__c}</p><p>{!Case.Receiver_contact_email__c}&nbsp;</p></font></span></td></tr>
+<tr>
+<td valign="top" width="32%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left">Årsag: </p></font></span></td>
+<td valign="top" width="68%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left">{!Case.Reason__c} / {!Case.Detailed_Reason__c}</p></font></span></td></tr>
+<tr>
+<td valign="top" width="32%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left">Dato for fejl: </p></font></span></td>
+<td valign="top" width="68%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left">{!Case.Date_of_mistake__c} </p></font></span></td></tr>
+<tr>
+<td valign="top" width="32%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left">Produkt: </p></font></span></td>
+<td valign="top" width="68%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left">{!Case.Product_Article__c} </p></font></span></td></tr>
+<tr>
+<td valign="top" width="32%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left">Stregkodenr: </p></font></span></td>
+<td valign="top" width="68%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left">{!Case.Item_Id__c}</p></font></span></td></tr>
+<tr>
+<td valign="top" width="32%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left">PO-beløb: </p>
+<p dir="ltr" align="left">PO-Beløb konto:</p></font></span></td>
+<td valign="top" width="68%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left">{!Case.COD_Amount__c} <br>{!Case.Account_Number__c} </p></font></span></td></tr>
+<tr>
+<td valign="top" width="32%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left" style="text-align: left;">Undersøg venligst følgende:</p></font></span></td>
+<td valign="top" width="68%"><span lang="DA"><font size="1">
+<p dir="ltr" align="left" style="text-align: left;">{!Case.Description} </p>
+<p dir="ltr" align="left"></p></font></span></td></tr></tbody></table><font><span lang="DA"><font size="1" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+</font><p dir="ltr" align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="1">&nbsp;</font></p>
+<p dir="ltr" align="left"><font face="Arial, sans-serif" size="2"><font style="color: rgb(0, 0, 0);">OBS! Husk altid at <strong>besvare </strong>denne mail. Du må <strong>ikke </strong>videresende mailen. Husk altid at&nbsp;<strong>sende</strong> mailen tilbage til&nbsp;afsender&nbsp;(kundeservicesfdk@post.dk eller&nbsp;</font>CS SalesForce, KUL<span style="color: rgb(0, 0, 0);">). Du må ikke&nbsp;</span><strong style="color: rgb(0, 0, 0);">slette </strong><span style="color: rgb(0, 0, 0);">noget i emnelinjen ved besvarelsen.</span></font></p>
+<p dir="ltr" align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p dir="ltr" align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">Med venlig hilsen </font></p>
+<p dir="ltr" align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p dir="ltr" align="left" style="color: rgb(0, 0, 0);"><font><font face="Arial, sans-serif" size="2">{!Case.OwnerFullName}</font><br></font></p></span></font>]]></td>
+</tr>
+</table>

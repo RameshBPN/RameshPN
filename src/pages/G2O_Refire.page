@@ -1,0 +1,517 @@
+<apex:page docType="html-5.0" controller="G2O_Refire_VFC" title="PN SAP Refire" standardStylesheets="false">
+  <style type="text/css">
+        .apexp .bPageBlock.apexDefaultPageBlock .pbBody .pbSubheader
+        {
+            background-color: #BF9353;
+        }
+        .Custom3Tab .bPageBlock,.homeTab .bPageBlock {
+          border-top: 3px solid #BF9353;
+        }
+    </style>
+  <apex:outputPanel rendered="{!IF(isMobile,false,true)}">
+  <apex:pageMessages id="pmMsgs"/>
+  <apex:form id="formRefireUpload">
+        <apex:pageBlock id="pbUpload"> 
+                 <apex:pageBlockSection collapsible="true" title="Refire File Upload" id="pbsUploadInvolvedParty">
+                    <apex:pageBlockSectionItem > 
+                        <apex:outputPanel >
+                              <apex:outputLabel value="Select File"/> &nbsp;
+                              <apex:image onmouseover="openHelpDialog('{!$Label.Refire_File_Help_Text}',400,180,'Refire File',this);" 
+                                          onmouseout="closeHelpDialog();"
+                                          url="{!$Resource.HelpIcon}" id="operationhelptxt" style="vertical-align:middle">                                    
+                               </apex:image> 
+                        </apex:outputPanel>                                                   
+                        <apex:inputFile id="involvedPartyfileIP" value="{!involvedPartyFile}" contentType="csv"/>                                                   
+                    </apex:pageBlockSectionItem> 
+                     
+                    <apex:pageBlockSectionItem >
+                          <apex:outputPanel id="selOerationHelpText">                               
+                               <apex:outputLabel value="Select Operation"/> &nbsp;                              
+                                   <apex:image onmouseover="openHelpDialog('{!$Label.Refire_File_Operation_Help_Text}',400,120,'When to use',this);" 
+                                               onmouseout="closeHelpDialog();"
+                                               url="{!$Resource.HelpIcon}" id="operationhelptxt" style="vertical-align:middle">                                       
+                                   </apex:image>                                    
+                          </apex:outputPanel> 
+                          <apex:selectList value="{!fileUploadOperation}" size="1">
+                                     <apex:selectOptions value="{!operationOptions}"/>     
+                          </apex:selectList>    
+                    </apex:pageBlockSectionItem>  
+                  </apex:pageBlockSection>                 
+                  <apex:pageBlockButtons id="pbButtonsUpload" location="bottom" style="align:center">  
+                          <apex:commandButton onclick="return isValidFile('j_id0:formRefireUpload:pbUpload:pbsUploadInvolvedParty:j_id28:involvedPartyfileIP');"
+                                              action="{!uploadInvolvedPartyFile}" value="Upload File" id="invUploadButton"/>                                                                                
+                 </apex:pageBlockButtons>
+             
+          </apex:pageBlock>
+     </apex:form>
+     <apex:form id="formRefire"> 
+     <apex:pageBlock id="pbRefire" title="PN SAP Refire" >
+     
+         <apex:pageBlockButtons id="pbButtonsRefire" location="{!IF(isMobile,'bottom','both')}">
+                   <apex:commandButton id="cbRemoveAll" value="Remove All" action="{!resetAll}" status="loadingSpinnerExternal" reRender="loadingSpinnerExternal,pmMsgs,pbRefire,pbsRefire" disabled="{!refireModelList.size <= 0}"/>                 
+                   <apex:commandButton id="cbRefireAll" value="Refire All" action="{!refireAllItems}" status="loadingSpinnerExternal" reRender="loadingSpinnerExternal,pmMsgs,pbRefire,pbsRefire" disabled="{!refireModelList.size <= 0}"/>
+                   <apex:commandButton id="cbRefireSelected" value="Refire Selected" action="{!refireTheSelectedItems}" status="loadingSpinnerExternal"
+                                         onclick="var isValid = validate();
+                                                  if(!isValid)
+                                                  {
+                                                       return false;
+                                                  }" 
+                                         reRender="loadingSpinnerExternal,pmMsgs,pbRefire,pbsRefire" disabled="{!refireModelList.size <= 0}"/>
+                    <apex:commandButton id="cbRemove" value="Remove Selected"
+                                         action="{!removeItemsFromRefireModelList}"
+                                         onclick="var isValid = validate();
+                                                  if(!isValid)
+                                                  {
+                                                       return false;
+                                                  }
+                                                  else{
+                                                       if(!confirm('Are you sure you want to remove?'))
+                                                       {
+                                                          return false; 
+                                                       }                                  
+                                                  }"
+                                         status="loadingSpinnerExternal" reRender="pmMsgs,pbRefire,pbsRefire" disabled="{!refireModelList.size <= 0}"/>
+         </apex:pageBlockButtons>
+         
+         <apex:outputPanel >
+                    <apex:outputText value="Add" style="vertical-align:middle"/>&nbsp;
+                    <apex:inputText id="ipNumberOfItemsToAdd" value="{!numberOfItemsToAdd}" style="width:35px; vertical-align:middle"/>&nbsp;
+                    <apex:outputText value=" Item(s) below" style="vertical-align:middle"/>&nbsp;
+                    <apex:commandButton value="Add"
+                            onclick="var numberOfItemsToAdd = document.getElementById('{!$Component.ipNumberOfItemsToAdd}').value;
+                                     if(numberOfItemsToAdd  > {!numberOfItemsCanBeAdded})
+                                     {
+                                        alert('{!$Label.Refire_1000_records_can_be_processed_at_a_time}');
+                                        return false;
+                                     }"                          
+                            status="loadingSpinnerExternal"
+                            action="{!addItemsToRefireModelList}"
+                            reRender="pmMsgs,pbRefire,pbsRefire"
+                            style="vertical-align:middle"/>
+         </apex:outputPanel>
+         <apex:outputPanel style="right:30px;position: absolute;" rendered="{!IF(isMobile,false,true)}">
+                    Total Number Of Items:<b>{!refireModelList.size}</b>
+         </apex:outputPanel>
+         <div id="pbTableDiv" style="height:{!pageBlockTableDivSize}px;overflow-y: auto;">
+         <apex:pageBlockSection id="pbsRefire" columns="1">
+            
+            <apex:pageBlockTable var="refireModel" value="{!refireModelList}">
+               <apex:column style="background-color:{!refireModel.htmlColor};width:25px">
+               <apex:facet name="header">
+                                <apex:outputPanel >
+                                <apex:inputCheckbox id="chkToggleSelectAll"
+                                        onclick="toggleSelectAll(this, 'ipSelect');"
+                                        title="Select All" disabled="{!refireModelList.size <= 0}">                                                                       
+                                </apex:inputCheckbox>    
+                                <script type="text/javascript">                                    
+                                    var ipSelectAll = document.getElementById("{!$Component.chkToggleSelectAll}");
+                                    ipSelectAll.checked = areAllRowsChecked(ipSelectAll, "ipSelect", "{!$Component.pbsRefire}");
+                                </script>                          
+                                </apex:outputPanel>
+                                 
+               </apex:facet>
+                            <apex:inputCheckbox value="{!refireModel.isSelected}" id="ipSelect" onclick="uncheckToggleSelectAll('chkToggleSelectAll', 'ipSelect', '{!$Component.pbsRefire}');" styleClass="ipSelectClass"/>                                                     
+              </apex:column> 
+               <apex:column headerValue="Involved Party Id">              
+                            <apex:inputText value="{!refireModel.idToRefire}" onchange="return validateTheEnteredvalue(this);" />
+                            <div class="errorMsg"><strong>{!refireModel.idToRefireErrorMsg}</strong></div>                          
+              </apex:column> 
+              <apex:column headerValue="Operation"> 
+                    <apex:facet name="header">
+                      <apex:outputPanel id="opHelpText">                               
+                           <apex:outputLabel value="Operation "/> &nbsp;                              
+                           <apex:image onmouseover="openHelpDialog('{!$Label.Refire_Operation_Help_Text}',400,200,'when to use',this);" 
+                                       onmouseout="closeHelpDialog();"
+                                       url="{!$Resource.HelpIcon}" id="operationhelptxt" style="vertical-align:middle">                               
+                           </apex:image>
+                            
+                    </apex:outputPanel>
+               </apex:facet>
+                    <apex:selectList id="operationSelListId" styleClass="operationSelList" value="{!refireModel.operation}" size="1">
+                        <apex:selectOptions value="{!operationOptions}"/> 
+                            
+                    </apex:selectList>
+                    <script type="text/javascript">                                                              
+                            var opSelList=document.getElementById('{!$Component.operationSelListId}');
+                            opSelList.setAttribute("id",'{!refireModel.index}_operationSelList');                                                     
+                    </script>
+                    <apex:outputPanel rendered="{!refireModel.showCopyDownLink}">
+                          <a href="javascript:copyDownOperation({!refireModel.index});"> Copy down </a>
+                    </apex:outputPanel>               
+                    <div class="errorMsg"><strong>{!refireModel.operationErrorMsg}</strong></div>
+              </apex:column>
+              <apex:column headerValue="SL No." value="{!refireModel.index+1}" />
+            </apex:pageBlockTable>                      
+         </apex:pageBlockSection>
+         </div>
+     </apex:pageBlock>
+          
+  </apex:form>
+  <apex:actionstatus id="loadingSpinnerExternal">
+            <apex:facet name="start">
+                <div class="waitingSearchDiv" id="el_loading"
+                    style="background: url({!$Resource.TransparentBackground_FFFFFF_50pc}) transparent; height: 100%; width: 100%;">
+                    <div class="waitingHolder">
+                        <img class="waitingImage" src="/img/loading32.gif" title="*" /> <span
+                            class="waitingDescription">Operation in Progress...Please wait.......</span>
+                    </div>
+                </div>
+            </apex:facet>
+  </apex:actionstatus>
+  </apex:outputPanel>
+  
+   
+  <apex:outputPanel rendered="{!IF(isMobile,true,false)}">
+  <div id="mobileModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">                    
+                <div class="modal-body">
+
+                    <div class="waitingSearchDiv" id="el_loading"
+                    style="background: url({!$Resource.TransparentBackground_FFFFFF_50pc}) transparent; height: 100%; width: 100%;">
+                    <div class="waitingHolder">
+                        <img class="waitingImage" src="/img/loading32.gif" title="*" /> 
+                        <span class="waitingDescription">Operation in Progress...Please wait.......</span>
+                    </div>
+                    </div>
+
+                </div>                   
+            </div>
+        </div>
+  </div>  
+  
+  <apex:form id="mobileForm"> 
+      <apex:pageMessages id="mobileMsgs"/>
+      <div id="mobileTableDiv" style="height:{!pageBlockTableDivSize}px;overflow-y: auto;">
+          <div class="table-responsive">          
+              <table class="table">       
+                <thead>
+                      <tr>
+                        <th colspan="4" style="background-color:#66CCFF;height:15px;width:100%;">
+                         <div>     
+                            <apex:outputText value="Add" style="vertical-align:middle"/>&nbsp;
+                            <apex:inputText styleClass="bfh-number" id="ipMobileNumberOfItemsToAdd" value="{!numberOfItemsToAdd}" style="width:35px; vertical-align:middle"/>&nbsp;
+                            
+                            <apex:outputText value=" Item(s) below" style="vertical-align:middle"/>&nbsp;
+                            <apex:commandButton value="Add" id="mobileAddBtn" 
+                                onclick="var numberOfItemsToAdd = document.getElementById('{!$Component.ipMobileNumberOfItemsToAdd}').value;
+                                         if(numberOfItemsToAdd  > {!numberOfItemsCanBeAdded})
+                                         {
+                                            alert('{!$Label.Refire_1000_records_can_be_processed_at_a_time}');
+                                            return false;
+                                         }
+                                         else{
+                                            $('#mobileModal').modal({backdrop: 'static'});
+                                         }"
+                                oncomplete="$('#mobileModal').modal('hide');"
+                                styleClass="btn btn-primary"
+                                action="{!addItemsToRefireModelList}"
+                                reRender="mobileForm"
+                                style="vertical-align:middle"/>                 
+                          </div>
+                        </th>
+                      </tr>         
+                      <tr>
+                        <th width="10%">
+                        <apex:outputPanel >
+                        <apex:inputCheckbox id="chkToggleSelectAll"
+                            onclick="toggleSelectAll(this, 'mobileIpSelect');"
+                            title="Select All" disabled="{!refireModelList.size <= 0}">  
+                                        <script type="text/javascript">                                    
+                                            var ipSelectAll = document.getElementById("{!$Component.chkToggleSelectAll}");
+                                            ipSelectAll.checked = areAllRowsChecked(ipSelectAll, "mobileIpSelect", "mobileTableDiv");
+                                        </script>                                 
+                        </apex:inputCheckbox>                              
+                        </apex:outputPanel>
+                        </th>
+                        <th width="40%">Involved Party Id</th>
+                        <th width="30%">Operation</th>
+                        <th width="20%">SL No.</th>
+                      </tr>
+                </thead>
+                <tbody>
+                    <apex:repeat var="mobileRefireModel" value="{!refireModelList}">
+                          <tr>
+                                <td width="10%">
+                                <apex:inputCheckbox value="{!mobileRefireModel.isSelected}" id="mobileIpSelect"
+                                            onclick="uncheckToggleSelectAll('chkToggleSelectAll', 'mobileIpSelect', 'mobileTableDiv');"
+                                            styleClass="ipSelectClass" />
+                                </td>
+                                <td width="40%">
+                                <apex:inputText style="width:100%" value="{!mobileRefireModel.idToRefire}" onchange="return validateTheEnteredvalue(this);"/>
+                                <div class="errorMsg"><strong>{!mobileRefireModel.idToRefireErrorMsg}</strong></div>
+                                </td>
+                                <td width="30%">
+                                <apex:selectList id="mobileOperationSelListId" styleClass="operationSelList"  value="{!mobileRefireModel.operation}" size="1">
+                                    <apex:selectOptions value="{!operationOptions}"/>                            
+                                </apex:selectList>
+                                <script type="text/javascript">                                                              
+                                        var opSelList=document.getElementById('{!$Component.mobileOperationSelListId}');
+                                        opSelList.setAttribute("id",'{!mobileRefireModel.index}_operationSelList');                                                     
+                                </script>
+                                <apex:outputPanel rendered="{!mobileRefireModel.showCopyDownLink}">
+                                <a href="javascript:copyDownOperation({!mobileRefireModel.index});">
+                                     <apex:image url="{!$Resource.CopyDownIcon}" style="vertical-align:middle"
+                                            rendered="{!mobileRefireModel.showCopyDownLink}"/>
+                                 </a>
+                                </apex:outputPanel> 
+                                <div class="errorMsg"><strong>{!mobileRefireModel.operationErrorMsg}</strong></div>
+                                </td>
+                                <td width="20%">
+                                   <apex:outputText style="width:20%" value="{!mobileRefireModel.index+1}" />
+                                </td>
+                          </tr>        
+                    </apex:repeat>       
+                </tbody>
+              </table>
+          </div>
+      </div>
+      <div class="mobileRefireButtons">
+          <apex:commandButton style="margin-right:5px;margin-left:5px;margin-top:10px;" id="mobileRemoveAll"
+                              onclick="$('#mobileModal').modal({backdrop: 'static'});"
+                              oncomplete="$('#mobileModal').modal('hide');"
+                              styleClass="btn btn-primary" value="Remove All" action="{!resetAll}" reRender="mobileForm" disabled="{!refireModelList.size <= 0}"/>                 
+          <apex:commandButton style="margin-right:5px;margin-left:5px;margin-top:10px;" id="mobileRefireAll" 
+                              onclick="$('#mobileModal').modal({backdrop: 'static'});"
+                              oncomplete="$('#mobileModal').modal('hide');"
+                              styleClass="btn btn-primary" value="Refire All" action="{!refireAllItems}"  reRender="mobileForm" disabled="{!refireModelList.size <= 0}"/>
+          <apex:commandButton style="margin-right:5px;margin-left:5px;margin-top:10px;" id="mobileRefireSelected" 
+                              styleClass="btn btn-primary" value="Refire Selected" action="{!refireTheSelectedItems}"
+                              onclick="var isValid = validate();
+                                       if(!isValid)
+                                       {
+                                          return false;
+                                       }
+                                       else{
+                                          $('#mobileModal').modal({backdrop: 'static'});                                          
+                                       }"
+                              oncomplete="$('#mobileModal').modal('hide');"
+                              reRender="mobileForm" disabled="{!refireModelList.size <= 0}"/>
+          <apex:commandButton style="margin-right:5px;margin-left:5px;margin-top:10px;" id="mobileRemove" styleClass="btn btn-primary" value="Remove Selected"
+                                 action="{!removeItemsFromRefireModelList}"
+                                 onclick="var isValid = validate();
+                                          if(!isValid)
+                                          {
+                                               return false;
+                                          }
+                                          else{
+                                               if(!confirm('Are you sure you want to remove?'))
+                                               {
+                                                  return false; 
+                                               } 
+                                               else{
+                                                  $('#mobileModal').modal({backdrop: 'static'});                                                 
+                                               }                                 
+                                          }"
+                                oncomplete="$('#mobileModal').modal('hide');"
+                                reRender="mobileForm" disabled="{!refireModelList.size <= 0}"/>
+      </div>
+   </apex:form>
+  </apex:outputPanel>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" />
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js" />
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" type="text/css"/>
+  <apex:outputPanel rendered="{!isMobile}">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" type="text/css" />
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  </apex:outputPanel>
+  <script type="text/javascript"> 
+                    function isValidFile(inputFileIp)
+                    {
+                       var sFileName = document.getElementById(inputFileIp).value;
+                       if (sFileName.length > 0) {
+                            var isValidFile = false;
+                            var sCurExtension = '.csv';
+                            if (sFileName.substr(sFileName.length - sCurExtension.length, sCurExtension.length).toLowerCase() == sCurExtension.toLowerCase()) {
+                                isValidFile = true;
+                            }                                                                                               
+                            if (!isValidFile) {
+                                alert('Uploaded file type is not valid. Only .CSV files are allowed.');
+                                isValidFile = false;
+                            }
+                        }
+                        else{
+                            if(sFileName == null || sFileName.length <= 0)
+                            {
+                              alert('please select a csv file to upload');
+                              isValidFile = false;
+                            }
+                        }
+                        return isValidFile;
+                    }
+                    function openHelpDialog(helpText,dailogWidth,dailodHeight,dailogTitle,pointerToDisplay)
+                    {
+                        var $g = jQuery.noConflict(); 
+                                var html = '<div id=dialog style=display: none>';
+                                $g('body').append(html); 
+                                $g('#dialog').empty(); 
+                                var dialoghelp = $g('#dialog')
+                                .html(helpText)
+                                .dialog({
+                                    autoOpen: true,
+                                    title: dailogTitle,
+                                    width: dailogWidth,
+                                    height: dailodHeight,
+                                    autoResize: true                                                                                                                                   
+                                });   
+                                dialoghelp.dialog('option', 'position', {my: 'left top',at: 'center center',of: $g(pointerToDisplay),within: $g("body")});
+                                dialoghelp.dialog('open');
+                    }
+                    function closeHelpDialog()
+                    {
+                        var $g = jQuery.noConflict(); 
+                                var dialoghelp = $g('#dialog');
+                                dialoghelp.dialog('close');
+                    }                 
+                    function copyDownOperation(modelIndex)
+                    {
+                        var selId = modelIndex.toString()+'_operationSelList';
+                        var selIndex = document.getElementById(selId).selectedIndex;
+                        var allOperations = document.getElementsByClassName('operationSelList');
+                        for (i = allOperations.length - 1; i >= 0; i--)
+                        {
+                            if(i>modelIndex)
+                            {
+                               allOperations[i].selectedIndex = selIndex; 
+                            }                                                     
+                        }
+                    }
+                    function validateTheEnteredvalue(elementToValidate)
+                    {
+                         var returnValue = false;
+                         var fieldValue = String( elementToValidate.value );
+                         var formattedFieldValue = String( fieldValue.replace(/\,/g,'') );
+                         var fieldValueWithoutSpaces = String( formattedFieldValue.replace(' ','') );
+                         if(isNaN(Number( fieldValueWithoutSpaces )))
+                         {
+                            alert('Please enter a valid number');
+                            returnValue = false;
+                            window.setTimeout(function()
+                            {
+                                elementToValidate.focus();
+                            },0);                                
+                            elementToValidate.value = elementToValidate.defaultValue;                             
+                         }
+                         else{
+                            
+                            if(elementToValidate.value < 0)
+                            {
+                                alert('Field cannot have blank or negative values.');
+                            }
+                            else{
+                                elementToValidate.value = Number( fieldValueWithoutSpaces );
+                                elementToValidate.defaultValue = elementToValidate.value;
+                                returnValue = true;
+                            }                       
+                         }
+                         return returnValue;
+                    }
+                    document.getElementsByClassName = function(cl)
+                    {
+                        var i, classes, retnode = [],
+                            myclass = new RegExp('\\b'+cl+'\\b'),
+                            elem = this.getElementsByTagName('*');
+                        for (i = 0; i < elem.length; i++)
+                        {
+                            classes = elem[i].className;
+                            if (myclass.test(classes)) retnode.push(elem[i]);
+                        }
+                        return retnode;
+                    };
+                    
+                    function validate()
+                    {
+                                var isValid = true;
+                                var i, isAtleastOneSelected = false,
+                                    valuesToDelete = document.getElementsByClassName('ipSelectClass');
+                                for (i = valuesToDelete.length - 1; i >= 0; i--)
+                                {
+                                    if(valuesToDelete[i].checked)
+                                    {
+                                        isAtleastOneSelected = true;                                
+                                    }                            
+                                }
+                                if(!isAtleastOneSelected)
+                                {
+                                   isValid = false;
+                                   alert('Please select atleast one.');                                                             
+                                   return isValid;
+                                }
+                                else{
+                                    return true;                                          
+                                } 
+                          return isValid;                           
+                    }
+                    function areAllRowsChecked(chkSelect, chkSelectId, pageBlockSectionId)
+                    {
+                        var inputElements = document.getElementById(pageBlockSectionId).getElementsByTagName("input");
+                        var chkSelectIdCount = 0;
+                        for (var i = 0, element; element = inputElements[i]; i++) {
+                            if (element.type === "checkbox" && element.id.indexOf(chkSelectId) != -1 && element != chkSelect) {
+                                chkSelectIdCount++;
+                                if(!element.checked) {
+                                    return false;
+                                }
+                            }
+                        }
+                        if(chkSelectIdCount == 0) {
+                            return false;
+                        }
+                        return true;
+                    }
+                function uncheckToggleSelectAll(chkAllId, chkSelectId, pageBlockSectionId)
+                {
+                    var inputElements = document.getElementsByTagName("input");
+                    var inputElement;
+                    for(var i=0; i < inputElements.length; i++)
+                    {
+                        if(inputElements[i].type === "checkbox" && inputElements[i].id.indexOf(chkAllId) != -1)
+                        {
+                            inputElement = inputElements[i];
+                            //inputElements[i].checked = false;
+                        }
+                    }
+                    inputElement.checked = areAllRowsChecked(inputElement, chkSelectId, pageBlockSectionId);
+                }
+                function toggleSelectAll(chkSelectAll, checkboxId)
+                {
+                    var inputElements = document.getElementsByTagName("input");
+                    for(var i=0; i < inputElements.length; i++)
+                    {
+                        if(inputElements[i].type === "checkbox"
+                                && inputElements[i].id.indexOf(checkboxId) != -1
+                                && inputElements[i] != chkSelectAll
+                                && !inputElements[i].disabled)
+                        {
+                            if(checkboxId == "chkMiscSelect")
+                            {
+                                if(chkSelectAll.checked)
+                                {
+                                    if(!inputElements[i].checked)
+                                    {
+                                        inputElements[i].click();
+                                    }
+                                }
+                                else
+                                {
+                                    if(inputElements[i].checked)
+                                    {
+                                        inputElements[i].click();
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                inputElements[i].checked = chkSelectAll.checked;
+                            }
+                        }
+                        if(inputElements[i].type === "checkbox" && inputElements[i].id.indexOf("chkSubmit") != -1 && hasChanged && checkboxId != "chkSubmit")
+                        {
+                            inputElements[i].checked = false;
+                        }
+                    }
+                }
+                
+            </script>
+</apex:page>

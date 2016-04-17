@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>33 - Prisfolder</name>
+    <style>promotionRight</style>
+    <subject>Post Danmarks prisfolder</subject>
+    <textOnly>{!Case.Account}&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /&gt;
+
+{!Case.Postal_Address_Street__c} {!Case.Postal_Address_House_Number__c} {!Case.Postal_Address_House_Number_Supplement__c} {!Case.Postal_Address_Room_Number__c}
+
+{!IF(Case.Postal_Address_PO_Box__c=&quot;&quot;,&quot;&quot;,&quot;Postboks:&quot;)} {!Case.Postal_Address_PO_Box__c}
+
+{!IF(!Case.Postal_Address_Suburd__c=&quot;Suburb&quot;,&quot;&quot;)} {!Case.Postal_Address_Suburd__c}
+
+{!Case.Postal_Address_Postal_Code__c} {!Case.Postal_Address_City__c}
+
+{!IF(!Case.Postal_Address_Country__c=&quot;DK&quot;,&quot;&quot;)} {!Case.Postal_Address_Country__c}
+
+
+
+
+
+Kære {!Case.Account}
+
+
+
+Tak for din mail.
+
+
+Post Danmarks prisfolder omdeles ikke til husstande, som er tilmeldt Reklamer nej tak.
+
+
+Prisfolderen er en reklame fra vores virksomhed og må derfor ikke afleveres til husstanden, der har nej tak til reklamer.
+
+
+Du kan altid finde de gældende priser på Post Danmarks hjemmeside www.postdanmark.dk eller på vores posthuse.
+
+
+(Jeg sender dig en prisfolder pr. brev)
+
+
+Med venlig hilsen
+
+
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+
+{!Case.OwnerTitle}
+
+
+{!User.CompanyName}&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /&gt;
+
+{!User.Division}
+
+{!User.Department}
+
+{!User.Street}
+
+{!User.PostalCode} {!User.City}
+
+CVR nr.: 26663903
+
+{!User.Company_Webb_Address__c}
+
+
+Tlf {!User.Department_Phone__c}
+
+{!User.Team_Email__c}
+
+
+Dato {!Today}
+
+Sagsnr. {!Case.Main_Case_Number__c}
+
+Sagsbeh {!User.Alias}</textOnly>
+    <type>html</type>
+</EmailTemplate>

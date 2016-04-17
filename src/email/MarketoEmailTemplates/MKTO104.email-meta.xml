@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>mypage.B2C Opt-out</name>
+    <style>none</style>
+    <subject>Vi har modtaget din afmelding</subject>
+    <textOnly>Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+Vi har modtaget din afmelding
+ 
+ Vi vil ikke længere benytte {{lead.Email Address:default=din email}} &lt;{{lead.Email Address:default=din%20email}}&gt; til at spørge dig til råds og fortælle om services og produkter, der er relevante for dig.
+
+
+ Du er altid velkommen til at kontakte os på {{my.B2C-Telefonnummer}} og besøge os på www.postdanmark.dk &lt;http://www.postdanmark.dk&gt;
+ 
+Med venlig hilsen
+ Post Danmark
+Vi har sendt denne e-mail til {{lead.Email Address:default=din mail}}.</textOnly>
+    <type>custom</type>
+</EmailTemplate>

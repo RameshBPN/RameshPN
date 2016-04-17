@@ -1,0 +1,1 @@
+*** MEDDELANDE OM TILLDELNING AV NYTT LEAD *** Följande lead har tilldelats dig.   Företag:  {!Lead.Company}  Leadnamn:  {!Lead.Name}    Klicka på länken om du vill öppna leadet direkt:  {!Lead.Link}

@@ -1,0 +1,51 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<P><FONT size=2>{!Case.Account}</FONT></P>
+<P><FONT size=2>{!Case.Postal_Address_Street__c} {!Case.Postal_Address_House_Number__c} {!Case.Postal_Address_House_Number_Supplement__c} {!Case.Postal_Address_Room_Number__c}</FONT></P>
+<P><FONT size=2>{!IF(Case.Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Postal_Address_PO_Box__c}</FONT></P>
+<P><FONT size=2>{!IF(!Case.Postal_Address_Suburd__c="Suburb","")} {!Case.Postal_Address_Suburd__c}</FONT></P>
+<P><FONT size=2>{!Case.Postal_Address_Postal_Code__c} {!Case.Postal_Address_City__c}</FONT></P>
+<P><FONT size=2>{!Case.Postal_Address_Country__c}</FONT></P>
+<P><FONT size=2>&nbsp;</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2></FONT>&nbsp;</P>
+<P><FONT size=2></FONT>&nbsp;</P>
+<P><FONT size=2></FONT>&nbsp;</P>
+<P><FONT size=2></FONT>&nbsp;</P>
+<P>&nbsp;</P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif><STRONG>UDFORMNING AF SVARKORT TIL UFRANKEREDE SVARFORSENDELSER<BR>VEDRØRENDE KONTO + + +&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + + + .</STRONG></FONT></P>
+<P><BR><FONT size=2><FONT face=Arial,Sans-Serif>Jeres ufrankerede svarforsendelser følger desværre ikke de gældende retningslinier. Se venligst vedlagte kopi.<BR></FONT>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif><STRONG>Der mangler en modtageradresse på forsendelsen (skal stå i øverste venstre hjørne). Det betyder, at det er vanskeligt for os at aflevere forsendelserne til jer. </STRONG></FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>Vi beder jer venligst om ikke at bruge af disse og hurtigst muligt trykke nye. </FONT></P>
+<P><FONT face=Arial,Sans-Serif><BR><FONT size=2>Hvis der er spørgsmål, er I velkommen til at kontakte os på 70 12 10 95.</FONT></FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>Husk, vi altid skal godkende kuverter / postkort inden trykning. Send et prøvetryk til </FONT><A href="mailto:modtager.betaler@post.dk"><FONT size=2 face=Arial,Sans-Serif>modtager.betaler@post.dk</FONT></A><FONT size=2 face=Arial,Sans-Serif>.&nbsp; Det gælder også for genoptryk.</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><BR><FONT size=2 face=Arial,Sans-Serif>Med venlig hilsen</FONT></P>
+<P><FONT size=2>&nbsp;</FONT></P>
+<P><BR><FONT size=2 face=Arial,Sans-Serif>{!Case.OwnerFirstName} {!Case.OwnerLastName}</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>Post&nbsp;Danmark&nbsp;<BR></FONT></P>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" aEditID="c2r1" rowspan="3" >
+<![CDATA[<P><FONT size=1>{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>TLF {!User.Department_Phone__c}<BR>FAX {!User.Fax}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}<BR></FONT></P>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

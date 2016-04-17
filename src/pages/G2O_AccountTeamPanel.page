@@ -1,0 +1,150 @@
+<apex:page showHeader="true" sidebar="true" standardController="Account" extensions="G2O_AccountTeamPanel_VFCx">
+    <apex:outputPanel rendered="{!refreshPage}">
+        <script>window.parent.location = "/{!Account.Id}{!IF(passbackMessage!=null && passbackMessage!='', '?passbackMessage='+passbackMessage , '')}";</script>
+        <apex:pageBlock title="Refreshing Account..."></apex:pageBlock>
+    </apex:outputPanel>
+    
+    <apex:form id="panel" rendered="{!!refreshPage}">
+        <apex:pageMessages />
+        <apex:pageMessage summary="{!passbackMessage}"  severity="warning" strength="2" rendered="{!passbackMessage!=null && passbackMessage!=''}"/>
+        <apex:pageBlock rendered="{!mode='standard'}">
+            <apex:pageBlockButtons rendered="{!showPanelButtons}" location="top">
+                <apex:commandButton action="{!salesTeamMemberInsert}" value="{!$Label.Add_Team_Member_btn}" disabled="{!!insertPermissions}"/>
+                <apex:commandButton action="{!addDefaultTeam}" value="{!$Label.Add_Default_Team_btn}" disabled="{!!insertPermissions}"/>
+                <apex:commandButton action="{!toggleTeamAccess}" value="{!$Label.Display_Access_btn}" disabled="{!displayAccess}"/>
+                <apex:commandButton action="{!deleteAll}" value="{!$Label.Delete_All_btn}" onclick="return confirm('{!$Label.Are_you_sure_Confirm}');" disabled="{!!deletePermissions || (accountTeamMembers==null || accountTeamMembers.size==0)}"/>
+            </apex:pageBlockButtons>
+            
+            <!-- STANDARD TABLE VIEW -->
+            <apex:pageBlockTable rendered="{!!displayAccess}" value="{!accountTeamMembers}" var="atm">
+                <apex:column rendered="{!showPanelButtons}" headerValue="{!$Label.Action}" styleClass="actionColumn">
+                    <apex:commandLink styleClass="actionLink" action="{!salesTeamMemberEdit}" value="{!$Label.Edit_btn}" rerender="panel" rendered="{!editPermissions}">
+                        <apex:param name="atmId" value="{!atm.Id}"/>
+                    </apex:commandLink>&nbsp;|&nbsp;<apex:commandLink styleClass="actionLink" action="{!deleteTeamMember}" value="{!$Label.Delete_btn}" rendered="{!deletePermissions}">
+                        <apex:param name="atmId" value="{!atm.Id}"/>
+                    </apex:commandLink>
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.User.fields.Name.Label}">
+                    <apex:outputField value="{!atm.userId}" id="opUserId"> 
+                        <script type="text/javascript">                                                              
+                            var link_Id = document.getElementById('{!$Component.opUserId}').childNodes[0].id;
+                            document.getElementById(link_Id).setAttribute("target",'_blank');
+                        </script>                           
+                    </apex:outputField>
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.AccountTeamMember.fields.TeamMemberRole.Label}">
+                    <apex:outputField value="{!atm.TeamMemberRole}"/>
+                </apex:column>
+            </apex:pageBlockTable>
+            
+            <!-- DETAILED ACCESS TABLE VIEW -->
+            <apex:pageBlockTable rendered="{!displayAccess}" value="{!accountTeamMembersDetail}" var="detail">
+                <apex:column rendered="{!showPanelButtons}" headerValue="{!$Label.Action}" styleClass="actionColumn">
+                    <apex:commandLink styleClass="actionLink" action="{!salesTeamMemberEdit}" value="{!$Label.Edit_btn}" rerender="panel" rendered="{!editPermissions}">
+                        <apex:param name="atmId" value="{!detail.atm.Id}"/>
+                    </apex:commandLink>&nbsp;|&nbsp;<apex:commandLink styleClass="actionLink" action="{!deleteTeamMember}" value="{!$Label.Delete_btn}" rendered="{!deletePermissions}">
+                        <apex:param name="atmId" value="{!detail.atm.Id}"/>
+                    </apex:commandLink>
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.User.fields.Name.Label}">
+                    <apex:outputField value="{!detail.atm.UserId}"/>
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.AccountShare.fields.AccountAccessLevel.Label}">
+                    <!--apex:outputField value="{!detail.accShare.AccountAccessLevel}"/-->
+                    <apex:selectList size="1" value="{!detail.accShare.AccountAccessLevel}">
+                        <apex:selectOption itemValue="Read" itemLabel="Read Only" rendered="{!defaultAccountAccessLevel!='Edit'}"/>  
+                        <apex:selectOption itemValue="Edit" itemLabel="Read/Write"/> 
+                    </apex:selectList>
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.AccountShare.fields.OpportunityAccessLevel.Label}">
+                    <!--apex:outputField value="{!detail.accShare.OpportunityAccessLevel}"/-->
+                    <apex:selectList size="1" value="{!detail.accShare.OpportunityAccessLevel}">
+                        <apex:selectOption itemValue="None" itemLabel="Private" rendered="{!defaultOpportunityAccessLevel!='Read' && defaultOpportunityAccessLevel!='Edit'}"/>  
+                        <apex:selectOption itemValue="Read" itemLabel="Read Only" rendered="{!defaultOpportunityAccessLevel!='Edit'}"/>    
+                        <apex:selectOption itemValue="Edit" itemLabel="Read/Write"/>  
+                    </apex:selectList>
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.AccountShare.fields.CaseAccessLevel.Label}">
+                    <!--apex:outputField value="{!detail.accShare.CaseAccessLevel}"/-->
+                    <apex:selectList size="1" value="{!detail.accShare.CaseAccessLevel}">
+                        <apex:selectOption itemValue="None" itemLabel="Private" rendered="{!defaultCaseAccessLevel!='Read' && defaultCaseAccessLevel!='Edit' && defaultCaseAccessLevel!='ReadEditTransfer'}"/> 
+                        <apex:selectOption itemValue="Read" itemLabel="Read Only" rendered="{!defaultCaseAccessLevel!='Edit' && defaultCaseAccessLevel!='ReadEditTransfer'}"/>    
+                        <apex:selectOption itemValue="Edit" itemLabel="Read/Write"/>  
+                    </apex:selectList>
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.AccountTeamMember.fields.TeamMemberRole.Label}">
+                    <apex:outputField value="{!detail.atm.TeamMemberRole}"/>
+                </apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+
+        <!-- ADD TEAM MEMBER VIEW -->  
+        <apex:pageBlock rendered="{!mode='salesTeamMemberInsert'}" title="{!$Label.New_Account_Team_Members_heading}" >
+             <apex:pageBlockButtons location="top">
+                <apex:commandButton value="{!$Label.site.save}" action="{!salesTeamMemberInsert_Save}"/>
+                <apex:commandButton value="{!$Label.site.cancel}" action="{!goBack}" immediate="true"/>
+             </apex:pageBlockButtons>
+            <apex:pageBlockTable value="{!newMembers}" var="newATM">
+                <apex:column headerValue="{!$ObjectType.User.fields.Name.Label}">
+                    <apex:inputField value="{!newATM.atm.UserId}" required="false"/>
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.AccountShare.fields.AccountAccessLevel.Label}">
+                    <!--apex:inputField value="{!newATM.accShare.AccountAccessLevel}" required="false"/-->
+                    <apex:selectList size="1" value="{!newATM.accShare.AccountAccessLevel}">
+                        <apex:selectOption itemValue="Read" itemLabel="Read Only" rendered="{!defaultAccountAccessLevel=='Read'}"/>  
+                        <apex:selectOption itemValue="Edit" itemLabel="Read/Write" rendered="{!defaultAccountAccessLevel=='Edit'}"/> 
+                    </apex:selectList>
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.AccountShare.fields.OpportunityAccessLevel.Label}">
+                    <!--apex:inputField value="{!newATM.accShare.OpportunityAccessLevel}" required="false"/-->
+                    <apex:selectList size="1" value="{!newATM.accShare.OpportunityAccessLevel}">
+                        <apex:selectOption itemValue="None" itemLabel="Private" rendered="{!defaultOpportunityAccessLevel=='None'}"/>  
+                        <apex:selectOption itemValue="Read" itemLabel="Read Only" rendered="{!defaultOpportunityAccessLevel=='Read'}"/>    
+                        <apex:selectOption itemValue="Edit" itemLabel="Read/Write" rendered="{!defaultOpportunityAccessLevel=='Edit'}"/>  
+                    </apex:selectList>
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.AccountShare.fields.CaseAccessLevel.Label}">
+                    <!-- apex:inputField value="{!newATM.accShare.CaseAccessLevel}" required="false"/-->
+                    <apex:selectList size="1" value="{!newATM.accShare.CaseAccessLevel}">
+                        <apex:selectOption itemValue="None" itemLabel="Private" rendered="{!defaultCaseAccessLevel=='None'}"/> 
+                        <apex:selectOption itemValue="Read" itemLabel="Read Only" rendered="{!defaultCaseAccessLevel=='Read'}"/>    
+                        <apex:selectOption itemValue="Edit" itemLabel="Read/Write" rendered="{!defaultCaseAccessLevel=='Edit'}"/>  
+                    </apex:selectList>
+                </apex:column>
+                <apex:column headerValue="{!$ObjectType.AccountTeamMember.fields.TeamMemberRole.Label}">
+                    <apex:inputField value="{!newATM.atm.TeamMemberRole}" required="false"/>
+                </apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+
+
+        <!-- EDIT TEAM MEMBER VIEW -->  
+        <apex:pageBlock rendered="{!mode='salesTeamMemberEdit'}" title="{!$Label.Edit_Account_Team_Member_heading}">
+            <apex:pageBlockButtons location="top">
+                <apex:commandButton value="{!$Label.site.save}" action="{!salesTeamMemberEdit_Save}"/>
+                <apex:commandButton value="{!$Label.site.cancel}" action="{!goBack}" immediate="true"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection columns="1">
+                <apex:outputField value="{!editMember.atm.UserId}"/>
+                <!--apex:inputField value="{!editMember.accShare.AccountAccessLevel}"/-->
+                <apex:selectList size="1" value="{!editMember.accShare.AccountAccessLevel}">
+                    <apex:selectOption itemValue="Read" itemLabel="Read Only" rendered="{!defaultAccountAccessLevel=='Read'}"/>  
+                    <apex:selectOption itemValue="Edit" itemLabel="Read/Write" rendered="{!defaultAccountAccessLevel=='Edit'}"/> 
+                </apex:selectList>
+                <!--apex:inputField value="{!editMember.accShare.OpportunityAccessLevel}"/-->
+                <apex:selectList size="1" value="{!editMember.accShare.OpportunityAccessLevel}">
+                    <apex:selectOption itemValue="None" itemLabel="Private" rendered="{!defaultOpportunityAccessLevel=='None'}"/>  
+                    <apex:selectOption itemValue="Read" itemLabel="Read Only" rendered="{!defaultOpportunityAccessLevel=='Read'}"/>    
+                    <apex:selectOption itemValue="Edit" itemLabel="Read/Write" rendered="{!defaultOpportunityAccessLevel=='Edit'}"/>  
+                </apex:selectList>
+                <!--apex:inputField value="{!editMember.accShare.CaseAccessLevel}"/-->
+                <apex:selectList size="1" value="{!editMember.accShare.CaseAccessLevel}">
+                    <apex:selectOption itemValue="None" itemLabel="Private" rendered="{!defaultCaseAccessLevel=='None'}"/> 
+                    <apex:selectOption itemValue="Read" itemLabel="Read Only" rendered="{!defaultCaseAccessLevel=='Read'}"/>    
+                    <apex:selectOption itemValue="Edit" itemLabel="Read/Write" rendered="{!defaultCaseAccessLevel=='Edit'}"/>  
+                </apex:selectList>
+                <apex:inputField value="{!editMember.atm.TeamMemberRole}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

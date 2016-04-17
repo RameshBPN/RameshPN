@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatDeployment xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brandingImage>pn_chat_logo_DK</brandingImage>
+    <domainWhiteList>
+        <domain>post.dk</domain>
+        <domain>postdanmark.dk</domain>
+        <domain>posten.se</domain>
+        <domain>force.com</domain>
+    </domainWhiteList>
+    <enablePrechatApi>false</enablePrechatApi>
+    <enableTranscriptSave>false</enableTranscriptSave>
+    <label>Live Agent DK</label>
+    <mobileBrandingImage>pn_chat_logo_DK</mobileBrandingImage>
+    <site>Chat_DK_Resources</site>
+    <windowTitle>Post Danmark chat</windowTitle>
+</LiveChatDeployment>

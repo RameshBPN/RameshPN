@@ -1,0 +1,24 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style="color: rgb(0, 0, 0);"><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><span lang="EN-GB" style="font-size:8.0pt;font-family:Arial;
+mso-ansi-language:EN-GB">&nbsp;</span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">Dato {!Today}<o:p></o:p></font></span></p><p class="MsoNormal">
+
+</p><p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">Sagsnr. {!Case.Main_Case_Number__c}<o:p></o:p></font></span></p></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br></font></div><div style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">Til &nbsp;{!Case.Account}</font></div><div style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br></font></div><div style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">Vi sender frimærkeforhandleraftale,
+forretningsbetingelser og tilmeldingsblanket til PBS Leverandørservice.</font></div><div><p class="MsoNormal" style="color: rgb(0, 0, 0); margin: 5pt 0cm;"><font face="Arial, sans-serif" size="2"><o:p></o:p></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin: 5pt 0cm;"><font face="Arial, sans-serif" size="2">Når I har udfyldt og underskrevet
+aftalen og tilmeldingsblanketten, bedes I sende de to blanketter til
+nedenstående adresse. I er naturligvis også meget velkomne til at returnere
+blanketterne via e-mail til <a href="mailto:stamps@postnord.com">stamps@postnord.com</a>.<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin: 5pt 0cm;"><font face="Arial, sans-serif" size="2">I vil få besked, når I er oprettet i
+den særlige Netbutik for frimærkeforhandlere.</font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin: 5pt 0cm;"><font face="Arial, sans-serif" size="2">Har I
+spørgsmål, kan I ringe på tlf. 70 21 80 75 eller sende en mail til <a href="mailto:stamps@postnord.com">stamps@postnord.com</a></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">Med venlig hilsen</font></p><p class="MsoNormal" style="color: rgb(0, 0, 0);"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">{!Case.OwnerFirstName}
+{!Case.OwnerLastName}</font></span></p></div>]]></td>
+</tr>
+</table>

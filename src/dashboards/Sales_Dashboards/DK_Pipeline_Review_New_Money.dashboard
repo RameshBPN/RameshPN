@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>1100</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>1200</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>1400</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>startsWith</operator>
+            <values>1500</values>
+        </dashboardFilterOptions>
+        <name>Sales Office</name>
+    </dashboardFilters>
+    <dashboardType>MyTeamUser</dashboardType>
+    <leftSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <aggregate>Average</aggregate>
+                <axisBinding>y</axisBinding>
+                <column>STAGE_DURATION</column>
+            </chartSummary>
+            <componentType>BarStacked</componentType>
+            <dashboardFilterColumns>
+                <column>Opportunity.Sales_Office__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Overall Sales Velocity: The average time spent at each stage in the sales cycle for Closed Won versus Closed Lost opportunities.</footer>
+            <groupingColumn>STAGE_NAME</groupingColumn>
+            <groupingColumn>FROM_OPPORTUNITY_STAGE_NAME</groupingColumn>
+            <header>PO1.1.The Average Duration of The Sales Cycle</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>BE_Sales_Dashboards_Reports/POPT_Avg_duration_of_stages_Sales_Office</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Summarized by Stages</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <dashboardFilterColumns>
+                <column>Opportunity.Sales_Office__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Does the pipeline increasing or decreasing? It shows the size of the pipeline “As-At” the 1st of each month and thus the overall trend in the size of the pipeline.</footer>
+            <header>PO2.Trend in Pipeline</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>BE_Sales_Dashboards_Reports/POPT_Trend_in_Pipeline</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Summarized by Historical Stage</title>
+            <useReportChart>true</useReportChart>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <aggregate>Average</aggregate>
+                <axisBinding>y</axisBinding>
+                <column>STAGE_DURATION</column>
+            </chartSummary>
+            <componentType>BarStacked</componentType>
+            <dashboardFilterColumns>
+                <column>Opportunity.Sales_Office__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Team Sales Velocity: The average stage duration befor the opportunity has been moved to another stage in Pipeline.</footer>
+            <groupingColumn>Opportunity.Sales_Group__c</groupingColumn>
+            <groupingColumn>FROM_OPPORTUNITY_STAGE_NAME</groupingColumn>
+            <header>PO1.2.The Average Duration in Pipeline</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>BE_Sales_Dashboards_Reports/POPT_AVg_duration_of_stages_Sales_Group</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Summarized by Sales Group</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <dashboardFilterColumns>
+                <column>Opportunity.Sales_Office__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Open opportunities with expected close date in this calender year.</footer>
+            <header>PO3.Pipeline by Close Date - This Year</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>BE_Sales_Dashboards_Reports/POPT_Pipeline_Oportunities_by_Close_Date</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Summarized by Stage</title>
+            <useReportChart>true</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Opportunity.Sales_Office__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Renegotiation opportunities with expected close date that should be in stage Not Started - due to Opportunitiy Guideline.</footer>
+            <header>PO3.1.Renegotiation Opportunities in Pipeline</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <maxValuesDisplayed>10</maxValuesDisplayed>
+            <report>BE_Sales_Dashboards_Reports/POPT_Renegotiation_opportunities_in_Pipe</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Sorted by Number of Opportunities</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Opportunity.Sales_Office__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Opportunities with expected close date in last month.</footer>
+            <header>PO3.2.Overdue Opportunities - Last Month</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <maxValuesDisplayed>15</maxValuesDisplayed>
+            <report>BE_Sales_Dashboards_Reports/POPT_Not_closed_opps_in_previous_month</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Top 15 Opps by Total Opportunity Value</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Opportunity.Sales_Office__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Opportunities with expected close date in previous quarter.</footer>
+            <header>PO3.3.Overdue Opportunities - Previous Quarter</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>BE_Sales_Dashboards_Reports/POPT_Not_closed_opps_in_previous_CQ</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Sorted by Highest Opportunity Value</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Opportunity.Sales_Office__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Opportunities with expected close date in previous years.</footer>
+            <header>PO3.4.Overdue Opportunities - Previous Years</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <maxValuesDisplayed>15</maxValuesDisplayed>
+            <report>BE_Sales_Dashboards_Reports/PR_Dead_opportunities</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Still Open Opportunities</title>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <aggregate>Average</aggregate>
+                <axisBinding>y</axisBinding>
+                <column>STAGE_DURATION</column>
+            </chartSummary>
+            <componentType>BarStacked</componentType>
+            <dashboardFilterColumns>
+                <column>Opportunity.Sales_Office__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Individual Sales Velocity: The average stage duration befor the opportunity has been moved to another stage in Pipeline.</footer>
+            <groupingColumn>OWNER_NAME</groupingColumn>
+            <groupingColumn>FROM_OPPORTUNITY_STAGE_NAME</groupingColumn>
+            <header>PO1.3.The Average Duration in Pipeline</header>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>10</maxValuesDisplayed>
+            <report>BE_Sales_Dashboards_Reports/POPT_Avg_duration_of_stages1</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Summarized by Customer Responsible</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>ColumnStacked</componentType>
+            <dashboardFilterColumns>
+                <column>Opportunity.Sales_Office__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>The chart and report show what stage opportunities have been moved to in the pipeline.</footer>
+            <groupingColumn>FROM_OPPORTUNITY_STAGE_NAME</groupingColumn>
+            <groupingColumn>STAGE_NAME</groupingColumn>
+            <header>PO4.Pipeline Stage Movement</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>BE_Sales_Dashboards_Reports/POPT_Opportunity_Pipeline_Movement</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Summarized by Stage</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Opportunity.Sales_Office__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <header>PO4.1.Closed Won &amp; Lost Opportunities Moved into Pipeline - This Year</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>BE_Sales_Dashboards_Reports/POPT_Opp_Pipeline_Movement_for_Won_Lost</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Sorted by Stage</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Opportunity.Sales_Office__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Opportunities moved from stage Negotiate &amp; Close Deal to stage Create &amp; Present Offer, Create Solution and Identify &amp; Analyze Customer needs.</footer>
+            <header>PO4.2.Opportunities Downgraded in Pipeline</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>BE_Sales_Dashboards_Reports/POPT_Opps_downgraden_in_Pipline</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Opportunities moved back in Pipeline</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Opportunity.Sales_Office__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>The pipeline stage has been moved to the stage Not started.</footer>
+            <header>PO4.3.Opportunities Moved Out of Pipeline - This Year</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <maxValuesDisplayed>10</maxValuesDisplayed>
+            <report>BE_Sales_Dashboards_Reports/POPT_Opps_moved_out_off_pipeline</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Sorted by Pipeline Stage</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Opportunity.Sales_Office__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Opportunities with stage: Create Solution, Create &amp; Present Offer, Negotiate &amp; Close Deal</footer>
+            <header>PO4.4.Opportunities in Same Stage More than 60 Days</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <maxValuesDisplayed>15</maxValuesDisplayed>
+            <report>BE_Sales_Dashboards_Reports/POPT_Same_stage_more_than_60_days</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Top 15 Opps by Average Stage Duration</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Opportunity.Sales_Office__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Opportunities with stage: Identify &amp; Analyze Customer Needs</footer>
+            <header>PO4.5.Opportunities in Same Stage More than 120 Days</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <maxValuesDisplayed>15</maxValuesDisplayed>
+            <report>BE_Sales_Dashboards_Reports/POPT_Same_stage_more_than_120_days</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Sorted by Longest Avg Stage Duration</title>
+        </components>
+    </rightSection>
+    <runningUser>almir.sarvan@postnord.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Pipeline Optimization (PO)</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

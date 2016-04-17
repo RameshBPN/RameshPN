@@ -1,0 +1,55 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<h3 style="text-align: left;"><font size="2" face="Arial, sans-serif">Leje af postboks – genoptaget efter restance</font></h3><div style="font-size: 12pt; font-family: arial;"><font size="2"><br></font></div><div style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2"><font>Hej&nbsp;{!Case.Account} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </font>&nbsp; &nbsp;&nbsp;</font><font face="Arial, sans-serif" size="2">Dato {!Today}</font></div><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2"><o:p></o:p></font></span></p><div style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2"><br></font></div><div style="font-size: 12pt; font-family: arial;"><p class="MsoNormal"><font face="Arial, sans-serif" size="2">Jeres lejeaftale har været
+lukket på grund af manglende betaling, og i den forbindelse blev lejeaftalen
+annulleret. Vi beder jer derfor underskrive en ny lejeaftale, så vi kan genåbne
+jeres postboks.<font face="arial" style="font-size: 12pt;"><o:p></o:p></font></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">I denne mail har vi
+vedhæftet jeres nye aftale på postboks fra PostNord Danmark, som vi beder jer
+underskrive. Aftalen ses med få klik.<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">Følg venligst de gule
+markeringer, og lad systemet guide jer igennem aftalen.<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">For at aftalen kan blive
+aktiv fra den dato, som står i aftalen, beder vi jer underskrive aftalen inden
+3 dage fra d.d.<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">Skulle vi mod forventning
+modtage aftalen retur senere end de 3 dage efter modtagelsen, vil den først
+kunne træde i kraft på et senere tidspunkt.<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">Modtager vi ikke aftalen retur
+14 dage efter modtagelsen, vil postboksen forblive lukket.<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">Har I spørgsmål, er I
+velkommen til at kontakte os.<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">Med venlig hilsen<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">&nbsp;&nbsp;</font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">Tidlig Post <o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">Tlf. 70111230</font><font face="Arial"><o:p></o:p></font></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2"><br></font></p><p style="font-size: 12pt; font-family: arial;"><span lang="EN-GB" style="font-size: 10pt; font-family: Arial;">Sagsnummer: {!Case.Main_Case_Number__c}<o:p></o:p></span></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2"><br></font></p></div><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB"><o:p></o:p></span></p>]]></td>
+</tr>
+</table>

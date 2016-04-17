@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>@-Kampagne.@-Status_3_Chef_uden_maal</name>
+    <style>none</style>
+    <subject>Status på opsamling af e-mailpermissions</subject>
+    <textOnly>Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+Indsamlede permissions
+Medarbejderne i det team, der samler flest e-mailpermissions pr. mand, vinder en tur i biografen for to personer inklusive popcorn.
+{{lead.PN DK Realized PM:default=0}}
+ud af 191  
+Hvad @ sker der?
+Kære {{lead.First Name}}
+
+Dagens optælling viser, at vi i Salg og hos Kundelinjen tilsammen har indhentet 191 e-mailpermissions. Det er langt fra de 3.000, som er vores mål. Og der skal virkelig rykkes de sidste 3 uger, hvis vi skal have noget at fejre 26. februar, hvor vi efter planen skulle feste med flotte @-kager fra La Glace.
+
+
+
+Indsatsen er afgørende
+
+Når e-mailpermissions er i fokus lige nu, er det fordi vi ved, hvor vigtigt det er at holde linjen åben og relationen varm. Vi har investeret i et CRM-system til relevant dialog, der effektivt kan understøtte vores sælgere i deres arbejde. Men vi er afhængige af kundernes e-mailpermissions for at få udbytte af det.
+
+
+
+Hjælp dine medarbejdere
+
+Det er dit ansvar at hjælpe dine medarbejdere i gang med at tilbyde kunderne vores relevante e-maildialog og indhente e-mailpermissions, når de alligevel taler med dem. Hjælp dem med at gøre det til en naturlig del af deres hverdag. Nu og i fremtiden.
+
+
+
+Tag fat i KOM eller i mig, hvis du har spørgsmål – og hav en rigtig dejlig @-uge.
+
+
+
+Venlig hilsen
+
+
+
+Anders Mittag
+E-mails hjælper salget på vej
+Vores marked forandrer sig voldsomt, og konkurrencen er benhård. Derfor er det helt afgørende, at vi også bruger e-maildialog til at støtte op om salget. 
+
+ Vores nye CRM-system er en effektiv kanal til at hjælpe salget af vores nye services og produkter på vej – og gøre kunderne opmærksomme på, at vi ikke kun er super dygtige til breve og pakker. Vi kan levere meget andet og i samme høje kvalitet.
+ 
+ “In cases reviewed, sales increases due to advanced CRM technology have ranged from 10% to more than 30%.“
+ Harvard Business Review</textOnly>
+    <type>custom</type>
+</EmailTemplate>

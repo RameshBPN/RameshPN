@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Customer_ID__c</field>
+    </columns>
+    <columns>
+        <field>TYPE</field>
+    </columns>
+    <columns>
+        <field>Sales_Area_Information__c.Pricing_Hierarchy__c</field>
+    </columns>
+    <columns>
+        <field>Account.Corporate_Registration_Number__c</field>
+    </columns>
+    <columns>
+        <field>Account.Postal_Address_City__c</field>
+    </columns>
+    <columns>
+        <field>Account.Account_has_opportunity__c</field>
+    </columns>
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Kundeoverblik kombineret med Opportunity og Activity</description>
+    <filter>
+        <criteriaItems>
+            <column>Sales_Area_Information__c.Sales_Area__c</column>
+            <operator>equals</operator>
+            <value>1000</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.PDK_BE_Cust_Resp_Name__c</column>
+            <operator>equals</operator>
+            <value>claus Vaaben</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <operator>equals</operator>
+            <value>Account.Work_Site</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Kombineret rapport_SAI+OPP+ACT</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountCustomEntity$Sales_Area_Information__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

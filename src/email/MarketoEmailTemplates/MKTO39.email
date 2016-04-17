@@ -1,0 +1,320 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Postdanmark</title>
+
+<style type="text/css">
+        /* Client-specific Styles */
+        #outlook a {
+            padding: 0;
+        }
+        p{display: none !important;}
+p.ignore{display:inline-block !important;}
+        /* Force Outlook to provide a "view in browser" menu link. */
+        body {
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+        .ExternalClass {
+            width: 100%;
+        }
+        /* Force Hotmail to display emails at full width */
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+            line-height: 100%;} /* Force Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
+            #backgroundTable {
+                margin: 0;
+                padding: 0;
+                width: 100% !important;
+                line-height: 100% !important;
+            }
+            img {
+                outline: none;
+                text-decoration: none;
+                border: none;
+                -ms-interpolation-mode: bicubic;
+            }
+            a img {
+                border: none;
+            }
+            .image_fix {
+                display: block;
+            }
+            p {
+                margin: 0px 0px !important;
+            }
+            table td {
+                border-collapse: collapse;
+            }
+            table {
+                border-collapse: collapse;
+                mso-table-lspace: 0pt;
+                mso-table-rspace: 0pt;
+            }
+            /*a {color: #e95353;text-decoration: none;text-decoration:none!important;}*/
+            /*STYLES*/
+            table[class=full] {
+                width: 100%;
+                clear: both;
+            }
+            @media only screen and (max-width: 500px) {
+                *[class].yahoo_fix {
+                    display: block;
+                }
+                *[class].h0 {
+                    height: 0px !important;
+                }
+                *[class].h1 {
+                    height: 1px !important;
+                }
+                *[class].h2 {
+                    height: 2px !important;
+                }
+                *[class].h10 {
+                    height: 10px !important;
+                }
+                *[class].w280 {
+                    width: 280px !important;
+                }
+                *[class].w300 {
+                    width: 300px !important;
+                }
+                *[class].w100pct {
+                    width: 100% !important;
+                }
+                *[class].fl {
+                    float: left !important;
+                }
+                *[class].fr {
+                    float: right !important;
+                }
+                *[class].h {
+                    display: none !important;
+                }
+                *[class].img100procent img {
+                    width: 100% !important;
+                    height: auto !important;
+                    max-width: 300px !important;
+                }
+                *[class].mleft10 {
+                    margin-left: 10px;
+                }
+                *[class].p0 {
+                    padding: 0px !important;
+                }
+                *[class].bordertop {
+                    border-top: 1px solid #151515 !important;
+                }
+                *[class].alignl {
+                    text-align: left !important;
+                }
+                *[class].alignc {
+                    text-align: center !important;
+                }
+                *[class].break {
+                    display: block;
+                    clear: both;
+                }
+                *[class].left {
+                    text-align: left !important;
+                }
+                *[class].devicewidth {
+                    width: 300px !important;
+                }
+                *[class].devicewidthinner {
+                    width: 300px !important;
+                }
+                *[class].img280 {
+                    width: 280px !important;
+                    height: auto;
+                    text-align: center !important;
+                }
+                *[class].img300 {
+                    width: 300px !important;
+                    height: auto;
+                    text-align: center !important;
+                }
+                 *[class].mobile-team-goal{
+                    text-align: center !important;
+                    padding: 0 0 10px 0 !important;
+                }
+                *[class].mobile-team-goal-2{
+                    text-align: center !important;
+                    padding: 0 0 10px 0 !important;
+                }
+                *[class].mobile-team-goal-3{
+                    text-align: center !important;
+                    padding: 10px 20px !important;
+                }
+                *[class].font-size-20{
+                    font-size: 20px !important;
+                }
+                *[class].font-size-10{
+                    font-size: 10px !important;
+                }
+                *[class].font-size-30{
+                    font-size: 30px !important;
+                }
+                *[class].h0{
+                    height: auto !important;
+                    background-color: #ffffff;
+                }
+            }
+            <!-- #cc0000 - lys rød kun top #990000 - Alt andet rødt -->
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f0f0f0; " ><div style="background-color:#f0f0f0; " ><table cellspacing="0" cellpadding="0" border="0" width="100%" id="logo" bgcolor="#FFFFFF" ><tr ><td ><table width="640" cellspacing="0" cellpadding="0" border="0" align="center" class="w300" ><tr ><td ><table align="left" class="w100pct alignc" ><tr ><td style="padding:20px 0px; " class="mktEditable" id="logoet" ><img style="display:block;" border="0" width="129" height="37" src="http://www.postdanmark.dk/da/PublishingImages/Om-os/4_farvet_logo.gif" alt="PostDanmark"></td>
+</tr>
+</table>
+<table align="right" class="w100pct alignc" ><tr ><td class="mktEditable" id="webversion" style="padding:20px 0px; font-size:11px; line-height:15px; letter-spacing:0.025em; font-family:verdana,arial,sans-serif; color:#333333; text-align:right; " valign="top" >Hvis du ikke kan læse denne e-mail, <a style="text-decoration: none; color: #990000;" href="{{system.viewAsWebpageLink}}">klik her</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="66%" bgcolor="#CC0000" style="font-size: 1px; line-height: 1px;" height="8">&nbsp;</td>
+<td width="34%" bgcolor="#E1E1E1" style="font-size: 1px; line-height: 1px;" height="8">&nbsp;</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="20">&nbsp;</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td ><table width="640" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="0" border="0" class="w300" ><tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td id="image1" class="mktEditable img100procent" ><img style="display: block;" src="http://pages.postnord.com/rs/postenab/images/103372_post_mail_kickoff_07_03.jpg" alt="" width="640" height="371"></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #990000;">
+<tr>
+<td width="100%" style="padding: 0px 20px; background-color: #990000;">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #990000;">
+<tr>
+<td width="100%" height="1" style="border-top: #ca0500 1px solid; font-size:0px; line-height:0px">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td style="padding:20px 10px 20px 20px; background-color:#990000; " class="break mobile-team-goal-3" ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td id="header_0" colspan="2" style="font-size:25px; font-family:Verdana, Arial, sans-serif; line-height:30px; color:#ffffff; padding-bottom:7px; " class="mktEditable mobile-team-goal font-size-20" >Målet for dit team {{lead.PN DK Target PM:default=0}}</td>
+</tr>
+<tr ><td class="h" width="50" align="left"><img alt="" style="display:block;" src="http://pages.postnord.com/rs/postenab/images/biletter.png" width="41" height="45"></td>
+<td id="header_1" align="left" style="font-size:12px; font-family:Verdana, Arial, sans-serif; line-height:15px; color:#ffffff; font-weight:normal; " class="mktEditable" >Medarbejderne i det team, der samler flest e-mailpermissions ind pr. mand, vinder en tur i biografen for to personer inkl. popcorn.</td>
+</tr>
+</table>
+</td>
+<td width="130" valign="top" class="break p0 w300" style="padding:16px 25px 0 0; background-color:#990000; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td valign="top" id="header_2" align="right" style="font-size:65px; font-family:Verdana, Arial, sans-serif; line-height:65px; color:#ffe000; " class="mktEditable mobile-team-goal-2" >{{lead.PN DK Realized PM:default=0}}</td>
+</tr>
+<tr ><td id="header_22" align="right" style="font-size:12px; font-family:Verdana, Arial, sans-serif; line-height:16px; color:#ffffff; " class="mktEditable mobile-team-goal-2" >ud af {{lead.PN DK Target PM:default=0}}&nbsp;&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" ><tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td class="mktEditable" id="main_1" align="left" style="padding:20px 20px 10px; color:#990000; font-size:22px; font-family:Verdana, Arial, sans-serif; line-height:26px; " >Godt i gang - trods startvanskeligheder</td>
+</tr>
+<tr ><td class="mktEditable" id="main_2" align="left" style="padding:10px 20px 20px; color:#666666; font-size:13px; font-family:Verdana, Arial, sans-serif; line-height:18px; " >Kære {{lead.First Name}}<br>Tak for indsatsen i vores snabel-a-kampagne.
+      De første e-mailpermissions er allerede tikket ind, men der er stadig langt til målet på de 3.000 permissions.
+      Derfor er det vigtigt, at alle støtter op om indsatsen og tager kontakt til nærmeste leder, hvis der er spørgsmål eller kommentarer.
+      Du har formentlig givet dine medarbejdere den fornødne hjælp og vejledning.
+      Men spørg gerne en ekstra gang, om der er nogen, som stadig har problemer.
+      <br> <br> <strong>I første uge blev det til ialt 19 e-mailpermissions</strong><br> I gennemsnit skal vi indhente 500 e-mailpermissions om ugen for at nå 3.000 styk 26.
+      februar.
+      19 e-mailpermissions i første uge er ikke helt nok – men det er ok og helt i orden (og forståeligt)  med en langsom start, når bare vi når i mål til slut.
+      <br> <br> Tag endelig fat i mig, hvis du har spørgsmål, og hav en rigtig @ uge.<br> <br> Venlig hilsen<br> <br> Anders Mittag</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="20">&nbsp;</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td ><table width="640" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="0" border="0" class="w300" ><tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td class="break w280" style="padding:10px; background-color:#FFFFFF; " valign="top" ><table cellspacing="0" cellpadding="0" border="0" ><tr ><td valign="top" width="100%" bgcolor="#F0F0F0" align="center" style="color:#990000; " ><table cellspacing="0" cellpadding="0" border="0" width="100%" ><tr ><td class="mktEditable" id="main_10" align="left" style="padding:20px 20px 10px; color:#990000; font-size:20px; font-family:Verdana, Arial, sans-serif; line-height:22px; " >Guide til at registrere e-mailpermissions i Salesforce</td>
+</tr>
+<tr ><td class="mktEditable" id="main_111" align="left" style="padding:0px 20px; color:#666666; font-size:13px; font-family:Verdana, Arial, sans-serif; line-height:18px; " >Det er nemt at registrere en e-mailpermission. Alt du skal gøre er:</td>
+</tr>
+<tr ><td class="mktEditable" id="main_1111" align="left" style="padding:0px 20px; color:#666666; font-size:13px; font-family:Verdana, Arial, sans-serif; line-height:18px; " ><ol>
+<li>Find personen i Salesforce ved hj&aelig;lp af en almindelig s&oslash;gning p&aring; navnet</li>
+<li>Verificerer personens eksisterende e-mailadresse, eller skriv personens e-mailadresse i feltet 'E-mail'. Klik herefter p&aring; 'Save'</li>
+<li>V&aelig;lg din afdelings Permission Channel (Sales, Costumer Service, Other). Klik herefter p&aring; 'Save'</li>
+</ol>
+</td>
+</tr>
+<tr ><td class="mktEditable" id="main_11111" align="left" style="padding:0px 20px 20px; color:#666666; font-size:13px; font-family:Verdana, Arial, sans-serif; line-height:18px; " >Se den fulde vejledning med skærmbilleder <a style="color: #990000;" href="http://pages.postnord.com/rs/postenab/images/permission%20Article.pdf">her</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="20">&nbsp;</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td ><table width="640" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="0" border="0" class="w300" ><tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td class="break w300 mktEditable" id="img9" bgcolor="#F0F0F0" align="center" width="300" valign="middle" style="color:#990000; background-color:#ffffff; " ><img style="display: block;" src="http://pages.postnord.com/rs/postenab/images/hvad-er-meningen.png" alt="" width="240" height="191"></td>
+<td class="break w280" style="padding:10px; background-color:#FFFFFF; " valign="top" ><table cellspacing="0" cellpadding="0" border="0" ><tr ><td valign="top" width="100%" bgcolor="#F0F0F0" align="center" style="color:#990000; height:190px; " ><table cellspacing="0" cellpadding="0" border="0" width="100%" ><tr ><td class="mktEditable" id="main_6" align="left" style="padding:20px 20px 10px; color:#990000; font-size:20px; font-family:Verdana, Arial, sans-serif; line-height:24px; " >Sådan spørger du om et @</td>
+</tr>
+<tr ><td class="mktEditable" id="main_7" align="left" style="padding:0px 20px 10px; color:#666666; font-size:13px; font-family:Verdana, Arial, sans-serif; line-height:18px; " >Vil du have relevante emails fra Post Danmark, der viser nye muligheder for dig og din forretning?<br><br> Hvis du er interesseret, skal jeg bare bruge din emailadresse.<br><br> Så får du en tilmeldingsmail, som du skal bekræfte. Den forklarer lidt nærmere om, hvad du siger ja til.<br><br> Er det noget for dig?</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="40">&nbsp;</td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="66%" bgcolor="#CC0000" style="font-size: 1px; line-height: 1px;" height="8">&nbsp;</td>
+<td width="34%" bgcolor="#F0F0F0" style="font-size: 1px; line-height: 1px;" height="8">&nbsp;</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="40">&nbsp;</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

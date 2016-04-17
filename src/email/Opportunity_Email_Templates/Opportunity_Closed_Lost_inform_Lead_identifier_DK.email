@@ -1,0 +1,10 @@
+Hej {!Opportunity.Lead_Identifier__c}
+
+Tak for det lead du har sendt til os vedrørende virksomheden {!Opportunity.Account}.
+
+Sælgeren har nu haft kontakt til kunden, men desværre blev det ikke til en aftale i denne omgang.  
+
+Årsag: {!Opportunity.Reason_Lost__c}
+
+Med venlig hilsen
+PostNord Danmark Salg

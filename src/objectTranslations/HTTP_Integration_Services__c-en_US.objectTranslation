@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>HTTP Integration Services</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Apex Callout Configurations</value>
+    </caseValues>
+    <fields>
+        <help><!-- Name of the client certificate to be sent with the outgoing SOAP message --></help>
+        <label><!-- Client Certificate Name --></label>
+        <name>ClientCertName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Message content type (default text/xml) --></help>
+        <label><!-- Content Type --></label>
+        <name>ContentType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Allows admin to turn the integration on or off at any point --></help>
+        <label><!-- Enabled --></label>
+        <name>Enabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- End point URI of the request --></help>
+        <label><!-- Endpoint --></label>
+        <name>Endpoint__c</name>
+    </fields>
+    <fields>
+        <help><!-- If a standard error node is always provided this should indicate the node name for automatic logging of errors. Format should be the node name followed by @attribute name if required. Ex. ErrorNode@Code --></help>
+        <label><!-- Error Code XML Path --></label>
+        <name>Error_Code_Path__c</name>
+    </fields>
+    <fields>
+        <help><!-- If a standard error node is always provided this should indicate the node name for automatic logging of errors. Format should be the node name followed by @attribute name if required. Ex. ErrorDescription@Info --></help>
+        <label><!-- Error Descripion XML Path --></label>
+        <name>Error_Descripion_Path__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Host request-header field specifies the Internet host and port number of the resource being requested. The Host field value MUST represent the naming authority of the origin server or gateway given by the original URL. --></help>
+        <label><!-- Host --></label>
+        <name>Host__c</name>
+    </fields>
+    <fields>
+        <help><!-- Holds the max number of records to return --></help>
+        <label><!-- Max Records --></label>
+        <name>Max_Records__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of attempts the callout should try again if timeouts occur. Note this should be used with care. A default of 0 is standard. This should only be used when systems timeout very quickly. --></help>
+        <label><!-- Max Retries --></label>
+        <name>Max_Retries__c</name>
+    </fields>
+    <fields>
+        <help><!-- Password to use for authentication. Only used if no Certificate is defined. --></help>
+        <label><!-- Password --></label>
+        <name>Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provider --></label>
+        <name>Provider__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the connected session shold be kept open or closed if the request gets stopped --></help>
+        <label><!-- Request Keep Alive --></label>
+        <name>RequestKeepAlive__c</name>
+    </fields>
+    <fields>
+        <help><!-- (Optional) How the request will be sent, GET, POST etc. --></help>
+        <label><!-- Request Method --></label>
+        <name>RequestMethod__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOAPAction --></label>
+        <name>SOAPAction__c</name>
+    </fields>
+    <fields>
+        <help><!-- (Optional) Name of the service called on the provider --></help>
+        <label><!-- Service Name --></label>
+        <name>Service_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- (Optional) Stores the System ID to send to the external service provider --></help>
+        <label><!-- SystemID --></label>
+        <name>SystemID__c</name>
+    </fields>
+    <fields>
+        <help><!-- (Optional) Set the timeout for the service. This will use the default timeout from Integration Callout Settings if not provided. --></help>
+        <label><!-- Timeout --></label>
+        <name>Timeout__c</name>
+    </fields>
+    <fields>
+        <help><!-- Username to use for authentication. Only used if no Certificate is defined. --></help>
+        <label><!-- UserName --></label>
+        <name>UserName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of the current working version of the service. Optional but advised. Allows parsing code and services to use alternative parsing methods. The version number should reflect the version of the service ON THE ESB, and not in salesforce. The request to --></help>
+        <label><!-- Version --></label>
+        <name>Version__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

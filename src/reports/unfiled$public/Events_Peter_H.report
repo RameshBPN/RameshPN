@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Involved_Party_ID__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>ASSIGNED</field>
+    </columns>
+    <columns>
+        <field>Activity.Status__c</field>
+    </columns>
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>Account.PDK_BE_Cust_Resp_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.PDK_BE_Cust_Resp_Team__c</field>
+    </columns>
+    <currency>DKK</currency>
+    <filter>
+        <criteriaItems>
+            <column>Activity.Activity_Type_std__c</column>
+            <operator>equals</operator>
+            <value>Physical Meeting,Telephone meeting</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.PDK_BE_Cust_Resp_Name__c</column>
+            <operator>equals</operator>
+            <value>Peter Hansen</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Events - Peter H.</name>
+    <params>
+        <name>closed</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>e</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountActivity</reportType>
+    <roleHierarchyFilter>PN_DK</roleHierarchyFilter>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2015-01-05</startDate>
+    </timeFrameFilter>
+</Report>

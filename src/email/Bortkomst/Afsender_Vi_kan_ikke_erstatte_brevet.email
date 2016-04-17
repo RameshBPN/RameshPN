@@ -1,0 +1,84 @@
+<table border="0" cellpadding="0" width="650" cellspacing="0" height="400" >
+<tr valign="top" >
+<td width="460" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="460" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);" face="Arial,Sans-Serif"><font face="Arial,Sans-Serif"><font face="Arial,Sans-Serif"></font></font></font><font style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="SV">
+<p style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt"></p>
+<p style="COLOR: rgb(0,0,0)" align="left"><font face="Arial,Sans-Serif"><font size="2"><font style="COLOR: rgb(0,0,0)">{!Case.Sender__c}</font><br><font style="COLOR: rgb(0,0,0)">{!Case.Sender_Postal_Address_Street__c}&nbsp;</font>{!Case.Sender_Postal_Address_House_Number__c}&nbsp;{!Case.Sender_House_Number_Supplement__c}&nbsp;{!Case.Sender_Postal_Address_Room_Number__c}<br>{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")}{!Case.Sender_Postal_Address_PO_Box__c}</font></font></p>
+<p align="left"><font style="COLOR: rgb(0,0,0)" size="2" face="Arial,Sans-Serif">{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")}{!Case.Sender_Postal_Address_Suburb__c}<br>{!Case.Sender_Postal_Address_Postal_Code__c}&nbsp;</font><font face="Arial, sans-serif"><font size="2"><font face="Arial,Sans-Serif">{!Case.Sender_Postal_Address_City__c}<br>{!Case.Sender_Postal_Address_Country__c}<br></font><br></font></font></p><font size="2" face="Arial, sans-serif">
+<p style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align="left"><br></p></font><font size="2" face="Arial, sans-serif">
+<p style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align="left"><br></p></font>
+<p style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align="left"><br></p>
+<p style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align="left"></p></span></font>
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);" align="left">&nbsp;</p>
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);" align="left">&nbsp;</p>
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);" align="left">&nbsp;</p>
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);" align="left">&nbsp;</p>
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);" align="left">&nbsp;</p>
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);" align="left">&nbsp;</p>
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);" align="left">&nbsp;</p>
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);" align="left">&nbsp;</p>
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);" align="left">&nbsp;</p>
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);" align="left"><span style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB" lang="EN-GB"><strong></strong></span><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);" align="left"></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial,Sans-Serif"><b>VI KAN IKKE ERSTATTE BREVET</b></font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial,Sans-Serif"><b>&nbsp;</b></font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial,Sans-Serif">Vi har undersøgt din efterlysning af brevet med stregkodenummer&nbsp;{!Case.Item_Id__c} sendt {!Case.Submission_date__c} til:</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial, sans-serif"><span style="COLOR: black" lang="EN-GB"></span>&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial,Sans-Serif"></font></p><font face="Arial, sans-serif" size="2"><font style="COLOR: rgb(0,0,0)"></font><span lang="SV">
+<p style="COLOR: rgb(0,0,0)" align="left"></p>
+<p align="left">{!Case.Receiver__c}<br>{!Case.Receiver_Postal_Address_Street__c}&nbsp;{!Case.Receiver_Postal_Address_House_Number__c}&nbsp;{!Case.Receiver_Postal_Address_House_Number_S__c}&nbsp;{!Case.Receiver_Postal_Address_Room_Number__c}</p>
+<p style="COLOR: rgb(0,0,0)" align="left">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c}</p>
+<p style="COLOR: rgb(0,0,0)" align="left"><font style="COLOR: rgb(0,0,0)">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c}<br>{!Case.Receiver_Postal_Address_Postal_Code__c}&nbsp;</font>{!Case.Receiver_Postal_Address_City__c}<br>{!Case.Receiver_Postal_Address_Country__c}</p>
+<p style="COLOR: rgb(0,0,0)" align="left"><br></p>
+<p style="COLOR: rgb(0,0,0)" align="left">Vi har ledt efter brevet, og vi kan desværre ikke finde det. Vi har ingen registreringer af brevet i vores sporingssystem Track &amp; Trace. Vi kan ikke give dig erstatning, da du ikke har en kvittering for, at brevet er sendt med Post Danmark.</p></span>
+</font><p style="color: rgb(0, 0, 0);" align="left"><font face="Arial, sans-serif" size="2"><span style="COLOR: black" lang="EN-GB"></span>&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial,Sans-Serif">Ifølge vores sporingssystem Track og Trace er brevet udleveret til modtager {!Case.Delivery_date__c}. Vi har bedt modtageren om at underskrive en erklæring, om brevet er modtaget eller ej. Vi har ikke modtaget erklæringen retur, og vi betragter derfor brevet som modtaget.</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font face="Arial, sans-serif" size="2"><span style="COLOR: black" lang="EN-GB"></span>&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial,Sans-Serif">Vi kan ikke give dig erstatning, da der er reklameret for sent. Reklamationsfristen er seks måneder fra, at brevet er sendt.</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font face="Arial, sans-serif" size="2"><span style="COLOR: black" lang="EN-GB"></span>&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font face="Arial,Sans-Serif"><font size="2">Vi har ledt efter brevet, og vi kan ikke finde det. Vi har bedt modtageren om at underskrive en erklæring, om brevet er modtaget eller ej. Vi kan ikke give dig erstatning, da vi ikke har modtaget erklæringen retur.<br><span style="COLOR: rgb(0,0,0)">&nbsp;</span></font></font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial,Sans-Serif">Vi har ledt efter brevet i Returposten. Her bliver breve opbevaret, som ikke kunne udleveres til modtager eller afsender. Desværre kan vi ikke finde den. Vi kan ikke give dig erstatning, da vi ikke erstatter almindelige breve ifølge vores forretningsbetingelser.</font></p><p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial,Sans-Serif"><br></font></p><p style="color: rgb(0, 0, 0);" align="left"><font face="Arial, sans-serif" size="2">Vi har kontaktet posten i <b>[modtagerlandet] </b>og bedt dem om at undersøge sagen. &nbsp;Desværre har vi ikke modtaget svar. &nbsp;Vi kan ikke give dig erstatning, da vi ikke erstatter almindelige breve ifølge vores forretningsbetingelser.</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font face="Arial, sans-serif" size="2"><span style="COLOR: black" lang="EN-GB"></span>&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial,Sans-Serif">Da posten i <b>[modtagerland] </b>ikke behandler efterlysninger af almindelige breve, har vi kun haft mulighed for at lede efter brevet her i landet. Vi har ledt efter brevet i Returposten. Her bliver breve opbevaret, som ikke kunne udleveres til modtager eller afsender. Desværre kan vi ikke finde brevet. Ifølge vores forretningsbetingelser erstatter vi ikke almindelige breve.</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial, sans-serif"><span style="COLOR: black" lang="EN-GB"></span>&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial,Sans-Serif">Du kan finde mere information i forretningsbetingelserne på vores hjemmeside www.postdanmark.dk</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font face="Arial, sans-serif" size="2"><span style="COLOR: black" lang="EN-GB"></span>&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial,Sans-Serif"></font></p>
+<div><span class="909551612-13012016"></span><font face="Arial"><font size="2">H<span class="909551612-13012016">vis du mener, at den trufne afgørelse ikke er i 
+overensstemmelse med vores forretningsbetingelser, kan du&nbsp;indbringe&nbsp;den&nbsp;til 
+PostNord Danmarks Ankefunktion, Carsten Niebuhrs Gade 4, 2.&nbsp; 1577 København V 
+eller sende en mail til&nbsp;<a href="mailto:ankesager@post.dk"><u>ankesager@post.dk</u></a><font color="#000000"> 
+</font></span></font><font color="#0000ff"><font size="2"><span class="909551612-13012016"></span></font></font></font></div>
+<p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial,Sans-Serif">Vi undskylder ulejligheden, du har haft på grund af sagen.</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial,Sans-Serif"></font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font face="Arial, sans-serif" size="2"><span style="COLOR: black" lang="EN-GB"></span>&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><span style="COLOR: black" lang="EN-GB"><font size="2" face="Arial,Sans-Serif">Med venlig hilsen</font></span></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font face="Arial, sans-serif" size="2"><span style="color: black;" lang="EN-GB"></span>&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0);" align="left"><font size="2" face="Arial,Sans-Serif"></font></p><span style="color: rgb(0, 0, 0);" lang="EN-GB"><font face="Arial, sans-serif" size="2">
+<p align="left"><br></p>
+<p align="left"></p>
+<p align="left">{!Case.OwnerFirstName} {!Case.OwnerLastName}</p>
+<p align="left">{!Case.OwnerTitle}</p>
+<p align="left"></p>
+<p align="left"></p>
+<p style="color: black;" align="left"><!--?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /--><!--?xml:namespace prefix = o /--><o:p></o:p>&nbsp;</p></font></span>]]></td>
+</tr>
+</table>
+</td>
+<td width="10" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<![CDATA[]]></td>
+<td width="180" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="180" cellspacing="5" height="400" >
+<tr valign="top" height="100" >
+<td rowspan="3" width="180" tEditID="c2r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c2r1" locked="0" >
+<![CDATA[<P align=left><FONT size=1 face="Arial, sans-serif">{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>Tlf {!User.Department_Phone__c}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}</FONT></P>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

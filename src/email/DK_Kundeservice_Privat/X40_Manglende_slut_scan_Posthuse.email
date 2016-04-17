@@ -1,0 +1,28 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2" style="color: rgb(0, 0, 0);">Til Posthuse &nbsp; </font><font face="Verdana, Helvetica, sans-serif" size="2" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</font><font face="Verdana, Helvetica, sans-serif" size="2">Dato {!Today}</font></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><span style="font-family: Verdana, Helvetica, sans-serif; font-size: small;">&nbsp;</span></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><br></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2">Manglende afslutnings scan på forsendelse.<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0);"><font face="Verdana, Helvetica, sans-serif" size="2"><font face="arial" size="3" style="font-size: 12pt; font-family: arial;">&nbsp; &nbsp; </font><font>&nbsp; Pakke nummer:&nbsp;</font>{!Case.Item_Id__c}<font>&nbsp; &nbsp; &nbsp; </font><font face="arial" size="3" style="font-size: 12pt; font-family: arial;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<o:p></o:p></font></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2">Kunden oplyser at pakken er udleveret, men
+kunden får stadigvæk besked om at afhente pakken.<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2">Posthuse bedes lave et afslutnings scan på
+pakken, så kunden ikke modtagere flere adviseringer om at hente pakken.<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2">Med venlig hilsen<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2">Kundelinjen</font></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font face="Verdana, Helvetica, sans-serif" size="2"><br></font></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0); margin-left: 18pt;"><font size="1"><span style="font-family: Verdana, Helvetica, sans-serif;">Case nummer: {!Case.Main_Case_Number__c} &nbsp;</span><font face="Verdana, Helvetica, sans-serif">&nbsp;</font></font><font color="#ff0000" style="font-size: 12pt; font-style: italic; font-family: arial;"><o:p></o:p></font></p>]]></td>
+</tr>
+</table>

@@ -1,0 +1,1874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Employee No. --></label>
+        <name>ANSTNR__c</name>
+    </fields>
+    <fields>
+        <label><!-- ARB_TFN --></label>
+        <name>ARB_TFN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Country --></label>
+        <name>Account_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Involved Party ID --></label>
+        <name>Account_Involved_Party_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Text --></label>
+        <name>Account_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activities --></label>
+        <name>Activities__c</name>
+        <picklistValues>
+            <masterLabel>DR magazine</masterLabel>
+            <translation><!-- DR magazine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M.fl.</masterLabel>
+            <translation><!-- M.fl. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Marketing Activities</masterLabel>
+            <translation><!-- Other Marketing Activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seasonal Greeting</masterLabel>
+            <translation><!-- Seasonal Greeting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Additional Email Address --></label>
+        <name>Additional_Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Phone --></label>
+        <name>Additional_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Breve Behavior --></label>
+        <name>Breve_Behavior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Breve Demographic --></label>
+        <name>Breve_Demographic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Breve Overall --></label>
+        <name>Breve_Overall__c</name>
+    </fields>
+    <fields>
+        <help><!-- Normalised contact mobile phone number (Mobile). --></help>
+        <label><!-- CC Mobile --></label>
+        <name>CC_Mobile__c</name>
+    </fields>
+    <fields>
+        <help><!-- Normalised contact phone number (Phone). --></help>
+        <label><!-- CC Phone --></label>
+        <name>CC_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Task --></label>
+        <name>Campaign_Task__c</name>
+        <picklistValues>
+            <masterLabel>LO DK</masterLabel>
+            <translation><!-- LO DK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO FI</masterLabel>
+            <translation><!-- LO FI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO FI DPD</masterLabel>
+            <translation><!-- LO FI DPD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation><!-- LO NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO SE</masterLabel>
+            <translation><!-- LO SE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME SE</masterLabel>
+            <translation><!-- ME SE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO TASK</masterLabel>
+            <translation><!-- NO TASK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK BE</masterLabel>
+            <translation><!-- PDK BE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK LO</masterLabel>
+            <translation><!-- PDK LO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Campaign description --></label>
+        <name>Campaign_description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign name --></label>
+        <name>Campaign_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>D96</masterLabel>
+            <translation><!-- D96 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timelønnet</masterLabel>
+            <translation><!-- Timelønnet --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Category --></label>
+        <name>Contact_Category__c</name>
+        <picklistValues>
+            <masterLabel>Daily Contact</masterLabel>
+            <translation><!-- Daily Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision Maker</masterLabel>
+            <translation><!-- Decision Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Person ID Counter --></label>
+        <name>Contact_Person_ID_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Person ID --></label>
+        <name>Contact_Person_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Person Newsletter --></label>
+        <name>Contact_Person_Newsletter__c</name>
+        <picklistValues>
+            <masterLabel>Logistik Magasin</masterLabel>
+            <translation><!-- Logistik Magasin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK Direkte - Bureau/Influencer (Seg 4)</masterLabel>
+            <translation><!-- PDK Direkte - Bureau/Influencer (Seg 4) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK Direkte - Business Comm.(Seg 3)</masterLabel>
+            <translation><!-- PDK Direkte - Business Comm.(Seg 3) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK Direkte - E-Commerce(Seg 1)</masterLabel>
+            <translation><!-- PDK Direkte - E-Commerce(Seg 1) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK Direkte - Key Accounts (Seg 5)</masterLabel>
+            <translation><!-- PDK Direkte - Key Accounts (Seg 5) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK Direkte - Marketing (Seg 2)</masterLabel>
+            <translation><!-- PDK Direkte - Marketing (Seg 2) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Person Type --></label>
+        <name>Contact_Person_Type__c</name>
+        <picklistValues>
+            <masterLabel>Lead Contact Person</masterLabel>
+            <translation><!-- Lead Contact Person --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Official</masterLabel>
+            <translation><!-- Official --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PostNord Created</masterLabel>
+            <translation><!-- PostNord Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Shop Created</masterLabel>
+            <translation><!-- Web Shop Created --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact count --></label>
+        <name>Contact_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Code --></label>
+        <name>Cost_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- DK SAP ERP --></label>
+        <name>DK_SAP_ERP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deletion Flag --></label>
+        <name>Deletion_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Country --></label>
+        <name>Employee_Country__c</name>
+        <picklistValues>
+            <masterLabel>DK</masterLabel>
+            <translation><!-- DK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE</masterLabel>
+            <translation><!-- SE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employment Category --></label>
+        <name>Employment_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Advertising Block --></label>
+        <name>External_Advertising_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Contact Person Status --></label>
+        <name>External_Contact_Person_Status__c</name>
+        <picklistValues>
+            <masterLabel>DK:SR7X8</masterLabel>
+            <translation><!-- DK:SR7X8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRAFN</masterLabel>
+            <translation><!-- DK:SRAFN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRANS</masterLabel>
+            <translation><!-- DK:SRANS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRANU</masterLabel>
+            <translation><!-- DK:SRANU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRAON</masterLabel>
+            <translation><!-- DK:SRAON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRASB</masterLabel>
+            <translation><!-- DK:SRASB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRAUT</masterLabel>
+            <translation><!-- DK:SRAUT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRBDU</masterLabel>
+            <translation><!-- DK:SRBDU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRBMR</masterLabel>
+            <translation><!-- DK:SRBMR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRBPF</masterLabel>
+            <translation><!-- DK:SRBPF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRBPN</masterLabel>
+            <translation><!-- DK:SRBPN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRBUD</masterLabel>
+            <translation><!-- DK:SRBUD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRKFS</masterLabel>
+            <translation><!-- DK:SRKFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRKFU</masterLabel>
+            <translation><!-- DK:SRKFU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRKLB</masterLabel>
+            <translation><!-- DK:SRKLB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRKLL</masterLabel>
+            <translation><!-- DK:SRKLL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRKRS</masterLabel>
+            <translation><!-- DK:SRKRS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRKSB</masterLabel>
+            <translation><!-- DK:SRKSB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRMA1</masterLabel>
+            <translation><!-- DK:SRMA1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRMFS</masterLabel>
+            <translation><!-- DK:SRMFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRMIF</masterLabel>
+            <translation><!-- DK:SRMIF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRMIK</masterLabel>
+            <translation><!-- DK:SRMIK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRPAS</masterLabel>
+            <translation><!-- DK:SRPAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRPBS</masterLabel>
+            <translation><!-- DK:SRPBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRPRS</masterLabel>
+            <translation><!-- DK:SRPRS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRPTI</masterLabel>
+            <translation><!-- DK:SRPTI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRDI</masterLabel>
+            <translation><!-- DK:SRRDI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRREV</masterLabel>
+            <translation><!-- DK:SRREV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRFF</masterLabel>
+            <translation><!-- DK:SRRFF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRGF</masterLabel>
+            <translation><!-- DK:SRRGF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRIO</masterLabel>
+            <translation><!-- DK:SRRIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRLB</masterLabel>
+            <translation><!-- DK:SRRLB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRLL</masterLabel>
+            <translation><!-- DK:SRRLL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRNF</masterLabel>
+            <translation><!-- DK:SRRNF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRNR</masterLabel>
+            <translation><!-- DK:SRRNR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRPA</masterLabel>
+            <translation><!-- DK:SRRPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRRI</masterLabel>
+            <translation><!-- DK:SRRRI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRTF</masterLabel>
+            <translation><!-- DK:SRRTF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRVF</masterLabel>
+            <translation><!-- DK:SRRVF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRÅF</masterLabel>
+            <translation><!-- DK:SRRÅF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRURV</masterLabel>
+            <translation><!-- DK:SRURV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST00</masterLabel>
+            <translation><!-- DK:ST00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST10</masterLabel>
+            <translation><!-- DK:ST10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST11</masterLabel>
+            <translation><!-- DK:ST11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST20</masterLabel>
+            <translation><!-- DK:ST20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST200</masterLabel>
+            <translation><!-- DK:ST200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST21</masterLabel>
+            <translation><!-- DK:ST21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST210</masterLabel>
+            <translation><!-- DK:ST210 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST220</masterLabel>
+            <translation><!-- DK:ST220 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST230</masterLabel>
+            <translation><!-- DK:ST230 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST30</masterLabel>
+            <translation><!-- DK:ST30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST31</masterLabel>
+            <translation><!-- DK:ST31 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST32</masterLabel>
+            <translation><!-- DK:ST32 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST40</masterLabel>
+            <translation><!-- DK:ST40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST50</masterLabel>
+            <translation><!-- DK:ST50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST500</masterLabel>
+            <translation><!-- DK:ST500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST51</masterLabel>
+            <translation><!-- DK:ST51 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST55</masterLabel>
+            <translation><!-- DK:ST55 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST56</masterLabel>
+            <translation><!-- DK:ST56 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST60</masterLabel>
+            <translation><!-- DK:ST60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST70</masterLabel>
+            <translation><!-- DK:ST70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST90</masterLabel>
+            <translation><!-- DK:ST90 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST99</masterLabel>
+            <translation><!-- DK:ST99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:STRL</masterLabel>
+            <translation><!-- DK:STRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST00</masterLabel>
+            <translation><!-- FI:ST00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST10</masterLabel>
+            <translation><!-- FI:ST10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST200</masterLabel>
+            <translation><!-- FI:ST200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST400</masterLabel>
+            <translation><!-- FI:ST400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST410</masterLabel>
+            <translation><!-- FI:ST410 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST430</masterLabel>
+            <translation><!-- FI:ST430 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST800</masterLabel>
+            <translation><!-- FI:ST800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST900</masterLabel>
+            <translation><!-- FI:ST900 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST99</masterLabel>
+            <translation><!-- FI:ST99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:STRL</masterLabel>
+            <translation><!-- FI:STRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRA</masterLabel>
+            <translation><!-- NO:SRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRB</masterLabel>
+            <translation><!-- NO:SRB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRC</masterLabel>
+            <translation><!-- NO:SRC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRD</masterLabel>
+            <translation><!-- NO:SRD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRE</masterLabel>
+            <translation><!-- NO:SRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRF</masterLabel>
+            <translation><!-- NO:SRF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRG</masterLabel>
+            <translation><!-- NO:SRG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRH</masterLabel>
+            <translation><!-- NO:SRH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRI</masterLabel>
+            <translation><!-- NO:SRI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRJ</masterLabel>
+            <translation><!-- NO:SRJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRK</masterLabel>
+            <translation><!-- NO:SRK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRL</masterLabel>
+            <translation><!-- NO:SRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRM</masterLabel>
+            <translation><!-- NO:SRM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRN</masterLabel>
+            <translation><!-- NO:SRN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRO</masterLabel>
+            <translation><!-- NO:SRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRP</masterLabel>
+            <translation><!-- NO:SRP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRR</masterLabel>
+            <translation><!-- NO:SRR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRS</masterLabel>
+            <translation><!-- NO:SRS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRT</masterLabel>
+            <translation><!-- NO:SRT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRY</masterLabel>
+            <translation><!-- NO:SRY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRZ</masterLabel>
+            <translation><!-- NO:SRZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:ST00</masterLabel>
+            <translation><!-- NO:ST00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:ST10</masterLabel>
+            <translation><!-- NO:ST10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:ST41</masterLabel>
+            <translation><!-- NO:ST41 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:ST99</masterLabel>
+            <translation><!-- NO:ST99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:ST?</masterLabel>
+            <translation><!-- NO:ST? --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STA</masterLabel>
+            <translation><!-- NO:STA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STBN</masterLabel>
+            <translation><!-- NO:STBN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STDU</masterLabel>
+            <translation><!-- NO:STDU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STFB</masterLabel>
+            <translation><!-- NO:STFB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STFG</masterLabel>
+            <translation><!-- NO:STFG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STFP</masterLabel>
+            <translation><!-- NO:STFP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STFT</masterLabel>
+            <translation><!-- NO:STFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STFU</masterLabel>
+            <translation><!-- NO:STFU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STIA</masterLabel>
+            <translation><!-- NO:STIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STK</masterLabel>
+            <translation><!-- NO:STK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STOP</masterLabel>
+            <translation><!-- NO:STOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STPA</masterLabel>
+            <translation><!-- NO:STPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STRE</masterLabel>
+            <translation><!-- NO:STRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STRL</masterLabel>
+            <translation><!-- NO:STRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STS</masterLabel>
+            <translation><!-- NO:STS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STTA</masterLabel>
+            <translation><!-- NO:STTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STUA</masterLabel>
+            <translation><!-- NO:STUA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STUT</masterLabel>
+            <translation><!-- NO:STUT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STX</masterLabel>
+            <translation><!-- NO:STX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STZ</masterLabel>
+            <translation><!-- NO:STZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST00</masterLabel>
+            <translation><!-- PAN:ST00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST01</masterLabel>
+            <translation><!-- PAN:ST01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST02</masterLabel>
+            <translation><!-- PAN:ST02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST03</masterLabel>
+            <translation><!-- PAN:ST03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST04</masterLabel>
+            <translation><!-- PAN:ST04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST05</masterLabel>
+            <translation><!-- PAN:ST05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST06</masterLabel>
+            <translation><!-- PAN:ST06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST07</masterLabel>
+            <translation><!-- PAN:ST07 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST08</masterLabel>
+            <translation><!-- PAN:ST08 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST09</masterLabel>
+            <translation><!-- PAN:ST09 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST10</masterLabel>
+            <translation><!-- PAN:ST10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST99</masterLabel>
+            <translation><!-- PAN:ST99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:STRL</masterLabel>
+            <translation><!-- PAN:STRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRA</masterLabel>
+            <translation><!-- SE:SRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRB</masterLabel>
+            <translation><!-- SE:SRB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRC</masterLabel>
+            <translation><!-- SE:SRC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRD</masterLabel>
+            <translation><!-- SE:SRD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRE</masterLabel>
+            <translation><!-- SE:SRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRF</masterLabel>
+            <translation><!-- SE:SRF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRG</masterLabel>
+            <translation><!-- SE:SRG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRH</masterLabel>
+            <translation><!-- SE:SRH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRI</masterLabel>
+            <translation><!-- SE:SRI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRJ</masterLabel>
+            <translation><!-- SE:SRJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRK</masterLabel>
+            <translation><!-- SE:SRK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRL</masterLabel>
+            <translation><!-- SE:SRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRM</masterLabel>
+            <translation><!-- SE:SRM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRN</masterLabel>
+            <translation><!-- SE:SRN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRP</masterLabel>
+            <translation><!-- SE:SRP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRR</masterLabel>
+            <translation><!-- SE:SRR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRV</masterLabel>
+            <translation><!-- SE:SRV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRZ</masterLabel>
+            <translation><!-- SE:SRZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST00</masterLabel>
+            <translation><!-- SE:ST00 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST10</masterLabel>
+            <translation><!-- SE:ST10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST11</masterLabel>
+            <translation><!-- SE:ST11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST12</masterLabel>
+            <translation><!-- SE:ST12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST13</masterLabel>
+            <translation><!-- SE:ST13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST14</masterLabel>
+            <translation><!-- SE:ST14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST15</masterLabel>
+            <translation><!-- SE:ST15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST16</masterLabel>
+            <translation><!-- SE:ST16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST20</masterLabel>
+            <translation><!-- SE:ST20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST25</masterLabel>
+            <translation><!-- SE:ST25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST30</masterLabel>
+            <translation><!-- SE:ST30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST40</masterLabel>
+            <translation><!-- SE:ST40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST41</masterLabel>
+            <translation><!-- SE:ST41 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST42</masterLabel>
+            <translation><!-- SE:ST42 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST43</masterLabel>
+            <translation><!-- SE:ST43 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST50</masterLabel>
+            <translation><!-- SE:ST50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST51</masterLabel>
+            <translation><!-- SE:ST51 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST52</masterLabel>
+            <translation><!-- SE:ST52 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST53</masterLabel>
+            <translation><!-- SE:ST53 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST54</masterLabel>
+            <translation><!-- SE:ST54 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST55</masterLabel>
+            <translation><!-- SE:ST55 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST56</masterLabel>
+            <translation><!-- SE:ST56 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST57</masterLabel>
+            <translation><!-- SE:ST57 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST58</masterLabel>
+            <translation><!-- SE:ST58 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST59</masterLabel>
+            <translation><!-- SE:ST59 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST60</masterLabel>
+            <translation><!-- SE:ST60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST61</masterLabel>
+            <translation><!-- SE:ST61 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST62</masterLabel>
+            <translation><!-- SE:ST62 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST63</masterLabel>
+            <translation><!-- SE:ST63 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST64</masterLabel>
+            <translation><!-- SE:ST64 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST65</masterLabel>
+            <translation><!-- SE:ST65 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST66</masterLabel>
+            <translation><!-- SE:ST66 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST70</masterLabel>
+            <translation><!-- SE:ST70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST71</masterLabel>
+            <translation><!-- SE:ST71 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST90</masterLabel>
+            <translation><!-- SE:ST90 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST99</masterLabel>
+            <translation><!-- SE:ST99 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Provider Party ID --></label>
+        <name>External_Provider_Party_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Provider Party Parent ID --></label>
+        <name>External_Provider_Party_Parent_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Provider Relationship ID --></label>
+        <name>External_Provider_Relationship_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Influence --></label>
+        <name>Influence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Lifecycle Status --></label>
+        <name>Internal_Lifecycle_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passive</masterLabel>
+            <translation><!-- Passive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Org Unit Contact --></label>
+        <name>Is_Org_Unit_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>Language__c</name>
+        <picklistValues>
+            <masterLabel>af</masterLabel>
+            <translation><!-- af --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ar</masterLabel>
+            <translation><!-- ar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bg</masterLabel>
+            <translation><!-- bg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ca</masterLabel>
+            <translation><!-- ca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>cs</masterLabel>
+            <translation><!-- cs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>da</masterLabel>
+            <translation><!-- da --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>de</masterLabel>
+            <translation><!-- de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>el</masterLabel>
+            <translation><!-- el --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>en</masterLabel>
+            <translation><!-- en --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>es</masterLabel>
+            <translation><!-- es --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>et</masterLabel>
+            <translation><!-- et --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fi</masterLabel>
+            <translation><!-- fi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fr</masterLabel>
+            <translation><!-- fr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>he</masterLabel>
+            <translation><!-- he --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hr</masterLabel>
+            <translation><!-- hr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hu</masterLabel>
+            <translation><!-- hu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>id</masterLabel>
+            <translation><!-- id --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>is</masterLabel>
+            <translation><!-- is --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>it</masterLabel>
+            <translation><!-- it --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ja</masterLabel>
+            <translation><!-- ja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ko</masterLabel>
+            <translation><!-- ko --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lt</masterLabel>
+            <translation><!-- lt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lv</masterLabel>
+            <translation><!-- lv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ms</masterLabel>
+            <translation><!-- ms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>nl</masterLabel>
+            <translation><!-- nl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>no</masterLabel>
+            <translation><!-- no --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pl</masterLabel>
+            <translation><!-- pl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pt</masterLabel>
+            <translation><!-- pt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ro</masterLabel>
+            <translation><!-- ro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ru</masterLabel>
+            <translation><!-- ru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sk</masterLabel>
+            <translation><!-- sk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sl</masterLabel>
+            <translation><!-- sl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sr</masterLabel>
+            <translation><!-- sr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sv</masterLabel>
+            <translation><!-- sv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>th</masterLabel>
+            <translation><!-- th --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>tr</masterLabel>
+            <translation><!-- tr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>uk</masterLabel>
+            <translation><!-- uk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>zh</masterLabel>
+            <translation><!-- zh --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last PN Synchronized Date --></label>
+        <name>Last_PN_Synchronized_Date__c</name>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Campaign/Telemarketing</masterLabel>
+            <translation><!-- Campaign/Telemarketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Channel</masterLabel>
+            <translation><!-- Digital Channel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation><!-- Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted by Employee</masterLabel>
+            <translation><!-- Submitted by Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Show / Exhibition</masterLabel>
+            <translation><!-- Trade Show / Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webform</masterLabel>
+            <translation><!-- Webform --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Logistics Behavior --></label>
+        <name>Logistics_Behavior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logistics Demographic --></label>
+        <name>Logistics_Demographic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logistics Overall --></label>
+        <name>Logistics_Overall__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logistik Magasin --></label>
+        <name>Logistik_Magasin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Status --></label>
+        <name>Marketing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Contacted</masterLabel>
+            <translation><!-- Contacted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation><!-- Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified</masterLabel>
+            <translation><!-- Qualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unqualified</masterLabel>
+            <translation><!-- Unqualified --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Meddelende Behavior --></label>
+        <name>Meddelende_Behavior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meddelende Demographic --></label>
+        <name>Meddelende_Demographic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meddelende Overall --></label>
+        <name>Meddelende_Overall__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org ID --></label>
+        <name>Org_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origin --></label>
+        <name>Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- PDK Direkte - Bureau/Influencer (Seg 4) --></label>
+        <name>PDK_Direkte_Bureau_Influencer_Seg_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- PDK Direkte - Business Comm. (Seg 3) --></label>
+        <name>PDK_Direkte_Business_Comm_Seg_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- PDK Direkte - E-Commerce (Seg 1) --></label>
+        <name>PDK_Direkte_E_Commerce_Seg_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- PDK Direkte - Key Accounts (Seg 5) --></label>
+        <name>PDK_Direkte_Key_Accounts_Seg_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- PDK Direkte - Marketing (Seg 2) --></label>
+        <name>PDK_Direkte_Marketing_Seg_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- PNCM ID --></label>
+        <name>PNCM_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- PNCM Parent ID --></label>
+        <name>PNCM_Parent_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bureau --></label>
+        <name>PN_DK_Bureau__c</name>
+    </fields>
+    <fields>
+        <label><!-- e-handel --></label>
+        <name>PN_DK_E_Commerce__c</name>
+    </fields>
+    <fields>
+        <label><!-- Events --></label>
+        <name>PN_DK_Events__c</name>
+    </fields>
+    <fields>
+        <label><!-- Breve --></label>
+        <name>PN_DK_Letters__c</name>
+    </fields>
+    <fields>
+        <label><!-- Markedsføring &amp; Reklame --></label>
+        <name>PN_DK_Marketing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pakker &amp; Logistik --></label>
+        <name>PN_DK_Parcels_and_Log__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frimærker --></label>
+        <name>PN_DK_Stamps__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN DK Survey Block --></label>
+        <name>PN_DK_Survey_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN ERP Contact Person ID --></label>
+        <name>PN_ERP_Contact_Person_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Email Block --></label>
+        <name>PN_Email_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Internal Contact Block --></label>
+        <name>PN_Internal_Contact_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Mail Block --></label>
+        <name>PN_Mail_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN_Mark_As_Synced --></label>
+        <name>PN_Mark_As_Synced__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Phone Block --></label>
+        <name>PN_Phone_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN SMS Block --></label>
+        <name>PN_SMS_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronization ErrorReasonCode --></label>
+        <name>PN_Synchronization_ErrorReasonCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronization Error --></label>
+        <name>PN_Synchronization_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronized --></label>
+        <name>PN_Synchronized__c</name>
+    </fields>
+    <fields>
+        <label><!-- PSNNR --></label>
+        <name>PSNNR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permission Channel --></label>
+        <name>Permission_Channel__c</name>
+        <picklistValues>
+            <masterLabel>Opt In - Customer Service</masterLabel>
+            <translation><!-- Opt In - Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt In - Direct Mail</masterLabel>
+            <translation><!-- Opt In - Direct Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt In - Face to Face</masterLabel>
+            <translation><!-- Opt In - Face to Face --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt In - Other</masterLabel>
+            <translation><!-- Opt In - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt In - Sales</masterLabel>
+            <translation><!-- Opt In - Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt In - Webform</masterLabel>
+            <translation><!-- Opt In - Webform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt Out - Customer Service</masterLabel>
+            <translation><!-- Opt Out - Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt Out - E-mail Link</masterLabel>
+            <translation><!-- Opt Out - E-mail Link --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt Out - Other</masterLabel>
+            <translation><!-- Opt Out - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt Out - Sales</masterLabel>
+            <translation><!-- Opt Out - Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt Out - Webform</masterLabel>
+            <translation><!-- Opt Out - Webform --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Permission Channel timestamp --></label>
+        <name>Permission_Channel_timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permission Time stamp --></label>
+        <name>Permission_Time_stamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permission --></label>
+        <name>Permission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personal Interests --></label>
+        <name>Personal_Interests__c</name>
+        <picklistValues>
+            <masterLabel>Art/Literature</masterLabel>
+            <translation><!-- Art/Literature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bicycle</masterLabel>
+            <translation><!-- Bicycle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boating</masterLabel>
+            <translation><!-- Boating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooking</masterLabel>
+            <translation><!-- Cooking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Football</masterLabel>
+            <translation><!-- Football --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garden</masterLabel>
+            <translation><!-- Garden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf</masterLabel>
+            <translation><!-- Golf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ice Hockey</masterLabel>
+            <translation><!-- Ice Hockey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motor Sports</masterLabel>
+            <translation><!-- Motor Sports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Music – Classical</masterLabel>
+            <translation><!-- Music – Classical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Music – Modern</masterLabel>
+            <translation><!-- Music – Modern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outdoor/Recreation</masterLabel>
+            <translation><!-- Outdoor/Recreation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skiing</masterLabel>
+            <translation><!-- Skiing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports</masterLabel>
+            <translation><!-- Sports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Theatre</masterLabel>
+            <translation><!-- Theatre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trot</masterLabel>
+            <translation><!-- Trot --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Post Nord Programmes Behavior --></label>
+        <name>Post_Nord_Programmes_Behavior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Nord Programmes Demographic --></label>
+        <name>Post_Nord_Programmes_Demographic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Nord Programmes Overall --></label>
+        <name>Post_Nord_Programmes_Overall__c</name>
+    </fields>
+    <fields>
+        <label><!-- Psnnr Verification --></label>
+        <name>Psnnr_Verification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sentiment --></label>
+        <name>Sentiment__c</name>
+        <picklistValues>
+            <masterLabel>Negative</masterLabel>
+            <translation><!-- Negative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neutral</masterLabel>
+            <translation><!-- Neutral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive</masterLabel>
+            <translation><!-- Positive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SurveyReminder --></label>
+        <name>TIMBASURVEYS__SurveyReminder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey --></label>
+        <name>TIMBASURVEYS__Survey__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- reminderStringSize --></label>
+        <name>TIMBASURVEYS__reminderStringSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Top Priorities --></label>
+        <name>Top_Priorities__c</name>
+    </fields>
+    <fields>
+        <label><!-- User ID --></label>
+        <name>User_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verified --></label>
+        <name>Verified__c</name>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Scheduled Redial --></label>
+        <name>actimizerdialer__ActimizerCallback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Call Attempts --></label>
+        <name>actimizerdialer__CallAttempts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Redial Date &amp; Time --></label>
+        <name>actimizerdialer__DialTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Owner --></label>
+        <name>actimizerdialer__LockedBy__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Actimizer No Interest Date --></label>
+        <name>actimizerdialer__NoInterestDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer No Interest --></label>
+        <name>actimizerdialer__NoInterest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Notes --></label>
+        <name>actimizerdialer__Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Redial Phone --></label>
+        <name>actimizerdialer__RedialPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Success Date --></label>
+        <name>actimizerdialer__SuccessDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Success --></label>
+        <name>actimizerdialer__Success__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Date --></label>
+        <name>mkto2__Acquisition_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Program Id --></label>
+        <name>mkto2__Acquisition_Program_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Program --></label>
+        <name>mkto2__Acquisition_Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred City --></label>
+        <name>mkto2__Inferred_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Company --></label>
+        <name>mkto2__Inferred_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Country --></label>
+        <name>mkto2__Inferred_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Metropolitan Area --></label>
+        <name>mkto2__Inferred_Metropolitan_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Phone Area Code --></label>
+        <name>mkto2__Inferred_Phone_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Postal Code --></label>
+        <name>mkto2__Inferred_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred State Region --></label>
+        <name>mkto2__Inferred_State_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Score --></label>
+        <name>mkto2__Lead_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Referrer --></label>
+        <name>mkto2__Original_Referrer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Search Engine --></label>
+        <name>mkto2__Original_Search_Engine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Search Phrase --></label>
+        <name>mkto2__Original_Search_Phrase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Source Info --></label>
+        <name>mkto2__Original_Source_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Source Type --></label>
+        <name>mkto2__Original_Source_Type__c</name>
+    </fields>
+    <layouts>
+        <layout>Contact Person</layout>
+        <sections>
+            <label><!-- Customer Numbers in Other Systems --></label>
+            <section>Customer Numbers in Other Systems</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Attributes --></label>
+            <section>Marketing Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Permission Information --></label>
+            <section>Permission Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status --></label>
+            <section>Status</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PostNord Employee</layout>
+        <sections>
+            <label><!-- HR Information --></label>
+            <section>HR Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Book call --></label>
+        <name>Book_call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Telesales Call --></label>
+        <name>Completed_call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>Create_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Contact Call --></label>
+        <name>Log_a_Contact_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Contact Task --></label>
+        <name>New_Contact_Task</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Campaign call --></label>
+        <name>Postpone_call</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Contact Person --></label>
+        <name>Contact_Person</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PostNord Employee --></label>
+        <name>PostNord_Employee</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You must enter a First Name to be able to save a contact person --></errorMessage>
+        <name>Contact_First_Name_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contact persons can only be associated with Work Sites --></errorMessage>
+        <name>Contact_Person_Account_Record_Type_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contact person Type is mandatory --></errorMessage>
+        <name>Contact_Person_Type_is_mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fax Number can&apos;t be more than 30 characters. --></errorMessage>
+        <name>Fax_Nr_Length_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Language is mandatory --></errorMessage>
+        <name>Language_is_mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Last Name can&apos;t be more than 40 characters. --></errorMessage>
+        <name>LastName_Length_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Mobile Phone Number can&apos;t be more than 30 characters. --></errorMessage>
+        <name>Mobile_Phone_Nr_Length_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Permission cannot be given unless there is a valid e-mail address in the field E-mail --></errorMessage>
+        <name>Permission_on_Valid_Email_Address</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Phone Number can&apos;t be more than 30 characters. --></errorMessage>
+        <name>Phone_Nr_Length_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- PostNord Employees can only be associated with the PostNord Org Structure --></errorMessage>
+        <name>PostNord_Emp_Account_Record_Type_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Verified is mandatory --></errorMessage>
+        <name>Verified_is_mandatory</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Survey_Contact_Detail --></label>
+        <name>TIMBASURVEYS__Send_Survey_Contact_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Survey_To_Selected --></label>
+        <name>TIMBASURVEYS__Send_Survey_To_Selected</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- send_survey --></label>
+        <name>TIMBASURVEYS__send_survey</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Telesales_script --></label>
+        <name>Telesales_script</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Call_List --></label>
+        <name>actimizerdialer__Add_to_Call_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Call_List_PE --></label>
+        <name>actimizerdialer__Add_to_Call_List_PE</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Call_List_from_Detail --></label>
+        <name>actimizerdialer__Add_to_Call_List_from_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CallNow --></label>
+        <name>actimizerdialer__CallNow</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Call_List --></label>
+        <name>actimizerdialer__Create_Call_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Tasks_Contacts --></label>
+        <name>activities__Create_Tasks_Contacts</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- {!Contact.MKTO_Campaign_Name__c} --></description>
+        <name>Campaign_Task_Call_Contact_PDK_LO</name>
+        <subject><!-- Campaign Task - Call Contact - PDK LO --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- {!Contact.MKTO_Campaign_Name__c} --></description>
+        <name>PDK_BE_Campaign_Task_Call_Contact</name>
+        <subject><!-- PN DK Campaign Task - Call Contact --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

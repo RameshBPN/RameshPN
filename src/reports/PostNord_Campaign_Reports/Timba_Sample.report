@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_CNTC_ID</field>
+    </columns>
+    <currency>SEK</currency>
+    <filter>
+        <criteriaItems>
+            <column>TIMBASURVEYS__Survey_Summary__c.TIMBASURVEYS__Complete_Survey_Name__c</column>
+            <operator>contains</operator>
+            <value>marketo</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Timba Sample</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$TIMBASURVEYS__Survey_Summary__c@TIMBASURVEYS__Survey_Summary__c.TIMBASURVEYS__RelatedContact__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

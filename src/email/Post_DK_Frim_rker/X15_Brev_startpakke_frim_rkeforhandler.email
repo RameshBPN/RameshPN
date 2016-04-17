@@ -1,0 +1,79 @@
+<table border="0" cellpadding="0" width="650" cellspacing="0" height="400" >
+<tr valign="top" >
+<td width="460" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="460" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB">{!Case.Account}<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB">{!Case.Postal_Address_Street__c}
+{!Case.Postal_Address_House_Number__c}
+{!Case.Postal_Address_House_Number_Supplement__c}
+{!Case.Postal_Address_Room_Number__c}<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB">{!IF(Case.Postal_Address_PO_Box__c="","","Postboks:")}
+{!Case.Postal_Address_PO_Box__c}<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB">{!IF(!Case.Postal_Address_Suburd__c="Suburb","")}
+{!Case.Postal_Address_Suburd__c}<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;
+mso-ansi-language:EN-GB">{!Case.Postal_Address_Postal_Code__c}
+{!Case.Postal_Address_City__c}<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;mso-ansi-language:EN-GB">{!NullValue(IF(!Case.Postal_Address_Country__c="DK</span><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB">", "\"\")")}
+{!Case.Postal_Address_Country__c}<o:p></o:p></span></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB"><br></span></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB"><br></span></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB"><br></span></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB"><br></span></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB"><br></span></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB"><br></span></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB"><br></span></p><p class="Modtager10" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">Her er kopi af den underskrevne frimærkeforhandleraftale.&nbsp;</font></p><p class="Modtager10" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br></font></p><p class="Modtager10" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">Vi vedlægger desuden nogle skilte, der reklamerer for salg af frimærker. Skiltene har tryk på både for- og bagside. De egner sig derfor fint til at blive placeret på fx indgangsdøre og vinduesruder, hvor de kan ses fra begge sider. Skiltene klæber på forsiden med en ikke-permanent lim, så det er nemt at ta-ge skiltene af igen og placere dem andre steder.</font></p><p class="Modtager10" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br></font></p><p class="Modtager10" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">Forsiden af skiltet (klæbesiden) kan I adskille fra dækpapiret ved at lirke en negl ned i et af hjørnerne, så den tynde skiltefolie løsnes og kan trækkes af dækpapiret.&nbsp;</font></p><p class="Modtager10" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br></font></p><p class="Modtager10" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">Når I bestiller frimærker på https://www2.postdanmark.dk/forhandler, skal I være opmærksom på følgende:</font></p><p class="Modtager10" style="font-size: 12pt; font-family: arial;"></p><ul style="font-size: 12pt; font-family: arial;"><li><font face="Arial, sans-serif" size="2">I må kun bestille frimærker i HELE ark, striber og ruller.</font></li><li><font face="Arial, sans-serif" size="2">Bestillinger på 1.000 kr. og derover afsender vi som &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; rekommanderet brev eller som pakke.</font></li><li><font face="Arial, sans-serif" size="2">Frimærker, som bestilles inden kl.12:00 på hverdage (mandag-fredag), afsender vi som hoved-regel samme dag.</font></li></ul><p style="font-size: 12pt; font-family: arial;"></p><p class="Modtager10" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">Leveringstiden er normalt to hverdage. Leveringstiden til Bornholm vil nor-malt være 3 hverdage.<span class="Apple-tab-span" style="white-space: pre;">	</span></font></p><p class="Modtager10" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br></font></p><p class="Modtager10" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">Med venlig hilsen</font></p><p class="Modtager10" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br></font></p><p class="Modtager10" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br></font></p><p class="Modtager10" style="color: rgb(0, 0, 0);"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">{!Case.OwnerFirstName}
+{!Case.OwnerLastName}</font></span></p><p class="Modtager10" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><br></p><div style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><br></div>]]></td>
+</tr>
+</table>
+</td>
+<td width="10" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<![CDATA[]]></td>
+<td width="180" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="180" cellspacing="5" height="400" >
+<tr valign="top" height="100" >
+<td rowspan="3" width="180" tEditID="c2r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c2r1" locked="0" >
+<![CDATA[<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.CompanyName}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Division}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Department}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Street}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.PostalCode} {!User.City}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">CVR nr.: 26663903<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Company_Webb_Address__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">&nbsp;</font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">Tlf {!User.Department_Phone__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Team_Email__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">&nbsp;</font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">Dato {!Today}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">Sagsnr. {!Case.Main_Case_Number__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">Sagsbeh {!User.Alias}</font><font face="Arial" style="font-size: 8pt;"><o:p></o:p></font></span></p>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

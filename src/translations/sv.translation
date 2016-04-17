@@ -1,0 +1,4502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- QA and Development --></label>
+        <name>G2OPlanning_QA_and_Development</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- PostNord CRM Master --></label>
+        <name>PostNord_CRM_Master</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Requirement Planning with Estimation --></label>
+        <name>Requirement_Planning_with_Estimation</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Service Desk - User Management --></label>
+        <name>Service_Desk_User_Management</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Strategic Account Planning --></label>
+        <name>StrategicAccountPlanning</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- Access Level is higher than Org Wide setting --></label>
+        <name>Access_Level_is_higher_than_Org_Wide_setting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Access Level is lower than Org Wide setting --></label>
+        <name>Access_Level_is_lower_than_Org_Wide_setting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Account Details header --></label>
+        <name>Account_Details_heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Account Has No AccountTeamMember --></label>
+        <name>Account_Has_No_AccountTeamMember</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Account Name --></label>
+        <name>Account_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Account_PopularName --></label>
+        <name>Account_PopularName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Account team members access warning --></label>
+        <name>Account_Team_Access_warning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when whitespacing launched from a parent or orphaned account --></label>
+        <name>Account_Type_Whitespace_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Account already has a parent --></label>
+        <name>Account_already_has_a_parent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Account does not exist --></label>
+        <name>Account_does_not_exist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Account has been marked for deletion --></label>
+        <name>Account_has_been_marked_for_deletion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Action --></label>
+        <name>Action</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Default Team button --></label>
+        <name>Add_Default_Team_btn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Team Member button text --></label>
+        <name>Add_Team_Member_btn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Address --></label>
+        <name>Address</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Admin Case Type Both --></label>
+        <name>Admin_Case_Type_Both</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Admin Case Type Operations --></label>
+        <name>Admin_Case_Type_Operations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Admin_Case_Type_Opportunity_Approval --></label>
+        <name>Admin_Case_Type_Opportunity_Approval</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Admin Case Type Price group --></label>
+        <name>Admin_Case_Type_Price_group</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- All fields must have a value (warning) --></label>
+        <name>All_Fields_Must_Have_A_Value_warning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- All selected accounts must be categorized --></label>
+        <name>All_selected_accounts_must_be_categorized</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Apply Filter --></label>
+        <name>Apply_Filter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Are you sure Confirmation dialogue --></label>
+        <name>Are_you_sure_Confirm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- At least 2 characters are required for FirstName field --></label>
+        <name>At_least_2_characters_are_required_for_FirstName_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- At least 3 characters are required for LastName field, --></label>
+        <name>At_least_3_characters_are_required_for_LastName_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- At least 3 characters are required for Postal Address Street field, --></label>
+        <name>At_least_3_characters_are_required_for_Postal_Address_Street_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Atleast 2 accounts must be selected for Merge --></label>
+        <name>Atleast_2_accounts_must_be_selected_for_Merge</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Atleast One Field Should Be Specified --></label>
+        <name>Atleast_One_Field_Should_Be_Specified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Back --></label>
+        <name>Back</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CC Duplicates Not Allowed --></label>
+        <name>CC_Duplicates_Not_Allowed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel_Search --></label>
+        <name>Cancel_Search</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Case DK Admin RecordType --></label>
+        <name>Case_DK_Admin_RecordType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Case Dequeued --></label>
+        <name>Case_Dequeued</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Case Enqueued --></label>
+        <name>Case_Enqueued</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Case Status Assigned to Queue --></label>
+        <name>Case_Status_Assigned_to_Queue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Case Status Cancelled --></label>
+        <name>Case_Status_Cancelled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Case Status In Progress --></label>
+        <name>Case_Status_In_Progress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Case Status Waiting for Info --></label>
+        <name>Case_Status_Waiting_for_Info</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Checked Radiobutton URL --></label>
+        <name>Checked_Radiobutton_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clear Filters --></label>
+        <name>Clear_Filters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Complaint Case Record --></label>
+        <name>Complaint_Case_Record</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact Create Description --></label>
+        <name>Contact_Create_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact Create No Results --></label>
+        <name>Contact_Create_No_Results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact Results --></label>
+        <name>Contact_Results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Corporate_Registration_Number --></label>
+        <name>Corporate_Registration_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Could not Enrich Account --></label>
+        <name>Could_not_Enrich_Account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Could not Enrich Legal Entity --></label>
+        <name>Could_not_Enrich_Legal_Entity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Could not Enrich Worksite HQ --></label>
+        <name>Could_not_Enrich_Worksite_HQ</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Could not create accounts --></label>
+        <name>Could_not_create_accounts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Could not create contacts --></label>
+        <name>Could_not_create_contacts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create Contacts --></label>
+        <name>Create_Contacts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create New MOD Result Button --></label>
+        <name>Create_New_MOD_Result_Button</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create_Selected --></label>
+        <name>Create_Selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Create_Unverified --></label>
+        <name>Create_Unverified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomConvert_AccessError --></label>
+        <name>CustomConvert_AccessError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomConvert_AccountName --></label>
+        <name>CustomConvert_AccountName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomConvert_CancelButton --></label>
+        <name>CustomConvert_CancelButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomConvert_ContactName --></label>
+        <name>CustomConvert_ContactName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomConvert_ConvertButton --></label>
+        <name>CustomConvert_ConvertButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomConvert Converted Status --></label>
+        <name>CustomConvert_Converted_Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomConvert_Description --></label>
+        <name>CustomConvert_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomConvert_LeadConvertFailed --></label>
+        <name>CustomConvert_LeadConvertFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomConvert Lead Section Header --></label>
+        <name>CustomConvert_Lead_Section_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomConvert_OpportunityName --></label>
+        <name>CustomConvert_OpportunityName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomConvert_RecordOwner --></label>
+        <name>CustomConvert_RecordOwner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CustomConvert_Title --></label>
+        <name>CustomConvert_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Settings not defned --></label>
+        <name>Custom_Settings_not_defned</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generic text for Customer --></label>
+        <name>Customer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Created Hierarchy Title --></label>
+        <name>Customer_Created_Hierarchy_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Search --></label>
+        <name>Customer_Search</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer_Search_ Create --></label>
+        <name>Customer_Search_Create</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Type External --></label>
+        <name>Customer_Type_External</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Type Internal --></label>
+        <name>Customer_Type_Internal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Type PN DK --></label>
+        <name>Customer_Type_PN_DK</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Type PN SE --></label>
+        <name>Customer_Type_PN_SE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer responsible already exists --></label>
+        <name>Customer_responsible_already_exists</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customers_WorkSite_Heading --></label>
+        <name>Customers_WorkSite_Heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default Team Access Error --></label>
+        <name>Default_Team_Access_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete All button --></label>
+        <name>Delete_All_btn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete button --></label>
+        <name>Delete_btn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display Access button --></label>
+        <name>Display_Access_btn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Account Team Member heading text --></label>
+        <name>Edit_Account_Team_Member_heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit button --></label>
+        <name>Edit_btn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty product filter list error for product whitespacing --></label>
+        <name>Empty_product_list_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enrich --></label>
+        <name>Enrich</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enter Details --></label>
+        <name>Enter_Details</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Field Missing --></label>
+        <name>Error_Field_Missing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Insufficient Access --></label>
+        <name>Error_Insufficient_Access</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message City Postcode --></label>
+        <name>Error_Message_City_Postcode</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message Customer Service Product --></label>
+        <name>Error_Message_Customer_Service_Product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message FirstName LastName --></label>
+        <name>Error_Message_FirstName_LastName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error_Message_ItemId --></label>
+        <name>Error_Message_ItemId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message Item Element --></label>
+        <name>Error_Message_Item_Element</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message Name --></label>
+        <name>Error_Message_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error_Message_No_Sender --></label>
+        <name>Error_Message_No_Sender</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message Postal Code --></label>
+        <name>Error_Message_Postal_Code</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message Postal Street --></label>
+        <name>Error_Message_Postal_Street</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error_Message_Potential_Pricebook --></label>
+        <name>Error_Message_Potential_Pricebook</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error_Message_Potential_PricebookEntry --></label>
+        <name>Error_Message_Potential_PricebookEntry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message Sales Area Sweden --></label>
+        <name>Error_Message_Sales_Area_Sweden</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message Shipment Element --></label>
+        <name>Error_Message_Shipment_Element</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message for 1405 --></label>
+        <name>Error_Message_for_1405</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error from Callout --></label>
+        <name>Error_from_Callout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error from External Service --></label>
+        <name>Error_from_External_Service</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error from Salesforce --></label>
+        <name>Error_from_Salesforce</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Errors have been occurred during the reparenting of the related information --></label>
+        <name>Errors_have_been_occurred_during_the_reparenting_of_the_related_information</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Exactly 4 characters are required for PostalCode field --></label>
+        <name>Exactly_4_characters_are_required_for_PostalCode_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ext Contact Request Failed --></label>
+        <name>Ext_Contact_Request_Failed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ext Could Not Create Child Account: --></label>
+        <name>Ext_Could_Not_Create_Child_Account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ext Could Not Create Contacts --></label>
+        <name>Ext_Could_Not_Create_Contacts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ext External Provider Validation (PAR) --></label>
+        <name>Ext_External_Provider_Validation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ext No Results Found --></label>
+        <name>Ext_No_Results_Found</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ext No Selected Worksite --></label>
+        <name>Ext_No_Selected_Worksite</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ext No valid Head Office --></label>
+        <name>Ext_No_valid_Head_Office</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ext Please provide at least one search term --></label>
+        <name>Ext_Please_provide_at_least_one_search_term</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ext Request Failed --></label>
+        <name>Ext_Request_Failed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ext Tech LE Has No ID --></label>
+        <name>Ext_Tech_LE_Has_No_ID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Extension requires customer --></label>
+        <name>Extension_requires_customer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- External Search Results --></label>
+        <name>External_Search_Results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- External_Status --></label>
+        <name>External_Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Filtered By --></label>
+        <name>Filtered_By</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- First --></label>
+        <name>First</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Fwd to Duplicate Account --></label>
+        <name>Fwd_to_Duplicate_Account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Go --></label>
+        <name>Go</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Go Back --></label>
+        <name>Go_Back</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Hide Filters --></label>
+        <name>Hide_Filters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Insufficient Access to delete the Attachemnts on Cases --></label>
+        <name>Insufficient_Access_to_delete_the_Attachemnts_on_Cases</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Involved Party ID --></label>
+        <name>Involved_Party_ID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Last --></label>
+        <name>Last</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Loading --></label>
+        <name>Loading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Locked Down Category --></label>
+        <name>Locked_Down_Category</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MODNoModtagerNumberAndNoInteressantNumber --></label>
+        <name>MODNoModtagerNumberAndNoInteressantNumber</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MODPostalCountryNotSelected --></label>
+        <name>MODPostalCountryNotSelected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MOD Has Existing Accounts --></label>
+        <name>MOD_Has_Existing_Accounts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MOD List of Possible Duplicates --></label>
+        <name>MOD_List_of_Possible_Duplicates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MOD Matching Existing Customers --></label>
+        <name>MOD_Matching_Existing_Customers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MOD No Results --></label>
+        <name>MOD_No_Results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MOD No SFDC Results --></label>
+        <name>MOD_No_SFDC_Results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MOD Possible Duplicates Found --></label>
+        <name>MOD_Possible_Duplicates_Found</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MOD Result --></label>
+        <name>MOD_Result</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MOD Search Problem --></label>
+        <name>MOD_Search_Problem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MOD Search Results --></label>
+        <name>MOD_Search_Results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MOD Validate --></label>
+        <name>MOD_Validate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MOD Validate Country Must be DK --></label>
+        <name>MOD_Validate_Country_Must_be_DK</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Master Category --></label>
+        <name>Master_Category</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Master cant be Flagged for Review --></label>
+        <name>Master_cant_be_Flagged_for_Review</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Record Type: Extension --></label>
+        <name>Missing_Record_Type_Extension</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Account Team Members heading --></label>
+        <name>New_Account_Team_Members_heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Case --></label>
+        <name>New_Case</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Relation Sales Area doesn&apos;t match Detail Accounts --></label>
+        <name>New_Relation_Sales_Area_doesn_t_match_Detail_Accounts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Relation Sales Area doesn&apos;t match Master Accounts --></label>
+        <name>New_Relation_Sales_Area_doesn_t_match_Master_Accounts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next --></label>
+        <name>Next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No RT for Legal Entity --></label>
+        <name>No_RT_for_Legal_Entity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Results Found --></label>
+        <name>No_Results_Found</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No contacts found --></label>
+        <name>No_contacts_found</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Only one customer responsible role is allowed on an account team --></label>
+        <name>Only_One_Customer_Responsible_warning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Only One Payer Per Sales Area --></label>
+        <name>Only_One_Payer_Per_Sales_Area</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Open 24/7 --></label>
+        <name>Open_24_7</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Operation Case Insert Error --></label>
+        <name>Operation_Case_Insert_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opp Approval Status Approved --></label>
+        <name>Opp_Approval_Status_Approved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opp Approval Status Created --></label>
+        <name>Opp_Approval_Status_Created</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opp Approval Status In Progress --></label>
+        <name>Opp_Approval_Status_In_Progress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opp Approval Status Not Started --></label>
+        <name>Opp_Approval_Status_Not_Started</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opp Approval Status Not Started Date --></label>
+        <name>Opp_Approval_Status_Not_Started_Date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opp Approval Status Operation inquiry --></label>
+        <name>Opp_Approval_Status_Operation_inquiry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opp Approval Status Pending Operations --></label>
+        <name>Opp_Approval_Status_Pending_Operations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opp Approval Status Pending Price --></label>
+        <name>Opp_Approval_Status_Pending_Price</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opp Approval Status Pending Sales --></label>
+        <name>Opp_Approval_Status_Pending_Sales</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opp Approval Status Rejected --></label>
+        <name>Opp_Approval_Status_Rejected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opp Status Update Error --></label>
+        <name>Opp_Status_Update_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunity Approval RecordType --></label>
+        <name>Opportunity_Approval_RecordType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunity_Stage_Not_Started --></label>
+        <name>Opportunity_Stage_Not_Started</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Oppty_Lost_Created_Error --></label>
+        <name>Oppty_Lost_Created_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Oppty_Lost_Duplicate --></label>
+        <name>Oppty_Lost_Duplicate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Orphaned contact --></label>
+        <name>Orphaned_contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PAR --></label>
+        <name>PAR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PAR Enrich Dup Record Create Issue --></label>
+        <name>PAR_Enrich_Dup_Record_Create_Issue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PAR_Multiple_LE_Error --></label>
+        <name>PAR_Multiple_LE_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PAR_No_Result --></label>
+        <name>PAR_No_Result</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PAR Result --></label>
+        <name>PAR_Result</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PAR The Customer is already verified --></label>
+        <name>PAR_The_Customer_is_already_verified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PAR Verify --></label>
+        <name>PAR_Verify</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page --></label>
+        <name>Page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page of --></label>
+        <name>Page_of</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Parent WS does not have corresponding SAI --></label>
+        <name>Parent_WS_does_not_have_corresponding_SAI</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Previous --></label>
+        <name>Previous</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Primary Account --></label>
+        <name>Primary_Account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Whitespace title --></label>
+        <name>Product_Whitespace_heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RecordType Account Ext --></label>
+        <name>RecordType_Account_Ext</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RecordType Account LE --></label>
+        <name>RecordType_Account_LE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RecordType Account WS --></label>
+        <name>RecordType_Account_WS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Record Name --></label>
+        <name>Record_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refire 1000 records can be processed at a time --></label>
+        <name>Refire_1000_records_can_be_processed_at_a_time</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refire BLOB is not valid --></label>
+        <name>Refire_BLOB_is_not_valid</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refire Customer Number Header In CSV File --></label>
+        <name>Refire_Customer_Number_Header_In_CSV_File</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refire Customer Number Not Found --></label>
+        <name>Refire_Customer_Number_Not_Found</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refire File Help Text --></label>
+        <name>Refire_File_Help_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refire File Operation Help Text --></label>
+        <name>Refire_File_Operation_Help_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refire Operation Completed --></label>
+        <name>Refire_Operation_Completed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refire Operation Help Text --></label>
+        <name>Refire_Operation_Help_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refire Please enter a valid Involved Party Id --></label>
+        <name>Refire_Please_enter_a_valid_Involved_Party_Id</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refire Please enter an Involved Party Id --></label>
+        <name>Refire_Please_enter_an_Involved_Party_Id</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refire Please select a file --></label>
+        <name>Refire_Please_select_a_file</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refire Please select a valid file --></label>
+        <name>Refire_Please_select_a_valid_file</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refire Please select an operation --></label>
+        <name>Refire_Please_select_an_operation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Result for Customer Search Title --></label>
+        <name>Result_for_Customer_Search_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Results PAR --></label>
+        <name>Results_PAR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SFDC --></label>
+        <name>SFDC</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SFDC Results --></label>
+        <name>SFDC_Results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save To Old Case --></label>
+        <name>Save_To_Old_Case</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search --></label>
+        <name>Search</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No search criteria for contact search --></label>
+        <name>Search_ContactWS_No_search_criteria</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search Contacts --></label>
+        <name>Search_Contacts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search Criteria sub heading on product whitespacing --></label>
+        <name>Search_Criteria_heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search MOD --></label>
+        <name>Search_MOD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Searching External Provider --></label>
+        <name>Searching_External_Provider</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Searching External Provider Contacts --></label>
+        <name>Searching_External_Provider_Contacts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Date Range to Search --></label>
+        <name>Select_Date_Range_to_Search_heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Products to Search --></label>
+        <name>Select_Products_to_Search_heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select for Whitespace --></label>
+        <name>Select_for_Whitespace_heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Selected Sales Area is not present on either account --></label>
+        <name>Selected_Sales_Area_is_not_present_on_either_account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Selected account already Flagged for Review --></label>
+        <name>Selected_account_already_Flagged_for_Review</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Filters --></label>
+        <name>Show_Filters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Survivor Category --></label>
+        <name>Survivor_Category</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timabasurveys_Already_Collected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CRUD Error --></label>
+        <name>TIMBASURVEYS__timabasurveys_CRUD_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timabasurveys_Collector_Chatter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timabasurveys_Invalid_Survey_Id</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timabasurveys_Survey_Collection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Survey Saved Message --></label>
+        <name>TIMBASURVEYS__timabasurveys_Survey_Saved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General error message --></label>
+        <name>TIMBASURVEYS__timabasurveys_Unexpected_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timabasurveys_controller_associated_account_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timabasurveys_field_not_accessible</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timabasurveys_field_not_updateable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timabasurveys_lead_email_not_set_yet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timabasurveys_object_not_accessible</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timabasurveys_object_not_createable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timabasurveys_object_not_deletable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timabasurveys_object_not_updateable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Analyze_Analyze_Items</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Analyze_Anonymous</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Analyze_No_Response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Analyze_View_Summary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Branching_Option_Branching</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Branching_Question_Branching</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Browse_No_Answer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Browse_none</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Collect_Select_Recipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Collect_Send_to</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Collect_Sending_Email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Collect_There_was_error_try_again</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Design_Delete_Page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_DesignerJS_Error_delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_DesignerJS_type_of_question</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Designer_Character_limit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Designer_Do_you_want_delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Designer_In_order_to_add</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_EmailTemplate_New_Survey_Notification</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_EmailTemplate_New_survey_available_CP</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_EmailTemplate_Notification_CP_Published</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Max Weight --></label>
+        <name>TIMBASURVEYS__timbasurvey_Max_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Overview_Error_saveSurvey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Question Points --></label>
+        <name>TIMBASURVEYS__timbasurvey_Points</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resize Image Error --></label>
+        <name>TIMBASURVEYS__timbasurvey_Resize_Image_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Summary_Page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_SurveyList_Clone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_SurveyList_Clone_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_SurveyList_Clone_of</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_SurveyList_Create_New_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_SurveyList_Delete_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_SurveyList_Help_for_this_page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_SurveyList_New_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_SurveyOverview_Title_can_not_be_empty</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_SurveySummary_Email_Not_Available</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_SurveySummary_Not_Available</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Survey_Company</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Survey_Error_please_check_all_fields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Survey_First_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Survey_Last_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Survey_Modify_Responses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Survey_Phone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Survey_Please_Complete_all_the_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Survey_Please_give_us_your_contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Survey_Powered_by</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Survey_Previewing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Survey_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Survey_The_Number_Greater_Than</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Survey_The_Number_Must_Be_Between</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Survey_The_Number_Smaller_Than</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Survey_and</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_Template_Timba_Configuration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total --></label>
+        <name>TIMBASURVEYS__timbasurvey_Total_Weight_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total Weight --></label>
+        <name>TIMBASURVEYS__timbasurvey_Total_weight</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_UserCollection_All</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_cancelfileUpload_error_no_file --></label>
+        <name>TIMBASURVEYS__timbasurvey_cancelfileUpload_error_no_file</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_fileUpload_select_file</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_fileUpload_valid_image</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_overview_Are_u_delete_relation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_questionImage_Alt_text --></label>
+        <name>TIMBASURVEYS__timbasurvey_questionImage_Alt_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_questionImage_Dimensions --></label>
+        <name>TIMBASURVEYS__timbasurvey_questionImage_Dimensions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_questionImage_Heigth --></label>
+        <name>TIMBASURVEYS__timbasurvey_questionImage_Heigth</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_questionImage_Options --></label>
+        <name>TIMBASURVEYS__timbasurvey_questionImage_Options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_questionImage_Position --></label>
+        <name>TIMBASURVEYS__timbasurvey_questionImage_Position</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_questionImage_RemoveImage --></label>
+        <name>TIMBASURVEYS__timbasurvey_questionImage_RemoveImage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_questionImage_Scale --></label>
+        <name>TIMBASURVEYS__timbasurvey_questionImage_Scale</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_questionImage_Width --></label>
+        <name>TIMBASURVEYS__timbasurvey_questionImage_Width</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_questionImage_alignment --></label>
+        <name>TIMBASURVEYS__timbasurvey_questionImage_alignment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_questionImage_applyChange --></label>
+        <name>TIMBASURVEYS__timbasurvey_questionImage_applyChange</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_questionImage_direction_Down --></label>
+        <name>TIMBASURVEYS__timbasurvey_questionImage_direction_Down</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_questionImage_direction_Up --></label>
+        <name>TIMBASURVEYS__timbasurvey_questionImage_direction_Up</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_questionImage_fileUpload --></label>
+        <name>TIMBASURVEYS__timbasurvey_questionImage_fileUpload</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_related_no_related_survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_sendToList_errorEmailBounced</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_sendToList_errorNoAccount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_sendToList_errorNoEmail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyAnalyze_Delete_all</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyAnalyze_Delete_all_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyBrowser_Campaign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyBrowser_Case_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyBrowser_Date_Range</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyBrowser_Dates_Empty</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyBrowser_Expand</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyBrowser_Expiration_Date_Lower_Today</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyBrowser_From_this_date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyBrowser_Report_Operations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyBrowser_Select_Dates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyBrowser_Start_Date_Grater</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyBrowser_To_this_date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyBrowser_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyBrowser_View_Report</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyBrowser_WhoID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyCollect_Analyze</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyCollect_Collect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyCollect_Design</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyCollect_Import_CSV</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyCollect_Overview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyCollect_Print</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyCollect_Print_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyCollect_Publish_only</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyCollect_Send</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyCollect_Send_email_invitation_AND_publish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyCollect_Send_email_invitation_only</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyCollect_Separate_Emails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyCollect_Some_selected_contacts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyCollect_Specify_Emails_Manually</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyDesigner_Error_saveSurvey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyDesigner_Incorrect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyDesigner_Option_Selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyDesigner_Please_add_some_questions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyDesigner_Question_Mapped</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyDesigner_Question_field_map_removed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyDesigner_The_maximum_number_per_page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyDesigner_The_maximum_number_per_survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyDesigner_The_maximum_number_questions_page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyDesigner_This_Page_Empty</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyDesigner_Your_changes_will_be_lost</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyDesigner_saving</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyFiller_Custom_Fill</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyFiller_Next_Page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyFiller_Previous_Page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyFiller_Select_contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyFiller_Select_lead</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyList_Pick_survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveyList_no_surveys_relate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_surveySummary_Delete_all --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveySummary_Delete_all</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Actions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Analyze</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Are_you_sure_you_want_to_clone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Are_you_sure_you_want_to_delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Collect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Company</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_CreatedDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Created_On</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Error_foun_try_again</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Error_found_during_response_erase</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Error_found_to_create</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Failed_to_perform_this_stage_several_times</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Field_merging_reference</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Fill_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Fill_the_Survey_by</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Form_contains_invalid_data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Lead</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_List_of_available</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_New_Feature_Advertising</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_No_surveys_available</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Organization_limit_exceeded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Phone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Preview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Previous</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurvey_surveylist_RedirectURL --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_RedirectURL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Responses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_State</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Storage_limit_exceeded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Survey_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_The_Survey_cannot_be_created</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_The_Survey_name_its_already_taken</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_This_tab_only</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_You_have_to_select_at_least_one_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Your_Survey_has_no_questions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_Your_filled_surveys</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_create</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_error_setting_url</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_msg_clone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_msg_creating</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_msg_delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_msg_delete_bulk_responses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_msg_delete_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_new</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_no</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_surveys</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_these</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_this_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_website</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurvey_surveylist_yes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_001overview_creationdate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_001overview_desc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_001overview_surveyTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_Apply</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_Delete_Question</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_Do_to_continue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_SelectAnOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_TextareaProperties</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_You_are_trying</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_addOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_addPageBranchingLogic</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_addQuestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_allowOnlyNumericalValues</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_ceroEqualsNoLimit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_comment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_deleteCurrentPage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_enableRichTextEditor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbAllFieldsHaveBeenTaken</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbClose</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbDeleteBranching</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbErrorFoundChooseAnotherObject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbErrorFoundContactSupport</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbFieldName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbNoOptionConfigured</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbNoQuestionsFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbObjectName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbOptionBranchingRules</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbQuestionInBranch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbRememberToMapAllRequiredFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbSelectAField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbSelectAnObject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbSelectAnObjectToShowFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbWhenSelectedShows</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbYouMustSelectField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_lbYouMustSelectObject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_maxValue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_minValue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_newOptionTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_newQuestionTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_question</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_questionNotLinkedYet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_questionToFieldMapping</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_questions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_setNumericalRange</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_thisQuestionRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_002surveyDesigner_tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_Back</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_Collecting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_Invitations_sent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_No_Contacts_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_No_Send_only_uninvited</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_None_contacts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_Redirecting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_Select_survey_to_invitations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_Send_Again</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_Send_Invitations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_Send_invitations_again</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_Sorry_daily_mass</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_Success</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_The_following_contacts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_The_list_of</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_Your_survey_has_been_sent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_error_sending_invitations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collect_to_send_survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collector_Send_email_notification</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Collector_Share</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Abb Column --></label>
+        <name>TIMBASURVEYS__timbasurveys_DesignerJS_Col</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_DesignerJS_answer --></label>
+        <name>TIMBASURVEYS__timbasurveys_DesignerJS_answer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_DesignerJS_image --></label>
+        <name>TIMBASURVEYS__timbasurveys_DesignerJS_image</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_DesignerJS_points --></label>
+        <name>TIMBASURVEYS__timbasurveys_DesignerJS_points</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_DesignerJS_properties --></label>
+        <name>TIMBASURVEYS__timbasurveys_DesignerJS_properties</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_DesignerJS_row</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_DesignerJS_weight --></label>
+        <name>TIMBASURVEYS__timbasurveys_DesignerJS_weight</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_DesignerJS_weights --></label>
+        <name>TIMBASURVEYS__timbasurveys_DesignerJS_weights</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_RecipientList_Account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_RecipientList_Email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_RecipientList_Search</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Recipient_Email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Recipient_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_RelatedObject_Change</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_RelatedObject_Current_Object</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_RelatedObject_Delete_Relation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_RelatedObject_No_related_surveys</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_RelatedObject_Others_Related</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_RelatedObject_Relate_with_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_RelatedObject_Select_Survey_Relate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_RelatedObject_Survey_Related_Objects</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Summaries_Next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Summaries_Relate_Surveys</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Summaries_Related_Previous</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Summaries_Related_Survey_Summaries</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Summary_Answer_from</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Summary_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Summary_Page_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Summary_Survey_completed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_Back_to_survey_list</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_Completed_Date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_Survey_Expired_Date --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_Expired_Date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_Filling_out</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_Filling_the_survey_of</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_Finish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_List</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_Survey_No_Active_Survey --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_No_Active_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_Please_Complete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_Select_another</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_Select_another_contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_Select_another_lead</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_Summary_Deleted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_Survey_Saved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_Thank_you</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_The_survey_not_collecting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_You_not_fill_survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_You_not_preview_survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_of</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Survey_page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_Templte_Error_While_Update</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_PDFReport</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_SelectExport</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_Total_Questions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_browseBy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_collapse</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_collapseAll</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_deleteResponses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_excelReport</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_expand</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_expandAll</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_export</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_analyzer_hits --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_hits</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_analyzer_max --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_max</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_analyzer_max_ponderation --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_max_ponderation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_analyzer_noresponses --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_noresponses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_analyzer_option --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_option</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_analyzer_percentage --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_percentage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_analyzer_ponderation --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_ponderation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_questions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_questionsInPage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_questions_not_answered</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_recipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_recipients</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_responses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_surveyStats</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_analyzer_total --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_total</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_analyzer_total_ponderation --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_total_ponderation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_analyzer_value --></label>
+        <name>TIMBASURVEYS__timbasurveys_analyzer_value</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_add_rule</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_an_error_was</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_answer_equals</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_answered</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_are_u_sure</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_are_u_sure_all_rules</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_are_u_sure_not_saved_rules</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_clear_rule</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_condition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_create_branching</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_end_survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_go_to_page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_if_the_question_has_answer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_if_the_question_has_left</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_if_this_option_not_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_if_this_option_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_is_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_one_or</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_page_branching</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_please_save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_please_save_to</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_question</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_the_maximum</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_the_question_structure</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_theres_no</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_unanswered</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_branchingJS_when</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_breadcrumb_close</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_collector_Collect_data_anonymously</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_collector_Help</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_collector_Here_list_contacts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_collector_Not_Collecting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_collector_Note_Only_contacts_displayed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_collector_Publish_Customer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_collector_Select_Contacts_survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_collector_Send_Notification_Again</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_collector_Send_invitations_again</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_collector_Send_notification_portal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_collector_Shared</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_collector_Start_collecting_immediately</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_collector_Survey_Collector</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_collector_chatter_try_again</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_Current_user_Email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_Max_emails_permitted_are_500</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_No_id_Survey_was_provided</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_Number_of_survey_invitations_created_today</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_Number_of_survey_invitations_sent_today</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_Please_select_file_to_upload</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_Some_emails_are_already</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_The_Survey_one_time_only</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_The_contains_not_emails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_The_email_of_the_recipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_The_name_of_the_recipient_is</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_There_is_not_with_id</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_This_file_many_emails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_This_file_not_csv</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_This_file_too_big</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_Timbasurveys_Usage_Notification_robot</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_Usage_Stats_of</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_You_have_modify_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_You_have_new_response</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_You_have_new_response_survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_Your_survey_link_lead</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_Your_survey_link_recipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_controller_Your_survey_link_user</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- language --></label>
+        <name>TIMBASURVEYS__timbasurveys_general_language</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_go_back</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_no_actions_to_undo --></label>
+        <name>TIMBASURVEYS__timbasurveys_no_actions_to_undo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_no_contact_case</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_no_records_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_not_answered</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_off</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_on</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_overview_Author</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_overview_Collected_Responses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_overview_Last_Modified_Date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_overview_Number_Pages</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_overview_Number_questions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_page_branching_restored</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_CommentEssayBox</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_DateAndOrTime</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_DemographicInformationInternational</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_DemographicInformationUS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_DescriptiveText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_Image</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_MatrixOfChoicesMultipleAnswersPerRow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_MatrixOfChoicesOnlyOneAnswerPerRow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_MatrixOfDropDownMenus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_MultipleChoiceMultipleAnswers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_MultipleChoiceSingleAnswer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_MultipleTextboxes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_NumericalTextboxes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_Picklist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_RatingScale</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_questionType_SingleTextbox</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove from recipient list. --></label>
+        <name>TIMBASURVEYS__timbasurveys_remove_link_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveyRelatedObj_Deleting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Add_Recipients</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Allow_multiples</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_An_error_occurred</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_An_error_occurred_invalid_email_address</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_An_error_occurred_send</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_An_error_occurred_send_please_reset</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Anonymous_Collection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_BarChart</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Can_only_add</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Cannot_complete_this</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Cannot_remove_recipient</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Chart_Links</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Clear</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Clear_Not_Sent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Collected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Collecting_Data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Collecting_Since</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Collection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Collection_Parameters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Collection_Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Contacts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Create_Leads</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Create_Leads_from</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Created_On</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Current_Survey_link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Done</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Duplicate_ContactsUsers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Emails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Enable_Expiration_Date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Enable_Notifications</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Error_found_please_try_again</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_General</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Leads</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Loading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Multiples</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_No_answers_yet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Not_recipeint_save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_PieChart</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Please_reset_your</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Please_select_CSV_file</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Please_set_up_standard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Recipients</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Recipients_who_have_not</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Recipients_who_have_recieved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Reset_Email_Template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Responses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Sending</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Sending_Contacts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Sending_Customer_Portal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Sending_Leads</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Sending_Users</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Setup_Standard_Lists</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Sorry_you_have_reached</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Switch_expiration_date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_The_URL_has_been_copied</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_The_customer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_The_customer_portal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_The_email_template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_The_following_contacts_already</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_There_is_no_matches</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Timba_Surveys_Configuration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Total_Recipients</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Users</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_VIEW_MORE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_View_Reply</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Waiting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Wrong_email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_You_limit_to_send_mass_emails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_Your_org_data_storage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_all_recipients</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_are_missing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_are_sure_delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_bounced_email_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_bounced_emails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_customize_email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_email_template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_has_no_account_email_asigned</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_if_create</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_no_account_asigned</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_not_completed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_one_or_more</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_please_set_up</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_please_update</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_send_to_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_set_up_standard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_the_contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_the_info</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_view</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_view_emails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveycollect_wron_email_format</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveyoverview_A_new_Survey_iswaiting_Portal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveyoverview_Default_Email_Invitation_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveyoverview_Please_complete_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveyoverview_Please_complete_Survey_at</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveyoverview_Send_Using_Timba_Surveys</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveyoverview_Send_Using_Workflow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveyoverview_Send_Using_Workflow_Campaign_Members</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveyoverview_Send_Using_Workflow_To_Leads</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveyoverview_Send_Using_Workflow_To_Users</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveyoverview_Surveys_Made_Easy_by_Timba_Surveys</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveyoverview_The_Survey_name_already_exist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveyoverview_This_the_default_email_template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Any_HTML_tags</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Background</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Color_Scheme</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Customer_Evaluation_survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Default_Theme_deleted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Default_Theme_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Done_Edition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_EditCSS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_surveypreview_FontColor --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_FontColor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_surveypreview_FontSize --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_FontSize</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Font_family</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Foreground</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_If_the_size</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_New_Theme</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Only_for_advanced</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Option</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_surveypreview_QuestionSize --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_QuestionSize</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Recommended_size</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Remove_logo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Restore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Save_and_Apply</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_StyleSheet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Success_Save_Msg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_The_Theme_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Theme_Selector</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Theme_name_cannot</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_surveypreview_TitleSize --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_TitleSize</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Upload_logo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_WARNING</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_You_need_at</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_Your_question</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_can_not_edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_can_not_edit_there_are</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_here</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_surveypreview_want_to_save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_tabs_Apply</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_tabs_Edit_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_tabs_analize</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_tabs_collect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_tabs_customize_theme</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_tabs_design</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_tabs_overview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_template_Enable_Log</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_template_Here_you_can</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_template_Site_Available</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_template_Site_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_template_the_site_url</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_then_and_else</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_undo --></label>
+        <name>TIMBASURVEYS__timbasurveys_undo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- timbasurveys_undo_confirmation --></label>
+        <name>TIMBASURVEYS__timbasurveys_undo_confirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - --></label>
+        <name>TIMBASURVEYS__timbasurveys_visible</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- There must be exactly one Master for selected Accounts --></label>
+        <name>There_must_be_exactly_one_Master_for_selected_Accounts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unchecked Radiobutton URL --></label>
+        <name>Unchecked_Radiobutton_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unknown Sales area on case --></label>
+        <name>Unknown_Sales_area_on_case</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Use MOD Result --></label>
+        <name>Use_MOD_Result</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VAP Request MOD Validated --></label>
+        <name>VAP_Request_MOD_Validated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- VAT Number --></label>
+        <name>VAT_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Verified --></label>
+        <name>Verified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Visiting Address --></label>
+        <name>Visiting_Address</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- White Space Product Map heading --></label>
+        <name>White_Space_Product_Map_heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work Site Popular Name --></label>
+        <name>Work_Site_Popular_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work_Site_Registration_Number --></label>
+        <name>Work_Site_Registration_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work Site Type --></label>
+        <name>Work_Site_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work Site Type: Head Office --></label>
+        <name>Work_Site_Type_Head_Office</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work Site Type TY10 --></label>
+        <name>Work_Site_Type_TY10</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work Site Type TY20 --></label>
+        <name>Work_Site_Type_TY20</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work Site Type TY99 --></label>
+        <name>Work_Site_Type_TY99</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You must enter a value for Postal Address City --></label>
+        <name>You_must_enter_a_value_for_Postal_Address_City</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You must select at least one customer to flag for review --></label>
+        <name>You_must_select_at_least_one_customer_to_flag_for_review</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You must select at least one customer to merge --></label>
+        <name>You_must_select_at_least_one_customer_to_merge</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Account Added Plural --></label>
+        <name>actimizerdialer__AccountAdded_Plural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Account Added Singular --></label>
+        <name>actimizerdialer__AccountAdded_Singular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Accounts Already in the Call Queue --></label>
+        <name>actimizerdialer__AccountsAlreadyInCallQueue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add --></label>
+        <name>actimizerdialer__Add</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Campaign Participant --></label>
+        <name>actimizerdialer__AddCampaignParticipant</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Campaign Participants --></label>
+        <name>actimizerdialer__AddCampaignParticipant_Plural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Already in the Call Queue --></label>
+        <name>actimizerdialer__AlreadyInCallQueue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Assigned Users --></label>
+        <name>actimizerdialer__AssignedUsers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Available Users --></label>
+        <name>actimizerdialer__AvailableUsers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage AddSubjects Text --></label>
+        <name>actimizerdialer__CallListPage_AddSubjects_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage ClearAccounts Label --></label>
+        <name>actimizerdialer__CallListPage_ClearAccounts_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage ClearAccounts Tooltip --></label>
+        <name>actimizerdialer__CallListPage_ClearAccounts_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage ClearAll Label --></label>
+        <name>actimizerdialer__CallListPage_ClearAll_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage ClearAll Tooltip --></label>
+        <name>actimizerdialer__CallListPage_ClearAll_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage ClearCampaigns Label --></label>
+        <name>actimizerdialer__CallListPage_ClearCampaigns_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage ClearCampaigns Tooltip --></label>
+        <name>actimizerdialer__CallListPage_ClearCampaigns_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage ClearContacts Label --></label>
+        <name>actimizerdialer__CallListPage_ClearContacts_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage ClearContacts Tooltip --></label>
+        <name>actimizerdialer__CallListPage_ClearContacts_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage ClearLeads Label --></label>
+        <name>actimizerdialer__CallListPage_ClearLeads_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage ClearLeads Tooltip --></label>
+        <name>actimizerdialer__CallListPage_ClearLeads_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage ClearOpportunities Label --></label>
+        <name>actimizerdialer__CallListPage_ClearOpportunities_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage ClearOpportunities Tooltip --></label>
+        <name>actimizerdialer__CallListPage_ClearOpportunities_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage Dialer Label --></label>
+        <name>actimizerdialer__CallListPage_Dialer_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage Dialer Tooltip --></label>
+        <name>actimizerdialer__CallListPage_Dialer_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallListPage Title --></label>
+        <name>actimizerdialer__CallListPage_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallResult BusyLine --></label>
+        <name>actimizerdialer__CallResult_BusyLine</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallResult Contact --></label>
+        <name>actimizerdialer__CallResult_Contact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallResult Contact Converted --></label>
+        <name>actimizerdialer__CallResult_Contact_Converted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallResult Contact NoInterest --></label>
+        <name>actimizerdialer__CallResult_Contact_NoInterest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallResult Contact Redial --></label>
+        <name>actimizerdialer__CallResult_Contact_Redial</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallResult Contact Success --></label>
+        <name>actimizerdialer__CallResult_Contact_Success</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallResult Converted --></label>
+        <name>actimizerdialer__CallResult_Converted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallResult NoAnswer --></label>
+        <name>actimizerdialer__CallResult_NoAnswer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallResult NoCall --></label>
+        <name>actimizerdialer__CallResult_NoCall</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallResult ScheduledRedial --></label>
+        <name>actimizerdialer__CallResult_ScheduledRedial</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallResult Voicemail --></label>
+        <name>actimizerdialer__CallResult_Voicemail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CallTask Subject --></label>
+        <name>actimizerdialer__CallTask_Subject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Added Plural --></label>
+        <name>actimizerdialer__CampaignAdded_Plural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Added Singular --></label>
+        <name>actimizerdialer__CampaignAdded_Singular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Name --></label>
+        <name>actimizerdialer__Campaign_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaigns Already in the Call Queue --></label>
+        <name>actimizerdialer__CampaignsAlreadyInCallQueue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel --></label>
+        <name>actimizerdialer__Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Change Actimizer Owner --></label>
+        <name>actimizerdialer__ChangeActimizerOwner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact Added Plural --></label>
+        <name>actimizerdialer__ContactAdded_Plural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact Added Singular --></label>
+        <name>actimizerdialer__ContactAdded_Singular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contacts Already in the CallQueue --></label>
+        <name>actimizerdialer__ContactsAlreadyInCallQueue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage ConnectToYourPhone Label --></label>
+        <name>actimizerdialer__DialerPage_ConnectToYourPhone_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage ConnectToYourPhone Tooltip --></label>
+        <name>actimizerdialer__DialerPage_ConnectToYourPhone_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage ConvertLead Label --></label>
+        <name>actimizerdialer__DialerPage_ConvertLead_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage ConvertLead Tooltip --></label>
+        <name>actimizerdialer__DialerPage_ConvertLead_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialSubject Label --></label>
+        <name>actimizerdialer__DialerPage_DialSubject_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialSubject Tooltip --></label>
+        <name>actimizerdialer__DialerPage_DialSubject_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerActions Label --></label>
+        <name>actimizerdialer__DialerPage_DialerActions_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerControls Label --></label>
+        <name>actimizerdialer__DialerPage_DialerControls_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerControls Tooltip --></label>
+        <name>actimizerdialer__DialerPage_DialerControls_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerEvents Label --></label>
+        <name>actimizerdialer__DialerPage_DialerEvents_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerEvents Tooltip --></label>
+        <name>actimizerdialer__DialerPage_DialerEvents_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerMessages AgentConnected --></label>
+        <name>actimizerdialer__DialerPage_DialerMessages_AgentConnected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerMessages AgentDialing --></label>
+        <name>actimizerdialer__DialerPage_DialerMessages_AgentDialing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerMessages AgentDisconnected --></label>
+        <name>actimizerdialer__DialerPage_DialerMessages_AgentDisconnected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerMessages AgentFailed --></label>
+        <name>actimizerdialer__DialerPage_DialerMessages_AgentFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerMessages GotLead --></label>
+        <name>actimizerdialer__DialerPage_DialerMessages_GotLead</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerMessages GotRedial --></label>
+        <name>actimizerdialer__DialerPage_DialerMessages_GotRedial</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerMessages InternalError --></label>
+        <name>actimizerdialer__DialerPage_DialerMessages_InternalError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerMessages LeadConnected --></label>
+        <name>actimizerdialer__DialerPage_DialerMessages_LeadConnected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerMessages LeadDialing --></label>
+        <name>actimizerdialer__DialerPage_DialerMessages_LeadDialing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerMessages LeadDisconnected --></label>
+        <name>actimizerdialer__DialerPage_DialerMessages_LeadDisconnected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerMessages LeadTransferring --></label>
+        <name>actimizerdialer__DialerPage_DialerMessages_LeadTransferring</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerMessages NoConnection --></label>
+        <name>actimizerdialer__DialerPage_DialerMessages_NoConnection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerMessages NoMoreTasks --></label>
+        <name>actimizerdialer__DialerPage_DialerMessages_NoMoreTasks</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerMessages ReadyToDial --></label>
+        <name>actimizerdialer__DialerPage_DialerMessages_ReadyToDial</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage DialerStopped --></label>
+        <name>actimizerdialer__DialerPage_DialerStopped</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage EmptyCallList Message --></label>
+        <name>actimizerdialer__DialerPage_EmptyCallList_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty Call Queue --></label>
+        <name>actimizerdialer__DialerPage_EmptyCallQueue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage EndCall Label --></label>
+        <name>actimizerdialer__DialerPage_EndCall_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage EndCall Tooltip --></label>
+        <name>actimizerdialer__DialerPage_EndCall_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage ItemsInCallList Label --></label>
+        <name>actimizerdialer__DialerPage_ItemsInCallList_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage My Campaigns --></label>
+        <name>actimizerdialer__DialerPage_MyCampaigns</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage NoInterestContinue Label --></label>
+        <name>actimizerdialer__DialerPage_NoInterestContinue_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage NoInterestContinue Tooltip --></label>
+        <name>actimizerdialer__DialerPage_NoInterestContinue_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage NoRedialContinue Label --></label>
+        <name>actimizerdialer__DialerPage_NoRedialContinue_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage NoRedialContinue Tooltip --></label>
+        <name>actimizerdialer__DialerPage_NoRedialContinue_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage RecentCalls Label --></label>
+        <name>actimizerdialer__DialerPage_RecentCalls_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage RecentCalls Tooltip --></label>
+        <name>actimizerdialer__DialerPage_RecentCalls_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage ScheduleRedialContinue Label --></label>
+        <name>actimizerdialer__DialerPage_ScheduleRedialContinue_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage ScheduleRedialContinue Tooltip --></label>
+        <name>actimizerdialer__DialerPage_ScheduleRedialContinue_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage ScheduledRedials Label --></label>
+        <name>actimizerdialer__DialerPage_ScheduledRedials_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage ScheduledRedials Tooltip --></label>
+        <name>actimizerdialer__DialerPage_ScheduledRedials_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage StopAfterThisCall Label --></label>
+        <name>actimizerdialer__DialerPage_StopAfterThisCall_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage StopAfterThisCall Tooltip --></label>
+        <name>actimizerdialer__DialerPage_StopAfterThisCall_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage TransferCall Label --></label>
+        <name>actimizerdialer__DialerPage_TransferCall_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage TransferCall Tooltip --></label>
+        <name>actimizerdialer__DialerPage_TransferCall_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage Validation RedialDateTime PastDate --></label>
+        <name>actimizerdialer__DialerPage_Validation_RedialDateTime_PastDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage Validation RedialDateTime Required --></label>
+        <name>actimizerdialer__DialerPage_Validation_RedialDateTime_Required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage VoicemailContinue Label --></label>
+        <name>actimizerdialer__DialerPage_VoicemailContinue_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DialerPage VoicemailContinue Tooltip --></label>
+        <name>actimizerdialer__DialerPage_VoicemailContinue_Tooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit --></label>
+        <name>actimizerdialer__Edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Inaccessible Fields --></label>
+        <name>actimizerdialer__InaccessibleFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Lead Added Plural --></label>
+        <name>actimizerdialer__LeadAdded_Plural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Lead Added Singular --></label>
+        <name>actimizerdialer__LeadAdded_Singular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Leads Already In the Call Queue --></label>
+        <name>actimizerdialer__LeadsAlreadyInCallQueue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next --></label>
+        <name>actimizerdialer__Next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoAccessAccounts --></label>
+        <name>actimizerdialer__NoAccessAccounts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Access to Actimizer Campaign Participants --></label>
+        <name>actimizerdialer__NoAccessActimizerCampaignParticipants</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoAccessContacts --></label>
+        <name>actimizerdialer__NoAccessContacts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Access Leads --></label>
+        <name>actimizerdialer__NoAccessLeads</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoAccessOpportunities --></label>
+        <name>actimizerdialer__NoAccessOpportunities</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Access Task --></label>
+        <name>actimizerdialer__NoAccessTask</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Records Selected --></label>
+        <name>actimizerdialer__NoRecordsSelected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoUpdatePrivileges --></label>
+        <name>actimizerdialer__NoUpdatePrivileges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- None --></label>
+        <name>actimizerdialer__None</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunities Already in the Call Queue --></label>
+        <name>actimizerdialer__OpportunitiesAlreadyInCallQueue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunity Added Plural --></label>
+        <name>actimizerdialer__OpportunityAdded_Plural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunity Added Singular --></label>
+        <name>actimizerdialer__OpportunityAdded_Singular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page --></label>
+        <name>actimizerdialer__Page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Previous --></label>
+        <name>actimizerdialer__Previous</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Record Added --></label>
+        <name>actimizerdialer__RecordAdded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove --></label>
+        <name>actimizerdialer__Remove</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove Long --></label>
+        <name>actimizerdialer__Remove_Long</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save --></label>
+        <name>actimizerdialer__Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Campaign Participant --></label>
+        <name>actimizerdialer__SelectCampaignParticipant</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select New Actimizer Owner --></label>
+        <name>actimizerdialer__SelectNewActimizerOwner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- of --></label>
+        <name>actimizerdialer__of</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Postal_Address_City --></label>
+        <name>alt_Postal_Address_City</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Postal_Address_Country --></label>
+        <name>alt_Postal_Address_Country</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Postal_Address_House_Letter --></label>
+        <name>alt_Postal_Address_House_Letter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Postal_Address_House_Number --></label>
+        <name>alt_Postal_Address_House_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Postal_Address_House_Number_Supplement --></label>
+        <name>alt_Postal_Address_House_Number_Supplement</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Postal_Address_PO_Box --></label>
+        <name>alt_Postal_Address_PO_Box</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Postal_Address_Postal_Code --></label>
+        <name>alt_Postal_Address_Postal_Code</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Postal_Address_Room_Number --></label>
+        <name>alt_Postal_Address_Room_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Postal_Address_Street --></label>
+        <name>alt_Postal_Address_Street</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Postal_Address_Suburb --></label>
+        <name>alt_Postal_Address_Suburb</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Visiting_Address_City --></label>
+        <name>alt_Visiting_Address_City</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Visiting_Address_Country --></label>
+        <name>alt_Visiting_Address_Country</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Visiting_Address_House_Number --></label>
+        <name>alt_Visiting_Address_House_Number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Visiting_Address_House_Number_Supplement --></label>
+        <name>alt_Visiting_Address_House_Number_Supplement</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Visiting_Address_PO_Box --></label>
+        <name>alt_Visiting_Address_PO_Box</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Visiting_Address_Postal_Code --></label>
+        <name>alt_Visiting_Address_Postal_Code</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Visiting_Address_Street --></label>
+        <name>alt_Visiting_Address_Street</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alt_Visiting_Address_Suburb --></label>
+        <name>alt_Visiting_Address_Suburb</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- PN SAP Refire --></label>
+        <name>PN_SAP_Refire</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Person Account Merge --></label>
+        <name>Person_Account_Merge</name>
+    </customTabs>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Accounts with Account Contact Roles --></description>
+        <label><!-- Accounts with Account Contact Roles --></label>
+        <name>Accounts_with_Account_Contact_Roles</name>
+        <sections>
+            <label><!-- Account Contact Roles --></label>
+            <name>Account Contact Roles</name>
+        </sections>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Contacts with Campaigns --></description>
+        <label><!-- Accounts with Contacts with Campaigns --></label>
+        <name>Accounts_with_Contacts_with_Campaigns</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Campaign History --></label>
+            <name>Campaign History</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Leads --></description>
+        <label><!-- Accounts with Leads --></label>
+        <name>Accounts_with_Leads</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Leads --></label>
+            <name>Leads</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Opportunities and Line Items --></description>
+        <label><!-- Accounts with Opportunities and Line Items --></label>
+        <name>Accounts_with_Opportunities_and_Line_Items</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Products --></label>
+            <name>Products</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Possible Duplicate Accounts --></description>
+        <label><!-- Accounts with Possible Duplicate Accounts --></label>
+        <name>Accounts_with_Possible_Duplicate_Accounts</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Possible Duplicate Accounts --></label>
+            <name>Possible Duplicate Accounts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Potential with Potential Product Lines --></description>
+        <label><!-- Accounts with Potential with Potential Product Lines --></label>
+        <name>Accounts_with_Potential_with_Potential_Product_Lines</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Potential --></label>
+            <name>Potential</name>
+        </sections>
+        <sections>
+            <label><!-- Potential Product Lines --></label>
+            <name>Potential Product Lines</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with opportunities --></description>
+        <label><!-- Accounts with opportunities --></label>
+        <name>Accounts_with_opportunities</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with or without activities --></description>
+        <label><!-- Accounts with or without activities --></label>
+        <name>Accounts_with_or_without_activities</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Apex Callout Logs --></description>
+        <label><!-- Apex Callout Logs --></label>
+        <name>Apex_Callout_Logs</name>
+        <sections>
+            <label><!-- Apex Callout Logs --></label>
+            <name>Apex Callout Logs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- CC agent interfaces --></description>
+        <label><!-- CC agent interfaces --></label>
+        <name>CC_agent_interfaces</name>
+        <sections>
+            <label><!-- CC Agent Interfaces --></label>
+            <name>CC Agent Interfaces</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- CaseProducts --></description>
+        <label><!-- CaseProducts --></label>
+        <name>CaseProducts</name>
+        <sections>
+            <label><!-- CaseProducts --></label>
+            <name>CaseProducts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases Enhanced Report Type --></description>
+        <label><!-- Cases Enhanced Report Type --></label>
+        <name>Cases_Enhanced_Report_Type</name>
+        <sections>
+            <label><!-- Appeal Information --></label>
+            <name>Appeal Information</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Compensation Receiver (lookup) Information --></label>
+            <name>Compensation Receiver (lookup) Information</name>
+        </sections>
+        <sections>
+            <label><!-- Customer Address --></label>
+            <name>Customer Address</name>
+        </sections>
+        <sections>
+            <label><!-- Payment of Compensation --></label>
+            <name>Payment of Compensation</name>
+        </sections>
+        <sections>
+            <label><!-- Products/Articles (lookup) Information --></label>
+            <name>Products/Articles (lookup) Information</name>
+        </sections>
+        <sections>
+            <label><!-- Receiver Information --></label>
+            <name>Receiver Information</name>
+        </sections>
+        <sections>
+            <label><!-- Regress Information --></label>
+            <name>Regress Information</name>
+        </sections>
+        <sections>
+            <label><!-- Regress Partner Account (lookup) Information --></label>
+            <name>Regress Partner Account (lookup) Information</name>
+        </sections>
+        <sections>
+            <label><!-- Respondent Org ID (lookup) information --></label>
+            <name>Respondent Org ID (lookup) information</name>
+        </sections>
+        <sections>
+            <label><!-- Responsible for Mistake (lookup) information --></label>
+            <name>Responsible for Mistake (lookup) information</name>
+        </sections>
+        <sections>
+            <label><!-- Sender Information --></label>
+            <name>Sender Information</name>
+        </sections>
+        <sections>
+            <label><!-- VAP Teams - VAP Unit (lookup) --></label>
+            <name>VAP Teams - VAP Unit (lookup)</name>
+        </sections>
+        <sections>
+            <label><!-- VAP Teams Fields --></label>
+            <name>VAP Teams Fields</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Child Records --></description>
+        <label><!-- Cases with Child Records --></label>
+        <name>Cases_with_Child_Records</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Opportunity Information --></description>
+        <label><!-- Cases with Opportunity Information --></label>
+        <name>Cases_with_Opportunity_Information</name>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with Tracking events --></description>
+        <label><!-- Cases with Tracking events --></label>
+        <name>Cases_with_Tracking_events</name>
+        <sections>
+            <label><!-- CaseProducts --></label>
+            <name>CaseProducts</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Tracking Events --></label>
+            <name>Tracking Events</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Cases with revised tracking Event --></description>
+        <label><!-- Cases with revised tracking Event --></label>
+        <name>Cases_with_revised_tracking_Event</name>
+        <sections>
+            <label><!-- CaseProducts --></label>
+            <name>CaseProducts</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter Activity --></description>
+        <label><!-- Chatter Activity --></label>
+        <name>Chatter_Activity</name>
+        <sections>
+            <label><!-- Chatter Activity --></label>
+            <name>Chatter Activity</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter Groups with Group Feed --></description>
+        <label><!-- Chatter Groups with Group Feed --></label>
+        <name>Chatter_Groups_with_Group_Feed</name>
+        <sections>
+            <label><!-- Chatter Group Feed --></label>
+            <name>Chatter Group Feed</name>
+        </sections>
+        <sections>
+            <label><!-- Chatter Groups --></label>
+            <name>Chatter Groups</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter Groups with Group Feed and Comments --></description>
+        <label><!-- Chatter Groups with Group Feed and Comments --></label>
+        <name>Chatter_Groups_with_Group_Feed_and_Comments</name>
+        <sections>
+            <label><!-- Chatter Group Feed --></label>
+            <name>Chatter Group Feed</name>
+        </sections>
+        <sections>
+            <label><!-- Chatter Groups --></label>
+            <name>Chatter Groups</name>
+        </sections>
+        <sections>
+            <label><!-- Comments --></label>
+            <name>Comments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter Groups with Group Members --></description>
+        <label><!-- Chatter Groups with Group Members --></label>
+        <name>Chatter_Groups_with_Group_Members</name>
+        <sections>
+            <label><!-- Chatter Group Members --></label>
+            <name>Chatter Group Members</name>
+        </sections>
+        <sections>
+            <label><!-- Chatter Groups --></label>
+            <name>Chatter Groups</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts with Accounts with ACR --></description>
+        <label><!-- Contacts with Accounts with ACR --></label>
+        <name>Contacts_with_Accounts_with_ACR</name>
+        <sections>
+            <label><!-- Account Contact Roles --></label>
+            <name>Account Contact Roles</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Dashboard overview --></description>
+        <label><!-- Dashboard overview --></label>
+        <name>Dashboard_overview</name>
+        <sections>
+            <label><!-- Dashboards --></label>
+            <name>Dashboards</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Identity Users --></description>
+        <label><!-- Identity Users --></label>
+        <name>Identity_Users</name>
+        <sections>
+            <label><!-- Identity Event Logs (User) --></label>
+            <name>Identity Event Logs (User)</name>
+        </sections>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- JS - Knowledge Article Search by Users --></description>
+        <label><!-- JS - Knowledge Article Search by Users --></label>
+        <name>JS_Knowledge_Article_Search_by_Users</name>
+        <sections>
+            <label><!-- Knowledge Article Searches --></label>
+            <name>Knowledge Article Searches</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Live Agent --></description>
+        <label><!-- Live Agent --></label>
+        <name>Live_Agent</name>
+        <sections>
+            <label><!-- Live Chat Transcript Events --></label>
+            <name>Live Chat Transcript Events</name>
+        </sections>
+        <sections>
+            <label><!-- Live Chat Transcripts --></label>
+            <name>Live Chat Transcripts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Live Agent Sessions --></description>
+        <label><!-- Live Agent Sessions --></label>
+        <name>Live_Agent_Sessions</name>
+        <sections>
+            <label><!-- Live Agent Sessions --></label>
+            <name>Live Agent Sessions</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities w/out Activities --></description>
+        <label><!-- Opportunities w/out Activities --></label>
+        <name>Opportunities_w_out_Activities</name>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunity Approval Process --></description>
+        <label><!-- Opportunity Approval Process --></label>
+        <name>Opportunity_Approval_Process</name>
+        <sections>
+            <label><!-- Process Instance --></label>
+            <name>Process Instance</name>
+        </sections>
+        <sections>
+            <label><!-- Process Instance Node --></label>
+            <name>Process Instance Node</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opps with tasks --></description>
+        <label><!-- Opps with tasks --></label>
+        <name>Opps_with_tasks</name>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Packaged Work Items --></description>
+        <label><!-- Packaged Work Items --></label>
+        <name>Packaged_Work_Items</name>
+        <sections>
+            <label><!-- Release Packages --></label>
+            <name>Release Packages</name>
+        </sections>
+        <sections>
+            <label><!-- Work item --></label>
+            <name>Work item</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Products with or without opportunities --></description>
+        <label><!-- Products with or without opportunities --></label>
+        <name>Products_with_or_without_opportunities</name>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Products --></label>
+            <name>Products</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Release Package and Work items --></description>
+        <label><!-- Release Package and Work items --></label>
+        <name>Release_Package_and_Work_items</name>
+        <sections>
+            <label><!-- Release Packages --></label>
+            <name>Release Packages</name>
+        </sections>
+        <sections>
+            <label><!-- Work item --></label>
+            <name>Work item</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Users with Followers --></description>
+        <label><!-- Users with Followers --></label>
+        <name>Users_with_Followers</name>
+        <sections>
+            <label><!-- Followers --></label>
+            <name>Followers</name>
+        </sections>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Users with User Feed --></description>
+        <label><!-- Users with User Feed --></label>
+        <name>Users_with_User_Feed</name>
+        <sections>
+            <label><!-- User Feed --></label>
+            <name>User Feed</name>
+        </sections>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Users with User Feed and Comments --></description>
+        <label><!-- Users with User Feed and Comments --></label>
+        <name>Users_with_User_Feed_and_Comments</name>
+        <sections>
+            <label><!-- Comments --></label>
+            <name>Comments</name>
+        </sections>
+        <sections>
+            <label><!-- User Feed --></label>
+            <name>User Feed</name>
+        </sections>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+</Translations>

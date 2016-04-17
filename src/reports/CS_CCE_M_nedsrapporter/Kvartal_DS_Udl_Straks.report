@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_43263275</developerName>
+        <masterLabel>Produkter udland</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>FK_$Customer_Service_Product__c.Product_Group__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Breve</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Ankommende Breve udland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Breve, indland, øvrige</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Særlige brevprodukter-EU-lande</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Særlige brevprodukter-Øvrige Europa</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Særlige brevprodukter-Øvrige udland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Europa</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Norge</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Øvrige udland</sourceValue>
+            </sourceValues>
+            <value>Breve udland</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Privatpakke Bulksplit</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Private</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Parcel Economy</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Postpakker</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke Postopkrævning</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke med omdeling</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke uden omdeling</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke uden omdeling, Danmark</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke uden omdeling, Norden</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakker Norden</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakker uden omdeling</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakker med omdeling</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Særlige postpakkeprodukter</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Særlige privatpakkeprodukter m. omdeling</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Særlige privatpakkeprodukter u. omdeling</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Ankommende Pakker Udland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pakker</sourceValue>
+            </sourceValues>
+            <value>Pakker udland</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_76690041</developerName>
+        <masterLabel>Årsag</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Case.Reason__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Bortkomst</sourceValue>
+            </sourceValues>
+            <value>Bortkomst</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Forsinket</sourceValue>
+            </sourceValues>
+            <value>Forsinket</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Beskadiget</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Manglende indhold</sourceValue>
+            </sourceValues>
+            <value>Mgl. indhold / Beskadiget</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <columns>
+        <field>OPEN</field>
+    </columns>
+    <columns>
+        <field>CLOSED</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Kvartalsrapport over alle udendlandske sager hvor vi har sendt frimærker, chokolade etc.</description>
+    <filter>
+        <criteriaItems>
+            <column>FK_$Customer_Service_Product__c.Assortment__c</column>
+            <operator>equals</operator>
+            <value>Afgående Consignment/Direct Entry,Ankommende produkter,Breve Udland,Pakker Udland,Privatpakker</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$Customer_Service_Product__c.Product_Group__c</column>
+            <operator>equals</operator>
+            <value>Breve,Europa,Norge,Pakker,Parcel Economy,Postpakker,Private,Privatpakke Bulksplit,Privatpakker Norden,&quot;Privatpakke uden omdeling, Norden&quot;,Særlige brevprodukter-EU-lande,Særlige brevprodukter-Øvrige Europa,Særlige brevprodukter-Øvrige udland,Øvrige udland</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Is_Main_Case__c</column>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Solution__c</column>
+            <operator>equals</operator>
+            <value>Compensation / Stamps</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_43263275</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.Reason__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.Solution__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Kvartal_DS_Udl_Straks</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList@Case.Product_Article__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSED_DATEONLY</dateColumn>
+        <interval>INTERVAL_PREVQ</interval>
+    </timeFrameFilter>
+</Report>

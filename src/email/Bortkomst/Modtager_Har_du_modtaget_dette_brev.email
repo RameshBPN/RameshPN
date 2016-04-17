@@ -1,0 +1,109 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span lang="EN-GB"><font size="2" style="color: windowtext;"><font face="Arial,Sans-Serif">{!Case.Receiver__c}<!--?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /--><o:p></o:p></font></font></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c} <o:p></o:p></font></font></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c} <o:p></o:p></font></font></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c} <o:p></o:p></font></font></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c} <o:p></o:p></font></font></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Receiver_Postal_Address_Country__c}<o:p></o:p></font></font></span></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><br><strong></strong>&nbsp; </font></p>
+<p align="left" style="color: rgb(0, 0, 0);"></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><strong></strong>&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><strong></strong>&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><strong></strong>&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><strong></strong>&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><strong></strong>&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif"><strong>HAR DU MODTAGET DENNE FORSENDELSE?</strong></font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">Vi skriver til dig for at undersøge, om du har modtaget denne forsendelse fra:</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Sender__c}<o:p></o:p></font></font></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}<o:p></o:p></font></font></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}<o:p></o:p></font></font></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")} {!Case.Sender_Postal_Address_Suburb__c} <o:p></o:p></font></font></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}<o:p></o:p></font></font></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Sender_Postal_Address_Country__c}<o:p></o:p></font></font></span></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">Afsender efterlyser forsendelsen med stregkodenummer {!Case.Item_Id__c}, der er sendt den {!Case.Submission_date__c}.&nbsp;Forsendelsen indeholdt {!Case.Description_of_Content__c}, og vi vil gerne vide, om du har modtaget forsendelsen.</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">Afsender efterlyser forsendelsen med stregkodenummer {!Case.Item_Id__c}, der er sendt den {!Case.Submission_date__c}. Forsendelsen indeholdt {!Case.Description_of_Content__c}. Ifølge vores sporingssystem Track &amp; Trace er den udleveret til dig den&nbsp;{!Case.Delivery_date__c}. Vi vedlægger en udskrift af Track &amp; Trace.</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">Vi beder dig udfylde erklæringen og sende den retur til os inden tre hverdage i vedlagte svarkonvolut. Portoen er betalt. </font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">På forhånd tak for hjælpen.</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">Med venlig hilsen</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">{!Case.OwnerFirstName} {!Case.OwnerLastName}<br><br></font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="mso-char-type: symbol; mso-symbol-font-family: Symbol"><font size="2" face="Arial,Sans-Serif"></font></span></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font face="Arial, sans-serif" size="2"><br><strong><font><font>Erklæring til sagsnummer&nbsp;{!Case.CaseNumber}:<o:p></o:p></font></font></strong></font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;"><o:p><strong><font face="Arial,Sans-Serif" size="2">&nbsp;</font></strong></o:p></span></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">Forsendelsens stregkodenummer {!Case.Item_Id__c}</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">Forsendelsen er sendt den {!Case.Submission_date__c}</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p><font size="2" face="Arial,Sans-Serif" style="color: rgb(0, 0, 0);">
+</font><p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><font size="2" face="Arial,Sans-Serif"><span lang="EN-GB"><span style="mso-char-type: symbol; mso-symbol-font-family: Symbol">§</span></span>&nbsp;Forsendelsen er udleveret den {!Case.Delivery_date__c}</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">Forsendelsens afsender:</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">{!Case.Sender__c}<br>{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}<br>{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}<br>{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")} {!Case.Sender_Postal_Address_Suburb__c} <br>{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}<br>{!Case.Sender_Postal_Address_Country__c}<br>&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">Forsendelsens indhold {!Case.Description_of_Content__c}</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><span style="mso-char-type: symbol; mso-symbol-font-family: Symbol"><a name="Kontrol1"></a><span style="mso-bookmark: Kontrol1"></span><span style="mso-spacerun: yes"></span></span>&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><span style="mso-char-type: symbol; mso-symbol-font-family: Symbol"></span>&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2"><font face="Arial,Sans-Serif"><strong>&nbsp;</strong>Jeg <em>har</em> modtaget den efterlyste forsendelse.</font></font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">Dato for modtagelse af forsendelsen: __________________________</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">Dato:_________ Underskrift: ___________________________</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif"><strong>Tro og love-erklæring på at den efterlyste forsendelse ikke er modtaget.</strong></font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2"><font face="Arial,Sans-Serif"><strong> </strong>Jeg erklærer på tro og love, at jeg/vi ikke har modtaget forsendelsen. Derudover vil jeg/vi straks give besked til Post Danmark, hvis forsendelsen bliver fundet.</font></font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">Dato:_________&nbsp; Underskrift: ___________________________<br></font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p><font color="#000000" size="2" face="Arial,Sans-Serif" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);">
+<p style="MARGIN: 0cm 0cm 0pt" class="MsoNormal" align="left"><span style="FONT-FAMILY: Symbol; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; mso-char-type: symbol; mso-symbol-font-family: Symbol"><span style="mso-char-type: symbol; mso-symbol-font-family: Symbol"></span></span></p></font>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" rowspan="3" aEditID="c2r1" >
+<![CDATA[<P align=left><FONT size=1>{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>Tlf {!User.Department_Phone__c}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}</FONT></P>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

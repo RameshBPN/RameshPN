@@ -1,0 +1,1 @@
+Till {!Case.SuppliedName}! Tack för att du skickar din fråga online. Kundcase-nummer {!Case.CaseNumber}: "{!Case.Subject}" har skapats och en {!Organization.Name}-representant för kundtjänst kommer att svara dig inom kort.     Tack! Kundtjänstgruppen {!Organization.Name}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Case$Status</field>
+    </columns>
+    <columns>
+        <field>Case$Account</field>
+    </columns>
+    <columns>
+        <field>Case$Involved_Party_ID__c</field>
+    </columns>
+    <columns>
+        <field>Case$Opportunity__c</field>
+    </columns>
+    <columns>
+        <field>Case$Opportunity__c.Opportunity_ID__c</field>
+    </columns>
+    <columns>
+        <field>Case$Opportunity__c.Owner</field>
+    </columns>
+    <currency>DKK</currency>
+    <filter>
+        <criteriaItems>
+            <column>Case$Status</column>
+            <operator>equals</operator>
+            <value>Contract lost</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$RecordType</column>
+            <operator>equals</operator>
+            <value>Case.Admin_Activity</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Contract Renewals - Cancelled</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_with_Opportunity_Information__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Case$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

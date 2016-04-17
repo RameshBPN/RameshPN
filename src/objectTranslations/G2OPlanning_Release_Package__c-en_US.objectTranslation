@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Release Package</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Release Packages</value>
+    </caseValues>
+    <fields>
+        <label><!-- Change Set Link --></label>
+        <name>Change_Set_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Set Name(s) --></label>
+        <name>Change_Set_s__c</name>
+    </fields>
+    <fields>
+        <help><!-- Include further instructions, such as moving data (custom settings), appexchange details, alternative config, approval workflows etc. --></help>
+        <label><!-- Config / Other Deployment Notes --></label>
+        <name>Config_Other_Deployment_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deployed to --></label>
+        <name>Deployed_to__c</name>
+        <picklistValues>
+            <masterLabel>AmQA</masterLabel>
+            <translation><!-- AmQA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROD</masterLabel>
+            <translation><!-- PROD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project QA</masterLabel>
+            <translation><!-- Project QA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staging</masterLabel>
+            <translation><!-- Staging --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Release Package Name --></label>
+        <name>Descriptoin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Known Limitations --></label>
+        <name>Known_Limitations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release target --></label>
+        <name>Release_target__c</name>
+        <picklistValues>
+            <masterLabel>2014 / 10</masterLabel>
+            <translation><!-- 2014 / 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2014 / 11</masterLabel>
+            <translation><!-- 2014 / 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2014 / 12</masterLabel>
+            <translation><!-- 2014 / 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2014 / 9</masterLabel>
+            <translation><!-- 2014 / 9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015 / 1</masterLabel>
+            <translation><!-- 2015 / 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015 / 10</masterLabel>
+            <translation><!-- 2015 / 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015 / 11</masterLabel>
+            <translation><!-- 2015 / 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015 / 12</masterLabel>
+            <translation><!-- 2015 / 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015 / 2</masterLabel>
+            <translation><!-- 2015 / 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015 / 3</masterLabel>
+            <translation><!-- 2015 / 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015 / 4</masterLabel>
+            <translation><!-- 2015 / 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015 / 5</masterLabel>
+            <translation><!-- 2015 / 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015 / 6</masterLabel>
+            <translation><!-- 2015 / 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015 / 7</masterLabel>
+            <translation><!-- 2015 / 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015 / 8</masterLabel>
+            <translation><!-- 2015 / 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015 / 9</masterLabel>
+            <translation><!-- 2015 / 9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2016/1</masterLabel>
+            <translation><!-- 2016/1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2016/2</masterLabel>
+            <translation><!-- 2016/2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2016/3</masterLabel>
+            <translation><!-- 2016/3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hyper-Care</masterLabel>
+            <translation><!-- Hyper-Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R1.1</masterLabel>
+            <translation><!-- R1.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R2.0</masterLabel>
+            <translation><!-- R2.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprint 1</masterLabel>
+            <translation><!-- Sprint 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprint 2</masterLabel>
+            <translation><!-- Sprint 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprint 3</masterLabel>
+            <translation><!-- Sprint 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprint 4</masterLabel>
+            <translation><!-- Sprint 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprint 5</masterLabel>
+            <translation><!-- Sprint 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprint 6</masterLabel>
+            <translation><!-- Sprint 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprint 7</masterLabel>
+            <translation><!-- Sprint 7 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Deployed</masterLabel>
+            <translation><!-- Deployed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed Deploy</masterLabel>
+            <translation><!-- Failed Deploy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open for Contributions...</masterLabel>
+            <translation><!-- Open for Contributions... --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Rollback</masterLabel>
+            <translation><!-- Pending Rollback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for deployment</masterLabel>
+            <translation><!-- Ready for deployment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rolled-back</masterLabel>
+            <translation><!-- Rolled-back --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Target --></label>
+        <name>Target__c</name>
+        <picklistValues>
+            <masterLabel>Other (see notes)</masterLabel>
+            <translation><!-- Other (see notes) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production</masterLabel>
+            <translation><!-- Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA</masterLabel>
+            <translation><!-- QA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAT</masterLabel>
+            <translation><!-- UAT --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>AM Release Package Layout</layout>
+        <sections>
+            <label><!-- Components --></label>
+            <section>Components</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Release Package Layout</layout>
+        <sections>
+            <label><!-- Components --></label>
+            <section>Components</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- AM Release --></label>
+        <name>AM_Release</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Environment Creation Instructions --></label>
+        <name>Environment_Creation_Instructions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Future Release --></label>
+        <name>Future_Release</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Project Sprint Release --></label>
+        <name>Sprint_Release</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standing Release Instructions --></label>
+        <name>Standing_Release_Instructions</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

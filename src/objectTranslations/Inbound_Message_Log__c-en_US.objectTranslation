@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Inbound Message Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Inbound Message Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Contact Role --></label>
+        <name>Account_Contact_Role__c</name>
+        <relationshipLabel><!-- Inbound Message Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Inbound Message Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bank Details --></label>
+        <name>Bank_Details__c</name>
+        <relationshipLabel><!-- Inbound Message Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Inbound Message Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Credit Information --></label>
+        <name>Credit_Information__c</name>
+        <relationshipLabel><!-- Inbound Message Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Logs the details about all the inbound changes on record --></help>
+        <label><!-- Inbound Message Details --></label>
+        <name>Inbound_Message_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Involved Party ID --></label>
+        <name>Involved_Party_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship --></label>
+        <name>Relationship__c</name>
+        <relationshipLabel><!-- Inbound Message Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Area Information --></label>
+        <name>Sales_Area_Information__c</name>
+        <relationshipLabel><!-- Inbound Message Logs --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Inbound Message Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>DK Diverse</name>
+    <publicFolderAccess>ReadWrite</publicFolderAccess>
+    <sharedTo>
+        <role>PN_DK_Customer_Service</role>
+        <roleAndSubordinates>PN_DK_KUL_Customer_Service</roleAndSubordinates>
+    </sharedTo>
+</EmailFolder>

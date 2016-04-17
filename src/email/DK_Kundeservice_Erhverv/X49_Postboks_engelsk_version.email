@@ -1,0 +1,47 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><strong><span lang="EN-GB" style="font-family: Arial;"><br></span></strong></p><p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><strong><span lang="EN-GB" style="font-family: Arial;"><br></span></strong></p><p style="margin: 0cm 0cm 0.0001pt;"><strong><span lang="EN-GB" style="font-size: 12pt; font-family: Arial;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span lang="EN-GB"><font face="Arial, sans-serif" size="2"> &nbsp; &nbsp;</font></span></strong><span style="background-color: rgb(255, 255, 255);"><font face="Arial, sans-serif" size="2">Date {!Today}</font></span></p><p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><strong><span lang="EN-GB" style="font-family: Arial;"><br></span></strong></p><p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><strong><span lang="EN-GB" style="font-family: Arial;"><br></span></strong></p><p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><font face="Arial, sans-serif" size="2"><strong><span lang="EN-GB">Dear &nbsp;</span></strong><span style="background-color: white;">{!Case.Account}
+&nbsp;</span><span class="apple-converted-space">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></font></p><p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><strong><span lang="EN-GB"><font face="Arial, sans-serif" size="2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</font></span></strong></p>
+
+<p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">&nbsp;<o:p></o:p></font></span></p>
+
+<p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">We hereby forward papers concerning
+your PO-box. The request is received from<span class="apple-converted-space">&nbsp;</span><strong>(navn)</strong><strong><span style="font-weight: normal;">.</span></strong><o:p></o:p></font></span></p>
+
+<p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">&nbsp;<o:p></o:p></font></span></p>
+
+<p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">•&nbsp;Agreement including terms of
+business marked “KOPI” (your copy)<o:p></o:p></font></span></p>
+
+<p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2"><br>
+•&nbsp;Agreement to be dated and signed<o:p></o:p></font></span></p>
+
+<p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2"><br>
+•&nbsp;Envelope for return of signed agreement<o:p></o:p></font></span></p>
+
+<p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">&nbsp;<o:p></o:p></font></span></p>
+
+<p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">The agreement is to be prepaid once
+a year. Price DKK 840. You will receive an invoice within 1 month.<o:p></o:p></font></span></p>
+
+<p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">&nbsp;<o:p></o:p></font></span></p>
+
+<p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><span lang="EN-GB"><font face="Arial, sans-serif" size="2">Please call, if you have any
+questions about the agreement.<o:p></o:p></font></span></p>
+
+<p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><font face="Arial, sans-serif" size="2"><span lang="EN-GB"><br>
+</span>Yours sincerely,<br></font><span lang="EN-GB" style="font-size: 9pt; font-family: Arial;">{!Case.OwnerFirstName}
+{!Case.OwnerLastName}</span><font face="Arial, sans-serif" size="2"><o:p></o:p></font></p>
+
+<p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><font face="Arial, sans-serif" size="2">Post Danmark<o:p></o:p></font></p>
+
+<p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><span style="font-family: Arial, sans-serif; font-size: small;">&nbsp;</span></p>
+
+<p style="font-size: 12pt; font-family: arial; margin: 0cm 0cm 0.0001pt;"><font face="Arial, sans-serif" size="2">Tel. +45&nbsp; 70 11 12 30<o:p></o:p></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2">CaseNumber: <span style="background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">{!Case.Main_Case_Number__c}</span></font></p>]]></td>
+</tr>
+</table>

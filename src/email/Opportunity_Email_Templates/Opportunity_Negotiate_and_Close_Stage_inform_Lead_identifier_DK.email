@@ -1,0 +1,8 @@
+Hej {!Opportunity.Lead_Identifier__c}
+
+Tak for det lead du har sendt til os vedrørende virksomheden {!Opportunity.Account}.
+
+Sælgeren har nu haft kontakt til kunden. Vi sender dig en endelig besked, når vi har hørt nærmere fra kunden.
+
+Med venlig hilsen
+PostNord Danmark Salg

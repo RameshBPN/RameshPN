@@ -1,0 +1,303 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Postdanmark</title>
+
+<style type="text/css">
+        /* Client-specific Styles */
+        #outlook a {
+            padding: 0;
+        }
+        p{display: none !important;}
+p.ignore{display:inline-block !important;}
+        /* Force Outlook to provide a "view in browser" menu link. */
+        body {
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+        .ExternalClass {
+            width: 100%;
+        }
+        /* Force Hotmail to display emails at full width */
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+            line-height: 100%;} /* Force Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
+            #backgroundTable {
+                margin: 0;
+                padding: 0;
+                width: 100% !important;
+                line-height: 100% !important;
+            }
+            img {
+                outline: none;
+                text-decoration: none;
+                border: none;
+                -ms-interpolation-mode: bicubic;
+            }
+            a img {
+                border: none;
+            }
+            .image_fix {
+                display: block;
+            }
+            p {
+                margin: 0px 0px !important;
+            }
+            table td {
+                border-collapse: collapse;
+            }
+            table {
+                border-collapse: collapse;
+                mso-table-lspace: 0pt;
+                mso-table-rspace: 0pt;
+            }
+            /*a {color: #e95353;text-decoration: none;text-decoration:none!important;}*/
+            /*STYLES*/
+            table[class=full] {
+                width: 100%;
+                clear: both;
+            }
+            @media only screen and (max-width: 500px) {
+                *[class].yahoo_fix {
+                    display: block;
+                }
+                *[class].h0 {
+                    height: 0px !important;
+                }
+                *[class].h1 {
+                    height: 1px !important;
+                }
+                *[class].h2 {
+                    height: 2px !important;
+                }
+                *[class].h10 {
+                    height: 10px !important;
+                }
+                *[class].w280 {
+                    width: 280px !important;
+                }
+                *[class].w300 {
+                    width: 300px !important;
+                }
+                *[class].w100pct {
+                    width: 100% !important;
+                }
+                *[class].fl {
+                    float: left !important;
+                }
+                *[class].fr {
+                    float: right !important;
+                }
+                *[class].h {
+                    display: none !important;
+                }
+                *[class].img100procent img {
+                    width: 100% !important;
+                    height: auto !important;
+                    max-width: 300px !important;
+                }
+                                *[class].img50procent img {
+                    width: 50% !important;
+                    height: auto !important;
+                    max-width: 150px !important;
+                }
+                *[class].mleft10 {
+                    margin-left: 10px;
+                }
+                *[class].p0 {
+                    padding: 0px !important;
+                }
+                *[class].bordertop {
+                    border-top: 1px solid #151515 !important;
+                }
+                *[class].alignl {
+                    text-align: left !important;
+                }
+                *[class].alignc {
+                    text-align: center !important;
+                }
+                *[class].break {
+                    display: block;
+                    clear: both;
+                }
+                *[class].left {
+                    text-align: left !important;
+                }
+                *[class].devicewidth {
+                    width: 300px !important;
+                }
+                *[class].devicewidthinner {
+                    width: 300px !important;
+                }
+                *[class].img280 {
+                    width: 280px !important;
+                    height: auto;
+                    text-align: center !important;
+                }
+                                *[class].img200 {
+                    width: 200px !important;
+                    height: auto;
+                    text-align: center !important;
+                }
+                *[class].img300 {
+                    width: 300px !important;
+                    height: auto;
+                    text-align: center !important;
+                }
+                 *[class].mobile-team-goal{
+                    text-align: center !important;
+                    padding: 0 0 10px 0 !important;
+                }
+                *[class].mobile-team-goal-2{
+                    text-align: center !important;
+                    padding: 0 0 10px 0 !important;
+                }
+                *[class].mobile-team-goal-3{
+                    text-align: center !important;
+                    padding: 10px 20px !important;
+                }
+                *[class].font-size-20{
+                    font-size: 20px !important;
+                }
+                *[class].font-size-10{
+                    font-size: 10px !important;
+                }
+                *[class].font-size-30{
+                    font-size: 30px !important;
+                }
+                *[class].h0{
+                    height: auto !important;
+                    background-color: #ffffff;
+                }
+                                *[class].h0{
+                    height: auto !important;
+                    background-color: #ffffff;
+                }
+            }
+            <!-- #cc0000 - lys rød kun top #990000 - Alt andet rødt -->
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#f0f0f0; " ><div style="background-color:#f0f0f0; " ><table cellspacing="0" cellpadding="0" border="0" width="100%" id="logo" bgcolor="#FFFFFF" ><tr ><td ><table width="640" cellspacing="0" cellpadding="0" border="0" align="center" class="w300" ><tr ><td ><table align="left" class="w100pct alignc" ><tr ><td style="padding:20px 0px; " class="mktEditable" id="logoet" ><img style="display:block;" border="0" width="129" height="37" src="http://www.postdanmark.dk/da/PublishingImages/Om-os/4_farvet_logo.gif" alt="PostDanmark"></td>
+</tr>
+</table>
+<table align="right" class="w100pct alignc" ><tr ><td class="mktEditable" id="webversion" style="padding:20px 0px; font-size:11px; line-height:15px; letter-spacing:0.025em; font-family:verdana,arial,sans-serif; color:#333333; text-align:right; " valign="top" >Hvis du ikke kan læse denne e-mail, <a style="text-decoration: none; color: #990000;" href="{{system.viewAsWebpageLink}}">klik her</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="66%" bgcolor="#CC0000" style="font-size: 1px; line-height: 1px;" height="8">&nbsp;</td>
+<td width="34%" bgcolor="#E1E1E1" style="font-size: 1px; line-height: 1px;" height="8">&nbsp;</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="20">&nbsp;</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td ><table width="640" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="0" border="0" class="w300" ><tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td id="image1" class="mktEditable img100procent" ><img width="640" alt="" style="display:block;" src="http://pages.postnord.com/rs/postenab/images/xxaa.jpg"></td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #990000;">
+<tr>
+<td width="100%" style="padding: 0px 20px; background-color: #990000;">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #990000;">
+<tr>
+<td width="100%" height="1" style="border-top: #ca0500 1px solid; font-size:0px; line-height:0px">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td style="padding:20px 10px 20px 20px; background-color:#990000; " class="break mobile-team-goal-3" ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td id="header_0" colspan="2" style="font-size:25px; font-family:Verdana, Arial, sans-serif; line-height:30px; color:#ffffff; padding-bottom:7px; " class="mktEditable mobile-team-goal font-size-20" >Målet for dit team {{lead.PN DK Target PM:default=0}}</td>
+</tr>
+<tr ><td class="h" width="50" align="left"><img alt="" style="display:block;" src="http://pages.postnord.com/rs/postenab/images/biletter.png" width="41" height="45"></td>
+<td id="header_1" align="left" style="font-size:12px; font-family:Verdana, Arial, sans-serif; line-height:15px; color:#ffffff; font-weight:normal; " class="mktEditable" >Medarbejderne i det team, der samler flest e-mailpermissions pr. mand, vinder en tur i biografen for to personer inklusive popcorn.</td>
+</tr>
+</table>
+</td>
+<td width="130" valign="top" class="break p0 w300" style="padding:16px 25px 0 0; background-color:#990000; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td valign="top" id="header_2" align="right" style="font-size:65px; font-family:Verdana, Arial, sans-serif; line-height:65px; color:#ffe000; " class="mktEditable mobile-team-goal-2" >{{lead.PN DK Realized PM:default=0}}</td>
+</tr>
+<tr ><td id="header_22" align="right" style="font-size:12px; font-family:Verdana, Arial, sans-serif; line-height:16px; color:#ffffff; " class="mktEditable mobile-team-goal-2" >ud af 243&nbsp;&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" ><tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td class="mktEditable" id="main_2" align="left" style="padding:10px 20px 20px; color:#666666; font-size:13px; font-family:Verdana, Arial, sans-serif; line-height:18px; " >Kære {{lead.First Name}}<br><br> Der er nu kun 2 uger tilbage til at få flest e-mail-permissions i hus – og vi er stadig et stykke fra at nå målet.
+     Seneste optælling viser, at vi i Salg og hos Kundelinjen tilsammen har indhentet 243 e-mailpermissions, hvilket stadig er langt fra målet på 3.000.
+      <br> <br> <strong>Gode råd til Salg og KUL – det er da pærelet!</strong><br> Vi har talt med Laila Veldhuis, som er sælger i SME.
+     Hun er én af dem, der har sørget for at hente flest e-mail-permissions i hus indtil videre – og hvordan har hun så båret sig ad med det? Læs Lailas gode råd nedenfor – måske kan det give lidt ekstra inspiration på   
+målstregen.
+     <br><br> <strong>Inspirér dine medarbejdere</strong><br> Det er dit ansvar at hjælpe dine medarbejdere med at tilbyde kunderne vores relevante e-maildialog og indhente e-mailpermissions, når de alligevel taler med dem.
+     Måske kan de blive inspirerede af Laila, og dermed gøre det til en naturlig del af deres hverdag – både nu og i fremtiden.
+     Lad os sammen få en god slutspurt og få samlet endnu flere permissions! <br><br> Tag fat i KOM eller i mig, hvis du har spørgsmål – og hav en rigtig dejlig @-uge.
+     <br><br> Venlig hilsen<br>Anders Mittag</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="20">&nbsp;</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td ><table width="640" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="0" border="0" class="w300" ><tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td class="break w280" style="padding:10px; background-color:#FFFFFF; " valign="top" ><table cellspacing="0" cellpadding="0" border="0" ><tr ><td class="break w100pct" valign="top" width="200" bgcolor="#F0F0F0" align="center" style="color:#990000; padding:10px 0 0 10px"><img class="img200" src="http://pages.postnord.com/rs/postenab/images/Laila-Veldhuis.png" style="display:block" border="0" width="200" height="231"></td>
+<td class="break" valign="top" width="100%" bgcolor="#F0F0F0" align="center" style="color:#990000; " ><table cellspacing="0" cellpadding="0" border="0" width="100%" ><tr ><td class="mktEditable" id="main_6" align="left" style="padding:20px 20px 10px; color:#990000; font-size:20px; font-family:Verdana, Arial, sans-serif; line-height:24px; " >»Det er da pærelet!«</td>
+</tr>
+<tr ><td class="mktEditable" id="main_7" align="left" style="padding:0px 20px 15px; color:#666666; font-size:13px; font-family:Verdana, Arial, sans-serif; line-height:18px; " >Det er langt nemmere at indhente permissions end man skulle tro. »Jeg spørger rigtig mange kunder, når jeg alligevel taler med dem. Det er da pærelet!« fortæller Laila, selvom det også er smuttet for hende indimellem.<br>
+<br>
+»Nogle gange glemmer jeg det, og så kan jeg godt finde på at ringe op igen til kunden og sige: Hov! Jeg glemte lige at spørge dig, om du er interesseret i at modtage relevant information, for så vil jeg sende dig en mail, som du kan bekræfte,« siger Laila, og det har givet pote: »De fleste kunder synes, det er en rigtig god idé og er interesserede.«</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="40">&nbsp;</td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="66%" bgcolor="#CC0000" style="font-size: 1px; line-height: 1px;" height="8">&nbsp;</td>
+<td width="34%" bgcolor="#F0F0F0" style="font-size: 1px; line-height: 1px;" height="8">&nbsp;</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="40">&nbsp;</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Ej ringet på - Chokolade som kompensation</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>38 - Ej ringet på - Chokolade som kompensation (udskriv på PRINT15205)</name>
+    <style>promotionRight</style>
+    <subject>Ej ringet på - Chokolade som kompensation</subject>
+    <type>html</type>
+</EmailTemplate>

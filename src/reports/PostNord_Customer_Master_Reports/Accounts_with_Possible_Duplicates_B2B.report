@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account$Involved_Party_ID__c</field>
+    </columns>
+    <columns>
+        <field>Account$RecordType</field>
+    </columns>
+    <columns>
+        <field>Account.Possible_Duplicate_Account_Associations__r$Possible_Duplicate_Account__c</field>
+    </columns>
+    <columns>
+        <field>Account.Possible_Duplicate_Account_Associations__r$Duplicate_reason__c</field>
+    </columns>
+    <columns>
+        <field>Account$Internal_Lifecycle_Status__c</field>
+    </columns>
+    <columns>
+        <field>Account$External_Work_Site_Status__c</field>
+    </columns>
+    <columns>
+        <field>Account$External_Provider_Party_ID__c</field>
+    </columns>
+    <columns>
+        <field>Account$LastModifiedDate</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Excludes extensions</description>
+    <filter>
+        <criteriaItems>
+            <column>Account$RecordType</column>
+            <operator>notEqual</operator>
+            <value>Account.Extension,Account.PostNord_Org_Structure,PersonAccount.PersonAccount,PersonAccount.B2C_Webshop_Placeholder</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Accounts with Possible Duplicates - B2B</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Possible_Duplicate_Accounts__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

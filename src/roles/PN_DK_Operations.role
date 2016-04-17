@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>PN DK Operations</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>PN DK Operations</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>PN_DK</parentRole>
+</Role>

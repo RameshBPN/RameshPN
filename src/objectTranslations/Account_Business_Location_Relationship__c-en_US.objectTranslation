@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account-Business Location Relationship</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account-Business Location Relationships</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Account-Business Location Relationships --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Location --></label>
+        <name>Business_Location__c</name>
+        <relationshipLabel><!-- Account-Business Location Relationships --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Business Location Relationship Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

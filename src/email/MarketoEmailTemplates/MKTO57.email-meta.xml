@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>@-Kampagne.@-Status_3_Salg_uden_maal</name>
+    <style>none</style>
+    <subject>Status på opsamling af e-mailpermissions</subject>
+    <textOnly>Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+Indsamlede permissions
+Medarbejderne i det team, der samler flest e-mailpermissions pr. mand, vinder en tur i biografen for to personer inklusive popcorn.
+{{lead.PN DK Realized PM:default=0}}
+ud af 191  
+Hvad @ sker der?
+Kære {{lead.First Name}}
+ Dagens optælling viser, at vi i Salg og hos Kundelinjen tilsammen har indhentet 191 e-mailpermissions. Det er langt fra de 3.000, som er vores mål. Og der skal virkelig rykkes de sidste 3 uger, hvis vi skal have noget at fejre 26. februar, hvor vi efter planen skulle feste med flotte @-kager fra La Glace.
+ 
+ Gør det til en naturlig del af din dag at slutte af med et @
+ Opsamling af e-mailpermissions er afgørende for vores forretning på sigt og derfor et af vores 
+salgsmål. Hvert snabel-a tæller, og vi værdsætter din indsats. Brug gerne det enkle telemanus, som du har lige her og også på din blyantsholder og i folderen: 
+ 
+ • Vi tilbyder e-mails, der viser nye muligheder for din forretning 
+ • Inden for breve, pakker, logistik, e-handel og markedsføring 
+ • Hvis du 
+er interesseret, skal jeg bare bruge din mailadresse 
+ • Så får du en e-mail, hvor du selv melder dig til 
+ • Er det noget for dig? 
+
+ Din indsats er afgørende 
+ Når e-mailpermissions er i fokus lige nu, er det fordi vi 
+ved, hvor vigtigt det er at holde linjen åben og relationen varm. Vi har investeret i et CRM-system, der kan håndtere relevant dialog og derved effektivt understøtte dig i dit arbejde. Men vi er afhængige af kundernes e-mailpermissions for at få udbytte af det.
+ 
+ Tag fat i din leder, hvis du har spørgsmål – og hav en rigtig dejlig @-uge.
+ 
+ Venlig hilsen
+ 
+ Anders Mittag
+Mindre kold kanvas og mere varm dialog
+For dig betyder e-mailpermissions blandt andet, at du kan ringe mindre ’kold kanvas’ og i stedet bruge din energi på varm dialog med mere salg til følge. Både fordi dine kunder selv vil markere interesse, fx ved klik i e-mails, og fordi du ved, hvilke af vores produkter og services de bliver eksponeret for hvornår i e-mailforløbet – og på den baggrund kan målrette dine salgsaktiviteter.</textOnly>
+    <type>custom</type>
+</EmailTemplate>

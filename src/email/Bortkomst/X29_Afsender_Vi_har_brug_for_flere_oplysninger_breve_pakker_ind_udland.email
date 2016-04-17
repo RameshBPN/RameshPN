@@ -1,0 +1,60 @@
+<table border="0" cellpadding="0" width="650" cellspacing="0" height="400" >
+<tr valign="top" >
+<td width="460" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="460" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font size="2" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB" lang="EN-GB"></span></font><span lang="SV"><font face="Arial, sans-serif" size="2">
+<p align="left" style="color: rgb(0, 0, 0);">{!Case.Sender__c}</p>
+<p align="left" style="color: rgb(0, 0, 0);">{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}</p>
+<p align="left" style="color: rgb(0, 0, 0);">{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}</p>
+<p align="left" style="color: rgb(0, 0, 0);">{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")} {!Case.Sender_Postal_Address_Suburb__c} </p>
+<p align="left" style="color: rgb(0, 0, 0);">{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}</p>
+<p align="left" style="color: rgb(0, 0, 0);">{!Case.Sender_Postal_Address_Country__c}</p>
+<p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;" lang="EN-GB"></span>&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;" lang="EN-GB"><strong></strong></span>&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;" lang="EN-GB"><strong></strong></span>&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: rgb(0, 0, 0);">&nbsp;</span><b>WE NEED MORE INFORMATION</b></p><p align="left" style="color: rgb(0, 0, 0);"><br></p><p align="left" style="color: rgb(0, 0, 0);">We have received your enquiry about the item with number{!Case.Item_Id__c}&nbsp;sent on&nbsp;{!Case.Submission_date__c}&nbsp;to:</p><p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p><span lang="SV">
+<p align="left" style="color: rgb(0, 0, 0);">{!Case.Receiver__c}</p>
+<p align="left" style="color: rgb(0, 0, 0);">{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c} </p>
+<p align="left" style="color: rgb(0, 0, 0);">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c} </p>
+<p align="left" style="color: rgb(0, 0, 0);">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c} </p>
+<p align="left" style="color: rgb(0, 0, 0);">{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c} </p>
+<p align="left" style="color: rgb(0, 0, 0);">{!Case.Receiver_Postal_Address_Country__c}</p>
+<p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);"></p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;" lang="EN-GB">In order to handle your enquiry, we need more information:</span></p>
+<p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);">What is the barcode number of the item?</p><p align="left" style="color: rgb(0, 0, 0);"><br></p><p align="left" style="color: rgb(0, 0, 0);">What are the contents of the item (size, colour, characteristic, other description)? We need the information in order to search for the item.</p><p align="left" style="color: rgb(0, 0, 0);"><br></p><p align="left" style="color: rgb(0, 0, 0);">What is the purchase price of the contents (not including VAT)? We need the information in case of compensation payment and therefore we need a copy of your invoice, receipt, or similar. If you send us an invoice the amount should not include VAT and profit.</p><p align="left" style="color: rgb(0, 0, 0);"><br></p><p align="left" style="color: rgb(0, 0, 0);">What is the price of the contents? We need the information in case of compensation payment and therefore we need a copy of your invoice, receipt, or similar.</p><p align="left" style="color: rgb(0, 0, 0);"><br></p><p align="left" style="color: rgb(0, 0, 0);">Where does the receiver of the item live if</p><p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Receiver__c}<!--?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /--><o:p></o:p></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Receiver_Contact_Name__c} <o:p></o:p></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c} <o:p></o:p></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c} <o:p></o:p></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c} <o:p></o:p></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c} <o:p></o:p></span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Receiver_Postal_Address_Country__c}</span></p>
+<p style="color: rgb(0, 0, 0); margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB"><o:p></o:p></span>&nbsp;</p>
+<p align="left">is not the correct address?</p><p align="left"><br></p><p align="left">In case of compensation which account can we make a payment into? Registration number and account number is needed.</p><p align="left"><br></p><p align="left">On which date did you send the item?</p><p align="left"><br></p><p align="left">What does the item weigh? We need the information in case of compensation.</p><p align="left"><br></p><p align="left">What is the value of the item?</p><p align="left"><br></p><p align="left">In case the item is found, should it be returned to you or sent to the receiver?</p><p align="left"><br></p><p align="left">We ask you send a copy of a receipt showing that the item was sent with Post Danmark.</p><p align="left"><br></p><p align="left">You can mail us the information in the enclosed envelope. The postage is prepaid. You can also email the information. Please enter case number (indsæt sagsnummer) in the subject field.</p><p align="left"><br></p><p align="left">Your can find more information in our Terms and conditions on www.postdanmark.dk.</p><p align="left"><br></p><p align="left">Kind Regards,</p><div style="color: rgb(0, 0, 0);"><br></div>
+<p align="left" style="color: rgb(0, 0, 0);">&nbsp;</p>
+<p align="left" style="color: rgb(0, 0, 0);">{!Case.OwnerFirstName} {!Case.OwnerLastName}<br>{!Case.OwnerTitle}</p>
+<p align="left" style="color: rgb(0, 0, 0);"><o:p></o:p>&nbsp;</p></span></font></span>]]></td>
+</tr>
+</table>
+</td>
+<td width="10" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<![CDATA[]]></td>
+<td width="180" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="180" cellspacing="5" height="400" >
+<tr valign="top" height="100" >
+<td rowspan="3" width="180" tEditID="c2r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c2r1" locked="0" >
+<![CDATA[<p align="left"><font size="1" face="Arial, sans-serif">{!User.CompanyName} <br>{!User.Division}<br>{!User.Department}<br>{!User.Street}<br>{!User.PostalCode} {!User.City}<br>CVR nr.: 26663903<br>{!User.Company_Webb_Address__c}<br>&nbsp;<br>Tlf {!User.Department_Phone__c}<br>{!User.Team_Email__c}<br>&nbsp;<br>Dato {!Today}<br>Sagsnr. {!Case.Main_Case_Number__c} <br>Sagsbeh {!User.Alias}</font></p>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

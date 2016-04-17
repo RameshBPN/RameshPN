@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>OPPORTUNITY.NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Describe_what_the_deal_is_all_about__c</field>
+    </columns>
+    <columns>
+        <field>MEMBER_NAME</field>
+    </columns>
+    <columns>
+        <field>MEMBER_ROLE</field>
+    </columns>
+    <columns>
+        <field>AMOUNT</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Total_New_Money__c</field>
+    </columns>
+    <columns>
+        <field>Account.PDK_BE_Cust_Resp_Name__c</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <currency>DKK</currency>
+    <filter>
+        <criteriaItems>
+            <column>MEMBER_NAME</column>
+            <operator>equals</operator>
+            <value>Anne mette hansen,alex vinther larsen</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.PDK_BE_Cust_Resp_Name__c</column>
+            <operator>equals</operator>
+            <value>Merete W Olsen,Sebastian Thostrup,Morten Risby Hornemann,Thomas Pedersen,Rikke Lund,Niels Fuglsang Brouer</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Pipeline, Udbud og Public</name>
+    <params>
+        <name>include</name>
+        <value>open</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityTeam</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <endDate>2018-03-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2014-01-01</startDate>
+    </timeFrameFilter>
+</Report>

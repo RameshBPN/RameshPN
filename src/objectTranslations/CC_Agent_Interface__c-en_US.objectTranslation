@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CC Agent Interface</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CC Agent Interfaces</value>
+    </caseValues>
+    <fields>
+        <label><!-- Bot Data --></label>
+        <name>Bot_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Id --></label>
+        <name>Call_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- ClearInteract agent id --></help>
+        <label><!-- External Agent Id --></label>
+        <name>External_Agent_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- From --></label>
+        <name>From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Id --></label>
+        <name>Item_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Call Id --></label>
+        <name>Original_Call_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queue Id --></label>
+        <name>Queue_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Controls which Agent can see and select the Request Chat Agent Button --></help>
+        <label><!-- Show Chat Button --></label>
+        <name>Show_Chat_Button__c</name>
+    </fields>
+    <fields>
+        <label><!-- To --></label>
+        <name>To__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- CC Agent Interfaces --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>CC Agent Interface Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

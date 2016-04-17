@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>number</bucketType>
+        <developerName>BucketField_65210968</developerName>
+        <masterLabel>Behandlingstid</masterLabel>
+        <nullTreatment>z</nullTreatment>
+        <sourceColumnName>AGE</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <to>7</to>
+            </sourceValues>
+            <value>Behandlingstid op til 7 dage</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>7</from>
+                <to>14</to>
+            </sourceValues>
+            <value>Behandlingstid 7 - 14 dage</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>14</from>
+                <to>21</to>
+            </sourceValues>
+            <value>Behandlingstid 14 - 21 dage</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>21</from>
+            </sourceValues>
+            <value>Større end 21 dage</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>CLOSED_DATEONLY</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <columns>
+        <field>OPEN</field>
+    </columns>
+    <columns>
+        <field>CLOSED</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Viser behandlingstiden på sager op til 7, 14 og 21 dage samt mere end 21 dage fordelt på case type og team</description>
+    <filter>
+        <criteriaItems>
+            <column>Case.Team__c</column>
+            <operator>equals</operator>
+            <value>PN DK KUL Team Major Account,PN DK KUL Team CS Erhverv</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STATUS</column>
+            <operator>equals</operator>
+            <value>Closed</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_65210968</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.Team__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>RECORDTYPE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>CS-Erhverv_SLA på sager pr. team</name>
+    <params>
+        <name>units</name>
+        <value>d</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseHistory</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSED_DATEONLY</dateColumn>
+        <interval>INTERVAL_LASTMONTH</interval>
+    </timeFrameFilter>
+</Report>

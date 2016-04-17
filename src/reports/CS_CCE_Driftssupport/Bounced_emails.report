@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>EMAIL_BOUNCED_DATE</field>
+    </columns>
+    <columns>
+        <field>Account.Customer_ID__c</field>
+    </columns>
+    <columns>
+        <field>CONTACT_CREATED</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <columns>
+        <field>EMAIL_BOUNCED_REASON</field>
+    </columns>
+    <columns>
+        <field>CON_IS_PERSON_ACCOUNT</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Mailadresser, der er forkerte</description>
+    <filter>
+        <criteriaItems>
+            <column>EMAIL_BOUNCED_REASON</column>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Bounced emails</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>EMAIL_BOUNCED_DATE</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>LAST_ACTIVITY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

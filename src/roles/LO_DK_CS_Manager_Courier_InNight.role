@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>LO DK CS Manager Courier &amp; InNight</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>LO DK CS Manager Courier &amp; InNight</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>LO_DK_Customer_Service</parentRole>
+</Role>

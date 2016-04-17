@@ -1,0 +1,1 @@
+Ditt kundcase med nummer {!Case.CaseNumber}: {!Case.Subject} har uppdaterats.  Klicka på nedanstående länk när du vill visa det här kundcaset i självbetjäningsportalen. <infoga länken på inloggningssidan för din självbetjäningsportal här> {!Organization.Name} Kundsupport

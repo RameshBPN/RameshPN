@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>02 - Afsender - Vi erstatter ikke forsendelsen</name>
+    <style>promotionRight</style>
+    <subject>{!Case.Main_Case_Number__c} - Vi kan ikke erstatte forsendelsen</subject>
+    <textOnly>{!Case.Sender__c}
+{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}
+{!IF(Case.Sender_Postal_Address_PO_Box__c=&quot;&quot;,&quot;&quot;,&quot;Postboks:&quot;)} {!Case.Sender_Postal_Address_PO_Box__c}
+{!IF(!Case.Sender_Postal_Address_Suburb__c=&quot;Suburb&quot;,&quot;&quot;)} {!Case.Sender_Postal_Address_Suburb__c}
+{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}
+{!IF(Case.Sender_Postal_Address_Country__c=&quot;DK&quot;,&quot;&quot;)} {!Case.Sender_Postal_Address_Country__c}
+
+
+
+
+
+
+
+
+
+Vi kan ikke erstatte forsendelsen
+
+Vi har undersøgt din reklamation af forsendelsen med stregkodenummer {!Case.Item_Id__c} sendt den {!Case.Submission_date__c} til:
+
+
+{!Case.Receiver__c}
+{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c}
+{!IF(Case.Receiver_Postal_Address_PO_Box__c=&quot;&quot;,&quot;&quot;,&quot;Postboks:&quot;)} {!Case.Receiver_Postal_Address_PO_Box__c}
+{!IF(!Case.Receiver_Postal_Address_Suburb__c=&quot;Suburb&quot;,&quot;&quot;)} {!Case.Receiver_Postal_Address_Suburb__c}
+{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c}
+{!IF(Case.Receiver_Postal_Address_Country__c=&quot;DK&quot;,&quot;&quot;)} {!Case.Receiver_Postal_Address_Country__c}
+
+
+
+Ifølge DPD’s forretningsbetingelser må forsendelsen ikke indeholde dokumenter, og vi kan derfor ikke erstatte din forsendelse.
+
+Ifølge DPD’s forretningsbetingelser må forsendelsen ikke indeholde flydende væsker, og vi kan derfor ikke erstatte din forsendelse.
+
+Ifølge DPD’s forretningsbetingelser er afsenderen ansvarlig for korrekt emballering både ind- og udvendig. Vi kan derfor ikke erstatte din forsendelse.
+
+Hvis beskadigelsen er synlig ved modtagelsen, skal der reklameres med det samme. Hvis beskadigelsen ikke er synlig, skal der reklameres inden syv dage efter modtagelsen, søn-og helligedage er ikke medregnet. Vi kan derfor ikke erstatte din forsendelse.
+
+Da vi ikke har modtaget dokumentation for, at forsendelsen er sendt som DPD-pakke, kan vi ikke erstatte din forsendelse. Vi har forsøgt at skaffe dokumentationen, men det har ikke været muligt.
+
+Du kan læse mere om DPD’s produkter og erstatningsregler på DPD’s hjemmeside www.dpd.com/dk/dpd_forretningsbetingelser.
+
+Hvis du er uenig i vores afgørelse, kan du anke den til Post Danmark, Direktionssekretariatet, Tietgensgade 37, 1566 København V eller pr. mail ankesager@post.dk
+
+For at sikre en hurtig sagsbehandling beder vi dig besvare denne mail. Eventuelle bilag skal vedhæftes mailen.
+
+Vi undskylder ulejligheden, som du har haft på grund af sagen.
+
+Med venlig hilsen
+
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+{!Case.OwnerTitle}
+
+
+
+{!User.CompanyName}
+{!User.Division}
+{!User.Department}
+{!User.Street}
+{!User.PostalCode} {!User.City}
+{!User.Company_Webb_Address__c}
+
+Tlf {!User.Department_Phone__c}
+{!User.Team_Email__c}
+
+Dato {!Today}
+Sagsnr. {!Case.Main_Case_Number__c}
+Sagsbeh {!User.Alias}</textOnly>
+    <type>html</type>
+</EmailTemplate>

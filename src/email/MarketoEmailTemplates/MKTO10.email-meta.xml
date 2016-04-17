@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PDK Permission.Profildata</name>
+    <style>none</style>
+    <subject>Userdata mail for {{lead.First Name:default=No name}}</subject>
+    <textOnly>Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+ID: {{lead.User ID (C):default=edit me}}
+
+Firstname: {{lead.First Name:default=edit me}}
+
+Lastname: {{lead.Last Name:default=edit me}}
+
+Company: {{company.Company Name:default=edit me}}
+
+Company is Account Person: {{company.Is Person Account:default=edit me}}
+
+Lead is Account Person: {{lead.Is Person Account (C):default=edit me}}
+
+Company email: {{company.Email:default=edit me}} 
+
+Lead email:{{lead.Email Address:default=edit me}}
+
+Permission: {{lead.Permission (C):default=edit me}}
+
+Permission Channel: {{company.Permission Channel:default=edit me}}
+
+ 
+
+Marketing attributes:
+
+Frimærker: 
+Breve: 
+Markedsføring &amp; Reklame: 
+Pakker &amp; Logistik: 
+e-handel: 
+Events: 
+Bureau:
+
+ 
+
+test form &lt;http://pages.postnord.com/PDK-Permission_Test-form-page.html&gt;
+Vi har sendt denne e-mail til xx@xx.com.
+
+Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;#&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

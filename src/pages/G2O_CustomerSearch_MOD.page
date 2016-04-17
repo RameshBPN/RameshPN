@@ -1,0 +1,521 @@
+<apex:page standardController="Account"
+	extensions="G2O_CustomerSearch_MOD_VFCx">
+	<script
+		src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+		type="text/javascript"></script>
+	<apex:includeScript value="/support/console/26.0/integration.js" />
+
+	<script type="text/javascript">
+		function replaceEnter(e){
+			e = e || window.event;
+			if (e.keyCode == 13)
+			{
+				var allElements = document.getElementsByTagName('input');
+				for (var i = 0; i < allElements.length; i++){
+					if (allElements[i].id.indexOf("searchModButton") !=-1){
+					  allElements[i].click();
+					}
+				}
+				return false;
+			}else{
+				return true;
+			}
+		}
+		document.onkeypress = replaceEnter;
+		
+		function confirmModDuplicateCreate()
+		{
+			return confirm('{!$Label.MOD_Has_Existing_Accounts}');
+		}
+		
+		function showLoadingSpinner(wrapperClassName)
+		{
+			$('.'+wrapperClassName+' .paginationControls').hide();
+			$('.'+wrapperClassName+' .loadingSpinner').show();
+		}
+		function hideLoadingSpinner(wrapperClassName)
+		{
+			$('.'+wrapperClassName+' .paginationControls').show();
+			$('.'+wrapperClassName+' .loadingSpinner').hide();
+		}
+		
+		function checkForConsole(url){
+        	if (url != null){
+	            if(sforce.console.isInConsole()){
+		        	sforce.console.openPrimaryTab(null, url, true);
+		        }
+		        else{
+			        window.open(url);                
+	            }
+			}
+       	} 
+	</script>
+	<style>
+.loadingSpinner {
+	line-height: 24px;
+	padding-left: 24px;
+	display: block;
+	background: url(/img/loading24.gif) no-repeat;
+}
+</style>
+	<apex:form >
+		<!-- START: Headings -->
+		<apex:outputPanel id="headers">
+			<!-- Case : Account Validation -->
+			<apex:sectionheader title="{!$Label.MOD_Validate}"
+				subtitle="{!$Label.Search_MOD}" rendered="{!isExistingAccount}" />
+
+			<!-- Case : Account Create -->
+			<apex:sectionheader title="{!$Label.Customer_Search_Create}"
+				subtitle="{!$Label.Customer_Search} {!IF(theAccount.Postal_Address_Country__c=='DK', '(MOD)', '')}"
+				rendered="{!!isExistingAccount}" />
+
+			<!--  Page Messages -->
+			<apex:pageMessages />
+
+		</apex:outputPanel>
+		<!-- END: Headings -->
+
+		<!-- START: Search Panel : Driven by field sets: CustomerSearch_MODB2B_Search, or CustomerSearch_MODB2C_Search1 and CustomerSearch_MODB2C_Search2 -->
+		<apex:pageBlock title="{!$Label.Enter_Details}" id="searchCriteria">
+			<apex:pageBlockButtons >
+				<apex:commandButton value="{!$Label.Search}" id="searchModButton"
+					action="{!doSearch}" status="loadingSpinnerExternal"
+					rerender="loadingSpinnerExternal,searchCriteria,searchDetail,resultsContainer,errorContainer" />
+				<apex:commandButton value="{!$Label.Cancel_Search}" immediate="true"
+					action="{!cancelSearch}" />
+			</apex:pageBlockButtons>
+
+			<!-- START: Private Person Search Panel -->
+			<apex:pageBlockSection id="searchDetail" columns="2"
+				rendered="{!isPersonAccount}">
+				<apex:outputPanel style="float:left; width:20em;" id="fieldSet1">
+					<apex:pageBlockSection columns="1">
+						<apex:inputField value="{!theAccountContact.firstName}"
+							required="{!!isExistingAccount}" />
+						<apex:inputField value="{!theAccountContact.lastName}"
+							required="true" />
+						<apex:repeat value="{!$ObjectType.Account.FieldSets.CustomerSearch_MODB2C_Search1}"
+							var="f">
+							<apex:inputField value="{!theAccount[f]}"
+								required="{!IF(theAccount.Postal_Address_Country__c=='DK', f.required, false)}"></apex:inputField>
+						</apex:repeat>
+					</apex:pageBlockSection>
+				</apex:outputPanel>
+				<apex:outputPanel style="float:left; width:100%;" id="fieldSet2">
+					<apex:pageBlockSection columns="1">
+						<apex:outputField label="{!$Label.alt_Postal_Address_Country}"
+							value="{!theAccount.Postal_Address_Country__c}"
+							rendered="{!isExistingAccount}" />
+						<apex:pageBlockSectionItem rendered="{!!isExistingAccount}">
+							<apex:outputLabel value="{!$Label.alt_Postal_Address_Country}"
+								for="CountrySelector" />
+							<apex:actionRegion >
+								<apex:inputField styleclass="refocus" id="CountrySelector"
+									value="{!theAccount.Postal_Address_Country__c}" required="true">
+									<apex:actionSupport event="onchange"
+										reRender="fieldSet2, loadingSpinner" status="loadingSpinner"
+										oncomplete="$('.refocus').focus();" />
+								</apex:inputField>
+							</apex:actionRegion>
+						</apex:pageBlockSectionItem>
+						<apex:repeat value="{!$ObjectType.Account.FieldSets.CustomerSearch_MODB2C_Search2}"
+							var="f">
+							<apex:inputField value="{!theAccount[f.fieldPath]}"
+								required="{!IF(theAccount.Postal_Address_Country__c=='DK', f.required, false)}"
+								rendered="{!f.fieldPath!='Postal_Address_Country__c' && f.fieldPath!='FirstName' && f.fieldPath!='LastName' && f.fieldPath!='Name'}"
+								label="{!IF(CONTAINS(f.fieldPath,'Postal'),$Label['alt_'+SUBSTITUTE(f.fieldPath,'__c','')], f.label)}">
+								<!-- Show an alternative label for 'Postal' address fields -->
+							</apex:inputField>
+						</apex:repeat>
+					</apex:pageBlockSection>
+				</apex:outputPanel>
+			</apex:pageBlockSection>
+			<!-- END: Private Person Search Panel -->
+
+			<!-- START: B2B Search Panel -->
+			<apex:pageBlockSection columns="1" rendered="{!!isPersonAccount}">
+				<apex:inputField value="{!theAccount.Name}" />
+				<apex:repeat value="{!$ObjectType.Account.FieldSets.CustomerSearch_MODB2B_Search}"
+					var="f">
+					<apex:inputField value="{!theAccount[f.fieldPath]}"
+						required="{!f.required}"
+						rendered="{!f.fieldPath != 'Postal_Address_Country__c' && f.fieldPath!='Name'}"
+						label="{!IF(CONTAINS(f.fieldPath,'Postal'),$Label['alt_'+SUBSTITUTE(f.fieldPath,'__c','')], f.label)}">
+						<!-- Show an alternative label for 'Postal' address fields -->
+					</apex:inputField>
+				</apex:repeat>
+				<apex:inputField rendered="{!!isExistingAccount}"
+					label="{!$Label.alt_Postal_Address_Country}"
+					value="{!theAccount.Postal_Address_Country__c}" />
+				<apex:outputField rendered="{!isExistingAccount}"
+					label="{!$Label.alt_Postal_Address_Country}"
+					value="{!theAccount.Postal_Address_Country__c}" />
+			</apex:pageBlockSection>
+			<!-- END: B2B Search Panel -->
+
+		</apex:pageBlock>
+		<!-- END: Search Panel -->
+
+
+		<!-- START: Results Container -->
+		<apex:outputPanel id="resultsContainer">
+
+			<!-- START: Search Result Panel -->
+			<apex:pageBlock title="{!$Label.MOD_Search_Results}"
+				rendered="{!selectedModResult==null && searched}">
+				<apex:pageBlockButtons >
+					<apex:commandButton value="{!$Label.Create_Unverified}"
+						action="{!createUnverified}" rendered="{!!isExistingAccount}" />
+				</apex:pageBlockButtons>
+
+				<!-- START: SFDC Results : Driven by field set: CustomerSearch_MOD_SFDCSearchResults -->
+				<apex:pageBlock title="{!$Label.MOD_Matching_Existing_Customers}"
+					rendered="{!!isExistingAccount}">
+
+					<!-- START: Advice message on search : No SFDC results -->
+					<apex:outputPanel rendered="{!sfdcResults.size<1}">
+						<apex:panelGrid columns="2">
+							<apex:image value="/img/msg_icons/confirm32.png" width="32"
+								height="32"></apex:image>
+							<apex:outputLabel value="{!$Label.MOD_No_SFDC_Results}"
+								style="line-height:32px; font-weight: bold" />
+						</apex:panelGrid>
+					</apex:outputPanel>
+					<!-- END: Advice message -->
+
+					<!--  START: SFDC Results table -->
+					<apex:outputPanel styleClass="sfdcResultsTable"
+						id="sfdcResultsTable" rendered="{!sfdcResults.size>0}">
+						<!-- \Paginated table -->
+						<apex:pageBlockTable value="{!sfdcResults}" var="sfdcResult">
+							<apex:column headerValue="{!$ObjectType.Account.Fields.Name.label}">
+								<apex:outputLink value="#"
+									onclick="checkForConsole('/{!sfdcResult.Id}');">{!sfdcResult.Name}</apex:outputLink>
+							</apex:column>
+							<apex:repeat var="f"
+								value="{!$ObjectType.Account.FieldSets.CustomerSearch_MOD_SFDCSearchResults}">
+								<apex:column headerValue="{!f.label}">
+									<apex:outputField value="{!sfdcResult[f]}"
+										label="{!IF(CONTAINS(f.fieldPath,'Postal'),$Label['alt_'+SUBSTITUTE(f.fieldPath,'__c','')], f.label)}">
+										<!-- Show an alternative label for 'Postal' address fields -->
+									</apex:outputField>
+								</apex:column>
+							</apex:repeat>
+						</apex:pageBlockTable>
+						<!-- /Paginated table -->
+
+						<!-- \Pagination controls -->
+						<apex:outputPanel >
+							<apex:commandButton action="{!sfdcResultsPagination.first}"
+								disabled="{!!sfdcResultsPagination.showPreviousButton}"
+								rerender="sfdcResultsTable" status="sfdc_loadingSpinner"
+								value="|<<" />
+							<apex:commandButton action="{!sfdcResultsPagination.previous}"
+								disabled="{!!sfdcResultsPagination.showPreviousButton}"
+								rerender="sfdcResultsTable" status="sfdc_loadingSpinner"
+								value="<<" />
+							<span style="padding: 0 1em;">{!$Label.Page}
+								{!sfdcResultsPagination.pageNumber} -
+								{!sfdcResultsPagination.numberOfPages}</span>
+							<apex:commandButton action="{!sfdcResultsPagination.next}"
+								disabled="{!!sfdcResultsPagination.showNextButton}"
+								rerender="sfdcResultsTable" status="sfdc_loadingSpinner"
+								value=">>" />
+							<apex:commandButton action="{!sfdcResultsPagination.last}"
+								disabled="{!!sfdcResultsPagination.showNextButton}"
+								rerender="sfdcResultsTable" status="sfdc_loadingSpinner"
+								value=">>|" />
+						</apex:outputPanel>
+						<!-- /Pagination controls -->
+
+						<!-- \Pagination Loading Spinner -->
+						<div class="loadingSpinner" style="display: none;">
+							<span class="waitingDescription">{!$Label.Loading}</span>
+						</div>
+						<!-- /Pagination Loading Spinner -->
+					</apex:outputPanel>
+					<apex:actionstatus id="sfdc_loadingSpinner"
+						onstart="showLoadingSpinner('sfdcResultsTable');"
+						onstop="hideLoadingSpinner('sfdcResultsTable');" />
+					<!--  END: SFDC Results table -->
+
+				</apex:pageBlock>
+				<!-- END: SFDC Results -->
+
+				<!-- START: Advice message on search : Non Danish countries do not produce MOD results -->
+				<apex:outputPanel rendered="{!theAccount.Postal_Address_Country__c!='DK'}">
+					<apex:panelGrid columns="2">
+						<apex:image value="/img/msg_icons/warning32.png" width="32"
+							height="32"></apex:image>
+						<apex:outputLabel value="{!$Label.MODPostalCountryNotSelected}"
+							style="line-height:32px; font-weight: bold" />
+					</apex:panelGrid>
+				</apex:outputPanel>
+				<!-- END: Advice message -->
+
+				<!-- START: MOD Results -->
+				<apex:pageBlock title="{!$Label.MOD_Search_Results}"
+					rendered="{!theAccount.Postal_Address_Country__c=='DK'}">
+
+					<!-- START: Advice message on search : No MOD results -->
+					<apex:outputPanel rendered="{!modResults.size<=0}">
+						<apex:panelGrid columns="2">
+							<apex:image value="/img/msg_icons/error32.png" width="32"
+								height="32"></apex:image>
+							<apex:outputLabel value="{!$Label.MOD_No_Results}"
+								style="line-height:32px; font-weight: bold" />
+						</apex:panelGrid>
+					</apex:outputPanel>
+					<!-- END: Advice message -->
+
+					<!--  START: Mod Results table -->
+					<apex:outputPanel id="modResultsTable" styleClass="modResultsTable"
+						rendered="{!modResults.size>0 && theAccount.Postal_Address_Country__c == 'DK'}">
+						<!-- \Paginated table -->
+						<apex:pageBlockTable value="{!modResults}" var="modResult">
+							<apex:column headerValue="{!$Label.Action}">
+								<apex:commandButton value="{!$Label.Use_MOD_Result}"
+									action="{!selectModResult}"
+									rerender="resultsContainer, headers, errorContainer"
+									status="loadingSpinner">
+									<apex:param value="{!modResult.MOD_Interessent_Number__c}"
+										name="selectedModIntrNr" assignTo="{!selectedModIntrNr}" />
+									<apex:param value="{!modResult.MOD_Modtager_Number__c}"
+										name="selectedModModtagNr" assignTo="{!selectedModModtagNr}" />
+								</apex:commandButton>
+							</apex:column>
+							<apex:column headerValue="{!$ObjectType.Account.Fields.Name.label}">
+								<apex:outputText value="{!modResult.FirstName+' '+modResult.LastName}"
+									rendered="{!isPersonAccount}" />
+								<apex:outputText value="{!modResult.Name}"
+									rendered="{!!isPersonAccount}" />
+							</apex:column>
+							<apex:repeat value="{!$ObjectType.Account.FieldSets.CustomerSearch_MOD_MODSearchResults}"
+								var="f">
+								<apex:column headerValue="{!IF(CONTAINS(f.fieldPath,'Postal'),$Label['alt_'+SUBSTITUTE(f.fieldPath,'__c','')], f.label)}">
+									<apex:outputField value="{!modResult[f]}"
+										label="{!IF(CONTAINS(f.fieldPath,'Postal'),$Label['alt_'+SUBSTITUTE(f.fieldPath,'__c','')], f.label)}">
+										<!-- Show an alternative label for 'Postal' address fields -->
+									</apex:outputField>
+								</apex:column>
+							</apex:repeat>
+						</apex:pageBlockTable>
+						<!-- /Paginated table -->
+						<!-- \Pagination controls -->
+						<apex:outputPanel styleClass="paginationControls">
+							<apex:commandButton action="{!modResultsPagination.first}"
+								disabled="{!!modResultsPagination.showPreviousButton}"
+								rerender="modResultsTable" status="mod_loadingSpinner"
+								value="|<<" />
+							<apex:commandButton action="{!modResultsPagination.previous}"
+								disabled="{!!modResultsPagination.showPreviousButton}"
+								rerender="modResultsTable" status="mod_loadingSpinner"
+								value="<<" />
+							<span style="padding: 0 1em;">{!$Label.Page}
+								{!modResultsPagination.pageNumber} -
+								{!modResultsPagination.numberOfPages}</span>
+							<apex:commandButton action="{!modResultsPagination.next}"
+								disabled="{!!modResultsPagination.showNextButton}"
+								rerender="modResultsTable" status="mod_loadingSpinner"
+								value=">>" />
+							<apex:commandButton action="{!modResultsPagination.last}"
+								disabled="{!!modResultsPagination.showNextButton}"
+								rerender="modResultsTable" status="mod_loadingSpinner"
+								value=">>|" />
+						</apex:outputPanel>
+						<!-- /Pagination controls -->
+
+						<!-- \Pagination Loading Spinner -->
+						<div class="loadingSpinner" style="display: none;">
+							<span class="waitingDescription">{!$Label.Loading}</span>
+						</div>
+						<!-- /Pagination Loading Spinner -->
+					</apex:outputPanel>
+					<apex:actionstatus id="mod_loadingSpinner"
+						onstart="showLoadingSpinner('modResultsTable');"
+						onstop="hideLoadingSpinner('modResultsTable');" />
+					<!--  END: Mod Results table -->
+
+				</apex:pageBlock>
+				<!-- END: MOD Results -->
+
+			</apex:pageBlock>
+			<!-- END : Results Panel -->
+
+
+
+			<!-- START: Detail Panel -->
+			<apex:pageBlock title="MOD Details"
+				rendered="{!selectedModResult!=null && searched}">
+				<apex:pageBlockButtons >
+					<apex:commandButton value="{!$Label.Back}"
+						action="{!clearSelectedModResult}" rerender="resultsContainer"
+						status="loadingSpinner" />
+					<apex:commandButton value="{!$Label.Create_New_MOD_Result_Button}"
+						action="{!useModResult}"
+						onclick="if (true=={!sfdcModMatches.size>0}) {return confirmModDuplicateCreate();};"
+						rendered="{!!isExistingAccount}" />
+					<apex:commandButton value="{!$Label.Use_MOD_Result}"
+						action="{!useModResult}" rendered="{!isExistingAccount}"
+						rerender="resultsContainer, headers, errorContainer" />
+				</apex:pageBlockButtons>
+
+				<!-- START: MOD Detail : Driven by field Set: CustomerSearch_MOD_Detail-->
+				<apex:pageBlockSection title="{!$Label.MOD_Result}">
+					<apex:pageBlockSectionItem rendered="{!!isPersonAccount}">
+						<apex:outputLabel value="{!$ObjectType.Account.Fields.Name.label}"
+							style="font-weight: bold;" />
+						<apex:outputText value="{!selectedModResult.Name}"
+							style="font-weight: bold" />
+					</apex:pageBlockSectionItem>
+					<apex:pageBlockSectionItem rendered="{!isPersonAccount}">
+						<apex:outputLabel value="{!$ObjectType.Account.Fields.Name.label}"
+							style="font-weight: bold;" />
+						<apex:outputText value="{!selectedModResult.LastName} {!selectedModResult.FirstName}"
+							style="font-weight: bold" />
+					</apex:pageBlockSectionItem>
+					<apex:repeat value="{!$ObjectType.Account.FieldSets.CustomerSearch_MOD_Detail}"
+						var="f">
+						<apex:outputField value="{!selectedModResult[f]}"
+							label="{!IF(CONTAINS(f.fieldPath,'Postal'),$Label['alt_'+SUBSTITUTE(f.fieldPath,'__c','')], f.label)}"
+							rendered="{!!ISBLANK(selectedModResult[f])}">
+							<!-- Note: Shows an alternative label for 'Postal' address fields -->
+						</apex:outputField>
+					</apex:repeat>
+				</apex:pageBlockSection>
+				<!-- END: MOD Detail -->
+
+				<!-- START: Advice message 4 on view detail : MOD Result found but no SFDC overlap (this is good news, and we could fwd directly in the controller knowing this) -->
+				<apex:outputPanel rendered="{!sfdcModMatches.size<1}">
+					<apex:panelGrid columns="2">
+						<apex:image value="/img/msg_icons/confirm32.png" width="32"
+							height="32"></apex:image>
+						<apex:outputLabel value="{!$Label.MODNoModtagerNumberAndNoInteressantNumber}"
+							style="line-height:32px; font-weight: bold" />
+					</apex:panelGrid>
+				</apex:outputPanel>
+				<!-- END: Advice message 4 -->
+
+				<!-- START: Advice message 5 on view detail : SFDC overlap found -->
+				<apex:outputPanel rendered="{!sfdcModMatches.size>0}">
+					<apex:panelGrid columns="2">
+						<apex:image value="/img/msg_icons/warning32.png" width="32"
+							height="32"></apex:image>
+						<apex:outputLabel value="{!$Label.MOD_Possible_Duplicates_Found}"
+							style="line-height:32px; font-weight: bold" />
+					</apex:panelGrid>
+				</apex:outputPanel>
+				<!-- END: Advice message 4 -->
+
+				<!-- START: SFDC matching Modtager or Intressent Numbers : Field Set: CustomerSearch_MOD_SFDCMatchingModDetail -->
+				<apex:outputpanel styleClass="SFDCModResultsWrapper"
+					id="SFDCModResultsWrapper" rendered="{!sfdcModMatches.size>0}">
+					<!-- \Paginated table -->
+					<apex:pageBlockTable id="sfdcModMatchesTable"
+						title="{!$Label.MOD_List_of_Possible_Duplicates}"
+						value="{!sfdcModMatches}" var="sfdcMatch">
+						<apex:column headerValue="{!$ObjectType.Account.Fields.Name.label}">
+							<apex:commandLink action="{!enrichExistingCustomer}"
+								status="loadingSpinner"
+								rerender="resultsContainer, headers, errorContainer">
+								<apex:param name="accountToEnrich" value="{!sfdcMatch.Id}"
+									assignTo="{!accountIdToEnrich}" />
+								<apex:commandbutton value="{!$Label.Enrich}" />
+							</apex:commandLink>
+							&nbsp;
+							<apex:outputLink value="/{!sfdcMatch.Id}" target="_blank"
+								rendered="{!!sfdcMatch.isPersonAccount}">{!sfdcMatch.Name}</apex:outputLink>
+							<apex:outputLink value="/{!sfdcMatch.Id}" target="_blank"
+								rendered="{!sfdcMatch.isPersonAccount}">{!sfdcMatch.FirstName} {!sfdcMatch.LastName}</apex:outputLink>
+						</apex:column>
+						<apex:repeat var="f"
+							value="{!$ObjectType.Account.FieldSets.CustomerSearch_MOD_SFDCMatchingModDetail}">
+							<apex:column headerValue="{!IF(CONTAINS(f.fieldPath,'Postal'),$Label['alt_'+SUBSTITUTE(f.fieldPath,'__c','')], f.label)}">
+								<apex:outputField value="{!sfdcMatch[f]}"></apex:outputField>
+							</apex:column>
+						</apex:repeat>
+					</apex:pageBlockTable>
+					<!-- /Paginated table -->
+
+					<!-- \Pagination controls -->
+					<apex:outputPanel styleClass="paginationControls">
+						<apex:commandButton action="{!sfdcModMatchesPagination.first}"
+							disabled="{!!sfdcModMatchesPagination.showPreviousButton}"
+							rerender="sfdcModMatchesTable" status="sfdcMod_loadingSpinner"
+							value="|<<" />
+						<apex:commandButton action="{!sfdcModMatchesPagination.previous}"
+							disabled="{!!sfdcModMatchesPagination.showPreviousButton}"
+							rerender="sfdcModMatchesTable" status="sfdcMod_loadingSpinner"
+							value="<<" />
+						<span style="padding: 0 1em;">{!$Label.Page}
+							{!sfdcModMatchesPagination.pageNumber} -
+							{!sfdcModMatchesPagination.numberOfPages}</span>
+						<apex:commandButton action="{!sfdcModMatchesPagination.next}"
+							disabled="{!!sfdcModMatchesPagination.showNextButton}"
+							rerender="sfdcModMatchesTable" status="sfdcMod_loadingSpinner"
+							value=">>" />
+						<apex:commandButton action="{!sfdcModMatchesPagination.last}"
+							disabled="{!!sfdcModMatchesPagination.showNextButton}"
+							rerender="sfdcModMatchesTable" status="sfdcMod_loadingSpinner"
+							value=">>|" />
+					</apex:outputPanel>
+					<!-- /Pagination controls -->
+
+					<!-- \Pagination Loading Spinner -->
+					<div class="loadingSpinner" style="display: none;">
+						<span class="waitingDescription">{!$Label.Loading}</span>
+					</div>
+					<!-- /Pagination Loading Spinner -->
+				</apex:outputpanel>
+				<apex:actionstatus id="sfdcMod_loadingSpinner"
+					onstart="showLoadingSpinner('SFDCModResultsWrapper');"
+					onstop="hideLoadingSpinner('SFDCModResultsWrapper');" />
+
+				<!-- END: SFDC matching Modtager or Intressent Numbers -->
+
+			</apex:pageBlock>
+			<!-- END : Detail Panel -->
+
+		</apex:outputPanel>
+		<!-- END: Results Container -->
+
+		<!-- START : General loading spinner that covers the whole page -->
+		<apex:actionstatus id="loadingSpinner">
+			<apex:facet name="start">
+				<div class="waitingSearchDiv" id="el_loading"
+					style="background: url({!$Resource.TransparentBackground_FFFFFF_50pc}) transparent; height: 100%; width: 100%;">
+					<div class="waitingHolder">
+						<img class="waitingImage" src="/img/loading32.gif" title="*" /> <span
+							class="waitingDescription">{!$Label.Loading}</span>
+					</div>
+				</div>
+			</apex:facet>
+		</apex:actionstatus>
+
+		<apex:actionstatus id="loadingSpinnerExternal">
+			<apex:facet name="start">
+				<div class="waitingSearchDiv" id="el_loading"
+					style="background: url({!$Resource.TransparentBackground_FFFFFF_50pc}) transparent; height: 100%; width: 100%;">
+					<div class="waitingHolder">
+						<img class="waitingImage" src="/img/loading32.gif" title="*" /> <span
+							class="waitingDescription">{!$Label.Searching_External_Provider}</span>
+					</div>
+				</div>
+			</apex:facet>
+		</apex:actionstatus>
+		<!-- END : General loading spinner that covers the whole page -->
+
+		<!-- START : rendering of error message -->
+		<apex:outputPanel id="errorContainer">
+			<script>
+				var alertMessage = "{!alertMessage}";
+				alertMessage = "";
+				if(alertMessage!=""){
+					alert(alertMessage);
+				}
+			</script>
+		</apex:outputPanel>
+		<!-- END : rendering of error message-->
+	</apex:form>
+</apex:page>

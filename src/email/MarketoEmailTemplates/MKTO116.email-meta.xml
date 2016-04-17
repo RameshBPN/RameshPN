@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Frimærker.12 11. december</name>
+    <style>none</style>
+    <subject>GLÆDELIG JUL</subject>
+    <textOnly>Glædelig jul
+&lt;[[http://www.postdanmark.dk]]&gt;
+Hvis du ikke kan læse denne e-mail, klik her &lt;[[{{system.viewAsWebpageLink}}]]&gt;
+Kære {{lead.First Name}}
+GLÆDELIG JUL
+Julestemningen er langsomt ved at sænke sig over Danmark, og postkasserne begynder at blive fyldt med julehilsner fra nær og fjern. Hvis du endnu ikke har skrevet dine egne julehilsner, så husk, at du kan købe både julekort, frimærker og julemærker på dit lokale posthus og i vores netbutik &lt;[[www2.postdanmark.dk/netbutik]]&gt;.
+
+
+
+Og kniber det med at finde på julegaver til de kunst-, historie- eller designinteresserede, så er der også hjælp at hente i netbutikken, hvor du både kan købe produkter og tegne gaveabonnementer.
+
+
+
+Jeg håber, at du får en dejlig december, og at du og dine kære får en rigtig glædelig jul!
+
+
+
+ 
+Med venlig hilsen
+ 
+Bo Høifeldt
+
+Salgs- og marketingchef, PostNord Frimærker
+&lt;[[http://www2.postdanmark.dk/netbutik]]&gt;
+TEGN ET GAVEABONNEMENT
+Mangler du en god idé til en julegave, så kan du altid købe et gaveabonnement. Du bestemmer selv, hvilket af vores abonnementer du gerne vil give som gave. Når du tegner et gaveabonnement, får du naturligvis adgang til alle de fordele, som vores abonnenter har – bl.a. invitationer til særarrangementer. Tegn et gaveabonnement ved at kontakte os på tlf. 70 21 80 75.
+LÆS MERE OM ABONNEMENTER HER &lt;[[http://www2.postdanmark.dk/netbutik]]&gt;
+10-STRIBER MED LILLE RIGSVÅBEN OG BØLGELINIE
+Lille Rigsvåben 20 kr. har tidligere været udgivet i ark a 20 stk., men er netop genudgivet som 10-stribe. Frimærket er helt identisk med det ’gamle’ frimærke, så den nye 10-stribe vil ikke indgå i nogen former for abonnement. Vil du gerne sikre dig den nye 10-stribe til samlingen, så kan du købe den i vores netbutik. Bølgelinie 100 øre vil blive genudgivet i 10-stribe i løbet af de kommende måneder.
+KØB 10-STRIBEN HER  &lt;[[http://www2.postdanmark.dk/netbutik]]&gt;
+&lt;[[http://www.3fff.dk/frimaerke-brev-postkort-messe-2013-2/]]&gt;
+&lt;[[http://www2.postdanmark.dk/netbutik]]&gt;
+SVENSK FRIMÆRKE HENTEDE SØLVET HJEM
+Det svenske EUROPA-frimærke med motiv af en legetøjshest har vundet andenpladsen i PostEurops konkurrence om årets EUROPA-frimærke. Blandt 56 konkurrencebidrag strøg frimærket ind på en andenplads, kun overhalet af det russiske bidrag. Frimærket med motiv af en legetøjshest fra omkring 1910 er designet af Eva Wilsson og graveret af PostNords gravør, Lars Sjööblom. Vil du gerne sikre dig dette frimærke, så send en mail til PostNords kundeservice.
+KONTAKT KUNDESERVICE  &lt;[[mailto:stampservice@posten.se]]&gt;
+Vi har sendt denne e-mail til {{lead.Email Address}} &lt;[[mailto:{{lead.Email Address}}]]&gt;.
+
+Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;[[http://pages.postnord.com/Min-side.html]]&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

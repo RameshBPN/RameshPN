@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Internt meddelande till kundcase-ägare när nytt kundcase tilldelas.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>SUPPORT:  Meddelande om ny tilldelning (EXEMPEL)</name>
+    <style>none</style>
+    <subject>Kundcase-nummer {!Case.CaseNumber}: {!Case.Subject} har tilldelats dig.</subject>
+    <type>text</type>
+</EmailTemplate>

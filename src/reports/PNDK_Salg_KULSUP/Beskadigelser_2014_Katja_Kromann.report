@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Case.Approved_Goodwill_Amount__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Case.Approved_Appeal_Amount__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Case.Approved_amount_of_compensation__c</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Rapport til Katja Kromann vedr. antal erstatningssager i 2014 (091214) på årsagen beskadigelser</description>
+    <filter>
+        <booleanFilter>((1 OR 2 OR 3) AND 4) AND 5</booleanFilter>
+        <criteriaItems>
+            <column>Case.Approved_amount_of_compensation__c</column>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Approved_Appeal_Amount__c</column>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Approved_Goodwill_Amount__c</column>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Reason__c</column>
+            <operator>equals</operator>
+            <value>Beskadiget</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$Customer_Service_Product__c.Assortment__c</column>
+            <operator>equals</operator>
+            <value>Ankommende produkter,Letgods,Pakker Indland,Pakker Udland,Pallet,Parcel</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_$Customer_Service_Product__c.Assortment__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Beskadigelser 2014 (Katja Kromann)</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList@Case.Product_Article__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CURY</interval>
+    </timeFrameFilter>
+</Report>

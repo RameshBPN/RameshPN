@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>VSU</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>VSUs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- VSUs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If &quot;Other&quot; was selected as Alternate Webshop Platform. please list the Alternate Webshop Platform name --></help>
+        <label><!-- Alternate Webshop Platform --></label>
+        <name>Alternate_Webshop_Platform__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor --></label>
+        <name>Competitor__c</name>
+        <picklistValues>
+            <masterLabel>3D</masterLabel>
+            <translation><!-- 3D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bladkompagniet</masterLabel>
+            <translation><!-- Bladkompagniet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bring</masterLabel>
+            <translation><!-- Bring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAO</masterLabel>
+            <translation><!-- DAO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Danske fragtmænd</masterLabel>
+            <translation><!-- Danske fragtmænd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fedex</masterLabel>
+            <translation><!-- Fedex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GLS</masterLabel>
+            <translation><!-- GLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swipbox</masterLabel>
+            <translation><!-- Swipbox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS</masterLabel>
+            <translation><!-- UPS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customers Using Other Distributors --></label>
+        <name>Customers_Using_Other_Distributors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date for Implementing VSU --></label>
+        <name>Date_for_Implementing_VSU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date for Listing as Primary Distributor --></label>
+        <name>Date_for_Listing_as_Primary_Distributor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date for Showing Name and Logo --></label>
+        <name>Date_for_Showing_Name_and_Logo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Postnord/PostDK name and logo --></label>
+        <name>Display_Name_and_Logo__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email address for updates or newsletters regarding VSU --></help>
+        <label><!-- Email Registered User --></label>
+        <name>Email_Registered_User__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of customers web agency --></help>
+        <label><!-- External Web Agency or In-House --></label>
+        <name>External_Web_Agency_or_Inhouse__c</name>
+    </fields>
+    <fields>
+        <help><!-- PostNord/PostDanmark is default first choice amongst other distributors --></help>
+        <label><!-- Listed as Primary Distributor --></label>
+        <name>Listed_as_Primary_Distributor__c</name>
+    </fields>
+    <fields>
+        <help><!-- PostNord/PostDanmark is listed randomly amongst other distributors --></help>
+        <label><!-- Listed as Standard Distributor --></label>
+        <name>Listed_as_Standard_Distributor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Minimum amount for obtaining free Freight --></help>
+        <label><!-- Minimum Purchase Amount --></label>
+        <name>Minimum_Purchase_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is customer using VSU in the nordic countries --></help>
+        <label><!-- Nordic --></label>
+        <name>Nordic__c</name>
+    </fields>
+    <fields>
+        <help><!-- Webshop only displays PostNord/PostDanmark --></help>
+        <label><!-- PN is Sole Supplier of Distribution --></label>
+        <name>PN_is_Sole_Supplier_of_Distribution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for No VSU Implemented --></label>
+        <name>Reason_for_No_VSU_Implemented__c</name>
+        <picklistValues>
+            <masterLabel>In pipeline</masterLabel>
+            <translation><!-- In pipeline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need to wait for company&apos;s IT policy</masterLabel>
+            <translation><!-- Need to wait for company&apos;s IT policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>There is no available module to customers IT platform</masterLabel>
+            <translation><!-- There is no available module to customers IT platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Too expensive to implement</masterLabel>
+            <translation><!-- Too expensive to implement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Too problematic to implement</masterLabel>
+            <translation><!-- Too problematic to implement --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Secondary Competitor --></label>
+        <name>Secondary_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- real time connection to PostNord API or download of all PostNord servicepoints in the Webshop&apos;s IT system (batch) --></help>
+        <label><!-- Type of Connection --></label>
+        <name>Type_of_Connection__c</name>
+        <picklistValues>
+            <masterLabel>API Realtime</masterLabel>
+            <translation><!-- API Realtime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch/List</masterLabel>
+            <translation><!-- Batch/List --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If no VSU on webshop, is webshop using &quot;Uden Omdeling&quot; --></help>
+        <label><!-- Uden Omdeling --></label>
+        <name>Uden_Omdeling__c</name>
+    </fields>
+    <fields>
+        <label><!-- VSU Contact Name --></label>
+        <name>VSU_Contact_Name__c</name>
+        <relationshipLabel><!-- VSUs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- VSU is implemented on webshop --></help>
+        <label><!-- VSU on Webshop --></label>
+        <name>VSU_on_Webshop__c</name>
+    </fields>
+    <fields>
+        <label><!-- Webshop Offers Free Freight --></label>
+        <name>Webshop_Offers_Free_Freight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Webshop Offers Free Return Shipment --></label>
+        <name>Webshop_Offers_Free_Return_Shipment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Which e-commerce platform is used for Webshop? --></help>
+        <label><!-- Webshop Platform --></label>
+        <name>Webshop_Platform__c</name>
+        <picklistValues>
+            <masterLabel>Dandomain</masterLabel>
+            <translation><!-- Dandomain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drupal</masterLabel>
+            <translation><!-- Drupal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dynamic Web</masterLabel>
+            <translation><!-- Dynamic Web --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golden Planet</masterLabel>
+            <translation><!-- Golden Planet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joomla</masterLabel>
+            <translation><!-- Joomla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft (Sharepoint)</masterLabel>
+            <translation><!-- Microsoft (Sharepoint) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open cart</masterLabel>
+            <translation><!-- Open cart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open source: Magento</masterLabel>
+            <translation><!-- Open source: Magento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oscommerce</masterLabel>
+            <translation><!-- Oscommerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prestashop</masterLabel>
+            <translation><!-- Prestashop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scannet</masterLabel>
+            <translation><!-- Scannet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shopify</masterLabel>
+            <translation><!-- Shopify --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Woo Commerce</masterLabel>
+            <translation><!-- Woo Commerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zen cart</masterLabel>
+            <translation><!-- Zen cart --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- please enter in format of http://www. 
+example: http://www.postnord.com --></help>
+        <label><!-- Webshop URL (www.) --></label>
+        <name>Webshop_URL__c</name>
+    </fields>
+    <layouts>
+        <layout>VSU Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

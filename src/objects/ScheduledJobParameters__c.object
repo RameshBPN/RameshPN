@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>the parameters for the various scheduled jobs in the system.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AccountBatchDmlRowsLimit__c</fullName>
+        <defaultValue>&quot;7000&quot;</defaultValue>
+        <description>Maximum number of rows to be processed by the account processing batch. Should be set to a value that can allow the batch to execute quickly to avoid performance degradation. Default 7000</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Maximum number of rows to be processed by the account processing batch. Should be set to a value that can allow the batch to execute quickly to avoid performance degradation. Default 7000</inlineHelpText>
+        <label>AccountBatchDmlRowsLimit</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountBatchHeapLimit__c</fullName>
+        <defaultValue>&quot;7549747&quot;</defaultValue>
+        <description>Maximum memory usage in bytes before the batch should re-schedule itself to avoid performance degradation. The batch will stop when it hits this limit, deal with the processed records and reschedule itself for another run on the remaining unprocessed records.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Maximum memory usage in bytes before the batch should re-schedule itself to avoid performance degradation. The batch will stop when it hits this limit, deal with the processed records and reschedule itself for another run on the remaining unprocessed reco</inlineHelpText>
+        <label>AccountBatchHeapLimit</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountBatchJobInterval__c</fullName>
+        <defaultValue>&quot;1&quot;</defaultValue>
+        <description>Minutes to pass between consecutive jobs (ex. multi-pass duplication checking jobcs)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Minutes to pass between consecutive jobs (ex. multi-pass duplication checking jobcs)</inlineHelpText>
+        <label>AccountBatchJobInterval</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountBatchJobSize__c</fullName>
+        <defaultValue>&quot;200&quot;</defaultValue>
+        <description>Number of records to process in each batch. Default 200. Adjusting this to a higher number can speed up the batch but may produce errors as this requires more memory for the batch to run.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of records to process in each batch. Default 200. Adjusting this to a higher number can speed up the batch but may produce errors as this requires more memory for the batch to run.</inlineHelpText>
+        <label>AccountBatchJobSize</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountTeamMemberFrequency__c</fullName>
+        <defaultValue>1</defaultValue>
+        <description>Frequency for the Account Team member batch (in hours). The batch processes any changes in account team member and copies details onto accounts, and AccountTeamMembers created since last run on LegalEntity Accounts are cloned onto any child WorkSite Accounts</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Frequency for the Account Team member batch (in hours)</inlineHelpText>
+        <label>AccountTeamMemberFrequency</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountTeamMemberSyncJobId__c</fullName>
+        <description>DO NOT EDIT MANUALLY. JobID of the currently running Account Team Member batch. DO NOT EDIT MANUALLY</description>
+        <externalId>false</externalId>
+        <inlineHelpText>DO NOT EDIT MANUALLY. JobID of the currently running Account Team Member batch. DO NOT EDIT MANUALLY</inlineHelpText>
+        <label>AccountTeamMemberSyncJobId</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccountTeamMemberSyncSuccessTime__c</fullName>
+        <description>DO NOT EDIT MANUALLY. Timestamp of the last successful run of the Account Team Member batch. DO NOT EDIT MANUALLY</description>
+        <externalId>false</externalId>
+        <inlineHelpText>DO NOT EDIT MANUALLY. Timestamp of the last successful run of the Account Team Member batch. DO NOT EDIT MANUALLY</inlineHelpText>
+        <label>AccountTeamMemberSyncSuccessTime</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>InboundMessageLogDeletionActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>InboundMessageLogDeletionActive</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>InboundMessageLogGraceperiod__c</fullName>
+        <defaultValue>&quot;720&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>InboundMessageLogGraceperiod</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OutboundNotificationDeletionActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Delete the outbound notifications object records</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Delete the outbound notifications object records</inlineHelpText>
+        <label>OutboundNotificationDeletionActive</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OutboundNotificationGraceperiod__c</fullName>
+        <defaultValue>&quot;168&quot;</defaultValue>
+        <description>Period outbound notifications object records should live for (if deletion process is active). Default is one week (168hrs).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Period outbound notifications object records should live for (if deletion process is active). Default is one week (168hrs).</inlineHelpText>
+        <label>OutboundNotificationGraceperiod</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>apexCalloutLogDeletionActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checkbox indicating if ApexCalloutLog objects should be deleted after their grace period has passed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checkbox indicating if ApexCalloutLog objects should be deleted after their grace period has passed</inlineHelpText>
+        <label>apexCalloutLogDeletionActive</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>apexCalloutLogGraceperiod__c</fullName>
+        <defaultValue>&quot;24&quot;</defaultValue>
+        <description>The period (in hours) the ApexCalloutLog objects should be kept around for before they are deleted</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The period (in hours) the ApexCalloutLog objects should be kept around for before they are deleted.</inlineHelpText>
+        <label>apexCalloutLogGraceperiod</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>apexErrorLogDeletionActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checkbox indicating if ApexErrorLog objects should be deleted after their graceperiod has passed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checkbox indicating if ApexErrorLog objects should be deleted after their graceperiod has passed</inlineHelpText>
+        <label>apexErrorLogDeletionActive</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>apexErrorLogGraceperiod__c</fullName>
+        <defaultValue>&quot;24&quot;</defaultValue>
+        <description>The period ApexErrorLog objects should be kept around for before they are deleted, defined in hours</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The period ApexErrorLog objects should be kept around for before they are deleted, defined in hours</inlineHelpText>
+        <label>apexErrorLogGraceperiod</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>deletionJobId__c</fullName>
+        <description>DO NOT EDIT MANUALLY. The id of the deletion job if running. DO NOT EDIT MANUALLY.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>DO NOT EDIT MANUALLY. The id of the deletion job if running. DO NOT EDIT MANUALLY.</inlineHelpText>
+        <label>deletionJobId</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>ScheduledJobParameters</label>
+</CustomObject>

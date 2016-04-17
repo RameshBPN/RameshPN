@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Plans</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Goals --></label>
+        <name>Account_Goals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Plan ID --></label>
+        <name>Account_Plan_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Sales Growth --></label>
+        <name>Account_Sales_Growth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Type --></label>
+        <name>Account_Type__c</name>
+        <picklistValues>
+            <masterLabel>Existing Customer</masterLabel>
+            <translation><!-- Existing Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Customer</masterLabel>
+            <translation><!-- New Customer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Account Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Challenges (3-12 months) --></label>
+        <name>Account_challenges_3_12_months__c</name>
+    </fields>
+    <fields>
+        <help><!-- How will you take responsibility for your account&apos;s cost and effect optimization. --></help>
+        <label><!-- Cost- and effect optimization --></label>
+        <name>Account_cost_optimization__c</name>
+    </fields>
+    <fields>
+        <help><!-- Kundens behov ift.
+- Løsningsdesign
+- Prisstruktur
+- Prisniveau
+- Andet --></help>
+        <label><!-- Account needs --></label>
+        <name>Account_needs__c</name>
+    </fields>
+    <fields>
+        <help><!-- Data:
+- Antal lokationer, kompleksitet
+- Nuværende afsætning
+- Potentiale målt i afsætning
+- Relationer
+- Andet --></help>
+        <label><!-- Account situation --></label>
+        <name>Account_situation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategic goals (1-3 years) --></label>
+        <name>Account_strategic_goals__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sælgers opsummering / vurdering af strategisk fokus:   
+
+Eksisterende kunde: 
+Hvordan fastholder og udvikler vi kunden
+
+Ny kunde: 
+Hvilke aktiviteter gør at vi lykkes med salget --></help>
+        <label><!-- Account summary --></label>
+        <name>Account_summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action areas --></label>
+        <name>Action_areas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actions --></label>
+        <name>Actions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Admin - cost efficiency --></label>
+        <name>Admin_cost_efficiency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Admin - invoicing --></label>
+        <name>Admin_invoicing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Admin - prices and terms --></label>
+        <name>Admin_prices_and_terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- BtB --></label>
+        <name>BtB__c</name>
+    </fields>
+    <fields>
+        <label><!-- BtC --></label>
+        <name>BtC__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hvilken løsning og prisdesign som konkurrenten er lykkes med overfor kunden? --></help>
+        <label><!-- Competitor position --></label>
+        <name>Competitor_position__c</name>
+    </fields>
+    <fields>
+        <help><!-- Muligheder 
+Risici / Trusler --></help>
+        <label><!-- Consequences --></label>
+        <name>Consequences__c</name>
+    </fields>
+    <fields>
+        <label><!-- Critical success factors --></label>
+        <name>Critical_success_factors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer ID --></label>
+        <name>Customer_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deadline --></label>
+        <name>Deadline__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deletion Flag --></label>
+        <name>Deletion_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deliver - Coverage --></label>
+        <name>Deliver_cover__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deliver - Delivery quality --></label>
+        <name>Deliver_delivery_quality__c</name>
+    </fields>
+    <fields>
+        <label><!-- Economical goals --></label>
+        <name>Economical_goals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance - CSF and goal --></label>
+        <name>Finance_CSF_and_goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- General - Business partner --></label>
+        <name>General_business_partner__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR - CSF and goal --></label>
+        <name>HR_CSF_and_goal__c</name>
+    </fields>
+    <fields>
+        <help><!-- How to add more value than last year --></help>
+        <label><!-- Value add --></label>
+        <name>How_to_add_more_value_than_last_year__c</name>
+    </fields>
+    <fields>
+        <label><!-- IT - CSF and goal --></label>
+        <name>IT_CSF_and_goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industry --></label>
+        <name>Industry__c</name>
+    </fields>
+    <fields>
+        <label><!-- KVI Loyalitetstal --></label>
+        <name>KVI_Actions__c</name>
+    </fields>
+    <fields>
+        <label><!-- KVI Index (Current FQ) --></label>
+        <name>KVI_Index_Current_FQ__c</name>
+    </fields>
+    <fields>
+        <label><!-- KVI Total Index (Current FY) --></label>
+        <name>KVI_Summary__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indsæt tal fra seneste KVI måling --></help>
+        <label><!-- KVI Index --></label>
+        <name>KVI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Business Problems --></label>
+        <name>Key_Business_Problems__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Client Sponsor --></label>
+        <name>Key_Client_Sponsor__c</name>
+        <relationshipLabel><!-- Account Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last FY Account Sales --></label>
+        <name>Last_FY_Account_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last FY Product Sales --></label>
+        <name>Last_FY_Product_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last FY Services Sales --></label>
+        <name>Last_FY_Services_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Plan Revision --></label>
+        <name>Last_Plan_Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logistics - CSF and goal --></label>
+        <name>Logistics_CSF_and_goal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the critical success factors that are relevant to your customers and set the targets. --></help>
+        <label><!-- Management - CSF and goal --></label>
+        <name>Management_CSF_and_goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing - CSF and goal --></label>
+        <name>Marketing_CSF_and_goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Most important activities --></label>
+        <name>Most_important_activities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Areas where BDK sees new opporunities to excell further or create new advantages. --></help>
+        <label><!-- Opportunities (O) --></label>
+        <name>Opportunity_O__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan FY Account Sales Goal --></label>
+        <name>Plan_FY_Account_Sales_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan FY Product Sales Goal --></label>
+        <name>Plan_FY_Product_Sales_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan FY Services Sales Goal --></label>
+        <name>Plan_FY_Services_Sales_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan Status --></label>
+        <name>Plan_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Planning Year --></label>
+        <name>Planning_Year__c</name>
+        <picklistValues>
+            <masterLabel>FY2013</masterLabel>
+            <translation><!-- FY2013 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FY2014</masterLabel>
+            <translation><!-- FY2014 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FY2015</masterLabel>
+            <translation><!-- FY2015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FY2016</masterLabel>
+            <translation><!-- FY2016 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Potential Barriers --></label>
+        <name>Potential_Barriers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Procurement - CSF and goal --></label>
+        <name>Procurement_CSF_and_goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Sales Growth --></label>
+        <name>Product_Sales_Growth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Responsible --></label>
+        <name>Responsible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales - CSF and goal --></label>
+        <name>Sales_CSF_and_goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales - Seller --></label>
+        <name>Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Area --></label>
+        <name>Sales_area2__c</name>
+        <picklistValues>
+            <masterLabel>0540</masterLabel>
+            <translation>LO DK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0630</masterLabel>
+            <translation>LO FI DPD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation>PDK BE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3670</masterLabel>
+            <translation>LO FI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4000</masterLabel>
+            <translation>PDK LO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO91</masterLabel>
+            <translation>ME SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO92</masterLabel>
+            <translation>LO SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation><!-- LO NO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales - Customer communication --></label>
+        <name>Sales_customer_communication__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales - Customer contacts --></label>
+        <name>Sales_customer_contacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales responsible --></label>
+        <name>Sales_responsible__c</name>
+        <relationshipLabel><!-- Account Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Services Sales Growth --></label>
+        <name>Services_Sales_Growth__c</name>
+    </fields>
+    <fields>
+        <help><!-- What actions/initiatives should be taken in order to match the opportunities as well as strengths? --></help>
+        <label><!-- Strategic actions (SO) --></label>
+        <name>Strategic_actions_SO__c</name>
+    </fields>
+    <fields>
+        <help><!-- Describe the ways in which BDK can use its own strengths to reduce its vulnerability to the external threats. --></help>
+        <label><!-- Strategic actions (ST) --></label>
+        <name>Strategic_actions_ST__c</name>
+    </fields>
+    <fields>
+        <help><!-- What actions/initiatives should be taken in order to eliminate/overcome the weaknesses and pursue/use the opportunities? --></help>
+        <label><!-- Strategic actions (WO) --></label>
+        <name>Strategic_actions_WO__c</name>
+    </fields>
+    <fields>
+        <help><!-- What actions/initiatives should be taken in order to make BDK less sensitive to external threats of various kinds in relation to already known weaknesses. --></help>
+        <label><!-- Strategic actions (WT) --></label>
+        <name>Strategic_actions_WT__c</name>
+    </fields>
+    <fields>
+        <help><!-- Things/situations/areas, which BDK already does very well or excellerate in. --></help>
+        <label><!-- Strengths (S) --></label>
+        <name>Strength_S__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strengths to Leverage --></label>
+        <name>Strengths_to_Leverage__c</name>
+    </fields>
+    <fields>
+        <help><!-- External factors in the market or legal factors which can threaten BDK’s business opportunities --></help>
+        <label><!-- Threats (T) --></label>
+        <name>Threats_T__c</name>
+    </fields>
+    <fields>
+        <help><!-- Kommende aktiviteter på kunden 
+Hvem gør hvad / hvornår --></help>
+        <label><!-- Timeline --></label>
+        <name>Timeline__c</name>
+    </fields>
+    <fields>
+        <label><!-- Udland --></label>
+        <name>Udland__c</name>
+    </fields>
+    <fields>
+        <help><!-- Things/situations which BDK handles poorly, or worse than competitors or simply does not do/have at present. --></help>
+        <label><!-- Weaknesses (W) --></label>
+        <name>Weakness_W__c</name>
+    </fields>
+    <fields>
+        <label><!-- My ambition with account (12 months) --></label>
+        <name>Your_ambition_with_account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deliver - Coordination --></label>
+        <name>deliver_coordination__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deliver - Product offering --></label>
+        <name>deliver_product_supply__c</name>
+    </fields>
+    <layouts>
+        <layout>LO SE</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- PDK LO --></label>
+            <section>PDK LO</section>
+        </sections>
+        <sections>
+            <label><!-- Plan Details --></label>
+            <section>Plan Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PDK BE</layout>
+        <sections>
+            <label><!-- Account Results - What are the goals --></label>
+            <section>Account Results - What are the goals</section>
+        </sections>
+        <sections>
+            <label><!-- Account Value Chain - Critical success factors --></label>
+            <section>Account Value Chain - Critical success factors</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- KVI - Action areas --></label>
+            <section>KVI - Action areas</section>
+        </sections>
+        <sections>
+            <label><!-- Success Criteria - SWOTs --></label>
+            <section>Success Criteria - SWOTs</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PDK LO</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- PDK LO --></label>
+            <section>PDK LO</section>
+        </sections>
+        <sections>
+            <label><!-- Products --></label>
+            <section>Products</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SFDC Acct Plan Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financials --></label>
+            <section>Financials</section>
+        </sections>
+        <sections>
+            <label><!-- Plan Details --></label>
+            <section>Plan Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>New_Event</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- PDK BE --></label>
+        <name>PDK_BE</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PDK LO --></label>
+        <name>PDK_LO</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

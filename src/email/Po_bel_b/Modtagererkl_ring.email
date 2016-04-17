@@ -1,0 +1,118 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt"><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt"><SPAN lang=SV></SPAN></SPAN></SPAN><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt"></SPAN><SPAN lang=EN-GB>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Receiver__c}<BR>{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c} <BR>{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c} <BR>{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c} <BR>{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c} <BR>{!Case.Receiver_Postal_Address_Country__c}</FONT></P>
+<P align=left></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt"></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt"></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2></FONT>&nbsp;</P>
+<P align=left><FONT size=2></FONT>&nbsp;</P>
+<P align=left><FONT size=2></FONT>&nbsp;</P>
+<P align=left><FONT size=2></FONT>&nbsp;</P>
+<P align=left>&nbsp;</P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt"></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt"></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt"></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt"><STRONG><FONT face=Arial,Sans-Serif>HAR DU MODTAGET DENNE PAKKE MED POSTOPKRÆVNING?</FONT></STRONG></SPAN></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt"></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt"><FONT face=Arial,Sans-Serif>Vi skriver til dig for at undersøge, om du har modtaget denne pakke med postopkrævning fra:</FONT></SPAN></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt"></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt">
+<P align=left><FONT face=Arial,Sans-Serif></FONT></P><SPAN lang=SV></SPAN><SPAN lang=EN-GB>
+<P dir=ltr align=left><FONT face=Arial,Sans-Serif><SPAN lang=EN-GB>&nbsp;</P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Sender__c}</FONT></P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}</FONT></P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}</FONT></P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")} {!Case.Sender_Postal_Address_Suburb__c} </FONT></P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}</FONT></P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Sender_Postal_Address_Country__c}</FONT></P>
+<P align=left></SPAN></P>
+<P dir=ltr align=left></FONT>
+<P dir=ltr align=left><FONT face=Arial,Sans-Serif></FONT></P></SPAN><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif></FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>Afsenderen efterlyser pakken med stregkodenummer&nbsp; <SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt">{!Case.Item_Id__c}, </SPAN>som blev sendt <SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt">{!Case.Submission_date__c}</SPAN>.&nbsp; Postopkrævningsbeløbet er <FONT size=2><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 9pt">{!Case.COD_Amount__c}, </SPAN>og pakken indeholdt <SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt">{!Case.Description_of_Content__c}.</SPAN>Vi vil gerne vide, om du har modtaget pakken. </FONT></FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>Afsenderen efterlyser pakken med stregkodenummer <SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt">{!Case.Item_Id__c}, </SPAN>som blev sendt <SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt">{!Case.Submission_date__c}</SPAN>.&nbsp;Ifølge vores sporingssystem Track &amp; Trace er pakken udleveret til dig </FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt">{!Case.Delivery_date__c}. </SPAN>Vi vedlægger en udskrift af Track &amp; Trace. Postopkrævningsbeløbet er <FONT size=2><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 9pt">{!Case.COD_Amount__c}, </SPAN>og pakken indeholdt <SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt">{!Case.Description_of_Content__c}. </SPAN>Vi vil gerne vide, om du har modtaget pakken.</FONT></FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>Vi beder dig udfylde erklæringen og sende den retur til os inden tre hverdage i vedlagte svarkonvolut. Portoen er betalt.</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>Hvis du har modtaget pakken uden at betale postopkrævningsbeløbet, vil vi sende dig et indbetalingskort på beløbet.</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>På forhånd tak for hjælpen.</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><A name=Hilsen><SPAN style="FONT-FAMILY: 'Humnst777 Lt BT'; FONT-SIZE: 10pt; mso-ansi-language: DA; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: 'Times New Roman'; mso-no-proof: yes; mso-bidi-font-size: 12.0pt"><FONT face=Arial,Sans-Serif>Med venlig hilsen</FONT></SPAN></A></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 9pt"><FONT face=Arial,Sans-Serif><FONT size=2>{!Case.OwnerFirstName} {!Case.OwnerLastName}<?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></FONT></FONT></SPAN></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 9pt"><FONT face=Arial,Sans-Serif><FONT size=2>{!Case.OwnerTitle}<o:p></o:p></FONT></FONT></SPAN></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><STRONG><FONT face=Arial,Sans-Serif>Erklæring til sagsnummer <SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt">{!Case.Main_Case_Number__c}:<o:p></o:p></SPAN></FONT></STRONG></P>
+<P align=left><STRONG><FONT face=Arial,Sans-Serif>&nbsp;</FONT></STRONG></P>
+<P align=left><FONT face=Arial,Sans-Serif>Pakkens stregkodenummer <SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt">{!Case.Item_Id__c}<o:p></o:p></SPAN></FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>Pakken er sendt <SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt">{!Case.Submission_date__c}.<o:p></o:p></SPAN></FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>☺ Pakken er modtaget <SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt">{!Case.Delivery_date__c}</SPAN></FONT></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt"><o:p></o:p></SPAN><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>Pakkens afsender:<BR></P></FONT>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: DA; mso-bidi-language: AR-SA" lang=EN-GB></SPAN><FONT face=Arial,Sans-Serif>{!Case.Sender__c}<BR>{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}<BR>{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}<BR>{!IF(Case.Sender_Postal_Address_Suburb__c="Suburb","",Case.Sender_Postal_Address_Suburb__c)}<BR>{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}<BR>{!Case.Sender_Postal_Address_Country__c}<BR>&nbsp;</FONT></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: DA; mso-bidi-language: AR-SA" lang=EN-GB><FONT face=Arial,Sans-Serif>Pakkens indhold <SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt">{!Case.Description_of_Content__c}</SPAN></FONT></SPAN></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: DA; mso-bidi-language: AR-SA" lang=EN-GB><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt"><o:p></o:p></SPAN><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left></SPAN><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: DA; mso-bidi-language: AR-SA" lang=EN-GB><FONT face=Arial,Sans-Serif>Postopkrævningsbeløb <SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 9pt"><FONT size=2>{!Case.COD_Amount__c}<o:p></o:p></FONT></SPAN></FONT></P></SPAN><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: DA; mso-bidi-language: AR-SA" lang=EN-GB>
+<P align=left><BR><FONT face=Arial,Sans-Serif>0 <EM>Jeg har</EM> modtaget pakken og <EM>betalt</EM> postopkrævningsbeløbet (Vedlæg venligst kopi af kvitteringen).</FONT></SPAN></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: DA; mso-bidi-language: AR-SA" lang=EN-GB><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>Pakken er modtaget ________________________</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>Postopkrævningsbeløbet er betalt _____________</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>Dato:_________________&nbsp;&nbsp; Underskrift:______________________</FONT></P>
+<P align=left><BR><FONT face=Arial,Sans-Serif>0 <EM>Jeg har</EM> modtaget pakken, men har <EM>ikke betalt</EM> postopkrævningsbeløbet.</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>Pakken er modtaget_________________</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>Dato:______________ Underskrift: ___________________________</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>Tro og love erklæring på at pakken ikke er modtaget</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>0 Jeg/vi erklærer på tro og love, at jeg/vi ikke har modtaget pakken. Jeg/vi vil straks give besked til Post Danmark, hvis pakken bliver fundet.</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>Dato:_______________ Underskrift:__________________________</FONT></SPAN></P><FONT face=Arial,Sans-Serif>
+<P align=left><BR></P></FONT>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P><o:p></o:p></SPAN>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" rowspan="3" aEditID="c2r1" >
+<![CDATA[<P align=left><FONT size=1 face=Arial,Sans-Serif>{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>Tlf {!User.Department_Phone__c}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}<BR></P></FONT>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

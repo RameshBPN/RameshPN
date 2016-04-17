@@ -1,0 +1,8 @@
+<apex:page >
+
+	<apex:image id="radiobuttonunchecked"
+		value="{!$Resource.Radiobutton_Unchecked}" width="9" height="9" />
+	<apex:image id="radiobuttonchecked"
+		value="{!$Resource.Radiobutton_Checked}" width="9" height="9" />
+
+</apex:page>

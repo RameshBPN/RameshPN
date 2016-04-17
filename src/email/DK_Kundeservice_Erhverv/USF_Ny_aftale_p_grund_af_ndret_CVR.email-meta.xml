@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>36 - USF: Ny aftale på grund af ændret CVR</name>
+    <style>promotionRight</style>
+    <subject>Aftale om ufrankerede svarforsendelser</subject>
+    <type>html</type>
+</EmailTemplate>

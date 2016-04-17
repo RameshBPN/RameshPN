@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Case Auto Response</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Assigned to queue,Created</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>modtager.betaler@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>modtager.betaler@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/Modtage_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Assigned to queue,Created</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>kundeservice.erhverv@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>kundeservice.erhverv@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/Kundeservice_erhverv_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Assigned to queue,Created</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>stamps@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>stamps@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/stamps</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Assigned to queue,Created</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>eposthuset@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>eposthuset@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/eposthuset</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Assigned to queue,Created</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>fktsck178@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>fktsck178@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/flyt</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Assigned to queue,Created</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>fktsck47@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>fktsck47@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/P5_function_mailboxes</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Assigned to queue,Created</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>international@dpd.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>international@dpd.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/International</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Assigned to queue,Created</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>logistik.or@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>logistik.or@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/Logistik</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Assigned to queue,Created</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>logistik.wh@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>logistik.wh@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/Logistik</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Assigned to queue,Created</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>logistik.bl@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>logistik.bl@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/Logistik</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Assigned to queue,Created</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>logistik.go@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>logistik.go@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/Logistik</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Assigned to queue,Created</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>fktsck183@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>fktsck183@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/P5_function_mailboxes</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Created,Assigned to queue</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>fktip6@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>fktip6@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/International_Support</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Created,Assigned to queue</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>fktsck181@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>fktsck181@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/P5_function_mailboxes</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Created,Assigned to queue</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>fktsck182@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>fktsck182@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/P5_function_mailboxes</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>fktinc23@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Created,Assigned to queue</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>fktinc23@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/Nyimport_23</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>fktinc25@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Created,Assigned to queue</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>fktinc25@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/Importregulering_25</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>fktinc27@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Created,Assigned to queue</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>fktinc27@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/Importinfo_27</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Created,Assigned to queue</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>fktek40@post.dk</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Has_To_Stop_Auto_Response__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <replyToEmail>fktek40@post.dk</replyToEmail>
+            <senderEmail>kundeservicesfdk@post.dk</senderEmail>
+            <senderName>Post Danmark Kundeservice</senderName>
+            <template>Case_Auto_Response/Drift_og_salg</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

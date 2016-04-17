@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatButton xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deployments/>
+    <enableQueue>false</enableQueue>
+    <isActive>true</isActive>
+    <label>Live Agent Button DK</label>
+    <optionsCustomRoutingIsEnabled>false</optionsCustomRoutingIsEnabled>
+    <optionsHasInviteAfterAccept>false</optionsHasInviteAfterAccept>
+    <optionsHasInviteAfterReject>false</optionsHasInviteAfterReject>
+    <optionsHasRerouteDeclinedRequest>false</optionsHasRerouteDeclinedRequest>
+    <optionsIsAutoAccept>false</optionsIsAutoAccept>
+    <optionsIsInviteAutoRemove>false</optionsIsInviteAutoRemove>
+    <postChatPage>G2O_PostChatPage</postChatPage>
+    <preChatFormPage>G2O_PreChatForm</preChatFormPage>
+    <routingType>Choice</routingType>
+    <site>Chat_DK_Resources</site>
+    <skills>
+        <skill>Postnord_CS_general_skill</skill>
+    </skills>
+    <type>Standard</type>
+    <windowLanguage>da</windowLanguage>
+</LiveChatButton>

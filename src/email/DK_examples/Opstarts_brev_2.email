@@ -1,0 +1,54 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<DIV><FONT size=2 face="Arial, sans-serif">{!Case.Sender__c}<BR>{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}<BR>{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}<BR>{!IF(Case.Sender_Postal_Address_Suburb__c="Suburb","",Case.Sender_Postal_Address_Suburb__c)}<BR>{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}<BR>{!Case.Sender_Postal_Address_Country__c}<BR><BR></FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT face="Arial, sans-serif"><BR><FONT size=2></FONT></FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT face="Arial, sans-serif"><BR><FONT size=2></FONT></FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT face="Arial, sans-serif"><BR><FONT size=2></FONT></FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT face="Arial, sans-serif"><BR><FONT size=2></FONT></FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT face="Arial, sans-serif"><BR><FONT size=2></FONT></FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT face="Arial, sans-serif"><BR><FONT size=2></FONT></FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT face="Arial, sans-serif"><BR><FONT size=2></FONT></FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT face="Arial, sans-serif"><BR><FONT size=2></FONT></FONT></DIV>
+<DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><B><FONT size=2 face="Arial, sans-serif">Din efterlysning er under behandling</FONT></B></DIV>
+<DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT face="Arial, sans-serif"><BR><FONT size=2></FONT></FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT size=2 face="Arial, sans-serif">Vi har modtaget din efterlysning af forsendelsen med stregkodenummer&nbsp;<SPAN style="BACKGROUND-COLOR: rgb(255,255,255); FONT-SIZE: small">{!Case.Item_Id__c}</SPAN>&nbsp;sendt&nbsp;<SPAN style="BACKGROUND-COLOR: rgb(255,255,255); FONT-SIZE: small">{!Case.Submission_date__c}</SPAN>&nbsp;til:</FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT face="Arial, sans-serif"><BR><FONT size=2></FONT></FONT></DIV>
+<DIV>
+<DIV style="BACKGROUND-COLOR: rgb(255,255,255)"><FONT size=2 face="Arial, sans-serif">{!Case.Receiver__c}</FONT></DIV>
+<DIV style="BACKGROUND-COLOR: rgb(255,255,255)"><FONT size=2 face="Arial, sans-serif">{!Case.Receiver_Contact_Name__c}</FONT></DIV>
+<DIV style="BACKGROUND-COLOR: rgb(255,255,255)"><FONT size=2 face="Arial, sans-serif">{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_S__c} {!Case.Receiver_Postal_Address_Room_Number__c}</FONT></DIV>
+<DIV style="BACKGROUND-COLOR: rgb(255,255,255)"><FONT size=2 face="Arial, sans-serif">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c}</FONT></DIV>
+<DIV style="BACKGROUND-COLOR: rgb(255,255,255)"><FONT size=2 face="Arial, sans-serif">{!IF(Case.Receiver_Postal_Address_Suburb__c="","","Suburb:")} {!Case.Receiver_Postal_Address_Suburb__c}</FONT></DIV>
+<DIV style="BACKGROUND-COLOR: rgb(255,255,255)"><FONT size=2 face="Arial, sans-serif">{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c}</FONT></DIV>
+<DIV style="BACKGROUND-COLOR: rgb(255,255,255)"><FONT size=2 face="Arial, sans-serif">{!Case.Receiver_Postal_Address_Country__c}</FONT></DIV>
+<DIV style="BACKGROUND-COLOR: rgb(255,255,255)"><FONT size=2></FONT><FONT face="Arial, sans-serif"><BR><BR>&nbsp;</DIV></FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT size=2 face="Arial, sans-serif">Vi er ved at undersøge sagen. Vær opmærksom på, at der kan gå op til to uger, før vi kan give dig et svar.</FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT face="Arial, sans-serif"><BR><FONT size=2></FONT></FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT size=2 face="Arial, sans-serif">Hvis forsendelsen kommer frem til modtager eller retur til dig, beder vi dig give os besked på telefon&nbsp;{!User.Department_Phone__c}&nbsp;eller mail&nbsp;{!User.Team_Email__c}.</FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT face="Arial, sans-serif"><FONT size=2><FONT style="COLOR: rgb(0,0,0)">Oplys venligst sagsnummer&nbsp;</FONT>{!Case.Main_Case_Number__c}<SPAN style="COLOR: rgb(0,0,0)">.</SPAN></FONT></FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT size=2 face="Arial, sans-serif">Du kan læse mere om vores produkter i forretningsbetingelserne på vores hjemmeside www.postdanmark.dk</FONT></DIV></DIV></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt"><FONT face="Arial, sans-serif"><BR><FONT size=2></FONT></FONT></DIV>
+<DIV style="COLOR: rgb(0,0,0); FONT-SIZE: 12pt">
+<DIV style="BACKGROUND-COLOR: rgb(255,255,255)"><FONT size=2 face="Arial, sans-serif">Med venlig hilsen</FONT></DIV>
+<DIV style="BACKGROUND-COLOR: rgb(255,255,255)"><FONT size=2 face="Arial, sans-serif">{!User.FirstName} {!User.LastName}</FONT></DIV></DIV>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" rowspan="3" aEditID="c2r1" >
+<![CDATA[<P><FONT size=1>{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>TLF {!User.Department_Phone__c}<BR>FAX {!User.Fax}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}</FONT></P>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

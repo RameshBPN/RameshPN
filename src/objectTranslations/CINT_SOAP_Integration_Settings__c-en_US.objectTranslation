@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CINT SOAP Integration Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CINT SOAP Integration Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- CINT Custom Error Code --></label>
+        <name>CINT_Custom_Error_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- CINT Custom Error Description --></label>
+        <name>CINT_Custom_Error_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOAP Error Code --></label>
+        <name>SOAP_Error_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOAP Error Description --></label>
+        <name>SOAP_Error_Description__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

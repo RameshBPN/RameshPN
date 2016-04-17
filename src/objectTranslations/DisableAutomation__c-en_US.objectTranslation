@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DisableAutomation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DisableAutomation</value>
+    </caseValues>
+    <fields>
+        <label><!-- Disable All Non-OBM Workflows --></label>
+        <name>Disable_All_Non_OBM_Workflows__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable All OBM Workflows --></label>
+        <name>Disable_All_OBM_Workflows__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable All Triggers --></label>
+        <name>Disable_All_Triggers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable All Validation Rules --></label>
+        <name>Disable_All_Validation_Rules__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suppress AccountTeamMemberSync Job --></label>
+        <name>Suppress_AccountTeamMemberSync_Job__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suppress Deletion Job --></label>
+        <name>Suppress_Deletion_Job__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

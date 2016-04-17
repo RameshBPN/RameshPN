@@ -3,8 +3,8 @@
     <property file="build.properties"/>
     <property environment="env"/>
     
-	<!-- BuildAvanthi-->
-    <target name="TargetNameHere">
-        <sf:deploy username="${qastage.username}" password="${qastage.password}" serverurl="${qastage.serverurl}" deployRoot="/src" runAllTests="false" checkOnly="false" pollwaitmillis="90000" maxpoll="20"/>
+    <!-- Deploy_G2OSEFIQA-->
+    <target name="Deploy_G2OSEFIQA">
+        <sf:deploy username="${g2osefiqa.username}" password="${g2osefiqa.password}" serverurl="${g2osefiqa.serverurl}" deployRoot="/src" runAllTests="false" checkOnly="true" pollwaitmillis="90000" maxpoll="20"/>
     </target>
 </project>

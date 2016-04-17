@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>Send Vidensartikel til kunde HTML</name>
+    <style>freeForm</style>
+    <subject>Svar fra Kundelinjen Post Danmark</subject>
+    <textOnly>Hej {!Contact.FirstName},
+
+Tak for din henvendelse.
+
+{!Knowledge_Article_DK__kav.Mail__c}
+
+Du kan læse mere på www.postdanmark.dk.
+
+Med venlig hilsen
+
+{!Case.CreatedBy}
+{!Organization.Name}</textOnly>
+    <type>html</type>
+</EmailTemplate>

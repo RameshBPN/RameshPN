@@ -1,0 +1,1874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Employee No. --></label>
+        <name>ANSTNR__c</name>
+    </fields>
+    <fields>
+        <label><!-- ARB_TFN --></label>
+        <name>ARB_TFN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Country --></label>
+        <name>Account_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Involved Party ID --></label>
+        <name>Account_Involved_Party_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Text --></label>
+        <name>Account_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activities --></label>
+        <name>Activities__c</name>
+        <picklistValues>
+            <masterLabel>DR magazine</masterLabel>
+            <translation><!-- DR magazine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M.fl.</masterLabel>
+            <translation><!-- M.fl. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Marketing Activities</masterLabel>
+            <translation><!-- Other Marketing Activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seasonal Greeting</masterLabel>
+            <translation><!-- Seasonal Greeting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Additional Email Address --></label>
+        <name>Additional_Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Phone --></label>
+        <name>Additional_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Breve Behavior --></label>
+        <name>Breve_Behavior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Breve Demographic --></label>
+        <name>Breve_Demographic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Breve Overall --></label>
+        <name>Breve_Overall__c</name>
+    </fields>
+    <fields>
+        <help><!-- Normalised contact mobile phone number (Mobile). --></help>
+        <label><!-- CC Mobile --></label>
+        <name>CC_Mobile__c</name>
+    </fields>
+    <fields>
+        <help><!-- Normalised contact phone number (Phone). --></help>
+        <label><!-- CC Phone --></label>
+        <name>CC_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Task --></label>
+        <name>Campaign_Task__c</name>
+        <picklistValues>
+            <masterLabel>LO DK</masterLabel>
+            <translation><!-- LO DK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO FI</masterLabel>
+            <translation><!-- LO FI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO FI DPD</masterLabel>
+            <translation><!-- LO FI DPD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation><!-- LO NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO SE</masterLabel>
+            <translation><!-- LO SE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME SE</masterLabel>
+            <translation><!-- ME SE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO TASK</masterLabel>
+            <translation><!-- NO TASK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK BE</masterLabel>
+            <translation><!-- PDK BE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK LO</masterLabel>
+            <translation><!-- PDK LO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Campaign description --></label>
+        <name>Campaign_description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign name --></label>
+        <name>Campaign_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>D96</masterLabel>
+            <translation><!-- D96 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timelønnet</masterLabel>
+            <translation><!-- Timelønnet --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Category --></label>
+        <name>Contact_Category__c</name>
+        <picklistValues>
+            <masterLabel>Daily Contact</masterLabel>
+            <translation><!-- Daily Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision Maker</masterLabel>
+            <translation><!-- Decision Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Person ID Counter --></label>
+        <name>Contact_Person_ID_Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Person ID --></label>
+        <name>Contact_Person_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Person Newsletter --></label>
+        <name>Contact_Person_Newsletter__c</name>
+        <picklistValues>
+            <masterLabel>Logistik Magasin</masterLabel>
+            <translation><!-- Logistik Magasin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK Direkte - Bureau/Influencer (Seg 4)</masterLabel>
+            <translation><!-- PDK Direkte - Bureau/Influencer (Seg 4) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK Direkte - Business Comm.(Seg 3)</masterLabel>
+            <translation><!-- PDK Direkte - Business Comm.(Seg 3) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK Direkte - E-Commerce(Seg 1)</masterLabel>
+            <translation><!-- PDK Direkte - E-Commerce(Seg 1) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK Direkte - Key Accounts (Seg 5)</masterLabel>
+            <translation><!-- PDK Direkte - Key Accounts (Seg 5) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK Direkte - Marketing (Seg 2)</masterLabel>
+            <translation><!-- PDK Direkte - Marketing (Seg 2) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Person Type --></label>
+        <name>Contact_Person_Type__c</name>
+        <picklistValues>
+            <masterLabel>Lead Contact Person</masterLabel>
+            <translation><!-- Lead Contact Person --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Official</masterLabel>
+            <translation><!-- Official --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PostNord Created</masterLabel>
+            <translation><!-- PostNord Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Shop Created</masterLabel>
+            <translation><!-- Web Shop Created --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact count --></label>
+        <name>Contact_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Code --></label>
+        <name>Cost_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- DK SAP ERP --></label>
+        <name>DK_SAP_ERP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deletion Flag --></label>
+        <name>Deletion_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Country --></label>
+        <name>Employee_Country__c</name>
+        <picklistValues>
+            <masterLabel>DK</masterLabel>
+            <translation><!-- DK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI</masterLabel>
+            <translation><!-- FI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE</masterLabel>
+            <translation><!-- SE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employment Category --></label>
+        <name>Employment_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Advertising Block --></label>
+        <name>External_Advertising_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Contact Person Status --></label>
+        <name>External_Contact_Person_Status__c</name>
+        <picklistValues>
+            <masterLabel>DK:SR7X8</masterLabel>
+            <translation>Experian code to internal industry analysis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRAFN</masterLabel>
+            <translation>Activity partially divested, numbers are not comparable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRANS</masterLabel>
+            <translation>New activity, numbers comparable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRANU</masterLabel>
+            <translation>New activity, numbers not comparable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRAON</masterLabel>
+            <translation>Activity acquired, figures are not comparable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRASB</masterLabel>
+            <translation>Activities changes to new industry</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRAUT</masterLabel>
+            <translation>Experian code to internal industry analysis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRBDU</masterLabel>
+            <translation>Daily management inadequate</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRBMR</masterLabel>
+            <translation>Market is basis of result</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRBPF</masterLabel>
+            <translation>Positive expectations</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRBPN</masterLabel>
+            <translation>Negative expactations</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRBUD</masterLabel>
+            <translation>Inadequate operation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRKFS</masterLabel>
+            <translation>Merger completed, numbers comparable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRKFU</masterLabel>
+            <translation>Merger completed, numbers not comparable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRKLB</masterLabel>
+            <translation>Unlawful loans, subsequently settled</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRKLL</masterLabel>
+            <translation>Unlawful loans admitted</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRKRS</masterLabel>
+            <translation>Inconsistency in income statement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRKSB</masterLabel>
+            <translation>Inconsistency in balance sheet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRMA1</masterLabel>
+            <translation>Not accounting liable, exceptional conditions</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRMFS</masterLabel>
+            <translation>Financial Statements published in foreign language</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRMIF</masterLabel>
+            <translation>Financial Statements published, but insufficient</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRMIK</masterLabel>
+            <translation>Financial Statements published, but cannot be dated</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRPAS</masterLabel>
+            <translation>Depreciation changed, numbers are not comparable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRPBS</masterLabel>
+            <translation>Principle change, balance comparable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRPRS</masterLabel>
+            <translation>Principle change, income comparable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRPTI</masterLabel>
+            <translation>Principle change, numbers not comparable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRDI</masterLabel>
+            <translation>Operation can not be continued</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRREV</masterLabel>
+            <translation>Audit remarks exists</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRFF</masterLabel>
+            <translation>Valuation is incorrect</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRGF</masterLabel>
+            <translation>Reservations for continued operation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRIO</masterLabel>
+            <translation>Not enough information</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRLB</masterLabel>
+            <translation>Unlawful loans, subsequently settled</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRLL</masterLabel>
+            <translation>Unlawful loans admitted</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRNF</masterLabel>
+            <translation>New Auditor, previous committed errors</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRNR</masterLabel>
+            <translation>New Auditor, old information not possible to verify</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRPA</masterLabel>
+            <translation>Police review ongoing/completed</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRRI</masterLabel>
+            <translation>Accounting should not be approved</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRTF</masterLabel>
+            <translation>Reservations are made</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRVF</masterLabel>
+            <translation>Valution may be incorrect</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRRÅF</masterLabel>
+            <translation>Annual report is / may be incorrect</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:SRURV</masterLabel>
+            <translation>Auditors not available in Financial Statements</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST00</masterLabel>
+            <translation>Active</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST10</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST11</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST20</masterLabel>
+            <translation>Liquidation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST200</masterLabel>
+            <translation>Other</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST21</masterLabel>
+            <translation>Liquidation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST210</masterLabel>
+            <translation>Other</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST220</masterLabel>
+            <translation>Other</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST230</masterLabel>
+            <translation>Other</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST30</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST31</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST32</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST40</masterLabel>
+            <translation>Other</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST50</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST500</masterLabel>
+            <translation>Liquidation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST51</masterLabel>
+            <translation>Merger/split</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST55</masterLabel>
+            <translation>Merger/split</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST56</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST60</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST70</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST90</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:ST99</masterLabel>
+            <translation>Removed</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK:STRL</masterLabel>
+            <translation>Blocked for Direct Marketing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST00</masterLabel>
+            <translation>Active</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST10</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST200</masterLabel>
+            <translation>Inactive</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST400</masterLabel>
+            <translation>Liquidation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST410</masterLabel>
+            <translation>Bankruptcy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST430</masterLabel>
+            <translation>Liquidation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST800</masterLabel>
+            <translation>Unknown Address</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST900</masterLabel>
+            <translation>Other</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:ST99</masterLabel>
+            <translation>Removed</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FI:STRL</masterLabel>
+            <translation>Blocked for Direct Marketing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRA</masterLabel>
+            <translation>Unlawful loans to shareholder, daily manager, member of the board, or others</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRB</masterLabel>
+            <translation>Withholding tax not deposited in separate account or not fully paid</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRC</masterLabel>
+            <translation>Insufficient documentation and internal control</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRD</masterLabel>
+            <translation>All or part share capital is lost</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRE</masterLabel>
+            <translation>Uncertainties regarding continued operation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRF</masterLabel>
+            <translation>Unlawful loans to daily manager, member of the board, or others</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRG</masterLabel>
+            <translation>Shortcomings in procedures/internal control/documentation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRH</masterLabel>
+            <translation>Financial Statement not submitted within deadline</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRI</masterLabel>
+            <translation>The Company has acquired shares in violation of the Act.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRJ</masterLabel>
+            <translation>The company&apos;s assets are not transferred to the company.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRK</masterLabel>
+            <translation>The company has ongoing disputes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRL</masterLabel>
+            <translation>Auditor refers to notes/annual report</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRM</masterLabel>
+            <translation>Additional clarifying remarks</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRN</masterLabel>
+            <translation>Valuation of assets</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRO</masterLabel>
+            <translation>Last year&apos;s financial statements was not audited by the current auditors, the opening balance can not be verified.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRP</masterLabel>
+            <translation>Annual report does not contain enough information</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRR</masterLabel>
+            <translation>Shortcomings in procedures/internal control/documentation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRS</masterLabel>
+            <translation>Documentation missing due to specific circumstances (force majeur)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRT</masterLabel>
+            <translation>Other reservations, not mentioned elsewhere</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRY</masterLabel>
+            <translation>Negative remarks in the auditor&apos;s report</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:SRZ</masterLabel>
+            <translation>Adittor can not comment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:ST00</masterLabel>
+            <translation>Other</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:ST10</masterLabel>
+            <translation>Active</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:ST41</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:ST99</masterLabel>
+            <translation>Address being checked</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:ST?</masterLabel>
+            <translation>Removed</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STA</masterLabel>
+            <translation>Liquidation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STBN</masterLabel>
+            <translation>Active</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STDU</masterLabel>
+            <translation>Duplicate risk</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STFB</masterLabel>
+            <translation>Address being checked</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STFG</masterLabel>
+            <translation>Address being checked</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STFP</masterLabel>
+            <translation>Address being checked</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STFT</masterLabel>
+            <translation>Address being checked</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STFU</masterLabel>
+            <translation>Merger/split</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STIA</masterLabel>
+            <translation>Inactive</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STK</masterLabel>
+            <translation>Bankruptcy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STOP</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STPA</masterLabel>
+            <translation>Inactive</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STRE</masterLabel>
+            <translation>Address being checked</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STRL</masterLabel>
+            <translation>Blocked for Direct Marketing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STS</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STTA</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STUA</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STUT</masterLabel>
+            <translation>Other</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STX</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO:STZ</masterLabel>
+            <translation>Inactive</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST00</masterLabel>
+            <translation>Active</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST01</masterLabel>
+            <translation>Address being checked</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST02</masterLabel>
+            <translation>Duplicate risk</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST03</masterLabel>
+            <translation>Blocked for Mailing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST04</masterLabel>
+            <translation>Bancruptcy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST05</masterLabel>
+            <translation>Ceased Trading</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST06</masterLabel>
+            <translation>Liquidation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST07</masterLabel>
+            <translation>Merger/split</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST08</masterLabel>
+            <translation>Not yet Active</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST09</masterLabel>
+            <translation>Inactive</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST10</masterLabel>
+            <translation>Other</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:ST99</masterLabel>
+            <translation>Unknown</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN:STRL</masterLabel>
+            <translation>Blocked for Direct Marketing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRA</masterLabel>
+            <translation>Auditor has not approved</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRB</masterLabel>
+            <translation>The auditor has not approved the discharge of one or more directors, alto CEO.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRC</masterLabel>
+            <translation>Balance sheet shows that liquidation is obligated</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRD</masterLabel>
+            <translation>Liquidation is obligated. Balance sheet is not prepared</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRE</masterLabel>
+            <translation>Balance sheet and/or income statement  contains unsafe or improperly valued items</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRF</masterLabel>
+            <translation>Complained of shortage in the company&apos;s internal control</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRG</masterLabel>
+            <translation>Payment of taxes and or fees have not been handled properly</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRH</masterLabel>
+            <translation>Balance sheet shows that liquidation duty obligation not exist</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRI</masterLabel>
+            <translation>Unlawful loans have been granted to shareholders or related parties</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRJ</masterLabel>
+            <translation>Auditor comments of other serious matter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRK</masterLabel>
+            <translation>General Information/Comment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRL</masterLabel>
+            <translation>Information about the Group is missin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRM</masterLabel>
+            <translation>The Company has received capitalization gurarantee</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRN</masterLabel>
+            <translation>The annual report is filed late, alternatively General Meeting held to late</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRP</masterLabel>
+            <translation>Annual report filed to late</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRR</masterLabel>
+            <translation>Difficutl to assess - reservation A-J</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRV</masterLabel>
+            <translation>Auditor has not approved nor disapproved</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:SRZ</masterLabel>
+            <translation>Auditor has disapproved</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST00</masterLabel>
+            <translation>Active</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST10</masterLabel>
+            <translation>Ceased Company</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST11</masterLabel>
+            <translation>Deceased</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST12</masterLabel>
+            <translation>Ceased Company, not with SCB</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST13</masterLabel>
+            <translation>Ceased Work Site</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST14</masterLabel>
+            <translation>Ceased Work Site, not with SCB</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST15</masterLabel>
+            <translation>Deregistered Company</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST16</masterLabel>
+            <translation>Ceased Company - Fusion</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST20</masterLabel>
+            <translation>Bankruptcy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST25</masterLabel>
+            <translation>Företaget i likvidation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST30</masterLabel>
+            <translation>Company not active</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST40</masterLabel>
+            <translation>Company Address Unknown</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST41</masterLabel>
+            <translation>Address being checked</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST42</masterLabel>
+            <translation>Address unknown</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST43</masterLabel>
+            <translation>Under investigation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST50</masterLabel>
+            <translation>Advertising blocked Work Site</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST51</masterLabel>
+            <translation>Advertising blocked person</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST52</masterLabel>
+            <translation>Advertising blocked relationship</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST53</masterLabel>
+            <translation>Mail Blocked  Work Site</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST54</masterLabel>
+            <translation>Mailbox missing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST55</masterLabel>
+            <translation>Winter address</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST56</masterLabel>
+            <translation>Summer address</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST57</masterLabel>
+            <translation>Duplicate Blocked Work Site</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST58</masterLabel>
+            <translation>Duplicate Blocked Person</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST59</masterLabel>
+            <translation>Blocked for Direct Marketing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST60</masterLabel>
+            <translation>Foreign Residence</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST61</masterLabel>
+            <translation>Retired</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST62</masterLabel>
+            <translation>Leave of absence</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST63</masterLabel>
+            <translation>Not working</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST64</masterLabel>
+            <translation>Blocked at Socialstyrelsen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST65</masterLabel>
+            <translation>Personal investigation ongoing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST66</masterLabel>
+            <translation>Mail Blocked</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST70</masterLabel>
+            <translation>Deregistered SPAR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST71</masterLabel>
+            <translation>Protected Person Spar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST90</masterLabel>
+            <translation>Not yet active</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE:ST99</masterLabel>
+            <translation>Removed</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Provider Party ID --></label>
+        <name>External_Provider_Party_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Provider Party Parent ID --></label>
+        <name>External_Provider_Party_Parent_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Provider Relationship ID --></label>
+        <name>External_Provider_Relationship_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Influence --></label>
+        <name>Influence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Lifecycle Status --></label>
+        <name>Internal_Lifecycle_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passive</masterLabel>
+            <translation><!-- Passive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Org Unit Contact --></label>
+        <name>Is_Org_Unit_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>Language__c</name>
+        <picklistValues>
+            <masterLabel>af</masterLabel>
+            <translation>Afrikaans</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ar</masterLabel>
+            <translation>Arabic</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bg</masterLabel>
+            <translation>Bulgarian</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ca</masterLabel>
+            <translation>Catalan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>cs</masterLabel>
+            <translation>Czech</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>da</masterLabel>
+            <translation>Danish</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>de</masterLabel>
+            <translation>German</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>el</masterLabel>
+            <translation>Greek, Modern (1453-)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>en</masterLabel>
+            <translation>English</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>es</masterLabel>
+            <translation>Spanish</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>et</masterLabel>
+            <translation>Estonian</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fi</masterLabel>
+            <translation>Finnish</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fr</masterLabel>
+            <translation>French</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>he</masterLabel>
+            <translation>Hebrew</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hr</masterLabel>
+            <translation>Croatian</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hu</masterLabel>
+            <translation>Hungarian</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>id</masterLabel>
+            <translation>Indonesian</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>is</masterLabel>
+            <translation>Icelandic</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>it</masterLabel>
+            <translation>Italian</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ja</masterLabel>
+            <translation>Japanese</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ko</masterLabel>
+            <translation>Korean</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lt</masterLabel>
+            <translation>Lithuanian</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lv</masterLabel>
+            <translation>Latvian</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ms</masterLabel>
+            <translation>Malay</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>nl</masterLabel>
+            <translation>Dutch</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>no</masterLabel>
+            <translation>Norwegian</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pl</masterLabel>
+            <translation>Polish</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pt</masterLabel>
+            <translation>Portuguese</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ro</masterLabel>
+            <translation>Romanian</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ru</masterLabel>
+            <translation>Russian</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sk</masterLabel>
+            <translation>Slovak</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sl</masterLabel>
+            <translation>Slovenian</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sr</masterLabel>
+            <translation>Serbian</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sv</masterLabel>
+            <translation>Swedish</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>th</masterLabel>
+            <translation>Thai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>tr</masterLabel>
+            <translation>Turkish</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>uk</masterLabel>
+            <translation>Ukrainian</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>zh</masterLabel>
+            <translation>Chinese</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last PN Synchronized Date --></label>
+        <name>Last_PN_Synchronized_Date__c</name>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Campaign/Telemarketing</masterLabel>
+            <translation><!-- Campaign/Telemarketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Channel</masterLabel>
+            <translation><!-- Digital Channel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation><!-- Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted by Employee</masterLabel>
+            <translation><!-- Submitted by Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Show / Exhibition</masterLabel>
+            <translation><!-- Trade Show / Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webform</masterLabel>
+            <translation><!-- Webform --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Logistics Behavior --></label>
+        <name>Logistics_Behavior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logistics Demographic --></label>
+        <name>Logistics_Demographic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logistics Overall --></label>
+        <name>Logistics_Overall__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logistik Magasin --></label>
+        <name>Logistik_Magasin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Status --></label>
+        <name>Marketing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Contacted</masterLabel>
+            <translation><!-- Contacted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation><!-- Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified</masterLabel>
+            <translation><!-- Qualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unqualified</masterLabel>
+            <translation><!-- Unqualified --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Meddelende Behavior --></label>
+        <name>Meddelende_Behavior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meddelende Demographic --></label>
+        <name>Meddelende_Demographic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meddelende Overall --></label>
+        <name>Meddelende_Overall__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org ID --></label>
+        <name>Org_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origin --></label>
+        <name>Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- PDK Direkte - Bureau/Influencer (Seg 4) --></label>
+        <name>PDK_Direkte_Bureau_Influencer_Seg_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- PDK Direkte - Business Comm. (Seg 3) --></label>
+        <name>PDK_Direkte_Business_Comm_Seg_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- PDK Direkte - E-Commerce (Seg 1) --></label>
+        <name>PDK_Direkte_E_Commerce_Seg_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- PDK Direkte - Key Accounts (Seg 5) --></label>
+        <name>PDK_Direkte_Key_Accounts_Seg_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- PDK Direkte - Marketing (Seg 2) --></label>
+        <name>PDK_Direkte_Marketing_Seg_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- PNCM ID --></label>
+        <name>PNCM_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- PNCM Parent ID --></label>
+        <name>PNCM_Parent_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bureau --></label>
+        <name>PN_DK_Bureau__c</name>
+    </fields>
+    <fields>
+        <label><!-- e-handel --></label>
+        <name>PN_DK_E_Commerce__c</name>
+    </fields>
+    <fields>
+        <label><!-- Events --></label>
+        <name>PN_DK_Events__c</name>
+    </fields>
+    <fields>
+        <label><!-- Breve --></label>
+        <name>PN_DK_Letters__c</name>
+    </fields>
+    <fields>
+        <label><!-- Markedsføring &amp; Reklame --></label>
+        <name>PN_DK_Marketing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pakker &amp; Logistik --></label>
+        <name>PN_DK_Parcels_and_Log__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frimærker --></label>
+        <name>PN_DK_Stamps__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN DK Survey Block --></label>
+        <name>PN_DK_Survey_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN ERP Contact Person ID --></label>
+        <name>PN_ERP_Contact_Person_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Email Block --></label>
+        <name>PN_Email_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Internal Contact Block --></label>
+        <name>PN_Internal_Contact_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Mail Block --></label>
+        <name>PN_Mail_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN_Mark_As_Synced --></label>
+        <name>PN_Mark_As_Synced__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Phone Block --></label>
+        <name>PN_Phone_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN SMS Block --></label>
+        <name>PN_SMS_Block__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronization ErrorReasonCode --></label>
+        <name>PN_Synchronization_ErrorReasonCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronization Error --></label>
+        <name>PN_Synchronization_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronized --></label>
+        <name>PN_Synchronized__c</name>
+    </fields>
+    <fields>
+        <label><!-- PSNNR --></label>
+        <name>PSNNR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permission Channel --></label>
+        <name>Permission_Channel__c</name>
+        <picklistValues>
+            <masterLabel>Opt In - Customer Service</masterLabel>
+            <translation><!-- Opt In - Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt In - Direct Mail</masterLabel>
+            <translation><!-- Opt In - Direct Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt In - Face to Face</masterLabel>
+            <translation><!-- Opt In - Face to Face --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt In - Other</masterLabel>
+            <translation><!-- Opt In - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt In - Sales</masterLabel>
+            <translation><!-- Opt In - Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt In - Webform</masterLabel>
+            <translation><!-- Opt In - Webform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt Out - Customer Service</masterLabel>
+            <translation><!-- Opt Out - Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt Out - E-mail Link</masterLabel>
+            <translation><!-- Opt Out - E-mail Link --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt Out - Other</masterLabel>
+            <translation><!-- Opt Out - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt Out - Sales</masterLabel>
+            <translation><!-- Opt Out - Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt Out - Webform</masterLabel>
+            <translation><!-- Opt Out - Webform --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Permission Channel timestamp --></label>
+        <name>Permission_Channel_timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permission Time stamp --></label>
+        <name>Permission_Time_stamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permission --></label>
+        <name>Permission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personal Interests --></label>
+        <name>Personal_Interests__c</name>
+        <picklistValues>
+            <masterLabel>Art/Literature</masterLabel>
+            <translation><!-- Art/Literature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bicycle</masterLabel>
+            <translation><!-- Bicycle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boating</masterLabel>
+            <translation><!-- Boating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooking</masterLabel>
+            <translation><!-- Cooking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Football</masterLabel>
+            <translation><!-- Football --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garden</masterLabel>
+            <translation><!-- Garden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf</masterLabel>
+            <translation><!-- Golf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ice Hockey</masterLabel>
+            <translation><!-- Ice Hockey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motor Sports</masterLabel>
+            <translation><!-- Motor Sports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Music – Classical</masterLabel>
+            <translation><!-- Music – Classical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Music – Modern</masterLabel>
+            <translation><!-- Music – Modern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outdoor/Recreation</masterLabel>
+            <translation><!-- Outdoor/Recreation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skiing</masterLabel>
+            <translation><!-- Skiing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports</masterLabel>
+            <translation><!-- Sports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Theatre</masterLabel>
+            <translation><!-- Theatre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trot</masterLabel>
+            <translation><!-- Trot --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Post Nord Programmes Behavior --></label>
+        <name>Post_Nord_Programmes_Behavior__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Nord Programmes Demographic --></label>
+        <name>Post_Nord_Programmes_Demographic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Nord Programmes Overall --></label>
+        <name>Post_Nord_Programmes_Overall__c</name>
+    </fields>
+    <fields>
+        <label><!-- Psnnr Verification --></label>
+        <name>Psnnr_Verification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sentiment --></label>
+        <name>Sentiment__c</name>
+        <picklistValues>
+            <masterLabel>Negative</masterLabel>
+            <translation><!-- Negative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neutral</masterLabel>
+            <translation><!-- Neutral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive</masterLabel>
+            <translation><!-- Positive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SurveyReminder --></label>
+        <name>TIMBASURVEYS__SurveyReminder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey --></label>
+        <name>TIMBASURVEYS__Survey__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- reminderStringSize --></label>
+        <name>TIMBASURVEYS__reminderStringSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Top Priorities --></label>
+        <name>Top_Priorities__c</name>
+    </fields>
+    <fields>
+        <label><!-- User ID --></label>
+        <name>User_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verified --></label>
+        <name>Verified__c</name>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Scheduled Redial --></label>
+        <name>actimizerdialer__ActimizerCallback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Call Attempts --></label>
+        <name>actimizerdialer__CallAttempts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Redial Date &amp; Time --></label>
+        <name>actimizerdialer__DialTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Owner --></label>
+        <name>actimizerdialer__LockedBy__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Actimizer No Interest Date --></label>
+        <name>actimizerdialer__NoInterestDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer No Interest --></label>
+        <name>actimizerdialer__NoInterest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Notes --></label>
+        <name>actimizerdialer__Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Redial Phone --></label>
+        <name>actimizerdialer__RedialPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Success Date --></label>
+        <name>actimizerdialer__SuccessDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Success --></label>
+        <name>actimizerdialer__Success__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Date --></label>
+        <name>mkto2__Acquisition_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Program Id --></label>
+        <name>mkto2__Acquisition_Program_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Program --></label>
+        <name>mkto2__Acquisition_Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred City --></label>
+        <name>mkto2__Inferred_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Company --></label>
+        <name>mkto2__Inferred_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Country --></label>
+        <name>mkto2__Inferred_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Metropolitan Area --></label>
+        <name>mkto2__Inferred_Metropolitan_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Phone Area Code --></label>
+        <name>mkto2__Inferred_Phone_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred Postal Code --></label>
+        <name>mkto2__Inferred_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inferred State Region --></label>
+        <name>mkto2__Inferred_State_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Score --></label>
+        <name>mkto2__Lead_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Referrer --></label>
+        <name>mkto2__Original_Referrer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Search Engine --></label>
+        <name>mkto2__Original_Search_Engine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Search Phrase --></label>
+        <name>mkto2__Original_Search_Phrase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Source Info --></label>
+        <name>mkto2__Original_Source_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Source Type --></label>
+        <name>mkto2__Original_Source_Type__c</name>
+    </fields>
+    <layouts>
+        <layout>Contact Person</layout>
+        <sections>
+            <label><!-- Customer Numbers in Other Systems --></label>
+            <section>Customer Numbers in Other Systems</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Attributes --></label>
+            <section>Marketing Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Permission Information --></label>
+            <section>Permission Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status --></label>
+            <section>Status</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PostNord Employee</layout>
+        <sections>
+            <label><!-- HR Information --></label>
+            <section>HR Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Book call --></label>
+        <name>Book_call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Telesales Call --></label>
+        <name>Completed_call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>Create_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Contact Call --></label>
+        <name>Log_a_Contact_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Contact Task --></label>
+        <name>New_Contact_Task</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Campaign call --></label>
+        <name>Postpone_call</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Contact Person --></label>
+        <name>Contact_Person</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PostNord Employee --></label>
+        <name>PostNord_Employee</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You must enter a First Name to be able to save a contact person --></errorMessage>
+        <name>Contact_First_Name_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contact persons can only be associated with Work Sites --></errorMessage>
+        <name>Contact_Person_Account_Record_Type_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contact person Type is mandatory --></errorMessage>
+        <name>Contact_Person_Type_is_mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fax Number can&apos;t be more than 30 characters. --></errorMessage>
+        <name>Fax_Nr_Length_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Language is mandatory --></errorMessage>
+        <name>Language_is_mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Last Name can&apos;t be more than 40 characters. --></errorMessage>
+        <name>LastName_Length_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Mobile Phone Number can&apos;t be more than 30 characters. --></errorMessage>
+        <name>Mobile_Phone_Nr_Length_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Permission cannot be given unless there is a valid e-mail address in the field E-mail --></errorMessage>
+        <name>Permission_on_Valid_Email_Address</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Phone Number can&apos;t be more than 30 characters. --></errorMessage>
+        <name>Phone_Nr_Length_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- PostNord Employees can only be associated with the PostNord Org Structure --></errorMessage>
+        <name>PostNord_Emp_Account_Record_Type_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Verified is mandatory --></errorMessage>
+        <name>Verified_is_mandatory</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Survey_Contact_Detail --></label>
+        <name>TIMBASURVEYS__Send_Survey_Contact_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Survey_To_Selected --></label>
+        <name>TIMBASURVEYS__Send_Survey_To_Selected</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- send_survey --></label>
+        <name>TIMBASURVEYS__send_survey</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Telesales_script --></label>
+        <name>Telesales_script</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Call_List --></label>
+        <name>actimizerdialer__Add_to_Call_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Call_List_PE --></label>
+        <name>actimizerdialer__Add_to_Call_List_PE</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Call_List_from_Detail --></label>
+        <name>actimizerdialer__Add_to_Call_List_from_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CallNow --></label>
+        <name>actimizerdialer__CallNow</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Call_List --></label>
+        <name>actimizerdialer__Create_Call_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Tasks_Contacts --></label>
+        <name>activities__Create_Tasks_Contacts</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- {!Contact.MKTO_Campaign_Name__c} --></description>
+        <name>Campaign_Task_Call_Contact_PDK_LO</name>
+        <subject><!-- Campaign Task - Call Contact - PDK LO --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- {!Contact.MKTO_Campaign_Name__c} --></description>
+        <name>PDK_BE_Campaign_Task_Call_Contact</name>
+        <subject><!-- PN DK Campaign Task - Call Contact --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

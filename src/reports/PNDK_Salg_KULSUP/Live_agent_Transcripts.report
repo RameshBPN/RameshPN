@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LiveChatTranscript$Name</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$Owner</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$RequestTime</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$EndTime</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$EndedBy</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$StartTime</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$WaitTime</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$Platform</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Live agent transcript with times</description>
+    <filter>
+        <criteriaItems>
+            <column>LiveChatTranscript$Owner</column>
+            <operator>equals</operator>
+            <value>Automated Process</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>LiveChatTranscript$Status</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Live agent Transcripts</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Live_Agent__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>LiveChatTranscript$CreatedDate</dateColumn>
+        <endDate>2014-11-28</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2014-10-01</startDate>
+    </timeFrameFilter>
+</Report>

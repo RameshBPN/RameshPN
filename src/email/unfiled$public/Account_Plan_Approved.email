@@ -1,0 +1,3 @@
+Account plan with name {!SFDC_Acct_Plan__c.Name} has been approved. 
+
+To view the Account Plan please click this link : {!SFDC_Acct_Plan__c.Link}

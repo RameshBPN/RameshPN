@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Ønskeskyen.Mail1-Kvinde-Christmastree</name>
+    <style>none</style>
+    <subject>Vær (næsten) sikker på at få, hvad du ønsker dig til jul</subject>
+    <textOnly>Kære {{lead.First Name}}
+
+
+
+Med Ønskeskyen er juleaften meget nemmere
+
+Uanset om det er din kæreste, mor eller en anden, som vil glæde dig juleaften, så kan det være svært for dem at finde lige det, du ønsker dig allermest. Derfor er det smart at lave din helt egen digital ønskeseddel i Ønskeskyen og dele den med familie og venner i god tid.
+Et klik og dit ønske ligger (næsten) under juletræet
+
+
+
+Med kun et klik gemmer du den trøje, de sko, den makeup eller et andet juleønske, du falder over på nettet. Billede, pris og link til dine ønsker gemmes automatisk. Du kan også tage et billede med din mobil af din drømmetaske og bare sætte den på din ønskeseddel.
+
+
+
+God jul
+&lt;https://www.youtube.com/watch?v=I7ROgOjk3Gk&gt;
+&lt;https://www.facebook.com/oenskeskyen&gt;
+Følg Ønskeskyen på Facebook. &lt;https://www.facebook.com/oenskeskyen&gt;
+Vi har sendt denne e-mail til {{lead.Email Address}}. Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;http://pages.postnord.com/Min-side.html&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,52 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<P><FONT size=2>{!Case.Account}</FONT></P>
+<P><FONT size=2>{!Case.Postal_Address_Street__c} {!Case.Postal_Address_House_Number__c} {!Case.Postal_Address_House_Number_Supplement__c} {!Case.Postal_Address_Room_Number__c}</FONT></P>
+<P><FONT size=2>{!IF(Case.Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Postal_Address_PO_Box__c}</FONT></P>
+<P><FONT size=2>{!IF(!Case.Postal_Address_Suburd__c="Suburb","")} {!Case.Postal_Address_Suburd__c}</FONT></P>
+<P><FONT size=2>{!Case.Postal_Address_Postal_Code__c} {!Case.Postal_Address_City__c}</FONT></P>
+<P><FONT size=2>{!Case.Postal_Address_Country__c}</FONT></P>
+<P><FONT size=2>&nbsp;</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2>&nbsp;</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2></FONT>&nbsp;</P>
+<P><FONT size=2></FONT>&nbsp;</P>
+<P><FONT size=2></FONT>&nbsp;</P>
+<P><FONT size=2></FONT>&nbsp;</P>
+<P>&nbsp;</P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif><STRONG>VI MINDER OM, AT DU STADIG HAR ET UDESTÅENDE MED POST DANMARK&nbsp;</STRONG></FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>Vi beder dig indbetale <STRONG>det opgjorte skyldige beløb på (beløb) kr.</STRONG> (inkl. 300,00 kr. i rykkergebyr) senest 10 dage fra dags dato. </FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>Kopi af rentenota <STRONG>XXXXXXXXXX</STRONG> + <STRONG>XXXXXXXXX</STRONG> er vedlagt.</FONT></P><FONT face=Arial,Sans-Serif>
+<P><BR><FONT size=2>Oversigt over alle åbne poster på kundenummer <STRONG>XXXXXX</STRONG> er udskrevet og vedlagt. </FONT></P>
+<P></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>Hvis du har kommentarer til ovenstående, er du meget velkommen til at kontakte mig.</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>Med venlig hilsen</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>{!Case.OwnerFirstName} {!Case.OwnerLastName}<BR>{!Case.OwnerTitle}</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" rowspan="3" aEditID="c2r1" >
+<![CDATA[<P><FONT size=1>{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>TLF {!User.Department_Phone__c}<BR>FAX {!User.Fax}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}<BR></FONT></P>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

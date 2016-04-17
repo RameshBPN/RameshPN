@@ -1,0 +1,161 @@
+<apex:page standardController="Lead"
+	extensions="G2O_Lead_CustomConvert_VFCx" action="{!init}">
+	<style>
+input.accountLookup {
+	position: absolute !important;
+	top: -9999px !important;
+	left: -9999px !important;
+}
+
+input.contactLookup {
+	position: absolute !important;
+	top: -9998px !important;
+	left: -9998px !important;
+}
+</style>
+
+	<style type="text/css">
+.imgclass:hover {
+	background-image: url(/img/help/helpOrbs.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 15px;
+	background-position: right;
+}
+
+.imgclass {
+	background-image: url(/img/help/helpOrbs.gif);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 15px;
+}
+</style>
+
+	<apex:form rendered="{!hasAccess}">
+		<apex:sectionHeader title="{!$Label.CustomConvert_Lead_Section_Header}" subtitle="{!leadToConvert.Name}" />
+
+		<apex:panelGrid >
+			<apex:outputLabel value="{!$Label.CustomConvert_Description}"
+				escape="false"></apex:outputLabel>
+		</apex:panelGrid>
+
+		<!-- START: Lead Convert Page Block -->
+		<apex:pageBlock id="editPanel" mode="edit">
+
+			<apex:pageMessages id="error1" />
+
+			<apex:pageBlockButtons >
+				<apex:commandButton value="{!$Label.CustomConvert_ConvertButton}"
+					action="{!leadConvertProcess}" rerender="error1"
+					status="loadingSpinner" />
+				<apex:commandButton value="{!$Label.CustomConvert_CancelButton}"
+					action="{!cancel}" />
+			</apex:pageBlockButtons>
+
+			<apex:pageBlockSection title="{!$Label.CustomConvert_Title}"
+				columns="1">
+
+				<!-- <apex:pageBlockSectionItem >
+                <apex:outputLabel value="{!$Label.CustomConvert_RecordOwner}" />
+                    <apex:inputField value="{!recordOwner.OwnerId}" />
+                </apex:pageBlockSectionItem>  -->
+
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="{!$Label.CustomConvert_RecordOwner}" />
+					<apex:inputField value="{!recordOwner.OwnerId}" />
+				</apex:pageBlockSectionItem>
+
+				<!-- START: Account Lookup Section -->
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="{!$Label.CustomConvert_AccountName}" />
+					<apex:outputPanel id="accOpl">
+						<div class="requiredInput">
+							<div class="requiredBlock"></div>
+							<apex:selectList size="1" value="{!accountSelected}"
+								id="accSelect">
+								<!-- onchange ="getHideAttachToExistingContact()" -->
+								<apex:selectOptions value="{!accountDetail}" id="accSelectOpt" />
+							</apex:selectList>
+							<apex:inputField value="{!leadRecord.Account__c}"
+								styleClass="accountLookup" id="theAccLookup"
+								onchange="getAccountPicker();" />
+						</div>
+					</apex:outputPanel>
+				</apex:pageBlockSectionItem>
+				<!-- END: Account Lookup Section -->
+
+				<!-- START: Opportunity Name Section -->
+				<apex:inputField label="{!$Label.CustomConvert_OpportunityName}"
+					value="{!leadToConvert.Short_Description__c}" required="true" />
+				<!-- END: Opportunity Name Section -->
+
+				<!-- START: Contact Name Section -->
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="{!$Label.CustomConvert_ContactName}" />
+					<apex:outputPanel id="conOpl">
+						<div class="requiredInput">
+							<div class="requiredBlock"></div>
+							<apex:selectList value="{!contactSelected}" id="conSelect"
+								size="1">
+								<apex:selectOptions value="{!contactDetail}" id="conSelectOpt" />
+							</apex:selectList>
+							<apex:inputField value="{!caseRecord.ContactId}"
+								styleClass="contactLookup" id="theConLookup"
+								onchange="getContactPicker();" />
+						</div>
+					</apex:outputPanel>
+				</apex:pageBlockSectionItem>
+				<!-- END: Contact Name Section -->
+
+				<!-- START: Converted Status Section -->
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="{!$Label.CustomConvert_Converted_Status}" />
+					<apex:outputPanel id="StatusOpl">
+						<div class="requiredInput">
+							<div class="requiredBlock"></div>
+							<apex:selectList value="{!convertStatusSelected}"
+								id="statusSelected" size="1" required="true">
+								<apex:selectOptions value="{!convertStatus}"
+									id="statusSelectedOpt" />
+							</apex:selectList>
+						</div>
+					</apex:outputPanel>
+				</apex:pageBlockSectionItem>
+				<!-- END: Converted Status Section -->
+
+			</apex:pageBlockSection>
+		</apex:pageBlock>
+
+		<!-- END: Lead Convert Page Block -->
+		<apex:actionFunction action="{!getAccountPickVal}"
+			name="getAccountPicker" rerender="accOpl" />
+		<apex:actionFunction action="{!getContactPickVal}"
+			name="getContactPicker" rerender="conOpl" />
+		<!-- <apex:actionFunction action="{!getHideAttachToExistingContact}" name="getHideAttachToExistingContact"/>	 -->
+
+		<!-- START : General loading spinner that covers the whole page -->
+		<apex:actionstatus id="loadingSpinner">
+			<apex:facet name="start">
+				<div class="waitingSearchDiv" id="el_loading"
+					style="background: url({!$Resource.TransparentBackground_FFFFFF_50pc}) transparent; height: 100%; width: 100%;">
+					<div class="waitingHolder">
+						<img class="waitingImage" src="/img/loading32.gif" title="*" /> <span
+							class="waitingDescription">{!$Label.Loading}</span>
+					</div>
+				</div>
+			</apex:facet>
+		</apex:actionstatus>
+		<!-- END : General loading spinner that covers the whole page -->
+
+	</apex:form>
+
+	<!-- START :  Displaying the Access Error-->
+	<apex:form rendered="{!IF(hasAccess==true, false, true)}">
+		<apex:outputLabel value="{!$Label.CustomConvert_AccessError}"
+			escape="false"></apex:outputLabel>
+		<apex:commandLink action="{!cancel}" value="Click here "
+			id="theCommandLink" />to return to the previous page.
+    </apex:form>
+	<!-- END :  Displaying the Access Error -->
+
+</apex:page>

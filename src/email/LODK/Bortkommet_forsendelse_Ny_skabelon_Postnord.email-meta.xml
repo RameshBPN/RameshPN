@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reklamation over manglende modtagelse</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>02 - Reklamation over manglende modtagelse</name>
+    <style>promotionRight</style>
+    <subject>{!Case.CaseNumber} Reklamation over manglende modtagelse</subject>
+    <textOnly>!Case.Account}
+
+{!Case.Postal_Address_Street__c} {!Case.Postal_Address_House_Number__c} {!Case.Postal_Address_House_Number_Supplement__c} {!Case.Postal_Address_Room_Number__c}
+
+{!IF(Case.Postal_Address_PO_Box__c=&quot;&quot;,&quot;&quot;,&quot;Postboks:&quot;)} {!Case.Postal_Address_PO_Box__c}
+
+{!IF(!Case.Postal_Address_Suburd__c=&quot;Suburb&quot;,&quot;&quot;)} {!Case.Postal_Address_Suburd__c}
+
+{!Case.Postal_Address_Postal_Code__c} {!Case.Postal_Address_City__c}
+
+
+{!Case.Postal_Address_Country__c}
+
+
+
+
+
+Vedrørende Deres reklamation over beskadiget     EMS-forsendelse
+
+Postnord Logistics har undersøgt Deres reklamation vedrørende manglende modtagelse af i Deres EMS-forsendelse fra USA med nummer EEXXXXXXXXX har følgende kommentarer.
+
+
+
+
+Da vi ikke kan dokumentere, at pakken er nået frem til og modtaget af den  må vi beklageligvis meddele Dem, at vi må betragte Deres forsendelse for bortkommet.
+
+
+
+I henhold til aftale mellem UPU og PostDanmark vedrørende distribution af EMS forsendelser, er erstatningspligten begrænset til 430 SDR pr. forsendelse.
+
+
+
+Ifølge aftale indsættes på Deres konto med reg.nr. xxxx kontonummer: xxxxxxxxxx på kr. xxxx til dækning af Deres udgifter i denne forbindelse.
+
+
+
+Hvis De har yderlige kommentarer eller spørgsmål, er De velkommen til at kontakte undertegnede.
+
+
+
+Med venlig hilsen
+
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+{!User.Department}
+
+PostNord Logistics A/S
+
+Kirkebjerg Søpark 2
+
+DK-2605 Brøndby
+
+
+Kundeservice:
+
+T +45 70 200 200
+
+
+
+CVR nr DK20148586
+
+
+
+info.dk@postnord.com
+
+postnordlogistik.dk</textOnly>
+    <type>html</type>
+</EmailTemplate>

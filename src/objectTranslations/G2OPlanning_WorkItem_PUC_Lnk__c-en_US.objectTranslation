@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PUC Reference</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PUC References</value>
+    </caseValues>
+    <fields>
+        <label><!-- PUC --></label>
+        <name>PUC__c</name>
+        <relationshipLabel><!-- Work item --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work item --></label>
+        <name>Work_item__c</name>
+        <relationshipLabel><!-- PUC --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

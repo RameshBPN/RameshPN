@@ -1,0 +1,362 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Postdanmark</title>
+
+<style type="text/css">
+/* Client-specific Styles */
+                
+#outlook a {
+        padding: 0;
+}
+/* Force Outlook to provide a "view in browser" menu link. */
+                
+body {
+        width: 100% !important;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        margin: 0;
+        padding: 0;
+}
+/* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+                
+.ExternalClass {
+        width: 100%;
+}
+/* Force Hotmail to display emails at full width */
+                
+.ExternalClass,  .ExternalClass p,  .ExternalClass span,  .ExternalClass font,  .ExternalClass td,  .ExternalClass div {
+        line-height: 100%;
+}
+/* Force Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
+                
+#backgroundTable {
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+        line-height: 100% !important;
+}
+img {
+        outline: none;
+        text-decoration: none;
+        border: none;
+        -ms-interpolation-mode: bicubic;
+}
+a img {
+        border: none;
+}
+p font {
+        display: none;
+}
+.image_fix {
+        display: block;
+}
+p {
+        margin: 0px 0px !important;
+}
+table td {
+        border-collapse: collapse;
+}
+table {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+}
+/*a {color: #e95353;text-decoration: none;text-decoration:none!important;}*/
+                /*STYLES*/
+                
+table[class=full] {
+        width: 100%;
+        clear: both;
+}
+
+@media only screen and (max-width: 500px) {
+*[class].yahoo_fix {
+        display: block;
+}
+*[class].h0 {
+        height: 0px !important;
+}
+*[class].h1 {
+        height: 1px !important;
+}
+*[class].h2 {
+        height: 2px !important;
+}
+*[class].h10 {
+        height: 10px !important;
+}
+*[class].w280 {
+        width: 280px !important;
+}
+*[class].w300 {
+        width: 300px !important;
+}
+*[class].w100pct {
+        width: 100% !important;
+}
+*[class].fl {
+        float: left !important;
+}
+*[class].fr {
+        float: right !important;
+}
+*[class].h {
+        display: none !important;
+}
+*[class].img100procent img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 300px !important;
+}
+*[class].mleft10 {
+        margin-left: 10px;
+}
+*[class].bordertop {
+        border-top: 1px solid #151515 !important;
+}
+*[class].alignl {
+        text-align: left !important;
+}
+*[class].alignc {
+        text-align: center !important;
+}
+*[class].break {
+        display: block;
+        clear: both;
+}
+*[class].autoheight {
+        height: auto !important;
+}
+*[class].left {
+        text-align: left !important;
+}
+*[class].devicewidth {
+        width: 300px !important;
+}
+*[class].devicewidthinner {
+        width: 300px !important;
+}
+*[class].img280 {
+        width: 280px !important;
+        height: auto;
+        text-align: center !important;
+}
+*[class].img300 {
+        width: 300px !important;
+        height: auto;
+        text-align: center !important;
+}
+}
+<!--
+#cc0000 - lys rød kun top #990000 - Alt andet rødt
+-->
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#ececec; " ><div style="background-color:#ececec; " ><!-- Module topbar-->
+<table cellspacing="0" cellpadding="0" border="0" width="100%" id="logo" bgcolor="#FFFFFF" ><tr ><td ><table width="640" cellspacing="0" cellpadding="0" border="0" align="center" class="w300" ><tr ><td ><table align="left" width="100%" ><tr ><td style="padding:10px 0px; " class="mktEditable" id="logoet" ><a href="http://www.postdanmark.dk" target="_blank"><img style="display:block;" border="0" width="40" height="40" src="http://pages.postnord.com/rs/184-XFT-949/images/posthorn.png" alt="PostDanmark"></a></td>
+<td class="mktEditable" id="webversion" style="padding:20px 0px; font-size:10px; line-height:14px; letter-spacing:0.025em; font-family:verdana,arial,sans-serif; color:#333333; text-align:right; " valign="top" >Hvis du ikke kan læse denne e-mail, <a style="text-decoration: none; color: #990000;" href="{{system.viewAsWebpageLink}}">klik her</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- Module spacer red and grey-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="66%" bgcolor="#CC0000" style="font-size: 1px; line-height: 1px;" height="8">&nbsp;</td>
+<td width="34%" bgcolor="#E1E1E1" style="font-size: 1px; line-height: 1px;" height="8">&nbsp;</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" id="logo" bgcolor="#FFFFFF" ><tr ><td ><table width="640" cellspacing="0" cellpadding="0" border="0" align="center" class="w300" ><tr ><td ><table border="0" cellspacing="0" cellpadding="0" ><tr ><td class="mktEditable img100procent" id="headerimg" style="padding:0; " ><img src="http://pages.postnord.com/rs/184-XFT-949/images/nyhedsbrev-frimarker.jpg" alt="" style="display:block" border="0"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- Module spacer height 20px-->
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="20">&nbsp;</td>
+</tr>
+</table>
+<!-- Module Intro-->
+<table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td ><table width="640" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="0" border="0" style="border-bottom:2px solid #e1e1e1; " class="w300" ><tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td id="image" class="mktEditable img100procent" ><a href="http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx" target="_blank"><img alt="" style="display:block;" border="0" src="http://pages.postnord.com/rs/184-XFT-949/images/1_290515_A_640x300.jpg"></a></td>
+</tr>
+<tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td class="mktEditable" id="dear" align="left" style="padding:20px 20px 10px; color:#333333; font-size:18px; font-family:Verdana, Arial, sans-serif; line-height:22px; " >Kære {{lead.First Name}}</td>
+</tr>
+<tr ><td class="mktEditable" id="headline" align="left" style="padding:10px 20px; color:#990000; font-size:22px; font-family:Verdana, Arial, sans-serif; line-height:26px; " >KØB EN HUND PÅ POSTHUSET</td>
+</tr>
+<tr ><td class="mktEditable" id="text" align="left" style="padding:10px 20px 20px; color:#333333; font-size:14px; font-family:Verdana, Arial, sans-serif; line-height:18px; " >Husk at du i morgen kl. 10-12 kan få en rundvisning på skoleskibet DANMARK. Vi sælger billetter efter først-til-mølle-princippet fra kl. 8.30, og du finder os ved A.P. Møller-Maersk nord for Amaliehaven, hvor skibet ligger ved kaj. Er du abonnent, får du billetten for 150 kr. mod normalpris 200 kr. Vi sælger de nye striber og produkter fra udgivelsen, og vi har også 50 særlige førstedagskonvolutter til salg, der hver især er signeret af Martin Mörck!<br>
+<br>
+Kommer du forbi Legoland i Billund, så husk, at du fra midten af juni kan købe den nye 5-stribe med fem frimærker a 14,50 kr. Motiverne på striben er det ene af årets to EUROPA-frimærker med LEGO® klodser, som Post Danmark udgav tidligere på året. Denne 5-stribe sælges udelukkende i Legoland.<br>
+<br>
+Næsten 200 Coop-butikker og 95 KIWI-butikker har den seneste tid solgt 5-striber med danske opfindelser ved kasserne. Nu lancerer vi en ny 5-stribe med fem frimærker i værdien 10,00 kr. med motiver af LEGO® klodser. Striben kan købes både i SuperBrugsen, Kvickly og KIWI – se den komplette liste over salgssteder på <a href="http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx" target="_blank" style="color:#990000">www.postdanmark.dk/filateli</a><br>
+<br>
+Med venlig hilsen<br>
+<br>
+Bo Høifeldt<br>
+Salgs- og marketingchef, PostNord Frimærker</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- Module spacer height 20px--><!-- Module spacer height 20px-->
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="20">&nbsp;</td>
+</tr>
+</table>
+<!-- Module twocol-->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" ><tbody ><tr ><td ><table width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" ><tbody ><tr ><td ><table width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" ><tbody ><tr ><td ><table width="310" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth" style="border-bottom:2px solid #e1e1e1; " ><tbody ><!-- image -->
+<tr ><td width="310" height="150" align="center" class="devicewidth mktEditable" id="image1" ><a href="http://www2.postdanmark.dk/netbutik" target="_blank"><img class="img300" style="display: block; border: none; outline: none; text-decoration: none;" src="http://pages.postnord.com/rs/184-XFT-949/images/2_290515_D1_420x300.jpg" border="0" alt="" width="310"></a></td>
+</tr>
+<tr ><td ><!-- start of text content table -->
+<table width="310" bgcolor="#FFFFFF" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" ><tbody ><!-- title -->
+<tr ><td id="headline1" class="mktEditable left" style="padding:20px 20px 10px; color:#990000; font-size:22px; font-family:Verdana, Arial, sans-serif; line-height:28px; " >SEND EN SOMMERHILSEN</td>
+</tr>
+<!-- end of title --><!-- content -->
+<tr ><td valign="top" height="360" id="text1" class="mktEditable left autoheight" style="padding:0px 20px; color:#333333; font-size:14px; font-family:Verdana, Arial, sans-serif; line-height:18px; " >Der er mange nye frimærker at vælge mellem, når du skal sende dine sommerhilsner. Lige nu kan vi tilbyde dig fire frimærker med danske sejlskibe, et frimærke i anledning af 100-året for kvinders valgret, et frimærke i serien Frimærkekunst og et frimærke, der fejrer Københavns Tømrerlaugs 500-års jubilæum.<br>
+<br>
+Du finder dem sammen med filateliprodukterne i vores netbutik. Husk at Post & Tele Museum tilbyder førstedagsstempling i morgen kl. 10-16.</td>
+</tr>
+<!-- end of content --><!-- button -->
+<tr ><td style="padding:20px 20px; " ><table cellspacing="0" cellpadding="0" border="0" style="background-color:#990000; " ><tr ><td height="30" width="20"></td>
+<td class="mktEditable center" id="btn1" ><a style="color: #fff; font-size: 12px; font-weight: bold; text-decoration: none; font-family: Verdana, Arial, sans-serif;" href="http://www2.postdanmark.dk/netbutik" target="_blank">Læs mere</a></td>
+<td width="20"></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- /button --></tbody>
+</table>
+</td>
+</tr>
+<!-- end of text content table --></tbody>
+</table>
+<table width="310" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth" style="border-bottom:2px solid #e1e1e1; " ><tbody ><tr ><td width="310" height="150" align="center" class="devicewidth mktEditable" id="image2" ><a href="http://www.postdanmarkrundt.dk" target="_blank"><img class="img300" src="http://pages.postnord.com/rs/184-XFT-949/images/3_290515_D2_420x300.jpg" alt="" border="0" width="310" style="display:block; border:none; outline:none; text-decoration:none;"></a></td>
+</tr>
+<tr ><td ><!-- start of text content table -->
+<table width="305" bgcolor="#FFFFFF" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" ><tbody ><!-- title -->
+<tr ><td class="mktEditable left" id="header2" style="padding:20px 20px 10px; color:#990000; font-size:22px; font-family:Verdana, Arial, sans-serif; line-height:28px; " >POST DANMARK RUNDT FOR 25. GANG</td>
+</tr>
+<!-- end of title --><!-- content -->
+<tr ><td valign="top" height="360" id="text2" class="mktEditable left autoheight" style="padding:0px 20px; color:#333333; font-size:14px; font-family:Verdana, Arial, sans-serif; line-height:18px; " >Post Danmark Rundt finder i år sted for 25. gang. Det kendte cykelløb køres sted 4.-8. august med start i Struer og afslutning ifølge traditionen på Frederiksberg Allé, Frederiksberg.<br>
+<br>
+Post Danmark, der har været løbets hovedsponsor siden 1995, udgiver allerede 27. juni et ark med 10 frankeringsmærker i anledning af Post Danmark Rundt.<br>
+Frankeringsmærkerne viser nogle af højdepunkterne fra løbets historie – og cykelruten er også trykt på arket.<br>
+<br>
+Har du abonnement på frankeringsmærker eller temaark, vil du modtage arket sammen med abonnementsudgivelsen 17. oktober.</td>
+</tr>
+<!-- end of content --><!-- button -->
+<tr ><td style="padding:20px 20px; " ><table cellspacing="0" cellpadding="0" border="0" style="background-color:#990000; " ><tr ><td height="30" width="20"></td>
+<td class="mktEditable center" id="btn2" ><a style="color: #fff; font-size: 12px; font-weight: bold; text-decoration: none; font-family: Verdana, Arial, sans-serif; text-align: center;line-height:30px" href="http://www.postdanmarkrundt.dk" target="_blank">Læs mere</a></td>
+<td width="20"></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- /button --></tbody>
+</table>
+</td>
+</tr>
+<!-- end of text content table --></tbody>
+</table>
+<!-- end of right column --></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Module spacer height 20px-->
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="20">&nbsp;</td>
+</tr>
+</table>
+<!-- Module twocol-->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" ><tbody ><tr ><td ><table width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" ><tbody ><tr ><td ><table width="640" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" ><tbody ><tr ><td ><table width="310" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth" style="border-bottom:2px solid #e1e1e1; " ><tbody ><tr ><td width="310" height="150" align="center" class="devicewidth mktEditable" id="image2_2" ><a href="http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx" target="_blank"><img class="img300" src="http://pages.postnord.com/rs/184-XFT-949/images/5_290515_F2_420x300.jpg" alt="" border="0" width="310" style="display:block; border:none; outline:none; text-decoration:none;"></a></td>
+</tr>
+<tr ><td ><!-- start of text content table -->
+<table width="310" bgcolor="#FFFFFF" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" ><tbody ><!-- title -->
+<tr ><td class="mktEditable left" id="header2_2" style="padding:20px 20px 10px; color:#990000; font-size:22px; font-family:Verdana, Arial, sans-serif; line-height:28px; " >KØB EN HUND PÅ POSTHUSET</td>
+</tr>
+<!-- end of title --><!-- content -->
+<tr ><td valign="top" height="385" id="text2_2" class="mktEditable left autoheight" style="padding:0px 20px; color:#333333; font-size:14px; font-family:Verdana, Arial, sans-serif; line-height:18px; " >Som vi har skrevet i Journal, bliver PostSelv-automaterne nedlagt om kort tid. Vi har dog på forhånd sikret os, at fire posthuse i en kortere periode kommer til at sælge de nye frankeringsmærker med hunde, der udgives i morgen, 13. juni.<br> <br> På hvert posthus vil der være et begrænset oplag på 2.500 stk. af de nye frankeringsmærker til salg. Fra og med i morgen og så længe, lager haves - dog senest til 30. juni 2015 - vil de nye frankeringsmærker sælges på Hovedbanegårdens Posthus, Nyboder Posthus og Aalborg Posthus.<br> <br> Desuden vil mærkerne også være til salg i Ry Posthus, dog kun indtil 25. juni 2015. Så skynd dig, hvis du vil købe en hund på posthuset!</td>
+</tr>
+<!-- button -->
+<tr ><td style="padding:20px 20px; " ><table cellspacing="0" cellpadding="0" border="0" style="background-color:#990000; " ><tr ><td height="30" width="20"></td>
+<td class="mktEditable center" id="btn1_2" ><a style="color: #fff; font-size: 12px; font-weight: bold; text-decoration: none; font-family: Verdana, Arial, sans-serif; text-align: center; line-height: 30px;" href="http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx" target="_blank">Læs mere</a></td>
+<td width="20"></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- /button --></tbody>
+</table>
+</td>
+</tr>
+<!-- end of text content table --></tbody>
+</table>
+<table width="310" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth" style="border-bottom:2px solid #e1e1e1; " ><tbody ><!-- image -->
+<tr ><td width="310" height="150" align="center" class="devicewidth mktEditable" id="image1_2" ><a href="http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx" target="_blank"><img class="img300" width="310" src="http://pages.postnord.com/rs/184-XFT-949/images/4_290515_F1_420x300.jpg" alt="" border="0" style="display:block; border:none; outline:none; text-decoration:none;"></a></td>
+</tr>
+<tr ><td ><!-- start of text content table -->
+<table width="310" bgcolor="#FFFFFF" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" ><tbody ><!-- title -->
+<tr ><td id="headline1_2" class="mktEditable left" style="padding:20px 20px 10px; color:#990000; font-size:22px; font-family:Verdana, Arial, sans-serif; line-height:28px; " >POST & TELE MUSEUMS BUTIK LUKKER</td>
+</tr>
+<!-- end of title --><!-- content -->
+<tr ><td valign="top" height="385" id="text1_2" class="mktEditable left autoheight" style="padding:0px 20px; color:#333333; font-size:14px; font-family:Verdana, Arial, sans-serif; line-height:18px; " >30. juni lukker Post &amp; Tele Museums butik midlertidigt for at genopstå i ny udgave i slutningen af 2016 på Trianglen i København i den bygning, hvor Østerbro Posthus nu ligger.<br> <br> I den mellemliggende periode – med start fra 1. juli – har vi sikret, at du vil kunne købe frimærker og samlerprodukter hos Østerbro Frimærkehandel og Skanfil Danmark A/S i København, der også begge tilbyder filatelistisk afstempling.<br><br> Læs mere på <a style="color: #990000;" href="http://www.oesterfrim.dk" target="_blank">www.oesterfrim.dk</a> og på <a style="color: #990000;" href="http://www.skanfil.no" target="_blank">www.skanfil.no</a>. <br><br>På Østerbro Posthus vil du fra juli også kunne købe alle nye frimærker og filateliprodukter.</td>
+</tr>
+<!-- end of content --><!-- button -->
+<tr ><td style="padding:20px 20px; " ><table cellspacing="0" cellpadding="0" border="0" style="background-color:#990000; " ><tr ><td height="30" width="20"></td>
+<td class="mktEditable center" id="btn1_2" ><a style="color: #fff; font-size: 12px; font-weight: bold; text-decoration: none; font-family: Verdana, Arial, sans-serif; text-align: center;line-height:30px" href="http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx" target="_blank">Læs mere</a></td>
+<td width="20"></td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- /button --></tbody>
+</table>
+</td>
+</tr>
+<!-- end of text content table --></tbody>
+</table>
+<!-- end of right column --></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- LEGAL -->
+<table cellspacing="0" cellpadding="0" border="0" width="100%" ><tr ><td align="center" valign="middle" class="mktEditable" id="footer" style="font-family:arial, verdana, sans-serif; font-size:12px; color:#999999; padding:4px; " height="70" >Vi har sendt denne e-mail til <a style="color: #999999;" href="mailto:{{lead.Email Address}}">{{lead.Email Address}}</a>.<br> Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig <a style="text-decoration: underline; font-size: 12px; color: #999999;" href="http://pages.postnord.com/Min-side.html" target="_blank">her</a></td>
+</tr>
+</table>
+<!-- /LEGAL --></div>
+</body>
+</html>

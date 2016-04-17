@@ -1,0 +1,1 @@
+Till {!Contact.FirstName}! Det var trevligt att prata med dig idag.  Jag tror att {!Organization.Name} har mycket att erbjuda {!Account.Name} och jag ser fram mot vårt nästa möte.    Med vänlig hälsning {!User.FirstName}

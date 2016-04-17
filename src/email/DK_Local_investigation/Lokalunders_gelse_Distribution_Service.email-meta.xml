@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Lokalundersøgelse - Distribution Service</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>Lokalundersøgelse - Distribution Service</name>
+    <style>freeForm</style>
+    <subject>Lokalundersøgelse {!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c}</subject>
+    <textOnly>Lokalundersøgelse
+
+Dato og tidspunkt: {!NOW()}
+
+Svarfrist: {!Case.Due_Date__c}
+
+Hej
+
+
+
+Kundelinjen har modtager en {!Case.RecordType}, som vi vil have jer til at undersøge:
+
+
+
+Sags nr og lokalundersøgelses nr
+
+
+{!Case.Parent} / {!Case.CaseNumber}
+
+
+Afsender:
+
+
+
+{!Case.Sender__c}
+{!Case.Sender_Postal_Address_Street__c}{!Case.Sender_Postal_Address_House_Number__c}{!Case.Sender_House_Number_Supplement__c}{!Case.Sender_Postal_Address_Room_Number__c} {!IF(Case.Sender_Postal_Address_PO_Box__c=&quot;&quot;,null,&quot;Postboks:&quot;)}{!Case.Sender_Postal_Address_PO_Box__c}
+{!IF(!Case.Sender_Postal_Address_Suburb__c=&quot;Suburb&quot;,&quot;&quot;)} {!Case.Sender_Postal_Address_Suburb__c}
+{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}
+{!Case.Sender_Postal_Address_Country__c}
+
+
+Modtager:
+
+
+{!Case.Receiver__c}
+{!Case.Receiver_Postal_Address_Street__c}{!Case.Receiver_Postal_Address_House_Number__c}
+{!BLANKVALUE(Case.Receiver_Postal_Address_PO_Box__c,null)}
+{!BLANKVALUE(Case.Receiver_Postal_Address_Suburb__c,null)}
+{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c}
+{!Case.Receiver_Postal_Address_Country__c}
+
+
+Årsag:
+
+
+{!Case.Reason__c} / {!Case.Detailed_Reason__c}
+
+
+Dato for fejl:
+
+
+{!Case.Date_of_mistake__c}
+
+
+Produkt:
+
+
+{!Case.Product_Article__c}
+
+
+Stregkodenr:
+
+
+{!Case.Item_Id__c}
+
+
+PO-beløb:
+
+PO-Beløb konto:
+
+
+{!Case.COD_Amount__c}
+{!Case.Account_Number__c}
+
+
+Undersøg venligst følgende:
+
+
+{!Case.Description}
+
+
+
+　
+Med venlig hilsen
+
+
+{!Case.OwnerFullName}</textOnly>
+    <type>html</type>
+</EmailTemplate>

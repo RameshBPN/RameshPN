@@ -1,0 +1,182 @@
+<!--
+    About
+    -----
+    Description: NTT Search
+    Created for: Postnord Get2OneCRM Master template/DK
+    Create date: April 2013
+    
+    Details
+    -------
+    This Visualforce page performs NTT Search functionality.
+    
+    Update History
+    --------------
+    Created April 2013 - A.B.
+    
+    Issues / TODOs
+    --------------
+-->
+<apex:page standardController="CaseProduct__c"
+	extensions="G2O_NTTSearch_VFCx" tabstyle="Case"
+	recordSetVar="caseProduct">
+	<script>
+        lockEnter = false;
+        function replaceEnter(e){
+            e = e || window.event;
+            if (e.keyCode==13) {
+                if (!lockEnter)
+                {
+                    lockEnter = true; // prevents user submitting twice. Cleared after re-render.
+                    var allElements = document.getElementsByTagName('input');
+                    for (var i = 0; i < allElements.length; i++){
+                        if (allElements[i].id.indexOf("searchButton") !=-1){
+                          allElements[i].click();
+                          break;
+                        }
+                    }
+                }
+                return false;
+            }
+            return true;
+        }
+        document.onkeypress = replaceEnter;
+    </script>
+	<apex:form >
+		<apex:outputPanel id="pagePanel">
+			<apex:pageMessages id="errors" />
+			<!-- ITEM ID SEARCH SECTION START -->
+			<apex:sectionheader title="NTT Search" rendered="{!bolSP}" />
+			<apex:outputPanel id="SearchPanel" rendered="{!bolSP}">
+				<apex:pageBlock id="searchBlock" title="Enter Details">
+					<apex:pageBlockSection >
+						<apex:panelGroup >
+							<apex:outputLabel value="{!$ObjectType.NTT_History__c.Fields.Item_Id__c.label}"
+								for="itemId" style="font-weight:bold" />&nbsp;&nbsp;
+                        <apex:outputPanel styleClass="requiredInput"
+								layout="block">
+								<apex:outputPanel styleClass="requiredBlock" layout="block" />
+								<apex:InputText value="{!itemId}" required="true" id="itemId" />
+							</apex:outputPanel>
+							<apex:commandButton action="{!doItemSearch}" value="Search"
+								rerender="pagePanel" status="status" id="searchButton" />
+						</apex:panelGroup>
+					</apex:pageBlockSection>
+				</apex:pageBlock>
+			</apex:outputPanel>
+			<!-- ITEM ID SEARCH SECTION END -->
+
+			<!-- NTT SEARCH RESULT DISPLAY SECTION START -->
+			<apex:sectionheader title="NTT Search Results" rendered="{!bolFP}" />
+			<apex:outputPanel id="fieldPanel" rendered="{!bolFP}">
+				<apex:pageBlock id="fieldblock" title="NTT Search Results"
+					mode="maindetail">
+
+					<apex:pageBlockSection title="Item Details" columns="2">
+						<apex:repeat value="{!$ObjectType.CaseProduct__c.FieldSets.Item_Details}"
+							var="f">
+							<apex:pageBlockSectionItem >
+								<apex:Outputlabel value="{!f.label}" />
+								<apex:OutputField value="{!nttCaseProduct[f.fieldPath]}" />
+							</apex:pageBlockSectionItem>
+						</apex:repeat>
+						<apex:OutputField value="{!nttCaseProduct.Additional_Service_Name1__c}"
+							rendered="{!IF(nttCaseProduct.Additional_Service_Name1__c=='',false,true)}" />
+						<!--<apex:OutputField value="{!nttCaseProduct.Additional_Service_code1__c}" rendered="{!IF(nttCaseProduct.Additional_Service_Name1__c=='',false,true)}"/>-->
+
+						<apex:OutputField value="{!nttCaseProduct.Additional_Service_Name2__c}"
+							rendered="{!IF(nttCaseProduct.Additional_Service_Name2__c=='',false,true)}" />
+
+						<apex:OutputField value="{!nttCaseProduct.Additional_Service_Name3__c}"
+							rendered="{!IF(nttCaseProduct.Additional_Service_Name3__c=='',false,true)}" />
+
+						<apex:OutputField value="{!nttCaseProduct.Additional_Service_Name4__c}"
+							rendered="{!IF(nttCaseProduct.Additional_Service_Name4__c=='',false,true)}" />
+
+					</apex:pageBlockSection>
+
+					<apex:pageBlockSection title="Notification" columns="2">
+						<apex:repeat value="{!$ObjectType.CaseProduct__c.FieldSets.Notification}"
+							var="f">
+							<apex:pageBlockSectionItem >
+								<apex:Outputlabel value="{!f.label}" />
+								<apex:OutputField value="{!nttCaseProduct[f.fieldPath]}" />
+							</apex:pageBlockSectionItem>
+						</apex:repeat>
+					</apex:pageBlockSection>
+
+					<apex:pageBlockSection title="Sender/Receiver Information"
+						columns="2">
+						<apex:repeat value="{!$ObjectType.CaseProduct__c.FieldSets.Sender}" var="f">
+							<apex:pageBlockSectionItem >
+								<apex:Outputlabel value="{!f.label}" />
+								<apex:OutputField value="{!nttCaseProduct[f.fieldPath]}" />
+							</apex:pageBlockSectionItem>
+						</apex:repeat>
+					</apex:pageBlockSection>
+
+					<apex:pageBlockSection title="Delivery Point" columns="2">
+						<apex:repeat value="{!$ObjectType.CaseProduct__c.FieldSets.Delivery_Point}"
+							var="f">
+							<apex:pageBlockSectionItem >
+								<apex:Outputlabel value="{!f.label}" />
+								<apex:OutputField value="{!nttCaseProduct[f.fieldPath]}" />
+							</apex:pageBlockSectionItem>
+						</apex:repeat>
+					</apex:pageBlockSection>
+
+					<apex:pageBlockSection title=" Delivery Point Opening Hours"
+						columns="1">
+						<apex:repeat value="{!$ObjectType.CaseProduct__c.FieldSets.Opening_Hours}"
+							var="f">
+							<apex:pageBlockSectionItem >
+								<apex:Outputlabel value="{!f.label}" />
+								<apex:OutputField value="{!nttCaseProduct[f.fieldPath]}" />
+							</apex:pageBlockSectionItem>
+						</apex:repeat>
+					</apex:pageBlockSection>
+
+					<apex:pageBlockButtons >
+						<apex:commandButton action="{!createCase}"
+							value="{!$Label.New_Case}" status="status" />
+						<apex:commandButton action="{!updateCase}"
+							value="{!$Label.Save_To_Old_Case}" status="status"
+							rendered="{!IF(caseId!=null,true,false)}" />
+						<apex:commandButton action="{!cancel}" value="Cancel"
+							status="status" />
+					</apex:pageBlockButtons>
+				</apex:pageBlock>
+			</apex:outputPanel>
+			<!-- NTT SEARCH RESULT DISPLAY SECTION END -->
+
+			<!-- LOADING IMAGE START -->
+			<apex:outputPanel rendered="{!bolFP}">
+				<apex:pageBlock title="Tracking Events">
+					<apex:pageBlockTable value="{!nttHistoryLst}" var="nttHistRec"
+						title="SFDC Records">
+						<apex:repeat var="a"
+							value="{!$ObjectType.NTT_History__c.FieldSets.NTTSearch_TrackingCol}">
+							<apex:column headerValue="{!a.label}">
+								<apex:outputField value="{!nttHistRec[a]}" />
+							</apex:column>
+						</apex:repeat>
+					</apex:pageBlockTable>
+				</apex:pageBlock>
+			</apex:outputPanel>
+
+			<apex:outputpanel id="opStatus">
+				<apex:actionstatus id="status">
+					<apex:facet name="start">
+						<div class="waitingSearchDiv" id="el_loading"
+							style="background-color: #fbfbfb; height: 100%; opacity: 0.65; width: 100%;">
+							<div class="waitingHolder">
+								<img class="waitingImage" src="/img/loading.gif"
+									title="Please Wait..." /> <span class="waitingDescription">{!$Label.Searching_External_Provider}</span>
+							</div>
+						</div>
+					</apex:facet>
+				</apex:actionstatus>
+			</apex:outputpanel>
+			<!-- LOADING IMAGE END -->
+		</apex:outputPanel>
+	</apex:form>
+</apex:page>

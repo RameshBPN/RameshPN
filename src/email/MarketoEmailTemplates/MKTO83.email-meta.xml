@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Frimærker.Frimærker</name>
+    <style>none</style>
+    <subject>Køb en hund på posthuset</subject>
+    <textOnly>&lt;http://www.postdanmark.dk&gt;
+Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+&lt;http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx&gt;
+Kære {{lead.First Name}}
+KØB EN HUND PÅ POSTHUSET
+Husk at du i morgen kl. 10-12 kan få en rundvisning på skoleskibet DANMARK. Vi sælger billetter efter først-til-mølle-princippet fra kl. 8.30, og du finder os ved A.P. Møller-Maersk nord for Amaliehaven, hvor skibet ligger ved kaj. Er du abonnent, får du billetten for 150 kr. mod normalpris 200 kr. Vi sælger de nye striber og produkter fra udgivelsen, og vi har også 50 særlige førstedagskonvolutter til salg, der hver især er signeret af Martin Mörck!
+
+
+
+Kommer du forbi Legoland i Billund, så husk, at du fra midten af juni kan købe den nye 5-stribe med fem frimærker a 14,50 kr. Motiverne på striben er det ene af årets to EUROPA-frimærker med LEGO® klodser, som Post Danmark udgav tidligere på året. Denne 5-stribe sælges udelukkende i Legoland.
+
+
+
+Næsten 200 Coop-butikker og 95 KIWI-butikker har den seneste tid solgt 5-striber med danske opfindelser ved kasserne. Nu lancerer vi en ny 5-stribe med fem frimærker i værdien 10,00 kr. med motiver af LEGO® klodser. Striben kan købes både i SuperBrugsen, Kvickly og KIWI – se den komplette liste over salgssteder på www.postdanmark.dk/filateli &lt;http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx&gt;
+
+
+
+Med venlig hilsen
+
+
+
+Bo Høifeldt
+
+Salgs- og marketingchef, PostNord Frimærker
+&lt;http://www2.postdanmark.dk/netbutik&gt;
+SEND EN SOMMERHILSEN
+Der er mange nye frimærker at vælge mellem, når du skal sende dine sommerhilsner. Lige nu kan vi tilbyde dig fire frimærker med danske sejlskibe, et frimærke i anledning af 100-året for kvinders valgret, et frimærke i serien Frimærkekunst og et frimærke, der fejrer Københavns Tømrerlaugs 500-års jubilæum.
+
+
+
+Du finder dem sammen med filateliprodukterne i vores netbutik. Husk at Post &amp; Tele Museum tilbyder førstedagsstempling i morgen kl. 10-16.
+Læs mere &lt;http://www2.postdanmark.dk/netbutik&gt;
+&lt;http://www.postdanmarkrundt.dk&gt;
+POST DANMARK RUNDT FOR 25. GANG
+Post Danmark Rundt finder i år sted for 25. gang. Det kendte cykelløb køres sted 4.-8. august med start i Struer og afslutning ifølge traditionen på Frederiksberg Allé, Frederiksberg.
+
+
+
+Post Danmark, der har været løbets hovedsponsor siden 1995, udgiver allerede 27. juni et ark med 10 frankeringsmærker i anledning af Post Danmark Rundt.
+
+Frankeringsmærkerne viser nogle af højdepunkterne fra løbets historie – og cykelruten er også trykt på arket.
+
+
+
+Har du abonnement på frankeringsmærker eller temaark, vil du modtage arket sammen med abonnementsudgivelsen 17. oktober.
+Læs mere &lt;http://www.postdanmarkrundt.dk&gt;
+&lt;http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx&gt;
+KØB EN HUND PÅ POSTHUSET
+Som vi har skrevet i Journal, bliver PostSelv-automaterne nedlagt om kort tid. Vi har dog på forhånd sikret os, at fire posthuse i en kortere periode kommer til at sælge de nye frankeringsmærker med hunde, der udgives i morgen, 13. juni.
+
+
+
+På hvert posthus vil der være et begrænset oplag på 2.500 stk. af de nye frankeringsmærker til salg. Fra og med i morgen og så længe, lager haves - dog senest til 30. juni 2015 - vil de nye frankeringsmærker sælges på Hovedbanegårdens Posthus, Nyboder Posthus og Aalborg Posthus.
+
+
+
+Desuden vil mærkerne også være til salg i Ry Posthus, dog kun indtil 25. juni 2015. Så skynd dig, hvis du vil købe en hund på posthuset!
+Læs mere &lt;http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx&gt;
+&lt;http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx&gt;
+POST &amp; TELE MUSEUMS BUTIK LUKKER
+30. juni lukker Post &amp; Tele Museums butik midlertidigt for at genopstå i ny udgave i slutningen af 2016 på Trianglen i København i den bygning, hvor Østerbro Posthus nu ligger.
+ 
+ I den mellemliggende periode – med start fra 1. juli – har vi sikret, at du vil kunne købe frimærker og samlerprodukter hos Østerbro Frimærkehandel og Skanfil Danmark A/S i København, der også begge tilbyder filatelistisk afstempling.
+
+ Læs mere på www.oesterfrim.dk &lt;http://www.oesterfrim.dk&gt; og på www.skanfil.no &lt;http://www.skanfil.no&gt;. 
+
+På Østerbro Posthus vil du fra juli også kunne købe alle nye frimærker og filateliprodukter.
+Læs mere &lt;http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx&gt;
+Vi har sendt denne e-mail til {{lead.Email Address}} &lt;mailto:{{lead.Email Address}}&gt;.
+ Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;http://pages.postnord.com/Firmrker_afmeld-kvittering.html&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

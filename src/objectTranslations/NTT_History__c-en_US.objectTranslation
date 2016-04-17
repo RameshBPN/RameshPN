@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tracking Events</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tracking Events</value>
+    </caseValues>
+    <fields>
+        <label><!-- CaseProduct --></label>
+        <name>CaseProduct__c</name>
+        <relationshipLabel><!-- Tracking Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Code --></label>
+        <name>Event_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Description --></label>
+        <name>Event_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Time --></label>
+        <name>Event_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsLatest --></label>
+        <name>IsLatest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Id --></label>
+        <name>Item_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scan User --></label>
+        <name>LastScanUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Local Event Code --></label>
+        <name>Local_Event_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Id --></label>
+        <name>Location_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Name --></label>
+        <name>Location_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Type --></label>
+        <name>Location_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Postcode --></label>
+        <name>Postcode__c</name>
+    </fields>
+    <layouts>
+        <layout>NTT History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>@-Kampagne.@-Status_1_Salg-med-maal</name>
+    <style>none</style>
+    <subject>Hvordan @ går det?</subject>
+    <textOnly>Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+Målet for dit team {{lead.PN DK Target PM:default=0}}
+Medarbejderne i det team, der samler flest e-mailpermissions pr. mand, vinder en tur i biografen for to personer inklusive popcorn.
+{{lead.PN DK Realized PM:default=0}}
+ud af {{lead.PN DK Target PM:default=0}}
+Godt i gang - trods startvanskeligheder
+Kære {{lead.First Name}}
+ Tak for indsatsen i vores snabel-a-kampagne. De første e-mailpermissions er allerede tikket ind, men der er stadig langt til målet på de 3.000 permissions. Derfor er det vigtigt, at alle støtter op om indsatsen og tager kontakt til nærmeste leder, hvis der er spørgsmål eller kommentarer. Jeg håber, du har fået styr på processen. Hvis du stadig har problemer, er der hjælp at hente her i e-mailen eller ved at kontakte mig. 
+ 
+ I første uge blev det til 19 e-mailpermissions
+ I gennemsnit skal vi samle 500 e-mailpermissions hver uge for at nå 3.000 styk 26. februar. 19 e-mailpermissions i første uge er ikke helt nok – men det er ok og helt i orden (og forståeligt) med en langsom start, når bare vi når i mål til slut. 
+ 
+ Tag endelig fat i mig, hvis du har spørgsmål, og hav en rigtig @ uge.
+ 
+ Venlig hilsen
+ 
+ Anders Mittag
+Guide til at registrere e-mailpermissions i Salesforce
+Spørg om et @
+Vil du have relevante emails fra Post Danmark, der viser nye muligheder for dig og din forretning?
+
+ Hvis du er interesseret, skal jeg bare bruge din emailadresse.
+
+ Så får du en tilmeldingsmail, som du skal bekræfte. Den forklarer lidt nærmere om, hvad du siger ja til.
+
+ Er det noget for dig?
+Det er nemt at registrere en e-mailpermission. Alt du skal gøre er:
+- Find personen i Salesforce ved hjælp af en almindelig søgning på navnet
+	- Verificerer personens eksisterende e-mailadresse, eller skriv personens e-mailadresse i feltet &apos;E-mail&apos;. Klik herefter på &apos;Save&apos;
+	- Vælg din afdelings Permission Channel (Sales, Costumer Service, Other). Klik herefter på &apos;Save&apos;
+Se den fulde vejledning med skærmbilleder her &lt;http://pages.postnord.com/rs/postenab/images/permission%20Article.pdf&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

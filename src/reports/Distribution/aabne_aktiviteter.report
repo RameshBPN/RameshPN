@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>number</bucketType>
+        <developerName>BucketField_68919746</developerName>
+        <masterLabel>Response Performance</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Case$Response_Time__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <to>24</to>
+            </sourceValues>
+            <value>Fast Response</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>24</from>
+            </sourceValues>
+            <value>Slow Response</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Case$Respondent_Org_ID__c.Name</field>
+    </columns>
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Case$Parent</field>
+    </columns>
+    <columns>
+        <field>Case$Receiver_Name__c</field>
+    </columns>
+    <columns>
+        <field>Case$Sent_for_Investigation_Timestamp__c</field>
+    </columns>
+    <columns>
+        <field>Case$Product_Article__c</field>
+    </columns>
+    <columns>
+        <field>Case$Reason__c</field>
+    </columns>
+    <columns>
+        <field>Case$Detailed_Reason__c</field>
+    </columns>
+    <currency>SEK</currency>
+    <description>Viser aktiviterer, der endnu ikke er afslutet og er mere end 24 timer gammel</description>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4</booleanFilter>
+        <criteriaItems>
+            <column>Case$RecordType</column>
+            <operator>equals</operator>
+            <value>Case.Activity</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Respondent_Org_ID__c.Name_5__c</column>
+            <operator>equals</operator>
+            <value>Produktion</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Sent_for_Investigation_Timestamp__c</column>
+            <operator>lessThan</operator>
+            <value>YESTERDAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Status</column>
+            <operator>notEqual</operator>
+            <value>Response Received,Closed</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$Respondent_Org_ID__c.Name_6__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Åbne aktiviteter</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_Enhanced_Report_Type__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Case$ClosedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

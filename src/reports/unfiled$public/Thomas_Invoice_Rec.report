@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Involved_Party_ID__c</field>
+    </columns>
+    <columns>
+        <field>Account.Corporate_Registration_Number__c</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Postal_Address_Street__c</field>
+    </columns>
+    <columns>
+        <field>Account.Postal_Address_Postal_Code__c</field>
+    </columns>
+    <columns>
+        <field>Account.Postal_Address_City__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Tilknyttede fakturamodtagere under bestemte cvr. numre</description>
+    <filter>
+        <criteriaItems>
+            <column>Account.Corporate_Registration_Number__c</column>
+            <operator>equals</operator>
+            <value>32346987,25529529</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Invoice Recipient pr.cvr. nr.</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountCustomEntity$Relationship__c@Relationship__c.Related_Account__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

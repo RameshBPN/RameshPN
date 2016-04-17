@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Total Opportunity Value</value>
+        </caseValues>
+        <name>amount_opportunity</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Expected Close Date</value>
+        </caseValues>
+        <name>close_date_opportunity</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <help><!-- Updated from Admin Activity Case for Visiting Customers --></help>
+        <label><!-- Admin Activity Status --></label>
+        <name>Admin_Activity_Status__c</name>
+        <picklistValues>
+            <masterLabel>Contact attempted</masterLabel>
+            <translation><!-- Contact attempted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract doesn&apos;t need renewal</masterLabel>
+            <translation><!-- Contract doesn&apos;t need renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract lost</masterLabel>
+            <translation><!-- Contract lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract moved to new customer ID</masterLabel>
+            <translation><!-- Contract moved to new customer ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materials Delivered</masterLabel>
+            <translation><!-- Materials Delivered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materials ordered</masterLabel>
+            <translation><!-- Materials ordered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price calculation ordered</masterLabel>
+            <translation><!-- Price calculation ordered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prices sent from Strålfors</masterLabel>
+            <translation><!-- Prices sent from Strålfors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP updated</masterLabel>
+            <translation><!-- SAP updated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for production solution</masterLabel>
+            <translation><!-- Waiting for production solution --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approved by Operations? --></label>
+        <name>Approved_by_Operations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Awaiting Initial Ops Approval --></label>
+        <name>Awaiting_Initial_Ops_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Awaiting Price Grp &amp; Final Ops Approval --></label>
+        <name>Awaiting_Price_Grp_Final_Ops_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complex Solution --></label>
+        <name>Complex_Solution__c</name>
+    </fields>
+    <fields>
+        <help><!-- End date of contract to be renewed --></help>
+        <label><!-- Contract End Date --></label>
+        <name>Contract_End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- how many years is the term on the contract? --></help>
+        <label><!-- Contract Length --></label>
+        <name>Contract_Length__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ongoing</masterLabel>
+            <translation><!-- Ongoing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Corporate Registration Number --></label>
+        <name>Corporate_Registration_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create and Present Offer stage reached --></label>
+        <name>Create_and_Present_Offer_stage_reached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Involved Party ID --></label>
+        <name>Customer_Involved_Party_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Competitor --></label>
+        <name>DB_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Competitor A</masterLabel>
+            <translation><!-- Competitor A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor B</masterLabel>
+            <translation><!-- Competitor B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor C</masterLabel>
+            <translation><!-- Competitor C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Date Closed Lost stage feedback sent to Lead Identifier --></help>
+        <label><!-- Date Closed Lost Feedback Sent --></label>
+        <name>Date_Closed_Lost_Feedback_Sent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date Closed Won stage feedback sent to Lead Identifier --></help>
+        <label><!-- Date Closed Won Feedback Sent --></label>
+        <name>Date_Closed_Won_Feedback_Sent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date that feedback was sent to Lead Identifier for Negotiate and Close deal stage --></help>
+        <label><!-- Date Negotiate &amp; Close Deal Feedback --></label>
+        <name>Date_Negotiate_Close_Deal_Feedback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Opportunity Approved --></label>
+        <name>Date_Opportunity_Approved__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date the opportunity should be approved by. This will be set by the system to 7 working days from the date the opportunity is sent to the Price Group for approval. This can be edited and moved further out but cannot be moved closer. --></help>
+        <label><!-- Date to be approved by --></label>
+        <name>Date_to_be_approved_by__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deletion Flag --></label>
+        <name>Deletion_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Describe what the deal is all about --></label>
+        <name>Describe_what_the_deal_is_all_about__c</name>
+    </fields>
+    <fields>
+        <label><!-- Describe why the deal is lost --></label>
+        <name>Describe_why_the_deal_is_lost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Describe why we are a credible supplier --></label>
+        <name>Describe_why_we_are_a_credible_supplier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Describe why we won the deal --></label>
+        <name>Describe_why_we_got_the_deal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description from Lead --></label>
+        <name>Description_from_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Operations Group Approval Date --></label>
+        <name>Expected_Operation_Group_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Price Group Approval Date --></label>
+        <name>Expected_Price_Group_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- HasToResetSalesGroupAndOffice --></label>
+        <name>HasToResetSalesGroupAndOffice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has 4000 Products --></label>
+        <name>Has_4000_Products_or_Last_Mile__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in contract renewal process - updated by workflow --></help>
+        <label><!-- Has Korsler --></label>
+        <name>Has_Korsler__c</name>
+    </fields>
+    <fields>
+        <label><!-- LE Name --></label>
+        <name>LE_Name__c</name>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Campaign/Telemarketing</masterLabel>
+            <translation><!-- Campaign/Telemarketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Channel</masterLabel>
+            <translation><!-- Digital Channel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation><!-- Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted by Employee</masterLabel>
+            <translation><!-- Submitted by Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Show / Exhibition</masterLabel>
+            <translation><!-- Trade Show / Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webform</masterLabel>
+            <translation><!-- Webform --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead ID --></label>
+        <name>Lead_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Identified Date --></label>
+        <name>Lead_Identified_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Identifier Country --></label>
+        <name>Lead_Identifier_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Identifier Email --></label>
+        <name>Lead_Identifier_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Identifier --></label>
+        <lookupFilter>
+            <errorMessage><!-- Employee cannot be found to match your search --></errorMessage>
+        </lookupFilter>
+        <name>Lead_Identifier__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lead Product Interest --></label>
+        <name>Lead_Product_Interest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketo Product CSV --></label>
+        <name>Marketo_Product_CSV__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Customer Corporate Reg Number --></label>
+        <name>New_Customer_Corporate_Reg_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- &quot;New&quot; Customer --></label>
+        <name>New_Customer__c</name>
+        <relationshipLabel><!-- Opportunities (New Customer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- No of Open Quotes --></label>
+        <name>No_of_Open_Quotes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calculated by the system. Shows the number of times this opportunity has been to the Price Group. --></help>
+        <label><!-- No of times with Price Group --></label>
+        <name>No_of_times_with_Price_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes for Approver --></label>
+        <name>Notes_for_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- One-off Mailing --></label>
+        <name>One_off_Mailing__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of person in Operations who is looking at this opportunity. To be updated by the Operations team. --></help>
+        <label><!-- Operations Approver --></label>
+        <name>Operations_Approver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operations Status --></label>
+        <name>Operations_Status__c</name>
+        <picklistValues>
+            <masterLabel>Contact attempted</masterLabel>
+            <translation><!-- Contact attempted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract doesn&apos;t need renewal</masterLabel>
+            <translation><!-- Contract doesn&apos;t need renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract lost</masterLabel>
+            <translation><!-- Contract lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract moved to new customer ID</masterLabel>
+            <translation><!-- Contract moved to new customer ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materials Delivered</masterLabel>
+            <translation><!-- Materials Delivered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materials ordered</masterLabel>
+            <translation><!-- Materials ordered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price calculation ordered</masterLabel>
+            <translation><!-- Price calculation ordered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prices sent from Strålfors</masterLabel>
+            <translation><!-- Prices sent from Strålfors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP updated</masterLabel>
+            <translation><!-- SAP updated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for production solution</masterLabel>
+            <translation><!-- Waiting for production solution --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- How much of Opportunity value is in the current year --></help>
+        <label><!-- Opp value in current year --></label>
+        <name>Opp_value_in_current_year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity ID --></label>
+        <name>Opportunity_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- check this box if the opportunity has been identified as a product white space opportunity --></help>
+        <label><!-- PWS Opportunity --></label>
+        <name>PWS_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Postal Code --></label>
+        <name>Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential --></label>
+        <name>Potential__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PriceGroup Status --></label>
+        <name>PriceGroup_Status__c</name>
+        <picklistValues>
+            <masterLabel>Contact attempted</masterLabel>
+            <translation><!-- Contact attempted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract doesn&apos;t need renewal</masterLabel>
+            <translation><!-- Contract doesn&apos;t need renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract lost</masterLabel>
+            <translation><!-- Contract lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract moved to new customer ID</masterLabel>
+            <translation><!-- Contract moved to new customer ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materials Delivered</masterLabel>
+            <translation><!-- Materials Delivered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materials ordered</masterLabel>
+            <translation><!-- Materials ordered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price calculation ordered</masterLabel>
+            <translation><!-- Price calculation ordered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prices sent from Strålfors</masterLabel>
+            <translation><!-- Prices sent from Strålfors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAP updated</masterLabel>
+            <translation><!-- SAP updated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for production solution</masterLabel>
+            <translation><!-- Waiting for production solution --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Name of person in Price Group who is looking at this opportunity. To be updated by the Price Group. --></help>
+        <label><!-- Price Group Approver --></label>
+        <name>Price_Group_Approver__c</name>
+    </fields>
+    <fields>
+        <help><!-- To be set by Operations if only Price Group approval is required for the final approval. --></help>
+        <label><!-- Price Group Only Approval? --></label>
+        <name>Price_Group_Only_Approval__c</name>
+    </fields>
+    <fields>
+        <help><!-- If you tick this box the opportunity will become private and will only be visible to the owner, members of the Opportunity team and users above the owner in the role hierarchy. --></help>
+        <label><!-- Private Opportunity --></label>
+        <name>Private_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Lost --></label>
+        <name>Reason_Lost__c</name>
+        <picklistValues>
+            <masterLabel>Change in customer conditions</masterLabel>
+            <translation><!-- Change in customer conditions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change of service</masterLabel>
+            <translation><!-- Change of service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor</masterLabel>
+            <translation><!-- Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Created in error</masterLabel>
+            <translation><!-- Created in error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing volume moved to another cust</masterLabel>
+            <translation><!-- Existing volume moved to another cust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal lead time in business area</masterLabel>
+            <translation><!-- Internal lead time in business area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost product on customer</masterLabel>
+            <translation><!-- Lost product on customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost whole customer</masterLabel>
+            <translation><!-- Lost whole customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No customer interest</masterLabel>
+            <translation><!-- No customer interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No customer need</masterLabel>
+            <translation><!-- No customer need --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non approved credit check</masterLabel>
+            <translation><!-- Non approved credit check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality</masterLabel>
+            <translation><!-- Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution</masterLabel>
+            <translation><!-- Solution --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason Won --></label>
+        <name>Reason_Won__c</name>
+        <picklistValues>
+            <masterLabel>Change of service</masterLabel>
+            <translation><!-- Change of service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract renewal</masterLabel>
+            <translation><!-- Contract renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality</masterLabel>
+            <translation><!-- Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution</masterLabel>
+            <translation><!-- Solution --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SAP Opportunity ID --></label>
+        <name>SAP_Opportunity_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Area --></label>
+        <name>Sales_Area__c</name>
+        <picklistValues>
+            <masterLabel>0540</masterLabel>
+            <translation>LO DK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0630</masterLabel>
+            <translation>LO FI DPD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation>PDK BE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3670</masterLabel>
+            <translation>LO FI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO91</masterLabel>
+            <translation>ME SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO92</masterLabel>
+            <translation>LO SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation>LO NO</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Group When Closed --></label>
+        <name>Sales_Group_When_Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Group --></label>
+        <name>Sales_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Office When Closed --></label>
+        <name>Sales_Office_When_Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Office --></label>
+        <name>Sales_Office__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales team --></label>
+        <name>Sales_team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Description --></label>
+        <name>Short_Description__c</name>
+    </fields>
+    <fields>
+        <name>StageName</name>
+        <picklistValues>
+            <masterLabel>Closed Lost</masterLabel>
+            <translation><!-- Closed Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Won</masterLabel>
+            <translation><!-- Closed Won --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create &amp; Present Offer</masterLabel>
+            <translation><!-- Create &amp; Present Offer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Solution</masterLabel>
+            <translation><!-- Create Solution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identify &amp; Analyze Customer Need</masterLabel>
+            <translation><!-- Identify &amp; Analyze Customer Need --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negotiate &amp; Close Deal</masterLabel>
+            <translation><!-- Negotiate &amp; Close Deal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Stage Before Closed --></label>
+        <name>Stage_Before_Closed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date when customer will start using products --></help>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total from all products on opportunity with Sales Area 4000 --></help>
+        <label><!-- Total 4000 Products Value --></label>
+        <name>Total_4000_Products_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total volume for all products on opportunity with Sales Area 4000 --></help>
+        <label><!-- Total 4000 Products Volume --></label>
+        <name>Total_4000_Products_Volume__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total of &apos;Business Value&apos; field of all products on the opportunity that are in status &apos;Won&apos; or &apos;In Progress&apos;. This is the value that feeds the pipeline --></help>
+        <label><!-- Total Business Value --></label>
+        <name>Total_Business_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Amount of the total contract value over the course of the term --></help>
+        <label><!-- Total Contract Value --></label>
+        <name>Total_Contract_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Existing Value of all products on opportunity with status &quot;Lost&quot; --></help>
+        <label><!-- Total Existing Value - Lost Products --></label>
+        <name>Total_Existing_Value_Lost_Products__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total of &apos;Existing Value&apos; field on all products on opportunity that have a status of &apos;In Progress&apos; or &apos;Won&apos; or &apos;Lost&apos; --></help>
+        <label><!-- Total Existing Value --></label>
+        <name>Total_Existing_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Existing Value for Tracking --></label>
+        <name>Total_Existing_Value_for_Tracking__c</name>
+    </fields>
+    <fields>
+        <help><!-- The sum of all new values of all products on the opportunity that have a status of &apos;In progress&apos; or &apos;Won&apos; --></help>
+        <label><!-- Total New Money --></label>
+        <name>Total_New_Money__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Renegotiation Value --></label>
+        <name>Total_Renegotiation_Value__c</name>
+    </fields>
+    <fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Sales Opportunity</masterLabel>
+            <translation><!-- Sales Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sending Customer</masterLabel>
+            <translation><!-- Sending Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visiting Customer</masterLabel>
+            <translation><!-- Visiting Customer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Value change between existing values and new values of all products on the opportunity that have a status of &apos;In progress&apos; or &apos;Won&apos; --></help>
+        <label><!-- Value Change --></label>
+        <name>Value_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value Change for Tracking --></label>
+        <name>Value_Change_for_Tracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Scheduled Redial --></label>
+        <name>actimizerdialer__ActimizerCallback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Call Attempts --></label>
+        <name>actimizerdialer__CallAttempts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Redial Date &amp; Time --></label>
+        <name>actimizerdialer__DialTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Owner --></label>
+        <name>actimizerdialer__LockedBy__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Max Call Attempts Reached --></label>
+        <name>actimizerdialer__MaxCallAttemptsReached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer No Interest Date --></label>
+        <name>actimizerdialer__NoInterestDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer No Interest --></label>
+        <name>actimizerdialer__NoInterest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Notes --></label>
+        <name>actimizerdialer__Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Redial Phone --></label>
+        <name>actimizerdialer__RedialPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Success Date --></label>
+        <name>actimizerdialer__SuccessDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Success --></label>
+        <name>actimizerdialer__Success__c</name>
+    </fields>
+    <fields>
+        <help><!-- # of products associated to the opportunity --></help>
+        <label><!-- no of products --></label>
+        <name>no_of_products__c</name>
+    </fields>
+    <layouts>
+        <layout>Contract Renewal Sending Customer Opportunity Layout</layout>
+        <sections>
+            <label><!-- Opportunity Value --></label>
+            <section>Opportunity Value</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contract Renewal Visiting Customer Opportunity Layout</layout>
+        <sections>
+            <label><!-- Approver Information --></label>
+            <section>Approver Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Value --></label>
+            <section>Opportunity Value</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sales Opportunity</layout>
+        <sections>
+            <label><!-- Approver Information --></label>
+            <section>Approver Information</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Identifier --></label>
+            <section>Lead Identifier</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Value --></label>
+            <section>Opportunity Value</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Standard Opportunity Layout</layout>
+        <sections>
+            <label><!-- Lead Identifier --></label>
+            <section>Lead Identifier</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Value --></label>
+            <section>Opportunity Value</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Log an Opportunity Call --></label>
+        <name>Log_an_Opportunity_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>New_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity Task --></label>
+        <name>New_Opportunity_Task</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Contract Renewal Sending Opportunity --></label>
+        <name>Contract_Renewal_Sending_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Contract Renewal Visiting Opportunity --></label>
+        <name>Contract_Renewal_Visiting_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sales Opportunity --></label>
+        <name>Sales_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard Opportunity --></label>
+        <name>Standard_Opportunity</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- The Account associated with this opportunity is not a Work Site. Please change the account. --></errorMessage>
+        <name>Account_must_be_WS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You may not change the value of a closed opportunity. To change the value please change the stage first. --></errorMessage>
+        <name>Cannot_Change_Opp_Value_of_Closed_Opp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must add products to your opportunity before setting to Closed Won or Closed Lost. 
+
+If this an opportunity that you have just cloned, please change the stage to something other than Closed Won or Closed Lost before saving. --></errorMessage>
+        <name>Closed_Opp_Must_Have_Products</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date to be approved by must be at least 7 working days in the future --></errorMessage>
+        <name>Date_to_be_approved_must_be_07_days</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date to be approved by must be at least 12 working days in the future --></errorMessage>
+        <name>Date_to_be_approved_must_be_12_days</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You have at least 1 open quote on this opportunity. Please set all quotes to either Won or Lost before closing this opportunity --></errorMessage>
+        <name>Do_not_allow_cls_of_opp_with_open_quotes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot enter a date to be approved by until your opportunity has products --></errorMessage>
+        <name>Must_have_products_for_approval_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter a start date for an opportunity to be Closed Won --></errorMessage>
+        <name>Start_Date_Required_for_Closed_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Expected Start Date cannot be before Close Date --></errorMessage>
+        <name>Start_Date_less_than_Expected_Close_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- please enter Total Contract Value --></errorMessage>
+        <name>Total_Contract_Value_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Admin Activiy Status must be SAP Updated before the opportunity can be Closed Won --></errorMessage>
+        <name>Won_Contract_Renewal_Must_Have_SAP_Updte</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Opportunity --></label>
+        <name>New_Opportunity</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Call_List --></label>
+        <name>actimizerdialer__Add_to_Call_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Call_List_PE --></label>
+        <name>actimizerdialer__Add_to_Call_List_PE</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Call_List_from_Detail --></label>
+        <name>actimizerdialer__Add_to_Call_List_from_Detail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CallNow --></label>
+        <name>actimizerdialer__CallNow</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Call_List --></label>
+        <name>actimizerdialer__Create_Call_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Tasks_Opp --></label>
+        <name>activities__Create_Tasks_Opp</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- event_opp_cont --></label>
+        <name>event_opp_cont</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- task_opp_cont --></label>
+        <name>task_opp_cont</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- Now is the time to book a meeting with the Customer to follow up on your new business, see Related to. --></description>
+        <name>Follow_up_1_1_1_1</name>
+        <subject><!-- Follow up 1-1-1 (1) --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>X1_1_1</name>
+        <subject><!-- Follow up 1-1-1 (1) --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

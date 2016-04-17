@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Frimærker.14 5. februar</name>
+    <style>none</style>
+    <subject>MIT NAVN DET STÅR MED PRIKKER…</subject>
+    <textOnly>Godt nytår
+&lt;[[http://www.postdanmark.dk]]&gt;
+Hvis du ikke kan læse denne e-mail, klik her &lt;[[{{system.viewAsWebpageLink}}]]&gt;
+Kære {{lead.First Name}}
+GODT NYTÅR
+I morgen vil champagnepropperne springe, når nytårsklokkerne ringer 2016 ind. Det nye år vil som altid byde på flotte, farverige, festlige frimærker og eksklusive udstillinger og events i hele landet. Allerede mandag den 4. januar fejrer vi årets første frimærkeudgivelse med kaffe og kransekager på Østerbro Posthus – og vi håber, at du kigger forbi. 
+
+
+
+Husk, at portoen for de fleste breve ændres fra årsskiftet. Hvis du ikke allerede har købt frimærker i de nye værdier, kan du gøre det nu i vores netbutik.
+
+
+Og hermed godt nytår til dig og dine kære!
+
+Med venlig hilsen
+ 
+Bo Høifeldt
+
+Salgs- og marketingchef, PostNord Frimærker
+&lt;[[http://www2.postdanmark.dk/netbutik]]&gt;
+NÅR DU SER ET STJERNESKUD...
+Stjerneskud og Sol over Gudhjem er to velkendte klassikere fra det danske frokostbord. Nu er de begge kommet på frimærker i den fællesnordiske udgivelse ”Nordisk madkultur”. Køb dem i vores netbutik, hvor du også finder det nye frimærke, der fejrer 600-året for Maribo Domkirke, og velgørenhedsfrimærket, der har fået ny værdi, men stadig støtter WWF Verdensnaturfonden.
+KØB FRIMÆRKERNE HER &lt;[[http://www2.postdanmark.dk/netbutik]]&gt;
+KAFFE OG KRANSEKAGE PÅ ØSTERBRO POSTHUS
+For at fejre nytåret og årets første frimærkeudgivelse vil vi gerne invitere dig på kaffe og kransekage. Arrangementet foregår på Østerbro Posthus i København 4. januar kl. 10-14. Du kan møde PostNords frimærkedesignere, Ella Clausen og Jakob Monefeldt, som sidder parat til at signere dine produkter.
+LÆS MERE HER &lt;[[http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx]]&gt;
+&lt;[[http://www.3fff.dk/frimaerke-brev-postkort-messe-2013-2/]]&gt;
+&lt;[[http://www2.postdanmark.dk/netbutik]]&gt;
+50-ÅRS JUBILÆUM I HADSUND
+Kom og vær med, når Hadsund Frimærkeklub inviterer til PR-frimærkeudstilling i anledning af klubbens 50-års jubilæum. Arrangementet finder sted i Hadsund Kulturcenter 16.-17. januar 2016 kl. 10-15, og der er bl.a. mulighed for at se en spændende udstilling med lokale postkort. PostNord vil være til stede, så du kan købe de nyeste frimærker til samlingen. På www.postdanmark.dk/filateli &lt;[[http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx]]&gt; kan du se en oversigt over alle udstillinger, vi er med på i løbet af 2016.
+SE LISTEN &lt;[[http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx]]&gt;
+Vi har sendt denne e-mail til {{lead.Email Address}} &lt;[[mailto:{{lead.Email Address}}]]&gt;.
+
+Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;[[http://pages.postnord.com/Min-side.html]]&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

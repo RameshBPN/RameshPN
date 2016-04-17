@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Apex Error Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Apex Error Logs</value>
+    </caseValues>
+    <fields>
+        <help><!-- Apex error code (ENUM) --></help>
+        <label><!-- Error Code --></label>
+        <name>Error_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Description --></label>
+        <name>Error_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Process that threw the error --></help>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timestamp --></label>
+        <name>Timestamp__c</name>
+    </fields>
+    <layouts>
+        <layout>ApexErrorLog Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

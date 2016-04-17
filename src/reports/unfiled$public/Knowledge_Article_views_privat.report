@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_28468173</developerName>
+        <masterLabel>Erhverv</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>KnowledgeViewEventHistory$Related</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>PN DK Erhverspakke Suport</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK Reklamationer Erhvervspost Team</sourceValue>
+            </sourceValues>
+            <value>Erhverv</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_25754412</developerName>
+        <masterLabel>Privat</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>KnowledgeViewEventHistory$Related</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>PN DK MOD/Skrivpost Team</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK Digital Team</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK Reklamationer Privat Team</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK Team Told</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK Privat Support</sourceValue>
+            </sourceValues>
+            <value>Privat</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <aggregate>Sum</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>KnowledgeViewEventHistory$DeltaCount</column>
+        </chartSummaries>
+        <chartType>VerticalColumn</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>KnowledgeViewEventHistory$AsOfDate</groupingColumn>
+        <location>CHART_TOP</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>KnowledgeViewEventHistory$DeltaCount</field>
+    </columns>
+    <currency>SEK</currency>
+    <description>Knowledge - Article views Privat - sidste 7 dage</description>
+    <filter>
+        <criteriaItems>
+            <column>BucketField_25754412</column>
+            <operator>equals</operator>
+            <value>Privat</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_25754412</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>KnowledgeViewEventHistory$Related</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>KnowledgeViewEventHistory$AsOfDate</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Knowledge - Article views Privat</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>SK__Knowledge_Articles_Views__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>KnowledgeViewEventHistory$AsOfDate</dateColumn>
+        <interval>INTERVAL_LAST7</interval>
+    </timeFrameFilter>
+</Report>

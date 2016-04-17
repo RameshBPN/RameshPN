@@ -1,0 +1,188 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<div style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt" align="left"><br></div>
+<p style="MARGIN-RIGHT: 5.65pt" class="ModtagerAdresse" align="left"><font size="2" face="Arial,Sans-Serif">{!Case.Receiver__c}</font></p>
+<table style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-COLLAPSE: collapse; FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none" class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="636">
+<tbody>
+<tr style="HEIGHT: 155.95pt">
+<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 0cm; WIDTH: 340.45pt; PADDING-RIGHT: 0cm; HEIGHT: 155.95pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0cm" valign="top" width="454">
+<p style="MARGIN-RIGHT: 5.65pt" class="ModtagerAdresse" align="left"><font size="2" face="Arial,Sans-Serif">{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_S__c} {!Case.Receiver_Postal_Address_Room_Number__c}</font></p>
+<p style="MARGIN-RIGHT: 5.65pt" class="ModtagerAdresse" align="left"><font size="2" face="Arial,Sans-Serif">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")}{!Case.Receiver_Postal_Address_PO_Box__c}</font></p>
+<p style="MARGIN-RIGHT: 5.65pt" class="ModtagerAdresse" align="left"><font size="2" face="Arial,Sans-Serif">{!Case.Receiver_Postal_Address_Suburb__c}</font></p>
+<p style="MARGIN-RIGHT: 5.65pt" class="ModtagerAdresse" align="left"><font size="2" face="Arial,Sans-Serif">{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c}</font></p>
+<p style="MARGIN-RIGHT: 5.65pt" class="ModtagerAdresse" align="left"><span lang="DA"><font size="2" face="Arial,Sans-Serif">{!Case.Receiver_Postal_Address_Country__c}&nbsp;</font></span></p></td>
+<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 0cm; WIDTH: 136.75pt; PADDING-RIGHT: 0cm; HEIGHT: 155.95pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0cm" valign="top" width="182">
+<p class="AfsenderLet" align="left"><font size="1" face="Arial,Sans-Serif">{!User.CompanyName}</font></p>
+<p class="AfsenderLet" align="left"><font size="1" face="Arial,Sans-Serif">{!User.Division}</font></p>
+<p class="AfsenderLet" align="left"><font size="1" face="Arial,Sans-Serif">{!User.Department}</font></p>
+<p class="AfsenderLet" align="left"><font size="1" face="Arial,Sans-Serif">{!User.Street}</font></p>
+<p class="AfsenderLet" align="left"><font size="1" face="Arial,Sans-Serif">{!User.PostalCode}&nbsp;{!User.City}</font></p>
+<p class="AfsenderLet" align="left"><font size="1" face="Arial,Sans-Serif">CVR nr. 26663903</font></p>
+<p class="AfsenderLet" align="left"><font size="1" face="Arial,Sans-Serif"></font></p>
+<p class="AfsenderLet" align="left"><font size="1" face="Arial,Sans-Serif">{!User.Company_Webb_Address__c}</font></p>
+<p class="AfsenderLet" align="left"><font size="1" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p class="AfsenderLet" align="left"><font size="1" face="Arial,Sans-Serif">TLF {!User.Department_Phone__c}</font></p>
+<p class="AfsenderLet" align="left"><font size="1" face="Arial,Sans-Serif">FAX {!User.Fax}</font></p>
+<p class="AfsenderLet" align="left"><font size="1" face="Arial,Sans-Serif">{!User.Team_Email__c}</font></p>
+<p class="AfsenderLet" align="left"><font size="1" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p class="AfsenderLet" align="left"><font face="Arial,Sans-Serif"><font size="1">Dato {!Today}&nbsp;&nbsp;<!--?xml:namespace prefix = o /--><!--?xml:namespace prefix = o /--><o:p></o:p></font></font></p>
+<p class="AfsenderLet" align="left"><font size="1" face="Arial,Sans-Serif"><span lang="DA">Journal&nbsp;nr.&nbsp;{!Case.Main_Case_Number__c}</span></font></p>
+<p class="AfsenderLet" align="left"><font size="1" face="Arial,Sans-Serif">Sagsbeh {!User.Alias}</font></p></td></tr>
+<tr style="HEIGHT: 511.8pt">
+<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 0cm; WIDTH: 340.45pt; PADDING-RIGHT: 0cm; HEIGHT: 511.8pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0cm" valign="top" width="454">
+<p style="MARGIN-RIGHT: 21.25pt" class="OverskriftFed9"><span lang="DA"><b><font size="2" face="Arial,Sans-Serif">Har du modtaget denne&nbsp;forsendelse?</font></b></span></p>
+<p style="MARGIN-RIGHT: 21.25pt" class="OverskriftFed9"><span lang="DA"></span><span lang="DA"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></span></p>
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><span lang="DA"><font face="Arial,Sans-Serif"><font size="2">Vi skriver til dig for at undersøge, om du har modtaget en&nbsp;forsendelse fra:</font></font></span></p>
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><span lang="DA"><font face="Arial,Sans-Serif"><font size="2"></font></font></span>&nbsp;</p>
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><font face="Arial, sans-serif" size="2">{!Case.Sender_Name__c}</font></p>
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><span lang="DA"><font face="Arial,Sans-Serif"><font size="2">{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c}</font></font></span><span lang="DA"><font size="2" face="Arial,Sans-Serif">&nbsp;{!Case.Sender_Postal_Address_Room_Number__c}</font></span></p><span lang="DA">
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB">{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}<o:p></o:p></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB">{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")} {!Case.Sender_Postal_Address_Suburb__c}</span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB">{!Case.Sender_Postal_Address_Postal_Code__c} </span><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB">{!Case.Sender_Postal_Address_City__c}</span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB">{!Case.Sender_Postal_Address_Country__c}<o:p></o:p></span></p>
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left">&nbsp;</p><font size="2" face="Arial,Sans-Serif">
+</font><p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><font size="2" face="Arial,Sans-Serif"></font><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><font face="Arial,Sans-Serif"><font size="2"><span lang="DA">Forsendelsen har stregkodenummer&nbsp;</span>{!Case.Item_Id__c}<span lang="DA">, og blev sendt den&nbsp;</span><span lang="DA">{!Case.Submission_date__c}&nbsp;og indeholdt:&nbsp;</span><span lang="DA">{!Case.Description_of_Content__c}. </span>{!Case.Sender__c}<span lang="DA">&nbsp;har efterlyst forsendelsen, og vi har brug for at vide, om den er kommet frem til dig.</span></font></font></p>
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><span lang="DA"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></span></p>
+<p style="MARGIN: 0cm 21.25pt 0pt 0cm" class="NormalBilag" align="left"><span lang="DA"><font face="Arial,Sans-Serif"><font size="2">Vi beder dig udfylde erklæringen, som er vedlagt dette brev, og sende den tilbage til os inden for 3 hverdage i medfølgende svarkonvolut. Portoen er betalt.<o:p></o:p></font></font></span></p>
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><span lang="DA"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></span></p>
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><span lang="DA"><font face="Arial,Sans-Serif"><font size="2">Hvis du oplyser, at du ikke har modtaget forsendelsen, så gør vi dig opmærksom på, at Post Danmark i nogle tilfælde melder indholdet savnet i Rigspolitiets Kosterblad.<o:p></o:p></font></font></span></p>
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><span lang="DA"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></span></p>
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><span lang="DA"><font face="Arial,Sans-Serif"><font size="2">Tak for din hjælp.<o:p></o:p></font></font></span></p>
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><font size="2" face="Arial, sans-serif"><br></font></p>
+<div align="left">
+<table style="BORDER-COLLAPSE: collapse" class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr style="HEIGHT: 1cm">
+<td style="PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 528.05pt; PADDING-RIGHT: 3.5pt; HEIGHT: 1cm; PADDING-TOP: 0cm" valign="top" width="704">
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal"><span lang="DA"></span></p></td></tr>
+<tr style="HEIGHT: 14.2pt">
+<td style="PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 528.05pt; PADDING-RIGHT: 3.5pt; HEIGHT: 14.2pt; PADDING-TOP: 0cm" valign="top" width="704">
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal"><a name="Hilsen"><span lang="DA"><font size="2" face="Arial,Sans-Serif">Med venlig hilsen</font></span></a><span lang="DA"><o:p></o:p></span></p></td></tr>
+<tr style="HEIGHT: 2cm">
+<td style="PADDING-BOTTOM: 0cm; PADDING-LEFT: 3.5pt; WIDTH: 528.05pt; PADDING-RIGHT: 3.5pt; HEIGHT: 2cm; PADDING-TOP: 0cm" valign="top" width="704">
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal"><font size="2" face="Arial,Sans-Serif">{!User.FirstName}&nbsp;{!User.LastName}</font></p></td></tr></tbody></table></div>
+<p style="MARGIN-RIGHT: 5.65pt" class="ModtagerAdresse"><span style="COLOR: aqua" lang="DA"><o:p></o:p></span></p></span></td>
+<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 0cm; WIDTH: 136.75pt; PADDING-RIGHT: 0cm; HEIGHT: 511.8pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0cm" valign="top" width="182">
+<p class="AfsenderLet"><br></p></td></tr></tbody></table>
+<div style="FONT-FAMILY: arial; COLOR: rgb(0,0,0); FONT-SIZE: 12pt">
+<table style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-SPACING: 0px; BORDER-COLLAPSE: collapse; FONT-FAMILY: 'Times New Roman'; COLOR: rgb(0,0,0); FONT-SIZE: 12pt; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid">
+<tbody>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c0 r0">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium">&nbsp;</div></td>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r0">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1">&nbsp;</font></div></td>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c2 r0">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Journalnummer / Journalnumber</font></div>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">{!Case.Main_Case_Number__c}</font></div></td></tr>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c0 r1">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="2" face="Arial, sans-serif">Forsendelses type /</font></div>
+<p align="left"><span lang="DA"><font size="2" face="Arial, sans-serif">Nature of item</font></span></p></td>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r1 c2" colspan="2">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">{!Case.CN18_A_prioritaire_img__c}A-Pioritaire &nbsp;{!Case.CN18_B_Economic_img__c}B-Economic&nbsp;&nbsp;{!Case.CN18_Parcel_img__c}Pakke/Parcel &nbsp;{!Case.CN18_Ordinary_img__c}Standard/Ordinary &nbsp;{!Case.CN18_Recommended_img__c}Rekommanderet/Recommended</font></div>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">{!Case.CN18_Letter_img__c}Brev/Letter &nbsp;{!Case.CN18_Printed_img__c}Tryksag/Printed &nbsp;{!Case.CN18_Small_img__c}Småpakke/Small&nbsp;{!Case.CN18_Insured_img__c}Værdi/Insured&nbsp;{!Case.CN18_Recorded_img__c}Udlevereringsbevis/Recorded</font></div></td></tr>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c0 r2 r3 r4 r5" rowspan="4">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="2" face="Arial, sans-serif">Særlige kendetegn /</font></div>
+<p align="left"><span lang="DA"><font size="2" face="Arial, sans-serif">Special particulars</font></span></p></td>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r2 c2" colspan="2">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Forsikringsværdi / Insured value</font></div>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">{!Case.Insurance_amount__c}</font></div>
+<p class="NormalTabel8pktVenstre" align="left"><span lang="DA"><font size="1" face="Arial, sans-serif"><o:p></o:p></font></span></p></td></tr>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r3 c2" colspan="2">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">&nbsp;Luftpost /&nbsp;<span style="WHITE-SPACE: pre" class="Apple-tab-span"> </span>Ekspress /<span style="WHITE-SPACE: pre" class="Apple-tab-span"> </span>&nbsp;Modtagerkvittering /</font></div>
+<p align="left"><span lang="DA"><font size="1" face="Arial, sans-serif">{!Case.CN18_Airmail_img__c}Airmail<span style="WHITE-SPACE: pre" class="Apple-tab-span"> </span>&nbsp;{!Case.CN18_SAL_img__c}S.A.L<span style="WHITE-SPACE: pre" class="Apple-tab-span"> </span>{!Case.CN18_Express_img__c}Express<span style="WHITE-SPACE: pre" class="Apple-tab-span"> </span>&nbsp;{!Case.CN18_Advice_of_Receipt_img__c}Advice of receipt<span style="WHITE-SPACE: pre" class="Apple-tab-span"> </span></font></span></p></td></tr>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r4">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">&nbsp;Postopkraevning /&nbsp;</font></div>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">&nbsp;{!Case.CN18_COD_img__c}COD</font></div></td>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c2 r4">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Postopkraevning&nbsp;størrelse og møntfod / COD amount and currency</font></div>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">{!Case.COD_Amount__c}&nbsp;</font></div></td></tr>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r5 c2" colspan="2">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Bemærkninger / Other information</font></div><font size="1" face="Arial, sans-serif">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><br></div></font></td></tr>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c0 r6 r7 r8" rowspan="3">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="2" face="Arial, sans-serif">Afsendelse /</font></div>
+<p align="left"><span lang="DA"><font size="2" face="Arial, sans-serif">Posting</font></span></p></td>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r6 c2" colspan="2">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Nummer på forsendelse / No. of item</font></div>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">{!Case.Item_Id__c}</font></div></td></tr>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r7">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Afsendelses dato / Date of posting</font></div>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">{!Case.Submission_date__c}&nbsp;</font></div></td>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c2 r7">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Afsendelseskontor / Office of posting</font></div>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">&nbsp;</font></div></td></tr>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r8 c2" colspan="2">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Vægt af forsendelse / Weight of item</font></div>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">{!Case.Weight_from_Primary_Product__c}</font></div></td></tr>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c0 r9">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="2" face="Arial, sans-serif">Afsender /</font></div>
+<p align="left"><span lang="DA"><font size="2" face="Arial, sans-serif">Sender</font></span></p></td>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r9 c2" colspan="2">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Navn og adresse / Name and full address</font></div>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font face="Arial,Sans-Serif"><span lang="DA"><span style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-ansi-language: DA; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: DA; mso-bidi-language: AR-SA"></span></span><span lang="DA"><span style="FONT-FAMILY: 'Times New Roman'; FONT-SIZE: 12pt; mso-ansi-language: DA; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: DA; mso-bidi-language: AR-SA"></span></span></font><font face="Arial,Sans-Serif"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB"><font face="Arial,Sans-Serif">
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><span lang="DA"><font size="1" face="Arial,Sans-Serif">{!Case.Sender__c}</font></span></p>
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><font face="Arial,Sans-Serif"><font size="1"><span lang="DA">{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c}</span><span lang="DA">&nbsp;{!Case.Sender_Postal_Address_Room_Number__c}</span></font></font></p><span lang="DA">
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB"><font face="Arial,Sans-Serif"><font size="1">{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}<o:p></o:p></font></font></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB"><font size="1" face="Arial,Sans-Serif">{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")} {!Case.Sender_Postal_Address_Suburb__c}</font></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB"><font size="1" face="Arial,Sans-Serif">{!Case.Sender_Postal_Address_Postal_Code__c} </font></span><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB"><font size="1" face="Arial,Sans-Serif">{!Case.Sender_Postal_Address_City__c}</font></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB"><font face="Arial,Sans-Serif"><font size="1">{!Case.Sender_Postal_Address_Country__c}<o:p></o:p></font></font></span></p>
+<p style="MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><font size="1"></font></p></span></font></span></font></div></td></tr>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c0 r10">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Modtager /</font></div>
+<p align="left"><span lang="DA"><font size="1" face="Arial, sans-serif">Addressee</font></span></p></td>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r10 c2" colspan="2">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Navn og adresse / Name and full address</font></div>
+<p style="BACKGROUND-COLOR: rgb(255,255,255); OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><font size="1" face="Arial, sans-serif">{!Case.Receiver__c}</font></p>
+<p style="BACKGROUND-COLOR: rgb(255,255,255); OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><font size="1" face="Arial, sans-serif">{!Case.Receiver_Contact_Name__c}</font></p>
+<p style="BACKGROUND-COLOR: rgb(255,255,255); OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><font size="1" face="Arial, sans-serif">{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_S__c} {!Case.Receiver_Postal_Address_Room_Number__c}</font></p>
+<p style="BACKGROUND-COLOR: rgb(255,255,255); OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><font size="1" face="Arial, sans-serif">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")}{!Case.Receiver_Postal_Address_PO_Box__c}</font></p>
+<p style="BACKGROUND-COLOR: rgb(255,255,255); OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><font size="1" face="Arial, sans-serif">{!Case.Receiver_Postal_Address_Suburb__c}</font></p>
+<p style="BACKGROUND-COLOR: rgb(255,255,255); OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><font size="1" face="Arial, sans-serif">{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c}</font></p>
+<p style="BACKGROUND-COLOR: rgb(255,255,255); OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; MARGIN-RIGHT: 21.25pt" class="MsoNormal" align="left"><font size="1" face="Arial, sans-serif">{!Case.Receiver_Postal_Address_Country__c}</font></p>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1"></font></div></td></tr>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c0 r11">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Indhold /</font></div>
+<p align="left"><span lang="DA"><font size="1" face="Arial, sans-serif">Contents</font></span></p></td>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r11 c2" colspan="2">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Detaljeret beskrivelse af indhold / Precise description of contents</font></div>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">{!Case.Description_of_Content__c}</font></div><font size="1" face="Arial, sans-serif">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><br></div></font></td></tr>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c0 r12 r13 r14 r15" rowspan="4">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Erklæring /</font></div>
+<p align="left"><span lang="DA"><font size="1" face="Arial, sans-serif">Declaration</font></span></p></td>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r12">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font face="Arial, sans-serif"><font size="1">Forsendelsen er udleveret til mig den /This item was&nbsp;</font><font size="1"><span lang="DA">delivered to me on<br></span><span lang="DA">&nbsp;</span></font></font></div></td>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c2 r12">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Dato / Date</font></div>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">&nbsp;</font></div></td></tr>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r13 c2" colspan="2">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Jeg har ikke modtaget forsendelsen via post eller på anden vis /</font></div>
+<p align="left"><span lang="DA"><font size="1" face="Arial, sans-serif">I have not received this item by post or by any other means<br><br></font></span></p></td></tr>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r14 c2" colspan="2">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Sted og dato / Place and date</font></div><font face="Arial, sans-serif">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1"><br></font></div>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1"><br></font></div></font></td></tr>
+<tr>
+<td style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; PADDING-TOP: 8px" class="c1 r15 c2" colspan="2">
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font size="1" face="Arial, sans-serif">Underskrift / Signature</font></div>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><font face="Arial, sans-serif"><br><font size="1"></font></font></div>
+<div style="OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium" align="left"><span style="FONT-FAMILY: 'Humnst777 Lt BT', sans-serif"><br><font size="1"></font></span></div></td></tr></tbody></table></div>]]></td>
+</tr>
+</table>

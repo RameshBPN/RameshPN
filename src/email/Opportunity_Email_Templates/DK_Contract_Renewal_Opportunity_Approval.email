@@ -1,0 +1,6 @@
+Opportunity {!Opportunity.Opportunity_ID__c} {!Opportunity.Name} has been submitted for your approval. 
+
+Click {!Opportunity.Link} to view the opportunity details and attachments. 
+
+Notes for Approver : 
+{!Opportunity.Notes_for_Approver__c}

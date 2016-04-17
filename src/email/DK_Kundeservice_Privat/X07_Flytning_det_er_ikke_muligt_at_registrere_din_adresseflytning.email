@@ -1,0 +1,84 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<div style="font-size: 12pt; font-family: arial;"><br></div><div style="font-size: 12pt; font-family: arial;"><font face="Arial, sans-serif" size="2"><br></font></div><div><font face="Arial, sans-serif" size="2"><font face="arial" style="font-size: 12pt;">K</font>ære Kunde</font></div><div><font face="Arial, sans-serif" size="2"><br></font></div><div><font face="Arial, sans-serif" size="2"><br></font></div><div><font face="Arial, sans-serif" size="2"><br></font></div><div><font face="Arial, sans-serif" size="2"><br></font></div><div><p class="OverskriftFed9" align="left"><font face="Arial, sans-serif" size="2"><b>DET ER IKKE MULIGT AT REGISTRERE DIN ADRESSEFLYTNING</b></font></p>
+
+<p class="OverskriftFed9"><o:p><font face="Arial, sans-serif" size="2"><b>&nbsp;</b></font></o:p></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2"><a name="NormalAnker"></a>Vi har modtaget en meddelelse om
+adresseflytning fra dig. </font></p>
+
+<p class="MsoNormal"><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Vi kan desværre ikke registrere din flytning, da vi ikke har
+registreret dig (dit navn) på den adresse, du flytter fra. </font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2">For at vi kan registrere din flytning, skal vi bruge både
+din ”officielle” adresse (fra dit sundhedskort eller borger.dk) samt den
+adresse, som du ønsker vi skal flytte dig fra som ”fra adresse”.&nbsp;</font></p>
+
+<p class="MsoNormal"><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Er der talte om en midlertidig/ferieflytning, så kan du evt.
+overveje at lade familie eller en nabo tømme din postkasse.</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2"><br></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Har du NemID, så kan du selv melde flytning via ePosthuset. </font></p>
+
+<p class="MsoNormal"><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Har du ikke NemID, skal du udfylde den vedlagte flytteblanket.
+For at vi kan taste flytningen, er det vigtigt, at oplysningerne er korrekte, samt
+at blanketten bliver indsendt sammen med kopi af *billedlegitimation. </font></p>
+
+<p class="MsoNormal"><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Du kan sende bilagene&nbsp;til adressen nederst på flytteblanketten. Husk frimærke.</font></p>
+
+<p class="MsoNormal"><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></p>
+
+<p class="MsoNormal"><b><font face="Arial, sans-serif" size="2">*Billedlegitimation<o:p></o:p></font></b></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Billedlegitimation kan f.eks. være pas eller kørekort. Hvis
+du ikke har legitimation af den type, så kan du i stedet sende kopi af 2 stk.
+anden form for legitimation, fx sundhedskort, dåbsattest/navnebevis eller
+personnummerbevis.&nbsp;</font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2">Med venlig hilsen</font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2">Kundeservice</font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2">Tlf. 70 10 00 54</font></p></div>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" rowspan="3" aEditID="c2r1" >
+<![CDATA[<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.CompanyName}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Division}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Department}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Street}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.PostalCode} {!User.City}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">CVR nr.: 26663903<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">{!User.Company_Webb_Address__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="1">&nbsp;</font></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">Dato {!Today}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">Sagsnr. {!Case.Main_Case_Number__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">Sagsbeh {!User.Alias}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="1">&nbsp;</font></span></p>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

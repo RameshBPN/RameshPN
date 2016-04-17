@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Ønskeskyen.Ønskeskyen - Erhverv survey</name>
+    <style>none</style>
+    <subject>{{lead.First Name:default=Hej}}, hvordan går det med Ønskeskyen?</subject>
+    <textOnly>Har du 5 min. til at svare på spørgsmål om Ønskeskyen? Så har du muligheden for at vinde en iPad Mini 4.
+Hvis du ikke kan læse denne e-mail, klik her &lt;[[{{system.viewAsWebpageLink}}]]&gt;
+Hej {{lead.First Name:default=kunde}}
+
+
+
+Vi kan se, at du har downloadet Ønskeskyen plug-in’et til din webshop. Vi holder af at blive klogere på vores kunder og produkter – og vil derfor høre, om du bruger Ønskeskyen. Og hvis ikke, hvorfor? Spørgsmålene tager kun 5 min. at svare på, og så deltager du i konkurrencen om en iPad Mini 4 (64GB til en værdi af 3.799 kr.).
+Svar her &lt;[[http://www.surveygizmo.com/s3/2616554/PDK-nskeskyen-Erhverv-2016?email={{lead.Email Address}}]]&gt;
+Ønskeskyen øger trafikken til din webshop
+170.000 danskere har Ønskeskyen, der nu indeholder mere end 1,4 mio. ønsker, og mere end 930.000 gange har Ønskeskyens brugere fulgt et link videre til en webshop som din. Post Danmark vil i 2016 igen markedsføre Ønskeskyen med fokus på mærkedage såsom konfirmationer, bryllupper og jul. Vores målsætning for 2016 er 250.000 brugere.
+
+
+
+Vi sætter pris på dine svar, mange tak for hjælpen.
+
+
+
+Med venlig hilsen
+
+Post Danmark
+Vi har sendt denne e-mail til {{lead.Email Address:default=din email}} &lt;[[mailto:{{lead.Email Address:default=din%20email}}]]&gt;.
+
+Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;[[http://pages.postnord.com/erhverv-minside.html]]&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

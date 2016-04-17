@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Release Package Reference</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Release Package References</value>
+    </caseValues>
+    <fields>
+        <label><!-- Release Package Name --></label>
+        <name>Release_Package_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release Package --></label>
+        <name>Release_Package__c</name>
+        <relationshipLabel><!-- Work item --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Item Task --></label>
+        <name>Work_Item_Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work item --></label>
+        <name>Work_item__c</name>
+        <relationshipLabel><!-- Release Package --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Release Package Reference Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

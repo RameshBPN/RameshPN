@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Object to relate different kinds of account relationships - Account to Account and Invoice Recipients</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account_Corporate_Registration_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Corporate Registration Number</label>
+        <length>12</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Involved_Party_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Involved Party ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Name__c</fullName>
+        <description>To be populated by workflow and used for searching in Global Search. Will not be visible on any page layouts</description>
+        <externalId>false</externalId>
+        <label>Account Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Search_for_IDs__c</fullName>
+        <description>Populated by workflow, a concatenation of all IDs that PostNord want to search, delimited by &quot;+&quot;. Helps in lookup searching and global search.</description>
+        <externalId>false</externalId>
+        <label>Account Search for IDs</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Primary Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Relationships (Account)</relationshipLabel>
+        <relationshipName>Involved_Party_Relationships</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Distribution_Channel__c</fullName>
+        <externalId>false</externalId>
+        <label>Distribution Channel</label>
+        <picklist>
+            <picklistValues>
+                <fullName>10</fullName>
+                <default>true</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Division__c</fullName>
+        <externalId>false</externalId>
+        <label>Division</label>
+        <picklist>
+            <picklistValues>
+                <fullName>00</fullName>
+                <default>true</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Last_PN_Synchronized_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Last PN Synchronized Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PN_Mark_As_Synced__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>PN_Mark_As_Synced</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PN_Synchronization_ErrorReasonCode__c</fullName>
+        <externalId>false</externalId>
+        <label>PN Synchronization ErrorReasonCode</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PN_Synchronization_Error__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>PN Synchronization Error</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PN_Synchronized__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>PN Synchronized</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Rel_Acc_Corporate_Registration_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Rel Acc Corporate Registration Number</label>
+        <length>12</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rel_Acc_Search_for_IDs__c</fullName>
+        <description>Populated by workflow, a concatenation of all IDs that PostNord want to search, delimited by &quot;+&quot;. Helps in lookup searching and global search.</description>
+        <externalId>false</externalId>
+        <label>Rel Acc Search for IDs</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rel_Account_Involved_Party_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Rel Account Involved Party ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Related_Account_Name__c</fullName>
+        <description>To be populated by workflow and used for searching in Global Search. Will not be visible on any page layouts</description>
+        <externalId>false</externalId>
+        <label>Related Account Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Related_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Involved_Party_Relationships1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Relationship_Compound_SFID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>This is a compound key of the Relationship Type ID, Sales Area ID and the Accounts Involved Party ID.</description>
+        <externalId>true</externalId>
+        <label>Relationship Compound SFID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Relationship_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Relationship Type</label>
+        <picklist>
+            <controllingField>Sales_Area__c</controllingField>
+            <picklistValues>
+                <fullName>RE</fullName>
+                <controllingFieldValues>0540</controllingFieldValues>
+                <controllingFieldValues>0630</controllingFieldValues>
+                <controllingFieldValues>1000</controllingFieldValues>
+                <controllingFieldValues>3670</controllingFieldValues>
+                <controllingFieldValues>FO91</controllingFieldValues>
+                <controllingFieldValues>FO92</controllingFieldValues>
+                <controllingFieldValues>LO NO</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RG</fullName>
+                <controllingFieldValues>0540</controllingFieldValues>
+                <controllingFieldValues>0630</controllingFieldValues>
+                <controllingFieldValues>1000</controllingFieldValues>
+                <controllingFieldValues>3670</controllingFieldValues>
+                <controllingFieldValues>FO91</controllingFieldValues>
+                <controllingFieldValues>FO92</controllingFieldValues>
+                <controllingFieldValues>LO NO</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>YP</fullName>
+                <controllingFieldValues>0540</controllingFieldValues>
+                <controllingFieldValues>1000</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customers Customer</fullName>
+                <controllingFieldValues>0540</controllingFieldValues>
+                <controllingFieldValues>0630</controllingFieldValues>
+                <controllingFieldValues>1000</controllingFieldValues>
+                <controllingFieldValues>3670</controllingFieldValues>
+                <controllingFieldValues>FO91</controllingFieldValues>
+                <controllingFieldValues>FO92</controllingFieldValues>
+                <controllingFieldValues>LO NO</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer by Partner</fullName>
+                <controllingFieldValues>0540</controllingFieldValues>
+                <controllingFieldValues>0630</controllingFieldValues>
+                <controllingFieldValues>1000</controllingFieldValues>
+                <controllingFieldValues>3670</controllingFieldValues>
+                <controllingFieldValues>FO91</controllingFieldValues>
+                <controllingFieldValues>FO92</controllingFieldValues>
+                <controllingFieldValues>LO NO</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ZF</fullName>
+                <controllingFieldValues>FO91</controllingFieldValues>
+                <controllingFieldValues>FO92</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>External Sales Partner</fullName>
+                <controllingFieldValues>0630</controllingFieldValues>
+                <controllingFieldValues>3670</controllingFieldValues>
+                <controllingFieldValues>FO91</controllingFieldValues>
+                <controllingFieldValues>FO92</controllingFieldValues>
+                <controllingFieldValues>LO NO</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Business Location</fullName>
+                <controllingFieldValues>1000</controllingFieldValues>
+                <controllingFieldValues>FO91</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Area__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Area</label>
+        <picklist>
+            <picklistValues>
+                <fullName>0630</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>1000</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3670</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FO91</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FO92</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>0540</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <label>Relationship</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>IPR-{000000}</displayFormat>
+        <label>Involved Party Relationship ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Relationships</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Account_Involved_Party_ID__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Account_Corporate_Registration_Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Relationship_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Sales_Area__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Related_Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Rel_Account_Involved_Party_ID__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Rel_Acc_Corporate_Registration_Number__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Account__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Account_Involved_Party_ID__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Account_Corporate_Registration_Number__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Relationship_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Sales_Area__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Related_Account__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Rel_Account_Involved_Party_ID__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Rel_Acc_Corporate_Registration_Number__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>Account__c</searchFilterFields>
+        <searchFilterFields>Account_Involved_Party_ID__c</searchFilterFields>
+        <searchFilterFields>Account_Corporate_Registration_Number__c</searchFilterFields>
+        <searchFilterFields>Relationship_Type__c</searchFilterFields>
+        <searchFilterFields>Sales_Area__c</searchFilterFields>
+        <searchFilterFields>Related_Account__c</searchFilterFields>
+        <searchFilterFields>Rel_Account_Involved_Party_ID__c</searchFilterFields>
+        <searchFilterFields>Rel_Acc_Corporate_Registration_Number__c</searchFilterFields>
+        <searchResultsAdditionalFields>Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Account_Involved_Party_ID__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Account_Corporate_Registration_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Relationship_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Sales_Area__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Related_Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Rel_Account_Involved_Party_ID__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Account_cannot_be_Payer_to_itself</fullName>
+        <active>true</active>
+        <description>If relationship type is Payer and both accounts are the same give an error</description>
+        <errorConditionFormula>AND(ISPICKVAL(Relationship_Type__c , &apos;RG&apos;),  Account__c =  Related_Account__c) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>An account cannot be a Payer to itself</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Can_not_create_or_update_BL_relationship</fullName>
+        <active>true</active>
+        <description>Since the relationships of type &apos;Business Location&apos; are created by integration user,the other users should not be able to create or edit  the relationships of type &apos;Business Location&apos;.</description>
+        <errorConditionFormula>AND(ISPICKVAL(Relationship_Type__c ,&apos;Business Location&apos; ), NOT(OR(( $Profile.Name =  $Setup.Get2OneCRM__c.Integration_Profile_Name__c )))) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>Not Allowed to edit or create.replace this proper error msg</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Customer_By_Partner_Check_1_Account_Cust</fullName>
+        <active>true</active>
+        <description>If relationship type is Customer by Partner then Involved Party A (Account) must be a Customer</description>
+        <errorConditionFormula>AND(ISPICKVAL(Relationship_Type__c , &apos;Customer by Partner&apos;), NOT(ISPICKVAL(Account__r.Type, &apos;Customer&apos;)),  NOT(OR(Account__r.RecordType.Name = &apos;Work Site&apos;,
+Account__r.RecordType.Name = &apos;Legal Entity&apos;))) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>Account must be a Customer that is a Work Site or Legal Entity</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Customer_by_Partner_Check_2_Rel_Acc</fullName>
+        <active>true</active>
+        <description>Customer by partner related account must not contain certain record types</description>
+        <errorConditionFormula>AND(ISPICKVAL(Relationship_Type__c , &apos;Customer by Partner&apos;), OR(Related_Account__r.RecordType.Name = &apos;Competitor&apos;, 
+Related_Account__r.RecordType.Name = &apos;B2B Webshop Placeholder&apos;, 
+Related_Account__r.RecordType.Name = &apos;B2C Webshop Placeholder&apos;,
+Related_Account__r.RecordType.Name = &apos;Invoice Recipient&apos;,
+Related_Account__r.RecordType.Name = &apos;PostNord Org Structure&apos;,
+Related_Account__r.RecordType.Name = &apos;Private Person&apos;,
+Related_Account__r.RecordType.Name = &apos;Extension&apos;)) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>Customer by Partner relationship must contain a Prospect/Customer/External Partner LE/WS as the related account</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Customers_Customer_Check_1_Account_Cust</fullName>
+        <active>true</active>
+        <description>If relationship type is Customer&apos;s Customer then Involved Party A (Account) must be a Customer</description>
+        <errorConditionFormula>AND(ISPICKVAL(Relationship_Type__c , &apos;Customers Customer&apos;), NOT(ISPICKVAL(Account__r.Type, &apos;Customer&apos;)),  NOT(OR(Account__r.RecordType.Name = &apos;Work Site&apos;,
+Account__r.RecordType.Name = &apos;Legal Entity&apos;))) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>Account must be a Customer that is a Work Site or Legal Entity</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Customers_Customer_Check_2_Rel_Acc</fullName>
+        <active>true</active>
+        <description>Related Accounts must be customer/prospect/ext partner/competitor to be in the customers customer relationship</description>
+        <errorConditionFormula>AND(ISPICKVAL(Relationship_Type__c , &apos;Customers Customer&apos;), OR(  
+Related_Account__r.RecordType.Name = &apos;B2B Webshop Placeholder&apos;, 
+Related_Account__r.RecordType.Name = &apos;B2C Webshop Placeholder&apos;,
+Related_Account__r.RecordType.Name = &apos;Invoice Recipient&apos;,
+Related_Account__r.RecordType.Name = &apos;PostNord Org Structure&apos;,
+Related_Account__r.RecordType.Name = &apos;Extension&apos;,
+Related_Account__r.RecordType.Name = &apos;Private Person&apos;)) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>Customers customers relationship must contain LE, Work Site, External Partner or Competitor.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Invoice_Recipient_Check_1_Account_Cust</fullName>
+        <active>true</active>
+        <description>If relationship type is Invoice Recipient then Involved Party A (Account) must be a Customer</description>
+        <errorConditionFormula>AND(ISPICKVAL(Relationship_Type__c , &apos;RE&apos;), NOT(ISPICKVAL(Account__r.Type, &apos;Customer&apos;)),  NOT(OR(Account__r.RecordType.Name = &apos;Work Site&apos;,
+Account__r.RecordType.Name = &apos;Extension&apos;))) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>Account must be a Customer that is a Work Site or Extension</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Invoice_Recipient_Check_2_Rel_Acc_Type</fullName>
+        <active>true</active>
+        <description>For relationship Invoice Recipient related account must be a customer or invoice recipient</description>
+        <errorConditionFormula>AND(ISPICKVAL(Relationship_Type__c , &apos;RE&apos;), NOT(ISPICKVAL(Related_Account__r.Type, &apos;Customer&apos;)),
+NOT(Related_Account__r.RecordType.Name = &apos;Invoice Recipient&apos;)) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>Related Account must be either a Customer or an Invoice Recipient</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Invoice_Recipient_Check_3_Prim_Acc_IR</fullName>
+        <active>true</active>
+        <description>If relationship type is Invoice Recipient then Involved Party A (Account) cannot be an Invoice Recipient</description>
+        <errorConditionFormula>AND(ISPICKVAL(Relationship_Type__c , &apos;RE&apos;), Account__r.RecordType.Name = &apos;Invoice Recipient&apos;) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorDisplayField>Account__c</errorDisplayField>
+        <errorMessage>Primary Account cannot be an Invoice recipient when relationship type is Invoice Recipient</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Mark_For_Deletion_Check</fullName>
+        <active>true</active>
+        <description>If either the Account or Related Account has been marked for deletion, the relationship is invalid</description>
+        <errorConditionFormula>OR( Account__r.Deletion_Flag__c = TRUE,  Related_Account__r.Deletion_Flag__c = TRUE) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>At least one of the accounts in this relationship has been marked for delete. You cannot relate a deleted account.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_edit_of_Account_field_after_create</fullName>
+        <active>true</active>
+        <description>Account is part of the integration compound key and may not be edited after the record has been created</description>
+        <errorConditionFormula>AND(NOT(ISNEW()),ISCHANGED( Account__c )) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorDisplayField>Account__c</errorDisplayField>
+        <errorMessage>Account may not be updated. If you need to update Account please create a new Relationship record</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_edit_of_Rel_Acc_field_after_create</fullName>
+        <active>true</active>
+        <description>Related Account is part of the integration compound key and may not be edited after the record has been created</description>
+        <errorConditionFormula>AND(NOT(ISNEW()),ISCHANGED( Related_Account__c )) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorDisplayField>Related_Account__c</errorDisplayField>
+        <errorMessage>Related Account may not be updated. If you need to update Related Account please create a new Relationship record</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_edit_of_Rel_Type_field_after_create</fullName>
+        <active>true</active>
+        <description>Relationship Type is part of the integration compound key and may not be edited after the record has been created</description>
+        <errorConditionFormula>AND(NOT(ISNEW()),ISCHANGED( Relationship_Type__c )) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorDisplayField>Relationship_Type__c</errorDisplayField>
+        <errorMessage>Relationship Type may not be updated. If you need to update Relationship Type please create a new Relationship record</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_edit_of_Sales_Area_field_after_create</fullName>
+        <active>true</active>
+        <description>Sales Area is part of the integration compound key and may not be edited after the record has been created</description>
+        <errorConditionFormula>AND(NOT(ISNEW()),ISCHANGED( Sales_Area__c )) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorDisplayField>Sales_Area__c</errorDisplayField>
+        <errorMessage>Sales Area may not be updated. If you need to update Sales Area please create a new Relationship record</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Order_on_Behalf_Check_1_Account_Cust</fullName>
+        <active>true</active>
+        <description>If relationship type is Order on Behalf then Involved Party A (Account) must be a Customer</description>
+        <errorConditionFormula>AND(ISPICKVAL(Relationship_Type__c , &apos;YP&apos;), OR(ISPICKVAL(Account__r.Type, &apos;Prospect&apos;),
+ISPICKVAL(Account__r.Type, &apos;Competitor&apos;),
+ISPICKVAL(Account__r.Type, &apos;External Partner&apos;)) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c != true)</errorConditionFormula>
+        <errorMessage>Primary Account is not a Customer</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Order_on_Behalf_Check_2_Account_RT</fullName>
+        <active>true</active>
+        <description>If relationship type is Order on Behalf then Involved Party A (Account) must be a Work Site or Extension</description>
+        <errorConditionFormula>ISPICKVAL(Relationship_Type__c , &apos;YP&apos;) &amp;&amp;   Account__r.RecordType.Name != &apos;Work Site&apos; &amp;&amp;
+Account__r.RecordType.Name != &apos;Extension&apos; &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c != true</errorConditionFormula>
+        <errorMessage>Primary Account is not a Work Site or Extension</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Payer_Check</fullName>
+        <active>true</active>
+        <description>If relationship type is Payer and both accounts are not customers then give an error message</description>
+        <errorConditionFormula>AND(ISPICKVAL(Relationship_Type__c , &apos;RG&apos;), NOT(ISPICKVAL(Account__r.Type ,&apos;Customer&apos;)), NOT(ISPICKVAL(Related_Account__r.Type , &apos;Customer&apos;))) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>Both accounts must be customers to have a Payer relationship.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Primary_Account_LE_Check</fullName>
+        <active>true</active>
+        <description>If the Primary Account is an LE for Invoice Recipient, Order on Behalf or Payer relationships give an error message</description>
+        <errorConditionFormula>Account__r.RecordType.Name = &apos;Legal Entity&apos; &amp;&amp;
+(ISPICKVAL (Relationship_Type__c, &apos;RE&apos;) ||
+ISPICKVAL (Relationship_Type__c, &apos;RG&apos;) ||
+ISPICKVAL (Relationship_Type__c, &apos;YP&apos;)) 
+&amp;&amp; 
+$Setup.DisableAutomation__c.Disable_All_Validation_Rules__c != true</errorConditionFormula>
+        <errorMessage>Primary Account is LE. LE can not be part of Invoice recipient, Order on Behalf or Payer relationships</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Relationship_Type_is_Mandatory</fullName>
+        <active>true</active>
+        <description>Relationship Type is always mandatory. Even though it is mandatory in the page layout an user in IE8 could work around this.</description>
+        <errorConditionFormula>ISPICKVAL(Relationship_Type__c, &apos;&apos;) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorDisplayField>Relationship_Type__c</errorDisplayField>
+        <errorMessage>Relationship Type is mandatory</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Sales_Area_Cannot_be_Changed</fullName>
+        <active>true</active>
+        <description>Once a Relationship record has been created, the Sales Area field cannot be changed</description>
+        <errorConditionFormula>AND(NOT(ISNEW()),ISCHANGED( Sales_Area__c )) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorDisplayField>Sales_Area__c</errorDisplayField>
+        <errorMessage>Sales Area cannot be changed</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Service_Agent_Check_1_Acc_Ext</fullName>
+        <active>true</active>
+        <description>Service Agent relationship must be between an extension of type Customer by Partner and an Account with External Partner Type of Media Bureau. Involved Party A must be Customer by Partner</description>
+        <errorConditionFormula>AND(ISPICKVAL(Relationship_Type__c , &apos;ZF&apos;), 
+NOT(ISPICKVAL(Account__r.Extension_Type__c, &apos;Customer by Partner&apos;))) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>Account must be an Extension of type &apos;Customer by Partner&apos;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Service_Agent_Check_2_Rel_Acc_Cust</fullName>
+        <active>true</active>
+        <description>Service Agent relationship involved party B must be a customer</description>
+        <errorConditionFormula>AND(ISPICKVAL(Relationship_Type__c , &apos;ZF&apos;), 
+NOT(ISPICKVAL(Related_Account__r.Type, &apos;Customer&apos;))) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>Related Account must be a Customer</errorMessage>
+    </validationRules>
+</CustomObject>

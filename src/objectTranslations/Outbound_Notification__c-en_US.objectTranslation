@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Outbound Notification</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Outbound Notifications</value>
+    </caseValues>
+    <fields>
+        <label><!-- Last PN Synchronized Date --></label>
+        <name>Last_PN_Synchronized_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notification Key --></label>
+        <name>Notification_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object API Name --></label>
+        <name>Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object External ID --></label>
+        <name>Object_External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object SFDC ID --></label>
+        <name>Object_SFDC_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operation --></label>
+        <name>Operation__c</name>
+        <picklistValues>
+            <masterLabel>DELETE</masterLabel>
+            <translation><!-- DELETE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INSERT</masterLabel>
+            <translation><!-- INSERT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPDATE</masterLabel>
+            <translation><!-- UPDATE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PN Mark as Synced --></label>
+        <name>PN_Mark_as_Synced__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN Synchronized --></label>
+        <name>PN_Synchronized__c</name>
+    </fields>
+    <layouts>
+        <layout>Outbound Notification Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Synchronisation --></label>
+            <section>Synchronisation</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

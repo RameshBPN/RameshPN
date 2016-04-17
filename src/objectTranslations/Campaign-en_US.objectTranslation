@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Campaign ID --></label>
+        <name>Campaign_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Campaign Tactic --></label>
+        <name>DB_Campaign_Tactic__c</name>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation><!-- Direct Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employment Seminars</masterLabel>
+            <translation><!-- Employment Seminars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Website</masterLabel>
+            <translation><!-- Internal Website --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunches</masterLabel>
+            <translation><!-- Lunches --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Banners/Ads</masterLabel>
+            <translation><!-- Online Banners/Ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partners</masterLabel>
+            <translation><!-- Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Advertisement</masterLabel>
+            <translation><!-- Print Advertisement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Relations</masterLabel>
+            <translation><!-- Public Relations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Program</masterLabel>
+            <translation><!-- Referral Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Call Down</masterLabel>
+            <translation><!-- Sales Call Down --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinars</masterLabel>
+            <translation><!-- Webinars --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Area --></label>
+        <name>Sales_Area__c</name>
+        <picklistValues>
+            <masterLabel>0540</masterLabel>
+            <translation>LO DK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0630</masterLabel>
+            <translation>LO FI DPD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation>PDK BE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3670</masterLabel>
+            <translation>LO FI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4000</masterLabel>
+            <translation>PDK LO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO91</masterLabel>
+            <translation>ME SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO92</masterLabel>
+            <translation>LO SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation>LO NO</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned</masterLabel>
+            <translation><!-- Planned --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Advert</masterLabel>
+            <translation><!-- Advert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billboard</masterLabel>
+            <translation><!-- Billboard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR</masterLabel>
+            <translation><!-- PR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partners</masterLabel>
+            <translation><!-- Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Program</masterLabel>
+            <translation><!-- Referral Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar/Conference</masterLabel>
+            <translation><!-- Seminar/Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telemarketing</masterLabel>
+            <translation><!-- Telemarketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web - Inbound</masterLabel>
+            <translation><!-- Web - Inbound --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Open Contacts --></label>
+        <name>actimizerdialer__ActimizerOpenContacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Open Leads --></label>
+        <name>actimizerdialer__ActimizerOpenLeads__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify a phone number which will be used to transfer current call --></help>
+        <label><!-- Actimizer Transfer Phone --></label>
+        <name>actimizerdialer__ActimizerTransferPhone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify a phone number which will be displayed to a callee (Caller ID) --></help>
+        <label><!-- Actimizer Caller ID --></label>
+        <name>actimizerdialer__CallerPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Max Call Attempts --></label>
+        <name>actimizerdialer__MaxCallAttempts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Preview Duration --></label>
+        <name>actimizerdialer__PreviewDuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actimizer Campaign Priority --></label>
+        <name>actimizerdialer__Priority__c</name>
+    </fields>
+    <layouts>
+        <layout>Campaign Layout</layout>
+        <sections>
+            <label><!-- Actimizer --></label>
+            <section>Actimizer</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>New_Event</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- ViewAllCampaignMembers --></label>
+        <name>ViewAllCampaignMembers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>ViewCampaignInfluenceReport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_Campaign_Participant --></label>
+        <name>actimizerdialer__Add_Campaign_Participant</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Call_Queue --></label>
+        <name>actimizerdialer__Add_to_Call_Queue</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Call_Queue_PE --></label>
+        <name>actimizerdialer__Add_to_Call_Queue_PE</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_to_Call_Queue_from_Detail --></label>
+        <name>actimizerdialer__Add_to_Call_Queue_from_Detail</name>
+    </webLinks>
+</CustomObjectTranslation>

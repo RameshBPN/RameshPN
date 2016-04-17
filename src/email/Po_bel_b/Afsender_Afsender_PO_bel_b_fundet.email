@@ -1,0 +1,68 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<SPAN lang=EN-GB>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Sender__c}</FONT></P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}</FONT></P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}</FONT></P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")} {!Case.Sender_Postal_Address_Suburb__c} </FONT></P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}</FONT></P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Sender_Postal_Address_Country__c}</FONT></P>
+<P align=left></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2></FONT>&nbsp;</P>
+<P align=left><FONT size=2></FONT>&nbsp;</P>
+<P align=left><FONT size=2></FONT>&nbsp;</P>
+<P align=left><FONT size=2></FONT>&nbsp;</P>
+<P align=left>&nbsp;</P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif><STRONG>POSTOPKRÆVNINGSBELØBET ER BETALT</STRONG></FONT></P>
+<P align=left><STRONG></STRONG><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>Vi har undersøgt din efterlysning af postopkrævningsbeløbet. Pakken med stregkodenummer {!Case.Item_Id__c} blev sendt den {!Case.Submission_date__c} til:</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P><SPAN lang=EN-GB>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Receiver__c}</FONT></P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c} </FONT></P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c} </FONT></P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c} </FONT></P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c} </FONT></P>
+<P dir=ltr align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.Receiver_Postal_Address_Country__c}</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif></FONT></SPAN>&nbsp;</P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>Vi har opkrævet postopkrævningsbeløbet på {!Case.COD_Amount__c} ved udleveringen af pakken. Da det er Danske Bank, der overfører beløbet til din konto, har vi bedt dem om at undersøge sagen. Du vil høre fra Danske Bank i løbet af en uge.</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>Danske Bank oplyser, at postopkrævningsbeløbet {!Case.COD_Amount__c} er indsat på din konto <STRONG>[kontonr] </STRONG>den<STRONG> [dato]</STRONG>. Hvis du endnu ikke har modtaget beløbet, beder vi dig kontakte os på telefon {!User.Department_Phone__c} eller mail {!User.Team_Email__c}. Vi beder dig venligt om at oplyse sagsnummer {!Case.Main_Case_Number__c}. Vi vil derefter genoptage sagen.</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>Pakken er udleveret til modtageren i <STRONG>[modtagerland]</STRONG>. Posten i <STRONG>[modtagerland]</STRONG> oplyser, at postopkrævningsbeløbet {!Case.COD_Amount__c} er indsat på din konto <STRONG>[kontonr.] </STRONG>den<STRONG> [dato]</STRONG>. </FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>Pakken er udleveret til modtageren i <STRONG>[modtagerland]</STRONG>. Posten i [modtagerland] oplyser, at postopkrævningsbeløbet {!Case.COD_Amount__c} er indbetalt den&nbsp;<STRONG>[dato]</STRONG>. Hvis du endnu ikke har modtaget pengene, skal du kontakte pengeinstituttet, hvor beløbet skulle have været overført til. Oplys venligst referencenummer <STRONG>[referencenr.]</STRONG>.</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>Pakken er udleveret til modtageren i <STRONG>[modtagerland]</STRONG>. Posten i <STRONG>[modtagerland]</STRONG> oplyser, at postopkrævningsbeløbet {!Case.COD_Amount__c} er indbetalt den&nbsp;<STRONG>[dato]</STRONG>. Hvis du endnu ikke har modtaget beløbet, beder vi dig kontakte os på telefon {!User.Department_Phone__c} eller mail {!User.Team_Email__c}. Vi beder dig venligst oplyse sagsnummer {!Case.Main_Case_Number__c}.</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>Vi afslutter derfor sagen.</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>Med venlig hilsen</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>{!Case.OwnerFirstName} {!Case.OwnerLastName}<BR>{!Case.OwnerTitle}&nbsp;</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><BR><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" rowspan="3" aEditID="c2r1" >
+<![CDATA[<P align=left><FONT size=1 face=Arial,Sans-Serif>{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>Tlf {!User.Department_Phone__c}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}<BR></P></FONT>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

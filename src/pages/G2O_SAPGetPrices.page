@@ -1,0 +1,26 @@
+<!--
+    About
+    -----
+    Description: GetPrices from SAP.
+    Created for: Postnord Get2OneCRM Master template/DK
+    Create date: April 2013
+    
+    Details
+    -------
+    This Visualforce page provides the functionality to send an GetPrices request to SAP from caseproduct detail page.
+    
+    Update History
+    --------------
+    Created May 2013 - A.B.
+    
+    Issues / TODOs
+    --------------
+-->
+<apex:page standardController="CaseProduct__c"
+	extensions="G2O_SAPGetPrices_VFCx" action="{!getPrices}">
+	<apex:messages />
+	<apex:form >
+		<apex:commandButton action="{!goBack}" value="{!$Label.Back}"
+			id="theButton" />
+	</apex:form>
+</apex:page>

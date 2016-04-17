@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>PN DK Public &amp; Pharma</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>PN DK Public &amp; Pharma</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>PN_DK_NGO_3_party_og_import_Team_Manager</parentRole>
+</Role>

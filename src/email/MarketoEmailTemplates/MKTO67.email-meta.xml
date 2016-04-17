@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>@-Kampagne.@-Status_6_med_maal</name>
+    <style>none</style>
+    <subject>Hvor @ er kagen?</subject>
+    <textOnly>Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+Målet for dit team {{lead.PN DK Target PM:default=0}}
+Medarbejderne i det team, der samler flest e-mailpermissions pr. mand, vinder en tur i biografen for to personer inklusive popcorn.
+{{lead.PN DK Realized PM:default=0}}
+ud af 390
+Vi VIL slutte af med @-kager
+
+og udskyder derfor deadline til 1. maj
+Kære {{lead.First Name}}
+
+
+
+I dag skulle vi have sluttet indsatsen af med @-kager. Men med blot 390 e-mailpermissions er vi desværre langt fra nået i mål. Og det er forretningskritisk. Derfor forlænger vi deadline til den 1. maj. De e-mailpermissions, vi allerede har indhentet er med i puljen, og målet er stadig 3.000 stk. i alt.
+
+
+
+Vi skal nok nå i mål
+
+Teamkonkurrencen om biografture fortsætter naturligvis også. Og vi ser frem til at servere @-kager i forårssolen. Så klø på, og gå til din nærmeste leder, hvis du har brug for hjælp til at indhente e-mailpermissions.
+
+
+
+Det er vigtigt altid at slutte af med et @.
+
+
+
+Venlig hilsen
+
+Anders Mittag</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>Customer Service Product mirrors data entered into Products to allow simplified searching in Customer Service cases. This setting maps the fields between objects.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Product2Field__c</fullName>
+        <description>This field will hold the Product2 fields API names.</description>
+        <externalId>false</externalId>
+        <label>Product2Field</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Customer Service Product Mapping</label>
+</CustomObject>

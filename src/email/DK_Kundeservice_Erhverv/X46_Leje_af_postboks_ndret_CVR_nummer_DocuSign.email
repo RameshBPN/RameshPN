@@ -1,0 +1,63 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<h3><font face="Arial, sans-serif" size="2">Leje af postboks – ændret CVR nummer – DocuSign</font></h3>
+
+<p class="MsoNormal"><o:p><font face="Arial, sans-serif" size="2">&nbsp;</font></o:p></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Dato {!Today}<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Vi er blevet opmærksomme på,
+at jeres postboksaftale står registreret til et ophørt CVR-nummer, og derfor
+beder vi jer om at underskrive en ændringsaftale.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Vi har vedhæftet jeres
+aftale på postboks fra PostNord Danmark denne mail. Aftalen kan ses ved få
+klik.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Følg venligst de gule
+markeringer, og lad systemet guide jer igennem aftalen.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">For at aftalen kan blive
+aktiv fra den dato, som står i aftalen, beder vi jer underskrive aftalen inden
+3 dage fra d.d.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Skulle vi mod forventning
+modtage aftalen retur senere end de 3 dage, vil den først kunne træde i kraft
+på et senere tidspunkt.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Har I spørgsmål, er I
+velkommen til at kontakte os.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Med venlig hilsen<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Tidlig Post <o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Tlf. 70 11 12 30<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><span style="background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><font face="Arial, sans-serif" size="2">Sagsnummer:{!Case.Main_Case_Number__c}</font></span><span style="font-size: 12pt; font-family: Arial;"><o:p></o:p></span></p>]]></td>
+</tr>
+</table>

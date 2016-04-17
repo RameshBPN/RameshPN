@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PDK Permission.PDK BTB double opt-in</name>
+    <style>none</style>
+    <subject>Bekræft din tilmelding</subject>
+    <textOnly>Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+Bekræft din tilmelding til dialog
+Kære {{lead.First Name:default=kunde}}
+
+ Tak, fordi du gerne vil høre fra os. Vi ser frem til at spørge dig til råds og fortælle om services og produkter, der er relevante for dig og din virksomhed. Du skal blot bekræfte din tilmelding ved at klikke på knappen nedenfor.
+Bekræft tilmelding &lt;{{my.B2B kvitteringside}}&gt;
+Det siger du ja til
+Post Danmark A/S og de til enhver tid værende koncernforbundne selskaber* må gerne dele mine oplysninger med hinanden og kontakte mig via brev og elektronisk post (fx e-mails, sms og mms) med henblik på markedsføring af produkter/ydelser* samt i forbindelse med kampagner, events og konkurrencer. *) Du kan altid holde dig orienteret om de til enhver tid værende koncernforbundne selskaber og produkter/ydelser på denne webside &lt;{{my.Samtykke link}}&gt;.
+
+
+Med Venlig hilsen 
+Post Danmark
+Vi har sendt denne e-mail til {{lead.Email Address:default=din email}}.
+ Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;{{my.B2B myPage}}&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

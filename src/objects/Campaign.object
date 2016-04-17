@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AdvancedSetup</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <fields>
+        <fullName>ActualCost</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>AmountAllOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>AmountWonOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>BudgetedCost</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>CampaignMemberRecordTypeId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Campaign_ID__c</fullName>
+        <displayFormat>C-{000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Campaign ID</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>DB_Campaign_Tactic__c</fullName>
+        <description>This is a field that is installed by and used with the Adoption Dashboard AppExchange package. If your org already has a similar field, you can change the reports that are part of the Adoption Dashboard package to use your custom field and then delete this field.</description>
+        <externalId>false</externalId>
+        <label>DB Campaign Tactic</label>
+        <picklist>
+            <controllingField>Type</controllingField>
+            <picklistValues>
+                <fullName>Print Advertisement</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Employment Seminars</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Webinars</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Partners</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Referral Program</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lunches</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sales Call Down</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Online Banners/Ads</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Internal Website</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>ExpectedResponse</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>ExpectedRevenue</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>HierarchyActualCost</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyAmountAllOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyAmountWonOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyBudgetedCost</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyExpectedRevenue</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfContacts</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfConvertedLeads</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfLeads</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfResponses</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberOfWonOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>HierarchyNumberSent</fullName>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>NumberOfContacts</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfConvertedLeads</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfLeads</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfResponses</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberOfWonOpportunities</fullName>
+    </fields>
+    <fields>
+        <fullName>NumberSent</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Area__c</fullName>
+        <description>Set by workflow for use by BI</description>
+        <externalId>false</externalId>
+        <label>Sales Area</label>
+        <picklist>
+            <picklistValues>
+                <fullName>1000</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>4000</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>0630</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3670</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FO91</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FO92</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>0540</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Planned</fullName>
+                <default>true</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Advert</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Billboard</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Partners</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Referral Program</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Seminar/Conference</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Telemarketing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Web - Inbound</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__ActimizerOpenContacts__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer Open Contacts</label>
+        <summaryFilterItems>
+            <field>CampaignMember.ContactId</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>CampaignMember.actimizerdialer__ActimizerStatus__c</field>
+            <operation>notEqual</operation>
+            <value>No Interest</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>CampaignMember.actimizerdialer__ActimizerStatus__c</field>
+            <operation>notEqual</operation>
+            <value>Success</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>CampaignMember.actimizerdialer__ActimizerStatus__c</field>
+            <operation>notEqual</operation>
+            <value>Scheduled Redial</value>
+        </summaryFilterItems>
+        <summaryForeignKey>CampaignMember.CampaignId</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__ActimizerOpenLeads__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer Open Leads</label>
+        <summaryFilterItems>
+            <field>CampaignMember.ContactId</field>
+            <operation>equals</operation>
+            <value></value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>CampaignMember.actimizerdialer__ActimizerStatus__c</field>
+            <operation>notEqual</operation>
+            <value>No Interest</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>CampaignMember.actimizerdialer__ActimizerStatus__c</field>
+            <operation>notEqual</operation>
+            <value>Success</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>CampaignMember.actimizerdialer__ActimizerStatus__c</field>
+            <operation>notEqual</operation>
+            <value>Scheduled Redial</value>
+        </summaryFilterItems>
+        <summaryForeignKey>CampaignMember.CampaignId</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__ActimizerTransferPhone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specify a phone number which will be used to transfer current call</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify a phone number which will be used to transfer current call</inlineHelpText>
+        <label>Actimizer Transfer Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__CallerPhone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specify a phone number which will be displayed to a callee (Caller ID)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specify a phone number which will be displayed to a callee (Caller ID)</inlineHelpText>
+        <label>Actimizer Caller ID</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__MaxCallAttempts__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer Max Call Attempts</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__PreviewDuration__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer Preview Duration</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__Priority__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer Campaign Priority</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>AllActiveCampaigns</fullName>
+        <columns>CAMPAIGN.NAME</columns>
+        <columns>CAMPAIGN.START_DATE</columns>
+        <columns>CAMPAIGN.END_DATE</columns>
+        <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+        <columns>CAMPAIGN.STATUS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAMPAIGN.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All Active Campaigns</label>
+    </listViews>
+    <listViews>
+        <fullName>AllWebCampaigns</fullName>
+        <columns>CAMPAIGN.NAME</columns>
+        <columns>CAMPAIGN.START_DATE</columns>
+        <columns>CAMPAIGN.END_DATE</columns>
+        <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+        <columns>CAMPAIGN.STATUS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAMPAIGN.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>CAMPAIGN.CAMPAIGN_TYPE</field>
+            <operation>contains</operation>
+            <value>web</value>
+        </filters>
+        <label>All Web Campaigns</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>MyActiveCampaigns</fullName>
+        <columns>CAMPAIGN.NAME</columns>
+        <columns>CAMPAIGN.START_DATE</columns>
+        <columns>CAMPAIGN.END_DATE</columns>
+        <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+        <columns>CAMPAIGN.STATUS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CAMPAIGN.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>My Active Campaigns</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>CAMPAIGN.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CAMPAIGN.START_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CAMPAIGN.END_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CAMPAIGN.CAMPAIGN_TYPE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CAMPAIGN.STATUS</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CAMPAIGN.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CAMPAIGN.START_DATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CAMPAIGN.END_DATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CAMPAIGN.CAMPAIGN_TYPE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CAMPAIGN.STATUS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CAMPAIGN.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>00Nb0000009rOdl</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>00Nb0000009rOdk</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>CAMPAIGN.NAME</searchFilterFields>
+        <searchFilterFields>CAMPAIGN.START_DATE</searchFilterFields>
+        <searchFilterFields>CAMPAIGN.END_DATE</searchFilterFields>
+        <searchFilterFields>CAMPAIGN.CAMPAIGN_TYPE</searchFilterFields>
+        <searchFilterFields>CAMPAIGN.STATUS</searchFilterFields>
+        <searchResultsAdditionalFields>CAMPAIGN.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.START_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.END_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.CAMPAIGN_TYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CAMPAIGN.STATUS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <webLinks>
+        <fullName>ViewAllCampaignMembers</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>500</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View All Campaign Members</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/camp/rptcmpgncalldown.jsp?scope=1&amp;scopeid={!Campaign.Name}</url>
+        <width>500</width>
+    </webLinks>
+    <webLinks>
+        <fullName>ViewCampaignInfluenceReport</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>500</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View Campaign Influence Report</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00O?rt=117&amp;break0=CAN&amp;scope=1&amp;scopeid_lkid={!Campaign.Id}&amp;scopeid={!Campaign_Name}&amp;c=CAN&amp;c=MR&amp;c=PCS&amp;c=CFN&amp;c=RN&amp;c=ON&amp;c=OA&amp;c=OS&amp;c=OCD&amp;c=AN&amp;s=OA&amp;duel0=CAN%2CMR%2CCFN%2CRN%2CAN%2CON%2CPCS%2COS%2COCD%2COA&amp;details=yes&amp;format=t</url>
+        <width>500</width>
+    </webLinks>
+    <webLinks>
+        <fullName>actimizerdialer__Add_Campaign_Participant</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Add Campaign Participant</masterLabel>
+        <openType>sidebar</openType>
+        <page>actimizerdialer__AssignCampaigns</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>actimizerdialer__Add_to_Call_Queue</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Add to My Call Queue</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/apex.js&quot;)}
+
+var records = {!GETRECORDIDS($ObjectType.Campaign)};
+
+if (!records || records.length == 0) {
+  alert(&quot;{!$Label.actimizerdialer__NoRecordsSelected}&quot;);
+}
+else {
+  sforce.apex.execute(
+    &apos;actimizerdialer.CallListController&apos;,
+    &apos;AddCampaign&apos;,
+    { &quot;subjectType&quot;: &quot;Campaign&quot;, &quot;ids&quot;: records }, 
+    function(result) {
+      var count = result ? result[0] : 0;
+
+      if (count &gt; 0) {
+        if (count == 1) {
+            window.alert(&quot;{!$Label.actimizerdialer__CampaignAdded_Singular}&quot;);
+        }
+        else {
+            window.alert(count + &quot; {!$Label.actimizerdialer__CampaignAdded_Plural}&quot;);
+        }
+        var query = window.location.search.substring(1);
+        var vars = query.split(&apos;&amp;&apos;);
+        var retURL;
+        for (var i = 0; i &lt; vars.length; i++) {
+          var pair = vars[i].split(&apos;=&apos;);
+          if (decodeURIComponent(pair[0]) == &apos;retURL&apos;) {
+            retURL = decodeURIComponent(pair[1]);
+            break;
+          }
+        }
+        if(retURL) {
+          window.location = retURL;
+        }
+        else {
+          window.location.reload();
+        }
+      }
+      else if (count == 0) {
+        window.alert(&quot;{!$Label.actimizerdialer__CampaignsAlreadyInCallQueue}&quot;);
+      }
+      else if (count == -1) {
+        window.alert(&quot;{!$Label.actimizerdialer__NoAccessActimizerCampaignParticipants}&quot;);
+      }
+    });
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>actimizerdialer__Add_to_Call_Queue_PE</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Add to My Call Queue (PE)</masterLabel>
+        <openType>sidebar</openType>
+        <page>actimizerdialer__AddCampaignsToCallList</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>actimizerdialer__Add_to_Call_Queue_from_Detail</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Add to My Call Queue</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/apex.js&quot;)} 
+
+var records = [&apos;{!Campaign.Id}&apos;]; 
+sforce.apex.execute(
+  &apos;actimizerdialer.CallListController&apos;,
+  &apos;AddCampaign&apos;,
+  { &quot;subjectType&quot;: &quot;Campaign&quot;, &quot;ids&quot;: records }, 
+  function(result) {
+    var count = result ? result[0] : 0;
+
+    if (count &gt; 0) {
+      window.alert(&quot;{!Campaign.Name} {!$Label.actimizerdialer__RecordAdded}&quot;);
+      window.location.reload();
+    }
+    else if (count == 0) { 
+      window.alert(&quot;{!Campaign.Name} {!$Label.actimizerdialer__AlreadyInCallQueue}&quot;); 
+    } 
+    else if (count == -1) { 
+      window.alert(&quot;{!$Label.actimizerdialer__NoAccessActimizerCampaignParticipants}&quot;); 
+    } 
+  });</url>
+    </webLinks>
+</CustomObject>

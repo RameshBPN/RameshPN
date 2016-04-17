@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>A release package is one or more Change Sets. It may also include other instructions, such as configuration changes and or app install processes</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Change_Set_Link__c</fullName>
+        <description>This is the link to the changeset, it is probably not in the production environment.</description>
+        <externalId>false</externalId>
+        <label>Change Set Link</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Change_Set_s__c</fullName>
+        <externalId>false</externalId>
+        <label>Change Set Name(s)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Config_Other_Deployment_Notes__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Include further instructions, such as moving data (custom settings), appexchange details, alternative config, approval workflows etc.</inlineHelpText>
+        <label>Config / Other Deployment Notes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>15</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Deployed_to__c</fullName>
+        <externalId>false</externalId>
+        <label>Deployed to</label>
+        <picklist>
+            <picklistValues>
+                <fullName>AmQA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Project QA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Staging</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PROD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Descriptoin__c</fullName>
+        <externalId>false</externalId>
+        <label>Release Package Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Known_Limitations__c</fullName>
+        <externalId>false</externalId>
+        <label>Known Limitations</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Release_target__c</fullName>
+        <externalId>false</externalId>
+        <label>Release target</label>
+        <picklist>
+            <picklistValues>
+                <fullName>2014 / 9</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2014 / 10</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2014 / 11</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2014 / 12</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2015 / 1</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2015 / 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2015 / 3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2015 / 4</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2015 / 5</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2015 / 6</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2015 / 7</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2015 / 8</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2015 / 9</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2015 / 10</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2015 / 11</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2015 / 12</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sprint 1</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sprint 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sprint 3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sprint 4</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sprint 5</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sprint 6</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sprint 7</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>R1.1</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>R2.0</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hyper-Care</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2016/1</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2016/2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2016/3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Open for Contributions...</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ready for deployment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deployed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Failed Deploy</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pending Rollback</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rolled-back</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Target__c</fullName>
+        <externalId>false</externalId>
+        <label>Target</label>
+        <picklist>
+            <picklistValues>
+                <fullName>QA</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UAT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Production</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other (see notes)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <label>Release Package</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Change_Set_s__c</columns>
+        <columns>Config_Other_Deployment_Notes__c</columns>
+        <columns>Deployed_to__c</columns>
+        <columns>Known_Limitations__c</columns>
+        <columns>Descriptoin__c</columns>
+        <columns>Release_target__c</columns>
+        <columns>Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Sprint_Release</fullName>
+        <columns>NAME</columns>
+        <columns>Descriptoin__c</columns>
+        <columns>Change_Set_s__c</columns>
+        <columns>Release_target__c</columns>
+        <columns>Status__c</columns>
+        <columns>Deployed_to__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>G2OPlanning_Release_Package__c.Sprint_Release</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Open for Contributions...,Ready for deployment,Failed Deploy,Pending Rollback</value>
+        </filters>
+        <label>Sprint Release - Not deployed</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>{0}</displayFormat>
+        <label>Release Package ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Release Packages</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>AM_Release</fullName>
+        <active>true</active>
+        <description>This record type is used for the AM releases.</description>
+        <label>AM Release</label>
+        <picklistValues>
+            <picklist>Deployed_to__c</picklist>
+            <values>
+                <fullName>AmQA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PROD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Staging</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Release_target__c</picklist>
+            <values>
+                <fullName>2014 %2F 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 %2F 11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 %2F 12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 %2F 9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2016%2F1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2016%2F2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2016%2F3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyper-Care</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R2%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 7</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Deployed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed Deploy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open for Contributions%2E%2E%2E</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Rollback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for deployment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rolled-back</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Target__c</picklist>
+            <values>
+                <fullName>Other %28see notes%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>UAT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Environment_Creation_Instructions</fullName>
+        <active>true</active>
+        <description>Document steps required for creating sandboxes</description>
+        <label>Environment Creation Instructions</label>
+        <picklistValues>
+            <picklist>Deployed_to__c</picklist>
+            <values>
+                <fullName>AmQA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PROD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project QA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Staging</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Release_target__c</picklist>
+            <values>
+                <fullName>2014 %2F 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 %2F 11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 %2F 12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 %2F 9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2016%2F1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2016%2F2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2016%2F3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyper-Care</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R2%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 7</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Deployed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed Deploy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open for Contributions%2E%2E%2E</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Rollback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for deployment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rolled-back</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Target__c</picklist>
+            <values>
+                <fullName>Other %28see notes%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>UAT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Future_Release</fullName>
+        <active>true</active>
+        <description>Defects or enhancements to be considered for future roll outs/hypercare</description>
+        <label>Future Release</label>
+        <picklistValues>
+            <picklist>Deployed_to__c</picklist>
+            <values>
+                <fullName>AmQA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PROD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project QA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Staging</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Release_target__c</picklist>
+            <values>
+                <fullName>2014 %2F 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 %2F 11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 %2F 12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 %2F 9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2016%2F1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2016%2F2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2016%2F3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyper-Care</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R2%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 7</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Deployed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed Deploy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open for Contributions%2E%2E%2E</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Rollback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for deployment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rolled-back</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Target__c</picklist>
+            <values>
+                <fullName>Other %28see notes%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>UAT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Sprint_Release</fullName>
+        <active>true</active>
+        <description>Release type for agile projects (not AM releases)</description>
+        <label>Project Sprint Release</label>
+        <picklistValues>
+            <picklist>Deployed_to__c</picklist>
+            <values>
+                <fullName>AmQA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PROD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project QA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Staging</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Release_target__c</picklist>
+            <values>
+                <fullName>2014 %2F 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 %2F 11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 %2F 12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 %2F 9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2016%2F1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2016%2F2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2016%2F3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyper-Care</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R2%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 7</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Deployed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed Deploy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open for Contributions%2E%2E%2E</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Rollback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for deployment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rolled-back</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Target__c</picklist>
+            <values>
+                <fullName>Other %28see notes%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>UAT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Standing_Release_Instructions</fullName>
+        <active>true</active>
+        <description>Steps to follow on every release</description>
+        <label>Standing Release Instructions</label>
+        <picklistValues>
+            <picklist>Deployed_to__c</picklist>
+            <values>
+                <fullName>AmQA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PROD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project QA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Staging</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Release_target__c</picklist>
+            <values>
+                <fullName>2014 %2F 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 %2F 11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 %2F 12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 %2F 9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2015 %2F 9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2016%2F1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2016%2F2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2016%2F3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyper-Care</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R2%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint 7</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Deployed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed Deploy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open for Contributions%2E%2E%2E</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Rollback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for deployment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rolled-back</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Target__c</picklist>
+            <values>
+                <fullName>Other %28see notes%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>UAT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Descriptoin__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Release_target__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Target__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Descriptoin__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Release_target__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Target__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Descriptoin__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Release_target__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Target__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Descriptoin__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Release_target__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Target__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

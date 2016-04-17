@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Opportunity Negotiate and Close Stage - inform Lead identifier FI</name>
+    <style>none</style>
+    <subject>Tietoja antamastasi myyntivinkistä</subject>
+    <type>text</type>
+</EmailTemplate>

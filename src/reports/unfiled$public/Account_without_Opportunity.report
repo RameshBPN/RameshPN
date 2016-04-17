@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Account_has_opportunity__c</field>
+    </columns>
+    <columns>
+        <field>TYPE</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_UPDATE</field>
+    </columns>
+    <currency>DKK</currency>
+    <filter>
+        <criteriaItems>
+            <column>Sales_Area_Information__c.Sales_Area__c</column>
+            <operator>equals</operator>
+            <value>4000</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Sales_Area_Information__c.Pricing_Hierarchy__c</column>
+            <operator>notEqual</operator>
+            <value>Daughter</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.PDK_LO_Cust_Resp_Name__c</column>
+            <operator>equals</operator>
+            <value>Carsten Osmund</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Account without Opportunity</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountCustomEntity$Sales_Area_Information__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

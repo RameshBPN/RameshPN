@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Assortment ID --></label>
+        <name>Assortment_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assortment --></label>
+        <name>Assortment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Area ID --></label>
+        <name>Business_Area_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Area Name --></label>
+        <name>Business_Area_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of Origin --></label>
+        <name>Country_of_Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dummy Three ID --></label>
+        <name>Dummy_Three_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dummy Three Name --></label>
+        <name>Dummy_Three_Name__c</name>
+    </fields>
+    <fields>
+        <name>Family</name>
+        <picklistValues>
+            <masterLabel>Administration</masterLabel>
+            <translation><!-- Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adresseløse</masterLabel>
+            <translation><!-- Adresseløse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adresser</masterLabel>
+            <translation><!-- Adresser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adressering</masterLabel>
+            <translation><!-- Adressering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adressevask</masterLabel>
+            <translation><!-- Adressevask --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Afgående Consignment/Direct Entry</masterLabel>
+            <translation><!-- Afgående Consignment/Direct Entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analyser</masterLabel>
+            <translation><!-- Analyser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berigelse af eksisterende Database</masterLabel>
+            <translation><!-- Berigelse af eksisterende Database --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blade</masterLabel>
+            <translation><!-- Blade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breve Indland</masterLabel>
+            <translation><!-- Breve Indland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breve Udland</masterLabel>
+            <translation><!-- Breve Udland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DM-breve</masterLabel>
+            <translation><!-- DM-breve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Database vedligehold</masterLabel>
+            <translation><!-- Database vedligehold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Effektmåling</masterLabel>
+            <translation><!-- Effektmåling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FS-håndtering</masterLabel>
+            <translation><!-- FS-håndtering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facility Service</masterLabel>
+            <translation><!-- Facility Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foliering</masterLabel>
+            <translation><!-- Foliering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food</masterLabel>
+            <translation><!-- Food --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frankering</masterLabel>
+            <translation><!-- Frankering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kørsler</masterLabel>
+            <translation><!-- Kørsler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Mile</masterLabel>
+            <translation><!-- Last Mile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Mile, øvrige</masterLabel>
+            <translation><!-- Last Mile, øvrige --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letgods</masterLabel>
+            <translation><!-- Letgods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lokal Kørsler</masterLabel>
+            <translation><!-- Lokal Kørsler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lokale ugeaviser</masterLabel>
+            <translation><!-- Lokale ugeaviser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Løsninger, organisk</masterLabel>
+            <translation><!-- Løsninger, organisk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magasinpost</masterLabel>
+            <translation><!-- Magasinpost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manuel Pakning</masterLabel>
+            <translation><!-- Manuel Pakning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modtagerservice</masterLabel>
+            <translation><!-- Modtagerservice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nem Kampagne</masterLabel>
+            <translation><!-- Nem Kampagne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Food</masterLabel>
+            <translation><!-- Non Food --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pakker Indland</masterLabel>
+            <translation><!-- Pakker Indland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pakker Udland</masterLabel>
+            <translation><!-- Pakker Udland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pallet</masterLabel>
+            <translation><!-- Pallet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PostScan</masterLabel>
+            <translation><!-- PostScan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Privatpakker</masterLabel>
+            <translation><!-- Privatpakker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QR Løsninger</masterLabel>
+            <translation><!-- QR Løsninger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retur og Responshåndtering</masterLabel>
+            <translation><!-- Retur og Responshåndtering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salg til andre post- &amp; distr.virks.</masterLabel>
+            <translation><!-- Salg til andre post- &amp; distr.virks. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Segmentering</masterLabel>
+            <translation><!-- Segmentering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Logistics</masterLabel>
+            <translation><!-- Service Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telemedicin</masterLabel>
+            <translation><!-- Telemedicin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tillægsydelser</masterLabel>
+            <translation><!-- Tillægsydelser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transport</masterLabel>
+            <translation><!-- Transport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tryk, Print &amp; Kuvertering</masterLabel>
+            <translation><!-- Tryk, Print &amp; Kuvertering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>e-Kommunikation</masterLabel>
+            <translation><!-- e-Kommunikation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Global ID --></label>
+        <name>Global_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lifecycle --></label>
+        <name>Lifecycle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logistics Product Category --></label>
+        <name>Logistics_Product_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logistics Service Area --></label>
+        <name>Logistics_Service_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marked for Deletion --></label>
+        <name>Marked_for_Deletion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nordic Product --></label>
+        <name>Nordic_Product__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product/Article ID --></label>
+        <name>Product_Article_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Group ID --></label>
+        <name>Product_Group_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Group --></label>
+        <name>Product_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product (Level 4) ID --></label>
+        <name>Product_Level_4_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product (Level 4) Name --></label>
+        <name>Product_Level_4_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>Product_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Area --></label>
+        <name>Sales_Area__c</name>
+        <picklistValues>
+            <masterLabel>0540</masterLabel>
+            <translation>LO DK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0630</masterLabel>
+            <translation>LO FI DPD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation>PDK BE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3670</masterLabel>
+            <translation>LO FI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4000</masterLabel>
+            <translation>PDK LO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO91</masterLabel>
+            <translation>ME SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO92</masterLabel>
+            <translation>LO SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation>LO NO</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source Hierarchy Parent --></label>
+        <name>Source_Hierarchy_Parent__c</name>
+    </fields>
+    <layouts>
+        <layout>Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Product Attributes --></label>
+            <section>Product Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Product Hierarchy --></label>
+            <section>Product Hierarchy</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

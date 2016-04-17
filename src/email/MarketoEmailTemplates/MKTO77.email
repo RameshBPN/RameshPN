@@ -1,0 +1,208 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ønskeskyen</title>
+
+<style type="text/css">
+                /* Client-specific Styles 
+                Rasmus Bidstrup
+                Hjaltelin Stahl
+                */
+                
+                #outlook a {
+                        padding: 0;
+                }
+                /* Force Outlook to provide a "view in browser" menu link. */
+                
+                html,
+                body {
+                        width: 100% !important;
+                        -webkit-text-size-adjust: 100%;
+                        -ms-text-size-adjust: 100%;
+                        margin: 0;
+                        padding: 0;
+                        height: 100%;
+                        background-color: #F0F0F0;
+                }
+                /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+                
+                .ExternalClass {
+                        width: 100%;
+                }
+                /* Force Hotmail to display emails at full width */
+                
+                .ExternalClass,
+                .ExternalClass p,
+                .ExternalClass span,
+                .ExternalClass font,
+                .ExternalClass td,
+                .ExternalClass div {
+                        line-height: 100%;
+                }
+                /* Force Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
+                
+                #backgroundTable {
+                        margin: 0;
+                        padding: 0;
+                        width: 100% !important;
+                        line-height: 100% !important;
+                }
+                
+                p font {
+                        display: none;
+                }
+                
+                img {
+                        outline: none;
+                        text-decoration: none;
+                        border: none;
+                        -ms-interpolation-mode: bicubic;
+                }
+                
+                a img {
+                        border: none;
+                }
+                
+                .image_fix {
+                        display: block;
+                }
+                
+                p {
+                        margin: 0px 0px !important;
+                }
+                
+                table td {
+                        border-collapse: collapse;
+                }
+                
+                table {
+                        border-collapse: collapse;
+                        mso-table-lspace: 0pt;
+                        mso-table-rspace: 0pt;
+                }
+                
+                table[class=full] {
+                        width: 100%;
+                        clear: both;
+                }
+                
+                @media (max-width: 480px) {
+                        *[class].w100pct {
+                                width: 100% !important;
+                        }
+                        *[class].w320 {
+                                width: 320px !important;
+                        }
+                        *[class].w310 {
+                                width: 310px !important;
+                        }
+                        *[class].w300 {
+                                width: 300px !important;
+                        }
+                        *[class].w290 {
+                                width: 290px !important;
+                        }
+                        *[class].img100pct {
+                                width: 100% !important;
+                                height: auto !important;
+                        }
+                        
+                        *[class].w160 {
+                                width: 160px !important;
+                                height: auto !important;
+                        }
+                        *[class].w80 {
+                                width: 80px !important;
+                                height: auto !important;
+                        }
+                }
+</style>
+</head>
+<body bgcolor="#F0F0F0" ><!-- element 1 -->
+<table cellspacing="0" cellpadding="0" border="0" width="100%" ><tr ><td align="center" ><table width="450" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFFFFF" class="w100pct" ><tr ><td width="440" style="padding:5px 5px 0px 5px; " align="center" class="w100pct" ><!-- top -->
+<table width="440" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#0099BB" class="w100pct" ><tr ><td class="mktEditable" id="section_1_img" ><img class="img100pct" src="http://pages.postnord.com/rs/postenab/images/Image_top.jpg" width="440" height="163" alt="Ønskeskyen bragt til dig af Post Danmark" style="display:block;font-family: Arial; font-size: 20px; line-height: 24px; color: #ffffff; text-alignment:center" border="0"></td>
+</tr>
+<tr ><td align="center" style="font-family:Arial; font-size:15px; line-height:19px; color:#ffffff; padding:10px 10px; background-color:#0099bb; text-transform:uppercase; " class="mktEditable font-body" id="section_1" ><span style="font-size:17px; line-height:26px; text-transform: uppercase;" class="font-header">Tillykke med din ønskesky</span><br>
+- nu får du flere af de gaver, du gerne vil have</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF"><img class="img100pct" src="http://pages.postnord.com/rs/postenab/images/Image_hund.jpg" width="440" height="134" alt="" style="display:block;font-family: Arial; font-size: 13px; line-height: 17px; color: #ffffff;" border="0"></td>
+</tr>
+<tr ><td align="left" style="font-family:Arial; font-size:13px; line-height:17px; color:#1c415c; padding:20px 20px; background-color:#ffffff; " class="mktEditable font-body" id="section_2" ><p>Hej&nbsp;{{lead.First Name}}<br>
+<br>
+&Oslash;nskeskyen er din egen digitale &oslash;nskeseddel til alt det, du dr&oslash;mmer om. Brug den til at gemme den fede lampe, de flotte sko eller den s&oslash;de hund, du godt kunne t&aelig;nke dig. Du l&aelig;gger l&oslash;bende dine &oslash;nsker i skyen &ndash; fx med et billede fra mobilen eller et link fra nettet. Og har altid gode &oslash;nsker lige ved h&aring;nden til f&oslash;dselsdag, fest eller jul.<br>
+<br>
+<a href="https://www.youtube.com/watch?v=I7ROgOjk3Gk"><span style="color: #1c415c;">Se filmen</span></a> om, hvordan du gemmer dine &oslash;nsker.</p>
+<p></p>
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+<tr>
+<td style="padding:15px 0px" width="100%"><a href="https://www.youtube.com/watch?v=I7ROgOjk3Gk" target="_blank"><img width="140" align="center" height="40" src="http://pages.postnord.com/rs/184-XFT-949/images/btn_white.jpg" style="display:block" border="0"></a></td>
+</tr>
+</table>
+<br>
+God vind!<p></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="450" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#0099BB" class="w100pct" ><tr ><td class="mktEditable" id="section_3_img" ><img src="http://pages.postnord.com/rs/postenab/images/Image_tip1_1.jpg" class="img100pct" width="450" height="236" alt="TIP #1" style="display:block;font-family: Arial; font-size: 30px; line-height: 30px; color: #ffffff;" border="0"></td>
+</tr>
+</table>
+<table width="450" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#0099BB" class="w100pct" ><tr ><td style="font-family:Arial; font-size:13px; line-height:17px; color:#ffffff; padding:10px 20px 25px; " align="center" class="mktEditable" id="section_3" ><span style="font-size:15px; line-height:25px; text-transform: uppercase;">Få Ønskeskyen som app til din mobil og tablet</span><br>
+På ønskesky-app’en gemmer du ønsker fra nettet ved at klikke på Ønskeskyen i delefunktionen eller ved at tage billeder af ting på din vej og lægge dem i skyen.</td>
+</tr>
+</table>
+<table width="450" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#0099BB" class="w100pct" ><tr ><td align="center" class="mktEditable" id="section_5_1" ><a href="https://itunes.apple.com/dk/app/nskeskyen/id973421404" target="_blank"><img style="display: block; font-family: Arial; font-size: 18px; line-height: 40px; color: #ffffff; background-color: #1c415c;" src="http://pages.postnord.com/rs/postenab/images/appStore.jpg" class="img100pct" border="0" alt="Appstore" width="225" height="42"></a></td>
+<td align="center" class="mktEditable" id="section_5_2" ><a href="https://play.google.com/store/apps/details?id=com.ovdal.onskeskyen" target="_blank"><img style="display: block; font-family: Arial; font-size: 18px; line-height: 40px; color: #ffffff; background-color: #1c415c;" src="http://pages.postnord.com/rs/postenab/images/googlePlay.jpg" border="0" alt="Googlestore" width="225" height="42" class="img100pct"></a></td>
+</tr>
+<tr>
+<td height="31" style="line-height: 31px;">&nbsp;</td>
+</tr>
+</table>
+<table width="450" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#0099BB" class="w100pct" ><tr ><td class="mktEditable" id="section_6" ><img src="http://pages.postnord.com/rs/postenab/images/Image_tip2.jpg" class="img100pct" width="450" height="230" alt="TIP #2" style="display:block;font-family: Arial; font-size: 30px; line-height: 30px; color: #ffffff;" border="0"></td>
+</tr>
+</table>
+<table width="450" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFFFFF" class="w100pct" ><tr ><td style="font-family:Arial; font-size:13px; line-height:17px; color:#757778; padding:10px 20px 25px; " align="center" class="mktEditable" id="section_7" ><span style="font-size: 16px; line-height: 25px; text-transform: uppercase; color:#000000">Tilføj ønskeknappen til din browser</span><br>
+Når du har Ønskeknappen synlig i din browser på din desktop, risikerer du ikke at glemme alle de fede ting, du falder over på nettet. Med et klik på Ønskeknappen er ønsket i skyen.</td>
+</tr>
+</table>
+<table width="450" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFFFFF" class="w100pct" ><tr ><td align="center" ><table width="180" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#1C415C" ><tr ><td align="center" class="mktEditable" id="section_8" ><div><!--[if mso]> <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://xn==nskeskyen-k8a.dk/#!/text/tips" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="10%" fillcolor="#1c415c"> <w:anchorlock /> <center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;" _mce_style="color: #ffffff; font-family: sans-serif; font-size: 13px; font-weight: bold;">HENT &Oslash;NSKESKYEN</center> </v:roundrect> <![endif]--><a style="background-color: #1c415c; border-radius: 4px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 15px; font-weight: normal; line-height: 40px; text-align: center; text-decoration: none; width: 200px; mso-hide: all;" href="https://xn--nskeskyen-k8a.dk/#!/text/tips">HENT &Oslash;NSKESKYEN</a></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="38" style="line-height: 38px;">&nbsp;</td>
+</tr>
+</table>
+<table width="450" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#0099BB" class="w100pct" ><tr ><td align="left" class="mktEditable" id="section_9" ><img class="w80" src="http://pages.postnord.com/rs/postenab/images/Image_tip3.jpg" width="133" height="121" alt="Tip #3" style="display:block;font-family: Arial; font-size: 18px; line-height: 40px; color: #0099bb; background-color: #ffffff;" border="0"></td>
+</tr>
+<tr ><td style="font-family:Arial; font-size:13px; line-height:17px; color:#ffffff; padding:10px 20px 25px; " align="center" class="font-body mktEditable" id="section_10" ><span style="font-size:16px; line-height:20px; text-transform: uppercase;" class="font-header">Det er nemt at blive fristet<br>
+– og lige så nemt at oprette ønsker</span><br>
+<br>
+Din ønskesky følger dig overalt. Og du kan gemme dine ønsker på flere måder. Uanset om du opretter dine ønsker i app’en eller i din browser, kommer de ind i din personlige ønskesky.<br>
+<br>
+Se filmen, og kom godt i gang.</td>
+</tr>
+</table>
+<table width="450" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#0099BB" class="w100pct" ><tr ><td class="mktEditable" id="section_12" ><a href="https://www.youtube.com/watch?v=I7ROgOjk3Gk"><img src="http://pages.postnord.com/rs/postenab/images/Image_ppl_1.jpg" width="450" height="360" alt="Se filmen" style="display:block;font-family: Arial; font-size: 30px; line-height: 30px; color: #ffffff; text-alignment: center" border="0" class="img100pct"></a></td>
+</tr>
+</table>
+<table width="450" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#F5F5F5" class="w100pct" ><tr ><td width="300" align="center" style="padding:10px 0px 30px; " ><table cellspacing="0" cellpadding="0" border="0" align="center" ><tr ><td class="mktEditable" id="section_13" ><a href="https://www.facebook.com/oenskeskyen" target="_blank"><img style="display: block; font-family: Arial; font-size: 14px; line-height: 18px; color: #ffffff; background-color: #0099bb;" src="http://pages.postnord.com/rs/postenab/images/facebook.jpg" border="0" alt="facebook" width="25" height="20"></a></td>
+<td align="center" style="font-family:Arial; font-size:13px; line-height:17px; color:#4a5052; " class="font-body mktEditable" id="section_14" ><a style="color: #555555; text-decoration: none;" href="https://www.facebook.com/oenskeskyen">Følg Ønskeskyen på Facebook.</a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td align="center" style="font-family:Arial; font-size:11px; line-height:14px; color:#8a8a8a; padding:0px 0px 20px; " class="mktEditable" id="section_15" >Vi har sendt denne e-mail til <span style="color: #8a8a8a;">{{lead.Email Address}}</span>. Hvis du ikke<br>
+længere ønsker at modtage denne type e-mails, kan du afmelde dig <a style="color: #8a8a8a;" href="http://pages.postnord.com/mypage_mypage.html" target="_blank">her</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

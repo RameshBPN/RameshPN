@@ -1,0 +1,1 @@
+Till {!Contact.FirstName}, {!Case.Solution_Description} Tack! {!User.Name}  {!Organization.Name} Din kommentar:    {!Case.Description}   {!Case.Solution_Attachments}

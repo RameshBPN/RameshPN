@@ -1,0 +1,2291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Activity_ID__c</fullName>
+        <displayFormat>A-{00000000}</displayFormat>
+        <externalId>false</externalId>
+        <inlineHelpText>System generated ID for activities</inlineHelpText>
+        <label>Activity ID</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Sub_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Purpose</label>
+        <picklist>
+            <controllingField>Activity_Type_std__c</controllingField>
+            <picklistValues>
+                <fullName>Book Appointment</fullName>
+                <controllingFieldValues>Telephone Contact</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Analyse Customer Need</fullName>
+                <controllingFieldValues>Internal Meeting</controllingFieldValues>
+                <controllingFieldValues>Physical Meeting</controllingFieldValues>
+                <controllingFieldValues>Telephone meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Quote Presentation</fullName>
+                <controllingFieldValues>Physical Meeting</controllingFieldValues>
+                <controllingFieldValues>Telephone meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Negotiation</fullName>
+                <controllingFieldValues>Physical Meeting</controllingFieldValues>
+                <controllingFieldValues>Telephone meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Close Deal</fullName>
+                <controllingFieldValues>Physical Meeting</controllingFieldValues>
+                <controllingFieldValues>Telephone meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Follow Up Agreement</fullName>
+                <controllingFieldValues>Physical Meeting</controllingFieldValues>
+                <controllingFieldValues>Telephone Contact</controllingFieldValues>
+                <controllingFieldValues>Telephone meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Operating Meeting</fullName>
+                <controllingFieldValues>Internal Meeting</controllingFieldValues>
+                <controllingFieldValues>Physical Meeting</controllingFieldValues>
+                <controllingFieldValues>Telephone meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New</fullName>
+                <controllingFieldValues>Customer update</controllingFieldValues>
+                <controllingFieldValues>E-invoice</controllingFieldValues>
+                <controllingFieldValues>Franko</controllingFieldValues>
+                <controllingFieldValues>Maintain Contract</controllingFieldValues>
+                <controllingFieldValues>Postbox</controllingFieldValues>
+                <controllingFieldValues>Prepare Offer</controllingFieldValues>
+                <controllingFieldValues>Procurement</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Change</fullName>
+                <controllingFieldValues>Customer update</controllingFieldValues>
+                <controllingFieldValues>E-invoice</controllingFieldValues>
+                <controllingFieldValues>Franko</controllingFieldValues>
+                <controllingFieldValues>Maintain Contract</controllingFieldValues>
+                <controllingFieldValues>Postbox</controllingFieldValues>
+                <controllingFieldValues>Prepare Offer</controllingFieldValues>
+                <controllingFieldValues>Procurement</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Termination</fullName>
+                <controllingFieldValues>Customer update</controllingFieldValues>
+                <controllingFieldValues>E-invoice</controllingFieldValues>
+                <controllingFieldValues>Franko</controllingFieldValues>
+                <controllingFieldValues>Maintain Contract</controllingFieldValues>
+                <controllingFieldValues>Postbox</controllingFieldValues>
+                <controllingFieldValues>Subscription services</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Quality Assurance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contract Group</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Digital Channels</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Attachments</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Product Codes/ EDI</fullName>
+                <controllingFieldValues>Product deviation</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Packing</fullName>
+                <controllingFieldValues>Product deviation</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bookings</fullName>
+                <controllingFieldValues>Pickup &amp; Delivery</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Changes</fullName>
+                <controllingFieldValues>Pickup &amp; Delivery</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Annual meeting</fullName>
+                <controllingFieldValues>Physical Meeting</controllingFieldValues>
+                <controllingFieldValues>Telephone meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sponsor event</fullName>
+                <controllingFieldValues>Customer arrangement</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Event / Seminar</fullName>
+                <controllingFieldValues>Customer arrangement</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Follow up operation start</fullName>
+                <controllingFieldValues>Operation event</controllingFieldValues>
+                <controllingFieldValues>Operation start</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Report release</fullName>
+                <controllingFieldValues>Customer arrangement</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer relation</fullName>
+                <controllingFieldValues>Customer arrangement</controllingFieldValues>
+                <controllingFieldValues>Physical Meeting</controllingFieldValues>
+                <controllingFieldValues>Telephone meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Product Launching</fullName>
+                <controllingFieldValues>Customer arrangement</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Operative</fullName>
+                <controllingFieldValues>Physical Meeting</controllingFieldValues>
+                <controllingFieldValues>Telephone meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tactically</fullName>
+                <controllingFieldValues>Physical Meeting</controllingFieldValues>
+                <controllingFieldValues>Telephone meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Strategically</fullName>
+                <controllingFieldValues>Physical Meeting</controllingFieldValues>
+                <controllingFieldValues>Telephone meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Closing business</fullName>
+                <controllingFieldValues>Internal Meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sponsor meeting</fullName>
+                <controllingFieldValues>Physical Meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Event</fullName>
+                <controllingFieldValues>Physical Meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>1-1-1</fullName>
+                <controllingFieldValues>Physical Meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New sale</fullName>
+                <controllingFieldValues>Completed</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>More sale</fullName>
+                <controllingFieldValues>Completed</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Booked meeting</fullName>
+                <controllingFieldValues>Completed</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No interest</fullName>
+                <controllingFieldValues>Completed</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Left message</fullName>
+                <controllingFieldValues>Postponed</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Must call back</fullName>
+                <controllingFieldValues>Postponed</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Price change</fullName>
+                <controllingFieldValues>Maintain Contract</controllingFieldValues>
+                <controllingFieldValues>Prepare Offer</controllingFieldValues>
+                <controllingFieldValues>Subscription services</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>1</fullName>
+                <controllingFieldValues>Other</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2</fullName>
+                <controllingFieldValues>Other</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3</fullName>
+                <controllingFieldValues>Other</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Address information</fullName>
+                <controllingFieldValues>Product deviation</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other issue</fullName>
+                <controllingFieldValues>Product deviation</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Delivery problems</fullName>
+                <controllingFieldValues>Pickup &amp; Delivery</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Internal meeting</fullName>
+                <controllingFieldValues>Operation event</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Telephone meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Renegotiation</fullName>
+                <controllingFieldValues>Completed</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No contact / called x times</fullName>
+                <controllingFieldValues>Completed</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Phone was not taken</fullName>
+                <controllingFieldValues>Not reached</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contact was not present</fullName>
+                <controllingFieldValues>Not reached</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contract Renewal</fullName>
+                <controllingFieldValues>Physical Meeting</controllingFieldValues>
+                <controllingFieldValues>Telephone meeting</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Task__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Task</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Customer Contact</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Call Cycle</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Follow up 1-1-1</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mass Creations</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sales Admin</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Operational Admin</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Type_std__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <picklist>
+            <controllingField>Category__c</controllingField>
+            <picklistValues>
+                <fullName>Physical Meeting</fullName>
+                <controllingFieldValues>Customer contact</controllingFieldValues>
+                <controllingFieldValues>Event</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Telephone Contact</fullName>
+                <controllingFieldValues>Customer contact</controllingFieldValues>
+                <controllingFieldValues>Task</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Follow up 1-1-1</fullName>
+                <controllingFieldValues>Task</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Follow up 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Follow up 3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prepare Offer</fullName>
+                <controllingFieldValues>Administration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Maintain Contract</fullName>
+                <controllingFieldValues>Administration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Maintain Customer Master Data</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Merger &amp; reorganisation</fullName>
+                <controllingFieldValues>Administration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Procurement</fullName>
+                <controllingFieldValues>Administration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Postbox</fullName>
+                <controllingFieldValues>Administration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Maintain Postbox Contract</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer Specifics</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer Issues</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pickup &amp; Delivery</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Internal Meeting</fullName>
+                <controllingFieldValues>Event</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Operation start</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <controllingFieldValues>Administration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Telephone meeting</fullName>
+                <controllingFieldValues>Campaign call</controllingFieldValues>
+                <controllingFieldValues>Event</controllingFieldValues>
+                <controllingFieldValues>Telesales task</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer arrangement</fullName>
+                <controllingFieldValues>Event</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>To Do</fullName>
+                <controllingFieldValues>Task</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Completed</fullName>
+                <controllingFieldValues>Campaign call</controllingFieldValues>
+                <controllingFieldValues>Telesales task</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Postponed</fullName>
+                <controllingFieldValues>Campaign call</controllingFieldValues>
+                <controllingFieldValues>Telesales task</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Not reached</fullName>
+                <controllingFieldValues>Campaign call</controllingFieldValues>
+                <controllingFieldValues>Telesales task</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer update</fullName>
+                <controllingFieldValues>Administration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Franko</fullName>
+                <controllingFieldValues>Administration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Subscription services</fullName>
+                <controllingFieldValues>Administration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit check</fullName>
+                <controllingFieldValues>Administration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Invoice issues</fullName>
+                <controllingFieldValues>Administration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>E-invoice</fullName>
+                <controllingFieldValues>Administration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Product deviation</fullName>
+                <controllingFieldValues>Administration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Operation event</fullName>
+                <controllingFieldValues>Administration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ME KL Backoffice</fullName>
+                <controllingFieldValues>Administration</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Renegotiation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Must call back</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sales rep left a message</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Activity_team__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity team</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Team 1</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Team 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Team 3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Caller_Disposition__c</fullName>
+        <externalId>false</externalId>
+        <label>Caller Disposition</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Angry</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Neutral</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Satisfied</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Sales</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Administration</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer contact</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Task</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Telesales task</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Telesales event</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Campaign call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Created_By_Role__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Text($User.Team__c)),$UserRole.Name,Text($User.Team__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Created By Role</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_meeting_survey_block__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Customer meeting survey block</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DB_Activity_Type__c</fullName>
+        <description>This is a field that is installed by and used with the Adoption Dashboard AppExchange package.  If your org already has a similar field, you can change the reports that are part of the Adoption Dashboard package to use your custom field and then delete this field.</description>
+        <externalId>false</externalId>
+        <formula>IF(CONTAINS( Subject , &quot;Email&quot;), &quot;Email&quot;, IF(CONTAINS( Subject , &quot;Cold Call&quot;), &quot;Cold Call&quot;, IF(CONTAINS( Subject , &quot;Call&quot;), &quot;Call&quot;, IF(CONTAINS( Subject , &quot;Meeting&quot;), &quot;Meeting&quot;, IF(CONTAINS( Subject , &quot;On Site Visit&quot;), &quot;Site Visit&quot;, IF(CONTAINS( Subject , &quot;Quote&quot;), &quot;Send Letter/Quote&quot;, &quot;Other&quot;))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DB Activity Type</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date_of_decision_of_investigation__c</fullName>
+        <externalId>false</externalId>
+        <label>Date of decision of investigation</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Date_of_incoming_item__c</fullName>
+        <externalId>false</externalId>
+        <label>Date of incoming item</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Deletion_Flag__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Deletion Flag</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Drop_off_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Drop off date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>FO_Sales_group__c</fullName>
+        <externalId>false</externalId>
+        <label>FO / Sales group</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Internal_info__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This field will not be included in the meeting invitation.</inlineHelpText>
+        <label>Internal info</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>New_Investigation__c</fullName>
+        <externalId>false</externalId>
+        <label>New Investigation</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>New_call_list_date__c</fullName>
+        <defaultValue>Today() + 1</defaultValue>
+        <externalId>false</externalId>
+        <label>New call list date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SAP_Activity_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>SAP Activity ID</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_area__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales area</label>
+        <picklist>
+            <picklistValues>
+                <fullName>1000</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>4000</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FO91</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>0630</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3670</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FO92</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>0540</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Scheduled</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Team__c</fullName>
+        <externalId>false</externalId>
+        <label>Team</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Telesales_flag_trigger__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Telesales flag trigger</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Transport_Damage__c</fullName>
+        <externalId>false</externalId>
+        <label>Transport Damage</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No Assessment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__ActimizerCallDuration__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(FLOOR(CallDurationInSeconds/3600)&lt;100,
+ LPAD(TEXT(FLOOR(CallDurationInSeconds/3600)),2,&apos;0&apos;),
+ TEXT(FLOOR(CallDurationInSeconds/3600))) &amp; &apos;:&apos; &amp;
+LPAD(TEXT(FLOOR((CallDurationInSeconds-3600*FLOOR(CallDurationInSeconds/3600))/60)), 2, &apos;0&apos;) &amp; &apos;:&apos; &amp;
+LPAD(TEXT(MOD(CallDurationInSeconds, 60)), 2, &apos;0&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Actimizer Call Duration</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__ActimizerCallGuid__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>Actimizer Call ID</label>
+        <length>32</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__ActimizerCallTime__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Time for call if this activity is an Actimizer generated activity.</description>
+        <externalId>false</externalId>
+        <label>Actimizer Call Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__ActimizerRedialPhoneNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer Redial Phone</label>
+        <required>false</required>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__ActimizerRedialTime__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer Redial Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__Actimizer_Call_Record__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>IF(CallDurationInSeconds = 0 || 
+BLANKVALUE($Setup.actimizerdialer__ActimizerDialerSettings__c.actimizerdialer__CallRecordingRetentionPeriod__c, 0) = 0 ||  $Setup.actimizerdialer__ActimizerDialerSettings__c.actimizerdialer__CallRecordingRetentionPeriod__c + DATEVALUE(actimizerdialer__ActimizerCallTime__c) &lt; TODAY(), &quot;N/A&quot;,  HYPERLINK(&quot;https://sf.actimizer.com/v1.4/force/authenticate?apexpage=https%3A%2F%2Fsf.actimizer.com%2Fv1.4%2Frecordedcall%2Fdownload%3FcallGuid%3D&quot; &amp; actimizerdialer__ActimizerCallGuid__c, &quot;Download&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Actimizer Call Record</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>Assigned_to_System_Account_Owner</fullName>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>Category__c</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.RECORDTYPE</columns>
+        <columns>Activity_Type_std__c</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Call|Email New Lead</value>
+        </filters>
+        <filters>
+            <field>UPDATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>smark</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Scheduled</value>
+        </filters>
+        <label>Assigned to: Owner, System Account</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>DEM_Last_Mile</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso,pmb</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK Last Mile Team</value>
+        </filters>
+        <label>DEM - Last Mile</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_Last_Mile_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_Last_Mile_Team_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>DEM_Media</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>pmb,ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK Media Team</value>
+        </filters>
+        <label>DEM - Media</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_Media_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_Media_Team_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>DEM_Public</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>pmb,ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>PN DK Public Team</value>
+        </filters>
+        <label>DEM - Public</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>PN_DK_Public_Team</role>
+            <role>PN_DK_Public_Team_Manager</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>DEM_Retail</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>pmb,ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK Retail Team</value>
+        </filters>
+        <label>DEM - Retail</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_Retail_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_Retail_Team_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>ERS_SME_OST</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND (5 OR 6)</booleanFilter>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>pmb,ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso,mstor</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK SMA MidMarket</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK SMA Sales East</value>
+        </filters>
+        <label>ERS-SME Team Indbakke Øst 1-4</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PDK_BE_SMA_Telesales_CPH_Team</roleAndSubordinates>
+            <roleAndSubordinates>PDK_BE_SMA_Telesales_CPH_Team_Manager</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_SMA_Team_3_CPH_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_SMA_Team_3_CPH_Team_Manager</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_SMA_Team_4_CPH_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_SMA_Team_4_CPH_Team_Manager</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_Small_Medium_Accounts</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>ERS_SME_Vest</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>pmb,ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso,mstor</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK SMA Sales west</value>
+        </filters>
+        <label>ERS-SME Team Indbakke Vest 5-9</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PDK_BE_SMA_Telesales_AAH_Team</roleAndSubordinates>
+            <roleAndSubordinates>PDK_BE_SMA_Telesales_AAH_Team_Manager</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_SMA_Team_1_AAH_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_SMA_Team_1_AAH_Team_Manager</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_SMA_Team_2_KOL_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_SMA_Team_2_KOL_Team_Manager</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_Small_Medium_Accounts</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Frim_rker_Luk_kundeaftale</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>pmb,ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>snobe</value>
+        </filters>
+        <label>Frimærker - Luk kundeaftale</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_KUL_Kundeservice_Private</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>IME_E_Business</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>pmb,ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK e-Business Team</value>
+        </filters>
+        <label>IME - E-Business</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_e_Business_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_e_Business_Team_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>IME_Export</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>pmb,ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK Export Team</value>
+        </filters>
+        <label>IME - Export</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>PN_DK_Export_Team</role>
+            <role>PN_DK_Export_Team_Manager</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>IME_Industry</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>pmb,ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK Industry Team</value>
+        </filters>
+        <label>IME - Industry</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_Industry_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_Industry_Team_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>IME_Luk_Kundeaftale</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND (5 OR 6 OR 7)</booleanFilter>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>pmb,ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK Export Team</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK Industry Team</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK e-Business Team</value>
+        </filters>
+        <label>IME │Luk Kundeaftale</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_Export_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_Export_Team_Manager</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_Industrial_Market_and_e_Commerce</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_Industry_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_Industry_Team_Manager</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_e_Business_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_e_Business_Team_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>KUL_Salgsadministration</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk kunde</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>BFabe,MTran,LDuus,SKell</value>
+        </filters>
+        <label>KUL – Salgsadministration</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>PN_DK_KUL_Team_Salgsadministration</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Lise_bo</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>TASK.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Event.CA_Event</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>Lboel</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Completed,Scheduled</value>
+        </filters>
+        <filters>
+            <field>EVENT.START_DATE_TIME</field>
+            <operation>greaterOrEqual</operation>
+            <value>1/1/2015 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notEqual</operation>
+            <value>Sidder i T37</value>
+        </filters>
+        <label>Lise Boelsmand Larsen</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_Public_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_Public_Team_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>MyActivities</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Team__c</columns>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>Activity_team__c</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>Category__c</columns>
+        <columns>Activity_Sub_Type__c</columns>
+        <columns>Activity_Type_std__c</columns>
+        <columns>TASK.STATUS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_area__c</field>
+            <operation>equals</operation>
+            <value>1000,PDK BE</value>
+        </filters>
+        <label>All Activities</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>MyDelegatedActivities</fullName>
+        <filterScope>Delegated</filterScope>
+        <label>My Delegated Activities</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>My Team&apos;s Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Events</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.TYPE</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>EVENT.START_DATE_TIME</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Event.CA_Event</value>
+        </filters>
+        <label>My Events</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Next_14_days_events</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.TYPE</columns>
+        <columns>Activity_Sub_Type__c</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>equals</operation>
+            <value>NEXT_N_DAYS:14</value>
+        </filters>
+        <label>Next 14 days events</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Overdue_Events</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>Status__c</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Event.CA_Event</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Cancelled</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Overdue Events</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>SSF_Luk_kundeaftale_Afsluttede</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>Activity_ID__c</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>pmb,ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>LUK</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>Completed,Cancelled</value>
+        </filters>
+        <filters>
+            <field>TASK.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Task.Standard_task</value>
+        </filters>
+        <label>SSF - Luk kundeaftale - Afsluttede</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>DK_Sales_Administration</role>
+            <role>PN_DK_Team_Dubi_se_Debitorer</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>SSF_Luk_kundeaftale_Igangv_rende</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>Activity_ID__c</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>pmb,ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>TASK.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Task.Standard_task</value>
+        </filters>
+        <label>SSF - Luk kundeaftale - Igangværende</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>DK_Sales_Administration</role>
+            <role>PN_DK_Team_Dubi_se_Debitorer</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>STR_Finance</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>pmb,ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso,GHF</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK Finance Team</value>
+        </filters>
+        <label>STR - Finance</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_Finance_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_Finance_Team_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>STR_Luk_Kundeaftale</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND (5 OR 6)</booleanFilter>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>pmb,ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK Utilities,unions telecom and publishing Team</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK Finance Team,3 party og import Team</value>
+        </filters>
+        <label>STR │Luk Kundeaftale</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>PN_DK_Utilities_unions_telecom_and_publishing_Team</role>
+            <role>PN_DK_Utilities_unions_telecom_and_publishing_Team_Manager</role>
+            <roleAndSubordinates>PN_DK_Finance_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_Finance_Team_Manager</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_NGO_3_party_og_import_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_NGO_3_party_og_import_Team_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>STR_NGO_Import</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>pmb,ep1,c0g,ilc,rme,dm4,pk2,bnr,saa,rso</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Email:</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Luk</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK NGO,3 party og import Team</value>
+        </filters>
+        <label>STR - NGO Import</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_NGO_3_party_og_import_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_NGO_3_party_og_import_Team_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Salgsleads_CPH_4</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK SMA Sales East,PN DK SMA Sales East Manager</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>9/1/2015 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>12/23/2015 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notEqual</operation>
+            <value>Actimizer Call</value>
+        </filters>
+        <label>Salgsleads fra KUNDELINJEN - East</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_SMA_Team_4_CPH_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_SMA_Team_4_CPH_Team_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Salgsleads_Team_AAH</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND (4 OR 5)</booleanFilter>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK SMA Team 1 AAH Team</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notEqual</operation>
+            <value>Call</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Salg</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Ra2hauge</value>
+        </filters>
+        <label>Salgsleads fra KUNDELINJEN - Team AAH</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_SMA_Team_1_AAH_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_SMA_Team_1_AAH_Team_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Salgsleads_Team_KOL</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND (4 OR 5)</booleanFilter>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK SMA Sales west,PN DK SMA Sales West Manager</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notContain</operation>
+            <value>Call</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Salg</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>equals</operation>
+            <value>Ra2Hauge</value>
+        </filters>
+        <label>Salgsleads fra KUNDELINJEN - West</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_SMA_Team_2_KOL_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_SMA_Team_2_KOL_Team_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Salgsleads_fra_KUNDELINJEN</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK SMA MidMarket,PN DK SMA MidMarket Manager</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>9/1/2015 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>12/31/2099 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>notEqual</operation>
+            <value>Actimizer Call</value>
+        </filters>
+        <label>Salgsleads fra KUNDELINJEN - MidMarket</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_SMA_Team_3_CPH_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_SMA_Team_3_CPH_Team_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Salgsleads_fra_KUNDELINJEN_Team_CPH_43</fullName>
+        <booleanFilter>1 AND 2 AND (3 OR 4)</booleanFilter>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OWNER_ROLE</field>
+            <operation>equals</operation>
+            <value>PN DK SMA Team 4 CPH Team</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>equals</operation>
+            <value>In progress</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Salg</value>
+        </filters>
+        <filters>
+            <field>TASK.SUBJECT</field>
+            <operation>contains</operation>
+            <value>Ra2hauge</value>
+        </filters>
+        <label>Salgsleads fra KUNDELINJEN - Team CPH 4</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_SMA_Team_4_CPH_Team</roleAndSubordinates>
+            <roleAndSubordinates>PN_DK_SMA_Team_4_CPH_Team_Manager</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>TodaysTasks</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TOMORROW</value>
+        </filters>
+        <label>Today&apos;s Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>UpcomingEvents</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>greaterThan</operation>
+            <value>YESTERDAY</value>
+        </filters>
+        <label>Upcoming Events</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>activities__Overdue_Tasks</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Overdue Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>activities__Today_Overdue_Tasks</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessOrEqual</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Today + Overdue Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>activities__Tomorrow_s_Tasks</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>equals</operation>
+            <value>TOMORROW</value>
+        </filters>
+        <label>Tomorrow&apos;s Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>my_group</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>Activity_team__c</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Activity_team__c</field>
+            <operation>equals</operation>
+            <value>Team 1</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Complete</value>
+        </filters>
+        <label>my group 1</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>my_group2</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>Activity_team__c</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Activity_team__c</field>
+            <operation>equals</operation>
+            <value>Team 2</value>
+        </filters>
+        <filters>
+            <field>TASK.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Complete,Completed</value>
+        </filters>
+        <label>my group 2</label>
+        <language>en_US</language>
+    </listViews>
+    <searchLayouts>
+        <listViewButtons>activities__Mass_Update</listViewButtons>
+        <searchFilterFields>TASK.WHO_NAME</searchFilterFields>
+        <searchFilterFields>TASK.WHAT_NAME</searchFilterFields>
+        <searchFilterFields>TASK.DUE_DATE</searchFilterFields>
+        <searchFilterFields>Activity_Type_std__c</searchFilterFields>
+        <searchFilterFields>CORE.USERS.FULL_NAME</searchFilterFields>
+        <searchFilterFields>Status__c</searchFilterFields>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Category__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Activity_Type_std__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Activity_Sub_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

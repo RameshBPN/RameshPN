@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LiveChatTranscript.LiveChatTranscriptEvents$Name</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$Owner</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$LiveChatVisitor</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$IpAddress</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$EndedBy</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$UserAgent</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$EndTime</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$StartTime</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$RequestTime</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Rapport til brug for CA for at finde frem til hvrfor så mange chats forsvinder</description>
+    <format>Tabular</format>
+    <name>Live Agent til analyse</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Live_Agent__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>LiveChatTranscript$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

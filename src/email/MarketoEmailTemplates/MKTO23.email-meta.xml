@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>@-kampagne.Statusmail</name>
+    <style>none</style>
+    <subject>@-kampagne: Test</subject>
+    <textOnly>Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+Realized: {{lead.PN DK Realized PM:default=edit me}}
+ Target: {{lead.PN DK Target PM:default=edit me}}
+Vi har sendt denne e-mail til xx@xx.com.
+
+Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;#&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

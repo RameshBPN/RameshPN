@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Get2OneCRM</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Get2OneCRM</value>
+    </caseValues>
+    <fields>
+        <label><!-- Admin Activity Case RT --></label>
+        <name>Admin_Activity_Case_RT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Administrator Profile Name --></label>
+        <name>Administrator_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval_Admin_Activity_Case_RT --></label>
+        <name>Approval_Admin_Activity_Case_RT__c</name>
+    </fields>
+    <fields>
+        <label><!-- CS Standard User PDK BE Profile Name --></label>
+        <name>CS_Standard_User_PDK_BE_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Contact Task Name --></label>
+        <name>Call_Contact_Task_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Opp Lookup Field ID --></label>
+        <name>Case_Opp_Lookup_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case RecordTypes --></label>
+        <name>Case_RecordTypes__c</name>
+    </fields>
+    <fields>
+        <label><!-- ContactName StructuredCommunication --></label>
+        <name>ContactName_StructuredCommunication__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Person Type from LeadConvert --></label>
+        <name>Contact_Person_Type_from_LeadConvert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Person Type from PAR --></label>
+        <name>Contact_Person_Type_from_PAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- ConvertPotential_CloseDate --></label>
+        <name>ConvertPotential_CloseDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ConvertPotential_Name --></label>
+        <name>ConvertPotential_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- ConvertPotential_StageName --></label>
+        <name>ConvertPotential_StageName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ConvertPotential_Status --></label>
+        <name>ConvertPotential_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Text used to check for a Customer Responsible role when processing account team members. Roles that contain this text will be assumed to represent a customer responsible. --></help>
+        <label><!-- Customer Responsible Role --></label>
+        <name>Customer_Responsible_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Service Profile Names --></label>
+        <name>Customer_Service_Profile_Names__c</name>
+    </fields>
+    <fields>
+        <label><!-- Danish Sales Areas --></label>
+        <name>Danish_Sales_Areas__c</name>
+    </fields>
+    <fields>
+        <label><!-- EventActivityCompletedDateTypes --></label>
+        <name>EventActivityCompletedDateTypes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration CRM Webservices Profile Name --></label>
+        <name>Integration_CRM_Webservices_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Profile Name --></label>
+        <name>Integration_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Read Only Profile Name --></label>
+        <name>Integration_Read_Only_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration User RealtimeUpsert User --></label>
+        <name>Integration_User_RealtimeUpsert_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Allocated to Sales --></label>
+        <name>Lead_Allocated_to_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Receiver Account Team Role --></label>
+        <name>Lead_Receiver_Account_Team_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Sales Area SAP codes --></label>
+        <name>Lead_Sales_Area_SAP_codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Status for Automatic Lead Receiver --></label>
+        <name>Lead_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketo Sync Profile Name --></label>
+        <name>Marketo_Sync_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- NTT Search RecordTypes --></label>
+        <name>NTT_Search_RecordTypes__c</name>
+    </fields>
+    <fields>
+        <label><!-- NTT locale values --></label>
+        <name>NTT_locale_values__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Contact Main Flow Record Types --></label>
+        <name>New_Contact_Main_Flow_Record_Types__c</name>
+    </fields>
+    <fields>
+        <help><!-- A comma separated (CSV) list of record type _developer_ names indicating which accounts should follow this flow when being generated in the UI --></help>
+        <label><!-- New Customer MOD Flow Record Types --></label>
+        <name>New_Customer_MOD_Flow_Record_Types__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Customer MOD Flow Reg Country --></label>
+        <name>New_Customer_MOD_Flow_Reg_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Customer MOD Flow WS Type --></label>
+        <name>New_Customer_MOD_Flow_WS_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- A comma separated (CSV) list of record type _developer_ names indicating which accounts should follow this flow when being generated in the UI --></help>
+        <label><!-- New Customer Main Flow Record Types --></label>
+        <name>New_Customer_Main_Flow_Record_Types__c</name>
+    </fields>
+    <fields>
+        <label><!-- OBM Stress Dashboard Captcha --></label>
+        <name>OBM_Stress_Dashboard_Captcha__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Stage Closed Lost --></label>
+        <name>Opportunity_Stage_Closed_Lost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Stage Closed Won --></label>
+        <name>Opportunity_Stage_Closed_Won__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outbound Notification Operation Delete --></label>
+        <name>Outbound_Notification_Operation_Delete__c</name>
+    </fields>
+    <fields>
+        <label><!-- PN System Administrator Profile Name --></label>
+        <name>PN_System_Administrator_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship Type Payer --></label>
+        <name>Relationship_Type_Payer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Admin User --></label>
+        <name>Sales_Admin_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales User Profile Name --></label>
+        <name>Sales_User_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Swedish Sales Areas --></label>
+        <name>Swedish_Sales_Areas__c</name>
+    </fields>
+    <fields>
+        <label><!-- System Administrator Profile Name --></label>
+        <name>System_Administrator_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaskActivityCompletedDateTypes --></label>
+        <name>TaskActivityCompletedDateTypes__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaskActivityDateTypes --></label>
+        <name>TaskActivityDateTypes__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaskNextCallListDateTypes --></label>
+        <name>TaskNextCallListDateTypes__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaskNotReachedCounterTypes --></label>
+        <name>TaskNotReachedCounterTypes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verified Account --></label>
+        <name>Verified_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Webshop B2B Name --></label>
+        <name>Webshop_B2B_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Webshop B2C Name --></label>
+        <name>Webshop_B2C_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Webshop Origin --></label>
+        <name>Webshop_Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Site Type HQ --></label>
+        <name>Work_Site_Type_HQ__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,38 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style="text-align: left;"><b><font face="Arial, sans-serif"><font size="2">Leje af postboks </font><font face="arial" style="font-size: 12pt;">&nbsp;&nbsp;</font></font></b></div><div style="font-size: 12pt; font-family: arial; text-align: left;"><b><font face="Arial, sans-serif"><font face="arial" style="font-size: 12pt;"><br></font></font></b></div><div style="font-size: 12pt; font-family: arial; text-align: left;"><span style="font-family: Arial, sans-serif; font-size: small;">Hej&nbsp;</span><span style="font-family: Arial, sans-serif; font-size: small; text-align: center;">{!Case.Account} &nbsp; &nbsp;</span><b><font face="Arial, sans-serif"><font face="arial" style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</font></font></b><span style="font-size: small; font-family: Arial, sans-serif; text-align: center; background-color: rgb(255, 255, 255);">Dato {!Today}</span></div><div style="font-size: 12pt; font-family: arial; text-align: left;"><br></div><div style="font-size: 12pt; font-family: arial; text-align: left;"><p class="MsoNormal"><font face="Arial, sans-serif" size="2">Tak for jeres bestilling af
+postboks.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">I denne mail har vi
+vedhæftet jeres kommende lejeaftale, som vi beder jer underskrive.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Sammen med lejeaftalen har
+vi vedlagt forretningsbetingelser, så I kan læse dem, inden I skriver under.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">For at aftalen kan blive
+aktiv fra den dato, som står i aftalen, beder vi jer underskrive aftalen inden
+3 dage fra d.d. og returnere aftalen via denne mail.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Skulle vi mod forventning
+modtage aftalen retur senere end de 3 dage, vil aftalen først kunne træde i
+kraft på et senere tidspunkt.<o:p></o:p></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><br></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Har I spørgsmål, er I
+velkommen til at kontakte os.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Med venlig hilsen<o:p></o:p></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2">Tidlig Post <o:p></o:p></font></p><p class="MsoNormal">
+
+</p><p class="MsoNormal"><font face="Arial, sans-serif" size="2">Tlf. 70 11 12 30</font><font face="Arial" style="font-size: 12pt;"><o:p></o:p></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal"><span style="font-family: Arial, sans-serif; font-size: small; background-color: rgb(255, 255, 255);">Sagsnummer:{!Case.Main_Case_Number__c}</span></p></div>]]></td>
+</tr>
+</table>

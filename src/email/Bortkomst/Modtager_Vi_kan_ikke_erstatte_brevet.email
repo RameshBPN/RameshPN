@@ -1,0 +1,77 @@
+<table border="0" cellpadding="0" width="650" cellspacing="0" height="400" >
+<tr valign="top" >
+<td width="460" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="460" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Receiver__c}<!--?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /--><o:p></o:p></font></font></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c} <o:p></o:p></font></font></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c} <o:p></o:p></font></font></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c} <o:p></o:p></font></font></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c} <o:p></o:p></font></font></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB"><font size="2"><font face="Arial,Sans-Serif">{!Case.Receiver_Postal_Address_Country__c}<o:p></o:p></font></font></span></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2"></font>&nbsp;</p>
+<p align="left"><font size="2"></font>&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><strong><font size="2" face="Arial,Sans-Serif">VI KAN IKKE ERSTATTE FORSENDELSEN</font></strong></p>
+<p align="left"><strong></strong><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Vi har undersøgt din efterlysning af&nbsp;forsendelsen med stregkodenummer {!Case.Item_Id__c} sendt den <span style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB" lang="EN-GB">{!Case.Submission_date__c} </span>af:</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p><font size="2" face="Arial,Sans-Serif">
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB">{!Case.Sender__c}<o:p></o:p></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB">{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}<o:p></o:p></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB">{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}<o:p></o:p></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB">{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")} {!Case.Sender_Postal_Address_Suburb__c} <o:p></o:p></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB">{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}<o:p></o:p></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang="EN-GB">{!Case.Sender_Postal_Address_Country__c}<o:p></o:p></span></p>
+</font><p align="left"><font size="2" face="Arial,Sans-Serif"></font>&nbsp;</p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Forsendelsen&nbsp;er ikke registreret i vores sporingssystem Track &amp; Trace. Da vi ikke kan komme videre med sagen ud fra de oplysninger, du har givet os, beder vi dig kontakte afsenderen. Afsenderen skal starte en efterlysning hos Post Danmark. </font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Vi kan ikke finde forsendelsen, og vi vil derfor udbetale erstatning til afsenderen. Ifølge Post Danmarks forretningsbetingelser er det afsenderen, som har ret til erstatning for ikke-udleverede forsendelser. Vi beder dig kontakte afsenderen, hvis du ønsker at få sendt en nyt forsendelse. </font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Vi har ledt efter forsendelsen, men vi kan ikke finde den. Vi har bedt afsenderen om at underskrive en erklæring, om&nbsp;forsendelsen er modtaget retur eller ej. Da vi ikke har modtaget erklæringen retur, kan vi ikke komme videre med sagen. </font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Vi har ledt efter forsendelsen, men vi kan ikke finde den. Da&nbsp;forsendelsen er sendt fra udlandet, beder vi dig kontakte afsenderen. Afsenderen skal starte en efterlysning hos posten i <strong>[afsenderland]</strong>. </font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Vi kan ikke give dig erstatning, da der er reklameret for sent. Reklamationsfristen er seks måneder, fra&nbsp;forsendelsen er sendt. </font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Vi har ledt efter&nbsp;forsendelsen i Returposten. Her bliver&nbsp;forsendelser opbevaret, som ikke kunne blive udleveret til modtager eller afsender. Desværre kan vi ikke finde forsendelsen. Vi kan ikke give dig erstatning, da vi ikke erstatter almindelige&nbsp;forsendelser ifølge vores forretningsbetingelser. </font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Da du er tilmeldt Modtagerflex-ordningen, har vi afleveret&nbsp;forsendelsen på det aftalte sted {!Case.Delivery_date__c}. Det betyder, at Post Danmarks erstatningsansvar ophører, når&nbsp;forsendelsen er udleveret. Vi kan derfor ikke give dig erstatning.</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Forsendelsen&nbsp;er sendt med Flex-levering, og det betyder, at Post Danmark må aflevere&nbsp;forsendelsen på et nærmere aftalt sted. Ifølge vores sporingssystem Track &amp; Trace er den udleveret til dig den&nbsp;{!Case.Delivery_date__c}. Det betyder, at Post Danmarks erstatningsansvar ophører, når&nbsp;forsendelsen er udleveret. Vi kan derfor ikke give dig erstatning.</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<div><span class="909551612-13012016"></span><font face="Arial"><font size="2">H<span class="909551612-13012016">vis du mener, at den trufne afgørelse ikke er i 
+overensstemmelse med vores forretningsbetingelser, kan du&nbsp;indbringe&nbsp;den&nbsp;til 
+PostNord Danmarks Ankefunktion, Carsten Niebuhrs Gade 4, 2.&nbsp; 1577 København V 
+eller sende en mail til&nbsp;<a href="mailto:ankesager@post.dk"><u>ankesager@post.dk</u></a><font color="#000000"> 
+</font></span></font><font color="#0000ff"><font size="2"><span class="909551612-13012016"></span></font></font></font></div>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Du kan finde flere informationer i forretningsbetingelserne på hjemmesiden </font><a href="http://www.postdanmark.dk"><font size="2" face="Arial,Sans-Serif">www.postdanmark.dk</font></a></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Vi undskylder ulejligheden, du har haft på grund af sagen.</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Med venlig hilsen</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">{!Case.OwnerFirstName} {!Case.OwnerLastName}<br>{!Case.OwnerTitle}<br><br><br></font></p>]]></td>
+</tr>
+</table>
+</td>
+<td width="10" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<![CDATA[]]></td>
+<td width="180" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="180" cellspacing="5" height="400" >
+<tr valign="top" height="100" >
+<td rowspan="3" width="180" tEditID="c2r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c2r1" locked="0" >
+<![CDATA[<P align=left><FONT size=1>{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>Tlf {!User.Department_Phone__c}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}</FONT></P>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

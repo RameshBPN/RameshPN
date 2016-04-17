@@ -1,0 +1,53 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<P><FONT size=2>{!Case.Account}</FONT></P>
+<P><FONT size=2>{!Case.Postal_Address_Street__c} {!Case.Postal_Address_House_Number__c} {!Case.Postal_Address_House_Number_Supplement__c} {!Case.Postal_Address_Room_Number__c}</FONT></P>
+<P><FONT size=2>{!IF(Case.Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Postal_Address_PO_Box__c}</FONT></P>
+<P><FONT size=2>{!IF(!Case.Postal_Address_Suburd__c="Suburb","")} {!Case.Postal_Address_Suburd__c}</FONT></P>
+<P><FONT size=2>{!Case.Postal_Address_Postal_Code__c} {!Case.Postal_Address_City__c}</FONT></P>
+<P><FONT size=2>{!Case.Postal_Address_Country__c}</FONT></P>
+<P><FONT size=2>&nbsp;</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2></FONT>&nbsp;</P>
+<P><FONT size=2></FONT>&nbsp;</P>
+<P><FONT size=2></FONT>&nbsp;</P>
+<P><FONT size=2></FONT>&nbsp;</P>
+<P>&nbsp;</P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif><STRONG>TILGODEHAVENDE PÅ DIN FRIMÆRKEKONTO</STRONG></FONT></P>
+<P><STRONG></STRONG><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>Ved gennemgang af vores kundedatabase kan vi se, at du har et indestående beløb til gode på din frimærkekonto vedrørende faktura/ kreditnota/rentenota xxxxxxx. Beløbet vil blive udbetalt, da der ikke længere kan ske forudbetaling til din frimærkekonto, jvf. brev udsendt i juni måned 2010. For at kunne foretage en udbetaling, kræver vores revisionsafdeling, at der foreligger dokumentation for indbetalingen, og vi beder dig derfor medsende en kopi af bankkvitteringen for overførselen. <BR>Fremover beder vi dig om kun at indbetale fakturaens pålydende værdi.</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>Vi beder dig venligst om at returnere brevet i vedlagte svarkonvolut med oplysning om, hvilken bank og kontonummer du vil have beløbet overført til.</FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>Vi har brug for følgende oplysninger: <BR></FONT></P>
+<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr>
+<P><FONT size=2 face=Arial,Sans-Serif>Navn på bank:<BR>Registreringsnummer:<BR>Kontonummer</FONT></P></BLOCKQUOTE>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT face=Arial,Sans-Serif><FONT size=2><STRONG>Undgå at bruge tid i banken på at betale din faktura til Post Danmark.<BR></STRONG>Du har mulighed for at få trukket fakturaen automatisk via tilmelding til PBS. Når frimærkerne er faktureret og afsendt, vil Post Danmark foretage et træk via PBS, svarende til fakturaens beløb<BR>Hvis du ønsker at benytte denne mulighed, beder vi dig om venligst at tilmelde betalingen i din bank med PBS oplysningerne.<BR>Post Danmark har PBS nr. 02111500 og grp. Nr. 04669.</FONT></FONT></P>
+<P><FONT face=Arial,Sans-Serif></FONT><FONT size=2>&nbsp;</FONT></P>
+<P><FONT size=2 face=Arial,Sans-Serif>Kontakt venligst undertegnede, hvis du har spørgsmål.</FONT></P>
+<P><FONT size=2>&nbsp;</FONT></P>
+<P><BR><FONT size=2 face=Arial,Sans-Serif>Med venlig hilsen</FONT></P>
+<P><FONT size=2>&nbsp;</FONT></P>
+<P><BR><FONT size=2 face=Arial,Sans-Serif>{!Case.OwnerFirstName} {!Case.OwnerLastName}<BR>{!Case.OwnerTitle}</FONT></P>
+<P><FONT face=Arial,Sans-Serif><BR></FONT><FONT size=2>&nbsp;</FONT></P>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" aEditID="c2r1" rowspan="3" >
+<![CDATA[<P><FONT size=1>{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>TLF {!User.Department_Phone__c}<BR>FAX {!User.Fax}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}<BR></FONT></P>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

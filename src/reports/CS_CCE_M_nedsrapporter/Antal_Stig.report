@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_96022475</developerName>
+        <masterLabel>Antal</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>FK_$Customer_Service_Product__c.Assortment__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Breve Indland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Breve Udland</sourceValue>
+            </sourceValues>
+            <value>Breve</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Pakker Udland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pakker Indland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakker</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Parcel</sourceValue>
+            </sourceValues>
+            <value>Pakker</value>
+        </values>
+    </buckets>
+    <currency>DKK</currency>
+    <description>Antal Complaint pr. måned med produkt</description>
+    <filter>
+        <criteriaItems>
+            <column>FK_$Customer_Service_Product__c.Assortment__c</column>
+            <operator>equals</operator>
+            <value>Ankommende Produkter,Breve indland,Breve udland,Pakker indland,Pakker udland,Privatpakker</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <operator>equals</operator>
+            <value>Case.Complaint</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_$Customer_Service_Product__c.Assortment__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_96022475</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>MR_CCE_ Complaints med produkt</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList@Case.Product_Article__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSED_DATEONLY</dateColumn>
+        <interval>INTERVAL_LASTMONTH</interval>
+    </timeFrameFilter>
+</Report>

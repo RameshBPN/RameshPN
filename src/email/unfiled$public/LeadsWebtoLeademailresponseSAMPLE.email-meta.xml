@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automatisk respons när nytt lead skickas online.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Leads:  E-postrespons för webb-till-lead (EXEMPEL)</name>
+    <style>none</style>
+    <subject>{!Organization.Name}:  Tack för din fråga</subject>
+    <type>text</type>
+</EmailTemplate>

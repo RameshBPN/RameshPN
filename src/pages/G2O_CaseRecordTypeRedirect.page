@@ -1,0 +1,22 @@
+<!--
+    About
+    -----
+    Description: Case RecordType Redirection
+    Created for: Postnord Get2OneCRM Master template/DK
+    Create date: March 2013
+    
+    Details
+    -------
+    This Visualforce page performs redirection based on recordType selected on case.
+    
+    Update History
+    --------------
+    Created March 2013 - A.B.
+    
+    Issues / TODOs
+    --------------
+-->
+<apex:page standardController="Case"
+	extensions="G2O_CaseRecordTypeRedirect_VFCx" action="{!redirect}"
+	tabstyle="Case" showheader="true">
+</apex:page>

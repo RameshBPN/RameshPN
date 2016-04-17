@@ -1,0 +1,93 @@
+<apex:page standardcontroller="Account" extensions="G2O_PersonAccountMerge_VFCx">
+
+    <style type="text/css">
+        .errorMessage
+        {
+            font-weight: bold;
+            color: red;
+        }
+        .debugMessage
+        {
+            font-weight: bold;
+            color: green;
+        }
+        .statusMessage
+        {
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+    
+  <apex:form >
+  
+      <apex:outputPanel styleClass="debugMessage">
+          <apex:outputText value="{!debugMessage}" />
+      </apex:outputPanel>
+      <apex:outputPanel styleClass="errorMessage" id="errorMessagePanel">
+          <apex:outputText value="{!criteriaValidationErrorMessage}" />
+      </apex:outputPanel>
+      
+      <apex:outputPanel id="SearchPanel">
+      <apex:pageBlock title="Search criteria" >
+        <apex:pageBlockButtons >
+            <apex:commandButton value="Search" action="{!search}" rerender="SearchResultsPanel, debugMessage,errorMessagePanel,SearchPanel,MergeErrorMsgs" status="searchStatus"/>
+            <apex:commandButton value="Exit" action="{!exit}"/>                                                                 
+        </apex:pageBlockButtons>
+        <apex:pageBlockSection title="Selected Contact Details" columns="2">                             
+            <apex:inputText Label="First Name"  value="{!FirstName}"/>  
+            <apex:inputText Label="Last Name" value="{!LastName}"/>
+            <apex:inputText Label="Postal Address Street" value="{!PostalAddressStreet}"/> 
+            <apex:inputText Label="Postal Address Postal Code" value="{!PostalAddressPostalCode}"/> 
+            <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Postal Address City"/>
+                    <apex:outputPanel >
+                        <div class="requiredInput">
+                            <div class="requiredBlock"></div>
+                        <apex:inputText value="{!PostalAddressCity}"/>     
+                    </div>
+                </apex:outputPanel>
+             </apex:pageBlockSectionItem>    
+             <apex:inputField required="true" value="{!acct.Postal_Address_Country__c}" />
+        </apex:pageBlockSection>
+      </apex:pageBlock>
+      </apex:outputPanel>
+
+      <apex:outputPanel id="SearchResultsPanel">
+          <apex:outputText styleClass="errorMessage" value="{!mergeValidationErrorMessage}" />
+          <apex:outputText styleClass="errorMessage" value="{!flagForReviewValidationErrorMessage}"/>
+          <apex:actionStatus startStyleClass="statusMessage" startText=" (Rendering results.. Please wait!)" stopText="" id="searchStatus"/>
+          <apex:pageBlock title="Search results"  rendered="{!potentialDuplicates != null}">
+              <apex:pageBlockButtons >
+                  <!-- <apex:commandButton rendered="{!!$Setup.PersonAccountMergeController__c.HideMergeButton__c}" value="Merge Selected" action="{!mergeContacts}" rerender="SearchResultsPanel, debugMessage, MergeErrorMsgs" status="searchStatus"/> --> 
+                  <apex:commandButton rendered="{!showMergeButton}" value="Merge Selected" action="{!mergeContacts}" rerender="SearchResultsPanel, debugMessage, MergeErrorMsgs" status="searchStatus"/>           
+                  <apex:commandButton value="Flag for Review" action="{!flagForReview}" rerender="SearchResultsPanel, debugMessage, MergeErrorMsgs" status="searchStatus"/>
+              </apex:pageBlockButtons>
+              <apex:pageBlockTable value="{!potentialDuplicates}" var="potentialDuplicate">
+                  <apex:column >
+                      <apex:inputCheckbox rendered="{!(!potentialDuplicate.preCategorized || potentialDuplicate.acct.Merge_Category__c == 'Master')}" value="{!potentialDuplicate.selected}" />
+                  </apex:column>
+                  <apex:column headerValue="Name">
+                      <apex:outputLink target="_blank" value="/{!potentialDuplicate.acct.Id}">{!potentialDuplicate.acct.Name}</apex:outputLink>
+                  </apex:column>
+                  <apex:column headerValue="Involved Party Id" value="{!potentialDuplicate.acct.Involved_Party_ID__c}"/>                  
+                  <apex:column headerValue="Email" value="{!potentialDuplicate.acct.PersonEmail}"/>
+                  <apex:column headerValue="Postal Address Street" value="{!potentialDuplicate.acct.Postal_Address_Street__c}"/>
+                  <apex:column headerValue="Postal Address City" value="{!potentialDuplicate.acct.Postal_Address_City__c}"/>
+                  <apex:column headerValue="Postal Address Postal Code" value="{!potentialDuplicate.acct.Postal_Address_Postal_Code__c}" />
+                  <apex:column headerValue="Category">
+                      <apex:inputField rendered="{!!potentialDuplicate.preCategorized}"  value="{!potentialDuplicate.acct.Merge_Category__c}" />
+                      <apex:outputText rendered="{!potentialDuplicate.preCategorized}"   value="{!potentialDuplicate.acct.Merge_Category__c}" />
+                  </apex:column>
+                  <apex:column headerValue="Flagged For review" value="{!potentialDuplicate.acct.Flagged_For_Review__c}"/>                  
+                  <apex:column headerValue="Master">
+                      <apex:outputLink target="_blank" value="/{!potentialDuplicate.acct.Merge_Master__c}">{!potentialDuplicate.acct.Merge_Master__r.Name}</apex:outputLink>
+                  </apex:column>
+              </apex:pageBlockTable>
+          </apex:pageBlock>
+      </apex:outputPanel>
+  
+  <apex:pageMessages id="MergeErrorMsgs"/> 
+      
+  </apex:form> 
+  
+</apex:page>

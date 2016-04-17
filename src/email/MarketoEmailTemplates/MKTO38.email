@@ -1,0 +1,192 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Postdanmark</title>
+
+<style type="text/css">
+        /* Client-specific Styles */
+        #outlook a {
+            padding: 0;
+        }
+body > p {display:none !important}
+        /* Force Outlook to provide a "view in browser" menu link. */
+        body {
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+        .ExternalClass {
+            width: 100%;
+        }
+        /* Force Hotmail to display emails at full width */
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+            line-height: 100%;} /* Force Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
+            #backgroundTable {
+                margin: 0;
+                padding: 0;
+                width: 100% !important;
+                line-height: 100% !important;
+            }
+            img {
+                outline: none;
+                text-decoration: none;
+                border: none;
+                -ms-interpolation-mode: bicubic;
+            }
+            a img {
+                border: none;
+            }
+            .image_fix {
+                display: block;
+            }
+            p {
+                margin: 0px 0px !important;
+            }
+            table td {
+                border-collapse: collapse;
+            }
+            table {
+                border-collapse: collapse;
+                mso-table-lspace: 0pt;
+                mso-table-rspace: 0pt;
+            }
+            /*a {color: #e95353;text-decoration: none;text-decoration:none!important;}*/
+            /*STYLES*/
+            table[class=full] {
+                width: 100%;
+                clear: both;
+            }
+            @media only screen and (max-width: 500px) {
+                *[class].yahoo_fix {
+                    display: block;
+                }
+                *[class].h0 {
+                    height: 0px !important;
+                }
+                *[class].h1 {
+                    height: 1px !important;
+                }
+                *[class].h2 {
+                    height: 2px !important;
+                }
+                *[class].h10 {
+                    height: 10px !important;
+                }
+                *[class].w280 {
+                    width: 280px !important;
+                }
+                *[class].w300 {
+                    width: 300px !important;
+                }
+                *[class].w100pct {
+                    width: 100% !important;
+                }
+                *[class].fl {
+                    float: left !important;
+                }
+                *[class].fr {
+                    float: right !important;
+                }
+                *[class].h {
+                    display: none !important;
+                }
+                *[class].img100procent img {
+                    width: 100% !important;
+                    height: auto !important;
+                    max-width: 300px !important;
+                }
+                *[class].mleft10 {
+                    margin-left: 10px;
+                }
+                *[class].bordertop {
+                    border-top: 1px solid #151515 !important;
+                }
+                *[class].alignl {
+                    text-align: left !important;
+                }
+                *[class].alignc {
+                    text-align: center !important;
+                }
+                *[class].break {
+                    display: block;
+                    clear: both;
+                }
+                *[class].left {
+                    text-align: left !important;
+                }
+                *[class].devicewidth {
+                    width: 300px !important;
+                }
+                *[class].devicewidthinner {
+                    width: 300px !important;
+                }
+                *[class].img280 {
+                    width: 280px !important;
+                    height: auto;
+                    text-align: center !important;
+                }
+                *[class].img300 {
+                    width: 300px !important;
+                    height: auto;
+                    text-align: center !important;
+                }
+            }
+            <!-- #cc0000 - lys rød kun top #990000 - Alt andet rødt -->
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#ececec; " ><div style="background-color:#ececec; " ><table cellspacing="0" cellpadding="0" border="0" width="100%" id="logo" bgcolor="#FFFFFF" ><tr ><td ><table width="640" cellspacing="0" cellpadding="0" border="0" align="center" class="w300" ><tr ><td ><table align="left" class="w100pct alignc" ><tr ><td style="padding:20px 0px; " class="mktEditable" id="logoet" ><img style="display:block;" border="0" width="129" height="37" src="http://www.postdanmark.dk/da/PublishingImages/Om-os/4_farvet_logo.gif" alt="Post Danmark"></td>
+</tr>
+</table>
+<table align="right" class="w100pct alignc" ><tr ><td class="mktEditable" id="webversion" style="padding:20px 0px; font-size:11px; line-height:15px; letter-spacing:0.025em; font-family:verdana,arial,sans-serif; color:#333333; text-align:right; " valign="top" >Hvis du ikke kan læse denne e-mail, <a href="{{system.viewAsWebpageLink}}" style="text-decoration:none;color:#990000;">klik her</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="66%" bgcolor="#CC0000" style="font-size: 1px; line-height: 1px;" height="8">&nbsp;</td>
+<td width="34%" bgcolor="#E1E1E1" style="font-size: 1px; line-height: 1px;" height="8">&nbsp;</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="20">&nbsp;</td>
+</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td ><table width="640" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="0" border="0" style="border-bottom:2px solid #e1e1e1; " class="w300" ><tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td class="mktEditable img100procent" id="banner-image" ><img style="display: block;" title="PostDanmark" src="http://vps5-22.rackhosting.com/LIVE/PostDanmark/PostDanmarkMarketo/Email/img/B2B_MAIL_Optout_640x242.jpg" alt="PostDanmark" width="640" height="242"></td>
+</tr>
+<tr ><td class="mktEditable" id="body" align="left" style="padding:20px; color:#333333; font-size:14px; font-family:Verdana, Arial, sans-serif; line-height:18px; " ><p style="color: #333333; font-size: 14px; font-family: Verdana, Arial, sans-serif; line-height: 17px;"><span style="color: #990000; font-size: 22px; line-height: 26px;">Vi har modtaget din afmelding</span><br /> <br /> Vi vil ikke l&aelig;ngere benytte <a style="color: #333333; font-size: 14px; font-family: Verdana, Arial, sans-serif; line-height: 17px; text-decoration: none;" href="{{lead.Email Address:default=din email}}">{{lead.Email Address:default=din email}}</a> til at sp&oslash;rge dig til r&aring;ds og fort&aelig;lle om services og produkter, der er relevante for dig og din virksomhed.&nbsp;<br /> <br /> Du er altid velkommen til at kontakte os p&aring; <strong>{{my.B2B-Telefonnummer}}</strong>&nbsp;og bes&oslash;ge os p&aring; <a style="color: #990000;" href="http://www.postdanmark.dk/erhverv">www.postdanmark.dk/erhverv</a><br /> <br /> Med venlig hilsen<br /> Post Danmark</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="20">&nbsp;</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" ><tr ><td align="center" class="mktEditable" id="pligt-text" valign="middle" style="font-family:arial, verdana, sans-serif; font-size:12px; color:#999999; padding:4px; " height="70" >Vi har sendt denne e-mail til {{lead.Email Address:default=din mail}}</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

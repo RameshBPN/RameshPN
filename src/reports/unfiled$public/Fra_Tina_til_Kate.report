@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_ID</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>AMOUNT</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>Account.Postal_Address_Postal_Code__c</field>
+    </columns>
+    <columns>
+        <field>Account.Postal_Address_City__c</field>
+    </columns>
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <currency>DKK</currency>
+    <filter>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <operator>notEqual</operator>
+            <value>Closed Lost,Closed Won</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FULL_NAME</column>
+            <operator>notEqual</operator>
+            <value>,dzana Avdic,martin Andreil,Claus Vaaben,Carsten Nielsen,Thomas Have,Thomas christensen,kenneth Andersson,Anita Juul Madsen,Erik Bjerring Georgi,Christian Hammershøy,Morten Pagh,Kasper Flenssted Flygare,Jette Glistrup,Dorthe Dahl Fisker,Jesper Birch Pedersen,Michael Rosborg,Rikke Lund,Jørgen Sørensen,Christian Meinhardt,Kim Slot,Jane Legaard,Morten Korsgaard,Laila Veldhuis,John Kenneth Nilsson,Erling Hedegaard,Jesper B.T. Henriksen,Berit Pedersen,Hasan Tosun,Sebastian Thostrup,Mette Leonhardt,Flemming Sahl,Peter Erichsen,Jacob Christiansen,Karin Demant,Dorte Ditlev,Bo Falkedal,Kent Frilev,Niels Fuglsang Brouer,Gitte Reinholdt Hansen,Nicoline Hansen,Karina Iversen,Katja Kromann Bengtsson,Palle Neigaard,Martin Ørgård Hansen,Pia Rosenbech Kristensen,Per Harrit,Jan Pedersen,Maria Møller Dam,Klavs Elhøj,Mahir Kaya,Lisa Dahlsgaard Bartens,Tim s f Jensen,Michael Brandt Lundstrøm,Anne Bonde,christina Bach Johansen,Lise Boelsmand Larsen,Peter Hansen,Malene Hansen,Gitte Brisson</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FULL_NAME</column>
+            <operator>notEqual</operator>
+            <value>Torben W Hansen,Dorthe Stigaard,Finn Nysøe Hansen,Gitte Burfelt Brolin,Michael Dall,Kenny Mero,Merete W Olsen,Helle Povlsen,Bettine Ortmann,Jimmie Hviid Topp,Diana Nonbo,Carsten Serritzlew,Jacob Strøm,Henrik Linaa,Morten Risby Hornemann,Daniel Paske,Morten Schou Olsen,Preben Iversen,Carsten Osmund,Maria Møller Dam,Torben Melchiorsen,Dorte Rosborg,Laila Quere,Helle Jørgensen,Thomas S. Ejsing,Jesper M. Hansen,Christina Valet,Inge Kjærsgaard,Ole Rosengreen Martensen,Birgit Nielsen,Susanne Bech Lausen,Klaus Kristensen</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FULL_NAME</column>
+            <operator>notEqual</operator>
+            <value>Thomas Have</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Sales_Area__c</column>
+            <operator>equals</operator>
+            <value>1000,PDK BE,4000,PDK LO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FULL_NAME</column>
+            <operator>equals</operator>
+            <value>Thomas Have</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Fra Tina til Kate</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>AMOUNT</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <endDate>2999-12-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2013-01-01</startDate>
+    </timeFrameFilter>
+</Report>

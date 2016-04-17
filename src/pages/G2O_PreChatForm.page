@@ -1,0 +1,68 @@
+<apex:page showHeader="false"  controller="G2O_PreChatForm_VFC">
+
+    <!-- This script takes the endpoint URL parameter passed from the deployment page and makes it the action for the form -->
+    <script type="text/javascript">
+     (function() { 
+     function handlePageLoad() {
+       var endpointMatcher = new RegExp("[\\?\\&]endpoint=([^&#]*)");
+       document.getElementById('prechatForm').setAttribute('action',
+       decodeURIComponent(endpointMatcher.exec(document.location.search)[1]));
+     } if (window.addEventListener) {
+              window.addEventListener('load', handlePageLoad, false);
+    } else { window.attachEvent('onload', handlePageLoad, false);
+              }})(); 
+
+    window.title = "My Custom Live Chat Window";
+</script>
+    <body>
+        <apex:image id="pnLogo" value="{!$Resource.pn_chat_logo_DK}"
+            width="121" height="35" />
+        <br />
+        <br />
+        <apex:outputPanel rendered="{!!blockedUser}">
+        <form method='post' id='prechatForm'>
+            Det er vigtigt for Post Danmark, at yde den bedst mulige kundeservice.
+            Skriv din e-mail adresse her og hjælp os til at genkende dig fra
+            tidligere besøg. <br />
+            <br />
+            <p>
+                E-mail adresse: <input type='text' name='liveagent.prechat:Email' />
+            </p>
+            <br /> Drejer dit spørsmål sig om forsendelser med track and trace,
+            kan du forberede vores kundservice ved at skrive dit
+            forsendelsesnummer her. <br />
+            <br />
+            <p>
+                Forsendelsenummer: <input type='text'
+                    name='liveagent.prechat:Forsendelsenummer' />
+            </p>
+            <br /> Eller spring over og gå videre til chatten.<br />
+            <br /> <input type="hidden" name="liveagent.prechat.button"
+                value="573g0000000CaSK" />
+            <!-- Creates an auto-query for a matching Contact record’s Email field based on the 
+      value of the liveagent.prechat:Email field -->
+            <!-- <input type="hidden" name="liveagent.prechat.query:Email" value="Contact,Contact.Email" /> -->
+            <input type="hidden" name="liveagent.prechat.query:Email" value="Contact,Contact.Email,Account,Account.Email_Address__c" />
+            <input type="hidden" name="liveagent.prechat.save:Email" value="Email__c" /> 
+            <input type='submit' value='Til chatten' id='prechat_submit' />
+
+        </form>
+        </apex:outputPanel>
+        <apex:outputPanel rendered="{!blockedUser}">
+            <h2>Kære kunde</h2><br/>
+           <br/>Du har forsøgt at chatte med os.<br/>
+            Din ip-adresse er blevet spærret.<br/>
+            Grunden hertil er, at sprogbruget i din sidste chatsession ikke var acceptabel.<br/>
+           <br/>
+           Har du spørgsmål til dette, er du velkommen til at kontakte Post Danmark på 70 70 70 30.
+        </apex:outputPanel>       
+    </body>
+    <style type="text/css">
+        body {
+            margin: 10px
+        }
+        p {
+            font-weight: bolder
+        }
+    </style>
+</apex:page>

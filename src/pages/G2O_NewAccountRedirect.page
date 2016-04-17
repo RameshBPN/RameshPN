@@ -1,0 +1,6 @@
+<apex:page standardController="Account" 
+	extensions="G2O_NewAccountRedirect_VFCx" 
+	action="{!redirectCustomerCreate}"> 
+<h1>Sorry! Something went wrong in the customer create process</h1>
+<p>Please contact your administrator, provide them this URL and the steps you made before receiving this error message.</p>
+</apex:page>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Standardmall för respons på kundfrågor.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>SUPPORT: Kundcase-respons med lösning (EXEMPEL)</name>
+    <style>none</style>
+    <subject>Kundcase {!Case.CaseNumber}:  {!Case.Subject}</subject>
+    <type>text</type>
+</EmailTemplate>

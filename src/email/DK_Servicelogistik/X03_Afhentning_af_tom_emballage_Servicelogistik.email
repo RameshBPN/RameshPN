@@ -1,0 +1,56 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><b><span style="font-size:10.0pt;font-family:Arial">Afhentning af tom emballage -
+Servicelogistik</span></b><span style="font-size:10.0pt;font-family:Arial"><o:p></o:p></span></p></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB">{!Case.Sender__c} har&nbsp;<o:p></o:p></span><span style="font-family: Arial; font-size: 10pt; line-height: 115%;">den (</span><b style="font-family: Arial; font-size: 10pt; line-height: 115%;">indsæt dato</b><span style="font-family: Arial; font-size: 10pt; line-height: 115%;">)
+klaget over, at buddet ikke har medtaget tom emballage</span><b style="font-family: Arial; font-size: 10pt; line-height: 115%;"> </b><span style="font-family: Arial; font-size: 10pt; line-height: 115%;">i forbindelse med
+omdeling af forsendelse til:&nbsp;</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family: Arial; font-size: 10pt; line-height: 115%;"><br></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB">{!Case.Receiver__c}<o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB">{!Case.Receiver_Postal_Address_Street__c}
+{!Case.Receiver_Postal_Address_House_Number__c}
+{!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c}
+<o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")}
+{!Case.Receiver_Postal_Address_PO_Box__c} <o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+
+
+
+
+
+</p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")}
+{!Case.Receiver_Postal_Address_Suburb__c}&nbsp;<o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB">{!Case.Receiver_Postal_Address_Postal_Code__c}
+{!Case.Receiver_Postal_Address_City__c} <o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB">
+
+</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB">{!IF(Case.Receiver_Postal_Address_Country__c="DK","")}
+{!Case.Receiver_Postal_Address_Country__c}<o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB"><br></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin-bottom: 0.0001pt;"><span style="font-size:
+10.0pt;font-family:Arial">Almindelig afhentning af tom emballage sker normalt i
+forbindelse med omdeling af servicelogistikforsendelser. Det har ikke været
+muligt at få oplyst en stregkode.<o:p></o:p></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin-bottom: 0.0001pt;"><span style="font-size:
+10.0pt;font-family:Arial">&nbsp;</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB">
+
+
+
+<span style="font-size: 10pt; line-height: 115%;">Emballagen
+kan hentes ved:</span></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB"><span style="font-size: 10pt; line-height: 115%;"><br></span></span></p><p class="MsoNormal"><span lang="EN-GB" style="line-height: 15.3333320617676px;"><font face="Arial" size="2">{!Case.Description}</font></span></p><p class="MsoNormal"><span lang="EN-GB" style="line-height: 15.3333320617676px;"><font face="Arial" size="2"><br></font></span></p><p class="MsoNormal"><span lang="EN-GB" style="line-height: 15.3333320617676px;"><font face="Arial" size="2"><br></font></span></p><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size:
+10.0pt;font-family:Arial">Distributionscentret bedes sikre, at den tomme
+emballage hentes og returneres så hurtigt som muligt.<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size:
+10.0pt;font-family:Arial">&nbsp;</span></p><p class="MsoNormal"><span lang="EN-GB" style="line-height: 15.3333320617676px;">
+
+
+
+</span></p><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size:
+10.0pt;font-family:Arial">Med venlig hilsen<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size:
+10.0pt;font-family:Arial"><br></span></p><p><span lang="EN-GB" style="font-size: 9pt; font-family: Arial;">{!Case.OwnerFirstName} {!Case.OwnerLastName}<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span style="font-size:
+10.0pt;font-family:Arial"><br></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB"><span style="font-size: 10pt; line-height: 115%;"><br></span></span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB"><span style="font-size: 10pt; line-height: 115%;">&nbsp;</span></span></p></div>]]></td>
+</tr>
+</table>

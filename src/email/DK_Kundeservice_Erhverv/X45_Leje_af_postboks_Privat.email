@@ -1,0 +1,56 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<h3><font face="Arial, sans-serif" size="2">Leje af postboks – Privat</font></h3>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2"><span style="background: white;">Hej&nbsp;</span>{!Case.Account} &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>&nbsp;</b>Dato {!Today}<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Tak for din bestilling af
+postboks.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Når man som privat bestiller
+en postboks, gælder postboksen for alle, som bor på adressen.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Da vi har registreret andre
+end dig på adressen XXXXX, må vi bede dig kontakte os for at bekræfte, at
+postboksen skal gælde for hele husstanden.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Hvis postboksen kun skal
+gælde for din post, så er det ikke muligt at tildele dig en postboks, og derfor
+må vi bede dig overveje, om en midlertidig flytning kan være en løsning. Du kan
+læse mere om den løsning på <u>www.postdanmark.dk.</u><o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Har du spørgsmål, er du
+velkommen til at kontakte os.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Med venlig hilsen<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Tidlig Post <o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Tlf. 70 11 12 30<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><span style="background-image: initial; background-attachment: initial; background-color: white; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><font face="Arial, sans-serif" size="2">Sagsnummer:{!Case.Main_Case_Number__c}</font></span><span style="font-size: 12pt; font-family: Arial;"><o:p></o:p></span></p>]]></td>
+</tr>
+</table>

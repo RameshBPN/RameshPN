@@ -1,0 +1,78 @@
+<table border="0" cellpadding="0" width="650" cellspacing="0" height="400" >
+<tr valign="top" >
+<td width="460" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="460" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<span style="font-size: 10pt; font-family: Arial; color: black;"><span style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt"></span></span><font face="Arial, sans-serif" size="2" style="color: rgb(0, 0, 0);"><span lang="EN-GB">
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Receiver__c}<!--?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /--><o:p></o:p></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_S__c} {!Case.Receiver_Postal_Address_Room_Number__c}</span><o:p></o:p></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c} <o:p></o:p></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c} <o:p></o:p></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c} <o:p></o:p></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Receiver_Postal_Address_Country__c}<o:p></o:p></span></p>
+<p style="margin: 0cm 0cm 0pt;" class="MsoNormal" align="left"><span lang="EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p dir="ltr" align="left"><span style="color: black;"><o:p><strong></strong></o:p>&nbsp;</span></p>
+<p align="left"><o:p><strong></strong></o:p>&nbsp;</p>
+<p align="left"><o:p><strong></strong></o:p>&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left"><o:p><strong></strong></o:p>&nbsp;&nbsp;</p>
+<p align="left"><o:p><strong></strong></o:p>&nbsp;</p>
+<p align="left"><o:p><strong></strong></o:p>&nbsp;</p>
+<p align="left"><o:p><strong></strong></o:p>&nbsp;</p>
+<p align="left"><o:p><strong>VI ERSTATTER IKKE DEN BESKADIGEDE&nbsp;FORSENDELSE</strong></o:p></p>
+<p align="left"><o:p></o:p>&nbsp;</p>
+<p align="left"><o:p>Vi har undersøgt din reklamation af den beskadigede forsendelse med stregkodenummer <span style="color: black;">{!Case.Item_Id__c}&nbsp;</span>sendt <span style="color: black;" lang="EN-GB">{!Case.Submission_date__c}</span> af:</o:p></p>
+<p align="left">&nbsp;</p><o:p><span style="color: black;">
+<p align="left"><span style="color: black;">
+</span></p><p align="left"><span style="color: black;" lang="EN-GB"><o:p></o:p></span></p></span></o:p></span>
+</font><p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2"></font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2"></font></p><span lang="EN-GB"><font face="Arial,Sans-Serif" size="2" style="color: rgb(0, 0, 0);">
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Sender__c}<o:p></o:p></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}<o:p></o:p></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}<o:p></o:p></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")} {!Case.Sender_Postal_Address_Suburb__c}<o:p></o:p></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}<o:p></o:p></span></p>
+<p style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class="MsoNormal" align="left"><span style="color: windowtext;" lang="EN-GB">{!IF(Case.Sender_Postal_Address_Country__c="DK","")} {!Case.Sender_Postal_Address_Country__c}<o:p></o:p></span></p>
+</font><p dir="ltr" align="left" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">Vi kan ikke give dig erstatning, da emballagen ikke har været solid nok til at beskytte indholdet. Ifølge vores forretningsbetingelser er det afsenderens ansvar at sørge for, at indholdet er forsvarligt emballeret.&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">Vi kan ikke give dig erstatning, da der er reklameret for sent. Hvis skaden er synlig ved modtagelsen, skal der reklameres med det samme. Hvis skaden ikke er synlig, skal der reklameres senest syv dage efter modtagelsen, søn- og helligedage ikke medregnet.&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">Vi kan ikke give dig erstatning, da&nbsp;forsendelsen er udleveret til dig uden, at skaden er blevet anmeldt. Synlige skader skal anmeldes med det samme. Hvis skaden ikke er synlig, skal der reklameres senest syv dage efter modtagelsen, søn- og helligedage ikke medregnet.&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">Vi kan ikke give dig erstatning, da du ifølge vores oplysninger er tilmeldt Modtagerflex-ordningen. Det betyder, at vi må aflevere forsendelsen på et aftalt sted. Da forsendelsen blev afleveret på det aftalte sted, ophørte vores erstatningsansvar.&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">Forsendelsen er sendt som et almindeligt brev. Vi kan ikke give dig erstatning, da vi ikke erstatter almindelige breve ifølge vores forretningsbetingelser.</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><span style="color: black;" lang="EN-GB"><font face="Arial,Sans-Serif" size="2">Forsendelsen&nbsp;er sendt som Letgods, og det er modtagerens ansvar at anmelde synlige skader straks ved modtagelsen. Da du ikke har anmeldt skaden, kan vi ikke give dig erstatning for den beskadigede forsendelse. </font></span></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<p align="left"><font face="Arial,Sans-Serif" style="font-family: Arial, sans-serif; font-size: 13.6000003814697px; background-color: rgb(255, 255, 255);">Du kan finde mere information om vores forretningsbetingelser på hjemmeside&nbsp;</font><a href="http://www.postdanmark.dk/" style="font-family: Arial; font-size: 13.6000003814697px; background-color: rgb(255, 255, 255);"><font face="Arial,Sans-Serif">www.postdanmark.dk</font></a></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<div style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif" size="2"><span class="909551612-13012016"></span>H<span class="909551612-13012016">vis du mener, at den trufne afgørelse ikke er i 
+overensstemmelse med vores forretningsbetingelser, kan du&nbsp;indbringe&nbsp;den&nbsp;til 
+PostNord Danmarks Ankefunktion, Carsten Niebuhrs Gade 4, 2.&nbsp; 1577 København V 
+eller sende en mail til&nbsp;<a href="mailto:ankesager@post.dk"><u>ankesager@post.dk</u></a><font color="#000000"> 
+</font></span><font color="#0000ff"><span class="909551612-13012016"></span></font></font></div>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">Vi undskylder ulejligheden, du har haft på grund af sagen.</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">Med venlig hilsen</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif" size="2">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif"><font size="2"><span style="color: black;" lang="EN-GB">{!Case.OwnerFirstName} {!Case.OwnerLastName}</span><br>&nbsp;</font></font></p>
+<p style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><font face="Arial,Sans-Serif"></font></p></span>]]></td>
+</tr>
+</table>
+</td>
+<td width="10" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<![CDATA[]]></td>
+<td width="180" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="180" cellspacing="5" height="400" >
+<tr valign="top" height="100" >
+<td rowspan="3" width="180" tEditID="c2r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c2r1" locked="0" >
+<![CDATA[<p align="left"><font size="1"><font face="Arial, sans-serif">{!User.CompanyName} <br>{!User.Division}<br>{!User.Department}<br>{!User.Street}<br>{!User.PostalCode} {!User.City}<br>CVR nr.: 26663903<br>{!User.Company_Webb_Address__c}<br>&nbsp;<br>Tlf {!User.Department_Phone__c}<br>{!User.Team_Email__c}<br>&nbsp;<br>Dato {!Today}<br>Sagsnr. {!Case.Main_Case_Number__c} <br>Sagsbeh {!User.Alias}</font><br></font></p>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

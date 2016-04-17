@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>Holds Mapping between the Sales Area &amp; API Name of Account fields &amp; few other values that are required to kept configurable.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Custom_Call_Interval_Value__c</fullName>
+        <externalId>false</externalId>
+        <label>Custom Call Interval Value</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Call_Interval__c</fullName>
+        <externalId>false</externalId>
+        <label>Custom Call Interval</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MaxNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>MaxNumber</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Next_Call_List_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Next Call List Date</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Not_Reached_Counter__c</fullName>
+        <externalId>false</externalId>
+        <label>Not Reached Counter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SubSegment__c</fullName>
+        <externalId>false</externalId>
+        <label>SubSegment</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TopSegment__c</fullName>
+        <externalId>false</externalId>
+        <label>TopSegment</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>SalesAreaToFieldMapping</label>
+</CustomObject>

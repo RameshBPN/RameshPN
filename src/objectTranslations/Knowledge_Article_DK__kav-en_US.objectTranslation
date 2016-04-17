@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge Article – DK</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Knowledge Articles – DK</value>
+    </caseValues>
+    <fields>
+        <label><!-- Chat --></label>
+        <name>Chat_Answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- LN Eurocom --></label>
+        <name>LN_Eurocom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mail --></label>
+        <name>Mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web --></label>
+        <name>Web__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Process --></label>
+        <name>Work_Process__c</name>
+    </fields>
+    <layouts>
+        <layout>Knowledge Article – DK Layout</layout>
+        <sections>
+            <label><!-- Chat --></label>
+            <section>Chat</section>
+        </sections>
+        <sections>
+            <label><!-- LN Eurocom --></label>
+            <section>LN Eurocom</section>
+        </sections>
+        <sections>
+            <label><!-- Mail --></label>
+            <section>Mail</section>
+        </sections>
+        <sections>
+            <label><!-- Phone --></label>
+            <section>Phone</section>
+        </sections>
+        <sections>
+            <label><!-- Web --></label>
+            <section>Web</section>
+        </sections>
+        <sections>
+            <label><!-- Work Process --></label>
+            <section>Work Process</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

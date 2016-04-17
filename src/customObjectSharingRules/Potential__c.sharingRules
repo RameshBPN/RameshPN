@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteriaBasedRules>
+        <fullName>Potential_LO_DK</fullName>
+        <sharedTo>
+            <roleAndSubordinates>LO_DK_Sales_Marketing</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Sales_Area__c</field>
+            <operation>equals</operation>
+            <value>LO DK</value>
+        </criteriaItems>
+        <accessLevel>Edit</accessLevel>
+        <name>Potential LO DK</name>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Potential_LO_SE</fullName>
+        <sharedTo>
+            <roleAndSubordinates>LO_SE_Sales_Marketing</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Sales_Area__c</field>
+            <operation>equals</operation>
+            <value>LO SE</value>
+        </criteriaItems>
+        <accessLevel>Edit</accessLevel>
+        <name>Potential LO SE</name>
+    </criteriaBasedRules>
+    <criteriaBasedRules>
+        <fullName>Potential_ME_SE</fullName>
+        <sharedTo>
+            <roleAndSubordinates>ME_Sales_and_Marketing</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Sales_Area__c</field>
+            <operation>equals</operation>
+            <value>ME SE</value>
+        </criteriaItems>
+        <accessLevel>Edit</accessLevel>
+        <name>Potential ME SE</name>
+    </criteriaBasedRules>
+</CustomObjectSharingRules>

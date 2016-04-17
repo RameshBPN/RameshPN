@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>Sales_team__c</field>
+        <field>Corporate_Registration_Number__c</field>
+        <field>Account</field>
+        <field>LE_Name__c</field>
+        <field>Amount</field>
+        <field>CloseDate</field>
+        <field>StageName</field>
+        <field>Notes_for_Approver__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Owner</name>
+                <type>relatedUserField</type>
+            </approver>
+            <approver>
+                <name>fktkol1@post.dk</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Price group approval for Adresseløse, Magasinpost, Facility Service,  Lokale ugeaviser and Dagblade products</description>
+        <entryCriteria>
+            <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>,Adresseløse,Magasinpost,Blade</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>Facility Service,Samme dag,Næste dag,Standard,Øvrige,Lokal Kørsel,Logistik,Service,Big boks,Fremlæggelser,Sikkerhedsscreening,Varehåndtering,FS-håndtering,Frankering,Kørsler</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>PP m. særlig afregning</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>&apos;Løsninger,organisk&apos;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>Lokale ugeaviser</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Hotline Price Group Approval</label>
+        <name>Hotline_Price_Group_Approval</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Owner</name>
+                <type>relatedUserField</type>
+            </approver>
+            <approver>
+                <name>fktkol1@post.dk</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <booleanFilter>1 OR 2 OR 3</booleanFilter>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>Breve Indland,Erhvervsbreve,Frimærker,Nemt Brev,Ankommende Breve udland,DM-breve,Særlige brevprodukter,B-breve,A-breve</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>&apos;Blindeforsendelser,indland&apos;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>&apos;Frankeringsmaskiner,indland&apos;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Breve Indland Price Group Approval</label>
+        <name>Breve_Indland_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Owner</name>
+                <type>relatedUserField</type>
+            </approver>
+            <approver>
+                <name>Owner</name>
+                <type>relatedUserField</type>
+            </approver>
+            <approver>
+                <name>fktfu16@post.dk</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>Breve Udland</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Breve Udland Price Group Approval</label>
+        <name>Breve_Udland_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Owner</name>
+                <type>relatedUserField</type>
+            </approver>
+            <approver>
+                <name>fktkol1@post.dk</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>fktkol1@post.dk</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>Direct Entry</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Direct Mail Price Group Approval</label>
+        <name>Direct_Mail_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Owner</name>
+                <type>relatedUserField</type>
+            </approver>
+            <approver>
+                <name>tillaegsydelser@post.dk</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>tillaegsydelser@post.dk</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>Tillægsydelser,Adminstration,Adresser,QR Løsninger</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>Salg til andre post</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>&apos;Tryk,Print &amp; Kuvertering&apos;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>NEM KAMPAGNE,Segmentering,Manuel Pakning,Foliering,Transport,Adressevask,Database Vedligehold,Retur og Responshåndtering</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>Berigelse af eksisterende Database,Analyser,Effektmåling</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Tillægsydelser Price Group Approval</label>
+        <name>Till_gsydelser_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Owner</name>
+                <type>relatedUserField</type>
+            </approver>
+            <approver>
+                <name>fktfu15@post.dk</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>fktfu15@post.dk</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Opportunity.Marketo_Product_CSV__c</field>
+                <operation>contains</operation>
+                <value>Service Distribution,Velfærdsdistribution,Food,Lokal Kørsler,Telemedicin</value>
+            </criteriaItems>
+        </entryCriteria>
+        <label>Hotline–Last Mile Price Group Approval</label>
+        <name>Last_Mile_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>Approval Steps for opportunities for PDK BE</description>
+    <emailTemplate>Opportunity_Email_Templates/DK_Price_Group_Approval_Email</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Opportunity.Sales_Area__c</field>
+            <operation>equals</operation>
+            <value>1000</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Opportunity Price Group Approval PDK BE</label>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

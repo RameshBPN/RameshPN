@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Work item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Work items</value>
+    </caseValues>
+    <fields>
+        <label><!-- Area --></label>
+        <name>Area__c</name>
+        <picklistValues>
+            <masterLabel>Apex</masterLabel>
+            <translation><!-- Apex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apex Web Service</masterLabel>
+            <translation><!-- Apex Web Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Button / VF</masterLabel>
+            <translation><!-- Button / VF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Config</masterLabel>
+            <translation><!-- Config --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Integration</masterLabel>
+            <translation><!-- Custom Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data model</masterLabel>
+            <translation><!-- Data model --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation><!-- Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mashup</masterLabel>
+            <translation><!-- Mashup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refactoring</masterLabel>
+            <translation><!-- Refactoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation><!-- Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing</masterLabel>
+            <translation><!-- Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trigger</masterLabel>
+            <translation><!-- Trigger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VF</masterLabel>
+            <translation><!-- VF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validate</masterLabel>
+            <translation><!-- Validate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Service Request</masterLabel>
+            <translation><!-- Web Service Request --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Developer --></label>
+        <name>Developer__c</name>
+        <relationshipLabel><!-- Work items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Documentation (Link) --></label>
+        <name>Documentation_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Documentation (Title) --></label>
+        <name>Documentation_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ending Sprint --></label>
+        <name>Ending_Sprint__c</name>
+        <relationshipLabel><!-- Work items (Ending this Sprint) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Estimated Effort (Days) --></label>
+        <name>Estimated_Effort_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Defect ID --></label>
+        <name>External_Defect_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Functional Spec (Link) --></label>
+        <name>Functional_Spec_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Test(s) --></label>
+        <name>Integration_Tests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Misc Notes --></label>
+        <name>Misc_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+    </fields>
+    <fields>
+        <help><!-- Work Item a defect is related to --></help>
+        <label><!-- Related Work item --></label>
+        <name>Related_Work_item__c</name>
+        <relationshipLabel><!-- Defects/ Change Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Release Deadline --></label>
+        <name>Release_Deadline__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Sprint --></label>
+        <name>Start_Sprint__c</name>
+        <relationshipLabel><!-- Work items (Starting this Sprint) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted by BA</masterLabel>
+            <translation><!-- Accepted by BA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delayed Start</masterLabel>
+            <translation><!-- Delayed Start --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dev Complete</masterLabel>
+            <translation><!-- Dev Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outscoped</masterLabel>
+            <translation><!-- Outscoped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA Tested - Fail</masterLabel>
+            <translation><!-- QA Tested - Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA Tested - Pass</masterLabel>
+            <translation><!-- QA Tested - Pass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected by BA</masterLabel>
+            <translation><!-- Rejected by BA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Started</masterLabel>
+            <translation><!-- Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAT Tested - Fail</masterLabel>
+            <translation><!-- UAT Tested - Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAT Tested - Pass</masterLabel>
+            <translation><!-- UAT Tested - Pass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on Someone Else</masterLabel>
+            <translation><!-- Waiting on Someone Else --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Task --></label>
+        <name>Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technical Spec Reference --></label>
+        <name>Technical_Spec_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Stream --></label>
+        <name>Work_Stream__c</name>
+        <picklistValues>
+            <masterLabel>Application Maintainance</masterLabel>
+            <translation><!-- Application Maintainance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major Release (Please specify)</masterLabel>
+            <translation><!-- Major Release (Please specify) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Old: Hypercare</masterLabel>
+            <translation><!-- Old: Hypercare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Old: Release 1.0</masterLabel>
+            <translation><!-- Old: Release 1.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Old: Release 1.1</masterLabel>
+            <translation><!-- Old: Release 1.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Old: Release 2.0</masterLabel>
+            <translation><!-- Old: Release 2.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Old: Release 3.0</masterLabel>
+            <translation><!-- Old: Release 3.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project</masterLabel>
+            <translation><!-- Project --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Change Request</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Documentation --></label>
+            <section>Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Defect</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work item Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Documentation --></label>
+            <section>Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Change Request --></label>
+        <name>Change_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Defect --></label>
+        <name>Defect</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Work item --></label>
+        <name>Work_item</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You must provied an estimate to change a record type. If you are changing from Workitem to defect or change request, provide a value and remove it after saving the record. --></errorMessage>
+        <name>G2OPlanning_Work_Items_Converting_RT</name>
+    </validationRules>
+</CustomObjectTranslation>

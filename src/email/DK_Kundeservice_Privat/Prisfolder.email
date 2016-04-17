@@ -1,0 +1,64 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=2>{!Case.Account}<?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=2>{!Case.Postal_Address_Street__c} {!Case.Postal_Address_House_Number__c} {!Case.Postal_Address_House_Number_Supplement__c} {!Case.Postal_Address_Room_Number__c}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=2>{!IF(Case.Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Postal_Address_PO_Box__c}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=2>{!IF(!Case.Postal_Address_Suburd__c="Suburb","")} {!Case.Postal_Address_Suburd__c}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=2>{!Case.Postal_Address_Postal_Code__c} {!Case.Postal_Address_City__c}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal><FONT face=Arial,Sans-Serif><FONT size=2><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB>{!NullValue(IF(!Case.Postal_Address_Country__c="DK</SPAN><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB>", "\"\")")} {!Case.Postal_Address_Country__c}</SPAN></FONT></FONT></P>
+<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal><FONT face=Arial,Sans-Serif><FONT size=2><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB></SPAN></FONT></FONT>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal><FONT face=Arial,Sans-Serif><FONT size=2><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB></SPAN></FONT></FONT>&nbsp;</P>
+<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal><FONT face=Arial,Sans-Serif><FONT size=2><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB></SPAN></FONT></FONT>&nbsp;</P><FONT face=Arial,Sans-Serif><FONT size=2><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2>
+<P><STRONG><FONT face=Arial,Sans-Serif></FONT></STRONG>&nbsp;</P>
+<P><STRONG><FONT face=Arial,Sans-Serif></FONT></STRONG>&nbsp;</P>
+<P><STRONG><FONT face=Arial,Sans-Serif></FONT></STRONG>&nbsp;</P>
+<P><STRONG><FONT face=Arial,Sans-Serif>Kære <SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2>{!Case.Account}</FONT></SPAN></FONT></STRONG></P>
+<P><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><BR><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P></SPAN>
+<P><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2 face=Arial,Sans-Serif>Tak for din mail.</FONT></SPAN></P>
+<P><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB></SPAN><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2 face=Arial,Sans-Serif>Post Danmarks prisfolder omdeles ikke til husstande, som er tilmeldt Reklamer nej tak. </FONT></SPAN></P>
+<P><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB></SPAN><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2 face=Arial,Sans-Serif>Prisfolderen er en reklame fra vores virksomhed og må derfor ikke afleveres til husstanden, der har nej tak til reklamer.</FONT></SPAN></P>
+<P><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB></SPAN><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2 face=Arial,Sans-Serif>Du kan altid finde de gældende priser på Post Danmarks hjemmeside </FONT><A href="http://www.postdanmark.dk"><FONT size=2 face=Arial,Sans-Serif>www.postdanmark.dk</FONT></A><FONT size=2 face=Arial,Sans-Serif> eller på vores posthuse. </FONT></SPAN></P>
+<P><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB></SPAN><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2 face=Arial,Sans-Serif>(Jeg sender dig en prisfolder pr. brev)</FONT></SPAN></P>
+<P><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB></SPAN><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2 face=Arial,Sans-Serif>Med venlig hilsen</FONT></SPAN></P>
+<P><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB></SPAN><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB></SPAN><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=2>
+<P><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=2>{!Case.OwnerFirstName} {!Case.OwnerLastName}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="tab-stops: 96.75pt"><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 9pt"><FONT size=2 face=Arial,Sans-Serif>{!Case.OwnerTitle}</FONT><SPAN style="mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN><o:p></o:p></SPAN></P>
+<P>&nbsp;</P><o:p></o:p></FONT></FONT></SPAN></FONT><o:p></o:p></SPAN></FONT></FONT>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" aEditID="c2r1" rowspan="3" >
+<![CDATA[<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 8pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=1>{!User.CompanyName}<?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 8pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=1>{!User.Division}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 8pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=1>{!User.Department}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 8pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=1>{!User.Street}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 8pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=1>{!User.PostalCode} {!User.City}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 8pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=1>CVR nr.: 26663903<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 8pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=1>{!User.Company_Webb_Address__c}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 8pt; mso-ansi-language: EN-GB" lang=EN-GB><o:p><FONT size=1 face=Arial,Sans-Serif>&nbsp;</FONT></o:p></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 8pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=1>Tlf {!User.Department_Phone__c}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 8pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=1>{!User.Team_Email__c}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 8pt; mso-ansi-language: EN-GB" lang=EN-GB><o:p><FONT size=1 face=Arial,Sans-Serif>&nbsp;</FONT></o:p></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 8pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=1>Dato {!Today}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 8pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=1>Sagsnr. {!Case.Main_Case_Number__c}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt" class=MsoNormal><SPAN style="FONT-FAMILY: Arial; FONT-SIZE: 8pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT face=Arial,Sans-Serif><FONT size=1>Sagsbeh {!User.Alias}<o:p></o:p></FONT></FONT></SPAN></P>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

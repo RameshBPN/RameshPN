@@ -1,0 +1,70 @@
+<apex:page showHeader="true" sidebar="true" standardController="Account" extensions="G2O_ProductWhitespace_VFCx">
+	<apex:form >
+
+    <!-- Header -->
+    <apex:sectionheader title="{!$Label.Product_Whitespace_heading}"
+        subtitle="{!$Label.Search_Criteria_heading}" rendered="{!!showResults}" />	
+    <apex:sectionheader title="{!$Label.Product_Whitespace_heading}"
+        subtitle="{!$Label.Customer}: {!parentAcct.Name}" rendered="{!showResults}" />
+
+    <apex:pageMessages />
+    <!-- END Header -->
+
+    <!-- Define search criteria -->
+	<apex:pageBlock rendered="{!!showResults && !cannotContinue}">
+        <apex:pageBlockSection title="{!$Label.Account_Details_heading}">
+            <apex:outputField value="{!Account.Name}"/>
+            <apex:outputField value="{!Account.Involved_Party_ID__c}"/>
+            <apex:outputField value="{!Account.Corporate_Registration_Number__c}"/>
+        </apex:pageBlockSection>
+   
+        <apex:pageBlockSection title="{!$Label.Select_Date_Range_to_Search_heading}">
+            <apex:inputField value="{!theAccount.Whitespace_StartDate__c}" required="true" />
+            <apex:inputField value="{!theAccount.Whitespace_EndDate__c}" required="true" />	
+        </apex:pageBlockSection>
+        
+        <apex:pageBlockSection title="{!$Label.Select_Products_to_Search_heading}">
+        <apex:pageBlockTable value="{!productFilterList}" var="prd">
+            <apex:column headerValue="{!$Label.Select_for_Whitespace_heading}">
+                <apex:inputField value="{!prd.Select__c}"/>
+            </apex:column>
+            <apex:column value="{!prd.ProductFamily__c}"/>
+        </apex:pageBlockTable>
+        </apex:pageBlockSection>
+
+        <apex:pageBlockButtons >
+          <apex:commandButton action="{!showWhitespace}" value="{!$Label.Next}" styleClass="btn"/>
+          <apex:commandButton action="{!cancel}" value="{!$Label.site.cancel}" styleClass="btn"/>
+        </apex:pageBlockButtons>
+	</apex:pageBlock>
+    <!-- END Search criteria -->
+
+    <!-- Show Results -->
+	<apex:pageBlock rendered="{!showResults && !cannotContinue}" title="{!$Label.White_Space_Product_Map_heading}">
+        <apex:outputPanel rendered="{!debug}">Debug mode ON.<br/>Showing all stages on all line items.</apex:outputPanel>
+        <apex:pageBlockTable value="{!whitespace}" var="ws" title="{!$Label.White_Space_Product_Map_heading} {!Account.Whitespace_StartDate__c} - {!Account.Whitespace_EndDate__c}">
+            <apex:column headerValue="{!$ObjectType.Account.label}" >
+                <apex:outputField value="{!ws.con.AccountId}" /> {!ws.acct.Involved_Party_ID__c}
+            </apex:column>
+            <apex:repeat var="prd" value="{!productFilterList}">
+                <apex:column headerValue="{!prd.ProductFamily__c}" rendered="{!prd.Select__c}">
+                    <apex:repeat var="stage" value="{!ws.productStatusByFamily[prd.ProductFamily__c]}">
+                        <apex:image alt="{!stage}" value="/img/msg_icons/warning24.png" 
+                            rendered="{!stage==oppStatus_InProgress}" />
+                        <apex:image alt="{!stage}" value="/img/msg_icons/error24.png" 
+                            rendered="{!stage==oppStatus_ClosedLost}" />
+                        <apex:image alt="{!stage}" value="/img/msg_icons/confirm24.png" 
+                            rendered="{!stage==oppStatus_ClosedWon}" />
+                        <apex:outputPanel rendered="{!debug}">{!stage}&nbsp;</apex:outputPanel>
+                    </apex:repeat>
+                </apex:column>
+            </apex:repeat>
+        </apex:pageBlockTable>
+        <apex:pageBlockButtons >
+              <apex:commandButton action="{!goBack}" value="{!$Label.Previous}" styleClass="btn"/>
+              <apex:commandButton action="{!cancel}" value="{!$Label.site.cancel}" styleClass="btn"/>
+        </apex:pageBlockButtons>
+	</apex:pageBlock>
+	</apex:form>	
+    <!-- END Results -->
+</apex:page>

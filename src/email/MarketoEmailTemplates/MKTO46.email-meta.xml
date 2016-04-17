@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>@-Kampagne.@-Status_2_Chef_med_maal</name>
+    <style>none</style>
+    <subject>Få de nyeste tal og flere tips til at indhente e-mailpermissions</subject>
+    <textOnly>Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+Målet for dit team {{lead.PN DK Target PM:default=edit me}}
+Medarbejderne i det team, der samler flest e-mailpermissions pr. mand, vinder en tur i biografen for to personer inklusive popcorn.
+{{lead.PN DK Realized PM:default=edit me}}
+ud af 112  
+Nu tikker der e-mailpermissions ind i Salesforce
+Kære {{lead.First Name}}
+
+Der er nu indhentet 112 e-mailpermissions. Selvom vi stadig ikke er på målsætningen (500 e-mailpermissions/uge), er vi altså på vej i den rigtige retning.
+
+
+
+Hvad kan du gøre?
+
+Som leder er det vigtigste at være nysgerrig og få spurgt til, hvordan det går – og hvorfor det går godt eller skidt for dine medarbejdere med at indhente e-mailpermissions. Giv klap på skulderen og gode råd om, hvad andre gør, som virker. Og husk at understrege, hvor vigtige e-mailpermissions er for vores fremtidige forretning.
+
+
+
+Bemærk i øvrigt, at e-mailpermissions skal opsamles, når du alligevel taler med kunden – enten i telefonen eller i forbindelse med et møde.
+
+
+
+Tag endelig fat i mig, hvis du har spørgsmål, og hav en rigtig @ uge.
+
+
+
+Venlig hilsen
+
+
+
+Anders Mittag
+Spørg om et @ – brug det lille manus
+Husk at gøre det til en del af din hverdag altid at slutte af med et @, når du alligevel taler med kunder i telefonen eller ved personlige møder. Sig for eksempel:
+ 
+ • Vi tilbyder e-mails, der viser nye muligheder for din forretning
+ • Inden for breve, pakker, logistik, e-handel og markedsføring
+ • Hvis du er interesseret, skal jeg bare bruge din mailadresse
+ • Så får du en e-mail, hvor du selv melder dig til
+ • Er det noget for dig?
+ 
+ Du har samme manus i folderen ”Hvad @ er meningen” og på din @-blyantsholder.
+Værdien af et @ er 350 kr. år efter år
+En e-mailpermission fra en erhvervskunde er ca. 350 kr. værd om året. Ganske enkelt, fordi kunder både er mere loyale og køber mere, når linjen er åben og relationen er varm. En kunde, der får et flow af relevante e-mails, handler langt mere end kunder, der ikke får disse e-mails. Læs mere i folderen: Hvad @ er meningen?</textOnly>
+    <type>custom</type>
+</EmailTemplate>

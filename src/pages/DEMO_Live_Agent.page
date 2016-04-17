@@ -1,0 +1,34 @@
+<apex:page title="Live Agent Button Demo" showHeader="false">
+    <script type='text/javascript' src='https://c.la2w1cs.salesforceliveagent.com/content/g/js/30.0/deployment.js'></script>
+    <script type='text/javascript'>
+    liveagent.init('https://d.la2w1cs.salesforceliveagent.com/chat', '572b0000000L7D1', '00Dm00000000toT');
+    </script>
+
+    <p><b>PROD</b> - temporary homepage instead of the Post.dk test environment (just somewhere to place the chat button) <br /></p>
+
+    <a id="liveagent_button_online_573b0000000L7PF"
+        href="javascript://Chat" style="display: none;"
+        onclick="liveagent.startChat('573b0000000L7PF')"> <!-- Online Chat Content. Start chat. -->
+        <br />Online<br />
+    <br /> <apex:image id="chatWithUsOnline"
+            value="{!$Resource.Chat_with_us_DK}" width="99" height="25" />
+    </a>
+
+    <div id="liveagent_button_offline_573b0000000L7PF"
+        style="display: none;">
+        <!-- Offline Chat Content. No agent available, link to page with text like "Sorry, but there are no available agents at this moment..." -->
+        <a href="some_Page_With_Agents-Unavailable_Text...">Offline<br />
+        <br /> <apex:image id="chatWithUsOffline"
+                value="{!$Resource.Chat_with_us_DK}" width="99" height="25" />
+        </a>
+    </div>
+
+    <script type="text/javascript">
+        if (!window._laq) { window._laq = []; }
+        window._laq.push(
+            function(){
+                liveagent.showWhenOnline('573b0000000L7PF', document.getElementById('liveagent_button_online_573b0000000L7PF'));
+                liveagent.showWhenOffline('573b0000000L7PF', document.getElementById('liveagent_button_offline_573b0000000L7PF'));
+            });
+    </script>
+</apex:page>

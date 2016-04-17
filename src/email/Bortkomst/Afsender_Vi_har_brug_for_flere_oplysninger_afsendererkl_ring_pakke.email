@@ -1,0 +1,136 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<span style="font-size: 10pt; font-family: Arial; color: black;" lang="EN-GB"><font face="Arial,Sans-Serif"><span style="mso-spacerun: yes"></span></font></span><font size="2" face="Arial, sans-serif"><span lang="SV">
+<p align="left">{!Case.Sender__c}</p>
+<p align="left">{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}</p>
+<p align="left">{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}</p>
+<p align="left">{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")} {!Case.Sender_Postal_Address_Suburb__c} </p>
+<p align="left">{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}</p>
+<p align="left">{!Case.Sender_Postal_Address_Country__c}</p>
+</span></font><p align="left"><font size="2" face="Arial, sans-serif">&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><!--?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /--><o:p></o:p></span>&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p></o:p></span>&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p></o:p></span>&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p><strong></strong></o:p></span>&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p><strong></strong></o:p></span>&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p><font size="2" face="Arial,Sans-Serif"><strong>VI HAR BRUG FOR FLERE OPLYSNINGER</strong></font></o:p></span></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p><strong></strong></o:p></span>&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p><font size="2" face="Arial,Sans-Serif">Vi skriver til dig, fordi modtager efterlyser en&nbsp;forsendelse sendt af dig&nbsp;den&nbsp;{!Case.Submission_date__c}&nbsp;til:</font></o:p></span></p><font face="Arial, sans-serif" size="2"><span lang="EN-GB"><o:p>
+<p style="MARGIN: 0cm 5.65pt 0pt 0cm" class="ModtagerAdresse" align="left"><br></p></o:p></span><span lang="SV">
+<p align="left">{!Case.Receiver__c}</p>
+<p align="left">{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c} </p>
+<p align="left">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c} </p>
+<p align="left">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c} </p>
+<p align="left">{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c} </p>
+<p align="left">{!Case.Receiver_Postal_Address_Country__c}</p>
+</span></font><p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font size="2" face="Arial, sans-serif">&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p><font size="2" face="Arial,Sans-Serif">Forsendelsen er sendt med stregkodenummer {!Case.Item_Id__c}.<br>&nbsp;</font></o:p></span></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p><font size="2" face="Arial,Sans-Serif"> Sæt kryds her, hvis du har modtaget forsendelsen retur.</font></o:p></span></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p></o:p></span>&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p></o:p></span>&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p><font size="2" face="Arial,Sans-Serif">Dato:_____________________ Underskrift_____________________</font></o:p></span></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p></o:p></span>&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p><font face="Arial,Sans-Serif"><font size="2"><strong>Tro og love erklæring på at du ikke har modtaget forsendelsen </strong><strong>retur:</strong></font></font></o:p></span></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p></o:p></span>&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font size="2"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p><font face="Arial,Sans-Serif"> Jeg erklærer på tro og love, at jeg/vi ikke har modtaget forsendelsen retur. Derudover vil jeg/vi straks give besked til Post Danmark, hvis forsendelsen </font></o:p></span><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p><font face="Arial,Sans-Serif">bliver fundet.</font></o:p></span></font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p></o:p></span>&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p></o:p></span>&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p><font size="2" face="Arial,Sans-Serif">Dato:___________________&nbsp;&nbsp;&nbsp;&nbsp; Underskrift: ____________________</font></o:p></span></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p></o:p></span>&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p><font size="2" face="Arial,Sans-Serif">Hvis du ikke har modtaget forsendelsen retur, beder vi dig besvare spørgsmålene på næste side. Oplysningerne og erklæringen sendes til os inden tre hverdage i vedlagte svarkonvolut. Portoen er betalt.</font></o:p></span></p><p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2"><br></font></p><p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2">For at sikre en hurtig sagsbehandling beder vi dig besvare denne mail.&nbsp;</font></p><p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2">Eventuelle bilag skal vedhæftes mailen.</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><font face="Arial, sans-serif" size="2"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p></o:p></span>&nbsp;</font></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><span style="mso-ansi-language: EN-GB; mso-no-proof: yes" lang="EN-GB"><o:p><font size="2" face="Arial,Sans-Serif">På forhånd tak for hjælpen.</font></o:p></span></p><span lang="EN-GB"><o:p><font face="Arial, sans-serif" size="2">
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><br>Med venlig hilsen</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">{!Case.OwnerFirstName} {!Case.OwnerLastName}</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">{!Case.OwnerTitle}</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><strong>Oplysninger til sagsnummer {!Case.Main_Case_Number__c}:</strong></p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><strong></strong>&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">Hvornår er forsendelsen sendt?</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">Hvorfra er forsendelsen sendt?</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">Hvad er modtageradressen, hvis adressen på forsendelsen er en anden end den, der er oplyst i dette brev?</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">Hvad indeholder forsendelsen (farve, størrelse, kendetegn og lignende)? Vi skal bruge oplysningen for at kunne lede efter indholdet.</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">Hvordan ser forsendelsen ud (farve, størrelse, kendetegn og lignende)? Vi skal bruge oplysningen for at kunne lede efter forsendelsen.</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">Hvad er din indkøbspris (eksklusiv moms) på indholdet? Vi skal bruge denne oplysning for at kunne udbetale eventuel erstatning. Vi beder dig sende en kopi af din faktura, kvittering eller lignende. Hvis du sender en salgsfaktura, skal du trække moms og din avance fra.</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">Hvad er prisen på forsendelsen indhold? Vi skal bruge denne oplysning for at kunne udbetale eventuel erstatning. Vi beder dig sende en kopi af din faktura, kvittering eller lignende.</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">Hvad er dit reg.nr. og kontonr., som vi kan sætte eventuel erstatning ind på? </p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">Hvad er postopkrævningsbeløbet?</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">Hvad er værdibeløbet?</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">Vi beder dig sende en kopi af din kvittering for, at forsendelsen er sendt med Post Danmark.</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left">&nbsp;</p>
+<p style="margin: 0cm 5.65pt 0pt 0cm;" class="ModtagerAdresse" align="left"><br>&nbsp;</p></font></o:p></span>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" aEditID="c2r1" rowspan="3" >
+<![CDATA[<P align=left><FONT size=1>{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>Tlf {!User.Department_Phone__c}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}</FONT></P>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

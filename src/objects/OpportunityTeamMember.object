@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddAccountTeam</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddDefaultTeam</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddOppTeam</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteTeam</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DisplayAccess</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>OpportunityAccessLevel</fullName>
+    </fields>
+    <fields>
+        <fullName>OpportunityId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Team_Member_ID__c</fullName>
+        <description>Not to be displayed on page layout. Created for use in BW.</description>
+        <displayFormat>OTM-{0000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Opportunity Team Member ID</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>TeamMemberRole</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>PN DK - Sponsor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PN DK - Sales Manager</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PN DK - Activity Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PN DK - Customer Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PN DK - Supporting Customer Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PN DK - Business Supporter</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PN DK - Export Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PN DK - Tender Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PN DK - Import Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PN DK - Advertising &amp; Media Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PN DK - E-Commerce Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PN DK - Logistics Consultant</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PN DK - Logistics Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PN DK - MA Customer Service</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PN DK - Operation Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PostNord Customer Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK BE - Customer Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK BE - Sponsor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK BE - Operations Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK BE - Export Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK BE - eCOM Sales Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK BE - Business Supporter</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK BE - Procurement Consultant</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK BE - Export &amp; Dist Trade Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK BE - Advertising &amp; Media Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK BE - Customer Solution Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK BE - E-Commerce Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK BE - Sales Manager</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK LO - Customer Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK LO - Sponsor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK LO - Salessupport Coordinator</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK LO - Export Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK LO - Activity Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK LO - Business Supporter</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK LO - Logistics Consultant</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK LO - MA Customer Service</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK LO - Key Accounts Supporter</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK LO - Sales Manager</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDK LO - Tender specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ME SE - Customer Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ME SE - Assigned Sales Rep</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ME SE - Sales Admin</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ME SE - Sponsor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ME SE - Operations Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ME SE - Retail Agent Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ME SE - Telesales Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ME SE - Export Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ME SE - DR Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ME SE - Magazine Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ME SE - E-Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ME SE - IPS Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ME SE - Letter Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO DK - Customer Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO DK - Sponsor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO DK - Operations Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO DK - KAM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO DK - Courier Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO DK - Air&amp;Ocean Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO DK - TPL Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO DK - Innight Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO DK - Complaints Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO DK - Finance Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO DK - IT Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO DK - Legal Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO DK - Security Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI - Customer Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI - Sponsor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI - Operations Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI - Indoor Sales Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI - Field Sales Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI - KAM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI - Courier Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI - Air&amp;Ocean Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI - TPL Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI - Innight Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI - Complaints Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI - Finance Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI - IT Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI - Legal Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI - Security Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI DPD - Customer Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI DPD - Sponsor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI DPD - Operations Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI DPD - Indoor Sales Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI DPD - Field Sales Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI DPD - KAM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI DPD - Courier Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI DPD - Air&amp;Ocean Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI DPD - TPL Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI DPD - Innight Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI DPD - Complaints Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI DPD - Finance Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI DPD - IT Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI DPD - Legal Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO FI DPD - Security Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO - Customer Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO - Sponsor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO - Operations Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO - KAM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO - Courier Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO - Air&amp;Ocean Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO - TPL Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO - Innight Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO - Complaints Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO - Finance Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO - IT Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO - Legal Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO - Security Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO SE - Customer Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO SE - Sponsor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO SE - Operations Responsible</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO SE - Assigned Sales Rep</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO SE - Sales Admin</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO SE - KAM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO SE - Courier Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO SE - Air&amp;Ocean Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO SE - TPL Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO SE - Innight Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO SE - Complaints Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO SE - Finance Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO SE - IT Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO SE - Legal Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO SE - Security Specialist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Opportunity Owner</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>UserId</fullName>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

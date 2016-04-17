@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Frimærker.08 August Frimærker</name>
+    <style>none</style>
+    <subject>Efterårets eventyr</subject>
+    <textOnly>&lt;http://www.postdanmark.dk&gt;
+Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+&lt;http://www.postdanmark.dk/da/Privat/koeb-bestil-online/via-mobilen/Sider/via-mobilen.aspx&gt;
+Kære {{lead.First Name}}
+EFTERÅRETS EVENTYR
+Vi håber, at du har haft en dejlig sommer, selv om den jo desværre heller ikke i år varede evigt. Efteråret nærmer sig – og med det en række spændende arrangementer, som du kan læse mere om nedenfor.
+
+
+
+Efteråret er sæson for en række større frimærkeudstillinger og –messer i ind- og udland. 25. september slår China Post dørene op til den fire dage lange China International Collection Expo i Beijing, og vi fejrer begivenheden med tre nye frankeringsmærker. Allerede dagen efter, 26. september, går det løs i Kjellerup, hvor årets nationale frimærkeudstilling SILFI åbner, og her er der premiere på endnu tre frankeringsmærker. Årets sidste tre frankeringsmærker relaterer sig til den store nordiske frimærkeudstilling, Nordia 2015, som finder sted i Täby tæt ved Stockholm 30. oktober-1. november. PostNord Frimærker er til stede på alle tre udstillinger, hvor der traditionen tro er tid til både forretning og hygge. Kommer du forbi, skal du være så velkommen!
+
+
+
+Med venlig hilsen
+
+
+
+Bo Høifeldt
+
+Salgs- og marketingchef, PostNord Frimærker
+KØB FRIMÆRKER I SUPER MARKEDET ELLER HJEMME FRA SOFAEN
+Er du udgået for frimærker? Når du alligevel er ude at handle, så husk, at du kan købe vores 5-stribe med legetøj hos SuperBrugsen, Kvickly og KIWI over hele landet. Ligger du derimod hjemme på sofaen og slapper af, har du mulighed for at købe frimærker via vores mobilshop. Mobilshoppen er en del af Post Danmarks Post App, som du downloader der, hvor du normalt henter apps.
+Læs mere &lt;http://www.postdanmark.dk/da/Privat/koeb-bestil-online/via-mobilen/Sider/via-mobilen.aspx&gt;
+VILD MED LEGO?
+Har du lyst til at se, hvilke imponerende modeller man kan bygge af LEGO® klodser? Så kom med til Skærbæk Fan Weekend, der finder sted 26.-27. september i Skærbæk Kursus- og fritidscenter, Storegade 46-48, Skærbæk. Her kan du møde LEGO entusiaster fra hele verden og se deres flotte værker – blandt andet årets to EUROPA-frimærker bygget af LEGO klodser! Vi sælger naturligvis EUROPA-frimærkerne, og køber du for 250 kr. hos os, får du en flot plakat med i købet med motiv af førstedagskonvolutten med de to frimærker.
+Læs mere &lt;http://www.postdanmark.dk/filateli&gt;
+KOM MED TIL TREKANTBYTTE
+Kom og vær med til Trekantbytte i Fredericia. Arrangementet finder sted på Fredericia Gymnasium, Nørrebrogade 88, Fredericia, 20. september kl. 9-16. Det, som du ikke kan bytte dig til, kan du købe hos en række frimærkehandlere. Frimærkeklubberne i Fredericia, Kolding, Vejle og Middelfart står bag den populære byttedag, der hvert år tiltrækker masser af besøgende. PostNord er repræsenteret ved Det Gamle Postkontor i Holstebro.
+Læs mere &lt;http://www.trekantbytte.dk&gt;
+Vi har sendt denne e-mail til {{lead.Email Address}} &lt;mailto:{{lead.Email Address}}&gt;.
+
+Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;http://pages.postnord.com/Min-side.html&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_66083338</developerName>
+        <masterLabel>Kundelinjen NY</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Case.Team__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>PN DK KUL Team Digital</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK KUL Team Told</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK KUL Team Modtagerydelser</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK KUL Team FRM</sourceValue>
+            </sourceValues>
+            <value>Kundeservice Privat</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>PN DK KUL Team Salgsadministration</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK KUL Team Drift</sourceValue>
+            </sourceValues>
+            <value>Drift &amp; Salgsadminstration</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>PN DK KUL Team Major Account</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK KUL Team CS Erhverv</sourceValue>
+            </sourceValues>
+            <value>Kundeservice Erhverv</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>PN DK KUL Team Corporate Major Account</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PN DK KUL Team Salgsløsninger</sourceValue>
+            </sourceValues>
+            <value>CMA &amp; Salgsløsninger</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <columns>
+        <field>OPEN</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Pr. spor</description>
+    <filter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <operator>equals</operator>
+            <value>Case.Complaint</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Team__c</column>
+            <operator>equals</operator>
+            <value>PN DK KUL Team CS Erhverv,PN DK KUL Team Major Account,PN DK KUL Særlige Kundehenvendelser,PN DK KUL Team Customs and Claims,PN DK KUL Team Stamps and Hotline,PN DK KUL Team Social Media and Mails,PN DK KUL Team Frontline,PN DK KUL Team Corporate Major Account</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>RECORDTYPE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>CLOSED_DATEONLY</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_66083338</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>MR_CCE - Antal lukkede sager NY</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSED_DATEONLY</dateColumn>
+        <interval>INTERVAL_LASTMONTH</interval>
+    </timeFrameFilter>
+</Report>

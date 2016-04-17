@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Use Cases</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Use Cases</value>
+    </caseValues>
+    <fields>
+        <help><!-- Link to the PUC doc in Project Place --></help>
+        <label><!-- Documentation --></label>
+        <name>Documentation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hidden_Name --></label>
+        <name>Hidden_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Track --></label>
+        <name>Track__c</name>
+        <picklistValues>
+            <masterLabel>Customer Service</masterLabel>
+            <translation><!-- Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>PUC Reference Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Integration Story --></label>
+        <name>Integration_Story</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PUC --></label>
+        <name>PUC</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

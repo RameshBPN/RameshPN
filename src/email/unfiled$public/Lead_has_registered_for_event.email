@@ -1,0 +1,3 @@
+Hi,
+
+{!CampaignMember.FirstName} {!CampaignMember.LastName} from {!CampaignMember.CompanyOrAccount} has registered for {!CampaignMember.Campaign}.

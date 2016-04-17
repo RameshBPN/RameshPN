@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>15 - Afsender: Vi kan ikke erstatte pakken</name>
+    <style>promotionRight</style>
+    <subject>{!Case.Main_Case_Number__c}: Vi kan ikke erstatte pakken</subject>
+    <type>html</type>
+</EmailTemplate>

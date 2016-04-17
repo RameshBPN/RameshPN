@@ -1,0 +1,24 @@
+<!--
+    About
+    -----
+    Description: Case RecordType Redirection
+    Created for: Postnord Get2OneCRM Master template/DK
+    Create date: March 2013
+    
+    Details
+    -------
+    This Visualforce page performs redirection & populates fields when 'Print & Save Email' button is clicked 
+    from case detail page(Activity History Related List).
+    
+    Update History
+    --------------
+    Created April 2013 - R.T.
+    Refactored May 2013 - A.B.
+    
+    Issues / TODOs
+    --------------
+-->
+<apex:page standardcontroller="Case"
+	extensions="G2O_PrintSaveEmail_VFCx" action="{!redirect}">
+	<apex:pageMessages id="messages" />
+</apex:page>

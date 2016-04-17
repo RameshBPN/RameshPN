@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <columns>
+        <field>ASSIGNED</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT</field>
+    </columns>
+    <columns>
+        <field>CONTACT</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>TYPE</field>
+    </columns>
+    <currency>SEK</currency>
+    <description>Opfølgning på alle aktive kampagner med ÅBNE leads</description>
+    <filter>
+        <booleanFilter>(1 AND 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <column>SUBJECT</column>
+            <operator>contains</operator>
+            <value>Lead Ra2hauge Tillægsydelseskampagne,2014_Q3_KOM_Picknpack 2014,ERS-SME Q3 WPP Opfølgning,2014_PDK BE_SME_Q3 Startpakke, 	PDB_BE_2014_STR_ Fundraiser Konference 2014,ERS-SME e-handel - Ja-tak-ring-mig-op,2014_PDK_SME_Q4_Megafonanalyse_www</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STATUS</column>
+            <operator>equals</operator>
+            <value>In progress</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER_ROLE</column>
+            <operator>startsWith</operator>
+            <value>PN DK SMA</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>OWNER_ROLE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>SUBJECT</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>ERS-SME - Alle aktive kampagner 2014</name>
+    <params>
+        <name>closed</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>t</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Activity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

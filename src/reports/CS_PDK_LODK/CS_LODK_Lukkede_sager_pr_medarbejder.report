@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_3340381</developerName>
+        <masterLabel>Detail Årsag - DB</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Case.Detailed_Reason__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Ej ringet på</sourceValue>
+            </sourceValues>
+            <value>Ej ringet på</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Post til døren, §9</sourceValue>
+            </sourceValues>
+            <value>Post til døren</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_34026928</developerName>
+        <masterLabel>Årsager - DB</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Case.Reason__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Forsinket</sourceValue>
+            </sourceValues>
+            <value>Forsinkelse</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Udlevering/Omdeling/udkørsel</sourceValue>
+            </sourceValues>
+            <value>Omdeling</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Pakkeboksen</sourceValue>
+            </sourceValues>
+            <value>Pakkeboksen</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>E-posthuset</sourceValue>
+            </sourceValues>
+            <value>e-Posthuset</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Case.Approved_amount_of_compensation__c</field>
+    </columns>
+    <columns>
+        <field>Case.Product_Article__c</field>
+    </columns>
+    <columns>
+        <field>Case.Reason__c</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <currency>SEK</currency>
+    <description>Viser antallet af lukkede sager pr. medarbejder</description>
+    <filter>
+        <criteriaItems>
+            <column>STATUS</column>
+            <operator>equals</operator>
+            <value>For Approval,Closed,Approved</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Team__c</column>
+            <operator>startsWith</operator>
+            <value>LO DK</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>RECORDTYPE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>OWNER</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>CREATED_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>CS_LODK_Lukkede sager pr. medarbejder</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

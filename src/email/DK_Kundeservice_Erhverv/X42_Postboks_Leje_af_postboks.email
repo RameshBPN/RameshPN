@@ -1,0 +1,17 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style="text-align: center;"><h3><font face="Arial, sans-serif" size="2">Leje af postboks – bekræftelse på modtagelse af postboksbestilling</font></h3><div style="text-align: left;"><font face="Arial, sans-serif" size="2"><br></font></div><div style="text-align: left;"><font face="Arial, sans-serif" size="2">Hej&nbsp;<span style="text-align: center;">{!Case.Account} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span style="text-align: center;">Dato {!Today}</span></font></div><p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="2"><o:p></o:p></font></span></p><p class="MsoNormal"><span lang="EN-GB"><font face="Arial, sans-serif" size="2"><o:p></o:p></font></span></p><div style="text-align: left;"><font face="Arial, sans-serif" size="2"><br></font></div><div style="text-align: left;"><p class="MsoNormal"><font face="Arial, sans-serif" size="2">Vi har modtaget jeres
+bestilling af postboks, og vi sender snarest en mail med postboksaftalen. <o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Aftalen skal behandles via
+DocuSign. Hvad det betyder, kan I læse mere om i mailen.<o:p></o:p></font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">&nbsp;</font></p>
+
+<p class="MsoNormal"><font face="Arial, sans-serif" size="2">Har I spørgsmål, er I
+velkommen til at kontakte os.<o:p></o:p></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2">Med venlig hilsen</font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2">Tidlig Post</font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2">Tlf. 70111230</font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><br></font></p><p class="MsoNormal"><font face="Arial, sans-serif" size="2"><br></font></p><p><span lang="EN-GB"><font face="Arial, sans-serif" size="2">{!Case.Main_Case_Number__c}</font><font face="Arial" style="font-size: 10pt;"><o:p></o:p></font></span></p></div></div>]]></td>
+</tr>
+</table>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Ønskeskyen.Mail2-Mand-Cool</name>
+    <style>none</style>
+    <subject>Har du sendt dine ønsker op i skyen?</subject>
+    <textOnly>Kære {{lead.First Name}}
+
+
+
+Husk at sende dine ønsker til Ønskeskyen, så du får dine ønsker opfyldt til jul
+
+Skynd dig at sende dine ønsker op i skyen, hvis du endnu ikke har fortalt videre, hvad du håber på at finde under træet juleaften.Så får du nemlig, hvad du ønsker dig - og ikke, hvad andre ønsker at give dig.
+
+
+
+God jul uden bytteræs
+&lt;https://itunes.apple.com/dk/app/nskeskyen/id973421404?l=da&amp;mt=8&gt;
+
+
+ &lt;https://play.google.com/store/apps/details?id=com.ovdal.onskeskyen&amp;hl=da&gt;
+Ønskeskyen er blevet smartere
+
+Hent den nye version til din mobil og gør det endnu nemmere at gemme og dele dine ønsker til jul.
+Psst.
+
+Hvis du ikke ved, hvad din udkårne ønsker sig til jul, så kan du jo opfordre hende til også at lave en ønskeseddel i Ønskeskyen.
+&lt;https://www.youtube.com/watch?v=I7ROgOjk3Gk&gt;
+&lt;https://www.facebook.com/oenskeskyen&gt;
+Følg Ønskeskyen på Facebook. &lt;https://www.facebook.com/oenskeskyen&gt;
+Vi har sendt denne e-mail til {{lead.Email Address}}. Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;http://pages.postnord.com/Min-side.html&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contact Person Role and Decision Area</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contact Person Roles and Decision Areas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact Person Decision Area --></label>
+        <name>Contact_Person_Decision_Area__c</name>
+        <picklistValues>
+            <masterLabel>LO DK</masterLabel>
+            <translation><!-- LO DK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO FI</masterLabel>
+            <translation><!-- LO FI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO FI DPD</masterLabel>
+            <translation><!-- LO FI DPD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation><!-- LO NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO SE</masterLabel>
+            <translation><!-- LO SE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME - Affärskommunikation</masterLabel>
+            <translation><!-- ME - Affärskommunikation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME - Facility services</masterLabel>
+            <translation><!-- ME - Facility services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME - Hemleverans</masterLabel>
+            <translation><!-- ME - Hemleverans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME - Reklam</masterLabel>
+            <translation><!-- ME - Reklam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME - Tidningar</masterLabel>
+            <translation><!-- ME - Tidningar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME - Varudistribution</masterLabel>
+            <translation><!-- ME - Varudistribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK - Addresseløse</masterLabel>
+            <translation><!-- PN DK - Addresseløse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK - Blade</masterLabel>
+            <translation><!-- PN DK - Blade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK - Breve Indland</masterLabel>
+            <translation><!-- PN DK - Breve Indland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK - Breve Udland</masterLabel>
+            <translation><!-- PN DK - Breve Udland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK - E-Commerce</masterLabel>
+            <translation><!-- PN DK - E-Commerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK - E-Kommunikation</masterLabel>
+            <translation><!-- PN DK - E-Kommunikation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK - Facility Services</masterLabel>
+            <translation><!-- PN DK - Facility Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK - In-Night</masterLabel>
+            <translation><!-- PN DK - In-Night --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK - Kurér Express</masterLabel>
+            <translation><!-- PN DK - Kurér Express --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK - Lokale ugeaviser</masterLabel>
+            <translation><!-- PN DK - Lokale ugeaviser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK - Magasinpost</masterLabel>
+            <translation><!-- PN DK - Magasinpost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK - PAKKER Export</masterLabel>
+            <translation><!-- PN DK - PAKKER Export --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK - PALLET Export</masterLabel>
+            <translation><!-- PN DK - PALLET Export --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK - Pakker Indland</masterLabel>
+            <translation><!-- PN DK - Pakker Indland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PN DK - Tillægsydelser</masterLabel>
+            <translation><!-- PN DK - Tillægsydelser --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Person Decision Level --></label>
+        <name>Contact_Person_Decision_Level__c</name>
+        <picklistValues>
+            <masterLabel>Operational Level</masterLabel>
+            <translation><!-- Operational Level --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Level</masterLabel>
+            <translation><!-- Strategic Level --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tactical Level</masterLabel>
+            <translation><!-- Tactical Level --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Person Role --></label>
+        <name>Contact_Person_Role__c</name>
+        <picklistValues>
+            <masterLabel>Decision Maker</masterLabel>
+            <translation><!-- Decision Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoicing Contact</masterLabel>
+            <translation><!-- Invoicing Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operative Contact</masterLabel>
+            <translation><!-- Operative Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsor</masterLabel>
+            <translation><!-- Sponsor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Person --></label>
+        <name>Contact_Person__c</name>
+        <relationshipLabel><!-- Contact Person Roles and Decision Areas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Area --></label>
+        <name>Sales_Area__c</name>
+        <picklistValues>
+            <masterLabel>LO DK</masterLabel>
+            <translation><!-- LO DK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO FI</masterLabel>
+            <translation><!-- LO FI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO FI DPD</masterLabel>
+            <translation><!-- LO FI DPD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation><!-- LO NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO SE</masterLabel>
+            <translation><!-- LO SE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME SE</masterLabel>
+            <translation><!-- ME SE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK BE</masterLabel>
+            <translation><!-- PDK BE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDK LO</masterLabel>
+            <translation><!-- PDK LO --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Contact Person Role and Decision Area Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

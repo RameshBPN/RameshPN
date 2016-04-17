@@ -1,0 +1,13 @@
+<apex:page showHeader="false">
+    <body>
+        <apex:image id="pnLogo" value="{!$Resource.pn_chat_logo_DK}"
+            width="121" height="35" />
+        <br />
+        <br /> Tak for din henvendelse her på chatten.
+        <br /></body>
+    <style type="text/css">
+        body {
+            margin: 10px
+        }
+    </style>
+</apex:page>

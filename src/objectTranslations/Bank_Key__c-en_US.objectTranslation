@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bank Key</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bank Keys</value>
+    </caseValues>
+    <fields>
+        <label><!-- Bank City --></label>
+        <name>Bank_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Name --></label>
+        <name>Bank_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Street --></label>
+        <name>Bank_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank key external ID --></label>
+        <name>Bank_key_external_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- SWIFT --></label>
+        <name>SWIFT__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

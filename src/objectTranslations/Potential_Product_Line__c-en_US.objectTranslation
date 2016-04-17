@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Potential Product Line</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Potential Product Lines</value>
+    </caseValues>
+    <fields>
+        <label><!-- Calculated Potential --></label>
+        <name>Calculated_Potential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Involved Party ID --></label>
+        <name>Customer_Involved_Party_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Name --></label>
+        <name>Customer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date From --></label>
+        <name>Date_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date To --></label>
+        <name>Date_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Edited Potential --></label>
+        <name>Edited_Potential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Header ID --></label>
+        <name>Potential_Header_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Header Record --></label>
+        <name>Potential_Header_Record__c</name>
+        <relationshipLabel><!-- Potential Product Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <relationshipLabel><!-- Potential Product Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Todays Potential --></label>
+        <name>Todays_Potential__c</name>
+    </fields>
+    <layouts>
+        <layout>DK Potential Product Line Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Potential Product Line Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- BE DK Potential Product Line --></label>
+        <name>BE_DK_Potential_Product_Line</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Potential Product Line --></label>
+        <name>Potential_Product_Line</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

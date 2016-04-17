@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Email To Case Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Email To Case Settings</value>
+    </caseValues>
+    <fields>
+        <help><!-- Enable this check box to stop automated duplicate emails from customer. --></help>
+        <label><!-- Block Duplicate Email Messages --></label>
+        <name>Block_Duplicate_Email_Messages__c</name>
+    </fields>
+    <fields>
+        <help><!-- Character to find the response email from customer. --></help>
+        <label><!-- Character To Truncate Email Subject --></label>
+        <name>Character_To_Truncate_Email_Subject__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this check box to remove email subject checking for duplicate emails. --></help>
+        <label><!-- Disable Checking Subject --></label>
+        <name>Disable_Checking_Subject__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this check box to remove email text body checking for duplicate emails. --></help>
+        <label><!-- Disable Checking TextBody --></label>
+        <name>Disable_Checking_TextBody__c</name>
+    </fields>
+    <fields>
+        <help><!-- System will block if it finds any duplicate Email Message from the same sender within the specified number of minutes. --></help>
+        <label><!-- Minutes To Block Duplicate Email Message --></label>
+        <name>Minutes_To_Block_Duplicate_Email_Message__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

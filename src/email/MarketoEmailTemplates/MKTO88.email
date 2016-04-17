@@ -1,0 +1,354 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Postdanmark</title>
+
+<style type="text/css">
+/* Client-specific Styles */
+                
+#outlook a {
+        padding: 0;
+}
+/* Force Outlook to provide a "view in browser" menu link. */
+                
+body {
+        width: 100% !important;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        margin: 0;
+        padding: 0;
+}
+/* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+                
+.ExternalClass {
+        width: 100%;
+}
+/* Force Hotmail to display emails at full width */
+                
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+        line-height: 100%;
+}
+/* Force Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
+                
+#backgroundTable {
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+        line-height: 100% !important;
+}
+img {
+        outline: none;
+        text-decoration: none;
+        border: none;
+        -ms-interpolation-mode: bicubic;
+}
+a img {
+        border: none;
+}
+p font {
+        display: none;
+}
+.image_fix {
+        display: block;
+}
+p {
+        margin: 0px 0px !important;
+}
+table td {
+        border-collapse: collapse;
+}
+table {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+}
+/*a {color: #e95353;text-decoration: none;text-decoration:none!important;}*/
+                /*STYLES*/
+                
+table[class=full] {
+        width: 100%;
+        clear: both;
+}
+
+@media only screen and (max-width: 500px) {
+*[class].yahoo_fix {
+        display: block;
+}
+*[class].h0 {
+        height: 0px !important;
+}
+*[class].h1 {
+        height: 1px !important;
+}
+*[class].h2 {
+        height: 2px !important;
+}
+*[class].h10 {
+        height: 10px !important;
+}
+*[class].w280 {
+        width: 280px !important;
+}
+*[class].w300 {
+        width: 300px !important;
+}
+*[class].w100pct {
+        width: 100% !important;
+}
+*[class].fl {
+        float: left !important;
+}
+*[class].fr {
+        float: right !important;
+}
+*[class].h {
+        display: none !important;
+}
+*[class].img100procent img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 300px !important;
+}
+*[class].mleft10 {
+        margin-left: 10px;
+}
+*[class].bordertop {
+        border-top: 1px solid #151515 !important;
+}
+*[class].alignl {
+        text-align: left !important;
+}
+*[class].alignc {
+        text-align: center !important;
+}
+*[class].break {
+        display: block;
+        clear: both;
+}
+*[class].autoheight {
+        height: auto !important;
+}
+*[class].left {
+        text-align: left !important;
+}
+*[class].devicewidth {
+        width: 300px !important;
+}
+*[class].devicewidthinner {
+        width: 300px !important;
+}
+*[class].img280 {
+        width: 280px !important;
+        height: auto;
+        text-align: center !important;
+}
+*[class].img300 {
+        width: 300px !important;
+        height: auto;
+        text-align: center !important;
+}
+*[class].h-auto {
+        height: auto !important
+}
+}
+<!--
+#cc0000 - lys rød kun top #990000 - Alt andet rødt
+-->
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#ececec; " ><div style="background-color:#ececec; " ><!-- Module topbar-->
+<table cellspacing="0" cellpadding="0" border="0" width="100%" id="logo" bgcolor="#FFFFFF" ><tr ><td ><table width="640" cellspacing="0" cellpadding="0" border="0" align="center" class="w300" ><tr ><td ><table align="left" width="100%" ><tr ><td style="padding:10px 0px; " class="mktEditable" id="logoet" ><a href="http://www.postdanmark.dk" target="_blank"><img style="display:block;" border="0" width="40" height="40" src="http://pages.postnord.com/rs/184-XFT-949/images/posthorn.png" alt="PostDanmark"></a></td>
+<td class="mktEditable" id="webversion" style="padding:20px 0px; font-size:10px; line-height:14px; letter-spacing:0.025em; font-family:verdana,arial,sans-serif; color:#333333; text-align:right; " valign="top" >Hvis du ikke kan læse denne e-mail, <a style="text-decoration: none; color: #990000;" href="{{system.viewAsWebpageLink}}">klik her</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- Module spacer red and grey-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="66%" bgcolor="#CC0000" style="font-size: 1px; line-height: 1px;" height="8">&nbsp;</td>
+<td width="34%" bgcolor="#E1E1E1" style="font-size: 1px; line-height: 1px;" height="8">&nbsp;</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" bgcolor="#FFFFFF" ><tr ><td ><table width="640" cellspacing="0" cellpadding="0" border="0" align="center" class="w300" ><tr ><td ><table border="0" cellspacing="0" cellpadding="0" ><tr ><td class="mktEditable img100procent" id="headerimg" style="padding:0; " ><img src="http://pages.postnord.com/rs/184-XFT-949/images/nyhedsbrev-frimarker_2.jpg" alt="" style="display:block" border="0"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- Module spacer height 20px-->
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="20">&nbsp;</td>
+</tr>
+</table>
+<!-- Module Intro-->
+<table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td ><table width="640" bgcolor="#FFFFFF" align="center" cellspacing="0" cellpadding="0" border="0" style="border-bottom:2px solid #e1e1e1; " class="w300" ><tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td id="image" class="mktEditable img100procent" ><a href="http://www.postdanmark.dk" target="_blank"><img alt="" style="display:block;" border="0" src="http://pages.postnord.com/rs/184-XFT-949/images/1_260615_A_640x300.jpg"></a></td>
+</tr>
+<tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td class="mktEditable" id="dear" align="left" style="padding:20px 20px 10px; color:#333333; font-size:18px; font-family:Verdana, Arial, sans-serif; line-height:22px; " >Kære {{lead.First Name}}</td>
+</tr>
+<tr ><td class="mktEditable" id="headline" align="left" style="padding:10px 20px; color:#990000; font-size:22px; font-family:Verdana, Arial, sans-serif; line-height:26px; " >HOLD DA HELT FERIE</td>
+</tr>
+<tr ><td class="mktEditable" id="text" align="left" style="padding:10px 20px 20px; color:#333333; font-size:14px; font-family:Verdana, Arial, sans-serif; line-height:18px; " >Sommeren er over os. Nu er det tid til at nyde det gode vejr herhjemme eller under fremmede himmelstrøg. Roen sænker sig over land og by, der er god plads på veje og i offentlige transportmidler i myldretiden, og både ben og fødder kan endelig luftes og få lidt sol. Sommeren byder ikke på nye frimærkeudgivelser, så vi bruger dette nyhedsbrev til at fortælle lidt om, hvad der findes af frimærkerelaterede ting og sager rundt om i verden… med andre ord har ”agurketiden” også ramt vores lille redaktion.<br>
+<br>
+Rigtig god sommer!<br>
+<br>
+Bo Høifeldt<br>
+Salgs- og marketingchef, PostNord Frimærker</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- Module spacer height 20px-->
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="20">&nbsp;</td>
+</tr>
+</table>
+<!-- Module threecol-->
+<table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td ><table width="640" align="center" cellspacing="0" cellpadding="0" border="0" class="w300" ><tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td valign="top" width="206" bgcolor="#FFFFFF" style="color:#990000; border-bottom:2px solid #e1e1e1; " class="break w300" ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td class="img100procent mktEditable" id="img3" ><a href="http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx" target="_blank"><img alt="" class="img300" width="206" style="display:block;" src="http://pages.postnord.com/rs/184-XFT-949/images/2_260615_C_206x150.jpg"></a></td>
+</tr>
+<tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr>
+<td height="20" style="font-size:1px;line-height:1px;" colspan="3">&nbsp;</td>
+</tr>
+<tr ><td width="20"></td>
+<td height="80" class="h-auto mktEditable" id="headline3" align="left" style="color:#990000; font-size:22px; font-family:Verdana, Arial, sans-serif; line-height:26px; " >Aktiviteter over hele landet</td>
+<td width="20"></td>
+</tr>
+<tr>
+<td height="10" style="font-size:1px;line-height:1px;" colspan="3">&nbsp;</td>
+</tr>
+<tr ><td width="20"></td>
+<td valign="top" height="320" class="h-auto mktEditable" id="text3" align="left" style="color:#333333; font-size:14px; font-family:Verdana, Arial, sans-serif; line-height:18px; " >Nu er det på tide at lægge takmåleren og luppen væk. Vi har samlet en smuk buket til dig af alle de ting, du kan opleve i løbet af sommeren. Det foregår over hele landet, og der er arrangementer for enhver smag.</td>
+<td width="20"></td>
+</tr>
+<tr>
+<td height="20" style="font-size:1px;line-height:1px;" colspan="3">&nbsp;</td>
+</tr>
+<tr ><td width="20">&nbsp;</td>
+<td ><table style="background-color:#990000; " cellspacing="0" cellpadding="0" border="0" ><tr ><td width="20" height="30"></td>
+<td class="mktEditable center" id="btn3" ><a href="http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx" style="color: #fff; font-size: 12px; font-weight: bold; text-decoration: none; font-family: Verdana, Arial, sans-serif; text-align: center;line-height:30px">Læs mere</a></td>
+<td width="20"></td>
+</tr>
+</table>
+</td>
+<td width="20"></td>
+</tr>
+<tr>
+<td height="20" style="font-size:1px;line-height:1px;" colspan="3">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td width="10" class="break w280 h10"></td>
+<td valign="top" width="206" bgcolor="#FFFFFF" style="color:#990000; border-bottom:2px solid #e1e1e1; " class="break w300" ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td class="img100procent mktEditable" id="img4" ><a href="http://www.postdanmark.dk/da/Privat/koeb-bestil-online/postkortet/Sider/postkortet.aspx" target="_blank"><img alt="" width="206" style="display:block;" src="http://pages.postnord.com/rs/184-XFT-949/images/3_260615_C_206x150.jpg"></a></td>
+</tr>
+<tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr>
+<td height="20" style="font-size:1px;line-height:1px;" colspan="3">&nbsp;</td>
+</tr>
+<tr ><td width="20"></td>
+<td height="80" class="h-auto mktEditable" id="headline4" align="left" style="color:#990000; font-size:22px; font-family:Verdana, Arial, sans-serif; line-height:26px; " >Send et postkort fra mobilen</td>
+<td width="20"></td>
+</tr>
+<tr>
+<td height="10" style="font-size:1px;line-height:1px;" colspan="3">&nbsp;</td>
+</tr>
+<tr ><td width="20"></td>
+<td valign="top" height="320" class="h-auto mktEditable" id="text4" align="left" style="color:#333333; font-size:14px; font-family:Verdana, Arial, sans-serif; line-height:18px; " >Skal du på sommerferie, så husk, at du let kan sende et fysisk postkort fra din mobil. Med vores service ”Postkortet” kan du tage et foto med din mobiltelefon, skrive en tekst og få printet og sendt et postkort uden at røre en finger. Uanset om du er på ferie i Lemvig eller i Rio de Janeiro, koster det kun 19 kr. at sende et postkort i A5-format.</td>
+<td width="20">&nbsp;</td>
+</tr>
+<tr>
+<td height="20" style="font-size:1px;line-height:1px;" colspan="3">&nbsp;</td>
+</tr>
+<tr ><td width="20">&nbsp;</td>
+<td ><table style="background-color:#990000; " cellspacing="0" cellpadding="0" border="0" ><tr ><td width="20" height="30"></td>
+<td class="mktEditable center" id="btn4" ><a href="http://www.postdanmark.dk/da/Privat/koeb-bestil-online/postkortet/Sider/postkortet.aspx" style="color: #fff; font-size: 12px; font-weight: bold; text-decoration: none; font-family: Verdana, Arial, sans-serif; text-align: center;line-height:30px">Læs mere</a></td>
+<td width="20"></td>
+</tr>
+</table>
+</td>
+<td width="20">&nbsp;</td>
+</tr>
+<tr>
+<td height="20" style="font-size:1px;line-height:1px;" colspan="3">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td width="11" class="break w280 h10"></td>
+<td valign="top" width="206" bgcolor="#FFFFFF" style="color:#990000; border-bottom:2px solid #e1e1e1; " class="break w300" ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr ><td class="img100procent mktEditable" id="img5" ><a href="http://www.posteurop.org/europa2015" target="_blank"><img alt="" width="206" style="display:block;" src="http://pages.postnord.com/rs/184-XFT-949/images/4_260615_C_206x150.jpg"></a></td>
+</tr>
+<tr ><td ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tr>
+<td height="20" style="font-size:1px;line-height:1px;" colspan="3">&nbsp;</td>
+</tr>
+<tr ><td width="20"></td>
+<td height="80" class="h-auto mktEditable" id="headline5" align="left" style="color:#990000; font-size:22px; font-family:Verdana, Arial, sans-serif; line-height:26px; " >Stem på årets europa-frimærke</td>
+<td width="20"></td>
+</tr>
+<tr>
+<td height="10" style="font-size:1px;line-height:1px;" colspan="3">&nbsp;</td>
+</tr>
+<tr ><td width="20"></td>
+<td valign="top" height="320" class="h-auto mktEditable" id="text5" align="left" style="color:#333333; font-size:14px; font-family:Verdana, Arial, sans-serif; line-height:18px; " >Hvilket EUROPA-frimærke fortjener at blive hædret for det flotteste design? Det kan du nu være med til at afgøre ved at stemme på det frimærke, du synes bedst om. Temaet for alle årets 56 EUROPA-frimærker, der dyster om titlen, er legetøj. Du kan stemme indtil 31. august 2015.</td>
+<td width="20"></td>
+</tr>
+<tr>
+<td height="20" style="font-size:1px;line-height:1px;" colspan="3">&nbsp;</td>
+</tr>
+<tr ><td width="20"></td>
+<td ><table style="background-color:#990000; " cellspacing="0" cellpadding="0" border="0" ><tr ><td width="20" height="30"></td>
+<td class="center mktEditable" id="btn5" ><a href="http://www.posteurop.org/europa2015" style="color: #fff; font-size: 12px; font-weight: bold; text-decoration: none; font-family: Verdana, Arial, sans-serif; text-align: center;line-height:30px">Stem her</a></td>
+<td width="20"></td>
+</tr>
+</table>
+</td>
+<td width="20"></td>
+</tr>
+<tr>
+<td height="20" style="font-size:1px;line-height:1px;" colspan="3">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- Module spacer height 20px-->
+<table cellspacing="0" cellpadding="0" border="0" width="100%" class="spacer">
+<tr>
+<td style="font-size: 1px; line-height: 1px;" height="20">&nbsp;</td>
+</tr>
+</table>
+<!-- LEGAL -->
+<table cellspacing="0" cellpadding="0" border="0" width="100%" ><tr ><td align="center" valign="middle" class="mktEditable" id="footer" style="font-family:arial, verdana, sans-serif; font-size:12px; color:#999999; padding:4px; " height="70" >Vi har sendt denne e-mail til <a style="color: #999999;" href="mailto:{{lead.Email Address}}">{{lead.Email Address}}</a>.<br>
+Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig <a style="text-decoration: underline; font-size: 12px; color: #999999;" href="http://pages.postnord.com/Min-side.html" target="_blank">her</a></td>
+</tr>
+</table>
+<!-- /LEGAL --></div>
+</body>
+</html>

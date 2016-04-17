@@ -1,0 +1,57 @@
+<table border="0" cellpadding="0" width="650" cellspacing="0" height="400" >
+<tr valign="top" >
+<td width="460" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="460" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<span lang="EN-GB">
+<p dir="ltr" align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial,Sans-Serif">{!Case.Receiver__c}<br>{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c}&nbsp;<br></font></p><p dir="ltr" align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial,Sans-Serif">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c}</font></p><p dir="ltr" align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial,Sans-Serif">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c}</font></p><p dir="ltr" align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial,Sans-Serif">{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c}</font></p><p dir="ltr" align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial,Sans-Serif">{!Case.Receiver_Postal_Address_Country__c}</font></p><p align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><strong></strong><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><strong></strong><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><strong></strong><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><strong></strong><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><strong></strong><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><strong></strong><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><strong></strong><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial,Sans-Serif"><strong>ERSTATNING FOR EN BESKADIGET FORSENDELSE</strong></font></p>
+<p align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial,Sans-Serif">Vi skriver til dig, fordi afsenderen har reklameret over en beskadiget&nbsp;forsendelse med stregkodenummer {!Case.Item_Id__c}. Den blev sendt {!Case.Submission_date__c}&nbsp;af:</font></p><p align="left" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font size="2" face="Arial,Sans-Serif"><br></font></p><p align="left"><font face="Arial, sans-serif" size="2">{!Case.Sender__c}</font></p><p align="left"><span style="font-family: Arial, sans-serif; font-size: small;">{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}</span></p><p align="left"><span style="font-family: Arial, sans-serif; font-size: small;">{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}</span></p><p align="left"><span style="font-family: Arial, sans-serif; font-size: small;">{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")} {!Case.Sender_Postal_Address_Suburb__c}</span></p><p align="left"><span style="font-family: Arial, sans-serif; font-size: small;">{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}</span></p><p align="left"><span style="font-family: Arial, sans-serif; font-size: small;">{!Case.Sender_Postal_Address_Country__c}</span></p><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family: Arial, sans-serif; font-size: small;">&nbsp;</span></div><span lang="EN-GB" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+<p align="left"><font size="2" face="Arial,Sans-Serif">Da du har modtaget forsendelsen, har du ifølge vores forretningsbetingelser ret til erstatning. Du vil derfor inden for fire hverdage få&nbsp;</font><b style="font-family: Arial, sans-serif; font-size: small;">[skriv beløb]</b><font size="2" face="Arial,Sans-Serif">&nbsp;kr. i erstatning. <span style="FONT-FAMILY: Symbol; FONT-SIZE: 9pt; mso-ansi-language: EN-GB; mso-bidi-font-family: Arial; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-char-type: symbol; mso-symbol-font-family: Symbol" lang="EN-GB"><span style="mso-char-type: symbol; mso-symbol-font-family: Symbol">§ </span></span>Beløbet indeholder ikke moms, da vi ikke erstatter denne. Da forsendelsen er sendt som en almindelig pakke, er det maksimale erstatningsbeløb 4.800 kr.</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Da du har modtaget forsendelsen, har du ret til erstatning ifølge vores forretningsbetingelser. Du vil derfor inden for fire hverdage få&nbsp;</font><b style="font-family: Arial, sans-serif; font-size: small;">[skriv beløb]</b><font size="2" face="Arial,Sans-Serif">&nbsp;kr. i erstatning.<span style="FONT-FAMILY: Symbol; FONT-SIZE: 9pt; mso-ansi-language: EN-GB; mso-bidi-font-family: Arial; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-char-type: symbol; mso-symbol-font-family: Symbol" lang="EN-GB"><span style="mso-char-type: symbol; mso-symbol-font-family: Symbol">§ </span></span><span style="mso-ansi-language: EN-GB" lang="EN-GB"><!--?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /--><o:p></o:p></span>Beløbet indeholder ikke moms, da vi ikke erstatter denne. Da forsendelsen er sendt som et rekommanderet brev, er det maksimale erstatningsbeløb 1.050 kr.</font></p>
+<p style="MARGIN: 0cm 0cm 0pt" class="MsoNormal" align="left"><font size="2" face="Arial,Sans-Serif"></font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Vi sætter beløbet ind på din konto {!Bank_Key__c.Name} {!Case.Bank_Account__c}.</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Du kan finde mere information i forretningsbetingelserne på hjemmesiden </font><a href="http://www.postdanmark.dk"><font size="2" face="Arial,Sans-Serif">www.postdanmark.dk</font></a></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<div><span class="909551612-13012016"></span><font face="Arial"><font size="2">H<span class="909551612-13012016">vis du mener, at den trufne afgørelse ikke er i 
+overensstemmelse med vores forretningsbetingelser, kan du&nbsp;indbringe&nbsp;den&nbsp;til 
+PostNord Danmarks Ankefunktion, Carsten Niebuhrs Gade 4, 2.&nbsp; 1577 København V 
+eller sende en mail til&nbsp;<a href="mailto:ankesager@post.dk"><font color="#000000">ankesager@post.dk</font></a></span></font></font></div>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Vi undskylder ulejligheden, du har haft på grund af sagen.<br></font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">Med venlig hilsen</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">&nbsp;</font></p>
+<p align="left"><font size="2" face="Arial,Sans-Serif">{!Case.OwnerFirstName} {!Case.OwnerLastName}</font></p>
+<p align="left"><br></p><font size="2" face="Arial,Sans-Serif"></font></span></span>]]></td>
+</tr>
+</table>
+</td>
+<td width="10" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<![CDATA[]]></td>
+<td width="180" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" >
+<table border="0" cellpadding="5" width="180" cellspacing="5" height="400" >
+<tr valign="top" height="100" >
+<td rowspan="3" width="180" tEditID="c2r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c2r1" locked="0" >
+<![CDATA[<P align=left><FONT size=1>{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>Tlf {!User.Department_Phone__c}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}<BR></P></FONT>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

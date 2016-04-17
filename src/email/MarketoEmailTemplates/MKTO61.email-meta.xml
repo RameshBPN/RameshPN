@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>@-Kampagne.@-Status_4_KUL_med_maal</name>
+    <style>none</style>
+    <subject>»Det er da pærelet!«</subject>
+    <textOnly>Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+Målet for dit team {{lead.PN DK Target PM:default=0}}
+Medarbejderne i det team, der samler flest e-mailpermissions pr. mand, vinder en tur i biografen for to personer inklusive popcorn.
+{{lead.PN DK Realized PM:default=0}}
+ud af 243  
+Kære {{lead.First Name}}
+ 
+Der er nu kun 2 uger tilbage til at få flest e-mail-permissions i hus – og vi er stadig et stykke fra at nå målet. Det er der heldigvis råd for, så vi kan slutte af med endnu flere @!
+ 
+ Vi har talt med Laila Veldhuis, som er sælger i SME. Hun er én af dem, som har sørget for at hente flest e-mail-permissions i hus indtil videre – men hvordan har hun så båret sig ad med det? Se nedenfor, hvor Laila fortæller om sin simple, men effektive, metode.
+ 
+ Vi håber, at du kan bruge Lailas råd i de kommende uger, så vi sammen får en god slutspurt og får indhentet endnu flere permissions!
+ 
+ Tag fat i nærmeste leder, hvis du har spørgsmål – og hav en rigtig dejlig @-uge.
+ 
+ Venlig hilsen
+ Henrik Larsen
+»Det er da pærelet!«
+Det er langt nemmere at indhente permissions end man skulle tro. »Jeg spørger rigtig mange kunder, når jeg alligevel taler med dem. Det er da pærelet!« fortæller Laila, selvom det også er smuttet for hende indimellem.
+
+
+
+»Nogle gange glemmer jeg det, og så kan jeg godt finde på at ringe op igen til kunden og sige: Hov! Jeg glemte lige at spørge dig, om du er interesseret i at modtage relevant information, for så vil jeg sende dig en mail, som du kan bekræfte,« siger Laila, og det har givet pote: »De fleste kunder synes, det er en rigtig god idé og er interesserede.«</textOnly>
+    <type>custom</type>
+</EmailTemplate>

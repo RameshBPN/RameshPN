@@ -1,0 +1,23 @@
+Tack för din reklamation
+
+Vi beklagar det som hänt och kommer att undersöka det.
+ Så snart som möjligt, senast inom en månad, återkommer vi till dig.
+
+ Har du frågor, mer information om försändelsen eller om försändelsen har
+ kommit till rätta är du välkommen att kontakta oss på Kundtjänst. Uppge då ditt ärendenummer.
+
+På Posten.se kan du läsa mer om våra tjänster och villkor.
+
+  Med vänlig hälsning
+  Margareta A Lenander
+
+  Posten Kundtjänst
+
+Fakta om Försändelse
+Ärendenummer: {!Case.CaseNumber}
+FörsändelseID:
+Filing Date: {!Case.CreatedDate}
+Extradition Date:
+Service:
+Additional service:
+Delivery Amount:{!Case.Total_payment_of_compensation__c}

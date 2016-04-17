@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Meddelande om inloggning och lösenord till ny självbetjäningsanvändare</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>SUPPORT:  Inloggningsinformation om ny användare av självbetjäningen (EXEMPEL)</name>
+    <style>none</style>
+    <subject>Ditt användarnamn och lösenord för självbetjäningen {!Organization.Name}</subject>
+    <type>text</type>
+</EmailTemplate>

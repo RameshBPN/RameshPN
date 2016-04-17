@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PostNord Roadshow Jan 2013.1 - Roadshow Invite</name>
+    <style>none</style>
+    <subject>Get on the Road with PostNord</subject>
+    <textOnly>   
+Roadshow January 2013
+Don&apos;t Miss Out
+Hello {{lead.First Name:default=Sir/Maddam}},
+ 
+ We know that the winter is cold but come sign up for our roadshow coming  &lt;http://eu-lon02.marketo.com/lp/postenab/PostNordRoadshowJan2013_Registration.html&gt;to {{my.Location:default=edit me}} &lt;http://eu-lon02.marketo.com/lp/postenab/PostNordRoadshowJan2013_Registration.html&gt; this {{my.Date:default=}}.  Learn the last from the experts on how to get your packages delivered. 
+
+You will hear the expert talk about:        
+
+ &lt;http://eu-lon02.marketo.com/lp/postenab/PostNordRoadshowJan2013_Registration.html&gt;
+
+
+ - The latest in Direct Mail
+ - Logistics Services
+ - Distribution Services
+
+
+
+
+
+Bring a Friend with you - forward this invite  &lt;{{system.forwardToFriendLink:default=}}&gt;today!
+
+Learn more on what PostNord &lt;http://www.postnord.com&gt; has to offer today!
+
+
+Hope to see you there.
+
+The PostNord Team</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,32 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px;"><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif">{!Case.Account}</font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif">{!Case.Postal_Address_Street__c} {!Case.Postal_Address_House_Number__c} {!Case.Postal_Address_House_Number_Supplement__c} {!Case.Postal_Address_Room_Number__c}</font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif">{!IF(Case.Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Postal_Address_PO_Box__c}</font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif">{!IF(!Case.Postal_Address_Suburd__c="Suburb","")} {!Case.Postal_Address_Suburd__c}</font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif">{!Case.Postal_Address_Postal_Code__c} {!Case.Postal_Address_City__c}</font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif">{!Case.Postal_Address_Country__c}</font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif"><br></font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif"><br></font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif"><br></font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif"><br></font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif"><b>Vedrørende Deres reklamation over returnering af EMS forsendelse fra Pakistan</b></font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif"><br></font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif">Postnord Logistics har undersøgt Deres reklamation vedrørende returnering af Deres EMS-forsendelse fra Pakistan med EMS-nummer {!Case.Item_Id__c} og konkluderer:</font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif">&nbsp;</font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif">Årsagen til returnering af pakken, er importforbud af knive. Vedlagt finder De Justitsministeriets bekendgørelse fra 2005 om våben og ammunition. Her kan De se retningslinierne vedr. forbudet mod våben.&nbsp;</font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif">&nbsp;</font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif">Hvis De har yderlige kommentarer eller spørgsmål, er De velkommen til at kontakte undertegnede eller en af mine kolleger.</font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif"><br></font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif"><br></font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif">Med venlig hilsen</font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif"><br></font></div><div style="color: rgb(0, 0, 0);"><font size="2" face="Verdana, Helvetica, sans-serif">{!Case.OwnerFirstName} {!Case.OwnerLastName}</font></div><div><font face="Verdana, Helvetica, sans-serif" size="2">{!Case.OwnerTitle}</font></div></blockquote><div style="color: rgb(0, 0, 0); font-size: 12pt; font-family: arial;"><br></div>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" aEditID="c2r1" rowspan="3" >
+<![CDATA[<p class="Fretagsnamn"><span lang="DA"><font size="1" face="Verdana, Helvetica, sans-serif"><b>PostNord Logistics A/S</b><o:p></o:p></font></span></p>
+
+<p class="Fretagsadressochuppgifter"><span lang="DA"><font size="1" face="Verdana, Helvetica, sans-serif">Kirkebjerg Søpark 2</font></span></p>
+
+<p class="Fretagsadressochuppgifter"><span lang="DA"><font size="1" face="Verdana, Helvetica, sans-serif">DK-2605 Brøndby</font></span></p>
+
+<p class="Fretagsadressochuppgifter"><span lang="DA"><font size="1" face="Verdana, Helvetica, sans-serif">&nbsp;</font></span></p>
+
+<p class="Fretagsadressochuppgifter"><span lang="DA"><font size="1" face="Verdana, Helvetica, sans-serif">Kundeservice:</font></span></p>
+
+<p class="Fretagsadressochuppgifter"><span lang="DA"><font size="1" face="Verdana, Helvetica, sans-serif">T +45 70 25 38 38</font></span></p><p class="Fretagsadressochuppgifter"><span lang="DA"><font size="1" face="Verdana, Helvetica, sans-serif"><br></font></span></p><p class="Fretagsadressochuppgifter"><span lang="DA"><font size="1" face="Verdana, Helvetica, sans-serif">CVR nr DK20148586</font></span></p><p class="Fretagsadressochuppgifter"><span lang="DA"><font size="1" face="Verdana, Helvetica, sans-serif"><br></font></span></p><p class="Fretagsadressochuppgifter"><span lang="DA"><font size="1" face="Verdana, Helvetica, sans-serif">info.dk@postnord.com</font></span></p><p class="Fretagsadressochuppgifter"><span lang="DA"><font size="1" face="Verdana, Helvetica, sans-serif">postnordlogistik.dk</font></span></p>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

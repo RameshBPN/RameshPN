@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Log solution tasks, link up to tests, documentation and track issues. Use chatter to discuss the status of each.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Area__c</fullName>
+        <externalId>false</externalId>
+        <label>Area</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Config</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Custom Integration</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Apex Web Service</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Web Service Request</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Button / VF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Apex</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trigger</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mashup</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Data model</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Testing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Validate</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Design</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Refactoring</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>2500</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Developer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Developer</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Solutions</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Documentation_Link__c</fullName>
+        <description>The main documentation link</description>
+        <externalId>false</externalId>
+        <label>Documentation (Link)</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Documentation_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Documentation (Title)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ending_Sprint__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Ending Sprint</label>
+        <referenceTo>G2OPlanning_Sprint__c</referenceTo>
+        <relationshipLabel>Work items (Ending this Sprint)</relationshipLabel>
+        <relationshipName>Work_items1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Estimated_Effort_Days__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <label>Estimated Effort (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_Defect_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>External Defect ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Functional_Spec_Link__c</fullName>
+        <externalId>false</externalId>
+        <label>Functional Spec (Link)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Integration_Tests__c</fullName>
+        <externalId>false</externalId>
+        <label>Integration Test(s)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Misc_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Misc Notes</label>
+        <length>2500</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Related_Work_item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Work Item a defect is related to</inlineHelpText>
+        <label>Related Work item</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Work item</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>G2OPlanning_WorkItem__c</referenceTo>
+        <relationshipLabel>Defects/ Change Requests</relationshipLabel>
+        <relationshipName>Work_items</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Release_Deadline__c</fullName>
+        <description>To be completed and tested by this date. This may not necessarily match the planned sprint.</description>
+        <externalId>false</externalId>
+        <label>Release Deadline</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Start_Sprint__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Start Sprint</label>
+        <referenceTo>G2OPlanning_Sprint__c</referenceTo>
+        <relationshipLabel>Work items (Starting this Sprint)</relationshipLabel>
+        <relationshipName>Work_items</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Delayed Start</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Started</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Waiting on Someone Else</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dev Complete</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Accepted by BA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rejected by BA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>QA Tested - Pass</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>QA Tested - Fail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UAT Tested - Pass</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UAT Tested - Fail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Outscoped</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Task__c</fullName>
+        <externalId>false</externalId>
+        <label>Task</label>
+        <length>255</length>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Technical_Spec_Reference__c</fullName>
+        <defaultValue>&apos;N/A&apos;</defaultValue>
+        <externalId>false</externalId>
+        <label>Technical Spec Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Work_Stream__c</fullName>
+        <description>Which work stream the item is for. Application Maintenance, Project, or Major Release</description>
+        <externalId>false</externalId>
+        <label>Work Stream</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Application Maintainance</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Project</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Major Release (Please specify)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Old: Release 1.0</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Old: Release 1.1</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Old: Release 2.0</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Old: Release 3.0</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Old: Hypercare</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <label>Work item</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Developer__c</columns>
+        <columns>Task__c</columns>
+        <columns>Area__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release_Deadline__c</columns>
+        <columns>Work_Stream__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Ankit</fullName>
+        <columns>NAME</columns>
+        <columns>Developer__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Task__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release_Deadline__c</columns>
+        <columns>Start_Sprint__c</columns>
+        <columns>Documentation_Link__c</columns>
+        <columns>Area__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Developer__c</field>
+            <operation>contains</operation>
+            <value>Ankit Bhatnagar</value>
+        </filters>
+        <label>Ankit</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Bhargavi</fullName>
+        <columns>NAME</columns>
+        <columns>Developer__c</columns>
+        <columns>Task__c</columns>
+        <columns>Area__c</columns>
+        <columns>Status__c</columns>
+        <columns>Start_Sprint__c</columns>
+        <columns>Documentation_Link__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Developer__c</field>
+            <operation>contains</operation>
+            <value>Bhargavi</value>
+        </filters>
+        <label>Bhargavi</label>
+    </listViews>
+    <listViews>
+        <fullName>CR_in_Name_or_Type</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Task__c</columns>
+        <columns>Area__c</columns>
+        <columns>Developer__c</columns>
+        <columns>Status__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Task__c</field>
+            <operation>contains</operation>
+            <value>CR</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>G2OPlanning_WorkItem__c.Change_Request</value>
+        </filters>
+        <label>CR in Name or Type</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Carl</fullName>
+        <columns>NAME</columns>
+        <columns>Developer__c</columns>
+        <columns>Task__c</columns>
+        <columns>Area__c</columns>
+        <columns>Status__c</columns>
+        <columns>Start_Sprint__c</columns>
+        <columns>Documentation_Link__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Developer__c</field>
+            <operation>contains</operation>
+            <value>Carl</value>
+        </filters>
+        <label>Carl</label>
+    </listViews>
+    <listViews>
+        <fullName>Incidents</fullName>
+        <columns>NAME</columns>
+        <columns>Task__c</columns>
+        <columns>Developer__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Task__c</field>
+            <operation>startsWith</operation>
+            <value>IM</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>1/20/2014 12:00 AM</value>
+        </filters>
+        <label>Incidents</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>JohanAll</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Developer__c</columns>
+        <columns>Task__c</columns>
+        <columns>Area__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release_Deadline__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Developer__c</field>
+            <operation>contains</operation>
+            <value>Johan</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Johan - All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Kenneth</fullName>
+        <columns>NAME</columns>
+        <columns>Task__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Related_Work_item__c</columns>
+        <columns>Release_Deadline__c</columns>
+        <columns>Status__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Developer__c</field>
+            <operation>equals</operation>
+            <value>Kenneth Jensen</value>
+        </filters>
+        <label>Kenneth</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Matthew</fullName>
+        <columns>NAME</columns>
+        <columns>Developer__c</columns>
+        <columns>Task__c</columns>
+        <columns>Area__c</columns>
+        <columns>Status__c</columns>
+        <columns>Start_Sprint__c</columns>
+        <columns>Documentation_Link__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Developer__c</field>
+            <operation>contains</operation>
+            <value>Matthew</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>G2OPlanning_WorkItem__c.Work_item</value>
+        </filters>
+        <label>Matt - Work Items (Editable)</label>
+    </listViews>
+    <listViews>
+        <fullName>MatthewAll</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Developer__c</columns>
+        <columns>Task__c</columns>
+        <columns>Area__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release_Deadline__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Developer__c</field>
+            <operation>contains</operation>
+            <value>Matthew</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>Matt - All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Missing_Documentation</fullName>
+        <columns>NAME</columns>
+        <columns>Developer__c</columns>
+        <columns>Task__c</columns>
+        <columns>Status__c</columns>
+        <columns>Ending_Sprint__c</columns>
+        <columns>Documentation_Title__c</columns>
+        <columns>Documentation_Link__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Dev Complete,Accepted by BA,Rejected by BA,QA Tested - Pass,QA Tested - Fail</value>
+        </filters>
+        <filters>
+            <field>Documentation_Title__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>Missing Documentation</label>
+    </listViews>
+    <listViews>
+        <fullName>Not_started</fullName>
+        <columns>NAME</columns>
+        <columns>Task__c</columns>
+        <columns>Status__c</columns>
+        <columns>Description__c</columns>
+        <columns>Developer__c</columns>
+        <columns>Release_Deadline__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Not Started,Delayed Start</value>
+        </filters>
+        <label>Not started</label>
+    </listViews>
+    <listViews>
+        <fullName>Open_Defects</fullName>
+        <columns>NAME</columns>
+        <columns>Developer__c</columns>
+        <columns>Task__c</columns>
+        <columns>Status__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Estimated_Effort_Days__c</columns>
+        <columns>Related_Work_item__c</columns>
+        <columns>External_Defect_ID__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Dev Complete,Complete</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Accepted by BA,QA Tested - Pass,UAT Tested - Pass,Outscoped</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>G2OPlanning_WorkItem__c.Defect</value>
+        </filters>
+        <label>All Open Defects (Editable)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Open_Items</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Developer__c</columns>
+        <columns>Task__c</columns>
+        <columns>Area__c</columns>
+        <columns>Status__c</columns>
+        <columns>Work_Stream__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Complete</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Dev Complete,Accepted by BA,QA Tested - Pass,UAT Tested - Pass,Outscoped</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>notEqual</operation>
+            <value>G2OPlanning_WorkItem__c.Change_Request</value>
+        </filters>
+        <label>All Open Items and Defects (noneditable)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Open_Items_Carl</fullName>
+        <columns>NAME</columns>
+        <columns>Priority__c</columns>
+        <columns>Task__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release_Deadline__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Dev Complete,Accepted by BA,QA Tested - Pass,UAT Tested - Pass,Complete</value>
+        </filters>
+        <filters>
+            <field>Developer__c</field>
+            <operation>contains</operation>
+            <value>Carl</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Outscoped</value>
+        </filters>
+        <label>Open Items - Carl</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Open_Work_Items</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Developer__c</columns>
+        <columns>Task__c</columns>
+        <columns>Area__c</columns>
+        <columns>Status__c</columns>
+        <columns>Documentation_Link__c</columns>
+        <columns>Ending_Sprint__c</columns>
+        <columns>Start_Sprint__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Dev Complete,Complete</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Accepted by BA,QA Tested - Pass,UAT Tested - Pass,Outscoped</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>G2OPlanning_WorkItem__c.Work_item</value>
+        </filters>
+        <label>All Open Work Items (Editable)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Outscoped</fullName>
+        <columns>NAME</columns>
+        <columns>Task__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Status__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>Developer__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Outscoped</value>
+        </filters>
+        <label>Outscoped</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Pending_BA_Review</fullName>
+        <columns>NAME</columns>
+        <columns>Area__c</columns>
+        <columns>Description__c</columns>
+        <columns>Developer__c</columns>
+        <columns>Documentation_Link__c</columns>
+        <columns>Related_Work_item__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Dev Complete</value>
+        </filters>
+        <label>Pending BA Review</label>
+    </listViews>
+    <listViews>
+        <fullName>Release_1_1</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Developer__c</columns>
+        <columns>Task__c</columns>
+        <columns>Area__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release_Deadline__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Task__c</field>
+            <operation>contains</operation>
+            <value>R1.1</value>
+        </filters>
+        <label>Release 1.1</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Release_2_0</fullName>
+        <columns>NAME</columns>
+        <columns>Task__c</columns>
+        <columns>Description__c</columns>
+        <columns>Developer__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Work_Stream__c</field>
+            <operation>equals</operation>
+            <value>Release 2.0</value>
+        </filters>
+        <label>Release 2.0</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Ruchi</fullName>
+        <columns>NAME</columns>
+        <columns>Developer__c</columns>
+        <columns>Task__c</columns>
+        <columns>Area__c</columns>
+        <columns>Status__c</columns>
+        <columns>Start_Sprint__c</columns>
+        <columns>Documentation_Link__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Developer__c</field>
+            <operation>contains</operation>
+            <value>Ruchi</value>
+        </filters>
+        <label>Ruchi</label>
+    </listViews>
+    <listViews>
+        <fullName>Taavi</fullName>
+        <columns>NAME</columns>
+        <columns>Developer__c</columns>
+        <columns>Task__c</columns>
+        <columns>Status__c</columns>
+        <columns>Release_Deadline__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Developer__c</field>
+            <operation>contains</operation>
+            <value>Taavi</value>
+        </filters>
+        <filters>
+            <field>Work_Stream__c</field>
+            <operation>equals</operation>
+            <value>Release 2.0</value>
+        </filters>
+        <label>Taavi</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>{0}</displayFormat>
+        <label>Work Item ID</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Work items</pluralLabel>
+    <recordTypeTrackFeedHistory>true</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Change_Request</fullName>
+        <active>true</active>
+        <description>An item of work that needs to be run through a change request process. Requires an estimate to be able to convert to a work item.</description>
+        <label>Change Request</label>
+        <picklistValues>
+            <picklist>Area__c</picklist>
+            <values>
+                <fullName>Apex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apex Web Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Button %2F VF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Config</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Custom Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data model</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mashup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refactoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Testing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trigger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web Service Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Accepted by BA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delayed Start</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dev Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Outscoped</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA Tested - Fail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA Tested - Pass</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected by BA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Started</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UAT Tested - Fail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UAT Tested - Pass</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting on Someone Else</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Work_Stream__c</picklist>
+            <values>
+                <fullName>Application Maintainance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Major Release %28Please specify%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Old%3A Hypercare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Old%3A Release 1%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Old%3A Release 1%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Old%3A Release 2%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Old%3A Release 3%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Defect</fullName>
+        <active>true</active>
+        <description>An issue in a delivered solution. Usually related to an existing work item.</description>
+        <label>Defect</label>
+        <picklistValues>
+            <picklist>Area__c</picklist>
+            <values>
+                <fullName>Apex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apex Web Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Button %2F VF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Config</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Custom Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data model</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mashup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refactoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Testing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trigger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web Service Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Accepted by BA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delayed Start</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dev Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Outscoped</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA Tested - Fail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA Tested - Pass</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected by BA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Started</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UAT Tested - Fail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UAT Tested - Pass</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting on Someone Else</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Work_Stream__c</picklist>
+            <values>
+                <fullName>Application Maintainance</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Major Release %28Please specify%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Work_item</fullName>
+        <active>true</active>
+        <description>A task or item of work to be completed as part of a PUC</description>
+        <label>Work item</label>
+        <picklistValues>
+            <picklist>Area__c</picklist>
+            <values>
+                <fullName>Apex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apex Web Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Button %2F VF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Config</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Custom Integration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data model</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mashup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refactoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Testing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trigger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Validate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web Service Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Accepted by BA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delayed Start</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dev Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Outscoped</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA Tested - Fail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA Tested - Pass</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected by BA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Started</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UAT Tested - Fail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UAT Tested - Pass</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting on Someone Else</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Work_Stream__c</picklist>
+            <values>
+                <fullName>Application Maintainance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Major Release %28Please specify%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Old%3A Hypercare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Old%3A Release 1%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Old%3A Release 1%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Old%3A Release 2%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Old%3A Release 3%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>RECORDTYPE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Task__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Developer__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>RECORDTYPE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Task__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Developer__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>RECORDTYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Task__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Developer__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>G2OPlanning_Work_Items_Converting_RT</fullName>
+        <active>true</active>
+        <description>Converting a record type requires an estimate to be provided,,,</description>
+        <errorConditionFormula>ISCHANGED( RecordTypeId ) &amp;&amp; (Estimated_Effort_Days__c == NULL || Estimated_Effort_Days__c == 0)</errorConditionFormula>
+        <errorMessage>You must provied an estimate to change a record type. If you are changing from Workitem to defect or change request, provide a value and remove it after saving the record.</errorMessage>
+    </validationRules>
+</CustomObject>

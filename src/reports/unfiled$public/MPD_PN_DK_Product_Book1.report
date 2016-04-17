@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Product2.Product_Article_ID__c</field>
+    </columns>
+    <columns>
+        <field>PRODUCT_NAME</field>
+    </columns>
+    <columns>
+        <field>CUSTOMER_PRODUCT_ID</field>
+    </columns>
+    <columns>
+        <field>PRODUCT_DESCRIPTION</field>
+    </columns>
+    <columns>
+        <field>UNIT_PRICE</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Rapport fra Mogens til Anita</description>
+    <filter>
+        <criteriaItems>
+            <column>NAME</column>
+            <operator>equals</operator>
+            <value>PN DK Product Book</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>PRODUCT_ACTIVE</column>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>MPD_PN_DK_Product_Book</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>PricebookProduct</reportType>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

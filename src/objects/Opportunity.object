@@ -1,0 +1,4002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <businessProcesses>
+        <fullName>Standard Opportunity</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Create %26 Present Offer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Create Solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Identify %26 Analyze Customer Need</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Negotiate %26 Close Deal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Admin_Activity_Status__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Updated from Admin Activity Case for Visiting Customers</inlineHelpText>
+        <label>Admin Activity Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Contact attempted</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Price calculation ordered</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Materials ordered</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Waiting for production solution</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Materials Delivered</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prices sent from Strålfors</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SAP updated</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contract lost</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contract doesn&apos;t need renewal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contract moved to new customer ID</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Amount</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Approved_by_Operations__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Approved by Operations?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Awaiting_Initial_Ops_Approval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Awaiting Initial Ops Approval</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Awaiting_Price_Grp_Final_Ops_Approval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Awaiting Price Grp &amp; Final Ops Approval</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CloseDate</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Complex_Solution__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Complex Solution</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ContractId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contract_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>End date of contract to be renewed</inlineHelpText>
+        <label>Contract End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Contract_Length__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>how many years is the term on the contract?</inlineHelpText>
+        <label>Contract Length</label>
+        <picklist>
+            <controllingField>StageName</controllingField>
+            <picklistValues>
+                <fullName>0</fullName>
+                <controllingFieldValues>Closed Won</controllingFieldValues>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>1</fullName>
+                <controllingFieldValues>Closed Won</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2</fullName>
+                <controllingFieldValues>Closed Won</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3</fullName>
+                <controllingFieldValues>Closed Won</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>4</fullName>
+                <controllingFieldValues>Closed Won</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5</fullName>
+                <controllingFieldValues>Closed Won</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>6</fullName>
+                <controllingFieldValues>Closed Won</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ongoing</fullName>
+                <controllingFieldValues>Closed Won</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Corporate_Registration_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Corporate_Registration_Number__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Corporate Registration Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Create_and_Present_Offer_stage_reached__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>To be set and used in workflows to help ascertain if Create and Present offer stage was logged - for lead identifier emails</description>
+        <externalId>false</externalId>
+        <label>Create and Present Offer stage reached</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Customer_Involved_Party_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Involved_Party_ID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Customer Involved Party ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DB_Competitor__c</fullName>
+        <description>This is a field that is installed by and used with the Adoption Dashboard AppExchange package. If your org already has a similar field, you can change the reports that are part of the Adoption Dashboard package to use your custom field and can delete this field.</description>
+        <externalId>false</externalId>
+        <label>DB Competitor</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Competitor A</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Competitor B</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Competitor C</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Date_Closed_Lost_Feedback_Sent__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date Closed Lost stage feedback sent to Lead Identifier</inlineHelpText>
+        <label>Date Closed Lost Feedback Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Closed_Won_Feedback_Sent__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date Closed Won stage feedback sent to Lead Identifier</inlineHelpText>
+        <label>Date Closed Won Feedback Sent</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Negotiate_Close_Deal_Feedback__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date that feedback was sent to Lead Identifier for Negotiate and Close deal stage</inlineHelpText>
+        <label>Date Negotiate &amp; Close Deal Feedback</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Opportunity_Approved__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Opportunity Approved</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_to_be_approved_by__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the opportunity should be approved by. This will be set by the system to 7 working days from the date the opportunity is sent to the Price Group for approval. This can be edited and moved further out but cannot be moved closer.</inlineHelpText>
+        <label>Date to be approved by</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Deletion_Flag__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Tick this box if you want to mark this opportunity as deleted</description>
+        <externalId>false</externalId>
+        <label>Deletion Flag</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Describe_what_the_deal_is_all_about__c</fullName>
+        <externalId>false</externalId>
+        <label>Describe what the deal is all about</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Describe_why_the_deal_is_lost__c</fullName>
+        <externalId>false</externalId>
+        <label>Describe why the deal is lost</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Describe_why_we_are_a_credible_supplier__c</fullName>
+        <externalId>false</externalId>
+        <label>Describe why we are a credible supplier</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Describe_why_we_got_the_deal__c</fullName>
+        <externalId>false</externalId>
+        <label>Describe why we won the deal</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Description_from_Lead__c</fullName>
+        <description>To be used in workflow so we can copy standard description from lead object</description>
+        <externalId>false</externalId>
+        <label>Description from Lead</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ExpectedRevenue</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Expected_Operation_Group_Approval_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Expected Operations Group Approval Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Expected_Price_Group_Approval_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Expected Price Group Approval Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HasToResetSalesGroupAndOffice__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>HasToResetSalesGroupAndOffice</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Has_4000_Products_or_Last_Mile__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used in Contract Renewal approval process and updated by workflow. If a product is added to an opp and has the Sales Area 4000 then this box will be checked.</description>
+        <externalId>false</externalId>
+        <label>Has 4000 Products</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Has_Korsler__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Used in contract renewal process - updated by workflow</inlineHelpText>
+        <label>Has Korsler</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsPrivate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>LE_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Parent.Name</formula>
+        <label>LE Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Campaign/Telemarketing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Digital Channel</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Submitted by Employee</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trade Show / Exhibition</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Webform</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Lead_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead ID</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Identified_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Identified Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Identifier_Country__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Lead_Identifier__r.Employee_Country__c )</formula>
+        <label>Lead Identifier Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Identifier_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Identifier Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Identifier__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Lead Identifier</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Employee cannot be found to match your search</errorMessage>
+            <filterItems>
+                <field>Contact.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PostNord Employee</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Product_Interest__c</fullName>
+        <externalId>false</externalId>
+        <label>Lead Product Interest</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Marketo_Product_CSV__c</fullName>
+        <externalId>false</externalId>
+        <label>Marketo Product CSV</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>New_Customer_Corporate_Reg_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>New_Customer__r.Corporate_Registration_Number__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>New Customer Corporate Reg Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_Customer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>&quot;New&quot; Customer</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Opportunities (New Customer)</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>NextStep</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>No_of_Open_Quotes__c</fullName>
+        <externalId>false</externalId>
+        <label>No of Open Quotes</label>
+        <summaryFilterItems>
+            <field>Quote.Status</field>
+            <operation>equals</operation>
+            <value>Draft, Submitted for Approval, Approved, Rejected by Approver</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Quote.OpportunityId</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>No_of_times_with_Price_Group__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Calculated by the system. Shows the number of times this opportunity has been to the Price Group.</inlineHelpText>
+        <label>No of times with Price Group</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Notes_for_Approver__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes for Approver</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>One_off_Mailing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>One-off Mailing</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Operations_Approver__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of person in Operations who is looking at this opportunity. To be updated by the Operations team.</inlineHelpText>
+        <label>Operations Approver</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Operations_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Operations Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Contact attempted</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Price calculation ordered</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Materials ordered</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Waiting for production solution</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Materials Delivered</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prices sent from Strålfors</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SAP updated</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contract lost</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contract doesn&apos;t need renewal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contract moved to new customer ID</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Opp_value_in_current_year__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>How much of Opportunity value is in the current year</inlineHelpText>
+        <label>Opp value in current year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_ID__c</fullName>
+        <displayFormat>O-{00000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Opportunity ID</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PWS_Opportunity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>check this box if the opportunity has been identified as a product white space opportunity</inlineHelpText>
+        <label>PWS Opportunity</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Postal_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Postal_Address_Postal_Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Postal Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Potential__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>If opportunity has been created as a result of converting a potential, this is the potential it relates to</description>
+        <externalId>false</externalId>
+        <label>Potential</label>
+        <referenceTo>Potential__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PriceGroup_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>PriceGroup Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Contact attempted</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Price calculation ordered</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Materials ordered</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Waiting for production solution</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Materials Delivered</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prices sent from Strålfors</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SAP updated</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contract lost</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contract doesn&apos;t need renewal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contract moved to new customer ID</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Price_Group_Approver__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of person in Price Group who is looking at this opportunity. To be updated by the Price Group.</inlineHelpText>
+        <label>Price Group Approver</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Price_Group_Only_Approval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>To be set by Operations if only Price Group approval is required for the final approval.</inlineHelpText>
+        <label>Price Group Only Approval?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pricebook2Id</fullName>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Private_Opportunity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If you tick this box the opportunity will become private and will only be visible to the owner, members of the Opportunity team and users above the owner in the role hierarchy.</inlineHelpText>
+        <label>Private Opportunity</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Probability</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Reason_Lost__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason Lost</label>
+        <picklist>
+            <controllingField>StageName</controllingField>
+            <picklistValues>
+                <fullName>Price</fullName>
+                <controllingFieldValues>Closed Lost</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Quality</fullName>
+                <controllingFieldValues>Closed Lost</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No customer need</fullName>
+                <controllingFieldValues>Closed Lost</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No customer interest</fullName>
+                <controllingFieldValues>Closed Lost</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Competitor</fullName>
+                <controllingFieldValues>Closed Lost</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Solution</fullName>
+                <controllingFieldValues>Closed Lost</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Change in customer conditions</fullName>
+                <controllingFieldValues>Closed Lost</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Internal lead time in business area</fullName>
+                <controllingFieldValues>Closed Lost</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Existing volume moved to another cust</fullName>
+                <controllingFieldValues>Closed Lost</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Change of service</fullName>
+                <controllingFieldValues>Closed Lost</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lost whole customer</fullName>
+                <controllingFieldValues>Closed Lost</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lost product on customer</fullName>
+                <controllingFieldValues>Closed Lost</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Duplicate</fullName>
+                <controllingFieldValues>Closed Lost</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Created in error</fullName>
+                <controllingFieldValues>Closed Lost</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Non approved credit check</fullName>
+                <controllingFieldValues>Closed Lost</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Reason_Won__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason Won</label>
+        <picklist>
+            <controllingField>StageName</controllingField>
+            <picklistValues>
+                <fullName>Price</fullName>
+                <controllingFieldValues>Closed Won</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Quality</fullName>
+                <controllingFieldValues>Closed Won</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Solution</fullName>
+                <controllingFieldValues>Closed Won</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Change of service</fullName>
+                <controllingFieldValues>Closed Won</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contract renewal</fullName>
+                <controllingFieldValues>Closed Won</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SAP_Opportunity_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>SAP Opportunity ID</label>
+        <length>60</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Area__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Area</label>
+        <picklist>
+            <picklistValues>
+                <fullName>1000</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FO91</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FO92</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3670</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>0630</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>0540</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Group_When_Closed__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Group When Closed</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Group__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( (TEXT(StageName)==&apos;Closed Won&apos; || TEXT(StageName)== &apos;Closed Lost&apos;) ,  Sales_Group_When_Closed__c ,  TEXT(Owner.Team__c))</formula>
+        <label>Sales Group</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Office_When_Closed__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Office When Closed</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Office__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( (TEXT(StageName)==&apos;Closed Won&apos; || TEXT(StageName)== &apos;Closed Lost&apos;) ,  Sales_Office_When_Closed__c ,  TEXT(Owner.FO_Sales_group__c))</formula>
+        <label>Sales Office</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_team__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales team</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Short_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Short Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StageName</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Not Started</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Omitted</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Identify &amp; Analyze Customer Need</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>5</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Create Solution</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>25</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Create &amp; Present Offer</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>50</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Negotiate &amp; Close Deal</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>70</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Closed Won</fullName>
+                <closed>true</closed>
+                <default>false</default>
+                <forecastCategory>Closed</forecastCategory>
+                <probability>100</probability>
+                <won>true</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Closed Lost</fullName>
+                <closed>true</closed>
+                <default>false</default>
+                <forecastCategory>Omitted</forecastCategory>
+                <probability>0</probability>
+                <won>false</won>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Stage_Before_Closed__c</fullName>
+        <description>This is the stage before the stage is set to Closed Won or Closed Lost.</description>
+        <externalId>false</externalId>
+        <label>Stage Before Closed</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date when customer will start using products</inlineHelpText>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SyncedQuoteId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TotalOpportunityQuantity</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Total_4000_Products_Value__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Total from all products on opportunity with Sales Area 4000</inlineHelpText>
+        <label>Total 4000 Products Value</label>
+        <summarizedField>OpportunityLineItem.Opportunity_Value__c</summarizedField>
+        <summaryFilterItems>
+            <field>OpportunityLineItem.Is_4000_Product__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_4000_Products_Volume__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Total volume for all products on opportunity with Sales Area 4000</inlineHelpText>
+        <label>Total 4000 Products Volume</label>
+        <summarizedField>OpportunityLineItem.Opportunity_Volume__c</summarizedField>
+        <summaryFilterItems>
+            <field>OpportunityLineItem.Is_4000_Product__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Business_Value__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Total of &apos;Business Value&apos; field of all products on the opportunity that are in status &apos;Won&apos; or &apos;In Progress&apos;. This is the value that feeds the pipeline</inlineHelpText>
+        <label>Total Business Value</label>
+        <summarizedField>OpportunityLineItem.Opportunity_Value__c</summarizedField>
+        <summaryFilterItems>
+            <field>OpportunityLineItem.Product_Status__c</field>
+            <operation>equals</operation>
+            <value>In Progress, Won</value>
+        </summaryFilterItems>
+        <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Contract_Value__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Amount of the total contract value over the course of the term</inlineHelpText>
+        <label>Total Contract Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Existing_Value_Lost_Products__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Total Existing Value of all products on opportunity with status &quot;Lost&quot;</inlineHelpText>
+        <label>Total Existing Value - Lost Products</label>
+        <summarizedField>OpportunityLineItem.Existing_Value__c</summarizedField>
+        <summaryFilterItems>
+            <field>OpportunityLineItem.Product_Status__c</field>
+            <operation>equals</operation>
+            <value>Lost</value>
+        </summaryFilterItems>
+        <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Existing_Value__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Total of &apos;Existing Value&apos; field on all products on opportunity that have a status of &apos;In Progress&apos; or &apos;Won&apos; or &apos;Lost&apos;</inlineHelpText>
+        <label>Total Existing Value</label>
+        <summarizedField>OpportunityLineItem.Existing_Value__c</summarizedField>
+        <summaryFilterItems>
+            <field>OpportunityLineItem.Product_Status__c</field>
+            <operation>equals</operation>
+            <value>In Progress, Won</value>
+        </summaryFilterItems>
+        <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Existing_Value_for_Tracking__c</fullName>
+        <description>Field to only be used for field history tracking and reporting purposes. Will be populated by workflow from the Rollup Summary field Total Existing Value</description>
+        <externalId>false</externalId>
+        <label>Total Existing Value for Tracking</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_New_Money__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The sum of all new values of all products on the opportunity that have a status of &apos;In progress&apos; or &apos;Won&apos;</inlineHelpText>
+        <label>Total New Money</label>
+        <summarizedField>OpportunityLineItem.New_Money_Value__c</summarizedField>
+        <summaryFilterItems>
+            <field>OpportunityLineItem.Product_Status__c</field>
+            <operation>equals</operation>
+            <value>In Progress, Won</value>
+        </summaryFilterItems>
+        <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Renegotiation_Value__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Renegotiation Value</label>
+        <summarizedField>OpportunityLineItem.Renegotiation_Value__c</summarizedField>
+        <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Visiting Customer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sending Customer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sales Opportunity</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Value_Change__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Value change between existing values and new values of all products on the opportunity that have a status of &apos;In progress&apos; or &apos;Won&apos;</inlineHelpText>
+        <label>Value Change</label>
+        <summarizedField>OpportunityLineItem.Value_Change__c</summarizedField>
+        <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Value_Change_for_Tracking__c</fullName>
+        <description>Field not to be shown on page layout but to be used for field history tracking of Value Change in reports. Will be populated via workflow from the roll-up summary Value Change field</description>
+        <externalId>false</externalId>
+        <label>Value Change for Tracking</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__ActimizerCallback__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer Scheduled Redial</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__CallAttempts__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer Call Attempts</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__DialTime__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer Redial Date &amp; Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__LockedBy__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OpportunitiesToDial</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__MaxCallAttemptsReached__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>AND( CampaignId != null, Campaign.actimizerdialer__MaxCallAttempts__c &gt; 0, actimizerdialer__CallAttempts__c &gt;= Campaign.actimizerdialer__MaxCallAttempts__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Max Call Attempts Reached</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__NoInterestDate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer No Interest Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__NoInterest__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer No Interest</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__Notes__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer Notes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__RedialPhone__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer Redial Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__SuccessDate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer Success Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>actimizerdialer__Success__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Actimizer Success</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>no_of_products__c</fullName>
+        <description>Calculates no of products associated to the opportunity</description>
+        <externalId>false</externalId>
+        <inlineHelpText># of products associated to the opportunity</inlineHelpText>
+        <label>no of products</label>
+        <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <listViews>
+        <fullName>AllOpportunities</fullName>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Sales_Office__c</columns>
+        <columns>Sales_Group__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Total_New_Money__c</columns>
+        <columns>Total_Existing_Value__c</columns>
+        <columns>Value_Change__c</columns>
+        <columns>Opportunity_ID__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Total_Renegotiation_Value__c</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>contains</operation>
+            <value>Identify &amp; Analyze Customer Need,Create Solution,Create &amp; Present Offer,Negot</value>
+        </filters>
+        <label>Pipeline - All Opportunities</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>ClosingNextMonth</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>equals</operation>
+            <value>NEXT_MONTH</value>
+        </filters>
+        <label>Closing Next Month</label>
+    </listViews>
+    <listViews>
+        <fullName>ClosingThisMonth</fullName>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_MONTH</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.WON</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Closing This Month</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>My_Contract_Renewals_All_Customers</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer,Sales Opportunity</value>
+        </filters>
+        <label>My Contract Renewals - All Customers</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>My_Contract_Renewals_Pending_Approval</fullName>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>Awaiting_Initial_Ops_Approval__c</columns>
+        <columns>Awaiting_Price_Grp_Final_Ops_Approval__c</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Awaiting_Initial_Ops_Approval__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Awaiting_Price_Grp_Final_Ops_Approval__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Sales Opportunity</value>
+        </filters>
+        <label>My Contract Renewals Pending Approval</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>My_Contract_Renewals_Sending_Customer</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Sending Customer</value>
+        </filters>
+        <label>My Contract Renewals - Sending Customer</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>My_Contract_Renewals_Visiting_Customer</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Sales Opportunity</value>
+        </filters>
+        <label>My Contract Renewals - Visiting Customer</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>My_Opportunities</fullName>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Total_Existing_Value__c</columns>
+        <columns>Total_Business_Value__c</columns>
+        <columns>Total_New_Money__c</columns>
+        <columns>OPPORTUNITY.LAST_UPDATE</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>contains</operation>
+            <value>Not Started,Identify &amp; Analyze Customer Need,Create Solution,Create &amp; Present</value>
+        </filters>
+        <label>My Opportunities</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>My_Opportunity_Team_Contract_Renewals</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <filterScope>Team</filterScope>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Sending Customer</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Sales Opportunity</value>
+        </filters>
+        <label>My Opportunity Team Contract Renewals</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>NewThisWeek</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <label>New This Week</label>
+    </listViews>
+    <listViews>
+        <fullName>Opp_til_genforhandling_for_2016</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Sales_Group__c</columns>
+        <columns>Sales_Office__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.NEXT_STEP</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Total_Renegotiation_Value__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Not Started</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>equals</operation>
+            <value>12/31/2015</value>
+        </filters>
+        <filters>
+            <field>Customer_Involved_Party_ID__c</field>
+            <operation>notContain</operation>
+            <value>80087877</value>
+        </filters>
+        <label>My opportunities for renegotiation 2016</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Opportunities_for_Operations_Approval</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>Total_4000_Products_Value__c</columns>
+        <columns>Total_4000_Products_Volume__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>Date_to_be_approved_by__c</columns>
+        <columns>Date_Opportunity_Approved__c</columns>
+        <columns>Awaiting_Initial_Ops_Approval__c</columns>
+        <columns>Awaiting_Price_Grp_Final_Ops_Approval__c</columns>
+        <columns>Operations_Approver__c</columns>
+        <columns>Price_Group_Approver__c</columns>
+        <columns>Complex_Solution__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Awaiting_Initial_Ops_Approval__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Opportunity.Standard_Opportunity,Opportunity.Sales_Opportunity</value>
+        </filters>
+        <filters>
+            <field>Awaiting_Price_Grp_Final_Ops_Approval__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Opportunities for Operations Approval</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Opportunities_for_Price_Group_Approval</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>Total_4000_Products_Value__c</columns>
+        <columns>Total_4000_Products_Volume__c</columns>
+        <columns>Date_to_be_approved_by__c</columns>
+        <columns>Date_Opportunity_Approved__c</columns>
+        <columns>Price_Group_Only_Approval__c</columns>
+        <columns>Price_Group_Approver__c</columns>
+        <columns>Operations_Approver__c</columns>
+        <columns>Complex_Solution__c</columns>
+        <columns>Sales_Office__c</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Awaiting_Price_Grp_Final_Ops_Approval__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Opportunity.Standard_Opportunity,Opportunity.Sales_Opportunity</value>
+        </filters>
+        <label>Opportunities for Price Group Approval</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Team_Anne_and_Morten</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>ABond,MPagh</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Anne and Morten Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Anne_and_Morten</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Berit_and_Christian</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>CMein,BPede</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Berit and Christian Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Berit_and_Christian</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Carsten_and_Hasan</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>COsmu,HTosu</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Carsten and Hasan Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Carsten_and_Hasan</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Carsten_and_Nicoline</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>NHans,CSerr</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Carsten and Nicoline Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Carsten_and_Nicoline</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Daniel_and_Jesper</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>DPask,JPede</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Daniel and Jesper Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Daniel_and_Jesper</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Dzana_and_Mette</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>DAvdi,MLeon</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Dzana and Mette Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Dzana_and_mette</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Erling_and_Peter</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>PEric,EHede</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Erling and Peter Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Erling_and_Peter</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Gitte_and_Allan</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>GHans</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Gitte and Allan Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Gitte_and_Allan</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Helle_and_Erik</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>HPovl,EBjer</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Helle and Erik Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Helle_and_Erik</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Jorgen_and_Flemming</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>FSahl,JSøre</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Jorgen and Flemming Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Jorgen_and_Flemming</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Karin_and_Nicoline</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>KDema,NHans</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Karin and Nicoline Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Karin_and_Nicoline</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Kenny_and_Lisa</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>LDahl,KMero</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Kenny and Lisa Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Kenny_and_Lisa</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Laila_and_Pelle</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>LVeld,PNeig</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Laila and Pelle Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Laila_and_Palle</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Maria_and_Diana</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>MDam,DNonb</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Maria and Diana Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Diana_og_Maria</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Michael_and_Jane</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>MBran,JLega</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Michael and Jane Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Michael_and_Jane</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Morten_and_Chrisina</fullName>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>Customer_Involved_Party_ID__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Postal_Code__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Admin_Activity_Status__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Contract_End_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>equals</operation>
+            <value>CBach,MScho</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.TYPE</field>
+            <operation>equals</operation>
+            <value>Visiting Customer,Sending Customer</value>
+        </filters>
+        <label>Team - Morten and Christina Renewals</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Team_Morten_and_Christina</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Team_Retail</fullName>
+        <booleanFilter>1 AND (2 OR 3 OR 4 OR 5)</booleanFilter>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.LAST_UPDATE</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Total_New_Money__c</columns>
+        <columns>Total_Existing_Value__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Office__c</field>
+            <operation>equals</operation>
+            <value>404 Retail</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Identify &amp; Analyze Customer Need</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Create Solution</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Create &amp; Present Offer</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>Negotiate &amp; Close Deal</value>
+        </filters>
+        <label>Team Retail Pipeline</label>
+        <language>en_US</language>
+    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Contract_Renewal_Sending_Opportunity</fullName>
+        <active>false</active>
+        <businessProcess>Standard Opportunity</businessProcess>
+        <description>Used to log contract renewals where the customer is categorised as a Sending Customer</description>
+        <label>Contract Renewal Sending Opportunity</label>
+        <picklistValues>
+            <picklist>Admin_Activity_Status__c</picklist>
+            <values>
+                <fullName>Contract doesn%27t need renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract lost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract moved to new customer ID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prices sent from Strålfors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP updated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Contract_Length__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ongoing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DB_Competitor__c</picklist>
+            <values>
+                <fullName>Competitor A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor C</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Campaign%2FTelemarketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted by Employee</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Trade Show %2F Exhibition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webform</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_Lost__c</picklist>
+            <values>
+                <fullName>Change in customer conditions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change of service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Created in error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing volume moved to another cust</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal lead time in business area</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost product on customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost whole customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No customer interest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No customer need</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non approved credit check</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_Won__c</picklist>
+            <values>
+                <fullName>Change of service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sales_Area__c</picklist>
+            <values>
+                <fullName>0540</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>0630</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3670</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO91</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO92</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LO NO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Sending Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visiting Customer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Contract_Renewal_Visiting_Opportunity</fullName>
+        <active>false</active>
+        <businessProcess>Standard Opportunity</businessProcess>
+        <description>Used to log contract renewals where the customer is categorised as a Visiting Customer</description>
+        <label>Contract Renewal Visiting Opportunity</label>
+        <picklistValues>
+            <picklist>Admin_Activity_Status__c</picklist>
+            <values>
+                <fullName>Contact attempted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract doesn%27t need renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract lost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract moved to new customer ID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Materials Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Materials ordered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price calculation ordered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prices sent from Strålfors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP updated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting for production solution</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Contract_Length__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ongoing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DB_Competitor__c</picklist>
+            <values>
+                <fullName>Competitor A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor C</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Campaign%2FTelemarketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted by Employee</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Trade Show %2F Exhibition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webform</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_Lost__c</picklist>
+            <values>
+                <fullName>Change in customer conditions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change of service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Created in error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing volume moved to another cust</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal lead time in business area</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost product on customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost whole customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No customer interest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No customer need</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non approved credit check</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_Won__c</picklist>
+            <values>
+                <fullName>Change of service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sales_Area__c</picklist>
+            <values>
+                <fullName>0540</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>0630</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3670</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO91</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO92</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LO NO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Sending Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visiting Customer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Sales_Opportunity</fullName>
+        <active>true</active>
+        <businessProcess>Standard Opportunity</businessProcess>
+        <description>Use this record type for all new business and re-negotiation type business</description>
+        <label>Sales Opportunity</label>
+        <picklistValues>
+            <picklist>Admin_Activity_Status__c</picklist>
+            <values>
+                <fullName>Contact attempted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract doesn%27t need renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract lost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract moved to new customer ID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Materials Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Materials ordered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price calculation ordered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prices sent from Strålfors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP updated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting for production solution</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Contract_Length__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ongoing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DB_Competitor__c</picklist>
+            <values>
+                <fullName>Competitor A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor C</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Campaign%2FTelemarketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted by Employee</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Trade Show %2F Exhibition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webform</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_Lost__c</picklist>
+            <values>
+                <fullName>Change in customer conditions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change of service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Created in error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing volume moved to another cust</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal lead time in business area</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost product on customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost whole customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No customer interest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No customer need</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non approved credit check</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_Won__c</picklist>
+            <values>
+                <fullName>Change of service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sales_Area__c</picklist>
+            <values>
+                <fullName>0540</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>0630</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3670</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO91</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO92</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LO NO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Sales Opportunity</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Sending Customer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Standard_Opportunity</fullName>
+        <active>true</active>
+        <businessProcess>Standard Opportunity</businessProcess>
+        <label>Standard Opportunity</label>
+        <picklistValues>
+            <picklist>Admin_Activity_Status__c</picklist>
+            <values>
+                <fullName>Contact attempted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract doesn%27t need renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract lost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract moved to new customer ID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Materials Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Materials ordered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price calculation ordered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prices sent from Strålfors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAP updated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting for production solution</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Contract_Length__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ongoing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DB_Competitor__c</picklist>
+            <values>
+                <fullName>Competitor A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor C</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Campaign%2FTelemarketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital Channel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted by Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Show %2F Exhibition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webform</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_Lost__c</picklist>
+            <values>
+                <fullName>Change in customer conditions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change of service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Created in error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing volume moved to another cust</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal lead time in business area</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost product on customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost whole customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No customer interest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No customer need</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non approved credit check</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_Won__c</picklist>
+            <values>
+                <fullName>Change of service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sales_Area__c</picklist>
+            <values>
+                <fullName>0630</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3670</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO91</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO92</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LO NO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Sending Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visiting Customer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Opportunity_ID__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.STAGE_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.CLOSE_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.AMOUNT</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Value_Change__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CORE.USERS.FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Sales_Area__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Sales_Area__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OPPORTUNITY.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>OPPORTUNITY.STAGE_NAME</searchFilterFields>
+        <searchFilterFields>OPPORTUNITY.CLOSE_DATE</searchFilterFields>
+        <searchFilterFields>CORE.USERS.FULL_NAME</searchFilterFields>
+        <searchFilterFields>Sales_Area__c</searchFilterFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Opportunity_ID__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.STAGE_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.CLOSE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.AMOUNT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Value_Change__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Sales_Area__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Account_must_be_WS</fullName>
+        <active>true</active>
+        <description>Account lookup must be associated to record type work site. The account lookup cannot be filtered on this (field restriction) so this validation rule does the check instead</description>
+        <errorConditionFormula>NOT(Account.RecordType.Name = &apos;Work Site&apos;) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorDisplayField>AccountId</errorDisplayField>
+        <errorMessage>The Account associated with this opportunity is not a Work Site. Please change the account.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Cannot_Change_Opp_Value_of_Closed_Opp</fullName>
+        <active>true</active>
+        <description>If an opportunity has been closed won or closed lost the Opportunity Value (Amount) cannot be changed without changing the stage first. *Update* - if opp is just changing to closed lost allow change of value so triggers will work.</description>
+        <errorConditionFormula>AND(OR( ISPICKVAL( StageName , &apos;Closed Won&apos;) , 
+ISPICKVAL( StageName , &apos;Closed Lost&apos;)), 
+OR( PRIORVALUE (StageName) = &apos;Closed Won&apos;, 
+PRIORVALUE (StageName) = &apos;Closed Lost&apos;), 
+ISCHANGED ( Amount )) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>You may not change the value of a closed opportunity. To change the value please change the stage first.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Closed_Opp_Must_Have_Products</fullName>
+        <active>true</active>
+        <description>If opp is at Closed Won or Closed Lost stage , opportunity products must exist for the opportunity</description>
+        <errorConditionFormula>AND(OR( ISPICKVAL( StageName , &apos;Closed Won&apos;) , ISPICKVAL( StageName , &apos;Closed Lost&apos;)),  HasOpportunityLineItem = FALSE) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>You must add products to your opportunity before setting to Closed Won or Closed Lost. 
+
+If this an opportunity that you have just cloned, please change the stage to something other than Closed Won or Closed Lost before saving.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Date_to_be_approved_must_be_07_days</fullName>
+        <active>true</active>
+        <description>When submitting a contract renewal opportunity the Date to be Approved must be 07 working days in the future</description>
+        <errorConditionFormula>ISCHANGED (  Date_to_be_approved_by__c ) 
+&amp;&amp; 
+(5 * ( FLOOR( ( Date_to_be_approved_by__c - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD( Date_to_be_approved_by__c - DATE( 1900, 1, 8), 7 ) ) ) 
+- 
+(5 * ( FLOOR( ( TODAY() - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD( TODAY() - DATE( 1900, 1, 8), 7 ) ) ) 
+&lt; 7
+&amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c != true</errorConditionFormula>
+        <errorDisplayField>Date_to_be_approved_by__c</errorDisplayField>
+        <errorMessage>Date to be approved by must be at least 7 working days in the future</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Date_to_be_approved_must_be_12_days</fullName>
+        <active>false</active>
+        <description>When submitting a contract renewal opportunity the Date to be Approved must be 12 working days in the future</description>
+        <errorConditionFormula>ISCHANGED (  Date_to_be_approved_by__c ) 
+&amp;&amp; 
+(5 * ( FLOOR( ( Date_to_be_approved_by__c - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD( Date_to_be_approved_by__c - DATE( 1900, 1, 8), 7 ) ) ) 
+- 
+(5 * ( FLOOR( ( TODAY() - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD( TODAY() - DATE( 1900, 1, 8), 7 ) ) ) 
+&lt; 12
+&amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c != true</errorConditionFormula>
+        <errorDisplayField>Date_to_be_approved_by__c</errorDisplayField>
+        <errorMessage>Date to be approved by must be at least 12 working days in the future</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Do_not_allow_cls_of_opp_with_open_quotes</fullName>
+        <active>true</active>
+        <description>Check Roll up summary field counting number of open quotes. If this is &gt; 0 on close of opp then don;t allow user to close</description>
+        <errorConditionFormula>AND(No_of_Open_Quotes__c &gt; 0,
+IsClosed) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>You have at least 1 open quote on this opportunity. Please set all quotes to either Won or Lost before closing this opportunity</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Must_have_products_for_approval_date</fullName>
+        <active>true</active>
+        <description>Date to be approved by can only be set if the opportunity has products</description>
+        <errorConditionFormula>NOT(ISNULL(Date_to_be_approved_by__c)) 
+&amp;&amp;   no_of_products__c  = 0
+&amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c != true</errorConditionFormula>
+        <errorDisplayField>Date_to_be_approved_by__c</errorDisplayField>
+        <errorMessage>You cannot enter a date to be approved by until your opportunity has products</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Start_Date_Required_for_Closed_Won</fullName>
+        <active>true</active>
+        <description>Start Date field should be filled in for Closed Won opportunities</description>
+        <errorConditionFormula>AND (ISPICKVAL( StageName , &apos;Closed Won&apos;),  ISNULL( Start_Date__c ) ) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorDisplayField>Start_Date__c</errorDisplayField>
+        <errorMessage>You must enter a start date for an opportunity to be Closed Won</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Start_Date_less_than_Expected_Close_Date</fullName>
+        <active>true</active>
+        <description>If start date is before expected close date give an error message</description>
+        <errorConditionFormula>OR(AND(Start_Date__c &lt;  CloseDate,NOT(IsWon)),
+(AND(ISCHANGED(StageName),
+IsWon,
+Start_Date__c &lt; Today()))) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorDisplayField>Start_Date__c</errorDisplayField>
+        <errorMessage>Expected Start Date cannot be before Close Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Total_Contract_Value_Required</fullName>
+        <active>true</active>
+        <description>Total Contract Value Required when opportunity is set to closed Won</description>
+        <errorConditionFormula>AND (
+     ISPICKVAL( StageName , &quot;Closed Won&quot;),
+ISBLANK( Total_Contract_Value__c )
+)</errorConditionFormula>
+        <errorDisplayField>Total_Contract_Value__c</errorDisplayField>
+        <errorMessage>please enter Total Contract Value</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Won_Contract_Renewal_Must_Have_SAP_Updte</fullName>
+        <active>false</active>
+        <description>When a contract renewal opp has been set to closed won it must have a status of SAP Updated</description>
+        <errorConditionFormula>IsWon &amp;&amp;
+RecordType.Name = &quot;Contract Renewal Visiting Opportunity&quot; &amp;&amp; (
+NOT (ISPICKVAL(Admin_Activity_Status__c,&quot;SAP Updated&quot;)) &amp;&amp;
+NOT (ISPICKVAL(Admin_Activity_Status__c,&quot;Contract doesn&apos;t need renewal&quot;)) &amp;&amp;
+NOT (ISPICKVAL(Admin_Activity_Status__c,&quot;Contract lost&quot;)) &amp;&amp;
+NOT (ISPICKVAL(Admin_Activity_Status__c,&quot;Contract moved to new customer ID&quot;))) &amp;&amp;
+$Setup.DisableAutomation__c.Disable_All_Validation_Rules__c != true</errorConditionFormula>
+        <errorDisplayField>Admin_Activity_Status__c</errorDisplayField>
+        <errorMessage>Admin Activiy Status must be SAP Updated before the opportunity can be Closed Won</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>New_Opportunity</fullName>
+        <availability>online</availability>
+        <description>For use on related list on Contact</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Opportunity</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/006/e?lookupcmpgn=&amp;accid={!Account.Id}&amp;conid={!Contact.Id}&amp;opp6={!Contact.LeadSource}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>actimizerdialer__Add_to_Call_List</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Add to My Call Queue</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/apex.js&quot;)}
+
+var records = {!GETRECORDIDS($ObjectType.Opportunity)};
+
+if (!records || records.length == 0) {
+  window.alert(&quot;{!$Label.actimizerdialer__NoRecordsSelected}&quot;);
+}
+else {
+  var opportunityUpdateable = false;
+  var lockedByUpdateable = false;
+  try {
+    var d = sforce.connection.describeSObject(&apos;Opportunity&apos;);
+    var opportunityUpdateable = d.updateable === &quot;true&quot;;
+
+    if (opportunityUpdateable) {
+      for(var i=d.fields.length-1; i&gt;=0; i--) {
+        var f = d.fields[i];
+        if (f.name == &apos;actimizerdialer__LockedBy__c&apos;) {
+          lockedByUpdateable = f.updateable === &quot;true&quot;;
+          break;
+        }
+      }
+    }
+  }
+  catch(Exception) { }
+
+  if (opportunityUpdateable &amp;&amp; lockedByUpdateable ) {
+    sforce.apex.execute(
+      &apos;actimizerdialer.CallListController&apos;,
+      &apos;AddToCallList2&apos;,
+      { &quot;subjectType&quot;: &quot;Opportunity&quot;, &quot;ids&quot;: records }, 
+      function(result) {
+        var count = result ? result[0] : 0;
+
+        if (count &gt; 0) {
+          if (count == 1) {
+            window.alert(&quot;{!$Label.actimizerdialer__OpportunityAdded_Singular}&quot;);
+          }
+          else {
+            window.alert(count + &quot; {!$Label.actimizerdialer__OpportunityAdded_Plural}&quot;);
+          }
+          var query = window.location.search.substring(1);
+          var vars = query.split(&apos;&amp;&apos;);
+          var retURL;
+          for (var i = 0; i &lt; vars.length; i++) {
+            var pair = vars[i].split(&apos;=&apos;);
+            if (decodeURIComponent(pair[0]) == &apos;retURL&apos;) {
+              retURL = decodeURIComponent(pair[1]);
+              break;
+            }
+          }
+          if(retURL) {
+            window.location = retURL;
+          }
+          else {
+            window.location.reload();
+          }
+        }
+        else if (count == 0) {
+          window.alert(&quot;{!$Label.actimizerdialer__OpportunitiesAlreadyInCallQueue}&quot;);
+        }
+        else if (count == -1) {
+          window.alert(&quot;{!$Label.actimizerdialer__NoAccessOpportunities}&quot;);
+        }
+      });
+  }
+  else {
+    window.alert(&quot;{!$Label.actimizerdialer__NoAccessOpportunities}&quot;);
+  }
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>actimizerdialer__Add_to_Call_List_PE</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Add to My Call Queue (PE)</masterLabel>
+        <openType>sidebar</openType>
+        <page>actimizerdialer__AddOpportunitiesToCallList</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>actimizerdialer__Add_to_Call_List_from_Detail</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Add to My Call Queue</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/apex.js&quot;)}
+
+var records = [&apos;{!Opportunity.Id}&apos;]; 
+
+var opportunityUpdateable = false;
+var lockedByUpdateable = false;
+try {
+  var d = sforce.connection.describeSObject(&apos;Opportunity&apos;);
+  var opportunityUpdateable = d.updateable === &quot;true&quot;;
+
+  if (opportunityUpdateable) {
+    for(var i=d.fields.length-1; i&gt;=0; i--) {
+      var f = d.fields[i];
+      if (f.name == &apos;actimizerdialer__LockedBy__c&apos;) {
+        lockedByUpdateable = f.updateable === &quot;true&quot;;
+        break;
+      }
+    }
+  }
+}
+catch(Exception) { }
+
+if (opportunityUpdateable &amp;&amp; lockedByUpdateable ) {
+  sforce.apex.execute(
+    &apos;actimizerdialer.CallListController&apos;,
+    &apos;AddToCallList2&apos;,
+    { &quot;subjectType&quot;: &quot;Opportunity&quot;, &quot;ids&quot;: records }, 
+    function(result) {
+      var count = result ? result[0] : 0;
+
+      if (count &gt; 0) {
+        window.alert(&quot;{!Opportunity.Name} {!$Label.actimizerdialer__RecordAdded}&quot;);
+      }
+      else if (count == 0) {
+        window.alert(&quot;{!Opportunity.Name} {!$Label.actimizerdialer__AlreadyInCallQueue}&quot;);
+      }
+      else if (count == -1) {
+        window.alert(&quot;{!$Label.actimizerdialer__NoAccessOpportunities}&quot;);
+      }
+    });
+}
+else {
+  window.alert(&quot;{!$Label.actimizerdialer__NoAccessOpportunities}&quot;);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>actimizerdialer__CallNow</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Actimizer - Call Now</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/33.0/apex.js&quot;)}
+
+var opportunityId = &apos;{!Opportunity.Id}&apos;; 
+
+var opportunityUpdateable = false;
+var lockedByUpdateable = false;
+try {
+  var d = sforce.connection.describeSObject(&apos;Opportunity&apos;);
+  var opportunityUpdateable = d.updateable === &quot;true&quot;;
+
+  if (opportunityUpdateable) {
+    for(var i=d.fields.length-1; i&gt;=0; i--) {
+      var f = d.fields[i];
+      if (f.name == &apos;actimizerdialer__LockedBy__c&apos;) {
+        lockedByUpdateable = f.updateable === &quot;true&quot;;
+        break;
+      }
+    }
+  }
+}
+catch(Exception) { }
+
+if (opportunityUpdateable &amp;&amp; lockedByUpdateable ) {
+  sforce.apex.execute(
+    &apos;actimizerdialer.CallListController&apos;,
+    &apos;CallNow&apos;,
+    { &quot;subjectType&quot;: &quot;Opportunity&quot;, &quot;id&quot;: opportunityId }, 
+    function(result) {
+      var success = result[0] || false;
+
+      if (success) {
+        window.location = &apos;/apex/actimizerdialer__CallSubjects&apos;;
+      }
+      else {
+        window.alert(&quot;{!$Label.actimizerdialer__NoAccessOpportunities}&quot;);
+      }
+    });
+}
+else {
+  window.alert(&quot;{!$Label.actimizerdialer__NoAccessOpportunities}&quot;);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>actimizerdialer__Create_Call_List</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Transfer to User&apos;s Call Queue</masterLabel>
+        <openType>sidebar</openType>
+        <page>actimizerdialer__AssignOpportunities</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>activities__Create_Tasks_Opp</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Create Tasks</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/20.0/connection.js&quot;)}
+var records = {!GETRECORDIDS( $ObjectType.Opportunity)};
+var returnURL = window.location.href;
+if(records != null &amp;&amp; records != &apos;&apos;){
+mywin = window.open(&apos;/apex/activities__createTasks?Ids=&apos;+records+&apos;&amp;retURL=&apos;+returnURL+&apos;&amp;type=whaid&apos; , &apos;_top&apos;,
+&apos;height=400,width=600,status=yes,toolbar=no,menubar=no,location=no,center=yes,resizable=no&apos;);
+mywin.focus();
+}else{
+alert(&apos;Please select atleast one record.&apos;);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>event_opp_cont</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Event</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/00U/e?who_id={!Contact.Id}&amp;what_id={!Opportunity.Id}&amp;retURL=%2F{!Opportunity.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>task_opp_cont</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Task</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/00T/e?who_id={!Contact.Id}&amp;what_id={!Opportunity.Id}&amp;retURL=%2F{!Opportunity.Id}</url>
+    </webLinks>
+</CustomObject>

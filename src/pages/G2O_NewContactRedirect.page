@@ -1,0 +1,6 @@
+<apex:page standardController="Contact" 
+	extensions="G2O_NewContactRedirect_VFCx" 
+	action="{!redirectContactCreate}"> 
+<h1>Sorry! Something went wrong in the Contact create process</h1>
+<p>Please contact your administrator, provide them this URL and the steps you made before receiving this error message.</p>
+</apex:page>

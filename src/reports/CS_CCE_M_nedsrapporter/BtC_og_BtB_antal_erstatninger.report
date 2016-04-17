@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_4057161</developerName>
+        <masterLabel>Produkt</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>FK_$Customer_Service_Product__c.Product_Group__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Private</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke Bulksplit</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke med omdeling</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke Postopkrævning</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakker med omdeling</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakker Norden</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke uden omdeling</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakker uden omdeling</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke uden omdeling, Danmark</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke uden omdeling, Norden</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Privatpakke XL-omdeling</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Postpakker</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Særlige postpakkeprodukter</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Særlige privatpakkeprodukter m. omdeling</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Særlige privatpakkeprodukter u. omdeling</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Postopkrævningspakker</sourceValue>
+            </sourceValues>
+            <value>BtC</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Business</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer Return</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer Return, Danmark</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer Return, Norden</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>DPD Business Return Danmark</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>DPD Business Return Udland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>DPD CLASSIC</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>DPD Classic indland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>DPD Classic udland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>DPD Guarantee Danmark</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>DPD Guarantee Udland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Erhvervspakker</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pakker</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Parcel Economy</sourceValue>
+            </sourceValues>
+            <value>BtB</value>
+        </values>
+    </buckets>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Case.Approved_amount_of_compensation__c</field>
+    </columns>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <columns>
+        <field>OPEN</field>
+    </columns>
+    <columns>
+        <field>CLOSED</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Rune Wedendahl</description>
+    <filter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <operator>equals</operator>
+            <value>Case.Complaint</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Reason__c</column>
+            <operator>equals</operator>
+            <value>Forsinket,Bortkomst,Beskadiget,Manglende indhold,Manglende PO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>BucketField_4057161</column>
+            <operator>equals</operator>
+            <value>BtC,BtB</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Approved_amount_of_compensation__c</column>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_4057161</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>CLOSED_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.Reason__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>MR_BtC og BtB - antal erstatninger</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList@Case.Product_Article__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSED_DATEONLY</dateColumn>
+        <interval>INTERVAL_LASTMONTH</interval>
+    </timeFrameFilter>
+</Report>

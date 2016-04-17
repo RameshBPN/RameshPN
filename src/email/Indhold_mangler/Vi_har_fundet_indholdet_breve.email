@@ -1,0 +1,60 @@
+<table height="400" width="650" cellpadding="0" border="0" cellspacing="0" >
+<tr valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="460" >
+<table height="400" width="460" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal align=left><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2><FONT face=Arial,Sans-Serif>{!Case.Sender__c}<?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal align=left><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2><FONT face=Arial,Sans-Serif>{!Case.Sender_Postal_Address_Street__c} {!Case.Sender_Postal_Address_House_Number__c} {!Case.Sender_House_Number_Supplement__c} {!Case.Sender_Postal_Address_Room_Number__c}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal align=left><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2><FONT face=Arial,Sans-Serif>{!IF(Case.Sender_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Sender_Postal_Address_PO_Box__c}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal align=left><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2><FONT face=Arial,Sans-Serif>{!IF(!Case.Sender_Postal_Address_Suburb__c="Suburb","")} {!Case.Sender_Postal_Address_Suburb__c} <o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal align=left><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2><FONT face=Arial,Sans-Serif>{!Case.Sender_Postal_Address_Postal_Code__c} {!Case.Sender_Postal_Address_City__c}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal align=left><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2><FONT face=Arial,Sans-Serif>{!Case.Sender_Postal_Address_Country__c}<o:p></o:p></FONT></FONT></SPAN></P>
+<P align=left><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB" lang=EN-GB><SPAN style="mso-spacerun: yes"></SPAN></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB" lang=EN-GB><SPAN style="mso-spacerun: yes"></SPAN></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT size=2></FONT>&nbsp;</P>
+<P align=left><FONT size=2></FONT>&nbsp;</P>
+<P align=left><FONT size=2></FONT>&nbsp;</P>
+<P align=left><FONT size=2></FONT>&nbsp;</P>
+<P align=left>&nbsp;</P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB" lang=EN-GB><SPAN style="mso-spacerun: yes"></SPAN></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB" lang=EN-GB><SPAN style="mso-spacerun: yes"></SPAN></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB" lang=EN-GB><SPAN style="mso-spacerun: yes"></SPAN></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB" lang=EN-GB><SPAN style="mso-spacerun: yes"><STRONG><FONT face=Arial,Sans-Serif>VI HAR FUNDET INDHOLDET</FONT></STRONG></SPAN></SPAN></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB" lang=EN-GB><SPAN style="mso-spacerun: yes"><STRONG></STRONG></SPAN></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB" lang=EN-GB><SPAN style="mso-spacerun: yes"><FONT face=Arial,Sans-Serif>Du har efterlyst indholdet i&nbsp;forsendelsen med stregkodenummer {!Case.Item_Id__c} sendt den {!Case.Submission_date__c}&nbsp; til:</FONT></SPAN></SPAN></P>
+<P align=left><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB" lang=EN-GB><SPAN style="mso-spacerun: yes"></SPAN></SPAN><FONT size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P><SPAN style="FONT-FAMILY: Arial; COLOR: black; FONT-SIZE: 10pt; mso-ansi-language: EN-GB" lang=EN-GB><SPAN style="mso-spacerun: yes">
+<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal align=left><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2><FONT face=Arial,Sans-Serif>{!Case.Receiver__c}<o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal align=left><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2><FONT face=Arial,Sans-Serif>{!Case.Receiver_Postal_Address_Street__c} {!Case.Receiver_Postal_Address_House_Number__c} {!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c} <o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal align=left><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2><FONT face=Arial,Sans-Serif>{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")} {!Case.Receiver_Postal_Address_PO_Box__c} <o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal align=left><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2><FONT face=Arial,Sans-Serif>{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")} {!Case.Receiver_Postal_Address_Suburb__c} <o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal align=left><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2><FONT face=Arial,Sans-Serif>{!Case.Receiver_Postal_Address_Postal_Code__c} {!Case.Receiver_Postal_Address_City__c} <o:p></o:p></FONT></FONT></SPAN></P>
+<P style="MARGIN: 0cm 0cm 0pt; mso-layout-grid-align: none" class=MsoNormal align=left><SPAN style="FONT-FAMILY: Arial; COLOR: windowtext; FONT-SIZE: 9pt; mso-ansi-language: EN-GB" lang=EN-GB><FONT size=2><FONT face=Arial,Sans-Serif>{!Case.Receiver_Postal_Address_Country__c}<o:p></o:p></FONT></FONT></SPAN></P>
+<P align=left><BR><FONT face=Arial,Sans-Serif>Vi har fundet indholdet i Returposten, og vi sender det til </FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif><STRONG>[dig/modtager]</STRONG> med det samme. Brevet bliver sendt med stregkodenummer <STRONG>[skriv stregkodenr.].</STRONG></FONT></P>
+<P align=left><STRONG></STRONG><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>Vi har kontaktet modtageren, som bekræfter, at indholdet er modtaget.</FONT></P>
+<P align=left>&nbsp;</P>
+<P align=left><FONT face=Arial,Sans-Serif>Vi afslutter derfor sagen.</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>Med venlig hilsen</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>{!Case.OwnerFirstName} {!Case.OwnerLastName}</FONT></P>
+<P align=left><FONT face=Arial,Sans-Serif>{!Case.OwnerTitle}</FONT></SPAN><o:p></o:p></SPAN></P>]]></td>
+</tr>
+</table>
+</td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="10" >
+<![CDATA[]]></td>
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" >
+<table height="400" width="180" cellpadding="5" border="0" cellspacing="5" >
+<tr height="100" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" width="180" tEditID="c2r1" locked="0" rowspan="3" aEditID="c2r1" >
+<![CDATA[<P align=left><FONT size=1>{!User.CompanyName} <BR>{!User.Division}<BR>{!User.Department}<BR>{!User.Street}<BR>{!User.PostalCode} {!User.City}<BR>CVR nr.: 26663903<BR>{!User.Company_Webb_Address__c}<BR>&nbsp;<BR>Tlf {!User.Department_Phone__c}<BR>{!User.Team_Email__c}<BR>&nbsp;<BR>Dato {!Today}<BR>Sagsnr. {!Case.Main_Case_Number__c} <BR>Sagsbeh {!User.Alias}<BR></P></FONT>]]></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

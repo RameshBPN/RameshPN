@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>05 - EMS returnering af ulovligt indhold Ny postnord</name>
+    <style>promotionRight</style>
+    <subject>{!Case.Main_Case_Number__c} Vedrørende Deres reklamation over returnering af EMS forsendelse fra Pakistan</subject>
+    <textOnly>{!Case.Account}
+
+{!Case.Postal_Address_Street__c} {!Case.Postal_Address_House_Number__c} {!Case.Postal_Address_House_Number_Supplement__c} {!Case.Postal_Address_Room_Number__c}
+
+{!IF(Case.Postal_Address_PO_Box__c=&quot;&quot;,&quot;&quot;,&quot;Postboks:&quot;)} {!Case.Postal_Address_PO_Box__c}
+
+{!IF(!Case.Postal_Address_Suburd__c=&quot;Suburb&quot;,&quot;&quot;)} {!Case.Postal_Address_Suburd__c}
+
+{!Case.Postal_Address_Postal_Code__c} {!Case.Postal_Address_City__c}
+
+
+{!Case.Postal_Address_Country__c}
+
+
+
+
+
+Vedrørende Deres reklamation over returnering af EMS forsendelse fra Pakistan
+
+Postnord Logistics har undersøgt Deres reklamation vedrørende returnering af Deres EMS-forsendelse fra Pakistan med EMS-nummer EExxxxxxxxx og konkluderer:
+
+
+Årsagen til returnering af pakken, er importforbud af knive. Vedlagt finder De Justitsministeriets bekendgørelse fra 2005 om våben og ammunition. Her kan De se retningslinierne vedr. forbudet mod våben.
+
+
+Hvis De har yderlige kommentarer eller spørgsmål, er De velkommen til at kontakte undertegnede eller en af mine kolleger.
+
+
+
+
+
+
+Med venlig hilsen
+
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+{!User.Department}
+
+PostNord Logistics A/S
+
+Kirkebjerg Søpark 2
+
+DK-2605 Brøndby
+
+
+Kundeservice:
+
+T +45 70 25 38 38
+
+
+
+CVR nr DK20148586
+
+
+
+info.dk@postnord.com
+
+postnordlogistik.dk</textOnly>
+    <type>html</type>
+</EmailTemplate>

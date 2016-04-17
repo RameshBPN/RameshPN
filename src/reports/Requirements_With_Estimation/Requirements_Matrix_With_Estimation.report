@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Requirement__c.Priority__c</field>
+    </columns>
+    <columns>
+        <field>Requirement__c.Lines_of_Business_Requestor__c</field>
+    </columns>
+    <columns>
+        <field>Requirement__c.Type__c</field>
+    </columns>
+    <columns>
+        <field>Requirement__c.Functional_Requirement__c</field>
+    </columns>
+    <columns>
+        <field>Requirement__c.Solution_Type__c</field>
+    </columns>
+    <columns>
+        <field>Requirement__c.Scope__c</field>
+    </columns>
+    <columns>
+        <field>Requirement__c.Solution_Complexity__c</field>
+    </columns>
+    <columns>
+        <field>Requirement__c.Reviewed_with_Business__c</field>
+    </columns>
+    <columns>
+        <field>Requirement__c.Reviewed_with_Tech_Team__c</field>
+    </columns>
+    <columns>
+        <field>CUST_LAST_UPDATE_NAME</field>
+    </columns>
+    <description>Export of all requirements</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Requirement__c.Gap__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Requirements Matrix</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Requirement__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

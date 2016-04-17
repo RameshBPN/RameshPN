@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Involved_Party_ID__c</field>
+    </columns>
+    <columns>
+        <field>Account$Id</field>
+    </columns>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Contact_Role_Transactions__r$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Contact_Role_Transactions__r$Contact__c</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Contact_Role_Transactions__r$IsPrimary__c</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Contact_Role_Transactions__r$CreatedBy</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Contact_Role_Transactions__r$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Contact_Role_Transactions__r$Contact_Record_Type__c</field>
+    </columns>
+    <currency>DKK</currency>
+    <description>Show account with account contact roles</description>
+    <format>Tabular</format>
+    <name>Accounts with account contacts roles</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Account_Contact_Roles__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>Account.Account_Contact_Role_Transactions__r$Contact__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

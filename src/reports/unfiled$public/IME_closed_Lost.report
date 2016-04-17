@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>OpportunityLineItem.Existing_Value__c:SUM / OpportunityLineItem.Existing_Volume__c:SUM</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <isActive>false</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>GNS pris</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <columns>
+        <field>Account.Involved_Party_ID__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Reason_Lost__c</field>
+    </columns>
+    <columns>
+        <field>Account.PDK_BE_Cust_Resp_Name__c</field>
+    </columns>
+    <columns>
+        <field>Product2.Assortment__c</field>
+    </columns>
+    <columns>
+        <field>OpportunityLineItem.Type__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>OpportunityLineItem.Existing_Volume__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>OpportunityLineItem.Opportunity_Volume__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>OpportunityLineItem.Opportunity_Value__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>OpportunityLineItem.Renegotiation_Value__c</field>
+    </columns>
+    <currency>DKK</currency>
+    <filter>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <operator>notEqual</operator>
+            <value>Not Started</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Sales_Area__c</column>
+            <operator>equals</operator>
+            <value>1000,PDK BE,4000,PDK LO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.FO_Sales_group__c</column>
+            <operator>equals</operator>
+            <value>1500 Industrial market and e-commerce</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <operator>equals</operator>
+            <value>Closed Lost</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Reason_Lost__c</column>
+            <operator>notEqual</operator>
+            <value>Created in error,Duplicate,Duplicate;Created in error</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Product2.Assortment__c</column>
+            <operator>equals</operator>
+            <value>Pakker Indland,Privatpakker,Pakker Udland,Groupage,Letgods,Thirt Party Logistic,Pallet,Express &amp; Courrier</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Total_Renegotiation_Value__c</column>
+            <operator>notEqual</operator>
+            <value>DKK 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OpportunityLineItem.Type__c</column>
+            <operator>notEqual</operator>
+            <value>New Business</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>PRODUCT_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>IME Closed Lost</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityProduct</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CURY</interval>
+    </timeFrameFilter>
+</Report>

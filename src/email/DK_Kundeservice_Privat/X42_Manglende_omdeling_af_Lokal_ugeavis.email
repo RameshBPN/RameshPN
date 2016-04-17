@@ -1,0 +1,24 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="Verdana, Helvetica, sans-serif" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);">Hej Distribution &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </font><font face="Verdana, Helvetica, sans-serif" size="2" style="font-size: 12pt; font-family: arial;"><font style="color: rgb(0, 0, 0);">&nbsp;</font>Dato {!Today}</font><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><span lang="EN-GB" style="font-size:8.0pt;font-family:Arial;
+mso-ansi-language:EN-GB"><o:p></o:p></span></p><div style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><font face="Verdana, Helvetica, sans-serif"><br></font></div><div><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="color: windowtext;"><font face="Verdana, Helvetica, sans-serif" size="2">{!Case.Receiver__c}<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="color: windowtext;"><font face="Verdana, Helvetica, sans-serif" size="2">{!Case.Receiver_Postal_Address_Street__c}
+{!Case.Receiver_Postal_Address_House_Number__c}
+{!Case.Receiver_Postal_Address_House_Number_Supplement__c} {!Case.Receiver_Postal_Address_Room_Number__c}
+<o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="color: windowtext;"><font face="Verdana, Helvetica, sans-serif" size="2">{!IF(Case.Receiver_Postal_Address_PO_Box__c="","","Postboks:")}
+{!Case.Receiver_Postal_Address_PO_Box__c} <o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="color: windowtext;"><font face="Verdana, Helvetica, sans-serif" size="2">{!IF(!Case.Receiver_Postal_Address_Suburb__c="Suburb","")}
+{!Case.Receiver_Postal_Address_Suburb__c} <o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="color: windowtext;"><font face="Verdana, Helvetica, sans-serif" size="2">{!Case.Receiver_Postal_Address_Postal_Code__c}
+{!Case.Receiver_Postal_Address_City__c} <o:p></o:p></font></span></p>
+
+<p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><font face="Verdana, Helvetica, sans-serif" size="2"><br></font></p><p class="MsoNormal"><font size="2" style="color: rgb(0, 0, 0);" face="Verdana, Helvetica, sans-serif">klager over manglende omdeling af&nbsp;{!Case.Title__c} </font><font face="Verdana, Helvetica, sans-serif" size="2" style="color: rgb(0, 0, 0);">den&nbsp;</font><font face="Verdana, Helvetica, sans-serif" size="2">{!Case.Date_of_mistake__c}.</font></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><br></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><span lang="EN-GB"><font face="Verdana, Helvetica, sans-serif" size="2">Jeg vil bede jer sikre, at kunden fremover får omdelt sin lokale ugeavis.</font></span></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial; color: rgb(0, 0, 0);"><span lang="EN-GB" style="font-size:9.0pt;font-family:Arial;color:windowtext;
+mso-ansi-language:EN-GB"><br></span></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><span lang="EN-GB"><font face="Verdana, Helvetica, sans-serif" size="2">Med venlig hilsen</font></span></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><span lang="EN-GB"><font face="Verdana, Helvetica, sans-serif" size="2"><br></font></span></p><p class="MsoNormal" style="font-size: 12pt; font-family: arial;"><span lang="EN-GB"></span></p><p style="font-size: 12pt; font-family: arial;"><span lang="EN-GB"><font face="Verdana, Helvetica, sans-serif" size="2">{!Case.OwnerFirstName} {!Case.OwnerLastName}</font><font face="Arial" style="font-size: 9pt;"><o:p></o:p></font></span></p><p style="font-size: 12pt; font-family: arial;"><span lang="EN-GB"><font face="Verdana, Helvetica, sans-serif" size="2"><br></font></span></p><p style="font-size: 12pt; font-family: arial;"><span lang="EN-GB"></span></p><p style="font-size: 12pt; font-family: arial;"><span lang="EN-GB"><font face="Verdana, Helvetica, sans-serif" size="2">{!Case.Main_Case_Number__c}</font><font face="Arial" style="font-size: 10pt;"><o:p></o:p></font></span></p></div>]]></td>
+</tr>
+</table>

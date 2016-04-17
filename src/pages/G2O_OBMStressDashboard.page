@@ -1,0 +1,227 @@
+<apex:page controller="G2O_OBMStressDashboard_VFC">
+	<apex:form id="theForm">
+		<!-- START: OBM Stress Dashboard -->
+		<apex:pageBlock title="OBM Stress Dashboard">
+			<apex:pageMessages />
+			<apex:pageBlockButtons >
+				<apex:commandButton value="Create test records"
+					action="{!createTestRecords}" rerender="opStatus, theForm"
+					status="loadingStatus" />
+				<apex:commandButton value="Set top segment"
+					action="{!setTopSegment}" rerender="opStatus, theForm"
+					status="loadingStatus" />
+				<apex:commandButton value="Delete test records"
+					action="{!deleteTestRecords}" rerender="opStatus, theForm"
+					status="loadingStatus" />
+			</apex:pageBlockButtons>
+			<apex:pageBlockSection >
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >Legal Entities with Sales Area</apex:outputLabel>
+					<apex:inputText value="{!nrOfLEs}">
+						<apex:actionSupport event="onchange"
+							rerender="nrOfLeOBMs, nrOfAddedSAIsToLeOBMs, totalNrOfOBMs"
+							immediate="false" />
+					</apex:inputText>
+				</apex:pageBlockSectionItem>
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >OBMs created (LE + SAI)</apex:outputLabel>
+					<apex:outputLabel value="{!nrOfLeOBMs}" id="nrOfLeOBMs" />
+				</apex:pageBlockSectionItem>
+
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >Add another Sales Area to Legal Entites</apex:outputLabel>
+					<apex:inputCheckbox value="{!addAdditionalSAIToLEs}">
+						<apex:actionSupport event="onchange"
+							rerender="nrOfAddedSAIsToLeOBMs, totalNrOfOBMs" immediate="false" />
+					</apex:inputCheckbox>
+				</apex:pageBlockSectionItem>
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >OBMs created (SAI)</apex:outputLabel>
+					<apex:outputLabel value="{!nrOfAddedSAIsToLeOBMs}"
+						id="nrOfAddedSAIsToLeOBMs" />
+				</apex:pageBlockSectionItem>
+
+				<apex:pageBlockSectionItem />
+				<apex:pageBlockSectionItem />
+
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >Work Sites with Sales Area</apex:outputLabel>
+					<apex:inputText value="{!nrOfWSs}">
+						<apex:actionSupport event="onchange"
+							rerender="nrOfWsOBMs, nrOfAddedSAIsToLeOBMs, nrOfContactOBMs, nrOfIROBMs, 
+                            nrOfCIOBMs, nrOfBDOBMs, nrOfExtOBMs, totalNrOfOBMs"
+							immediate="false" />
+					</apex:inputText>
+				</apex:pageBlockSectionItem>
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >OBMs created (1 LE + WS + SAI)</apex:outputLabel>
+					<apex:outputLabel value="{!nrOfWsOBMs}" id="nrOfWsOBMs" />
+				</apex:pageBlockSectionItem>
+
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >Add another Sales Area to Work Sites</apex:outputLabel>
+					<apex:inputCheckbox value="{!addAdditionalSAIToWSs}">
+						<apex:actionSupport event="onchange"
+							rerender="nrOfAddedSAIsToWsOBMs, totalNrOfOBMs" immediate="false" />
+					</apex:inputCheckbox>
+				</apex:pageBlockSectionItem>
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >OBMs created (LE SAI + WS SAI)</apex:outputLabel>
+					<apex:outputLabel value="{!nrOfAddedSAIsToWsOBMs}"
+						id="nrOfAddedSAIsToWsOBMs" />
+				</apex:pageBlockSectionItem>
+
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >Add Credit Information to Work Sites</apex:outputLabel>
+					<apex:inputCheckbox value="{!addCItoWSs}">
+						<apex:actionSupport event="onchange"
+							rerender="nrOfCIOBMs, totalNrOfOBMs" immediate="false" />
+					</apex:inputCheckbox>
+				</apex:pageBlockSectionItem>
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >OBMs created (CI)</apex:outputLabel>
+					<apex:outputLabel value="{!nrOfCIOBMs}" id="nrOfCIOBMs" />
+				</apex:pageBlockSectionItem>
+
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >Bank Details on each Work Site</apex:outputLabel>
+					<apex:inputText value="{!nrOfBDs}">
+						<apex:actionSupport event="onchange"
+							rerender="nrOfBDOBMs, totalNrOfOBMs" immediate="false" />
+					</apex:inputText>
+				</apex:pageBlockSectionItem>
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >OBMs created (BD)</apex:outputLabel>
+					<apex:outputLabel value="{!nrOfBDOBMs}" id="nrOfBDOBMs" />
+				</apex:pageBlockSectionItem>
+
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >Invoice Recipient Relationships to each Work Site</apex:outputLabel>
+					<apex:inputText value="{!nrOfIRs}">
+						<apex:actionSupport event="onchange"
+							rerender="nrOfIROBMs, totalNrOfOBMs" immediate="false" />
+					</apex:inputText>
+				</apex:pageBlockSectionItem>
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >OBMs created (IR + Relationship)</apex:outputLabel>
+					<apex:outputLabel value="{!nrOfIROBMs}" id="nrOfIROBMs" />
+				</apex:pageBlockSectionItem>
+
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >Contacts on each Worksite</apex:outputLabel>
+					<apex:inputText value="{!nrOfContacts}">
+						<apex:actionSupport event="onchange"
+							rerender="nrOfContactOBMs, totalNrOfOBMs" immediate="false" />
+					</apex:inputText>
+				</apex:pageBlockSectionItem>
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >OBMs created (Contact + ACRT)</apex:outputLabel>
+					<apex:outputLabel value="{!nrOfContactOBMs}" id="nrOfContactOBMs" />
+				</apex:pageBlockSectionItem>
+				
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >Extensions on each Worksite</apex:outputLabel>
+					<apex:inputText value="{!nrOfExts}">
+						<apex:actionSupport event="onchange"
+							rerender="nrOfExtOBMs, totalNrOfOBMs" immediate="false" />
+					</apex:inputText>
+				</apex:pageBlockSectionItem>
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >OBMs created (Ext + SAI)</apex:outputLabel>
+					<apex:outputLabel value="{!nrOfExtOBMs}" id="nrOfExtOBMs" />
+				</apex:pageBlockSectionItem>
+
+				<apex:pageBlockSectionItem />
+				<apex:pageBlockSectionItem />
+
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >Private Persons with Sales Area</apex:outputLabel>
+					<apex:inputText value="{!nrOfPPs}">
+						<apex:actionSupport event="onchange"
+							rerender="nrOfPpOBMs, totalNrOfOBMs" immediate="false" />
+					</apex:inputText>
+				</apex:pageBlockSectionItem>
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >OBMs created (Private Person + SAI)</apex:outputLabel>
+					<apex:outputLabel value="{!nrOfPpOBMs}" id="nrOfPpOBMs" />
+				</apex:pageBlockSectionItem>
+				<apex:pageBlockSectionItem />
+				<apex:pageBlockSectionItem />
+				<apex:pageBlockSectionItem />
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel >Total number of OBMs created</apex:outputLabel>
+					<apex:outputLabel value="{!totalNrOfOBMs}" id="totalNrOfOBMs" />
+				</apex:pageBlockSectionItem>
+
+				<apex:pageBlockSectionItem />
+				<apex:pageBlockSectionItem />
+
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="Enter the value of the custom setting 'OBM Stress Dashboard Captcha' here:" />
+					<apex:inputText value="{!userCaptcha}" />
+				</apex:pageBlockSectionItem>
+
+			</apex:pageBlockSection>
+		</apex:pageBlock>
+		<!-- END: OBM Stress Dashboard -->
+
+		<!-- START: Test case creator -->
+		<apex:pageBlock title="Test Case Creator">
+			<apex:pageMessage id="testCasemessage" severity="info"
+				summary="{!testCasemessage}"
+				rendered="{!NOT(IsNull(testCaseMessage))}" />
+			<apex:pageBlockButtons >
+				<apex:commandButton value="Create test case records"
+					action="{!createTestCases}" rerender="opStatus, theForm"
+					status="loadingStatus" />
+				<apex:commandButton value="Delete test case records"
+					action="{!deleteTestCases}" rerender="opStatus, theForm"
+					status="loadingStatus" />
+			</apex:pageBlockButtons>
+			<apex:pageBlockSection >
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="Enter the value of the custom setting 'OBM Stress Dashboard Captcha' here:" />
+					<apex:inputText value="{!testCaseuserCaptcha}" />
+				</apex:pageBlockSectionItem>
+			</apex:pageBlockSection>
+			<apex:pageBlockSection columns="1">
+				<apex:pageBlockTable value="{!testCases}" var="testCase">
+					<apex:column >
+						<apex:inputCheckbox value="{!testCase.selected}" />
+					</apex:column>
+					<apex:column headerValue="Name" value="{!testCase.name}" />
+					<apex:column headerValue="Description"
+						value="{!testCase.description}" />
+				</apex:pageBlockTable>
+
+				<apex:pageBlockTable value="{!resultAccounts}" var="account" rendered="{!resultAccounts.size > 0}">
+					<apex:column headerValue="Main Account Name" value="{!account.name}" />
+					<apex:column headerValue="Record Type">
+						<apex:outputField value="{!account.RecordTypeId}"
+							rendered="{!account.LastName == ''}" />
+						<apex:outputText value="B2C Webshop Placeholder"
+							rendered="{!account.LastName != ''}" />
+					</apex:column>
+					<apex:column headerValue="Record Id" value="{!account.Id}" />
+				</apex:pageBlockTable>
+			</apex:pageBlockSection>
+		</apex:pageBlock>
+		<!-- END: Test case creator -->
+
+		<!-- START: Loading overlay -->
+		<apex:outputPanel id="opStatus">
+			<apex:actionStatus id="loadingStatus">
+				<apex:facet name="start">
+					<div class="waitingSearchDiv" id="el_loading"
+						style="background-color: #fbfbfb; height: 100%; opacity: 0.65; width: 100%;">
+						<div class="waitingHolder">
+							<img class="waitingImage" src="/img/loading.gif"
+								title="Loading..." /> <span class="waitingDescription">Loading...</span>
+						</div>
+					</div>
+				</apex:facet>
+				</apex:actionstatus>
+		</apex:outputPanel>
+		<!-- END: Loading overlay -->
+	</apex:form>
+</apex:page>

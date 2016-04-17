@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Ønskeskyen.Velkomst mail 2</name>
+    <style>none</style>
+    <subject>Nu får du flere af de gaver, du gerne vil have</subject>
+    <textOnly>Hej {{lead.First Name}}
+
+
+
+Det rigtig gode ved Ønskeskyen er, at du nemt kan dele alt det, du drømmer om, med din familie og dine venner. Både for hyggens skyld og når der er bud efter dine ønsker til jul, fødselsdag eller andre fester. Prøv selv, og få flere af de gaver, du gerne vil have.
+Sådan deler du dine ønsker
+
+Gå ind på den ønskeseddel, du vil dele. Vælg, hvordan du vil dele den - og hvem du vil dele med. Send nu dine ønsker, og vent. For alt godt kommer til den, der venter.
+Klik dine egne billeder ind i ønskeskyen
+
+Ser du nogle gange en flot tatovering til en fest eller en fed lampe hos en ven? Den slags inspiration er der også plads til i Ønskeskyen.
+Har du ikke allerede Ønskeskyen på din mobil?
+
+
+
+Ønskeskyen koster ikke noget, og den venter på dig der, hvor du plejer at hente dine apps.
+&lt;https://itunes.apple.com/dk/app/nskeskyen/id973421404&gt;
+&lt;https://play.google.com/store/apps/details?id=com.ovdal.onskeskyen&gt;
+&lt;https://www.youtube.com/watch?v=I7ROgOjk3Gk&gt;
+&lt;https://www.facebook.com/oenskeskyen&gt;
+Følg Ønskeskyen på Facebook. &lt;https://www.facebook.com/oenskeskyen&gt;
+Vi har sendt denne e-mail til {{lead.Email Address}}. Hvis du ikke
+ længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;{{my.mypage}}&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

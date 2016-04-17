@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CaseSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteriaBasedRules>
+        <fullName>Admin_Activiy_Case_Sharing</fullName>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_Sales_and_Marketing</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Admin Activity</value>
+        </criteriaItems>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <name>Admin Activiy Case Sharing</name>
+    </criteriaBasedRules>
+    <ownerRules>
+        <fullName>All_cases_for_Breve</fullName>
+        <sharedTo>
+            <roleAndSubordinates>PN_DK_Customer_Service</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>PN_DK_Customer_Service</roleAndSubordinates>
+        </sharedFrom>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <name>All cases for Breve</name>
+    </ownerRules>
+    <ownerRules>
+        <fullName>All_cases_for_DK_Sales_Administration</fullName>
+        <sharedTo>
+            <roleAndSubordinates>DK_Sales_Administration</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>DK_Sales_Administration</roleAndSubordinates>
+        </sharedFrom>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <name>All cases for DK Sales Administration</name>
+    </ownerRules>
+    <ownerRules>
+        <fullName>All_cases_for_Logistics_SE</fullName>
+        <sharedTo>
+            <roleAndSubordinates>LO_SE_Customer_Service</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>LO_SE_Customer_Service</roleAndSubordinates>
+        </sharedFrom>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <name>All cases for Logistics SE</name>
+    </ownerRules>
+    <ownerRules>
+        <fullName>All_cases_for_ME_SE</fullName>
+        <sharedTo>
+            <roleAndSubordinates>ME_Customer_Service</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>ME_Customer_Service</roleAndSubordinates>
+        </sharedFrom>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <name>All cases for ME SE</name>
+    </ownerRules>
+</CaseSharingRules>

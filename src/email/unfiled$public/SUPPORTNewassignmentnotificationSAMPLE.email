@@ -1,0 +1,1 @@
+*** MEDDELANDE OM TILLDELNING AV NYTT KUNDCASE *** Följande kundcase har tilldelats dig.   Företag:  {!Account.Name} Kontaktnamn:  {!Contact.Name} Kundcasenummer:  {!Case.CaseNumber} Ämne:  {!Case.Subject} Beskrivning: {!Case.Description} Klicka på länken om du vill öppna kundcaset:  {!Case.Link}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatAgentConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>Admin</profile>
+            <profile>CS Standard User</profile>
+            <profile>CS Standard User - LO</profile>
+            <profile>CS Standard User - ME SE</profile>
+            <profile>CS Standard User - PDK BE</profile>
+        </profiles>
+    </assignments>
+    <autoGreeting>Hvad kan jeg hjælpe med? Skriv dit spørgsmål i feltet forneden og tryk send.</autoGreeting>
+    <enableAgentFileTransfer>false</enableAgentFileTransfer>
+    <enableAgentSneakPeek>false</enableAgentSneakPeek>
+    <enableAutoAwayOnDecline>false</enableAutoAwayOnDecline>
+    <enableChatMonitoring>true</enableChatMonitoring>
+    <enableChatTransfer>true</enableChatTransfer>
+    <enableLogoutSound>true</enableLogoutSound>
+    <enableNotifications>true</enableNotifications>
+    <enableRequestSound>true</enableRequestSound>
+    <enableSneakPeek>true</enableSneakPeek>
+    <enableWhisperMessage>true</enableWhisperMessage>
+    <label>Postnord General Live Agent Config</label>
+    <supervisorSkills>
+        <skill>Postnord_CS_general_skill</skill>
+    </supervisorSkills>
+</LiveChatAgentConfig>

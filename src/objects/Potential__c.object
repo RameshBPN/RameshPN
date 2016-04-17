@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Potential contains values of products and values that Sales can convert into opportunities. There are three types of Potential - calculated, media and market. Market potential will be held on the customer record and calculated and media will be held on this object</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Corporate_Registration_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>Customer__r.Corporate_Registration_Number__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Corporate Registration Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Customer</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Potential</relationshipLabel>
+        <relationshipName>Potential</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Distribution_Channel__c</fullName>
+        <externalId>false</externalId>
+        <label>Distribution Channel</label>
+        <picklist>
+            <picklistValues>
+                <fullName>10</fullName>
+                <default>true</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Division__c</fullName>
+        <externalId>false</externalId>
+        <label>Division</label>
+        <picklist>
+            <picklistValues>
+                <fullName>00</fullName>
+                <default>true</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Involved_Party_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Customer__r.Involved_Party_ID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Involved Party ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Potential_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Potential Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Calculated</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Media Investment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Area__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Area</label>
+        <picklist>
+            <picklistValues>
+                <fullName>1000</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>4000</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FO91</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>0540</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3670</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>0630</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LO NO</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FO92</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Representative__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Sales Representative</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Potential</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Converted to Opportunity</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Total_Calculated_Potential__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Calculated Potential</label>
+        <summarizedField>Potential_Product_Line__c.Calculated_Potential__c</summarizedField>
+        <summaryForeignKey>Potential_Product_Line__c.Potential_Header_Record__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Potential__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Potential</label>
+        <summarizedField>Potential_Product_Line__c.Todays_Potential__c</summarizedField>
+        <summaryForeignKey>Potential_Product_Line__c.Potential_Header_Record__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <label>Potential</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Potential_Type__c</columns>
+        <columns>Total_Calculated_Potential__c</columns>
+        <columns>Total_Potential__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>P-{000000}</displayFormat>
+        <label>Potential ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Potential</pluralLabel>
+    <recordTypeTrackFeedHistory>true</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>BE_Converted_Potential</fullName>
+        <active>true</active>
+        <description>BE potentials that have been converted to an opportunity</description>
+        <label>BE Converted Potential</label>
+        <picklistValues>
+            <picklist>Distribution_Channel__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Division__c</picklist>
+            <values>
+                <fullName>00</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Potential_Type__c</picklist>
+            <values>
+                <fullName>Calculated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media Investment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sales_Area__c</picklist>
+            <values>
+                <fullName>0630</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3670</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO91</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO92</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LO NO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Converted to Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Breve_Potential</fullName>
+        <active>true</active>
+        <description>Potential records for BE</description>
+        <label>Breve Potential</label>
+        <picklistValues>
+            <picklist>Distribution_Channel__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Division__c</picklist>
+            <values>
+                <fullName>00</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Potential_Type__c</picklist>
+            <values>
+                <fullName>Calculated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media Investment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sales_Area__c</picklist>
+            <values>
+                <fullName>0630</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3670</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO91</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO92</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LO NO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Converted to Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>ME_LO_Potential</fullName>
+        <active>true</active>
+        <description>Potentials for ME and LO businesses</description>
+        <label>ME &amp; LO Potential</label>
+        <picklistValues>
+            <picklist>Distribution_Channel__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Division__c</picklist>
+            <values>
+                <fullName>00</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Potential_Type__c</picklist>
+            <values>
+                <fullName>Calculated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media Investment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sales_Area__c</picklist>
+            <values>
+                <fullName>0540</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>0630</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3670</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4000</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO91</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FO92</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LO NO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Customer__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>Account_Mandatory_on_Potential</fullName>
+        <active>true</active>
+        <description>Must have an account to be able to load a potential</description>
+        <errorConditionFormula>ISBLANK( Customer__c ) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorDisplayField>Customer__c</errorDisplayField>
+        <errorMessage>You cannot load a potential without an account</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Account_must_be_Legal_Ent_for_ME_and_LO</fullName>
+        <active>true</active>
+        <description>For all ME SE and Logistik (LO SE, LO NO, LO FI, LO FI DPD, LO DK) potentials, the related account must be of record type Legal Entity</description>
+        <errorConditionFormula>(ISPICKVAL (Sales_Area__c, &apos;FO91&apos;) ||
+ISPICKVAL (Sales_Area__c, &apos;FO92&apos;) ||
+ISPICKVAL (Sales_Area__c, &apos;0630&apos;) ||
+ISPICKVAL (Sales_Area__c, &apos;3670&apos;) ||
+ISPICKVAL (Sales_Area__c, &apos;LO NO&apos;) ||
+ISPICKVAL (Sales_Area__c, &apos;0540&apos;)) &amp;&amp;
+Customer__r.RecordType.Name != &apos;Legal Entity&apos; &amp;&amp;
+$Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>Potential for ME SE or Logistik must be attached to a Legal Entity. The account you have tried to associate this Potential with is not a Legal Entity.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Account_must_be_Work_Site_for_PDK_BE_LO</fullName>
+        <active>true</active>
+        <description>For all PDK BE and PDK LO potentials, the related account must be of record type Work Site</description>
+        <errorConditionFormula>(ISPICKVAL (Sales_Area__c, &apos;1000&apos;) ||
+ISPICKVAL (Sales_Area__c, &apos;4000&apos;)) &amp;&amp;
+Customer__r.RecordType.Name != &apos;Work Site&apos; &amp;&amp;
+$Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorMessage>Potential for PDK BE or PDK LO must be attached to a Work SIte. The account you have tried to associate this Potential with is not a Work Site.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Cannot_Reject_or_Convert_ME_LO_Potential</fullName>
+        <active>true</active>
+        <description>Make sure that if API tries to reject or convert ME or LO potentials it is not allowed. Already restricted via UI</description>
+        <errorConditionFormula>AND( RecordType.Name = &apos;ME &amp; LO Potential&apos;, OR(ISPICKVAL( Status__c, &apos;Rejected&apos;), ISPICKVAL( Status__c, &apos;Converted to Opportunity&apos;))) &amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorDisplayField>Status__c</errorDisplayField>
+        <errorMessage>You cannot reject or convert a potential belonging to ME or LO</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Invalid_Sales_Area</fullName>
+        <active>true</active>
+        <description>Sales Area must be PDK BE or LO DK or PDK LO - restricted via UI, rule is to check API inserts/updates</description>
+        <errorConditionFormula>AND(NOT(ISPICKVAL ( Sales_Area__c, &apos;1000&apos;)),
+NOT(ISPICKVAL ( Sales_Area__c, &apos;4000&apos;)),
+NOT(ISPICKVAL ( Sales_Area__c, &apos;0540&apos;)))
+&amp;&amp; $Setup.DisableAutomation__c.Disable_All_Validation_Rules__c = false</errorConditionFormula>
+        <errorDisplayField>Sales_Area__c</errorDisplayField>
+        <errorMessage>Invalid Sales Area</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Convert_to_Opportunity</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Convert to Opportunity</masterLabel>
+        <openType>sidebar</openType>
+        <page>G2O_ConvertPotentialToOpportunity</page>
+        <protected>false</protected>
+    </webLinks>
+</CustomObject>

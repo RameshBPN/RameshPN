@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Opkrævning til Postbutikker over 250 kr</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>09 - Opkrævning til postbutikker</name>
+    <style>promotionRight</style>
+    <subject>{!Case.Main_Case_Number__c}: PO-beløb til opkrævning</subject>
+    <textOnly>EN PAKKE MED POSTOPKRÆVNING ER UDLEVERET UDEN OPKRÆVNING
+
+
+I har [skriv dato] udleveret en pakke med postopkrævning uden at opkræve beløbet på «ZCRM01S_ERMS_CONDITION_TYPES-Z105».
+
+Pakken med stregkodenummer «ZCRMT_0200_BTX_UI01-ZZBARCODE» var sendt til:
+
+
+«ZCOM0004-ORGANIZATION_NAME»
+«ZCOM0004-FIRSTNAME» «ZCOM0004-LASTNAME»
+«ZCOM0004-STREET_HUSNR»
+Postboks: «ZCOM0004-POSTBOX»
+«ZCOM0004-STEDNAVN»
+«ZCOM0004-CITY»
+
+
+I er ansvarlige for udførelsen af postforretninger jævnfør kontrakten om drift af postbutik § 7 stk. 7.4. Det betyder, at I hæfter for beløbet.
+
+I skal derfor indbetale «ZCRM01S_ERMS_CONDITION_TYPES-Z105» på vedlagte indbetalingskort inden 8 dage fra dette brevs dato.
+
+«ZCOM0020-ORGANIZATION_NAME3»&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /&gt;
+
+«ZCOM0020-ORGANIZATION_NAME2»
+
+«ZCOM0020-ORGANIZATION_NAME»
+
+«ZCOM0020-STREET_HUSNR»
+
+«ZCOM0020-CITY»
+
+
+TLF «ZCOM0020-TELEPHONE»
+
+FAX «ZCOM0020-FAX»
+
+«ZCOM0020-E-MAIL»
+
+«ZCOM0020-WEB»
+
+
+DATO 0. XXX 0000
+
+JOURNAL NR. «ZCRM01S_ERMS_HEADER-ZJOURNAL_NO»
+
+SAGSBEH «ZCOM0006-INITIALER» / «ZCOM0012-TELEPHONE»</textOnly>
+    <type>html</type>
+</EmailTemplate>

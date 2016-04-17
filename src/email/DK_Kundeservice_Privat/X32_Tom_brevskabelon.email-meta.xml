@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>post_DK_logo_letterhead</letterhead>
+    <name>32 - Tom brevskabelon</name>
+    <style>promotionRight</style>
+    <subject>32 - Tom brevskabelon</subject>
+    <textOnly>{!Case.Account}
+{!Case.Postal_Address_Street__c} {!Case.Postal_Address_House_Number__c} {!Case.Postal_Address_House_Number_Supplement__c} {!Case.Postal_Address_Room_Number__c}
+{!IF(Case.Postal_Address_PO_Box__c=&quot;&quot;,&quot;&quot;,&quot;Postboks:&quot;)} {!Case.Postal_Address_PO_Box__c}
+{!IF(!Case.Postal_Address_Suburd__c=&quot;Suburb&quot;,&quot;&quot;)} {!Case.Postal_Address_Suburd__c}
+{!Case.Postal_Address_Postal_Code__c} {!Case.Postal_Address_City__c}
+{!Case.Postal_Address_Country__c}
+
+
+
+
+
+
+Kære {!Case.Account}
+
+
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+Kundeservicemedarbejder
+
+{!User.CompanyName}
+{!User.Division}
+{!User.Department}
+{!User.Street}
+{!User.PostalCode} {!User.City}
+CVR nr.: 26663903
+{!User.Company_Webb_Address__c}
+
+Tlf.: {!User.Department_Phone__c}
+{!User.Team_Email__c}
+
+Dato {!Today}
+Sagsnr. {!Case.Main_Case_Number__c}
+Sagsbeh {!User.Alias}</textOnly>
+    <type>html</type>
+</EmailTemplate>

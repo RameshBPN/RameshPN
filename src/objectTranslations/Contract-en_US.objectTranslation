@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Contracts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Number of days before contract expiration when notice for renew will be created. --></help>
+        <label><!-- Expiration notice --></label>
+        <name>Expiration_notice__c</name>
+        <picklistValues>
+            <masterLabel>30 days</masterLabel>
+            <translation><!-- 30 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60 days</masterLabel>
+            <translation><!-- 60 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90 days</masterLabel>
+            <translation><!-- 90 days --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Part of Nordic Agreement Name --></label>
+        <name>Part_of_Nordic_Agreement_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Description --></label>
+        <name>Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for cancellation --></label>
+        <name>Reason_for_cancellation__c</name>
+        <picklistValues>
+            <masterLabel>Customer terminated</masterLabel>
+            <translation><!-- Customer terminated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postnord terminated</masterLabel>
+            <translation><!-- Postnord terminated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Area --></label>
+        <name>Sales_Area__c</name>
+        <picklistValues>
+            <masterLabel>0540</masterLabel>
+            <translation>LO DK</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0630</masterLabel>
+            <translation>LO FI DPD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation>PDK BE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3670</masterLabel>
+            <translation>LO FI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4000</masterLabel>
+            <translation>PDK LO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO91</masterLabel>
+            <translation>ME SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FO92</masterLabel>
+            <translation>LO SE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LO NO</masterLabel>
+            <translation>LO NO</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closedx</masterLabel>
+            <translation><!-- Closedx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewedx</masterLabel>
+            <translation><!-- Renewedx --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Terms of payment --></label>
+        <name>Terms_of_payment__c</name>
+        <picklistValues>
+            <masterLabel>10 days</masterLabel>
+            <translation><!-- 10 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 days</masterLabel>
+            <translation><!-- 14 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 days from the accounting date</masterLabel>
+            <translation><!-- 14 days from the accounting date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 days</masterLabel>
+            <translation><!-- 15 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 days</masterLabel>
+            <translation><!-- 20 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21 days</masterLabel>
+            <translation><!-- 21 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24 days</masterLabel>
+            <translation><!-- 24 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28 days</masterLabel>
+            <translation><!-- 28 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 days</masterLabel>
+            <translation><!-- 30 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35 days</masterLabel>
+            <translation><!-- 35 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45 days</masterLabel>
+            <translation><!-- 45 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60 days</masterLabel>
+            <translation><!-- 60 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 days</masterLabel>
+            <translation><!-- 7 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 days</masterLabel>
+            <translation><!-- 8 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Payment</masterLabel>
+            <translation><!-- Cash Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month</masterLabel>
+            <translation><!-- Credit current month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month + 12 days</masterLabel>
+            <translation><!-- Credit current month + 12 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month + 14 days</masterLabel>
+            <translation><!-- Credit current month + 14 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month + 15 days</masterLabel>
+            <translation><!-- Credit current month + 15 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month + 20 days</masterLabel>
+            <translation><!-- Credit current month + 20 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month + 25 days</masterLabel>
+            <translation><!-- Credit current month + 25 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month + 30 days</masterLabel>
+            <translation><!-- Credit current month + 30 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month + 45 days</masterLabel>
+            <translation><!-- Credit current month + 45 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month + 5 days</masterLabel>
+            <translation><!-- Credit current month + 5 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month + 60 days</masterLabel>
+            <translation><!-- Credit current month + 60 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month + 8 days</masterLabel>
+            <translation><!-- Credit current month + 8 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month + 90 days</masterLabel>
+            <translation><!-- Credit current month + 90 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month extended with 12 days with fee</masterLabel>
+            <translation><!-- Credit current month extended with 12 days with fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month extended with 12 days without fee</masterLabel>
+            <translation><!-- Credit current month extended with 12 days without fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month extended with 17 days with fee</masterLabel>
+            <translation><!-- Credit current month extended with 17 days with fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month extended with 2 days with fee</masterLabel>
+            <translation><!-- Credit current month extended with 2 days with fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month extended with 2 days without fee</masterLabel>
+            <translation><!-- Credit current month extended with 2 days without fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month extended with 22 days with fee</masterLabel>
+            <translation><!-- Credit current month extended with 22 days with fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month extended with 27 days with fee</masterLabel>
+            <translation><!-- Credit current month extended with 27 days with fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month extended with 27 days without fee</masterLabel>
+            <translation><!-- Credit current month extended with 27 days without fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month extended with 7 days with fee</masterLabel>
+            <translation><!-- Credit current month extended with 7 days with fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit current month extended with 7 days without fee</masterLabel>
+            <translation><!-- Credit current month extended with 7 days without fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Franking Machines 8 following month</masterLabel>
+            <translation><!-- Franking Machines 8 following month --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Terms of payment --></label>
+        <name>Terms_of_payment_text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Customer Contract</masterLabel>
+            <translation><!-- Customer Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nordic Framework Agreement</masterLabel>
+            <translation><!-- Nordic Framework Agreement --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Postnord --></label>
+        <name>Postnord</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Contract end date needs to be set for active contracts --></errorMessage>
+        <name>Contract_end_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reason for cancellation needs to be set when status = Cancelled --></errorMessage>
+        <name>Reason_is_mandatory_for_cancelled</name>
+    </validationRules>
+</CustomObjectTranslation>

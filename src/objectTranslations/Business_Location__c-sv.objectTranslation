@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Business Location</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value><!-- Business Location --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- Business Location --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Business Locations</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value><!-- Business Locations --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- Business Locations --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Address ID --></label>
+        <name>Address_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Valid From --></label>
+        <name>Address_Valid_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agent Responsible Email --></label>
+        <name>Agent_Responsible_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agent Responsible Name --></label>
+        <name>Agent_Responsible_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agent Responsible --></label>
+        <name>Agent_Responsible__c</name>
+        <relationshipLabel><!-- Business Locations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Alternative Name (Nickname) --></label>
+        <name>Alternative_Name_Nickname__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apartment --></label>
+        <name>Apartment__c</name>
+    </fields>
+    <fields>
+        <label><!-- BLOM ID --></label>
+        <name>BLOM_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Location Type ID --></label>
+        <name>Business_Location_Type_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Location Type Short --></label>
+        <name>Business_Location_Type_Short__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Location Type --></label>
+        <name>Business_Location_Type__c</name>
+        <picklistValues>
+            <masterLabel>Administrativ Lokation</masterLabel>
+            <translation><!-- Administrativ Lokation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrativ verksamhetsplats</masterLabel>
+            <translation><!-- Administrativ verksamhetsplats --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Afhentningssted</masterLabel>
+            <translation><!-- Afhentningssted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bilkaj 1</masterLabel>
+            <translation><!-- Bilkaj 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brevbärarkontor</masterLabel>
+            <translation><!-- Brevbärarkontor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brevlåde ställe</masterLabel>
+            <translation><!-- Brevlåde ställe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brevterminal</masterLabel>
+            <translation><!-- Brevterminal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buntställe</masterLabel>
+            <translation><!-- Buntställe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIP</masterLabel>
+            <translation><!-- DIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decentral boksanläg lokation ?? DK</masterLabel>
+            <translation><!-- Decentral boksanläg lokation ?? DK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Depot</masterLabel>
+            <translation><!-- Depot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Depot lokation</masterLabel>
+            <translation><!-- Depot lokation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributionscenter</masterLabel>
+            <translation><!-- Distributionscenter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributionsservice</masterLabel>
+            <translation><!-- Distributionsservice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Døgnposten lokation</masterLabel>
+            <translation><!-- Døgnposten lokation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erhvervsindlevering</masterLabel>
+            <translation><!-- Erhvervsindlevering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facility Service</masterLabel>
+            <translation><!-- Facility Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiktiv Business Location</masterLabel>
+            <translation><!-- Fiktiv Business Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frimärksombud</masterLabel>
+            <translation><!-- Frimärksombud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frimærke Forhandler</masterLabel>
+            <translation><!-- Frimærke Forhandler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Företagscenter</masterLabel>
+            <translation><!-- Företagscenter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIT Terminal</masterLabel>
+            <translation><!-- HIT Terminal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HUB</masterLabel>
+            <translation><!-- HUB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hämtställe</masterLabel>
+            <translation><!-- Hämtställe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kørselsafdeling</masterLabel>
+            <translation><!-- Kørselsafdeling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ODR terminal</masterLabel>
+            <translation><!-- ODR terminal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pakkecenter</masterLabel>
+            <translation><!-- Pakkecenter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Port</masterLabel>
+            <translation><!-- Port --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postboks Anlæg lokation</masterLabel>
+            <translation><!-- Postboks Anlæg lokation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postboxanläggning</masterLabel>
+            <translation><!-- Postboxanläggning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postbutik</masterLabel>
+            <translation><!-- Postbutik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postcenter</masterLabel>
+            <translation><!-- Postcenter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posthus</masterLabel>
+            <translation><!-- Posthus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postkasse lokation</masterLabel>
+            <translation><!-- Postkasse lokation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postombud</masterLabel>
+            <translation><!-- Postombud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postselv lokation</masterLabel>
+            <translation><!-- Postselv lokation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOT</masterLabel>
+            <translation><!-- SOT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicepartner</masterLabel>
+            <translation><!-- Servicepartner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicepoint</masterLabel>
+            <translation><!-- Servicepoint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transport Center</masterLabel>
+            <translation><!-- Transport Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tunggodsterminal</masterLabel>
+            <translation><!-- Tunggodsterminal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>decentral budstue, DK</masterLabel>
+            <translation><!-- decentral budstue, DK --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closing Date --></label>
+        <name>Closing_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coestablishments --></label>
+        <name>Coestablishments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country Code --></label>
+        <name>Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Courtyard Name --></label>
+        <name>Courtyard_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Courtyard Number --></label>
+        <name>Courtyard_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Desks --></label>
+        <name>Desks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entrance Name --></label>
+        <name>Entrance_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entrance Number --></label>
+        <name>Entrance_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Floor --></label>
+        <name>Floor__c</name>
+    </fields>
+    <fields>
+        <label><!-- GPS Coordinates --></label>
+        <name>GPS_Coordinates__c</name>
+    </fields>
+    <fields>
+        <label><!-- House Letter --></label>
+        <name>House_Letter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metrical Number --></label>
+        <name>Metrical_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Cash Counting Machines --></label>
+        <name>Number_of_Cash_Counting_Machines__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Cash Registers --></label>
+        <name>Number_of_Cash_Registers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Companies within Territory --></label>
+        <name>Number_of_Companies_within_Territory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Desks --></label>
+        <name>Number_of_Desks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Households within Territory --></label>
+        <name>Number_of_Households_within_Territory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of LBB Households --></label>
+        <name>Number_of_LBB_Households__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Number Stands --></label>
+        <name>Number_of_Number_Stands__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Poster Frames --></label>
+        <name>Number_of_Poster_Frames__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Ticket Printing Machines --></label>
+        <name>Number_of_Ticket_Printing_Machines__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Box --></label>
+        <name>PO_Box__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Business Location --></label>
+        <name>Parent_Business_Location__c</name>
+        <relationshipLabel><!-- Child Business Locations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Partner ID --></label>
+        <name>Partner_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Placement --></label>
+        <name>Placement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profit Center --></label>
+        <name>Profit_Center__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retail Agent Type --></label>
+        <name>Retail_Agent_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retail Chain Name --></label>
+        <name>Retail_Chain_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retail Chain Profile Name --></label>
+        <name>Retail_Chain_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Room Number --></label>
+        <name>Room_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- SSID --></label>
+        <name>SSID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Territory --></label>
+        <name>Sales_Territory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Number --></label>
+        <name>Site_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street Name --></label>
+        <name>Street_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street Number --></label>
+        <name>Street_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Telephone --></label>
+        <name>Telephone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Retail Location --></label>
+        <name>Type_of_Retail_Location__c</name>
+        <picklistValues>
+            <masterLabel>Forhandler</masterLabel>
+            <translation><!-- Forhandler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frimärksombud</masterLabel>
+            <translation><!-- Frimärksombud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grossist</masterLabel>
+            <translation><!-- Grossist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postbutikk</masterLabel>
+            <translation><!-- Postbutikk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posthus</masterLabel>
+            <translation><!-- Posthus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postombud</masterLabel>
+            <translation><!-- Postombud --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Valid From --></label>
+        <name>Valid_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid To --></label>
+        <name>Valid_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Village Name --></label>
+        <name>Village_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Village Number --></label>
+        <name>Village_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZIP Code --></label>
+        <name>ZIP_Code__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Business Location Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Business Location Validity --></label>
+            <section>Business Location Validity</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Retail --></label>
+            <section>Retail</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Business Location Name --></nameFieldLabel>
+</CustomObjectTranslation>

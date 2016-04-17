@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Default</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>PDK_LO_VIP_Customer</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Customer_Segment__c</field>
+                <operation>equals</operation>
+                <value>VIP</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>Credit check,Admin Activity</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Credit_check_PDK_LO</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Credit check</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>Control Case</value>
+            </criteriaItems>
+            <template>unfiled$public/SUPPORTNewassignmentnotificationSAMPLE</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>PNDK_SME_Team_1_Kolding</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Admin Activity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SME_Team__c</field>
+                <operation>equals</operation>
+                <value>Team 1 Kolding</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>PNDK_SME_Team_2_Aarhus</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Admin Activity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SME_Team__c</field>
+                <operation>equals</operation>
+                <value>Team 2 Aarhus</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>PNDK_SME_Team_3_CPH</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Admin Activity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SME_Team__c</field>
+                <operation>equals</operation>
+                <value>Team 3 Copenhagen</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>PNDK_SME_Team_4_CPH</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Admin Activity</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SME_Team__c</field>
+                <operation>equals</operation>
+                <value>Team 4 Copenhagen</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Fluido_Test</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email - Fluido</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <formula>1=1</formula>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

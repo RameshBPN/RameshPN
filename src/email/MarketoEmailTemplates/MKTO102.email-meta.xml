@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Frimærker.10 Oktober Frimærker</name>
+    <style>none</style>
+    <subject>HJERTER AF HONNING, DEM KAN DU KØBE</subject>
+    <textOnly>&lt;http://www.postdanmark.dk&gt;
+Hvis du ikke kan læse denne e-mail, klik her &lt;{{system.viewAsWebpageLink}}&gt;
+Kære {{lead.First Name}}
+HJERTER AF HONNING, DEM KAN DU KØBE
+Så er det danske frimærkeprogram for 2016 blevet offentliggjort på nettet. Har du lyst til at se, hvilke frimærker vi udgiver til næste år, så besøg www.postdanmark.dk/filateli &lt;http://www.postdanmark.dk/da/frimarker/Sider/filateli.aspx&gt; - og husk, at frimærkeprogrammet løbende bliver opdateret.
+
+
+
+Nordia 2015 holder flyttedag! Den nordiske frimærkeudstilling finder ikke sted i Täby, som vi tidligere har oplyst, men i Scandic Infra City, Kanalvägen 10, Upplands Väsby ca. 25 km fra Stockholm. Tidspunktet er fortsat 30. oktober-1. november.
+
+
+
+På Museet for Religiøs Kunst i Lemvig kan du lige nu se udstillingen ”Gud, Konge og Fædreland”, der handler om maleren Thomas Kluge. Et af værkerne, der optræder på udstillingen, er maleriet ”Fire farver”, som indgik i serien Frimærkekunst tilbage i 1999. Udstillingen varer til 13. december, og er du abonnent hos os, får du og én ledsager gratis en kop kaffe oveni entrébilletten.
+
+
+
+Lige nu kan du købe vores tre nye frimærker med de lækreste honningkagefigurer – læs mere nedenfor.
+
+ 
+Med venlig hilsen
+ 
+Bo Høifeldt
+
+Salgs- og marketingchef, PostNord Frimærker
+&lt;http://www2.postdanmark.dk/netbutik&gt;
+FRIMÆRKER MED BID I
+Der er bid i de nye frimærker med honningkager! Har du tid og lyst, så kom til udgivelsesarrangement på Østerbro Posthus 17. oktober kl. 10-14 og vær med til at fejre de nye frimærker, der uden tvivl vil få efterårsbrevene og juleposten til at vække opmærksomhed. Frimærkerne kan købes på posthusene og i vores netbutik. 5-striben med 10 kroners-frimærkerne sælges desuden fra en lang række KIWI- og COOP-supermarkeder over hele landet.
+KØB FRIMÆRKERNE HER &lt;http://www2.postdanmark.dk/netbutik&gt;
+FRIMÆRKER PÅ FREDERIKSBERG
+Kom og vær med, når Frimærke, Brev og Postkort Messen finder sted i Radisson Blu på Frederiksberg 14.-15. november. Her kan du møde postvirksomheder, auktionshuse og frimærkehandlere og købe grønlandske og danske julemærker. Tag dine børn eller børnebørn med, og lad dem finde nye frimærker til samlingen ved det store tag-selv-bord. Der er gratis adgang til messen.
+LÆS MERE HER &lt;http://www.3fff.dk/frimaerke-brev-postkort-messe-2013-2/&gt;
+&lt;http://www.3fff.dk/frimaerke-brev-postkort-messe-2013-2/&gt;
+&lt;http://www2.postdanmark.dk/netbutik&gt;
+ÅRET DER GIK.
+Nu er årsmappen og årbogen på gaden. I årsmappen får du en helt komplet samling af årets særfrimærker, dagligserier og miniark. Er du interesseret i spændende historier fra den danske kulturskat, så er årbogen det helt rigtige valg. Den 72 sider tykke bog, der indeholder alle årets særfrimærker og miniark, byder på fascinerende baggrundshistorier, smukke billeder og portrætter af frimærkekunstnerne
+KØB PRODUKTERNE HER &lt;http://www2.postdanmark.dk/netbutik&gt;
+Vi har sendt denne e-mail til {{lead.Email Address}} &lt;mailto:{{lead.Email Address}}&gt;.
+
+Hvis du ikke længere ønsker at modtage denne type e-mails, kan du afmelde dig her &lt;http://pages.postnord.com/Min-side.html&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

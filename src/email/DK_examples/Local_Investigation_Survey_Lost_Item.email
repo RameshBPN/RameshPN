@@ -1,0 +1,77 @@
+Hi,
+
+Please don't change the subject line of this email!
+
+This survey is sent out regarding Case xxxxx. Please reply to this email and respond to the below questions, in the SURVEY section, to the best of your ability.
+
+--------------------------------------------------
+Info about Local Investigation
+--------------------------------------------------
+Local Investigation number:
+~~~~~~
+Activity date: 
+Finish date:
+~~~~~~
+Activity Status:
+~~~~~~
+SENDER INFORMATION
+Customer ID:
+Customer Name:
+Country: 
+~~~~~~
+RECEIVER INFORMATION
+Customer ID:
+Customer Name:
+Country: 
+~~~~~~
+Reason:
+Product:
+Bar-code number:
+PO amount:
+~~~~~~
+Description:
+~~~~~~
+Notes:
+
+~~~~~~
+
+--------------------------------------------------
+SURVEY
+--------------------------------------------------
+1. Is the shipment registered? (Yes/No)
+
+
+If the shipment can be 'demonstrated', please answer questions 2-7 below.
+2. When was it delivered?
+
+
+3. Re-processed at what date? (YY/MM/DD)
+
+
+4. Re-processed to whom?
+
+
+5. Returned at what date? (YY/MM/DD)
+
+
+6. Notified at what date? (YY/MM/DD)
+
+
+7. Notified to whom?
+
+
+8. Further information.
+
+
+
+9. Is any documentation faxed to SCK? (Yes/No)
+
+
+
+--------------------------------------------------
+
+Thank you!
+
+Kind regards,
+{!User.FirstName} {!User.LastName}, {!User.Department}, {!User.CompanyName}
+{!User.City}, {!User.Country}

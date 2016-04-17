@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>27.0</apiVersion>
+    <availableInTouch>false</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>This Visualforce page provides the functionality to send an GetPrices request to SAP from caseproduct detail page.</description>
+    <label>G2O_SAPGetPrices</label>
+</ApexPage>

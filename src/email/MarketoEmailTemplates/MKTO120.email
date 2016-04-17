@@ -1,0 +1,207 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ønskeskyen</title>
+
+<style type="text/css">
+        /* Client-specific Styles 
+                Rasmus Bidstrup
+                Hjaltelin Stahl
+                */
+        
+        #outlook a {
+            padding: 0;
+        }
+        /* Force Outlook to provide a "view in browser" menu link. */
+        
+        html,
+        body {
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: #f0f2f2;
+        }
+        /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+        
+        .ExternalClass {
+            width: 100%;
+        }
+        /* Force Hotmail to display emails at full width */
+        
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+            line-height: 100%;
+        }
+        /* Force Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
+        
+        #backgroundTable {
+            margin: 0;
+            padding: 0;
+            width: 100% !important;
+            line-height: 100% !important;
+        }
+        
+        p font {
+            display: none;
+        }
+        
+        img {
+            outline: none;
+            text-decoration: none;
+            border: none;
+            -ms-interpolation-mode: bicubic;
+        }
+        
+        a img {
+            border: none;
+        }
+        
+        .image_fix {
+            display: block;
+        }
+        .preheader {
+                        display: none !important;
+                        visibility: hidden;
+                        opacity: 0;
+                        color: transparent;
+                        height: 0;
+                        width: 0;
+                }
+                
+        p {
+            margin: 0px 0px !important;
+        }
+        
+        table td {
+            border-collapse: collapse;
+        }
+        
+        table {
+            border-collapse: collapse;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+        
+        table[class=full] {
+            width: 100%;
+            clear: both;
+        }
+        
+        @media (max-width: 640px) {
+            *[class].w100pct {
+                width: 100% !important;
+            }
+            *[class].w80pct {
+                width: 80% !important;
+            }
+            *[class].w320 {
+                width: 320px !important;
+            }
+            *[class].w196 {
+                width: 196px !important;
+            }
+            *[class].w310 {
+                width: 310px !important;
+            }
+            *[class].w300 {
+                width: 300px !important;
+            }
+            *[class].w150 {
+                width: 150px !important;
+            }
+            *[class].img100pct {
+                width: 100% !important;
+                height: auto !important;
+            }
+            *[class].h {
+                display: none !important;
+            }
+            *[class].img80pct {
+                width: 80% !important;
+                height: auto !important;
+            }
+            *[class].w160 {
+                width: 160px !important;
+                height: auto !important;
+            }
+            *[class].w80 {
+                width: 80px !important;
+                height: auto !important;
+            }
+            *[class].w300_pad10 {
+                width: 300px !important;
+                padding: 0 10px !important;
+            }
+            *[class].p20 {
+                padding: 0 20px 20px !important
+            }
+            *[class].smallheader {
+                font-size: 22px !important;
+                line-height: 28px !important
+            }
+            *[class].smallheader2 {
+                font-size: 16px !important;
+                line-height: 20px !important
+            }
+            *[class].w300_pad10.cirlce-img {
+                width: 40px !important;
+                height: auto !important
+            }
+        }
+</style>
+</head>
+<body bgcolor="#F0F2F2" ><!-- element 1 -->
+<span class="preheader" style="display:none !important; visibility:hidden; opacity:0; color:transparent; height:0; width:0;">Slip for julegave-bytteræs til næste jul – send dine ønsker til Ønskeskyen</span><table cellspacing="0" cellpadding="0" border="0" width="100%" ><tr ><td align="center" ><table width="640" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFFFFF" class="w100pct" ><tr>
+<td class="h" align="center" style="font-family:Arial; font-size:11px; line-height:15px; color:#afafaf; padding:6px 0 2px"><a href="{{system.viewAsWebpageLink}}" style="font-family:Arial; font-size:11px; line-height:15px; color:#afafaf;">Se mailen i browser</a></td>
+</tr>
+<tr ><td width="630" style="padding:5px 5px 0px 5px; " align="center" class="w100pct" ><!-- top -->
+<table width="630" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFFFFF" class="w100pct" ><tr ><td class="mktEditable" id="section_1_img" ><img class="img100pct" src="http://pages.postnord.com/rs/184-XFT-949/images/180373_intro_byttebytte2.jpg" width="630" alt="Del din ønskesky med familie og venner" style="display:block;font-family: Arial; font-size: 20px; line-height: 24px; color: #ffffff; text-alignment:center" border="0"></td>
+</tr>
+<tr ><td colspan="2" bgcolor="#FFFFFF" ><table class="w100pct" width="630" cellspacing="0" cellpadding="0" border="0" align="center" ><tr ><td colspan="2" align="left" style="font-family:Arial; font-size:16px; line-height:20px; color:#3f4a4d; padding:20px 20px 30px; background-color:#ffffff; " class="mktEditable font-body" id="section_2" >K&aelig;re&nbsp;{{lead.First Name}}<br /> <br /> <b>Slut med at v&aelig;re skuffet juleaften</b><br /> Havde du sv&aelig;rt ved at finde en grimasse, der kunne passe juleaften, da du &aring;bnede din julegave, s&aring; brug &oslash;nskeskyen til n&aelig;ste jul. S&aring; f&aring;r du nemlig, hvad du &oslash;nsker dig - og ikke, hvad andre &oslash;nsker at give dig.<br /> <br /> Du skal bare sende dine &oslash;nsker op i skyen og dele dem med venner og familie. Det kan du ogs&aring; g&oslash;re til din f&oslash;dselsdag og alle andre dage, hvor du gerne vil begaves...<br /> <br /></td>
+</tr>
+<tr>
+<td valign="bottom" width="100%" style="padding:0 20px 20px;" align="left"><a href="https://ønskeskyen.dk" style="font-family: Arial; color:#ffffff; font-size: 14px; line-height: 18px; text-decoration:none"><img class="img100pct" src="http://pages.postnord.com/rs/184-XFT-949/images/180373_bytte.jpg" width="240" alt="Send dine ønsker op i skyen" style="display:block;font-family: Arial; font-size: 20px; line-height: 24px; color: #ffffff; text-alignment:center" border="0"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="640" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFFFFF" class="w100pct" ><tr ><td ><table width="630" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#DFEDF0" class="w100pct" ><tr ><td align="center" bgcolor="#DFEDF0" ><table class="w100pct" width="630" cellspacing="0" cellpadding="0" border="0" align="center" ><tr ><td colspan="2" align="left" style="font-family:Arial; font-size:16px; line-height:20px; color:#3f4a4d; padding:20px 20px 10px; background-color:#dfedf0; " class="mktEditable font-body" id="section_2" ><b>Hvordan er det nu liiiige, Ønskeskyen virker?</b></td>
+</tr>
+<tr ><td style="padding:10px 20px 30px; " align="left" class="mktEditable" id="section_1_img" ><a href="https://www.youtube.com/watch?v=I7ROgOjk3Gk" target="_blank"><img style="font-family:Arial; font-size:16px; line-height:20px; color:#3f4a4d; background-color:#dfedf0;display:block;" class="img80pct" src="http://pages.postnord.com/rs/184-XFT-949/images/180373_youtube3.jpg" width="500" alt="Hvordan er det nu liiiige, Ønskeskyen virker?" border="0"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td class="mktEditable" id="section_12" ><a href="https://www.youtube.com/watch?v=I7ROgOjk3Gk"><img class="img100pct" style="display: block; font-family: Arial; font-size: 30px; line-height: 30px; color: #ffffff; text-alignment: center;" src="http://pages.postnord.com/rs/184-XFT-949/images/180373_bottomlogo_no-bg.png" border="0" alt="" width="630"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="640" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFFFFF" class="w100pct" ><tr ><td width="640" class="w100pct" align="center" style="padding:10px 0px 30px; " ><table cellspacing="0" cellpadding="0" border="0" align="center" ><tr ><td class="mktEditable" id="section_13" ><a href="https://www.facebook.com/oenskeskyen" target="_blank"><img style="display: block; font-family: Arial; font-size: 14px; line-height: 18px; color: #ffffff; background-color: #ffffff;" src="http://pages.postnord.com/rs/184-XFT-949/images/180373_facebook.jpg" border="0" alt="facebook" width="25" height="20"></a></td>
+<td width="210" align="center" style="font-family:Arial; font-size:13px; line-height:17px; color:#4a5052; " class="font-body mktEditable" id="section_14" ><a style="color: #555555; text-decoration: none;" href="https://www.facebook.com/oenskeskyen">Følg Ønskeskyen på Facebook.</a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr ><td align="center" style="font-family:Arial; font-size:11px; line-height:14px; color:#8a8a8a; padding:0px 140px 20px; " class="mktEditable p20" id="section_15" >Vi har sendt denne e-mail til <span style="color: #8a8a8a;">{{lead.Email Address}}</span>. Hvis du ikke l&aelig;ngere &oslash;nsker at modtage denne type e-mails, kan du afmelde dig <a style="color: #8a8a8a;" href="http://pages.postnord.com/Min-side.html" target="_blank">her</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
